@@ -35,3 +35,4 @@ nav:
       - AST dataset builder: ast-dataset-builder.md
   - Decisions:
       - 0005 Software environments: decisions/0005-containers.md
+      - 0006 Caller wrapper: decisions/0006-caller-wrapper.md
