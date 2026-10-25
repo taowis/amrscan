@@ -41,7 +41,7 @@ Where the code is:
 | [`main.nf`](main.nf) | Entry point: parameter and input checks |
 | [`workflows/amrscan.nf`](workflows/amrscan.nf) | Joins the caller and harmonization steps |
 | [`modules/local/`](modules/local/) | DSL2 processes for AMRFinderPlus and harmonization |
-| [`bin/amrscan.py`](bin/amrscan.py) | Caller wrapper, provenance record and harmonizer used by the modules |
+| [`bin/amrscan.py`](bin/amrscan.py) | Caller wrapper, provenance record and harmonizer used by the modules ([why](docs/decisions/0006-caller-wrapper.md)) |
 | [`conf/`](conf/) | Resource defaults, `test` profile and NCI Gadi profile |
 | [`tests/`](tests/) | Python tests, nf-test cases and fixtures |
 | [`docs/tutorial/`](docs/tutorial/) | Workshop source |
