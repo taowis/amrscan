@@ -134,8 +134,8 @@ Database snapshot `2026-08-07.1` was downloaded from NCBI FTP; all 162 files in
 the recorded SHA-256 manifest pass. The real binary reports software 4.2.7,
 database 2026-08-07.1, and lists `Escherichia` as a supported organism option.
 Package URLs and hashes, database provenance and file hashes remain in
-Git-ignored `datasets/amrfinderplus-db/`; the environment is under
-`/private/tmp` and may not persist across restarts.
+Git-ignored `datasets/amrfinderplus-db/`; the environment was a temporary
+one and has not been kept.
 
 On a network-enabled host, create the pinned environment and download a
 separate database snapshot. Keep the generated dated release directory
@@ -186,7 +186,7 @@ On a host with the pinned environment and database, the upstream control can
 be retrieved and checked without adding sequence data to Git:
 
 ```sh
-control_dir=/private/tmp/amrfinderplus-control-4.2.7
+control_dir=amrfinderplus-control-4.2.7
 mkdir -p "$control_dir"
 for name in test_dna.fa test_prot.fa test_prot.gff test_both.expected; do
   curl -fLsS "https://raw.githubusercontent.com/ncbi/amr/amrfinder_v4.2.7/$name" \
@@ -313,6 +313,6 @@ one FDA project, chosen partly for clean AST; three AST platforms disagree for
 one isolate; no method or breakpoint version from the source; the positive
 control is not an exact-output pass; there is no biological negative control;
 the Pathogen Detection index is live and will change; and the Conda environment
-lives under `/private/tmp`. The cohort shows that the evidence chain works on
+was temporary and has not been kept. The cohort shows that the evidence chain works on
 real data. It is too small and too selected to support any statement about
 genotype–phenotype agreement.

@@ -4,10 +4,8 @@
 # R history file
 .Rhistory
 
-# Local private notes and editor/assistant settings
+# Local private notes
 /private_notes/
-.claude/
-CLAUDE.md
 
 # Runtime data (historical tracked examples are retained for a later cleanup).
 /results/
