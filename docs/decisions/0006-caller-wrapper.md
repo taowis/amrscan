@@ -41,7 +41,7 @@ workstation, and give the same output.
   against the real database, and the `test` profile finds `blaTEM-1` in
   NCBI reference sequence NG_050145.1.
 - The same `call` and `harmonize` commands have been run outside Nextflow,
-  with a process pool, on cohorts of thousands of assemblies.
+  with parallel workers, on cohorts of thousands of assemblies.
 
 ## Consequences
 
