@@ -44,7 +44,7 @@ class NextflowTests(unittest.TestCase):
         self.assertIn("params.amrfinder_identity = -1", config)
         self.assertIn("process.executor = 'local'", config)
         help_text = self.run_nf("run", ROOT / "main.nf", "--help")
-        self.assertIn("Legacy: workflow/AMRScan.nf", help_text)
+        self.assertIn("Legacy v1: legacy/workflow/AMRScan.nf", help_text)
 
     def test_multiple_assemblies_and_gzip(self):
         (self.directory / "sample_a.fna").write_bytes((ROOT / "tests/fixtures/tiny.fna").read_bytes())
@@ -108,7 +108,7 @@ class NextflowTests(unittest.TestCase):
             self.skipTest("Legacy R packages are unavailable")
         database = self.directory / "synthetic-protein.fa"
         database.write_text(">synthetic_not_amr\nMKWVTFISLLFLFSSAYSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n")
-        self.run_nf("run", ROOT / "workflow/AMRScan.nf", "--input", ROOT / "tests/fixtures/tiny.fna",
+        self.run_nf("run", ROOT / "legacy/workflow/AMRScan.nf", "--input", ROOT / "tests/fixtures/tiny.fna",
                     "--card_db", database, "--threads", "1", "--outdir", self.directory / "legacy")
         final = self.directory / "legacy/final"
         for name in ("tiny_AMR_hits_summary.csv", "tiny_AMR_hits_detailed.csv"):

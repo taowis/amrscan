@@ -12,7 +12,7 @@ Options: --outdir results/v2 --threads 4 --amrfinder_bin amrfinder
          --amrfinder_organism Escherichia --amrfinder_plus
          --amrfinder_identity -1 --amrfinder_coverage 0.5
          --validate_only (validate configuration and input paths; do not run callers)
-See README.md and docs/result-schema.md. Legacy: workflow/AMRScan.nf'''
+See README.md and docs/result-schema.md. Legacy v1: legacy/workflow/AMRScan.nf'''
     } else {
         if (!params.input) error 'Provide --input with assembled FASTA file(s).'
         if (!params.amrfinder_db) error 'Provide --amrfinder_db with a versioned AMRFinderPlus database directory.'

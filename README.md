@@ -14,12 +14,37 @@ snapshots, thresholds, and the original report when interpreting results.
 
 - [Source repository](https://github.com/taowis/amrscan)
 - [Documentation and workshop](https://taowis.github.io/amrscan/)
-- Historical rendered demonstrations: [R](docs/AMRScan_R.html) and
-  [Nextflow](docs/AMRScan_Nextflow.html)
-- [Preprint](https://arxiv.org/abs/2507.08062)
+- [Preprint describing version 1](https://arxiv.org/abs/2507.08062)
 
-The demonstrations and manuscripts describe the legacy version, not the v2
-interface.
+## Version 2 and version 1
+
+Version 1 (2025, described in the preprint) was a small BLAST search against
+CARD, written once as an R script and once as a single Nextflow file. Version 2
+is a rewrite. The version 1 code is kept unchanged under [`legacy/`](legacy/)
+so the preprint can still be reproduced.
+
+| | Version 1 (`legacy/`) | Version 2 (this README) |
+| --- | --- | --- |
+| Caller | BLAST against CARD protein homologs | NCBI AMRFinderPlus 4.2.7, genes and point mutations |
+| Workflow | One Nextflow file and one R script | DSL2 entry point, subworkflow and modules |
+| Software | BLAST and R installed by hand | Docker, Apptainer/Singularity and Conda profiles from one pinned specification |
+| Database | CARD file downloaded by hand | Versioned release fetched once, indexed and hashed |
+| Provenance | None | Command, versions and input, database and report hashes for every sample |
+| Output | Top-hit summary CSV | Original report plus a harmonized TSV with a fixed schema |
+| Tests | Manual demonstration | Python unit tests (90% branch coverage floor), nf-test, GitHub Actions CI |
+| Documentation | README and R Markdown | Workshop site with exercises, Gadi notes and troubleshooting |
+
+Where the code is:
+
+| Path | What it does |
+| --- | --- |
+| [`main.nf`](main.nf) | Entry point: parameter and input checks |
+| [`workflows/amrscan.nf`](workflows/amrscan.nf) | Joins the caller and harmonization steps |
+| [`modules/local/`](modules/local/) | DSL2 processes for AMRFinderPlus and harmonization |
+| [`bin/amrscan.py`](bin/amrscan.py) | Caller wrapper, provenance record and harmonizer used by the modules |
+| [`conf/`](conf/) | Resource defaults, `test` profile and NCI Gadi profile |
+| [`tests/`](tests/) | Python tests, nf-test cases and fixtures |
+| [`docs/tutorial/`](docs/tutorial/) | Workshop source |
 
 ## Modular workflow
 
@@ -141,39 +166,6 @@ AST phenotype and genomic AMR determinants remain separate evidence layers.
 See the [AST builder guide](docs/ast-dataset-builder.md) for offline examples,
 source contracts, eligibility rules and validation limits.
 
-## Legacy compatibility
-
-`workflow/AMRScan.nf`, its adjacent config, `scripts/AMRScan.R`, the R Markdown
-examples, and historical files are retained. Their algorithms have not been
-rewritten. The legacy Nextflow FASTA/no-hit path has an optional small
-smoke test using BLAST+ and R; other historical paths are not newly validated.
-
-The example genome and the CARD protein homolog model are not stored in the
-repository. Download the assembly
-[GCF_037966445.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_037966445.1/)
-into `data/` and `protein_fasta_protein_homolog_model.fasta` from the
-[CARD download page](https://card.mcmaster.ca/download) into `db/`, noting the
-CARD release you used.
-
-```bash
-nextflow run workflow/AMRScan.nf \
-  --input data/GCF_037966445.1_ASM3796644v1_genomic.fna \
-  --card_db db/protein_fasta_protein_homolog_model.fasta \
-  --outdir results/legacy --threads 4
-```
-
-Legacy tools include BLAST+, R with `dplyr`/`magrittr`, and for FASTQ,
-`Biostrings`/`ShortRead`. The old config is not a complete reproducible container
-environment. Its highest-bitscore summary is a display ranking, not biological
-truth or a phenotype call; inspect the full detailed output. The HTML report
-process remains disabled as in the original workflow.
-
-The standalone R script is a **historical demonstration with known defects**:
-it changes to a fixed local directory, writes and reads different BLAST output
-paths, and does not ensure the final directory exists. Do not treat
-`tests/test-run.R` as an automated v2 test. Fixing that interface and expanding
-legacy FASTQ validation are left for later work.
-
 ## Tests
 
 ```bash
@@ -181,7 +173,7 @@ legacy FASTQ validation are left for later work.
 python3 -m unittest discover -s tests -p test_amrscan.py -v
 python3 -m unittest discover -s tests -p test_ast_dataset.py -v
 
-# Nextflow syntax/config, error handling, actual harmonization process, optional legacy smoke
+# Nextflow syntax/config, error handling, actual harmonization process, optional v1 smoke
 python3 -m unittest discover -s tests -p test_nextflow.py -v
 
 # Entire lightweight suite (missing external tools are explicitly skipped)
@@ -213,15 +205,14 @@ modules/local/          DSL2 caller and harmonization modules
 workflows/              Composable v2 orchestration
 main.nf                 v2 entry point
 nextflow.config         v2 defaults
-workflow/               Legacy entry point/config
-scripts/                Database download script and legacy R demonstration
+scripts/                Database download script
 schemas/                AST raw and normalized schema contracts
 ingestion/              NCBI Pathogen Detection AST adapter and its policy
 benchmark/cohorts/      Isolate lists for the AMRFinderPlus validation run
 tests/                  Small fixtures, Python tests and nf-test cases
 docs/tutorial/          Workshop for new users (MkDocs site, mkdocs.yml)
-docs/                   Schema, validation notes and historical reports
-paper/                  Historical manuscripts, retained
+docs/                   Schema, validation notes and decision records
+legacy/                 Version 1 code, demonstrations and preprint source
 data/, db/, results/    Local inputs and outputs; not tracked
 ```
 
@@ -241,6 +232,7 @@ genotype–phenotype agreement.
 
 Lai, K. (2025). *AMRScan: A hybrid R and Nextflow toolkit for rapid antimicrobial
 resistance gene detection.* [arXiv:2507.08062](https://arxiv.org/abs/2507.08062).
-Also cite each caller and database used in an analysis. Historical source code
-is under the repository MIT license; the NCBI test fixture has its own public
+The preprint describes version 1; for version 2, also cite this repository
+(see `CITATION.cff`). Also cite each caller and database used in an analysis.
+Source code is under the repository MIT license; the NCBI test fixture has its own public
 domain notice in `tests/fixtures/NCBI-LICENSE.txt`.

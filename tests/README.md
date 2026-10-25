@@ -45,10 +45,8 @@ AMRFinderPlus 4.2.7 against the pinned database on
 one `blaTEM-1` row. These cases are tagged `database`. The other pipeline
 cases check `--validate_only` and a missing database argument.
 
-`tests/test-run.R` is retained as a legacy demonstration, not part of the
-lightweight suite. It invokes a fixed-path script against historical large
-inputs, can inspect stale output and is not safe as an isolated regression test.
-Its known limitations are documented in README.md.
+`legacy/tests/test-run.R` belongs to version 1 and is not part of the
+lightweight suite; see [legacy/README.md](../legacy/README.md).
 
 ## Coverage
 
