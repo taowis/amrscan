@@ -27,7 +27,7 @@ scripts/fetch_amrfinder_db.sh --engine docker
 nextflow run main.nf -profile test,docker
 ```
 
-The legacy BLAST and CARD version described in the
-[preprint](https://arxiv.org/abs/2507.08062) is kept under `workflow/` and
-`scripts/`; its rendered reports are [R](AMRScan_R.html) and
-[Nextflow](AMRScan_Nextflow.html).
+Version 1, the BLAST and CARD toolkit described in the
+[preprint](https://arxiv.org/abs/2507.08062), is kept under
+[`legacy/`](https://github.com/taowis/amrscan/tree/main/legacy) in the
+repository.

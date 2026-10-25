@@ -16,9 +16,8 @@ CI retains Python 3.12, Java 17 and Nextflow 25.04.6.
 | Complete lightweight suite | `python3 -m unittest discover -s tests -p 'test_*.py' -v` | All unit, regression and workflow scenarios below | PASS, 48 tests, no skips |
 | Nextflow/legacy regression | `python3 -m unittest discover -s tests -p test_nextflow.py -v` | Real module/config compilation, invalid inputs, duplicate IDs, gzip/multiple assemblies, real fixture harmonization, missing caller failure and BLAST+/R no-hit smoke | PASS, 7 tests, no skips |
 
-Locally coverage.py was installed under `/private/tmp/amrscan-pr3-tools`, so
-coverage commands used `PYTHONPATH=/private/tmp/amrscan-pr3-tools`. It is a test
-dependency, not a runtime dependency. Python coverage details:
+Locally coverage.py was installed in a separate tools directory added through
+`PYTHONPATH`. It is a test dependency, not a runtime dependency. Python coverage details:
 
 | Module | Statements executed | Branches executed | Combined coverage |
 | --- | --- | --- | --- |
@@ -69,11 +68,11 @@ The archived snapshot was built and checked offline with:
 
 ```bash
 python3 bin/ast_dataset.py build \
-  --snapshot /private/tmp/amrscan-pr3-live-raw \
-  --outdir /private/tmp/amrscan-pr3-live-processed-cli
+  --snapshot snapshot/raw \
+  --outdir snapshot/processed
 python3 bin/ast_dataset.py validate \
-  --snapshot /private/tmp/amrscan-pr3-live-raw \
-  --processed /private/tmp/amrscan-pr3-live-processed-cli
+  --snapshot snapshot/raw \
+  --processed snapshot/processed
 ```
 
 Both returned success; validation rebuilt and compared every output byte. Raw
@@ -83,7 +82,7 @@ synthetic and are not copies of this live sample.
 ## Validation limits and review decisions
 
 The production Python `download` command was attempted with the same narrow
-BioSample query. This execution environment returned a DNS resolution error
+BioSample query. The validation machine returned a DNS resolution error
 from `urllib`; it published no partial snapshot. Thus **official live table
 retrieval and offline integration passed, but a full live invocation of the
 Python downloader has not passed**. Its HTTP handling, byte limits, counts,
@@ -91,13 +90,10 @@ metadata batching and error cleanup are tested offline with mocks. Re-run the
 narrow download command on a host where Python can resolve NCBI before using
 it for a study. Full-cohort scale and future NCBI releases remain unvalidated.
 
-Self-review checked that source rows and nonbinary categories survive, metadata
+I also checked that source rows and nonbinary categories survive, metadata
 joins do not multiply observations, conflicts never choose a preferred row,
 MIC parsing never assigns phenotype, and all exclusions have explicit units
-and reasons. No model, split, caller changes or genome downloads were added.
-The existing independent `DESCRIPTION`, `LICENSE` and `paper/paper.md` edits
-are excluded. The historical committed LICENSE conflict markers are a separate
-pre-existing repository issue; the user's local repair is preserved.
+and reasons.
 
 Scientific review is still required for assay comparability, standards/versions,
 nonbinary endpoints, conflict adjudication, the initial drug/country/source
