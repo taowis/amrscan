@@ -48,11 +48,35 @@ Where the code is:
 
 ## Modular workflow
 
-```text
-main.nf → workflows/amrscan.nf
-          ├─ modules/local/amrfinderplus.nf → raw report + log + provenance
-          └─ modules/local/harmonize_amrfinder.nf → harmonized TSV
+```mermaid
+flowchart TD
+    fasta["Assembled FASTA<br/>.fa / .fna / .fasta (.gz)"]
+    fetch["scripts/fetch_amrfinder_db.sh<br/>run once"]
+    db[("AMRFinderPlus database<br/>named release, SHA-256 sums")]
+
+    subgraph entry["main.nf"]
+        check["Parameter and input checks<br/>sample IDs, duplicates"]
+    end
+
+    subgraph wf["workflows/amrscan.nf"]
+        caller["AMRFINDERPLUS<br/>modules/local/amrfinderplus.nf<br/>one task per sample, in container"]
+        harmonizer["HARMONIZE_AMRFINDER<br/>modules/local/harmonize_amrfinder.nf"]
+    end
+
+    raw["raw/amrfinderplus/&lt;sample&gt;/<br/>report, log, provenance JSON"]
+    tsv["harmonized/&lt;sample&gt;.amr.tsv"]
+
+    fetch --> db
+    fasta --> check
+    db --> caller
+    check --> caller
+    caller --> raw
+    raw -->|"report hash checked<br/>against provenance"| harmonizer
+    harmonizer --> tsv
 ```
+
+Both processes run [`bin/amrscan.py`](bin/amrscan.py) inside the pinned container
+([why](docs/decisions/0006-caller-wrapper.md)).
 
 Use assembled nucleotide FASTA (`.fa`, `.fna`, `.fasta`, optionally `.gz`). Raw
 FASTQ, protein/GFF combined searches and per-sample organism metadata are not
