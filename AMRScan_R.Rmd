@@ -1,0 +1,30 @@
+---
+title: "AMRScan R Demonstration"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+This R Markdown demonstrates the usage of `AMRScan.R` to identify antimicrobial resistance genes from a FASTQ file.
+
+## Load Script
+
+```{r}
+source("scripts/AMRScan.R")
+```
+
+# Results
+
+```{r}
+summary_file <- "results/final/GCF_037966445.1_ASM3796644v1_genomic_AMR_hits_summary.csv"
+if (file.exists(summary_file)) {
+  amr_summary <- read.csv(summary_file)
+  knitr::kable(head(amr_summary), caption = "Top AMR Hits Summary")
+} else {
+  cat("Summary file not found.")
+}
+```

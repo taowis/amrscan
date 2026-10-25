@@ -1,0 +1,25 @@
+Package: AMRScan
+Title: Rapid Detection of Antimicrobial Resistance Genes from NGS Data
+Version: 1.0.0
+Authors@R:
+    person("Kaitao", "Lai",
+           email = "profktlai@gmail.com",
+           role = c("aut", "cre"))
+Maintainer: Kaitao Lai <profktlai@gmail.com>
+Description:
+    AMRScan is a hybrid open-source toolkit implemented in both R and Nextflow
+    to identify antimicrobial resistance (AMR) genes from next-generation sequencing (NGS) data.
+    The R script (AMRScan_standalone.R) provides a lightweight, single-sample solution suitable for local or rapid analysis,
+    while the Nextflow workflow (main.nf) enables scalable, reproducible AMR gene detection in high-throughput or HPC/cloud environments.
+    Both implementations use BLAST alignment against reference AMR gene databases (e.g., CARD),
+    and include support for quality control, FASTQ-to-FASTA conversion, and result parsing.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Depends: R (>= 4.0.0)
+Imports:
+    ShortRead,
+    Biostrings,
+    dplyr,
+    RCurl

@@ -1,0 +1,37 @@
+site_name: AMRScan
+site_description: AMRFinderPlus with provenance, as a Nextflow pipeline
+repo_url: https://github.com/taowis/amrscan
+docs_dir: docs
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+validation:
+  omitted_files: info
+  absolute_links: info
+  unrecognized_links: info
+  links:
+    not_found: info
+nav:
+  - Home: index.md
+  - Workshop:
+      - Overview: tutorial/index.md
+      - 1. Set up: tutorial/setup.md
+      - 2. Get the database: tutorial/database.md
+      - 3. First run: tutorial/first-run.md
+      - 4. Your own assemblies: tutorial/your-data.md
+      - 5. Running on Gadi: tutorial/gadi.md
+      - 6. Exercises: tutorial/exercises.md
+      - Troubleshooting: tutorial/troubleshooting.md
+  - Reference:
+      - Result schema: result-schema.md
+      - AMRFinderPlus validation: amrfinder-validation.md
+      - AST dataset builder: ast-dataset-builder.md
+  - Decisions:
+      - 0005 Software environments: decisions/0005-containers.md

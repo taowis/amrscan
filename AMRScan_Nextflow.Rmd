@@ -1,0 +1,78 @@
+
+---
+title: "AMRScan - Nextflow Workflow Demonstration"
+author: "Kaitao Lai"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Overview
+
+This document provides a walkthrough of executing the **AMRScan** workflow using **Nextflow DSL2**. The pipeline identifies antimicrobial resistance (AMR) genes using BLAST against the CARD database.
+
+# Command Execution
+
+We launch the workflow using the following command:
+
+```bash
+nextflow run workflow/AMRScan.nf \
+    --input data/*.fna \
+    --outdir results \
+    --evalue 1e-10 \
+    --threads 8 \
+    --min_quality 25
+```
+
+# System Output
+
+```bash
+ N E X T F L O W   ~  version 25.04.6
+
+Launching `workflow/AMRScan.nf` [mad_monod] DSL2 - revision: ebe2e1ab36
+
+==============================================
+AMRScan - Antimicrobial Resistance Scanner
+==============================================
+Input file        : data/GCF_037966445.1_ASM3796644v1_genomic.fna
+Output directory  : results
+CARD database     : db_demo/protein_fasta_protein_homolog_model.fasta
+E-value threshold : 1e-10
+Threads           : 8
+Min quality       : 25
+==============================================
+
+executor >  local (4)
+[e1/555c15] PREPROCESS_READS (GCF_037966445.1_ASM3796644v1_genomic) [100%] 1 of 1 ✔
+[skipped  ] MAKEBLASTDB (CARD_database)                             [100%] 1 of 1, stored: 1 ✔
+[55/2e8e1a] BLAST_SEARCH (GCF_037966445.1_ASM3796644v1_genomic)     [100%] 1 of 1 ✔
+[65/da8049] PARSE_RESULTS (GCF_037966445.1_ASM3796644v1_genomic)    [100%] 1 of 1 ✔
+
+==============================================
+AMRScan workflow completed!
+==============================================
+Results directory: results
+Success: true
+Duration: 17s
+==============================================
+```
+
+# Results
+
+```{r}
+summary_file <- "results/final/GCF_037966445.1_ASM3796644v1_genomic_AMR_hits_summary.csv"
+if (file.exists(summary_file)) {
+  amr_summary <- read.csv(summary_file)
+  knitr::kable(head(amr_summary), caption = "Top AMR Hits Summary")
+} else {
+  cat("Summary file not found.")
+}
+```
+
+# Notes
+
+- The pipeline supports both FASTQ and FASTA inputs.
+- Quality filtering only applies to FASTQ files.
+- BLAST is performed using `blastx` against the CARD homolog model database.

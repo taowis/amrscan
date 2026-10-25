@@ -1,0 +1,2 @@
+target_acc	biosample_acc	asm_acc	Run	scientific_name	collection_date	geo_loc_name	isolation_source	host	epi_type	bioproject_acc	species_taxid	isolate_identifiers
+PDT900000001.1	SAMN90000001	GCA_900000001.1	SRR900000001	Escherichia coli	2020-03	USA: Maryland	urine	Homo sapiens			562	synthetic-strain

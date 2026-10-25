@@ -1,0 +1,64 @@
+nextflow_pipeline {
+
+    name "AMRScan v2 pipeline"
+    script "main.nf"
+    tag "pipeline"
+
+    test("validate_only checks inputs without running any process") {
+        when {
+            params {
+                input = "${projectDir}/tests/fixtures/tiny.fna"
+                amrfinder_db = "${projectDir}/tests/fixtures"
+                validate_only = true
+            }
+        }
+        then {
+            def tsv = { f -> def lines = new File(f.toString()).readLines(); def head = lines[0].split('\t', -1); lines.drop(1).collect { l -> [head.toList(), l.split('\t', -1).toList()].transpose().collectEntries() } }
+            assertAll(
+                { assert workflow.success },
+                { assert workflow.trace.tasks().size() == 0 },
+                { assert workflow.stdout.any { it.contains('Validated tiny') } }
+            )
+        }
+    }
+
+    test("missing database parameter stops the run") {
+        when {
+            params {
+                input = "${projectDir}/tests/fixtures/tiny.fna"
+            }
+        }
+        then {
+            def tsv = { f -> def lines = new File(f.toString()).readLines(); def head = lines[0].split('\t', -1); lines.drop(1).collect { l -> [head.toList(), l.split('\t', -1).toList()].transpose().collectEntries() } }
+            assertAll(
+                { assert workflow.failed },
+                { assert workflow.stdout.any { it.contains('Provide --amrfinder_db') } }
+            )
+        }
+    }
+
+    test("positive control runs end to end") {
+        tag "database"
+        when {
+            params {
+                input = "${projectDir}/tests/fixtures/blaTEM-1_NG_050145.1.fna"
+                amrfinder_db = "${projectDir}/db/amrfinderplus/2026-08-07.1"
+                outdir = "${outputDir}"
+            }
+        }
+        then {
+            def tsv = { f -> def lines = new File(f.toString()).readLines(); def head = lines[0].split('\t', -1); lines.drop(1).collect { l -> [head.toList(), l.split('\t', -1).toList()].transpose().collectEntries() } }
+            def sample = 'blaTEM-1_NG_050145.1'
+            def rows = tsv("${outputDir}/harmonized/${sample}.amr.tsv")
+            assertAll(
+                { assert workflow.success },
+                { assert workflow.trace.succeeded().size() == 2 },
+                { assert rows.size() == 1 },
+                { assert rows[0].gene == 'blaTEM-1' },
+                { assert rows[0].resistance_class == 'BETA-LACTAM' },
+                { assert rows[0].caller_version == '4.2.7' },
+                { assert path("${outputDir}/raw/amrfinderplus/${sample}/${sample}.provenance.json").exists() }
+            )
+        }
+    }
+}

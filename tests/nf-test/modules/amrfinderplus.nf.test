@@ -1,0 +1,36 @@
+nextflow_process {
+
+    name "AMRFINDERPLUS"
+    script "modules/local/amrfinderplus.nf"
+    process "AMRFINDERPLUS"
+    tag "modules"
+    tag "database"
+
+    test("blaTEM-1 positive control is detected and provenance is recorded") {
+        when {
+            params {
+                amrfinder_db = "${projectDir}/db/amrfinderplus/2026-08-07.1"
+            }
+            process {
+                """
+                input[0] = Channel.of(tuple('blaTEM-1',
+                    file("${projectDir}/tests/fixtures/blaTEM-1_NG_050145.1.fna", checkIfExists: true)))
+                input[1] = file(params.amrfinder_db, checkIfExists: true)
+                """
+            }
+        }
+        then {
+            def tsv = { f -> def lines = new File(f.toString()).readLines(); def head = lines[0].split('\t', -1); lines.drop(1).collect { l -> [head.toList(), l.split('\t', -1).toList()].transpose().collectEntries() } }
+            def report = tsv(process.out.calls[0][1])
+            def provenance = path(process.out.calls[0][2]).json
+            assertAll(
+                { assert process.success },
+                { assert report.size() == 1 },
+                { assert report[0]['Element symbol'] == 'blaTEM-1' },
+                { assert provenance.status == 'success' },
+                { assert provenance.caller_version == '4.2.7' },
+                { assert provenance.database_id.startsWith('sha256:') }
+            )
+        }
+    }
+}

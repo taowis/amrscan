@@ -1,0 +1,3 @@
+pdt_accession	biosample_accession	assembly_accession	reason
+PDT000026734.2	SAMN02581401	GCA_000633675.2	AST includes ND phenotypes; screened out before PDT000045580.1 in target_acc order
+PDT000041780.1	SAMN03075589	GCA_000770285.1	same NCBI SNP cluster (PDS000117091) as PDT000041778.1

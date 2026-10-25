@@ -1,0 +1,312 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+]{article}
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={AMRScan: A hybrid R and Nextflow toolkit for rapid antimicrobial resistance gene detection from sequencing data},
+  pdfauthor={Kaitao Lai1},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{AMRScan: A hybrid R and Nextflow toolkit for rapid antimicrobial
+resistance gene detection from sequencing data}
+\author{Kaitao Lai\textsuperscript{1}}
+\date{2025-07-08}
+
+\begin{document}
+\maketitle
+
+\textsuperscript{1} University of Sydney
+
+\section{Summary}\label{summary}
+
+\textbf{AMRScan} is a hybrid bioinformatics toolkit implemented in both
+R and \href{https://www.nextflow.io/}{Nextflow} for the rapid and
+reproducible detection of antimicrobial resistance (AMR) genes from
+next-generation sequencing (NGS) data. The toolkit enables users to
+identify AMR gene hits in sequencing reads by aligning them against
+reference databases such as CARD using BLAST (Altschul et al. 1990).
+
+The R implementation provides a concise, script-based approach suitable
+for single-sample analysis, teaching, and rapid prototyping. In
+contrast, the Nextflow implementation enables reproducible, scalable
+workflows for multi-sample batch processing in high-performance
+computing (HPC) and containerized environments. It leverages modular
+pipeline design with support for automated database setup, quality
+control, conversion, BLAST alignment, and results parsing.
+
+AMRScan helps bridge the gap between lightweight exploratory analysis
+and production-ready surveillance pipelines, making it suitable for both
+research and public health genomics applications.
+
+\section{Statement of Need}\label{statement-of-need}
+
+While several large-scale AMR detection platforms such as ResFinder
+(Zankari et al. 2012) exist, many are resource-intensive or require
+complex installations. AMRScan addresses the need for a minimal,
+transparent, and reproducible toolkit that can be used flexibly in small
+labs, clinical settings, or large-scale surveillance workflows.
+
+The inclusion of a pure Nextflow implementation enables high-throughput,
+multi-sample analyses in cloud and HPC environments, while the
+standalone R script remains accessible to users in data science,
+microbiology, and epidemiology. Both versions use shared components
+(e.g., a BLAST parsing script) to ensure consistency and reproducibility
+of results.
+
+\section{Usage Guidance}\label{usage-guidance}
+
+AMRScan provides two usage modes, tailored to user needs:
+
+\begin{itemize}
+\item
+  \textbf{R script (\texttt{AMRScan\_standalone.R})}: Best suited for
+  small datasets, single-sample analysis, quick local tests, educational
+  use, and lightweight environments without workflow managers.
+\item
+  \textbf{Nextflow workflow (\texttt{main.nf})}: Designed for
+  large-scale, automated analyses, this version excels in multi-sample
+  settings, HPC/cloud infrastructure, and environments where
+  reproducibility, parallelism, and containerization are priorities.
+\end{itemize}
+
+This flexible dual-mode implementation ensures that AMRScan can serve
+both teaching/demo scenarios and production-grade bioinformatics
+pipelines.
+
+\section{Implementation}\label{implementation}
+
+\begin{itemize}
+\tightlist
+\item
+  The R script \texttt{scripts/AMRScan\_standalone.R} encapsulates the
+  entire pipeline in a linear script-based format.
+\item
+  The Nextflow workflow \texttt{workflow/main.nf} organizes the same
+  logic into modular processes:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \texttt{DownloadCARD}, \texttt{MakeBLASTdb}, \texttt{ConvertFASTQ},
+    \texttt{RunBLAST}, and \texttt{ParseResults}
+  \end{itemize}
+\item
+  The shared R script \texttt{scripts/parse\_blast.R} is used for
+  post-BLAST result summarization.
+\item
+  Both implementations are documented, testable, and validated using
+  mock NGS input.
+\end{itemize}
+
+\section{Example Dataset and
+Demonstration}\label{example-dataset-and-demonstration}
+
+The example data used to validate AMRScan was obtained from a study by
+Munim et al.~(2024) on multidrug-resistant \emph{Klebsiella pneumoniae}
+isolated from poultry in Noakhali, Bangladesh (Munim et al. 2024). The
+assembled genome was downloaded from GenBank
+(\href{https://www.ncbi.nlm.nih.gov/assembly/GCA_037966445.1}{GCA\_037966445.1}).
+
+For antimicrobial resistance gene detection, we used the protein homolog
+model from the Comprehensive Antibiotic Resistance Database (CARD) (Jia
+et al. 2017), version Broadstreet v4.0.1, available at:\\
+\url{https://card.mcmaster.ca/download/0/broadstreet-v4.0.1.tar.bz2}
+
+A sample output summary is shown below:
+
+\subsection{Top AMR Hits Summary}\label{top-amr-hits-summary}
+
+\begingroup
+\small  % can also try \footnotesize, \scriptsize, or \tiny
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1870}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.0732}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.0813}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.0650}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.0650}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.0813}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.4472}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Query
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Subject
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Identity
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Length
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Evalue
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Bitscore
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Annotation
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+JBBPBW010000028.1 & OprA & 40.839 & 453 & 0 & 252 & OprA
+\(Pseudomonas aeruginosa\) \\
+JBBPBW010000035.1 & LAP-2 & 100.000 & 285 & 0 & 587 & LAP-2
+\(Enterobacter cloacae\) \\
+JBBPBW010000001.1 & SHV-11 & 100.000 & 286 & 0 & 581 & SHV-11
+\(Klebsiella pneumoniae\) \\
+JBBPBW010000010.1 & eptB & 99.303 & 574 & 0 & 1109 & eptB
+\(Klebsiella pneumoniae subsp. rhinoscleromatis\) \\
+JBBPBW010000104.1 & dfrA14 & 98.726 & 157 & 0 & 327 & dfrA14
+\(Escherichia coli\) \\
+JBBPBW010000011.1 & YojI & 83.912 & 547 & 0 & 885 & YojI
+\(Escherichia coli str. K-12 substr. MG1655\) \\
+\end{longtable}
+
+\endgroup
+
+\section{Software Repository}\label{software-repository}
+
+The source code for AMRScan is freely available on GitHub at:\\
+\url{https://github.com/biosciences/AMRScan}
+
+\section{Acknowledgements}\label{acknowledgements}
+
+The author thanks collaborators at University of Sydney for feedback on
+early concepts.
+
+\section*{References}\label{references}
+\addcontentsline{toc}{section}{References}
+
+\protect\phantomsection\label{refs}
+\begin{CSLReferences}{1}{0}
+\bibitem[\citeproctext]{ref-altschul1990blast}
+Altschul, Stephen F, Warren Gish, Webb Miller, Eugene W Myers, and David
+J Lipman. 1990. {``Basic Local Alignment Search Tool.''} \emph{Journal
+of Molecular Biology} 215 (3): 403--10.
+\url{https://doi.org/10.1016/S0022-2836(05)80360-2}.
+
+\bibitem[\citeproctext]{ref-jia2017card}
+Jia, Baofeng, Aliyu R Raphenya, Brian Alcock, Nicholas Waglechner, Peng
+Guo, Katelyn K Tsang, Brendan A Lago, et al. 2017. {``CARD 2017:
+Expansion and Model-Centric Curation of the Comprehensive Antibiotic
+Resistance Database.''} \emph{Nucleic Acids Research} 45 (D1): D566--73.
+\url{https://doi.org/10.1093/nar/gkw1004}.
+
+\bibitem[\citeproctext]{ref-munim2024mdr}
+Munim, Md Adnan, Afroza Akter Tanni, Md Mobarok Hossain, Kallyan Chakma,
+Adnan Mannan, SM Rafiqul Islam, Jully Gogoi Tiwari, and Shipan Das
+Gupta. 2024. {``Whole Genome Sequencing of Multidrug-Resistant
+Klebsiella Pneumoniae from Poultry in Noakhali, Bangladesh: Assessing
+Risk of Transmission to Humans in a Pilot Study.''} \emph{Comparative
+Immunology, Microbiology and Infectious Diseases} 114: 102246.
+\url{https://doi.org/10.1016/j.cimid.2024.102246}.
+
+\bibitem[\citeproctext]{ref-zankari2012resfinder}
+Zankari, Ea, Henrik Hasman, Salvatore Cosentino, Martin Vestergaard,
+Simon Rasmussen, Ole Lund, Frank M Aarestrup, and Mette V Larsen. 2012.
+{``Identification of Acquired Antimicrobial Resistance Genes.''}
+\emph{Journal of Antimicrobial Chemotherapy} 67 (11): 2640--44.
+\url{https://doi.org/10.1093/jac/dks261}.
+
+\end{CSLReferences}
+
+\end{document}

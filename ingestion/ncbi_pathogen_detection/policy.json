@@ -1,0 +1,235 @@
+{
+  "version": "1.0.0",
+  "phenotypes": {
+    "r": "R",
+    "resistant": "R",
+    "s": "S",
+    "susceptible": "S",
+    "sensitive": "S",
+    "i": "I",
+    "intermediate": "I",
+    "sdd": "SDD",
+    "ssd": "SDD",
+    "susceptible-dose dependent": "SDD",
+    "ns": "NS",
+    "nonsusceptible": "NS",
+    "hlar": "HLAR",
+    "high level aminoglycoside resistance": "HLAR",
+    "n": "ND",
+    "nd": "ND",
+    "not defined": "ND"
+  },
+  "drugs": {
+    "amikacin": [
+      "AMK"
+    ],
+    "amoxicillin": [
+      "AMX"
+    ],
+    "amoxicillin-clavulanic acid": [
+      "AMC",
+      "augmentin"
+    ],
+    "ampicillin": [
+      "AMP"
+    ],
+    "ampicillin-sulbactam": [
+      "SAM"
+    ],
+    "azithromycin": [
+      "AZM"
+    ],
+    "aztreonam": [
+      "ATM"
+    ],
+    "cefazolin": [
+      "CFZ"
+    ],
+    "cefepime": [
+      "FEP"
+    ],
+    "cefotaxime": [
+      "CTX"
+    ],
+    "cefotaxime-clavulanic acid": [],
+    "cefoxitin": [
+      "FOX"
+    ],
+    "ceftazidime": [
+      "CAZ"
+    ],
+    "ceftazidime-avibactam": [],
+    "ceftazidime-clavulanic acid": [],
+    "ceftiofur": [],
+    "ceftolozane-tazobactam": [],
+    "ceftriaxone": [
+      "CRO"
+    ],
+    "chloramphenicol": [
+      "CHL"
+    ],
+    "ciprofloxacin": [
+      "CIP"
+    ],
+    "colistin": [
+      "CST"
+    ],
+    "doripenem": [
+      "DOR"
+    ],
+    "ertapenem": [
+      "ERT"
+    ],
+    "fosfomycin": [
+      "FOF"
+    ],
+    "gentamicin": [
+      "GEN"
+    ],
+    "imipenem": [
+      "IPM"
+    ],
+    "imipenem-relebactam": [],
+    "kanamycin": [
+      "KAN"
+    ],
+    "levofloxacin": [
+      "LVX"
+    ],
+    "meropenem": [
+      "MEM"
+    ],
+    "meropenem-vaborbactam": [],
+    "minocycline": [
+      "MIN"
+    ],
+    "nalidixic acid": [
+      "NAL"
+    ],
+    "nitrofurantoin": [
+      "NIT"
+    ],
+    "piperacillin": [
+      "PIP"
+    ],
+    "piperacillin-tazobactam": [
+      "TZP"
+    ],
+    "polymyxin B": [
+      "PMB"
+    ],
+    "streptomycin": [
+      "STR"
+    ],
+    "sulfisoxazole": [],
+    "tetracycline": [
+      "TET"
+    ],
+    "tigecycline": [
+      "TGC"
+    ],
+    "tobramycin": [
+      "TOB"
+    ],
+    "trimethoprim": [
+      "TMP"
+    ],
+    "trimethoprim-sulfamethoxazole": [
+      "SXT",
+      "co-trimoxazole",
+      "cotrimoxazole",
+      "TMP-SMX"
+    ]
+  },
+  "host_categories": {
+    "homo sapiens": "human",
+    "human": "human",
+    "bos taurus": "animal",
+    "cattle": "animal",
+    "sus scrofa": "animal",
+    "pig": "animal",
+    "gallus gallus": "animal",
+    "chicken": "animal",
+    "canis lupus familiaris": "animal",
+    "dog": "animal"
+  },
+  "source_categories": {
+    "human": "human",
+    "food": "food",
+    "ground beef": "food",
+    "retail chicken meat": "food",
+    "environment": "environment",
+    "soil": "environment",
+    "water": "environment",
+    "wastewater": "environment"
+  },
+  "country_names": [
+    "Argentina",
+    "Australia",
+    "Austria",
+    "Bangladesh",
+    "Belgium",
+    "Brazil",
+    "Cambodia",
+    "Cameroon",
+    "Canada",
+    "Chile",
+    "China",
+    "Colombia",
+    "Costa Rica",
+    "Czechia",
+    "Denmark",
+    "Ecuador",
+    "Egypt",
+    "Ethiopia",
+    "Finland",
+    "France",
+    "Germany",
+    "Ghana",
+    "Greece",
+    "India",
+    "Indonesia",
+    "Iran",
+    "Ireland",
+    "Israel",
+    "Italy",
+    "Japan",
+    "Kenya",
+    "Malaysia",
+    "Mexico",
+    "Nepal",
+    "Netherlands",
+    "New Zealand",
+    "Nigeria",
+    "Norway",
+    "Pakistan",
+    "Peru",
+    "Philippines",
+    "Poland",
+    "Portugal",
+    "Romania",
+    "Russia",
+    "Saudi Arabia",
+    "Senegal",
+    "Singapore",
+    "South Africa",
+    "South Korea",
+    "Spain",
+    "Sri Lanka",
+    "Sweden",
+    "Switzerland",
+    "Taiwan",
+    "Tanzania",
+    "Thailand",
+    "Turkey",
+    "Uganda",
+    "Ukraine",
+    "United Arab Emirates",
+    "United Kingdom",
+    "Uruguay",
+    "USA",
+    "Viet Nam",
+    "Zambia",
+    "Zimbabwe"
+  ]
+}

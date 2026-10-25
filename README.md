@@ -1,0 +1,246 @@
+# AMRScan
+
+AMRScan detects antimicrobial resistance (AMR) genes and mutations in bacterial
+genome assemblies. Version 2 is a Nextflow workflow around NCBI AMRFinderPlus
+that records the software and database used for every run and harmonizes the
+calls into one table. A separate tool archives public antimicrobial
+susceptibility testing (AST) data from NCBI Pathogen Detection.
+
+A sequence match does not by itself establish phenotypic resistance. A negative
+report also does not establish susceptibility. Retain caller methods, database
+snapshots, thresholds, and the original report when interpreting results.
+
+## Project links
+
+- [Source repository](https://github.com/taowis/amrscan)
+- [Documentation and workshop](https://taowis.github.io/amrscan/)
+- Historical rendered demonstrations: [R](docs/AMRScan_R.html) and
+  [Nextflow](docs/AMRScan_Nextflow.html)
+- [Preprint](https://arxiv.org/abs/2507.08062)
+
+The demonstrations and manuscripts describe the legacy version, not the v2
+interface.
+
+## Modular workflow
+
+```text
+main.nf → workflows/amrscan.nf
+          ├─ modules/local/amrfinderplus.nf → raw report + log + provenance
+          └─ modules/local/harmonize_amrfinder.nf → harmonized TSV
+```
+
+Use assembled nucleotide FASTA (`.fa`, `.fna`, `.fasta`, optionally `.gz`). Raw
+FASTQ, protein/GFF combined searches and per-sample organism metadata are not
+implemented in this first v2 interface. Sample IDs come from filenames with both
+FASTA and gzip suffixes removed. They must be unique and contain only letters,
+digits, `_`, `.`, `-`, beginning with a letter or digit. Duplicate IDs fail before
+any tasks are scheduled.
+
+Requirements:
+
+- Nextflow **25.04.6** or later, with Java 17 or later.
+- One way to provide the software, chosen with a profile:
+
+| Profile | Engine | Notes |
+| --- | --- | --- |
+| `docker` | Docker | Laptops and desktops; runs under emulation on Apple silicon |
+| `apptainer`, `singularity` | Apptainer or Singularity | HPC; pulls a SIF image |
+| `conda` | Conda | Builds `environment/amrfinderplus.yml` |
+| `gadi` | Singularity on NCI Gadi, PBS Pro | See [Running on Gadi](docs/tutorial/gadi.md); not yet run on Gadi |
+
+  Every profile provides AMRFinderPlus **4.2.7** with Python 3.12 from the same
+  specification ([decision 0005](docs/decisions/0005-containers.md)). The
+  adapter reads v4 nucleotide reports: parser tests use a 4.0.23 report and
+  the end-to-end tests run 4.2.7.
+- An indexed AMRFinderPlus database release in a directory that does not
+  change. `scripts/fetch_amrfinder_db.sh` downloads and indexes one release
+  (default `2026-08-07.1`) and records its file hashes. The workflow never
+  downloads or updates a database.
+
+```bash
+git clone https://github.com/taowis/amrscan.git
+cd amrscan
+scripts/fetch_amrfinder_db.sh --engine docker
+
+# Positive control: blaTEM-1 from NCBI reference sequence NG_050145.1
+nextflow run main.nf -profile test,docker
+
+nextflow run main.nf -profile docker \
+  --input 'assemblies/*.fna' \
+  --amrfinder_db "$PWD/db/amrfinderplus/2026-08-07.1" \
+  --outdir results/v2 --threads 4
+
+# For a cohort in the same supported taxonomic group:
+nextflow run main.nf -profile docker \
+  --input 'assemblies/*.fna.gz' \
+  --amrfinder_db "$PWD/db/amrfinderplus/2026-08-07.1" \
+  --amrfinder_organism Escherichia --outdir results/escherichia
+```
+
+A step-by-step workshop for new users is in [docs/tutorial](docs/tutorial/index.md);
+it also builds as a MkDocs site (`pip install mkdocs-material`, then `mkdocs serve`).
+
+The organism option enables taxon-specific behavior, including curated mutation
+screening. Without it, the result is not a comprehensive mutation screen. This
+mode searches nucleotide assemblies only and does not perform protein HMM
+searches. See [NCBI usage](https://github.com/ncbi/amr/wiki/Running-AMRFinderPlus)
+and [interpretation](https://github.com/ncbi/amr/wiki/Interpreting-results).
+
+| Parameter | Default | Meaning |
+| --- | --- | --- |
+| `input` | required | One FASTA or a quoted file glob |
+| `outdir` | `results/v2` | Publication directory |
+| `threads` | `4` | CPUs per caller task |
+| `amrfinder_db` | required | Existing, indexed database directory |
+| `amrfinder_bin` | `amrfinder` | Executable name on PATH or absolute executable path |
+| `amrfinder_organism` | unset | One supported taxon for all inputs in this run |
+| `amrfinder_plus` | `false` | Include caller's plus elements; retain their types |
+| `amrfinder_identity` | `-1` | Curated identity thresholds with caller fallback |
+| `amrfinder_coverage` | `0.5` | Caller reference coverage cutoff, as a fraction |
+| `validate_only` | `false` | Validate paths/parameters, without running processes |
+
+Identity overrides in `[0,1]` replace the caller's curated identity policy; use
+only with scientific justification. Provenance records the requested values;
+curated per-family settings remain in the identified database snapshot. The
+workflow requests all equally scoring references and applies no further top-hit
+selection. AMRFinderPlus still applies its own curation and filtering rules.
+
+Outputs per sample:
+
+```text
+results/v2/
+├── raw/amrfinderplus/<sample>/
+│   ├── <sample>.amrfinder.tsv       # Original caller report, unmodified
+│   ├── <sample>.amrfinder.log       # Caller stdout/stderr, including runtime versions
+│   └── <sample>.provenance.json     # Command, software version, input/db/report hashes
+└── harmonized/<sample>.amr.tsv      # Standard columns + complete raw records
+```
+
+See [result schema](docs/result-schema.md). Database content is fingerprinted
+per sample, including the relative filenames and file SHA-256 hashes; this
+costs additional I/O on large cohorts. Keep the database immutable during a run.
+A successful no-hit report produces a header-only harmonized TSV, while its raw
+report and provenance remain available. Failed calls never produce harmonized
+results; task logs and failure provenance remain in the Nextflow work directory.
+Use a fresh output directory per experiment to avoid confusing old and new files.
+
+## AST datasets
+
+The separate AST builder archives official NCBI Pathogen Detection tables and
+constructs an auditable *E. coli* cohort. It retains submitter phenotypes,
+measurements, genome links, metadata, duplicates, conflicts and source hashes.
+
+```bash
+python3 bin/ast_dataset.py download --outdir datasets/ecoli/raw
+python3 bin/ast_dataset.py build --snapshot datasets/ecoli/raw --outdir datasets/ecoli/processed
+python3 bin/ast_dataset.py validate --snapshot datasets/ecoli/raw --processed datasets/ecoli/processed
+```
+
+AMRScan does not infer phenotypic resistance from the presence of an AMR gene.
+AST phenotype and genomic AMR determinants remain separate evidence layers.
+See the [AST builder guide](docs/ast-dataset-builder.md) for offline examples,
+source contracts, eligibility rules and validation limits.
+
+## Legacy compatibility
+
+`workflow/AMRScan.nf`, its adjacent config, `scripts/AMRScan.R`, the R Markdown
+examples, and historical files are retained. Their algorithms have not been
+rewritten. The legacy Nextflow FASTA/no-hit path has an optional small
+smoke test using BLAST+ and R; other historical paths are not newly validated.
+
+The example genome and the CARD protein homolog model are not stored in the
+repository. Download the assembly
+[GCF_037966445.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_037966445.1/)
+into `data/` and `protein_fasta_protein_homolog_model.fasta` from the
+[CARD download page](https://card.mcmaster.ca/download) into `db/`, noting the
+CARD release you used.
+
+```bash
+nextflow run workflow/AMRScan.nf \
+  --input data/GCF_037966445.1_ASM3796644v1_genomic.fna \
+  --card_db db/protein_fasta_protein_homolog_model.fasta \
+  --outdir results/legacy --threads 4
+```
+
+Legacy tools include BLAST+, R with `dplyr`/`magrittr`, and for FASTQ,
+`Biostrings`/`ShortRead`. The old config is not a complete reproducible container
+environment. Its highest-bitscore summary is a display ranking, not biological
+truth or a phenotype call; inspect the full detailed output. The HTML report
+process remains disabled as in the original workflow.
+
+The standalone R script is a **historical demonstration with known defects**:
+it changes to a fixed local directory, writes and reads different BLAST output
+paths, and does not ensure the final directory exists. Do not treat
+`tests/test-run.R` as an automated v2 test. Fixing that interface and expanding
+legacy FASTQ validation are left for later work.
+
+## Tests
+
+```bash
+# Offline caller-wrapper and harmonization tests; no third-party Python packages
+python3 -m unittest discover -s tests -p test_amrscan.py -v
+python3 -m unittest discover -s tests -p test_ast_dataset.py -v
+
+# Nextflow syntax/config, error handling, actual harmonization process, optional legacy smoke
+python3 -m unittest discover -s tests -p test_nextflow.py -v
+
+# Entire lightweight suite (missing external tools are explicitly skipped)
+python3 -m unittest discover -s tests -p 'test_*.py' -v
+```
+
+[Testing details and coverage commands](tests/README.md) describe fixture scope
+and distinguish mocks, upstream expected reports, and real integration tests.
+nf-test cases in `tests/nf-test/` run the modules and the whole pipeline in the
+pinned container. The cases tagged `database` need the database from
+`scripts/fetch_amrfinder_db.sh`:
+
+```bash
+nf-test test --profile docker
+```
+
+GitHub Actions runs three jobs: the Python suite with a 90% branch-coverage
+floor; nf-test and the `test` profile end to end with Docker against a cached
+database release; and a strict MkDocs build. The five-isolate real-data run is
+documented in [docs/amrfinder-validation.md](docs/amrfinder-validation.md).
+
+## Directory layout and next steps
+
+```text
+bin/                    Python retrieval, caller/provenance, harmonization and
+                        evidence-linking CLIs
+conf/                   Resource defaults, test and Gadi profiles
+modules/local/          DSL2 caller and harmonization modules
+workflows/              Composable v2 orchestration
+main.nf                 v2 entry point
+nextflow.config         v2 defaults
+workflow/               Legacy entry point/config
+scripts/                Database download script and legacy R demonstration
+schemas/                AST raw and normalized schema contracts
+ingestion/              NCBI Pathogen Detection AST adapter and its policy
+benchmark/cohorts/      Isolate lists for the AMRFinderPlus validation run
+tests/                  Small fixtures, Python tests and nf-test cases
+docs/tutorial/          Workshop for new users (MkDocs site, mkdocs.yml)
+docs/                   Schema, validation notes and historical reports
+paper/                  Historical manuscripts, retained
+data/, db/, results/    Local inputs and outputs; not tracked
+```
+
+Planned work includes additional caller adapters (RGI/CARD and ResFinder).
+
+The accession-verified AMRFinderPlus retrieval, evidence-linking and
+deterministic summary implementation is described in
+[docs/amrfinder-validation.md](docs/amrfinder-validation.md).
+The software paths are offline-tested. A five-isolate *E. coli* cohort has been
+run end to end on real data: archived NCBI Pathogen Detection AST exports,
+identity-checked NCBI Datasets assemblies, AMRFinderPlus 4.2.7 with database
+2026-08-07.1, harmonization and the linked summary. The cohort is small and
+descriptive; it reports evidence side by side and does not measure
+genotype–phenotype agreement.
+
+## Citation and license
+
+Lai, K. (2025). *AMRScan: A hybrid R and Nextflow toolkit for rapid antimicrobial
+resistance gene detection.* [arXiv:2507.08062](https://arxiv.org/abs/2507.08062).
+Also cite each caller and database used in an analysis. Historical source code
+is under the repository MIT license; the NCBI test fixture has its own public
+domain notice in `tests/fixtures/NCBI-LICENSE.txt`.

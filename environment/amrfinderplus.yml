@@ -1,0 +1,8 @@
+name: amrscan-amrfinder-validation
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - ncbi-amrfinderplus=4.2.7
+  - python=3.12

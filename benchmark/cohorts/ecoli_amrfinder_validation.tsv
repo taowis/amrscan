@@ -1,0 +1,6 @@
+cohort_id	isolate_id	pdt_accession	biosample_accession	assembly_accession	organism	assembly_source	ast_available	selection_reason
+ecoli_amrfinder_v1	PDT000041778.1	PDT000041778.1	SAMN03075588	GCA_000770275.1	Escherichia coli	NCBI Datasets	true	prior candidate; complete AST archived 2026-10-11
+ecoli_amrfinder_v1	PDT000045580.1	PDT000045580.1	SAMN03177674	GCA_000797605.1	Escherichia coli	NCBI Datasets	true	first AST-processable isolate in target_acc order
+ecoli_amrfinder_v1	PDT000045581.1	PDT000045581.1	SAMN03177676	GCA_000797575.1	Escherichia coli	NCBI Datasets	true	first AST-processable isolate in target_acc order
+ecoli_amrfinder_v1	PDT000045582.1	PDT000045582.1	SAMN03177659	GCA_000797595.1	Escherichia coli	NCBI Datasets	true	first AST-processable isolate in target_acc order
+ecoli_amrfinder_v1	PDT000045583.1	PDT000045583.1	SAMN03177675	GCA_000797585.1	Escherichia coli	NCBI Datasets	true	first AST-processable isolate in target_acc order

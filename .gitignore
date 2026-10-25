@@ -1,0 +1,43 @@
+# macOS system file
+.DS_Store
+
+# R history file
+.Rhistory
+
+# Local private notes and editor/assistant settings
+/private_notes/
+.claude/
+CLAUDE.md
+
+# Runtime data (historical tracked examples are retained for a later cleanup).
+/results/
+/db/
+/data/
+/databases/
+/datasets/
+/raw/
+/processed/
+work/
+.nextflow/
+.nextflow.*
+trace*.txt
+timeline*.html
+report*.html
+dag*.html
+
+# Local environments, caches, and test reports.
+.venv/
+__pycache__/
+*.py[cod]
+.coverage*
+htmlcov/
+coverage.xml
+.pytest_cache/
+.test-results/
+
+# nf-test
+.nf-test/
+.nf-test.log
+
+# MkDocs build output
+/site/

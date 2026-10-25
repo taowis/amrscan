@@ -1,0 +1,30 @@
+nextflow_process {
+
+    name "HARMONIZE_AMRFINDER"
+    script "modules/local/harmonize_amrfinder.nf"
+    process "HARMONIZE_AMRFINDER"
+    tag "modules"
+
+    test("NCBI upstream report is converted to the AMRScan schema") {
+        when {
+            process {
+                """
+                input[0] = Channel.of(tuple('upstream',
+                    file("${projectDir}/tests/fixtures/amrfinder_v4.0.23.tsv", checkIfExists: true),
+                    file("${projectDir}/tests/fixtures/amrfinder_v4.0.23.provenance.json", checkIfExists: true)))
+                """
+            }
+        }
+        then {
+            def tsv = { f -> def lines = new File(f.toString()).readLines(); def head = lines[0].split('\t', -1); lines.drop(1).collect { l -> [head.toList(), l.split('\t', -1).toList()].transpose().collectEntries() } }
+            def rows = tsv(process.out.results[0][1])
+            assertAll(
+                { assert process.success },
+                { assert rows.size() == 24 },
+                { assert rows[1].allele == 'blaTEM-156' },
+                { assert rows[22].coverage == 'NA' },
+                { assert snapshot(process.out.results).match() }
+            )
+        }
+    }
+}

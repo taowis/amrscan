@@ -1,0 +1,60 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {"@id": "./"},
+      "conformsTo": [
+        {"@id": "https://w3id.org/ro/crate/1.1"},
+        {"@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"}
+      ]
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "AMRScan",
+      "description": "Nextflow workflow that runs AMRFinderPlus on assembled bacterial genomes, keeps the raw report and a provenance record for every call, and writes a harmonized result table.",
+      "license": {"@id": "https://spdx.org/licenses/MIT"},
+      "url": "https://github.com/taowis/amrscan",
+      "creator": [{"@id": "https://orcid.org/0000-0002-9420-9352"}],
+      "mainEntity": {"@id": "main.nf"},
+      "hasPart": [
+        {"@id": "main.nf"},
+        {"@id": "nextflow.config"},
+        {"@id": "README.md"},
+        {"@id": "LICENSE"}
+      ]
+    },
+    {
+      "@id": "main.nf",
+      "@type": ["File", "SoftwareSourceCode", "ComputationalWorkflow"],
+      "name": "AMRScan",
+      "programmingLanguage": {"@id": "#nextflow"},
+      "creator": [{"@id": "https://orcid.org/0000-0002-9420-9352"}],
+      "license": {"@id": "https://spdx.org/licenses/MIT"},
+      "url": "https://github.com/taowis/amrscan"
+    },
+    {"@id": "nextflow.config", "@type": "File", "name": "Pipeline configuration and profiles"},
+    {"@id": "README.md", "@type": "File", "name": "README"},
+    {"@id": "LICENSE", "@type": "File", "name": "License"},
+    {
+      "@id": "#nextflow",
+      "@type": "ComputerLanguage",
+      "name": "Nextflow",
+      "identifier": {"@id": "https://www.nextflow.io/"},
+      "url": {"@id": "https://www.nextflow.io/"}
+    },
+    {
+      "@id": "https://spdx.org/licenses/MIT",
+      "@type": "CreativeWork",
+      "name": "MIT License",
+      "identifier": "MIT"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9420-9352",
+      "@type": "Person",
+      "name": "Kaitao Lai"
+    }
+  ]
+}

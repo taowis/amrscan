@@ -1,0 +1,9 @@
+{
+  "sample_id": "upstream",
+  "tool": "AMRFinderPlus",
+  "status": "upstream_fixture",
+  "caller_version": "NA",
+  "database_id": "NA",
+  "thresholds": {},
+  "raw_sha256": "22e4fc091826704a8c8a0e919e4d54a1fbb7aabfc7c3875f9dd99ad16b5bca7c"
+}

@@ -1,0 +1,2 @@
+id	target_acc	biosample_acc	scientific_name	antibiotic	phenotype	measurement_sign	mic	mic_secondary	disk_diffusion	standard	platform	vendor	reagent	host	collection_date	geo_loc_name	isolation_source	epi_type	bioproject_acc	taxgroup_name
+synthetic-001	PDT900000001.1	SAMN90000001	Escherichia coli	CIP	resistant	<=	0.25			CLSI				Homo sapiens	2020-03	USA: Maryland	urine			E.coli and Shigella
