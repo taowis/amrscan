@@ -29,8 +29,8 @@ workstation, and give the same output.
   ([result schema](../result-schema.md)). It refuses failed runs and reports
   whose hash does not match the provenance record.
 - The Nextflow modules stay thin: they stage files, set CPUs, memory and time
-  per process, and publish outputs. Scheduling, retries, containers and
-  executors stay in Nextflow.
+  per process, and publish outputs. Scheduling, containers and executors
+  stay in Nextflow.
 
 ## Evidence
 
