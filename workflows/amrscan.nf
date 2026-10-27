@@ -3,7 +3,7 @@ include { HARMONIZE_AMRFINDER } from '../modules/local/harmonize_amrfinder'
 
 workflow AMRSCAN {
     take:
-    assemblies
+    assemblies  // [ meta, fasta ]
     database
 
     main:
@@ -13,4 +13,5 @@ workflow AMRSCAN {
     emit:
     raw = AMRFINDERPLUS.out.calls
     harmonized = HARMONIZE_AMRFINDER.out.results
+    versions = AMRFINDERPLUS.out.versions.mix(HARMONIZE_AMRFINDER.out.versions)
 }

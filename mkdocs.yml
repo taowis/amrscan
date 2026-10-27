@@ -36,3 +36,4 @@ nav:
   - Decisions:
       - 0005 Software environments: decisions/0005-containers.md
       - 0006 Caller wrapper: decisions/0006-caller-wrapper.md
+      - 0007 nf-core conventions: decisions/0007-nf-core-conventions.md

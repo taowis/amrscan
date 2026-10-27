@@ -3,7 +3,9 @@
         "content": [
             [
                 [
-                    "upstream",
+                    {
+                        "id": "upstream"
+                    },
                     "upstream.amr.tsv:md5,91716b4e9659198b7e37b76499582b82"
                 ]
             ]

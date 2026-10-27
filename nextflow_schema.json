@@ -1,0 +1,109 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://raw.githubusercontent.com/taowis/amrscan/main/nextflow_schema.json",
+    "title": "taowis/amrscan pipeline parameters",
+    "description": "AMR determinant calling from assembled nucleotide FASTA with AMRFinderPlus and provenance",
+    "type": "object",
+    "$defs": {
+        "input_output_options": {
+            "title": "Input/output options",
+            "type": "object",
+            "required": ["input"],
+            "properties": {
+                "input": {
+                    "type": "string",
+                    "description": "One assembled FASTA (.fa, .fna, .fasta, optionally .gz) or a quoted file glob."
+                },
+                "outdir": {
+                    "type": "string",
+                    "format": "directory-path",
+                    "default": "results/v2",
+                    "description": "Publication directory. Use a fresh one per experiment."
+                },
+                "validate_only": {
+                    "type": "boolean",
+                    "description": "Check parameters and inputs, then stop without running the caller."
+                }
+            }
+        },
+        "amrfinderplus_options": {
+            "title": "AMRFinderPlus options",
+            "type": "object",
+            "required": ["amrfinder_db"],
+            "properties": {
+                "amrfinder_db": {
+                    "type": "string",
+                    "format": "directory-path",
+                    "exists": true,
+                    "description": "Existing, indexed AMRFinderPlus database directory (scripts/fetch_amrfinder_db.sh). It must not change during a run."
+                },
+                "amrfinder_bin": {
+                    "type": "string",
+                    "default": "amrfinder",
+                    "description": "Executable name on PATH or absolute path."
+                },
+                "amrfinder_organism": {
+                    "type": "string",
+                    "description": "One supported taxon for all inputs, e.g. Escherichia. Enables taxon-specific point mutation screening."
+                },
+                "amrfinder_plus": {
+                    "type": "boolean",
+                    "description": "Include AMRFinderPlus 'plus' elements (stress, virulence)."
+                },
+                "amrfinder_identity": {
+                    "type": "number",
+                    "default": -1,
+                    "minimum": -1,
+                    "maximum": 1,
+                    "description": "Minimum identity, -1 for the curated per-family thresholds, otherwise between 0 and 1."
+                },
+                "amrfinder_coverage": {
+                    "type": "number",
+                    "default": 0.5,
+                    "minimum": 0,
+                    "maximum": 1,
+                    "description": "Minimum coverage of the reference, as a fraction."
+                },
+                "threads": {
+                    "type": "integer",
+                    "default": 4,
+                    "minimum": 1,
+                    "description": "CPUs per AMRFinderPlus task."
+                }
+            }
+        },
+        "institutional_config_options": {
+            "title": "Institutional config options",
+            "type": "object",
+            "properties": {
+                "gadi_project": {
+                    "type": "string",
+                    "hidden": true,
+                    "description": "NCI project charged for Gadi jobs (gadi profile; defaults to $PROJECT)."
+                },
+                "gadi_storage": {
+                    "type": "string",
+                    "hidden": true,
+                    "description": "PBS storage directive for Gadi jobs (gadi profile)."
+                }
+            }
+        },
+        "generic_options": {
+            "title": "Generic options",
+            "type": "object",
+            "properties": {
+                "help": {
+                    "type": ["boolean", "string"],
+                    "hidden": true,
+                    "description": "Show this help, or the help for one parameter."
+                }
+            }
+        }
+    },
+    "allOf": [
+        { "$ref": "#/$defs/input_output_options" },
+        { "$ref": "#/$defs/amrfinderplus_options" },
+        { "$ref": "#/$defs/institutional_config_options" },
+        { "$ref": "#/$defs/generic_options" }
+    ]
+}

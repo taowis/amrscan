@@ -1,6 +1,6 @@
 # 0006. AMRFinderPlus runs through a tested Python wrapper
 
-- Status: accepted
+- Status: accepted; modules also write `versions.yml` since decision 0007
 - Date: 2026-10-25
 - Applies to: `modules/local/amrfinderplus.nf`,
   `modules/local/harmonize_amrfinder.nf`, `bin/amrscan.py`
