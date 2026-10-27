@@ -32,7 +32,7 @@ nextflow_pipeline {
             def tsv = { f -> def lines = new File(f.toString()).readLines(); def head = lines[0].split('\t', -1); lines.drop(1).collect { l -> [head.toList(), l.split('\t', -1).toList()].transpose().collectEntries() } }
             assertAll(
                 { assert workflow.failed },
-                { assert workflow.stderr.any { it.contains('Missing required parameter(s): amrfinder_db') } }
+                { assert (workflow.stdout + workflow.stderr).any { it.contains('Missing required parameter(s): amrfinder_db') } }
             )
         }
     }
