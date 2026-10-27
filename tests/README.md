@@ -19,7 +19,9 @@ subprocess execution and replay that reference file; their version marker is
 construction, database/input/report checksums and failed-command propagation.
 
 Nextflow tests invoke the actual installed runtime in isolated temporary
-directories. They compile DSL2 modules, validate config and assembly inputs,
+directories, offline, so the nf-schema plugin must be installed first
+(`nextflow plugin install nf-schema@2.5.1`). They check the parameter schema
+messages as well as the checks in `main.nf`. They compile DSL2 modules, validate config and assembly inputs,
 check gzip/sample IDs and errors, run the real harmonizer process, and verify
 that a missing AMRFinderPlus executable fails the workflow. The optional legacy
 test runs actual BLAST+ and R against a tiny synthetic no-hit input/reference.
@@ -42,8 +44,9 @@ converts the upstream 4.0.23 report and checks a snapshot of the result.
 AMRFinderPlus 4.2.7 against the pinned database on
 `fixtures/blaTEM-1_NG_050145.1.fna`, the NCBI reference sequence for
 *blaTEM-1* (public domain, see `fixtures/NCBI-LICENSE.txt`), and expect exactly
-one `blaTEM-1` row. These cases are tagged `database`. The other pipeline
-cases check `--validate_only` and a missing database argument.
+one `blaTEM-1` row. These cases are tagged `database`; they also check
+`versions.yml` and, for the pipeline, `pipeline_info/software_versions.yml`. The other pipeline cases check `--validate_only` and
+the schema message for a missing database argument.
 
 `legacy/tests/test-run.R` belongs to version 1 and is not part of the
 lightweight suite; see [legacy/README.md](../legacy/README.md).

@@ -32,7 +32,7 @@ nextflow_pipeline {
             def tsv = { f -> def lines = new File(f.toString()).readLines(); def head = lines[0].split('\t', -1); lines.drop(1).collect { l -> [head.toList(), l.split('\t', -1).toList()].transpose().collectEntries() } }
             assertAll(
                 { assert workflow.failed },
-                { assert workflow.stdout.any { it.contains('Provide --amrfinder_db') } }
+                { assert (workflow.stdout + workflow.stderr).any { it.contains('Missing required parameter(s): amrfinder_db') } }
             )
         }
     }
@@ -57,7 +57,8 @@ nextflow_pipeline {
                 { assert rows[0].gene == 'blaTEM-1' },
                 { assert rows[0].resistance_class == 'BETA-LACTAM' },
                 { assert rows[0].caller_version == '4.2.7' },
-                { assert path("${outputDir}/raw/amrfinderplus/${sample}/${sample}.provenance.json").exists() }
+                { assert path("${outputDir}/raw/amrfinderplus/${sample}/${sample}.provenance.json").exists() },
+                { assert path("${outputDir}/pipeline_info/software_versions.yml").text.contains('amrfinderplus: 4.2.7') }
             )
         }
     }

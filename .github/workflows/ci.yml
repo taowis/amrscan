@@ -23,6 +23,8 @@ jobs:
       - uses: nf-core/setup-nextflow@v2
         with:
           version: '25.04.6'
+      - name: Fetch the nf-schema plugin (the tests run Nextflow offline)
+        run: nextflow plugin install nf-schema@2.5.1
       - name: Unit and regression tests with branch coverage
         run: |
           python -m pip install coverage==7.10.6

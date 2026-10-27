@@ -9,7 +9,7 @@ nextflow_process {
         when {
             process {
                 """
-                input[0] = Channel.of(tuple('upstream',
+                input[0] = Channel.of(tuple([id: 'upstream'],
                     file("${projectDir}/tests/fixtures/amrfinder_v4.0.23.tsv", checkIfExists: true),
                     file("${projectDir}/tests/fixtures/amrfinder_v4.0.23.provenance.json", checkIfExists: true)))
                 """

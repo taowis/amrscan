@@ -160,6 +160,12 @@ and [interpretation](https://github.com/ncbi/amr/wiki/Interpreting-results).
 | `amrfinder_coverage` | `0.5` | Caller reference coverage cutoff, as a fraction |
 | `validate_only` | `false` | Validate paths/parameters, without running processes |
 
+Parameters are described in [`nextflow_schema.json`](nextflow_schema.json) and
+checked against it before anything is scheduled (nf-schema plugin); a wrong
+type, a value out of range or a missing database directory stops the run with
+a message naming the parameter. `nextflow run main.nf --help` prints the same
+descriptions.
+
 Identity overrides in `[0,1]` replace the caller's curated identity policy; use
 only with scientific justification. Provenance records the requested values;
 curated per-family settings remain in the identified database snapshot. The
@@ -174,8 +180,16 @@ results/v2/
 │   ├── <sample>.amrfinder.tsv       # Original caller report, unmodified
 │   ├── <sample>.amrfinder.log       # Caller stdout/stderr, including runtime versions
 │   └── <sample>.provenance.json     # Command, software version, input/db/report hashes
-└── harmonized/<sample>.amr.tsv      # Standard columns + complete raw records
+├── harmonized/<sample>.amr.tsv      # Standard columns + complete raw records
+└── pipeline_info/
+    ├── software_versions.yml        # Tool versions per process
+    └── execution_{report,timeline,trace}_<time>.*, pipeline_dag_<time>.html
 ```
+
+The trace records CPU, peak memory and run time for every task; use it to set
+resources for a large run. Tasks killed for memory or walltime (exit status
+130 to 145, 104 or 175) are retried twice with more memory and time; any other
+failure stops the run ([decision 0007](docs/decisions/0007-nf-core-conventions.md)).
 
 See [result schema](docs/result-schema.md). Database content is fingerprinted
 per sample, including the relative filenames and file SHA-256 hashes; this

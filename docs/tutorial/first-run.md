@@ -18,7 +18,8 @@ results/test/
 │   ├── blaTEM-1_NG_050145.1.amrfinder.tsv      the AMRFinderPlus report, unchanged
 │   ├── blaTEM-1_NG_050145.1.amrfinder.log      caller messages and versions
 │   └── blaTEM-1_NG_050145.1.provenance.json    command, versions, hashes
-└── harmonized/blaTEM-1_NG_050145.1.amr.tsv     one row per reported element
+├── harmonized/blaTEM-1_NG_050145.1.amr.tsv     one row per reported element
+└── pipeline_info/                              versions, trace, report, timeline
 ```
 
 Look at the harmonized table:

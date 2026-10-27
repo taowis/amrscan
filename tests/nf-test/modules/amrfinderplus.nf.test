@@ -13,7 +13,7 @@ nextflow_process {
             }
             process {
                 """
-                input[0] = Channel.of(tuple('blaTEM-1',
+                input[0] = Channel.of(tuple([id: 'blaTEM-1'],
                     file("${projectDir}/tests/fixtures/blaTEM-1_NG_050145.1.fna", checkIfExists: true)))
                 input[1] = file(params.amrfinder_db, checkIfExists: true)
                 """
@@ -29,7 +29,8 @@ nextflow_process {
                 { assert report[0]['Element symbol'] == 'blaTEM-1' },
                 { assert provenance.status == 'success' },
                 { assert provenance.caller_version == '4.2.7' },
-                { assert provenance.database_id.startsWith('sha256:') }
+                { assert provenance.database_id.startsWith('sha256:') },
+                { assert path(process.out.versions[0]).text.contains('amrfinderplus: 4.2.7') }
             )
         }
     }

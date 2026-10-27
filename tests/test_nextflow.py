@@ -61,15 +61,25 @@ class NextflowTests(unittest.TestCase):
         invalid.write_text("@read\nACGT\n+\nIIII\n")
         unsafe = self.directory / "unsafe sample.fna"
         unsafe.write_bytes(tiny.read_bytes())
-        for args, message in [([], "Provide --input"),
+        for args, message in [([], "Missing required parameter(s): input"),
                               (["--input", self.directory / "missing.fna"], "No such file"),
                               (["--input", invalid], "Expected assembled FASTA"),
                               (["--input", unsafe], "Unsafe sample ID"),
-                              (["--input", tiny, "--threads", "0"], "positive integer"),
-                              (["--input", tiny, "--amrfinder_identity", "2"], "must be -1"),
-                              (["--input", tiny, "--amrfinder_coverage", "NaN"], "between 0 and 1")]:
+                              (["--input", tiny, "--threads", "0"], "--threads (): 0 is less than 1"),
+                              (["--input", tiny, "--threads", "1.5"], "should be [integer]"),
+                              (["--input", tiny, "--amrfinder_identity", "2"], "2 is greater than 1"),
+                              (["--input", tiny, "--amrfinder_identity", "-0.5"], "must be -1"),
+                              (["--input", tiny, "--amrfinder_coverage", "NaN"], "should be [number]")]:
             with self.subTest(args=args):
                 self.assertIn(message, self.validate(*args, success=False))
+
+    def test_missing_or_file_database_fails_schema_validation(self):
+        tiny = ROOT / "tests/fixtures/tiny.fna"
+        output = self.run_nf("run", ROOT / "main.nf", "--validate_only", "--input", tiny, success=False)
+        self.assertIn("Missing required parameter(s): amrfinder_db", output)
+        output = self.run_nf("run", ROOT / "main.nf", "--validate_only", "--input", tiny,
+                             "--amrfinder_db", tiny, success=False)
+        self.assertIn("is not a directory", output)
 
     def test_duplicate_sample_ids_fail_before_scheduling(self):
         for name in ("same.fa", "same.fna"):
