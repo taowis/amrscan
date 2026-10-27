@@ -45,8 +45,7 @@ AMRFinderPlus 4.2.7 against the pinned database on
 `fixtures/blaTEM-1_NG_050145.1.fna`, the NCBI reference sequence for
 *blaTEM-1* (public domain, see `fixtures/NCBI-LICENSE.txt`), and expect exactly
 one `blaTEM-1` row. These cases are tagged `database`; they also check
-`versions.yml` and, for the pipeline, `pipeline_info/software_versions.yml`
-and the execution trace. The other pipeline cases check `--validate_only` and
+`versions.yml` and, for the pipeline, `pipeline_info/software_versions.yml`. The other pipeline cases check `--validate_only` and
 the schema message for a missing database argument.
 
 `legacy/tests/test-run.R` belongs to version 1 and is not part of the

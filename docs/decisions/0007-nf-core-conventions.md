@@ -49,7 +49,7 @@ which on a shared cluster is an expected event, not an error in the data.
   and that the Groovy identity check still catches values between -1 and 0.
 - nf-test checks the meta map through both modules, `versions.yml` with
   AMRFinderPlus 4.2.7, and that the end-to-end run writes
-  `software_versions.yml` and a trace.
+  `software_versions.yml` (nf-test replaces the trace with its own).
 - The `test` profile run with Docker on 2026-10-28 produced the same
   harmonized result as before and the four reports.
 
