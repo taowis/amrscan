@@ -1,10 +1,22 @@
 # AMRScan
 
-AMRScan detects antimicrobial resistance (AMR) genes and mutations in bacterial
-genome assemblies. Version 2 is a Nextflow workflow around NCBI AMRFinderPlus
-that records the software and database used for every run and harmonizes the
-calls into one table. A separate tool archives public antimicrobial
-susceptibility testing (AST) data from NCBI Pathogen Detection.
+AMRScan calls antimicrobial resistance (AMR) genes and point mutations in
+bacterial genome assemblies with NCBI AMRFinderPlus, inside a Nextflow workflow
+that records the software, database and input hashes of every run and
+harmonizes the calls into one table. A second tool archives public
+antimicrobial susceptibility testing (AST) data from NCBI Pathogen Detection,
+so that every phenotype can be traced back to its source export and genome.
+
+Together they are the data layer of a larger study of genomic AMR prediction in
+*Escherichia coli*: 10,521 public genome-sequenced isolates with 162,629
+susceptibility results from 26 countries, collected 2009–2025, each genome
+called with the same pinned AMRFinderPlus release. The study asks how well
+resistance predicted from the genome carries over to lineages, countries,
+submitting projects and years that were not in training, and which resistance
+mechanisms account for the cases where it does not. The cohort build,
+population structure, determinant baseline, generalisation benchmark across 24
+drugs and six split designs, and the error analysis are being prepared for
+publication and will be released here with the manuscript.
 
 A sequence match does not by itself establish phenotypic resistance. A negative
 report also does not establish susceptibility. Retain caller methods, database
