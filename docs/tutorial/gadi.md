@@ -1,11 +1,12 @@
 # 5. Running on Gadi
 
 The `gadi` profile submits each AMRFinderPlus task as a PBS job on
-`normalbw`, charges it to `$PROJECT` and runs it in the pinned image under
+`normalbw`, charges it to `$NCI_PROJECT` and runs it in the pinned image under
 SingularityCE. It follows the nf-core/configs `nci_gadi` profile and has been
 run on 1,000 *E. coli* assemblies ([record](../gadi-scale-run.md)).
 
-Work in `/scratch/$PROJECT/$USER` throughout. The home quota is 10 GB, so
+Work in `/scratch/<project>/$USER` throughout; the commands below use qn73
+as the project. The home quota is 10 GB, so
 keep Nextflow's home and the image cache on scratch too (the scripts below do
 this).
 
@@ -13,7 +14,7 @@ this).
 
 ```bash
 module load singularity
-W=/scratch/$PROJECT/$USER/amrscan-run
+W=/scratch/qn73/$USER/amrscan-run
 mkdir -p $W && cd $W
 git clone https://github.com/taowis/amrscan.git
 export SINGULARITY_CACHEDIR=$W/singularity_tmp SINGULARITY_TMPDIR=$W/singularity_tmp
@@ -41,12 +42,13 @@ task jobs. `examples/gadi-scale/run_amrscan.pbs` is a working example:
 
 ```bash
 cd $W/amrscan
-qsub -P $PROJECT -l storage=scratch/$PROJECT \
-  -v WORK=$W,THREADS=2 -o $W/head.log examples/gadi-scale/run_amrscan.pbs
+qsub -P qn73 -l storage=scratch/qn73 \
+  -v NCI_PROJECT=qn73,WORK=$W,THREADS=2 -o $W/head.log examples/gadi-scale/run_amrscan.pbs
 ```
 
-It expects `samplesheet.csv` and `db/2026-08-07.1` in `$WORK`, sets `PROJECT`
-to the project the job was submitted under, and passes `-resume`, so
+It expects `samplesheet.csv` and `db/2026-08-07.1` in `$WORK`. Give the same
+project to `-P` and `NCI_PROJECT`: the first pays for the head job, the
+second for the task jobs. It passes `-resume`, so
 resubmitting after a failure only reruns what did not finish.
 
 ## What the profile sets
@@ -54,13 +56,13 @@ resubmitting after a failure only reruns what did not finish.
 | Setting | Value |
 | --- | --- |
 | Executor | `pbspro` for AMRFinderPlus, up to 300 queued jobs; harmonizing runs inside the head job |
-| Project | `$PROJECT` from the environment |
-| Storage | `$GADI_STORAGE` if set, else `gdata/<project>+scratch/<project>` |
+| Project | `$NCI_PROJECT`, default `qn73` |
+| Storage | `$GADI_STORAGE` if set, else `scratch/<project>` |
 | Queue | `normalbw` below 128 GB, `normal` up to 190 GB, `hugemembw` above |
-| Image | the Docker image, converted once into `/scratch/$PROJECT/$USER/nxf_singularity_cache` |
+| Image | the Docker image, converted once into `$NXF_SINGULARITY_CACHEDIR`, else `singularity/` in the launch directory |
 
 Command-line parameters cannot set the project or storage: the profile is
-read before they are applied. Export `PROJECT` or `GADI_STORAGE` instead.
+read before they are applied. Export `NCI_PROJECT` or `GADI_STORAGE` instead.
 
 ## Sizing a run
 

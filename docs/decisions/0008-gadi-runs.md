@@ -27,13 +27,15 @@ scheduled and tied to the exact files downloaded.
 ## Decision
 
 - **Engine and image.** The profile enables Singularity and uses the Docker
-  image of decision 0005, converted once into
-  `/scratch/$PROJECT/$USER/nxf_singularity_cache`.
-- **Project and storage** come from the environment, as in `nci_gadi`:
-  `PROJECT`, and `GADI_STORAGE` if set (default
-  `gdata/$PROJECT+scratch/$PROJECT`). The `gadi_project` and `gadi_storage`
-  parameters are removed. `examples/gadi-scale/run_amrscan.pbs` sets
-  `PROJECT` to the project the head job was submitted under.
+  image of decision 0005, converted once into `$NXF_SINGULARITY_CACHEDIR`
+  (default `singularity/` in the launch directory).
+- **Project and storage** come from the environment: `NCI_PROJECT`
+  (default `qn73`), and `GADI_STORAGE` if set (default
+  `scratch/$NCI_PROJECT`). The `gadi_project` and `gadi_storage`
+  parameters are removed. The PBS scripts carry `#PBS -P qn73` and
+  `-l storage=scratch/qn73`; another project is given at submit time with
+  `qsub -P` and `-v NCI_PROJECT=`, which override the directives, so the
+  files do not change between the repository and Gadi.
 - **Executors.** Each AMRFinderPlus task is a PBS job on `normalbw`.
   Harmonizing a report takes about a second, so it runs with the `local`
   executor inside the head job instead of as a PBS job per sample.
@@ -67,8 +69,10 @@ scheduled and tied to the exact files downloaded.
 
 ## Consequences
 
-- A run on another project needs `PROJECT` set (it is at login) or the head
-  job submitted with `-P`; nothing in the repository names a project.
+- A run on another project passes it at submit time (`qsub -P <project> -l
+  storage=scratch/<project> -v NCI_PROJECT=<project>`). If `-P` and
+  `NCI_PROJECT` differ, the head job and the task jobs are charged to
+  different projects.
 - One PBS job per assembly costs queueing time rather than SU: the pilot
   tasks ran for about 20 s each.
 - The first run on a new account spends a few minutes converting the image.
@@ -82,3 +86,16 @@ scheduled and tied to the exact files downloaded.
 - **Keep `--gadi_project` and resolve paths lazily:** the cache directory and
   directives are read when the config is parsed, so a parameter cannot set
   them without a wrapper script.
+- **Take the project from `qstat -f` inside the head job** (the first
+  version): `-P` alone was enough, but the profile then depended on the
+  login default `PROJECT` outside the head job, and the default was not
+  visible in the files.
+
+## Amendment, 2026-10-29
+
+The first version read the project from `PROJECT`, which on Gadi is the
+login default, and the head job reset it from `qstat`. It now reads
+`NCI_PROJECT` with `qn73` as the default, and the image cache moved from a
+fixed path under `/scratch/<project>/$USER` to `NXF_SINGULARITY_CACHEDIR` or
+the launch directory, so no committed file holds a project-specific path.
+The run records in `examples/gadi-scale/` show `qn73` as the project.
