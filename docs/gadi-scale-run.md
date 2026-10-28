@@ -29,8 +29,8 @@ files. It is a software run; no phenotype is used. Design: [decision
 ## Command
 
 ```bash
-qsub -P iz89 -l storage=scratch/iz89 \
-  -v WORK=/scratch/iz89/$USER/amrscan-scale/full,THREADS=2 \
+qsub -P qn73 -l storage=scratch/qn73 \
+  -v NCI_PROJECT=qn73,WORK=/scratch/qn73/$USER/amrscan-scale/full,THREADS=2 \
   examples/gadi-scale/run_amrscan.pbs
 ```
 

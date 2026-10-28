@@ -2,8 +2,9 @@
 # Download the assemblies in ecoli_1000.tsv from NCBI Datasets, check them
 # against ecoli_1000.sha256 and write samplesheet.csv. copyq is the Gadi queue
 # with internet access. Submit from the repository root:
-#   qsub -P <project> -l storage=scratch/<project> -v WORK=/scratch/<project>/$USER/amrscan-scale \
-#       examples/gadi-scale/fetch_genomes.pbs
+#   qsub -P qn73 -l storage=scratch/qn73 -v WORK=<run dir> examples/gadi-scale/fetch_genomes.pbs
+#PBS -P qn73
+#PBS -l storage=scratch/qn73
 #PBS -q copyq
 #PBS -l ncpus=1,mem=8GB,walltime=04:00:00,wd
 #PBS -N amrscan-fetch
