@@ -124,6 +124,10 @@ def call(args):
         raise ValueError("threads must be positive")
     if not (args.identity == -1 or 0 <= args.identity <= 1) or not 0 <= args.coverage <= 1:
         raise ValueError("identity must be -1 or [0,1]; coverage must be [0,1]")
+    input_sha256 = sha256(args.input)
+    expected = getattr(args, "expected_sha256", None)
+    if expected and input_sha256 != expected.lower():
+        raise ValueError(f"input SHA-256 {input_sha256} does not match the expected {expected}")
     database = Path(args.database)
     if not database.is_dir():
         raise ValueError("AMRFinderPlus database must be an existing directory")
@@ -148,7 +152,7 @@ def call(args):
         command.append("--plus")
     metadata = {
         "schema_version": "1.0", "sample_id": args.sample, "tool": "AMRFinderPlus",
-        "caller_version": version, "command": command, "input_sha256": sha256(args.input),
+        "caller_version": version, "command": command, "input_sha256": input_sha256,
         "database_source": args.database_source or str(database.resolve()),
         "database_files_sha256": db_files,
         "database_id": "sha256:" + hashlib.sha256(json_text(db_files).encode()).hexdigest(),
@@ -179,6 +183,7 @@ def main(argv=None):
     run.add_argument("--coverage", type=float, default=0.5)
     run.add_argument("--organism")
     run.add_argument("--plus", action="store_true")
+    run.add_argument("--expected-sha256", help="Stop unless the input has this SHA-256")
     run.add_argument("--log", required=True, type=Path)
     convert = sub.add_parser("harmonize", help="Convert a report without discarding caller evidence")
     convert.add_argument("--output", required=True, type=Path)

@@ -8,11 +8,13 @@
         "input_output_options": {
             "title": "Input/output options",
             "type": "object",
-            "required": ["input"],
+            "required": [
+                "input"
+            ],
             "properties": {
                 "input": {
                     "type": "string",
-                    "description": "One assembled FASTA (.fa, .fna, .fasta, optionally .gz) or a quoted file glob."
+                    "description": "One assembled FASTA (.fa, .fna, .fasta, optionally .gz), a quoted file glob, or a CSV samplesheet with columns sample, fasta and optional sha256 (assets/schema_input.json)."
                 },
                 "outdir": {
                     "type": "string",
@@ -29,7 +31,9 @@
         "amrfinderplus_options": {
             "title": "AMRFinderPlus options",
             "type": "object",
-            "required": ["amrfinder_db"],
+            "required": [
+                "amrfinder_db"
+            ],
             "properties": {
                 "amrfinder_db": {
                     "type": "string",
@@ -72,28 +76,15 @@
                 }
             }
         },
-        "institutional_config_options": {
-            "title": "Institutional config options",
-            "type": "object",
-            "properties": {
-                "gadi_project": {
-                    "type": "string",
-                    "hidden": true,
-                    "description": "NCI project charged for Gadi jobs (gadi profile; defaults to $PROJECT)."
-                },
-                "gadi_storage": {
-                    "type": "string",
-                    "hidden": true,
-                    "description": "PBS storage directive for Gadi jobs (gadi profile)."
-                }
-            }
-        },
         "generic_options": {
             "title": "Generic options",
             "type": "object",
             "properties": {
                 "help": {
-                    "type": ["boolean", "string"],
+                    "type": [
+                        "boolean",
+                        "string"
+                    ],
                     "hidden": true,
                     "description": "Show this help, or the help for one parameter."
                 }
@@ -101,9 +92,14 @@
         }
     },
     "allOf": [
-        { "$ref": "#/$defs/input_output_options" },
-        { "$ref": "#/$defs/amrfinderplus_options" },
-        { "$ref": "#/$defs/institutional_config_options" },
-        { "$ref": "#/$defs/generic_options" }
+        {
+            "$ref": "#/$defs/input_output_options"
+        },
+        {
+            "$ref": "#/$defs/amrfinderplus_options"
+        },
+        {
+            "$ref": "#/$defs/generic_options"
+        }
     ]
 }

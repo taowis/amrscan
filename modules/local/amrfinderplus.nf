@@ -16,6 +16,7 @@ process AMRFINDERPLUS {
     def quote = { value -> "'" + value.toString().replace("'", "'\"'\"'") + "'" }
     def organism = params.amrfinder_organism ? "--organism ${quote(params.amrfinder_organism)}" : ''
     def plus = params.amrfinder_plus ? '--plus' : ''
+    def expected = meta.sha256 ? "--expected-sha256 ${meta.sha256}" : ''
     """
     amrscan.py call \
         --sample ${quote(meta.id)} --input ${quote(assembly)} \
@@ -24,7 +25,7 @@ process AMRFINDERPLUS {
         --identity ${params.amrfinder_identity} --coverage ${params.amrfinder_coverage} \
         --raw ${quote(meta.id + '.amrfinder.tsv')} \
         --provenance ${quote(meta.id + '.provenance.json')} \
-        --log ${quote(meta.id + '.amrfinder.log')} ${organism} ${plus}
+        --log ${quote(meta.id + '.amrfinder.log')} ${organism} ${plus} ${expected}
 
     cat <<-END_VERSIONS > versions.yml
     "${task.process}":

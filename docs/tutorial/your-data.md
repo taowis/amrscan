@@ -16,6 +16,10 @@ nextflow run main.nf -profile docker \
 
 Keep the quotes around the glob so Nextflow, not the shell, expands it.
 
+For more than a handful of files, a CSV samplesheet with columns `sample`,
+`fasta` and an optional `sha256` is easier to check and to keep with the
+results; see the README. `--input samples.csv` takes it in place of the glob.
+
 Before a large run, check the inputs without running anything:
 
 ```bash

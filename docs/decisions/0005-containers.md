@@ -26,6 +26,7 @@ available at all (Conda).
   Seqera Containers and pin it by tag:
   - Docker/OCI: `community.wave.seqera.io/library/ncbi-amrfinderplus_python:d86c65c0b0a702da`
   - Apptainer/Singularity SIF: `oras://community.wave.seqera.io/library/ncbi-amrfinderplus_python:03c3120e1c088608`
+    (replaced on 2026-10-28, see below)
 - The `conda` profile builds from `environment/amrfinderplus.yml`, the same
   specification, so the three engines carry the same tool versions.
 - The database is not baked into the image. `scripts/fetch_amrfinder_db.sh`
@@ -35,6 +36,14 @@ available at all (Conda).
 - The Gadi profile follows the nf-core/configs `nci_gadi` profile (PBS Pro,
   project and storage directives from Gadi's Nextflow module, Singularity
   module, lenient cache) and uses the SIF.
+
+Amended 2026-10-28: the first run on Gadi (SingularityCE 3.11.3) could not pull
+the `oras://` tag; the registry returns a Docker manifest for it
+(`could not get image manifest, received mediaType:
+application/vnd.docker.distribution.manifest.v2+json`). The `apptainer`,
+`singularity` and `gadi` profiles now use the Docker image above, which
+Singularity and Apptainer convert to a SIF once and keep in their cache. All
+engines therefore run the same image digest. See decision 0008.
 
 ## Evidence
 

@@ -2,7 +2,7 @@
 
 nextflow.enable.dsl = 2
 
-include { validateParameters; paramsSummaryLog } from 'plugin/nf-schema'
+include { validateParameters; paramsSummaryLog; samplesheetToList } from 'plugin/nf-schema'
 include { AMRSCAN } from './workflows/amrscan'
 
 workflow {
@@ -15,8 +15,27 @@ workflow {
     if (!(identity == -1 || (identity >= 0 && identity <= 1))) error '--amrfinder_identity must be -1 or between 0 and 1.'
     def database = file(params.amrfinder_db, checkIfExists: true)
 
+    if (params.input.toString().endsWith('.csv')) {
+        // Samplesheet: columns, paths, IDs and uniqueness are checked by assets/schema_input.json.
+        samples = Channel.fromList(samplesheetToList(params.input, "${projectDir}/assets/schema_input.json"))
+    } else {
+        samples = fastaChannel(params.input)
+    }
+    if (params.validate_only) {
+        samples.view { meta, fasta -> "Validated ${meta.id}: ${fasta} (caller NOT executed)" }
+    } else {
+        AMRSCAN(samples, Channel.value(database))
+        // One entry per process: every task writes its own, identical versions.yml.
+        AMRSCAN.out.versions
+            .unique { it.text }
+            .collectFile(name: 'software_versions.yml', storeDir: "${params.outdir}/pipeline_info", sort: true)
+    }
+}
+
+// FASTA file or glob: the sample ID is the file name without its suffixes.
+def fastaChannel(pattern) {
     // Collect before scheduling: reject duplicate IDs before any output can collide.
-    samples = Channel.fromPath(params.input, checkIfExists: true, type: 'file')
+    Channel.fromPath(pattern, checkIfExists: true, type: 'file')
         .toList()
         .flatMap { files ->
             def seen = [] as Set
@@ -30,12 +49,4 @@ workflow {
                 tuple([id: sample], fasta)
             }
         }
-    if (params.validate_only) {
-        samples.view { meta, fasta -> "Validated ${meta.id}: ${fasta} (caller NOT executed)" }
-    } else {
-        AMRSCAN(samples, Channel.value(database))
-        AMRSCAN.out.versions
-            .unique()
-            .collectFile(name: 'software_versions.yml', storeDir: "${params.outdir}/pipeline_info", sort: true)
-    }
 }

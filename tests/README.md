@@ -21,7 +21,9 @@ construction, database/input/report checksums and failed-command propagation.
 Nextflow tests invoke the actual installed runtime in isolated temporary
 directories, offline, so the nf-schema plugin must be installed first
 (`nextflow plugin install nf-schema@2.5.1`). They check the parameter schema
-messages as well as the checks in `main.nf`. They compile DSL2 modules, validate config and assembly inputs,
+messages as well as the checks in `main.nf`. A CSV samplesheet is checked against
+`assets/schema_input.json` (duplicate IDs, unsafe IDs, missing files, malformed
+hashes), and a wrong `sha256` must stop the AMRFinderPlus task. They compile DSL2 modules, validate config and assembly inputs,
 check gzip/sample IDs and errors, run the real harmonizer process, and verify
 that a missing AMRFinderPlus executable fails the workflow. The optional legacy
 test runs actual BLAST+ and R against a tiny synthetic no-hit input/reference.

@@ -1,0 +1,5 @@
+"AMRSCAN:AMRFINDERPLUS":
+    amrfinderplus: 4.2.7
+    python: 3.12.15
+"AMRSCAN:HARMONIZE_AMRFINDER":
+    python: 3.12.15
