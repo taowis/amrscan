@@ -320,6 +320,33 @@ def validate(manifest, genomes):
     return len(rows)
 
 
+def samplesheet(genome_dirs, output):
+    """Write an AMRScan samplesheet (sample,fasta,sha256) from retrieved genome directories."""
+    output = Path(output)
+    if output.exists():
+        raise ValueError(f"refusing to replace existing samplesheet: {output}")
+    rows, seen = [], set()
+    for directory in genome_dirs:
+        directory = Path(directory).resolve()
+        payload = json.loads((directory / "provenance.json").read_text(encoding="utf-8"))
+        for item in payload["assemblies"]:
+            path = directory / item["file"]
+            if path.parent != directory or not path.is_file() or sha256(path) != item["sha256"]:
+                raise ValueError(f"missing file or SHA-256 mismatch: {path}")
+            sample = path.name.removesuffix(".fna")
+            if sample in seen:
+                raise ValueError(f"duplicate sample across genome directories: {sample}")
+            seen.add(sample)
+            rows.append({"sample": sample, "fasta": str(path), "sha256": item["sha256"]})
+    if not rows:
+        raise ValueError("no assemblies found")
+    with output.open("x", newline="", encoding="utf-8") as stream:
+        writer = csv.DictWriter(stream, fieldnames=["sample", "fasta", "sha256"], lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(sorted(rows, key=lambda row: row["sample"]))
+    return len(rows)
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     commands = parser.add_subparsers(dest="action", required=True)
@@ -333,9 +360,14 @@ def main(argv=None):
     cmd.add_argument("--manifest", required=True, type=Path)
     cmd.add_argument("--packages-tsv", required=True, type=Path)
     cmd.add_argument("--outdir", required=True, type=Path)
+    cmd = commands.add_parser("samplesheet")
+    cmd.add_argument("--genomes", required=True, type=Path, nargs="+")
+    cmd.add_argument("--output", required=True, type=Path)
     args = parser.parse_args(argv)
     try:
-        if args.action == "download":
+        if args.action == "samplesheet":
+            print(f"samplesheet rows: {samplesheet(args.genomes, args.output)}")
+        elif args.action == "download":
             download(args.manifest, args.outdir)
             print("download complete")
         elif args.action == "validate":

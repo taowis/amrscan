@@ -97,6 +97,21 @@ FASTA and gzip suffixes removed. They must be unique and contain only letters,
 digits, `_`, `.`, `-`, beginning with a letter or digit. Duplicate IDs fail before
 any tasks are scheduled.
 
+For many assemblies, pass a CSV samplesheet instead of a glob:
+
+```text
+sample,fasta,sha256
+isolate_01,/data/assemblies/isolate_01.fna,42d8e68b97c7...
+isolate_02,/data/assemblies/isolate_02.fna.gz,
+```
+
+`sha256` is optional. When it is given, the task stops unless the file has that
+hash, so a run can be tied to the exact files that were downloaded. Use
+absolute paths, or paths relative to the directory Nextflow is launched from.
+The sheet is checked against [`assets/schema_input.json`](assets/schema_input.json)
+before anything runs (unique IDs, existing files, FASTA suffixes).
+`bin/genome_dataset.py samplesheet` writes one from downloaded NCBI assemblies.
+
 Requirements:
 
 - Nextflow **25.04.6** or later, with Java 17 or later.
@@ -105,9 +120,9 @@ Requirements:
 | Profile | Engine | Notes |
 | --- | --- | --- |
 | `docker` | Docker | Laptops and desktops; runs under emulation on Apple silicon |
-| `apptainer`, `singularity` | Apptainer or Singularity | HPC; pulls a SIF image |
+| `apptainer`, `singularity` | Apptainer or Singularity | HPC; converts the Docker image to a cached SIF |
 | `conda` | Conda | Builds `environment/amrfinderplus.yml` |
-| `gadi` | Singularity on NCI Gadi, PBS Pro | See [Running on Gadi](docs/tutorial/gadi.md); not yet run on Gadi |
+| `gadi` | SingularityCE on NCI Gadi, PBS Pro | See [Running on Gadi](docs/tutorial/gadi.md) and the [1,000-assembly run](docs/gadi-scale-run.md) |
 
   Every profile provides AMRFinderPlus **4.2.7** with Python 3.12 from the same
   specification ([decision 0005](docs/decisions/0005-containers.md)). The
@@ -149,7 +164,7 @@ and [interpretation](https://github.com/ncbi/amr/wiki/Interpreting-results).
 
 | Parameter | Default | Meaning |
 | --- | --- | --- |
-| `input` | required | One FASTA or a quoted file glob |
+| `input` | required | One FASTA, a quoted file glob, or a CSV samplesheet |
 | `outdir` | `results/v2` | Publication directory |
 | `threads` | `4` | CPUs per caller task |
 | `amrfinder_db` | required | Existing, indexed database directory |

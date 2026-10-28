@@ -81,6 +81,22 @@ class NextflowTests(unittest.TestCase):
                              "--amrfinder_db", tiny, success=False)
         self.assertIn("is not a directory", output)
 
+    def test_samplesheet_input(self):
+        tiny = ROOT / "tests/fixtures/tiny.fna"
+        digest = hashlib.sha256(tiny.read_bytes()).hexdigest()
+        sheet = self.directory / "samples.csv"
+        sheet.write_text(f"sample,fasta,sha256\nfirst,{tiny},{digest}\nsecond,{tiny},\n")
+        output = self.validate("--input", sheet)
+        self.assertIn("Validated first:", output)
+        self.assertIn("Validated second:", output)
+        for rows, message in [(f"first,{tiny},\nfirst,{tiny},\n", "duplicate entries: [sample:first]"),
+                              (f"bad id,{tiny},\n", "Sample ID must start"),
+                              (f"first,{self.directory / 'absent.fna'},\n", "FASTA must exist"),
+                              (f"first,{tiny},abc\n", "64 hexadecimal")]:
+            with self.subTest(rows=rows):
+                sheet.write_text("sample,fasta,sha256\n" + rows)
+                self.assertIn(message, self.validate("--input", sheet, success=False))
+
     def test_duplicate_sample_ids_fail_before_scheduling(self):
         for name in ("same.fa", "same.fna"):
             (self.directory / name).write_bytes((ROOT / "tests/fixtures/tiny.fna").read_bytes())
@@ -108,6 +124,14 @@ class NextflowTests(unittest.TestCase):
             "--outdir", self.directory / "results", "--threads", "1", success=False)
         self.assertIn("AMRFinderPlus executable not found", output)
         self.assertFalse((self.directory / "results/harmonized/tiny.amr.tsv").exists())
+
+    def test_samplesheet_hash_mismatch_stops_the_task(self):
+        sheet = self.directory / "samples.csv"
+        sheet.write_text(f"sample,fasta,sha256\ntiny,{ROOT / 'tests/fixtures/tiny.fna'},{'0' * 64}\n")
+        (self.db / "marker").write_text("NOT AN AMR DATABASE")
+        output = self.run_nf("run", ROOT / "main.nf", "--input", sheet, "--amrfinder_db", self.db,
+            "--outdir", self.directory / "results", "--threads", "1", success=False)
+        self.assertIn("does not match the expected", output)
 
     @unittest.skipUnless(shutil.which("blastx") and shutil.which("makeblastdb") and shutil.which("Rscript"),
                          "Legacy smoke requires BLAST+ and R with dplyr/magrittr")

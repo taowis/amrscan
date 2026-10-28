@@ -4,11 +4,11 @@
 # Hashes and provenance are written next to the release directory, not inside
 # it, because AMRScan fingerprints every file in the database directory.
 #
-# usage: scripts/fetch_amrfinder_db.sh [--engine local|docker|apptainer] [VERSION] [OUTROOT]
+# usage: scripts/fetch_amrfinder_db.sh [--engine local|docker|apptainer|singularity] [VERSION] [OUTROOT]
 #   VERSION  database release, default 2026-08-07.1 (format 4.2, AMRFinderPlus 4.2.x)
 #   OUTROOT  parent directory, default db/amrfinderplus; the release lands in OUTROOT/VERSION
 #   --engine how to run amrfinder_index: on PATH (local, e.g. the Conda environment),
-#            or inside the pipeline container with Docker or Apptainer
+#            or inside the pipeline container with Docker, Apptainer or SingularityCE
 set -euo pipefail
 
 engine=local
@@ -40,6 +40,7 @@ case $engine in
     local)     amrfinder_index "$abs" ;;
     docker)    docker run --rm --platform linux/amd64 -u "$(id -u):$(id -g)" -v "$abs:$abs" "$image" amrfinder_index "$abs" ;;
     apptainer) apptainer exec -B "$abs" "docker://${image}" amrfinder_index "$abs" ;;
+    singularity) singularity exec -B "$abs" "docker://${image}" amrfinder_index "$abs" ;;
     *)         echo "Unknown engine: $engine" >&2; exit 2 ;;
 esac
 touch "${outroot}/${version}.indexed"

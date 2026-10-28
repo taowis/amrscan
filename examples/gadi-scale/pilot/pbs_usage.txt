@@ -1,0 +1,11 @@
+                  Resource Usage on 2026-10-28 09:58:34:
+   Job Id:             182408190.gadi-pbs
+   Project:            iz89
+   Exit Status:        0
+   Service Units:      0.74
+   NCPUs Requested:    1                   CPU Time Used: 00:05:41        
+   Memory Requested:   8.0GB                 Memory Used: 3.92GB          
+   Walltime Requested: 02:00:00            Walltime Used: 00:11:06        
+   JobFS Requested:    100.0MB                JobFS Used: 126.94KB        
+======================================================================================
+AMRFINDERPLUS PBS jobs: 20, total SU 0.65

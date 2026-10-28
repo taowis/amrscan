@@ -1,57 +1,70 @@
 # 5. Running on Gadi
 
-!!! warning
-    The `gadi` profile follows the nf-core/configs `nci_gadi` profile but has
-    not yet been run on Gadi as part of this project. Check it on a small
-    input first and report problems as GitHub issues.
+The `gadi` profile submits each AMRFinderPlus task as a PBS job on
+`normalbw`, charges it to `$PROJECT` and runs it in the pinned image under
+SingularityCE. It follows the nf-core/configs `nci_gadi` profile and has been
+run on 1,000 *E. coli* assemblies ([record](../gadi-scale-run.md)).
 
-The profile submits each task as a PBS job, charges it to your project, and
-runs it in the Apptainer/Singularity image.
+Work in `/scratch/$PROJECT/$USER` throughout. The home quota is 10 GB, so
+keep Nextflow's home and the image cache on scratch too (the scripts below do
+this).
 
 ## One-time setup on a login node
 
 ```bash
-module load nextflow singularity
-cd /scratch/$PROJECT/$USER
+module load singularity
+W=/scratch/$PROJECT/$USER/amrscan-run
+mkdir -p $W && cd $W
 git clone https://github.com/taowis/amrscan.git
-cd amrscan
-scripts/fetch_amrfinder_db.sh --engine apptainer 2026-08-07.1 /g/data/$PROJECT/$USER/amrfinderplus
+export SINGULARITY_CACHEDIR=$W/singularity_tmp SINGULARITY_TMPDIR=$W/singularity_tmp
+mkdir -p $SINGULARITY_TMPDIR
+amrscan/scripts/fetch_amrfinder_db.sh --engine singularity 2026-08-07.1 $W/db
 ```
 
-If `apptainer` is not on the path after loading the module, use
-`singularity`; edit the last line of the `apptainer)` case in the script or
-run `amrfinder_index` through `singularity exec` yourself.
+This downloads and indexes the database release (about 125 MB) with the
+pinned image.
 
-Check that the Nextflow module is 25.04.6 or later (`nextflow -version`). The
-profile uses the `project` and `storage` directives, which work with the
-Nextflow module NCI provides.
+## Inputs
 
-## Pull the image before running
+For more than a few files, use a samplesheet (`sample,fasta,sha256`; see
+[your own assemblies](your-data.md)). To download public assemblies by
+accession, `bin/genome_dataset.py download` takes a manifest and
+`bin/genome_dataset.py samplesheet` writes the sheet with each file's
+SHA-256, which every task then checks. `examples/gadi-scale/fetch_genomes.pbs`
+does both in a `copyq` job, the queue with internet access.
 
-Compute nodes cannot reach the internet. Run the head job where there is
-network access (a login node for a short run, or a `copyq` job), so the image
-is pulled into the cache once:
+## The head job
+
+Run Nextflow itself as a small PBS job on `copyq`: it has internet access for
+the first image and plugin download, a 10-hour walltime, and can submit the
+task jobs. `examples/gadi-scale/run_amrscan.pbs` is a working example:
 
 ```bash
-nextflow run main.nf -profile gadi \
-  --input '/g/data/'$PROJECT'/assemblies/*.fna' \
-  --amrfinder_db /g/data/$PROJECT/$USER/amrfinderplus/2026-08-07.1 \
-  --outdir /scratch/$PROJECT/$USER/amrscan_results
+cd $W/amrscan
+qsub -P $PROJECT -l storage=scratch/$PROJECT \
+  -v WORK=$W,THREADS=2 -o $W/head.log examples/gadi-scale/run_amrscan.pbs
 ```
 
-The image is stored in `/scratch/$PROJECT/$USER/nxf_apptainer_cache`. Later
-runs reuse it.
+It expects `samplesheet.csv` and `db/2026-08-07.1` in `$WORK`, sets `PROJECT`
+to the project the job was submitted under, and passes `-resume`, so
+resubmitting after a failure only reruns what did not finish.
 
 ## What the profile sets
 
 | Setting | Value |
 | --- | --- |
-| Executor | `pbspro`, up to 300 queued jobs |
-| Project | `$PROJECT` (override with `--gadi_project`) |
-| Storage | `gdata/<project>+scratch/<project>` (override with `--gadi_storage`) |
+| Executor | `pbspro` for AMRFinderPlus, up to 300 queued jobs; harmonizing runs inside the head job |
+| Project | `$PROJECT` from the environment |
+| Storage | `$GADI_STORAGE` if set, else `gdata/<project>+scratch/<project>` |
 | Queue | `normalbw` below 128 GB, `normal` up to 190 GB, `hugemembw` above |
-| Image | the SIF from `oras://community.wave.seqera.io/...` |
+| Image | the Docker image, converted once into `/scratch/$PROJECT/$USER/nxf_singularity_cache` |
 
-AMRFinderPlus tasks ask for 4 CPUs, 4 GB and 2 hours by default, which fits a
-single assembly with room to spare. For thousands of assemblies the per-job
-overhead dominates; see the [exercises](exercises.md) for a discussion.
+Command-line parameters cannot set the project or storage: the profile is
+read before they are applied. Export `PROJECT` or `GADI_STORAGE` instead.
+
+## Sizing a run
+
+Each run writes a trace to `pipeline_info/`. On the pilot of 20 *E. coli*
+assemblies, an AMRFinderPlus task took about 20 s and peaked below 500 MB
+while using about two of the four CPUs it asked for, so the 1,000-assembly
+run used `--threads 2`. Try 20 assemblies, read the trace, then scale up.

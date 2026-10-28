@@ -1,0 +1,31 @@
+#!/bin/bash
+# Nextflow head job for the 1,000-assembly run. AMRFinderPlus tasks go to
+# normalbw as separate PBS jobs (gadi profile); harmonizing runs inside this
+# job. copyq has internet access for the image and plugin on the first run.
+# Submit from the repository root after fetch_genomes.pbs:
+#   qsub -P <project> -l storage=scratch/<project> -v WORK=/scratch/<project>/$USER/amrscan-scale \
+#       examples/gadi-scale/run_amrscan.pbs
+# Add THREADS=2 to -v to change the CPUs per AMRFinderPlus task (default 4).
+#PBS -q copyq
+#PBS -l ncpus=1,mem=8GB,walltime=10:00:00,wd
+#PBS -N amrscan-head
+#PBS -j oe
+set -euo pipefail
+module load nextflow/25.04.6 singularity
+repo=$PWD
+# The gadi profile charges $PROJECT. Use the project this job was submitted
+# under, which may differ from the login default.
+export PROJECT=$(qstat -f "$PBS_JOBID" | sed -n 's/^ *project = //p')
+export GADI_STORAGE=${GADI_STORAGE:-scratch/$PROJECT}
+# Keep Nextflow and image caches off the home quota.
+export NXF_HOME=$WORK/nxf_home
+export SINGULARITY_CACHEDIR=$WORK/singularity_tmp SINGULARITY_TMPDIR=$WORK/singularity_tmp
+mkdir -p "$SINGULARITY_TMPDIR"
+export NXF_OPTS='-Xms1g -Xmx4g'
+cd "$WORK"
+nextflow run "$repo/main.nf" -profile gadi -resume \
+    --input samplesheet.csv \
+    --amrfinder_db "$WORK/db/2026-08-07.1" \
+    --amrfinder_organism Escherichia \
+    --threads "${THREADS:-4}" \
+    --outdir results

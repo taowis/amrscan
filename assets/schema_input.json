@@ -1,0 +1,33 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://raw.githubusercontent.com/taowis/amrscan/main/assets/schema_input.json",
+    "title": "taowis/amrscan samplesheet",
+    "description": "One row per assembly: sample ID, FASTA path and optionally its SHA-256",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "sample": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$",
+                "errorMessage": "Sample ID must start with a letter or digit and contain only letters, digits, '_', '.' and '-'",
+                "meta": ["id"]
+            },
+            "fasta": {
+                "type": "string",
+                "format": "file-path",
+                "exists": true,
+                "pattern": "^\\S+\\.(fa|fna|fasta)(\\.gz)?$",
+                "errorMessage": "FASTA must exist and end in .fa, .fna or .fasta, optionally .gz"
+            },
+            "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-fA-F]{64}$",
+                "errorMessage": "sha256 must be 64 hexadecimal characters",
+                "meta": ["sha256"]
+            }
+        },
+        "required": ["sample", "fasta"]
+    },
+    "uniqueEntries": ["sample"]
+}

@@ -32,8 +32,10 @@ nav:
   - Reference:
       - Result schema: result-schema.md
       - AMRFinderPlus validation: amrfinder-validation.md
+      - 1,000 assemblies on Gadi: gadi-scale-run.md
       - AST dataset builder: ast-dataset-builder.md
   - Decisions:
       - 0005 Software environments: decisions/0005-containers.md
       - 0006 Caller wrapper: decisions/0006-caller-wrapper.md
       - 0007 nf-core conventions: decisions/0007-nf-core-conventions.md
+      - 0008 Gadi runs: decisions/0008-gadi-runs.md

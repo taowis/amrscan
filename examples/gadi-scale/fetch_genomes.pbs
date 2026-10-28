@@ -1,0 +1,45 @@
+#!/bin/bash
+# Download the assemblies in ecoli_1000.tsv from NCBI Datasets, check them
+# against ecoli_1000.sha256 and write samplesheet.csv. copyq is the Gadi queue
+# with internet access. Submit from the repository root:
+#   qsub -P <project> -l storage=scratch/<project> -v WORK=/scratch/<project>/$USER/amrscan-scale \
+#       examples/gadi-scale/fetch_genomes.pbs
+#PBS -q copyq
+#PBS -l ncpus=1,mem=8GB,walltime=04:00:00,wd
+#PBS -N amrscan-fetch
+#PBS -j oe
+set -euo pipefail
+module load python3/3.12.1
+repo=$PWD
+here=$repo/examples/gadi-scale
+cd "$WORK"
+mkdir -p chunks genomes
+
+# 100 assemblies per directory, so a failed download repeats only its chunk.
+tail -n +2 "$here/ecoli_1000.tsv" | split -l 100 -d - chunks/body_
+for body in chunks/body_*; do
+    part=${body#chunks/body_}
+    { head -1 "$here/ecoli_1000.tsv"; cat "$body"; } > "chunks/part_${part}.tsv"
+    rm "$body"
+done
+for manifest in chunks/part_*.tsv; do
+    part=$(basename "$manifest" .tsv)
+    [[ -f genomes/$part/provenance.json ]] && continue
+    for attempt in 1 2 3; do
+        rm -rf "genomes/$part"
+        if python3 "$repo/bin/genome_dataset.py" download --manifest "$manifest" --outdir "genomes/$part"; then
+            break
+        fi
+        [[ $attempt == 3 ]] && exit 1
+        sleep 60
+    done
+done
+
+rm -f samplesheet.csv
+python3 "$repo/bin/genome_dataset.py" samplesheet --genomes genomes/part_* --output samplesheet.csv
+# The NCBI files must be the ones the cohort was built from.
+awk -F, 'NR == FNR { split($0, f, "  "); want[f[2]] = f[1]; next }
+         FNR > 1 { n = split($2, p, "/"); rows++; if (want[p[n]] != $3) { print "hash mismatch: " p[n]; bad = 1 } }
+         END { if (rows != 1000) { print "expected 1000 rows, found " rows; bad = 1 }; exit bad }' \
+    "$here/ecoli_1000.sha256" samplesheet.csv
+echo "samplesheet.csv: 1000 assemblies, hashes match ecoli_1000.sha256"

@@ -153,6 +153,29 @@ class GenomeDatasetTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "SHA-256"):
             genome.validate(self.manifest, self.out)
 
+    def test_samplesheet_from_retrieved_genomes(self):
+        with patch.object(genome, "request_bytes", return_value=(package(), "https://ncbi.example/package")):
+            genome.download(self.manifest, self.out)
+        sheet = self.root / "samples.csv"
+        self.assertEqual(genome.main(["samplesheet", "--genomes", str(self.out), "--output", str(sheet)]), 0)
+        rows = list(csv.DictReader(sheet.open()))
+        self.assertEqual(rows, [{"sample": "PDT000000001.1_GCF_000000001.1",
+                                 "fasta": str((self.out / "PDT000000001.1_GCF_000000001.1.fna").resolve()),
+                                 "sha256": hashlib.sha256(FASTA).hexdigest()}])
+        with self.assertRaisesRegex(ValueError, "refusing to replace"):
+            genome.samplesheet([self.out], sheet)
+        sheet.unlink()
+        with self.assertRaisesRegex(ValueError, "duplicate sample"):
+            genome.samplesheet([self.out, self.out], sheet)
+        (self.out / "PDT000000001.1_GCF_000000001.1.fna").write_bytes(b">x\nTTTT\n")
+        with self.assertRaisesRegex(ValueError, "SHA-256 mismatch"):
+            genome.samplesheet([self.out], sheet)
+        empty = self.root / "empty"
+        empty.mkdir()
+        (empty / "provenance.json").write_text(json.dumps({"assemblies": []}))
+        with self.assertRaisesRegex(ValueError, "no assemblies"):
+            genome.samplesheet([empty], sheet)
+
     def test_current_ncbi_report_schema_and_manual_package_import(self):
         archive = package(report=CURRENT_REPORT)
         package_path = self.root / "assembly.zip"

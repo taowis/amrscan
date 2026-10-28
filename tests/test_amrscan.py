@@ -251,6 +251,18 @@ class CallerTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "empty"):
             amrscan.call(self.args)
 
+    def test_expected_input_hash(self):
+        with patch.object(amrscan.shutil, "which", return_value="/test/amrfinder"), \
+             patch.object(amrscan.subprocess, "run", side_effect=self.mock_caller):
+            self.args.expected_sha256 = amrscan.sha256(self.args.input).upper()
+            amrscan.call(self.args)
+            self.assertEqual(json.loads(self.args.provenance.read_text())["status"], "success")
+            self.args.provenance.unlink()
+            self.args.expected_sha256 = "0" * 64
+            with self.assertRaisesRegex(ValueError, "does not match the expected"):
+                amrscan.call(self.args)
+        self.assertFalse(self.args.provenance.exists())
+
     def test_cli_calls_runner(self):
         with patch.object(amrscan, "call") as run:
             amrscan.main(["call", "--sample", "x", "--input", "x.fa", "--database", "db",

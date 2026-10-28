@@ -1,0 +1,27 @@
+Head job (copyq, run_amrscan.pbs):
+======================================================================================
+                  Resource Usage on 2026-10-28 12:17:25:
+   Job Id:             182410275.gadi-pbs
+   Project:            iz89
+   Exit Status:        0
+   Service Units:      4.68
+   NCPUs Requested:    1                   CPU Time Used: 00:13:55        
+   Memory Requested:   8.0GB                 Memory Used: 1.01GB          
+   Walltime Requested: 10:00:00            Walltime Used: 01:10:09        
+   JobFS Requested:    100.0MB                JobFS Used: 156.6KB         
+======================================================================================
+
+Genome download (copyq, fetch_genomes.pbs):
+======================================================================================
+                  Resource Usage on 2026-10-28 10:50:45:
+   Job Id:             182408420.gadi-pbs
+   Project:            iz89
+   Exit Status:        0
+   Service Units:      1.60
+   NCPUs Requested:    1                   CPU Time Used: 00:03:35        
+   Memory Requested:   4.0GB                 Memory Used: 4.0GB           
+   Walltime Requested: 04:00:00            Walltime Used: 00:48:04        
+   JobFS Requested:    100.0MB                JobFS Used: 0B              
+======================================================================================
+
+AMRFINDERPLUS task jobs (normalbw): 998 of 1000 job logs report Service Units; total 20.69 SU
