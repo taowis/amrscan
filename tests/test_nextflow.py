@@ -84,11 +84,15 @@ class NextflowTests(unittest.TestCase):
     def test_samplesheet_input(self):
         tiny = ROOT / "tests/fixtures/tiny.fna"
         digest = hashlib.sha256(tiny.read_bytes()).hexdigest()
+        spaced = self.directory / "with space" / "third.fna"
+        spaced.parent.mkdir()
+        spaced.write_bytes(tiny.read_bytes())
         sheet = self.directory / "samples.csv"
-        sheet.write_text(f"sample,fasta,sha256\nfirst,{tiny},{digest}\nsecond,{tiny},\n")
+        sheet.write_text(f"sample,fasta,sha256\nfirst,{tiny},{digest}\nsecond,{tiny},\nthird,{spaced},\n")
         output = self.validate("--input", sheet)
         self.assertIn("Validated first:", output)
         self.assertIn("Validated second:", output)
+        self.assertIn("Validated third:", output)
         for rows, message in [(f"first,{tiny},\nfirst,{tiny},\n", "duplicate entries: [sample:first]"),
                               (f"bad id,{tiny},\n", "Sample ID must start"),
                               (f"first,{self.directory / 'absent.fna'},\n", "FASTA must exist"),
