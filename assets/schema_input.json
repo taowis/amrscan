@@ -17,7 +17,7 @@
                 "type": "string",
                 "format": "file-path",
                 "exists": true,
-                "pattern": "^\\S+\\.(fa|fna|fasta)(\\.gz)?$",
+                "pattern": "^.+\\.(fa|fna|fasta)(\\.gz)?$",
                 "errorMessage": "FASTA must exist and end in .fa, .fna or .fasta, optionally .gz"
             },
             "sha256": {
