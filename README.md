@@ -293,6 +293,19 @@ identity-checked NCBI Datasets assemblies, AMRFinderPlus 4.2.7 with database
 descriptive; it reports evidence side by side and does not measure
 genotype–phenotype agreement.
 
+## Contributing to nf-core
+
+I plan to contribute this code to [nf-core](https://nf-co.re). The workflow
+already follows its conventions: a parameter schema, samplesheet validation
+with nf-schema, meta maps, `versions.yml` and process labels (decision
+[0007](docs/decisions/0007-nf-core-conventions.md)). nf-core/modules already has `amrfinderplus/run`
+and `amrfinderplus/update`, so the first step is to compare them with the local
+caller module, offer what they lack (the input SHA-256 check and the
+provenance record), and submit harmonization as a new module. Whether the
+workflow as a whole becomes a new nf-core pipeline or part of an existing one
+such as nf-core/funcscan will be raised with the community through the
+nf-core new-pipeline process. Nothing has been submitted yet.
+
 ## Citation and license
 
 Lai, K. (2025). *AMRScan: A hybrid R and Nextflow toolkit for rapid antimicrobial
