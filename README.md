@@ -23,6 +23,9 @@ mechanisms account for the cases where it does not. The cohort build,
 population structure, determinant baseline, generalisation benchmark across 24
 drugs and six split designs, and the error analysis are being prepared for
 publication and will be released here with the manuscript.
+The study is my own work: the analysis is complete and the manuscript is in
+preparation. The full analysis code and results are in a private repository,
+available to reviewers and prospective employers on request.
 
 A sequence match does not by itself establish phenotypic resistance. A negative
 report also does not establish susceptibility. Retain caller methods, database
