@@ -298,13 +298,21 @@ genotype–phenotype agreement.
 I plan to contribute this code to [nf-core](https://nf-co.re). The workflow
 already follows its conventions: a parameter schema, samplesheet validation
 with nf-schema, meta maps, `versions.yml` and process labels (decision
-[0007](docs/decisions/0007-nf-core-conventions.md)). nf-core/modules already has `amrfinderplus/run`
-and `amrfinderplus/update`, so the first step is to compare them with the local
-caller module, offer what they lack (the input SHA-256 check and the
-provenance record), and submit harmonization as a new module. Whether the
-workflow as a whole becomes a new nf-core pipeline or part of an existing one
-such as nf-core/funcscan will be raised with the community through the
-nf-core new-pipeline process. Nothing has been submitted yet.
+[0007](docs/decisions/0007-nf-core-conventions.md)). The plan, in order:
+
+1. A pull request to the existing nf-core/modules `amrfinderplus/run` module
+   adding an optional input SHA-256 check and a database fingerprint in its
+   output, the two things this workflow records that the module does not.
+2. Notes from the 1,000-assembly Gadi run (SingularityCE rather than
+   apptainer, image conversion, head job on `copyq`) offered to the
+   `nci_gadi` profile in nf-core/configs.
+3. No new pipeline for now. Harmonization is already covered by the
+   `hamronization` modules used in nf-core/funcscan; a separate pipeline
+   would only make sense for what funcscan does not do, such as linking calls
+   to AST phenotypes, and would first be discussed with the community.
+
+The retrieval scripts in `bin/` (`genome_dataset.py`, `ast_dataset.py`)
+prepare inputs before a run and stay in this repository. Nothing has been submitted yet.
 
 ## Citation and license
 
