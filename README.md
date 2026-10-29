@@ -7,6 +7,12 @@ harmonizes the calls into one table. A second tool archives public
 antimicrobial susceptibility testing (AST) data from NCBI Pathogen Detection,
 so that every phenotype can be traced back to its source export and genome.
 
+The workflow follows nf-core conventions and has been run on 1,000 of the
+cohort assemblies on NCI Gadi, with every report byte-identical to an earlier
+run of the same files on another platform
+([record](docs/gadi-scale-run.md)). [Contributing to
+nf-core](#contributing-to-nf-core) gives the plan to upstream parts of it.
+
 Together they are the data layer of a larger study of genomic AMR prediction in
 *Escherichia coli*: 10,521 public genome-sequenced isolates with 162,629
 susceptibility results from 26 countries, collected 2009–2025, each genome
