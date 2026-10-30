@@ -1,0 +1,796 @@
+cohort	antimicrobial	split_strategy	lineage_seen_in_training	n_R_DET_NEG	ml_predicted_R	ml_sensitivity_R_DET_NEG	n_S_DET_POS	ml_predicted_S	ml_specificity_S_DET_POS
+common	amikacin	lineage	all	11	0	0	212	198	0.933962
+common	amikacin	lineage	yes	0	0	NA	0	0	NA
+common	amikacin	lineage	no	11	0	0	208	194	0.932692
+common	amikacin	random	all	11	2	0.181818	212	193	0.910377
+common	amikacin	random	yes	10	2	0.2	200	182	0.91
+common	amikacin	random	no	1	0	0	8	7	0.875
+common	amikacin	random_cluster	all	11	0	0	212	192	0.90566
+common	amikacin	random_cluster	yes	9	0	0	201	182	0.905473
+common	amikacin	random_cluster	no	2	0	0	7	6	0.857143
+common	amoxicillin-clavulanic acid	country	all	56	4	0.071429	34	3	0.088235
+common	amoxicillin-clavulanic acid	country	yes	43	4	0.093023	24	2	0.083333
+common	amoxicillin-clavulanic acid	country	no	12	0	0	10	1	0.1
+common	amoxicillin-clavulanic acid	geography	all	24	0	0	12	1	0.083333
+common	amoxicillin-clavulanic acid	geography	yes	18	0	0	10	0	0
+common	amoxicillin-clavulanic acid	geography	no	5	0	0	2	1	0.5
+common	amoxicillin-clavulanic acid	lineage	all	59	4	0.067797	36	9	0.25
+common	amoxicillin-clavulanic acid	lineage	yes	0	0	NA	0	0	NA
+common	amoxicillin-clavulanic acid	lineage	no	58	4	0.068966	36	9	0.25
+common	amoxicillin-clavulanic acid	project	all	57	8	0.140351	35	3	0.085714
+common	amoxicillin-clavulanic acid	project	yes	47	8	0.170213	31	2	0.064516
+common	amoxicillin-clavulanic acid	project	no	9	0	0	4	1	0.25
+common	amoxicillin-clavulanic acid	random	all	59	11	0.186441	36	4	0.111111
+common	amoxicillin-clavulanic acid	random	yes	51	11	0.215686	33	4	0.121212
+common	amoxicillin-clavulanic acid	random	no	7	0	0	3	0	0
+common	amoxicillin-clavulanic acid	random_cluster	all	59	11	0.186441	36	3	0.083333
+common	amoxicillin-clavulanic acid	random_cluster	yes	53	11	0.207547	32	3	0.09375
+common	amoxicillin-clavulanic acid	random_cluster	no	5	0	0	4	0	0
+common	amoxicillin-clavulanic acid	temporal	all	16	6	0.375	13	0	0
+common	amoxicillin-clavulanic acid	temporal	yes	13	6	0.461538	13	0	0
+common	amoxicillin-clavulanic acid	temporal	no	3	0	0	0	0	NA
+common	ampicillin	country	all	193	13	0.067358	57	10	0.175439
+common	ampicillin	country	yes	138	12	0.086957	48	8	0.166667
+common	ampicillin	country	no	53	1	0.018868	9	2	0.222222
+common	ampicillin	geography	all	19	2	0.105263	15	3	0.2
+common	ampicillin	geography	yes	14	1	0.071429	12	1	0.083333
+common	ampicillin	geography	no	4	1	0.25	3	2	0.666667
+common	ampicillin	lineage	all	201	133	0.661692	57	10	0.175439
+common	ampicillin	lineage	yes	0	0	NA	0	0	NA
+common	ampicillin	lineage	no	199	132	0.663317	57	10	0.175439
+common	ampicillin	project	all	197	19	0.096447	56	7	0.125
+common	ampicillin	project	yes	159	14	0.08805	51	5	0.098039
+common	ampicillin	project	no	36	5	0.138889	5	2	0.4
+common	ampicillin	random	all	201	133	0.661692	57	10	0.175439
+common	ampicillin	random	yes	180	117	0.65	53	9	0.169811
+common	ampicillin	random	no	19	15	0.789474	4	1	0.25
+common	ampicillin	random_cluster	all	201	133	0.661692	57	9	0.157895
+common	ampicillin	random_cluster	yes	173	112	0.647399	53	7	0.132075
+common	ampicillin	random_cluster	no	26	20	0.769231	4	2	0.5
+common	ampicillin	temporal	all	4	3	0.75	13	1	0.076923
+common	ampicillin	temporal	yes	4	3	0.75	13	1	0.076923
+common	ampicillin	temporal	no	0	0	NA	0	0	NA
+common	aztreonam	lineage	all	20	10	0.5	45	6	0.133333
+common	aztreonam	lineage	yes	0	0	NA	0	0	NA
+common	aztreonam	lineage	no	20	10	0.5	45	6	0.133333
+common	aztreonam	random	all	20	10	0.5	45	7	0.155556
+common	aztreonam	random	yes	15	6	0.4	43	7	0.162791
+common	aztreonam	random	no	5	4	0.8	2	0	0
+common	aztreonam	random_cluster	all	20	10	0.5	45	5	0.111111
+common	aztreonam	random_cluster	yes	15	6	0.4	40	5	0.125
+common	aztreonam	random_cluster	no	5	4	0.8	5	0	0
+common	cefazolin	country	all	45	2	0.044444	436	415	0.951835
+common	cefazolin	country	yes	2	0	0	25	22	0.88
+common	cefazolin	country	no	43	2	0.046512	410	392	0.956098
+common	cefazolin	geography	all	1	0	0	15	7	0.466667
+common	cefazolin	geography	yes	0	0	NA	5	2	0.4
+common	cefazolin	geography	no	1	0	0	10	5	0.5
+common	cefazolin	lineage	all	45	6	0.133333	436	384	0.880734
+common	cefazolin	lineage	yes	0	0	NA	0	0	NA
+common	cefazolin	lineage	no	45	6	0.133333	435	383	0.88046
+common	cefazolin	project	all	42	15	0.357143	431	352	0.816705
+common	cefazolin	project	yes	31	12	0.387097	340	280	0.823529
+common	cefazolin	project	no	11	3	0.272727	90	72	0.8
+common	cefazolin	random	all	45	11	0.244444	436	379	0.869266
+common	cefazolin	random	yes	44	11	0.25	416	361	0.867788
+common	cefazolin	random	no	1	0	0	19	18	0.947368
+common	cefazolin	random_cluster	all	45	11	0.244444	436	372	0.853211
+common	cefazolin	random_cluster	yes	43	11	0.255814	408	349	0.855392
+common	cefazolin	random_cluster	no	2	0	0	27	22	0.814815
+common	cefepime	country	all	14	1	0.071429	425	160	0.376471
+common	cefepime	country	yes	9	1	0.111111	358	132	0.368715
+common	cefepime	country	no	5	0	0	66	27	0.409091
+common	cefepime	geography	all	14	3	0.214286	44	17	0.386364
+common	cefepime	geography	yes	7	2	0.285714	27	10	0.37037
+common	cefepime	geography	no	7	1	0.142857	17	7	0.411765
+common	cefepime	lineage	all	20	6	0.3	461	242	0.524946
+common	cefepime	lineage	yes	0	0	NA	0	0	NA
+common	cefepime	lineage	no	20	6	0.3	460	241	0.523913
+common	cefepime	project	all	17	2	0.117647	428	118	0.275701
+common	cefepime	project	yes	10	2	0.2	402	109	0.271144
+common	cefepime	project	no	7	0	0	25	9	0.36
+common	cefepime	random	all	20	5	0.25	461	267	0.579176
+common	cefepime	random	yes	15	2	0.133333	434	257	0.592166
+common	cefepime	random	no	5	3	0.6	26	10	0.384615
+common	cefepime	random_cluster	all	20	7	0.35	461	240	0.520607
+common	cefepime	random_cluster	yes	15	5	0.333333	421	227	0.539192
+common	cefepime	random_cluster	no	5	2	0.4	39	12	0.307692
+common	cefepime	temporal	all	8	0	0	279	126	0.451613
+common	cefepime	temporal	yes	3	0	0	257	119	0.463035
+common	cefepime	temporal	no	5	0	0	21	7	0.333333
+common	cefoxitin	country	all	82	13	0.158537	22	3	0.136364
+common	cefoxitin	country	yes	71	12	0.169014	17	0	0
+common	cefoxitin	country	no	9	1	0.111111	5	3	0.6
+common	cefoxitin	geography	all	39	5	0.128205	15	5	0.333333
+common	cefoxitin	geography	yes	28	4	0.142857	10	1	0.1
+common	cefoxitin	geography	no	10	1	0.1	5	4	0.8
+common	cefoxitin	lineage	all	86	22	0.255814	22	1	0.045455
+common	cefoxitin	lineage	yes	0	0	NA	0	0	NA
+common	cefoxitin	lineage	no	84	22	0.261905	22	1	0.045455
+common	cefoxitin	project	all	73	20	0.273973	21	1	0.047619
+common	cefoxitin	project	yes	64	19	0.296875	16	0	0
+common	cefoxitin	project	no	7	1	0.142857	5	1	0.2
+common	cefoxitin	random	all	86	35	0.406977	22	2	0.090909
+common	cefoxitin	random	yes	77	34	0.441558	18	1	0.055556
+common	cefoxitin	random	no	7	1	0.142857	4	1	0.25
+common	cefoxitin	random_cluster	all	86	32	0.372093	22	1	0.045455
+common	cefoxitin	random_cluster	yes	75	30	0.4	20	0	0
+common	cefoxitin	random_cluster	no	9	2	0.222222	2	1	0.5
+common	cefoxitin	temporal	all	53	23	0.433962	6	1	0.166667
+common	cefoxitin	temporal	yes	47	20	0.425532	3	0	0
+common	cefoxitin	temporal	no	5	2	0.4	3	1	0.333333
+common	ceftazidime	country	all	6	2	0.333333	329	109	0.331307
+common	ceftazidime	country	yes	3	0	0	256	86	0.335938
+common	ceftazidime	country	no	3	2	0.666667	71	22	0.309859
+common	ceftazidime	geography	all	6	1	0.166667	29	21	0.724138
+common	ceftazidime	geography	yes	3	1	0.333333	17	12	0.705882
+common	ceftazidime	geography	no	3	0	0	11	8	0.727273
+common	ceftazidime	lineage	all	9	4	0.444444	338	183	0.54142
+common	ceftazidime	lineage	yes	0	0	NA	0	0	NA
+common	ceftazidime	lineage	no	9	4	0.444444	336	183	0.544643
+common	ceftazidime	project	all	7	3	0.428571	326	148	0.453988
+common	ceftazidime	project	yes	5	2	0.4	301	134	0.445183
+common	ceftazidime	project	no	2	1	0.5	23	13	0.565217
+common	ceftazidime	random	all	9	4	0.444444	338	214	0.633136
+common	ceftazidime	random	yes	8	3	0.375	317	201	0.634069
+common	ceftazidime	random	no	1	1	1	19	12	0.631579
+common	ceftazidime	random_cluster	all	9	5	0.555556	338	207	0.612426
+common	ceftazidime	random_cluster	yes	6	3	0.5	310	192	0.619355
+common	ceftazidime	random_cluster	no	3	2	0.666667	26	14	0.538462
+common	ceftazidime	temporal	all	4	2	0.5	186	24	0.129032
+common	ceftazidime	temporal	yes	3	2	0.666667	174	18	0.103448
+common	ceftazidime	temporal	no	1	0	0	10	5	0.5
+common	ceftiofur	lineage	all	15	1	0.066667	29	13	0.448276
+common	ceftiofur	lineage	yes	0	0	NA	0	0	NA
+common	ceftiofur	lineage	no	14	1	0.071429	28	12	0.428571
+common	ceftiofur	random	all	15	2	0.133333	29	11	0.37931
+common	ceftiofur	random	yes	12	2	0.166667	25	7	0.28
+common	ceftiofur	random	no	2	0	0	3	3	1
+common	ceftiofur	random_cluster	all	15	2	0.133333	29	11	0.37931
+common	ceftiofur	random_cluster	yes	10	2	0.2	23	7	0.304348
+common	ceftiofur	random_cluster	no	4	0	0	5	3	0.6
+common	ceftriaxone	country	all	22	1	0.045455	124	87	0.701613
+common	ceftriaxone	country	yes	16	1	0.0625	81	48	0.592593
+common	ceftriaxone	country	no	5	0	0	42	38	0.904762
+common	ceftriaxone	geography	all	16	1	0.0625	19	8	0.421053
+common	ceftriaxone	geography	yes	11	1	0.090909	15	5	0.333333
+common	ceftriaxone	geography	no	4	0	0	3	2	0.666667
+common	ceftriaxone	lineage	all	30	3	0.1	124	85	0.685484
+common	ceftriaxone	lineage	yes	0	0	NA	0	0	NA
+common	ceftriaxone	lineage	no	29	3	0.103448	123	84	0.682927
+common	ceftriaxone	project	all	27	4	0.148148	123	51	0.414634
+common	ceftriaxone	project	yes	21	4	0.190476	117	47	0.401709
+common	ceftriaxone	project	no	5	0	0	5	3	0.6
+common	ceftriaxone	random	all	30	3	0.1	124	84	0.677419
+common	ceftriaxone	random	yes	26	3	0.115385	119	80	0.672269
+common	ceftriaxone	random	no	3	0	0	4	3	0.75
+common	ceftriaxone	random_cluster	all	30	3	0.1	124	85	0.685484
+common	ceftriaxone	random_cluster	yes	25	3	0.12	118	81	0.686441
+common	ceftriaxone	random_cluster	no	4	0	0	5	3	0.6
+common	ceftriaxone	temporal	all	6	2	0.333333	18	0	0
+common	ceftriaxone	temporal	yes	6	2	0.333333	18	0	0
+common	ceftriaxone	temporal	no	0	0	NA	0	0	NA
+common	chloramphenicol	country	all	4	1	0.25	8	1	0.125
+common	chloramphenicol	country	yes	3	1	0.333333	8	1	0.125
+common	chloramphenicol	country	no	1	0	0	0	0	NA
+common	chloramphenicol	geography	all	6	1	0.166667	7	1	0.142857
+common	chloramphenicol	geography	yes	5	1	0.2	6	1	0.166667
+common	chloramphenicol	geography	no	1	0	0	1	0	0
+common	chloramphenicol	lineage	all	7	0	0	11	1	0.090909
+common	chloramphenicol	lineage	yes	0	0	NA	0	0	NA
+common	chloramphenicol	lineage	no	7	0	0	11	1	0.090909
+common	chloramphenicol	project	all	4	1	0.25	7	0	0
+common	chloramphenicol	project	yes	3	1	0.333333	7	0	0
+common	chloramphenicol	project	no	1	0	0	0	0	NA
+common	chloramphenicol	random	all	7	1	0.142857	11	1	0.090909
+common	chloramphenicol	random	yes	7	1	0.142857	11	1	0.090909
+common	chloramphenicol	random	no	0	0	NA	0	0	NA
+common	chloramphenicol	random_cluster	all	7	1	0.142857	11	1	0.090909
+common	chloramphenicol	random_cluster	yes	7	1	0.142857	11	1	0.090909
+common	chloramphenicol	random_cluster	no	0	0	NA	0	0	NA
+common	chloramphenicol	temporal	all	1	1	1	5	0	0
+common	chloramphenicol	temporal	yes	1	1	1	5	0	0
+common	chloramphenicol	temporal	no	0	0	NA	0	0	NA
+common	ciprofloxacin	country	all	28	0	0	350	70	0.2
+common	ciprofloxacin	country	yes	20	0	0	285	55	0.192982
+common	ciprofloxacin	country	no	8	0	0	65	15	0.230769
+common	ciprofloxacin	geography	all	15	0	0	28	23	0.821429
+common	ciprofloxacin	geography	yes	13	0	0	22	18	0.818182
+common	ciprofloxacin	geography	no	2	0	0	6	5	0.833333
+common	ciprofloxacin	lineage	all	32	0	0	366	238	0.650273
+common	ciprofloxacin	lineage	yes	0	0	NA	0	0	NA
+common	ciprofloxacin	lineage	no	32	0	0	366	238	0.650273
+common	ciprofloxacin	project	all	29	0	0	333	176	0.528529
+common	ciprofloxacin	project	yes	24	0	0	301	160	0.531561
+common	ciprofloxacin	project	no	5	0	0	32	16	0.5
+common	ciprofloxacin	random	all	32	4	0.125	366	282	0.770492
+common	ciprofloxacin	random	yes	29	4	0.137931	341	263	0.771261
+common	ciprofloxacin	random	no	3	0	0	25	19	0.76
+common	ciprofloxacin	random_cluster	all	32	5	0.15625	366	289	0.789617
+common	ciprofloxacin	random_cluster	yes	28	5	0.178571	340	273	0.802941
+common	ciprofloxacin	random_cluster	no	4	0	0	26	16	0.615385
+common	ciprofloxacin	temporal	all	6	0	0	71	55	0.774648
+common	ciprofloxacin	temporal	yes	6	0	0	66	51	0.772727
+common	ciprofloxacin	temporal	no	0	0	NA	5	4	0.8
+common	ertapenem	lineage	all	39	13	0.333333	0	0	NA
+common	ertapenem	lineage	yes	0	0	NA	0	0	NA
+common	ertapenem	lineage	no	38	13	0.342105	0	0	NA
+common	ertapenem	random	all	39	14	0.358974	0	0	NA
+common	ertapenem	random	yes	33	12	0.363636	0	0	NA
+common	ertapenem	random	no	5	2	0.4	0	0	NA
+common	ertapenem	random_cluster	all	39	14	0.358974	0	0	NA
+common	ertapenem	random_cluster	yes	31	12	0.387097	0	0	NA
+common	ertapenem	random_cluster	no	7	1	0.142857	0	0	NA
+common	gentamicin	country	all	74	14	0.189189	27	3	0.111111
+common	gentamicin	country	yes	60	13	0.216667	23	2	0.086957
+common	gentamicin	country	no	14	1	0.071429	4	1	0.25
+common	gentamicin	geography	all	49	9	0.183673	10	1	0.1
+common	gentamicin	geography	yes	43	9	0.209302	7	1	0.142857
+common	gentamicin	geography	no	6	0	0	3	0	0
+common	gentamicin	lineage	all	94	38	0.404255	28	3	0.107143
+common	gentamicin	lineage	yes	0	0	NA	0	0	NA
+common	gentamicin	lineage	no	94	38	0.404255	28	3	0.107143
+common	gentamicin	project	all	58	11	0.189655	27	5	0.185185
+common	gentamicin	project	yes	51	10	0.196078	24	5	0.208333
+common	gentamicin	project	no	7	1	0.142857	3	0	0
+common	gentamicin	random	all	94	44	0.468085	28	3	0.107143
+common	gentamicin	random	yes	85	40	0.470588	27	3	0.111111
+common	gentamicin	random	no	9	4	0.444444	1	0	0
+common	gentamicin	random_cluster	all	94	40	0.425532	28	3	0.107143
+common	gentamicin	random_cluster	yes	82	34	0.414634	27	3	0.111111
+common	gentamicin	random_cluster	no	12	6	0.5	1	0	0
+common	gentamicin	temporal	all	11	0	0	5	1	0.2
+common	gentamicin	temporal	yes	9	0	0	5	1	0.2
+common	gentamicin	temporal	no	2	0	0	0	0	NA
+common	kanamycin	lineage	all	7	0	0	5	4	0.8
+common	kanamycin	lineage	yes	0	0	NA	0	0	NA
+common	kanamycin	lineage	no	7	0	0	5	4	0.8
+common	kanamycin	random	all	7	0	0	5	4	0.8
+common	kanamycin	random	yes	7	0	0	5	4	0.8
+common	kanamycin	random	no	0	0	NA	0	0	NA
+common	kanamycin	random_cluster	all	7	0	0	5	4	0.8
+common	kanamycin	random_cluster	yes	7	0	0	5	4	0.8
+common	kanamycin	random_cluster	no	0	0	NA	0	0	NA
+common	levofloxacin	country	all	3	0	0	10	10	1
+common	levofloxacin	country	yes	2	0	0	6	6	1
+common	levofloxacin	country	no	1	0	0	4	4	1
+common	levofloxacin	lineage	all	11	0	0	294	246	0.836735
+common	levofloxacin	lineage	yes	0	0	NA	0	0	NA
+common	levofloxacin	lineage	no	11	0	0	294	246	0.836735
+common	levofloxacin	project	all	11	0	0	293	254	0.866894
+common	levofloxacin	project	yes	8	0	0	255	219	0.858824
+common	levofloxacin	project	no	3	0	0	38	35	0.921053
+common	levofloxacin	random	all	11	0	0	294	258	0.877551
+common	levofloxacin	random	yes	10	0	0	273	238	0.871795
+common	levofloxacin	random	no	1	0	0	21	20	0.952381
+common	levofloxacin	random_cluster	all	11	0	0	294	258	0.877551
+common	levofloxacin	random_cluster	yes	10	0	0	266	231	0.868421
+common	levofloxacin	random_cluster	no	1	0	0	28	27	0.964286
+common	levofloxacin	temporal	all	0	0	NA	28	18	0.642857
+common	levofloxacin	temporal	yes	0	0	NA	24	15	0.625
+common	levofloxacin	temporal	no	0	0	NA	4	3	0.75
+common	meropenem	lineage	all	8	0	0	11	7	0.636364
+common	meropenem	lineage	yes	0	0	NA	0	0	NA
+common	meropenem	lineage	no	8	0	0	11	7	0.636364
+common	meropenem	random	all	8	2	0.25	11	7	0.636364
+common	meropenem	random	yes	8	2	0.25	11	7	0.636364
+common	meropenem	random	no	0	0	NA	0	0	NA
+common	meropenem	random_cluster	all	8	0	0	11	7	0.636364
+common	meropenem	random_cluster	yes	8	0	0	7	3	0.428571
+common	meropenem	random_cluster	no	0	0	NA	4	4	1
+common	nalidixic acid	country	all	44	5	0.113636	19	13	0.684211
+common	nalidixic acid	country	yes	37	5	0.135135	11	7	0.636364
+common	nalidixic acid	country	no	7	0	0	8	6	0.75
+common	nalidixic acid	geography	all	42	0	0	13	7	0.538462
+common	nalidixic acid	geography	yes	35	0	0	8	4	0.5
+common	nalidixic acid	geography	no	7	0	0	5	3	0.6
+common	nalidixic acid	lineage	all	44	15	0.340909	19	13	0.684211
+common	nalidixic acid	lineage	yes	0	0	NA	0	0	NA
+common	nalidixic acid	lineage	no	44	15	0.340909	19	13	0.684211
+common	nalidixic acid	project	all	43	5	0.116279	16	9	0.5625
+common	nalidixic acid	project	yes	36	5	0.138889	10	5	0.5
+common	nalidixic acid	project	no	7	0	0	6	4	0.666667
+common	nalidixic acid	random	all	44	19	0.431818	19	12	0.631579
+common	nalidixic acid	random	yes	40	18	0.45	15	8	0.533333
+common	nalidixic acid	random	no	4	1	0.25	4	4	1
+common	nalidixic acid	random_cluster	all	44	18	0.409091	19	12	0.631579
+common	nalidixic acid	random_cluster	yes	38	17	0.447368	15	8	0.533333
+common	nalidixic acid	random_cluster	no	6	1	0.166667	4	4	1
+common	nalidixic acid	temporal	all	21	0	0	0	0	NA
+common	nalidixic acid	temporal	yes	18	0	0	0	0	NA
+common	nalidixic acid	temporal	no	3	0	0	0	0	NA
+common	piperacillin-tazobactam	lineage	all	33	10	0.30303	234	96	0.410256
+common	piperacillin-tazobactam	lineage	yes	0	0	NA	0	0	NA
+common	piperacillin-tazobactam	lineage	no	33	10	0.30303	230	96	0.417391
+common	piperacillin-tazobactam	random	all	33	14	0.424242	234	110	0.470085
+common	piperacillin-tazobactam	random	yes	32	13	0.40625	212	96	0.45283
+common	piperacillin-tazobactam	random	no	1	1	1	18	13	0.722222
+common	piperacillin-tazobactam	random_cluster	all	33	11	0.333333	234	102	0.435897
+common	piperacillin-tazobactam	random_cluster	yes	31	10	0.322581	207	88	0.425121
+common	piperacillin-tazobactam	random_cluster	no	2	1	0.5	23	14	0.608696
+common	streptomycin	country	all	33	0	0	297	106	0.356902
+common	streptomycin	country	yes	20	0	0	218	74	0.33945
+common	streptomycin	country	no	13	0	0	77	32	0.415584
+common	streptomycin	geography	all	12	0	0	194	62	0.319588
+common	streptomycin	geography	yes	10	0	0	159	47	0.295597
+common	streptomycin	geography	no	2	0	0	33	15	0.454545
+common	streptomycin	lineage	all	35	0	0	298	131	0.439597
+common	streptomycin	lineage	yes	0	0	NA	0	0	NA
+common	streptomycin	lineage	no	35	0	0	296	130	0.439189
+common	streptomycin	project	all	31	0	0	288	119	0.413194
+common	streptomycin	project	yes	20	0	0	236	93	0.394068
+common	streptomycin	project	no	11	0	0	50	26	0.52
+common	streptomycin	random	all	35	0	0	298	132	0.442953
+common	streptomycin	random	yes	30	0	0	283	126	0.44523
+common	streptomycin	random	no	5	0	0	13	5	0.384615
+common	streptomycin	random_cluster	all	35	0	0	298	154	0.516779
+common	streptomycin	random_cluster	yes	31	0	0	266	134	0.503759
+common	streptomycin	random_cluster	no	4	0	0	30	19	0.633333
+common	sulfisoxazole	country	all	32	0	0	16	1	0.0625
+common	sulfisoxazole	country	yes	26	0	0	13	1	0.076923
+common	sulfisoxazole	country	no	6	0	0	3	0	0
+common	sulfisoxazole	geography	all	29	0	0	8	0	0
+common	sulfisoxazole	geography	yes	25	0	0	6	0	0
+common	sulfisoxazole	geography	no	4	0	0	2	0	0
+common	sulfisoxazole	lineage	all	32	0	0	16	2	0.125
+common	sulfisoxazole	lineage	yes	0	0	NA	0	0	NA
+common	sulfisoxazole	lineage	no	32	0	0	16	2	0.125
+common	sulfisoxazole	project	all	32	0	0	15	1	0.066667
+common	sulfisoxazole	project	yes	27	0	0	12	1	0.083333
+common	sulfisoxazole	project	no	5	0	0	3	0	0
+common	sulfisoxazole	random	all	32	2	0.0625	16	1	0.0625
+common	sulfisoxazole	random	yes	28	2	0.071429	14	1	0.071429
+common	sulfisoxazole	random	no	4	0	0	2	0	0
+common	sulfisoxazole	random_cluster	all	32	1	0.03125	16	0	0
+common	sulfisoxazole	random_cluster	yes	29	1	0.034483	13	0	0
+common	sulfisoxazole	random_cluster	no	3	0	0	3	0	0
+common	tetracycline	country	all	48	3	0.0625	38	18	0.473684
+common	tetracycline	country	yes	37	3	0.081081	26	10	0.384615
+common	tetracycline	country	no	11	0	0	11	8	0.727273
+common	tetracycline	geography	all	18	3	0.166667	14	6	0.428571
+common	tetracycline	geography	yes	17	3	0.176471	7	1	0.142857
+common	tetracycline	geography	no	1	0	0	6	5	0.833333
+common	tetracycline	lineage	all	49	3	0.061224	39	12	0.307692
+common	tetracycline	lineage	yes	0	0	NA	0	0	NA
+common	tetracycline	lineage	no	49	3	0.061224	38	12	0.315789
+common	tetracycline	project	all	48	3	0.0625	36	16	0.444444
+common	tetracycline	project	yes	42	3	0.071429	25	9	0.36
+common	tetracycline	project	no	6	0	0	10	7	0.7
+common	tetracycline	random	all	49	3	0.061224	39	16	0.410256
+common	tetracycline	random	yes	47	3	0.06383	34	14	0.411765
+common	tetracycline	random	no	2	0	0	4	2	0.5
+common	tetracycline	random_cluster	all	49	3	0.061224	39	18	0.461538
+common	tetracycline	random_cluster	yes	47	3	0.06383	34	16	0.470588
+common	tetracycline	random_cluster	no	2	0	0	4	2	0.5
+common	tetracycline	temporal	all	6	0	0	6	3	0.5
+common	tetracycline	temporal	yes	6	0	0	6	3	0.5
+common	tetracycline	temporal	no	0	0	NA	0	0	NA
+common	tobramycin	lineage	all	13	2	0.153846	37	7	0.189189
+common	tobramycin	lineage	yes	0	0	NA	0	0	NA
+common	tobramycin	lineage	no	13	2	0.153846	37	7	0.189189
+common	tobramycin	random	all	13	2	0.153846	37	7	0.189189
+common	tobramycin	random	yes	10	2	0.2	32	4	0.125
+common	tobramycin	random	no	3	0	0	5	3	0.6
+common	tobramycin	random_cluster	all	13	2	0.153846	37	6	0.162162
+common	tobramycin	random_cluster	yes	9	2	0.222222	31	3	0.096774
+common	tobramycin	random_cluster	no	4	0	0	6	3	0.5
+common	trimethoprim-sulfamethoxazole	country	all	24	0	0	47	9	0.191489
+common	trimethoprim-sulfamethoxazole	country	yes	19	0	0	35	5	0.142857
+common	trimethoprim-sulfamethoxazole	country	no	5	0	0	12	4	0.333333
+common	trimethoprim-sulfamethoxazole	geography	all	8	0	0	11	4	0.363636
+common	trimethoprim-sulfamethoxazole	geography	yes	7	0	0	9	4	0.444444
+common	trimethoprim-sulfamethoxazole	geography	no	1	0	0	2	0	0
+common	trimethoprim-sulfamethoxazole	lineage	all	28	0	0	49	8	0.163265
+common	trimethoprim-sulfamethoxazole	lineage	yes	0	0	NA	0	0	NA
+common	trimethoprim-sulfamethoxazole	lineage	no	28	0	0	49	8	0.163265
+common	trimethoprim-sulfamethoxazole	project	all	26	0	0	46	7	0.152174
+common	trimethoprim-sulfamethoxazole	project	yes	24	0	0	38	6	0.157895
+common	trimethoprim-sulfamethoxazole	project	no	2	0	0	8	1	0.125
+common	trimethoprim-sulfamethoxazole	random	all	28	0	0	49	5	0.102041
+common	trimethoprim-sulfamethoxazole	random	yes	28	0	0	46	4	0.086957
+common	trimethoprim-sulfamethoxazole	random	no	0	0	NA	3	1	0.333333
+common	trimethoprim-sulfamethoxazole	random_cluster	all	28	0	0	49	6	0.122449
+common	trimethoprim-sulfamethoxazole	random_cluster	yes	28	0	0	45	5	0.111111
+common	trimethoprim-sulfamethoxazole	random_cluster	no	0	0	NA	4	1	0.25
+common	trimethoprim-sulfamethoxazole	temporal	all	5	0	0	16	4	0.25
+common	trimethoprim-sulfamethoxazole	temporal	yes	5	0	0	14	3	0.214286
+common	trimethoprim-sulfamethoxazole	temporal	no	0	0	NA	2	1	0.5
+maximal	amikacin	lineage	all	12	1	0.083333	239	214	0.895397
+maximal	amikacin	lineage	yes	0	0	NA	0	0	NA
+maximal	amikacin	lineage	no	12	1	0.083333	235	210	0.893617
+maximal	amikacin	random	all	12	2	0.166667	240	208	0.866667
+maximal	amikacin	random	yes	11	2	0.181818	227	197	0.867841
+maximal	amikacin	random	no	1	0	0	8	6	0.75
+maximal	amikacin	random_cluster	all	12	1	0.083333	240	201	0.8375
+maximal	amikacin	random_cluster	yes	10	1	0.1	225	191	0.848889
+maximal	amikacin	random_cluster	no	2	0	0	10	5	0.5
+maximal	amoxicillin-clavulanic acid	country	all	56	6	0.107143	34	8	0.235294
+maximal	amoxicillin-clavulanic acid	country	yes	45	6	0.133333	29	7	0.241379
+maximal	amoxicillin-clavulanic acid	country	no	10	0	0	5	1	0.2
+maximal	amoxicillin-clavulanic acid	geography	all	25	0	0	12	1	0.083333
+maximal	amoxicillin-clavulanic acid	geography	yes	19	0	0	10	0	0
+maximal	amoxicillin-clavulanic acid	geography	no	5	0	0	2	1	0.5
+maximal	amoxicillin-clavulanic acid	lineage	all	64	5	0.078125	42	11	0.261905
+maximal	amoxicillin-clavulanic acid	lineage	yes	0	0	NA	0	0	NA
+maximal	amoxicillin-clavulanic acid	lineage	no	63	5	0.079365	42	11	0.261905
+maximal	amoxicillin-clavulanic acid	project	all	57	10	0.175439	35	5	0.142857
+maximal	amoxicillin-clavulanic acid	project	yes	48	10	0.208333	31	4	0.129032
+maximal	amoxicillin-clavulanic acid	project	no	8	0	0	4	1	0.25
+maximal	amoxicillin-clavulanic acid	random	all	64	18	0.28125	42	4	0.095238
+maximal	amoxicillin-clavulanic acid	random	yes	58	18	0.310345	39	4	0.102564
+maximal	amoxicillin-clavulanic acid	random	no	5	0	0	3	0	0
+maximal	amoxicillin-clavulanic acid	random_cluster	all	64	10	0.15625	42	8	0.190476
+maximal	amoxicillin-clavulanic acid	random_cluster	yes	58	10	0.172414	39	7	0.179487
+maximal	amoxicillin-clavulanic acid	random_cluster	no	5	0	0	3	1	0.333333
+maximal	amoxicillin-clavulanic acid	temporal	all	18	8	0.444444	14	0	0
+maximal	amoxicillin-clavulanic acid	temporal	yes	15	8	0.533333	14	0	0
+maximal	amoxicillin-clavulanic acid	temporal	no	3	0	0	0	0	NA
+maximal	ampicillin	country	all	195	6	0.030769	57	5	0.087719
+maximal	ampicillin	country	yes	144	5	0.034722	51	3	0.058824
+maximal	ampicillin	country	no	48	1	0.020833	6	2	0.333333
+maximal	ampicillin	geography	all	21	2	0.095238	15	4	0.266667
+maximal	ampicillin	geography	yes	15	1	0.066667	12	2	0.166667
+maximal	ampicillin	geography	no	4	1	0.25	3	2	0.666667
+maximal	ampicillin	lineage	all	202	134	0.663366	58	7	0.12069
+maximal	ampicillin	lineage	yes	0	0	NA	0	0	NA
+maximal	ampicillin	lineage	no	200	133	0.665	58	7	0.12069
+maximal	ampicillin	project	all	199	16	0.080402	56	6	0.107143
+maximal	ampicillin	project	yes	160	13	0.08125	51	4	0.078431
+maximal	ampicillin	project	no	36	3	0.083333	5	2	0.4
+maximal	ampicillin	random	all	203	135	0.665025	58	11	0.189655
+maximal	ampicillin	random	yes	179	119	0.664804	54	10	0.185185
+maximal	ampicillin	random	no	21	15	0.714286	4	1	0.25
+maximal	ampicillin	random_cluster	all	203	134	0.660099	58	10	0.172414
+maximal	ampicillin	random_cluster	yes	174	114	0.655172	54	8	0.148148
+maximal	ampicillin	random_cluster	no	26	19	0.730769	4	2	0.5
+maximal	ampicillin	temporal	all	4	3	0.75	13	1	0.076923
+maximal	ampicillin	temporal	yes	4	3	0.75	13	1	0.076923
+maximal	ampicillin	temporal	no	0	0	NA	0	0	NA
+maximal	aztreonam	lineage	all	33	23	0.69697	47	5	0.106383
+maximal	aztreonam	lineage	yes	0	0	NA	0	0	NA
+maximal	aztreonam	lineage	no	33	23	0.69697	47	5	0.106383
+maximal	aztreonam	random	all	33	23	0.69697	47	5	0.106383
+maximal	aztreonam	random	yes	26	19	0.730769	45	4	0.088889
+maximal	aztreonam	random	no	7	4	0.571429	2	1	0.5
+maximal	aztreonam	random_cluster	all	33	25	0.757576	47	5	0.106383
+maximal	aztreonam	random_cluster	yes	27	21	0.777778	42	5	0.119048
+maximal	aztreonam	random_cluster	no	6	4	0.666667	5	0	0
+maximal	cefazolin	country	all	45	3	0.066667	437	413	0.94508
+maximal	cefazolin	country	yes	2	0	0	30	26	0.866667
+maximal	cefazolin	country	no	43	3	0.069767	405	385	0.950617
+maximal	cefazolin	geography	all	1	0	0	15	7	0.466667
+maximal	cefazolin	geography	yes	0	0	NA	5	2	0.4
+maximal	cefazolin	geography	no	1	0	0	10	5	0.5
+maximal	cefazolin	lineage	all	45	4	0.088889	437	384	0.878719
+maximal	cefazolin	lineage	yes	0	0	NA	0	0	NA
+maximal	cefazolin	lineage	no	45	4	0.088889	436	383	0.87844
+maximal	cefazolin	project	all	42	14	0.333333	432	367	0.849537
+maximal	cefazolin	project	yes	32	12	0.375	359	299	0.832869
+maximal	cefazolin	project	no	10	2	0.2	71	66	0.929577
+maximal	cefazolin	random	all	45	13	0.288889	438	378	0.863014
+maximal	cefazolin	random	yes	44	13	0.295455	419	364	0.868735
+maximal	cefazolin	random	no	1	0	0	17	12	0.705882
+maximal	cefazolin	random_cluster	all	45	8	0.177778	438	375	0.856164
+maximal	cefazolin	random_cluster	yes	42	8	0.190476	413	354	0.857143
+maximal	cefazolin	random_cluster	no	3	0	0	23	19	0.826087
+maximal	cefepime	country	all	14	2	0.142857	430	132	0.306977
+maximal	cefepime	country	yes	9	2	0.222222	358	111	0.310056
+maximal	cefepime	country	no	5	0	0	66	19	0.287879
+maximal	cefepime	geography	all	14	1	0.071429	44	28	0.636364
+maximal	cefepime	geography	yes	7	1	0.142857	27	15	0.555556
+maximal	cefepime	geography	no	7	0	0	17	13	0.764706
+maximal	cefepime	lineage	all	21	8	0.380952	477	272	0.570231
+maximal	cefepime	lineage	yes	0	0	NA	0	0	NA
+maximal	cefepime	lineage	no	21	8	0.380952	476	272	0.571429
+maximal	cefepime	project	all	17	4	0.235294	433	129	0.297921
+maximal	cefepime	project	yes	10	2	0.2	402	118	0.293532
+maximal	cefepime	project	no	7	2	0.285714	25	9	0.36
+maximal	cefepime	random	all	21	8	0.380952	483	287	0.594203
+maximal	cefepime	random	yes	17	6	0.352941	454	275	0.605727
+maximal	cefepime	random	no	4	2	0.5	22	8	0.363636
+maximal	cefepime	random_cluster	all	21	6	0.285714	483	260	0.538302
+maximal	cefepime	random_cluster	yes	16	4	0.25	449	243	0.541203
+maximal	cefepime	random_cluster	no	5	2	0.4	27	15	0.555556
+maximal	cefepime	temporal	all	8	3	0.375	292	41	0.140411
+maximal	cefepime	temporal	yes	3	2	0.666667	265	33	0.124528
+maximal	cefepime	temporal	no	5	1	0.2	21	6	0.285714
+maximal	cefoxitin	country	all	101	27	0.267327	22	3	0.136364
+maximal	cefoxitin	country	yes	84	26	0.309524	17	0	0
+maximal	cefoxitin	country	no	13	1	0.076923	5	3	0.6
+maximal	cefoxitin	geography	all	56	9	0.160714	15	5	0.333333
+maximal	cefoxitin	geography	yes	41	8	0.195122	10	1	0.1
+maximal	cefoxitin	geography	no	14	1	0.071429	5	4	0.8
+maximal	cefoxitin	lineage	all	111	37	0.333333	24	1	0.041667
+maximal	cefoxitin	lineage	yes	0	0	NA	0	0	NA
+maximal	cefoxitin	lineage	no	109	36	0.330275	24	1	0.041667
+maximal	cefoxitin	project	all	75	30	0.4	21	0	0
+maximal	cefoxitin	project	yes	66	30	0.454545	18	0	0
+maximal	cefoxitin	project	no	5	0	0	3	0	0
+maximal	cefoxitin	random	all	113	47	0.415929	24	2	0.083333
+maximal	cefoxitin	random	yes	100	44	0.44	22	2	0.090909
+maximal	cefoxitin	random	no	9	2	0.222222	2	0	0
+maximal	cefoxitin	random_cluster	all	113	55	0.486726	24	1	0.041667
+maximal	cefoxitin	random_cluster	yes	97	50	0.515464	22	1	0.045455
+maximal	cefoxitin	random_cluster	no	12	4	0.333333	2	0	0
+maximal	cefoxitin	temporal	all	57	26	0.45614	6	1	0.166667
+maximal	cefoxitin	temporal	yes	49	22	0.44898	3	0	0
+maximal	cefoxitin	temporal	no	5	2	0.4	3	1	0.333333
+maximal	ceftazidime	country	all	7	2	0.285714	346	133	0.384393
+maximal	ceftazidime	country	yes	3	0	0	272	107	0.393382
+maximal	ceftazidime	country	no	4	2	0.5	67	21	0.313433
+maximal	ceftazidime	geography	all	7	1	0.142857	41	34	0.829268
+maximal	ceftazidime	geography	yes	3	1	0.333333	27	22	0.814815
+maximal	ceftazidime	geography	no	4	0	0	13	11	0.846154
+maximal	ceftazidime	lineage	all	11	4	0.363636	365	217	0.594521
+maximal	ceftazidime	lineage	yes	0	0	NA	0	0	NA
+maximal	ceftazidime	lineage	no	11	4	0.363636	363	217	0.597796
+maximal	ceftazidime	project	all	9	4	0.444444	343	162	0.472303
+maximal	ceftazidime	project	yes	5	2	0.4	311	142	0.456592
+maximal	ceftazidime	project	no	4	2	0.5	25	16	0.64
+maximal	ceftazidime	random	all	11	3	0.272727	371	234	0.630728
+maximal	ceftazidime	random	yes	8	2	0.25	338	214	0.633136
+maximal	ceftazidime	random	no	3	1	0.333333	25	15	0.6
+maximal	ceftazidime	random_cluster	all	11	4	0.363636	371	235	0.633423
+maximal	ceftazidime	random_cluster	yes	6	2	0.333333	332	212	0.638554
+maximal	ceftazidime	random_cluster	no	5	2	0.4	31	19	0.612903
+maximal	ceftazidime	temporal	all	4	2	0.5	197	22	0.111675
+maximal	ceftazidime	temporal	yes	3	2	0.666667	178	14	0.078652
+maximal	ceftazidime	temporal	no	1	0	0	11	5	0.454545
+maximal	ceftiofur	lineage	all	15	1	0.066667	29	12	0.413793
+maximal	ceftiofur	lineage	yes	0	0	NA	0	0	NA
+maximal	ceftiofur	lineage	no	14	1	0.071429	28	11	0.392857
+maximal	ceftiofur	random	all	15	1	0.066667	29	11	0.37931
+maximal	ceftiofur	random	yes	12	1	0.083333	25	7	0.28
+maximal	ceftiofur	random	no	2	0	0	3	3	1
+maximal	ceftiofur	random_cluster	all	15	1	0.066667	29	11	0.37931
+maximal	ceftiofur	random_cluster	yes	11	1	0.090909	24	7	0.291667
+maximal	ceftiofur	random_cluster	no	3	0	0	4	3	0.75
+maximal	ceftriaxone	country	all	22	1	0.045455	125	88	0.704
+maximal	ceftriaxone	country	yes	16	1	0.0625	81	48	0.592593
+maximal	ceftriaxone	country	no	5	0	0	42	38	0.904762
+maximal	ceftriaxone	geography	all	16	1	0.0625	19	8	0.421053
+maximal	ceftriaxone	geography	yes	11	1	0.090909	15	5	0.333333
+maximal	ceftriaxone	geography	no	4	0	0	3	2	0.666667
+maximal	ceftriaxone	lineage	all	30	2	0.066667	125	86	0.688
+maximal	ceftriaxone	lineage	yes	0	0	NA	0	0	NA
+maximal	ceftriaxone	lineage	no	29	2	0.068966	124	85	0.685484
+maximal	ceftriaxone	project	all	27	3	0.111111	124	80	0.645161
+maximal	ceftriaxone	project	yes	21	3	0.142857	117	75	0.641026
+maximal	ceftriaxone	project	no	5	0	0	5	3	0.6
+maximal	ceftriaxone	random	all	30	5	0.166667	126	87	0.690476
+maximal	ceftriaxone	random	yes	26	5	0.192308	120	82	0.683333
+maximal	ceftriaxone	random	no	3	0	0	4	3	0.75
+maximal	ceftriaxone	random_cluster	all	30	2	0.066667	126	86	0.68254
+maximal	ceftriaxone	random_cluster	yes	25	2	0.08	119	80	0.672269
+maximal	ceftriaxone	random_cluster	no	4	0	0	5	4	0.8
+maximal	ceftriaxone	temporal	all	6	2	0.333333	18	0	0
+maximal	ceftriaxone	temporal	yes	6	2	0.333333	18	0	0
+maximal	ceftriaxone	temporal	no	0	0	NA	0	0	NA
+maximal	chloramphenicol	country	all	4	1	0.25	8	0	0
+maximal	chloramphenicol	country	yes	3	1	0.333333	8	0	0
+maximal	chloramphenicol	country	no	1	0	0	0	0	NA
+maximal	chloramphenicol	geography	all	6	1	0.166667	7	0	0
+maximal	chloramphenicol	geography	yes	5	1	0.2	6	0	0
+maximal	chloramphenicol	geography	no	1	0	0	1	0	0
+maximal	chloramphenicol	lineage	all	7	1	0.142857	16	3	0.1875
+maximal	chloramphenicol	lineage	yes	0	0	NA	0	0	NA
+maximal	chloramphenicol	lineage	no	7	1	0.142857	16	3	0.1875
+maximal	chloramphenicol	project	all	4	1	0.25	7	0	0
+maximal	chloramphenicol	project	yes	3	1	0.333333	7	0	0
+maximal	chloramphenicol	project	no	1	0	0	0	0	NA
+maximal	chloramphenicol	random	all	7	1	0.142857	16	4	0.25
+maximal	chloramphenicol	random	yes	7	1	0.142857	16	4	0.25
+maximal	chloramphenicol	random	no	0	0	NA	0	0	NA
+maximal	chloramphenicol	random_cluster	all	7	1	0.142857	16	4	0.25
+maximal	chloramphenicol	random_cluster	yes	7	1	0.142857	16	4	0.25
+maximal	chloramphenicol	random_cluster	no	0	0	NA	0	0	NA
+maximal	chloramphenicol	temporal	all	1	1	1	6	0	0
+maximal	chloramphenicol	temporal	yes	1	1	1	6	0	0
+maximal	chloramphenicol	temporal	no	0	0	NA	0	0	NA
+maximal	ciprofloxacin	country	all	29	0	0	354	71	0.200565
+maximal	ciprofloxacin	country	yes	20	0	0	285	55	0.192982
+maximal	ciprofloxacin	country	no	8	0	0	65	15	0.230769
+maximal	ciprofloxacin	geography	all	15	0	0	28	22	0.785714
+maximal	ciprofloxacin	geography	yes	13	0	0	22	17	0.772727
+maximal	ciprofloxacin	geography	no	2	0	0	6	5	0.833333
+maximal	ciprofloxacin	lineage	all	32	0	0	381	270	0.708661
+maximal	ciprofloxacin	lineage	yes	0	0	NA	0	0	NA
+maximal	ciprofloxacin	lineage	no	32	0	0	381	270	0.708661
+maximal	ciprofloxacin	project	all	30	0	0	337	183	0.543027
+maximal	ciprofloxacin	project	yes	24	0	0	301	165	0.548173
+maximal	ciprofloxacin	project	no	5	0	0	32	16	0.5
+maximal	ciprofloxacin	random	all	33	5	0.151515	385	298	0.774026
+maximal	ciprofloxacin	random	yes	29	5	0.172414	356	278	0.780899
+maximal	ciprofloxacin	random	no	3	0	0	25	18	0.72
+maximal	ciprofloxacin	random_cluster	all	33	0	0	385	294	0.763636
+maximal	ciprofloxacin	random_cluster	yes	28	0	0	355	276	0.777465
+maximal	ciprofloxacin	random_cluster	no	4	0	0	26	17	0.653846
+maximal	ciprofloxacin	temporal	all	7	0	0	79	60	0.759494
+maximal	ciprofloxacin	temporal	yes	6	0	0	71	53	0.746479
+maximal	ciprofloxacin	temporal	no	0	0	NA	5	4	0.8
+maximal	ertapenem	lineage	all	44	16	0.363636	0	0	NA
+maximal	ertapenem	lineage	yes	0	0	NA	0	0	NA
+maximal	ertapenem	lineage	no	43	15	0.348837	0	0	NA
+maximal	ertapenem	random	all	44	18	0.409091	0	0	NA
+maximal	ertapenem	random	yes	36	13	0.361111	0	0	NA
+maximal	ertapenem	random	no	7	4	0.571429	0	0	NA
+maximal	ertapenem	random_cluster	all	44	15	0.340909	0	0	NA
+maximal	ertapenem	random_cluster	yes	34	12	0.352941	0	0	NA
+maximal	ertapenem	random_cluster	no	9	2	0.222222	0	0	NA
+maximal	gentamicin	country	all	75	15	0.2	27	3	0.111111
+maximal	gentamicin	country	yes	60	13	0.216667	23	2	0.086957
+maximal	gentamicin	country	no	14	1	0.071429	4	1	0.25
+maximal	gentamicin	geography	all	50	9	0.18	10	1	0.1
+maximal	gentamicin	geography	yes	43	8	0.186047	7	1	0.142857
+maximal	gentamicin	geography	no	6	0	0	3	0	0
+maximal	gentamicin	lineage	all	96	37	0.385417	30	3	0.1
+maximal	gentamicin	lineage	yes	0	0	NA	0	0	NA
+maximal	gentamicin	lineage	no	96	37	0.385417	30	3	0.1
+maximal	gentamicin	project	all	59	10	0.169492	27	5	0.185185
+maximal	gentamicin	project	yes	52	8	0.153846	24	5	0.208333
+maximal	gentamicin	project	no	6	1	0.166667	3	0	0
+maximal	gentamicin	random	all	97	45	0.463918	30	3	0.1
+maximal	gentamicin	random	yes	87	40	0.45977	29	3	0.103448
+maximal	gentamicin	random	no	9	4	0.444444	1	0	0
+maximal	gentamicin	random_cluster	all	97	43	0.443299	30	3	0.1
+maximal	gentamicin	random_cluster	yes	84	36	0.428571	29	3	0.103448
+maximal	gentamicin	random_cluster	no	12	6	0.5	1	0	0
+maximal	gentamicin	temporal	all	12	1	0.083333	6	0	0
+maximal	gentamicin	temporal	yes	10	1	0.1	6	0	0
+maximal	gentamicin	temporal	no	2	0	0	0	0	NA
+maximal	kanamycin	lineage	all	11	0	0	5	4	0.8
+maximal	kanamycin	lineage	yes	0	0	NA	0	0	NA
+maximal	kanamycin	lineage	no	11	0	0	5	4	0.8
+maximal	kanamycin	random	all	11	0	0	5	4	0.8
+maximal	kanamycin	random	yes	11	0	0	5	4	0.8
+maximal	kanamycin	random	no	0	0	NA	0	0	NA
+maximal	kanamycin	random_cluster	all	11	0	0	5	4	0.8
+maximal	kanamycin	random_cluster	yes	11	0	0	5	4	0.8
+maximal	kanamycin	random_cluster	no	0	0	NA	0	0	NA
+maximal	levofloxacin	country	all	12	0	0	297	233	0.784512
+maximal	levofloxacin	country	yes	7	0	0	218	182	0.834862
+maximal	levofloxacin	country	no	4	0	0	76	48	0.631579
+maximal	levofloxacin	geography	all	3	0	0	10	10	1
+maximal	levofloxacin	geography	yes	2	0	0	6	6	1
+maximal	levofloxacin	geography	no	1	0	0	4	4	1
+maximal	levofloxacin	lineage	all	11	1	0.090909	302	247	0.817881
+maximal	levofloxacin	lineage	yes	0	0	NA	0	0	NA
+maximal	levofloxacin	lineage	no	11	1	0.090909	302	247	0.817881
+maximal	levofloxacin	project	all	12	0	0	296	263	0.888514
+maximal	levofloxacin	project	yes	8	0	0	255	224	0.878431
+maximal	levofloxacin	project	no	3	0	0	38	37	0.973684
+maximal	levofloxacin	random	all	12	0	0	305	269	0.881967
+maximal	levofloxacin	random	yes	10	0	0	273	240	0.879121
+maximal	levofloxacin	random	no	1	0	0	29	26	0.896552
+maximal	levofloxacin	random_cluster	all	12	0	0	305	275	0.901639
+maximal	levofloxacin	random_cluster	yes	10	0	0	272	245	0.900735
+maximal	levofloxacin	random_cluster	no	1	0	0	30	27	0.9
+maximal	levofloxacin	temporal	all	1	0	0	35	24	0.685714
+maximal	levofloxacin	temporal	yes	0	0	NA	28	18	0.642857
+maximal	levofloxacin	temporal	no	0	0	NA	5	4	0.8
+maximal	meropenem	lineage	all	11	0	0	14	10	0.714286
+maximal	meropenem	lineage	yes	0	0	NA	0	0	NA
+maximal	meropenem	lineage	no	11	0	0	14	10	0.714286
+maximal	meropenem	random	all	11	2	0.181818	15	9	0.6
+maximal	meropenem	random	yes	10	2	0.2	14	8	0.571429
+maximal	meropenem	random	no	1	0	0	0	0	NA
+maximal	meropenem	random_cluster	all	11	0	0	15	9	0.6
+maximal	meropenem	random_cluster	yes	10	0	0	10	4	0.4
+maximal	meropenem	random_cluster	no	1	0	0	4	4	1
+maximal	nalidixic acid	country	all	44	0	0	19	13	0.684211
+maximal	nalidixic acid	country	yes	37	0	0	11	7	0.636364
+maximal	nalidixic acid	country	no	7	0	0	8	6	0.75
+maximal	nalidixic acid	geography	all	42	0	0	13	7	0.538462
+maximal	nalidixic acid	geography	yes	35	0	0	8	4	0.5
+maximal	nalidixic acid	geography	no	7	0	0	5	3	0.6
+maximal	nalidixic acid	lineage	all	44	11	0.25	20	12	0.6
+maximal	nalidixic acid	lineage	yes	0	0	NA	0	0	NA
+maximal	nalidixic acid	lineage	no	44	11	0.25	20	12	0.6
+maximal	nalidixic acid	project	all	43	0	0	16	10	0.625
+maximal	nalidixic acid	project	yes	36	0	0	10	6	0.6
+maximal	nalidixic acid	project	no	7	0	0	6	4	0.666667
+maximal	nalidixic acid	random	all	44	18	0.409091	20	12	0.6
+maximal	nalidixic acid	random	yes	40	17	0.425	16	8	0.5
+maximal	nalidixic acid	random	no	4	1	0.25	4	4	1
+maximal	nalidixic acid	random_cluster	all	44	10	0.227273	20	13	0.65
+maximal	nalidixic acid	random_cluster	yes	38	9	0.236842	14	7	0.5
+maximal	nalidixic acid	random_cluster	no	6	1	0.166667	6	6	1
+maximal	nalidixic acid	temporal	all	21	0	0	1	0	0
+maximal	nalidixic acid	temporal	yes	18	0	0	1	0	0
+maximal	nalidixic acid	temporal	no	3	0	0	0	0	NA
+maximal	piperacillin-tazobactam	lineage	all	35	9	0.257143	249	166	0.666667
+maximal	piperacillin-tazobactam	lineage	yes	0	0	NA	0	0	NA
+maximal	piperacillin-tazobactam	lineage	no	35	9	0.257143	245	166	0.677551
+maximal	piperacillin-tazobactam	random	all	35	13	0.371429	251	107	0.426295
+maximal	piperacillin-tazobactam	random	yes	33	12	0.363636	227	95	0.418502
+maximal	piperacillin-tazobactam	random	no	2	1	0.5	18	11	0.611111
+maximal	piperacillin-tazobactam	random_cluster	all	35	12	0.342857	251	108	0.430279
+maximal	piperacillin-tazobactam	random_cluster	yes	32	11	0.34375	223	94	0.421525
+maximal	piperacillin-tazobactam	random_cluster	no	3	1	0.333333	22	13	0.590909
+maximal	streptomycin	country	all	33	1	0.030303	303	121	0.39934
+maximal	streptomycin	country	yes	20	1	0.05	218	85	0.389908
+maximal	streptomycin	country	no	13	0	0	77	34	0.441558
+maximal	streptomycin	geography	all	12	0	0	199	59	0.296482
+maximal	streptomycin	geography	yes	10	0	0	159	45	0.283019
+maximal	streptomycin	geography	no	2	0	0	33	12	0.363636
+maximal	streptomycin	lineage	all	35	0	0	298	129	0.432886
+maximal	streptomycin	lineage	yes	0	0	NA	0	0	NA
+maximal	streptomycin	lineage	no	35	0	0	296	129	0.435811
+maximal	streptomycin	project	all	31	0	0	294	120	0.408163
+maximal	streptomycin	project	yes	20	0	0	236	91	0.385593
+maximal	streptomycin	project	no	11	0	0	50	27	0.54
+maximal	streptomycin	random	all	35	0	0	304	139	0.457237
+maximal	streptomycin	random	yes	31	0	0	280	131	0.467857
+maximal	streptomycin	random	no	4	0	0	16	4	0.25
+maximal	streptomycin	random_cluster	all	35	0	0	304	133	0.4375
+maximal	streptomycin	random_cluster	yes	31	0	0	270	122	0.451852
+maximal	streptomycin	random_cluster	no	4	0	0	26	8	0.307692
+maximal	sulfisoxazole	country	all	32	0	0	16	3	0.1875
+maximal	sulfisoxazole	country	yes	26	0	0	13	3	0.230769
+maximal	sulfisoxazole	country	no	6	0	0	3	0	0
+maximal	sulfisoxazole	geography	all	29	0	0	8	0	0
+maximal	sulfisoxazole	geography	yes	25	0	0	6	0	0
+maximal	sulfisoxazole	geography	no	4	0	0	2	0	0
+maximal	sulfisoxazole	lineage	all	32	0	0	16	0	0
+maximal	sulfisoxazole	lineage	yes	0	0	NA	0	0	NA
+maximal	sulfisoxazole	lineage	no	32	0	0	16	0	0
+maximal	sulfisoxazole	project	all	32	0	0	15	1	0.066667
+maximal	sulfisoxazole	project	yes	27	0	0	12	1	0.083333
+maximal	sulfisoxazole	project	no	5	0	0	3	0	0
+maximal	sulfisoxazole	random	all	32	4	0.125	16	0	0
+maximal	sulfisoxazole	random	yes	30	4	0.133333	14	0	0
+maximal	sulfisoxazole	random	no	2	0	0	2	0	0
+maximal	sulfisoxazole	random_cluster	all	32	2	0.0625	16	1	0.0625
+maximal	sulfisoxazole	random_cluster	yes	27	2	0.074074	14	1	0.071429
+maximal	sulfisoxazole	random_cluster	no	5	0	0	2	0	0
+maximal	tetracycline	country	all	49	3	0.061224	41	19	0.463415
+maximal	tetracycline	country	yes	37	3	0.081081	26	9	0.346154
+maximal	tetracycline	country	no	11	0	0	11	7	0.636364
+maximal	tetracycline	geography	all	18	4	0.222222	15	6	0.4
+maximal	tetracycline	geography	yes	17	4	0.235294	7	1	0.142857
+maximal	tetracycline	geography	no	1	0	0	6	4	0.666667
+maximal	tetracycline	lineage	all	52	3	0.057692	42	15	0.357143
+maximal	tetracycline	lineage	yes	0	0	NA	0	0	NA
+maximal	tetracycline	lineage	no	52	3	0.057692	41	15	0.365854
+maximal	tetracycline	project	all	49	3	0.061224	39	16	0.410256
+maximal	tetracycline	project	yes	42	3	0.071429	25	9	0.36
+maximal	tetracycline	project	no	6	0	0	10	5	0.5
+maximal	tetracycline	random	all	53	3	0.056604	45	20	0.444444
+maximal	tetracycline	random	yes	50	3	0.06	37	16	0.432432
+maximal	tetracycline	random	no	2	0	0	4	2	0.5
+maximal	tetracycline	random_cluster	all	53	3	0.056604	45	18	0.4
+maximal	tetracycline	random_cluster	yes	49	3	0.061224	37	14	0.378378
+maximal	tetracycline	random_cluster	no	3	0	0	4	2	0.5
+maximal	tetracycline	temporal	all	6	0	0	8	3	0.375
+maximal	tetracycline	temporal	yes	6	0	0	7	3	0.428571
+maximal	tetracycline	temporal	no	0	0	NA	0	0	NA
+maximal	tobramycin	lineage	all	18	3	0.166667	39	8	0.205128
+maximal	tobramycin	lineage	yes	0	0	NA	0	0	NA
+maximal	tobramycin	lineage	no	18	3	0.166667	39	8	0.205128
+maximal	tobramycin	random	all	18	5	0.277778	39	7	0.179487
+maximal	tobramycin	random	yes	14	4	0.285714	33	3	0.090909
+maximal	tobramycin	random	no	4	1	0.25	6	4	0.666667
+maximal	tobramycin	random_cluster	all	18	5	0.277778	39	7	0.179487
+maximal	tobramycin	random_cluster	yes	13	4	0.307692	34	4	0.117647
+maximal	tobramycin	random_cluster	no	5	1	0.2	5	3	0.6
+maximal	trimethoprim-sulfamethoxazole	country	all	24	0	0	47	9	0.191489
+maximal	trimethoprim-sulfamethoxazole	country	yes	19	0	0	35	5	0.142857
+maximal	trimethoprim-sulfamethoxazole	country	no	5	0	0	12	4	0.333333
+maximal	trimethoprim-sulfamethoxazole	geography	all	8	0	0	11	4	0.363636
+maximal	trimethoprim-sulfamethoxazole	geography	yes	7	0	0	9	4	0.444444
+maximal	trimethoprim-sulfamethoxazole	geography	no	1	0	0	2	0	0
+maximal	trimethoprim-sulfamethoxazole	lineage	all	29	0	0	50	8	0.16
+maximal	trimethoprim-sulfamethoxazole	lineage	yes	0	0	NA	0	0	NA
+maximal	trimethoprim-sulfamethoxazole	lineage	no	29	0	0	50	8	0.16
+maximal	trimethoprim-sulfamethoxazole	project	all	26	0	0	46	8	0.173913
+maximal	trimethoprim-sulfamethoxazole	project	yes	24	0	0	38	6	0.157895
+maximal	trimethoprim-sulfamethoxazole	project	no	2	0	0	8	2	0.25
+maximal	trimethoprim-sulfamethoxazole	random	all	29	0	0	50	4	0.08
+maximal	trimethoprim-sulfamethoxazole	random	yes	29	0	0	48	3	0.0625
+maximal	trimethoprim-sulfamethoxazole	random	no	0	0	NA	2	1	0.5
+maximal	trimethoprim-sulfamethoxazole	random_cluster	all	29	0	0	50	8	0.16
+maximal	trimethoprim-sulfamethoxazole	random_cluster	yes	28	0	0	46	7	0.152174
+maximal	trimethoprim-sulfamethoxazole	random_cluster	no	1	0	0	4	1	0.25
+maximal	trimethoprim-sulfamethoxazole	temporal	all	5	0	0	17	4	0.235294
+maximal	trimethoprim-sulfamethoxazole	temporal	yes	5	0	0	15	3	0.2
+maximal	trimethoprim-sulfamethoxazole	temporal	no	0	0	NA	2	1	0.5

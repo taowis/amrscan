@@ -1,0 +1,537 @@
+representation	antimicrobial	split_strategy	N	both_correct	determinant_only_correct	ml_only_correct	both_wrong
+R0	amikacin	lineage	3213	2910	80	193	30
+R1	amikacin	lineage	3213	2918	72	198	25
+R0	amikacin	random	3213	2896	94	196	27
+R1	amikacin	random	3213	2912	78	195	28
+R0	amikacin	random_cluster	3213	2942	48	196	27
+R1	amikacin	random_cluster	3213	2938	52	192	31
+R0	amoxicillin-clavulanic acid	country	6159	5889	180	10	80
+R1	amoxicillin-clavulanic acid	country	6159	5862	207	7	83
+R2	amoxicillin-clavulanic acid	country	6159	5901	168	9	81
+R2_permuted	amoxicillin-clavulanic acid	country	6159	5896	173	10	80
+R3	amoxicillin-clavulanic acid	country	6159	5837	232	10	80
+R3_permuted	amoxicillin-clavulanic acid	country	6159	5842	227	10	80
+R0	amoxicillin-clavulanic acid	geography	1358	1302	20	1	35
+R1	amoxicillin-clavulanic acid	geography	1358	1307	15	1	35
+R2	amoxicillin-clavulanic acid	geography	1358	1313	9	0	36
+R2_permuted	amoxicillin-clavulanic acid	geography	1358	1301	21	1	35
+R3	amoxicillin-clavulanic acid	geography	1358	1310	12	1	35
+R3_permuted	amoxicillin-clavulanic acid	geography	1358	1307	15	1	35
+R0	amoxicillin-clavulanic acid	lineage	6228	5968	165	13	82
+R1	amoxicillin-clavulanic acid	lineage	6228	5992	141	13	82
+R2	amoxicillin-clavulanic acid	lineage	6228	6013	120	10	85
+R2_permuted	amoxicillin-clavulanic acid	lineage	6228	5957	176	13	82
+R3	amoxicillin-clavulanic acid	lineage	6228	6023	110	12	83
+R3_permuted	amoxicillin-clavulanic acid	lineage	6228	5987	146	14	81
+R0	amoxicillin-clavulanic acid	project	6114	5829	193	14	78
+R1	amoxicillin-clavulanic acid	project	6114	5870	152	11	81
+R2	amoxicillin-clavulanic acid	project	6114	5901	121	11	81
+R2_permuted	amoxicillin-clavulanic acid	project	6114	5831	191	12	80
+R3	amoxicillin-clavulanic acid	project	6114	5882	140	12	80
+R3_permuted	amoxicillin-clavulanic acid	project	6114	5869	153	10	82
+R0	amoxicillin-clavulanic acid	random	6228	6051	82	18	77
+R1	amoxicillin-clavulanic acid	random	6228	6066	67	15	80
+R2	amoxicillin-clavulanic acid	random	6228	6084	49	14	81
+R2_permuted	amoxicillin-clavulanic acid	random	6228	6052	81	18	77
+R3	amoxicillin-clavulanic acid	random	6228	6074	59	13	82
+R3_permuted	amoxicillin-clavulanic acid	random	6228	6064	69	15	80
+R0	amoxicillin-clavulanic acid	random_cluster	6228	6038	95	14	81
+R1	amoxicillin-clavulanic acid	random_cluster	6228	6053	80	14	81
+R2	amoxicillin-clavulanic acid	random_cluster	6228	6067	66	16	79
+R2_permuted	amoxicillin-clavulanic acid	random_cluster	6228	6036	97	14	81
+R3	amoxicillin-clavulanic acid	random_cluster	6228	6073	60	15	80
+R3_permuted	amoxicillin-clavulanic acid	random_cluster	6228	6052	81	13	82
+R0	amoxicillin-clavulanic acid	temporal	388	319	40	6	23
+R1	amoxicillin-clavulanic acid	temporal	388	326	33	6	23
+R2	amoxicillin-clavulanic acid	temporal	388	338	21	6	23
+R2_permuted	amoxicillin-clavulanic acid	temporal	388	321	38	6	23
+R3	amoxicillin-clavulanic acid	temporal	388	329	30	6	23
+R3_permuted	amoxicillin-clavulanic acid	temporal	388	325	34	6	23
+R0	ampicillin	country	7106	6533	323	16	234
+R1	ampicillin	country	7106	6699	157	23	227
+R2	ampicillin	country	7106	6616	240	10	240
+R2_permuted	ampicillin	country	7106	6531	325	15	235
+R3	ampicillin	country	7106	6710	146	14	236
+R3_permuted	ampicillin	country	7106	6711	145	16	234
+R0	ampicillin	geography	1766	1620	112	6	28
+R1	ampicillin	geography	1766	1640	92	5	29
+R2	ampicillin	geography	1766	1648	84	6	28
+R2_permuted	ampicillin	geography	1766	1628	104	7	27
+R3	ampicillin	geography	1766	1653	79	5	29
+R3_permuted	ampicillin	geography	1766	1639	93	5	29
+R0	ampicillin	lineage	7553	7136	159	139	119
+R1	ampicillin	lineage	7553	7178	117	143	115
+R2	ampicillin	lineage	7553	7194	101	136	122
+R2_permuted	ampicillin	lineage	7553	7140	155	138	120
+R3	ampicillin	lineage	7553	7197	98	142	116
+R3_permuted	ampicillin	lineage	7553	7175	120	144	114
+R0	ampicillin	project	6978	6526	199	33	220
+R1	ampicillin	project	6978	6578	147	26	227
+R2	ampicillin	project	6978	6583	142	25	228
+R2_permuted	ampicillin	project	6978	6528	197	32	221
+R3	ampicillin	project	6978	6597	128	23	230
+R3_permuted	ampicillin	project	6978	6592	133	27	226
+R0	ampicillin	random	7553	7206	89	144	114
+R1	ampicillin	random	7553	7226	69	143	115
+R2	ampicillin	random	7553	7238	57	141	117
+R2_permuted	ampicillin	random	7553	7202	93	146	112
+R3	ampicillin	random	7553	7240	55	144	114
+R3_permuted	ampicillin	random	7553	7221	74	144	114
+R0	ampicillin	random_cluster	7553	7167	128	140	118
+R1	ampicillin	random_cluster	7553	7204	91	142	116
+R2	ampicillin	random_cluster	7553	7218	77	137	121
+R2_permuted	ampicillin	random_cluster	7553	7166	129	139	119
+R3	ampicillin	random_cluster	7553	7221	74	143	115
+R3_permuted	ampicillin	random_cluster	7553	7189	106	142	116
+R0	ampicillin	temporal	1105	1020	68	2	15
+R1	ampicillin	temporal	1105	1033	55	4	13
+R2	ampicillin	temporal	1105	1048	40	2	15
+R2_permuted	ampicillin	temporal	1105	1019	69	3	14
+R3	ampicillin	temporal	1105	1039	49	4	13
+R3_permuted	ampicillin	temporal	1105	1034	54	4	13
+R0	aztreonam	lineage	2226	2131	30	13	52
+R1	aztreonam	lineage	2226	2138	23	16	49
+R0	aztreonam	random	2226	2143	18	8	57
+R1	aztreonam	random	2226	2141	20	17	48
+R0	aztreonam	random_cluster	2226	2134	27	11	54
+R1	aztreonam	random_cluster	2226	2135	26	15	50
+R0	cefazolin	country	2496	1498	517	391	90
+R1	cefazolin	country	2496	1706	309	417	64
+R2	cefazolin	country	2496	1496	519	390	91
+R2_permuted	cefazolin	country	2496	1543	472	396	85
+R3	cefazolin	country	2496	1710	305	416	65
+R3_permuted	cefazolin	country	2496	1722	293	416	65
+R0	cefazolin	geography	160	139	5	7	9
+R1	cefazolin	geography	160	141	3	7	9
+R2	cefazolin	geography	160	135	9	6	10
+R2_permuted	cefazolin	geography	160	140	4	7	9
+R3	cefazolin	geography	160	140	4	7	9
+R3_permuted	cefazolin	geography	160	137	7	7	9
+R0	cefazolin	lineage	2497	1877	139	396	85
+R1	cefazolin	lineage	2497	1868	148	390	91
+R2	cefazolin	lineage	2497	1894	122	399	82
+R2_permuted	cefazolin	lineage	2497	1876	140	393	88
+R3	cefazolin	lineage	2497	1883	133	398	83
+R3_permuted	cefazolin	lineage	2497	1865	151	393	88
+R0	cefazolin	project	2385	1480	432	238	235
+R1	cefazolin	project	2385	1623	289	367	106
+R2	cefazolin	project	2385	1493	419	241	232
+R2_permuted	cefazolin	project	2385	1491	421	220	253
+R3	cefazolin	project	2385	1632	280	383	90
+R3_permuted	cefazolin	project	2385	1475	437	299	174
+R0	cefazolin	random	2497	1914	102	382	99
+R1	cefazolin	random	2497	1907	109	390	91
+R2	cefazolin	random	2497	1924	92	385	96
+R2_permuted	cefazolin	random	2497	1910	106	384	97
+R3	cefazolin	random	2497	1925	91	398	83
+R3_permuted	cefazolin	random	2497	1905	111	394	87
+R0	cefazolin	random_cluster	2497	1903	113	386	95
+R1	cefazolin	random_cluster	2497	1904	112	383	98
+R2	cefazolin	random_cluster	2497	1915	101	389	92
+R2_permuted	cefazolin	random_cluster	2497	1901	115	386	95
+R3	cefazolin	random_cluster	2497	1912	104	388	93
+R3_permuted	cefazolin	random_cluster	2497	1900	116	385	96
+R0	cefepime	country	3245	2280	526	200	239
+R1	cefepime	country	3245	2609	197	161	278
+R0	cefepime	geography	603	426	119	25	33
+R1	cefepime	geography	603	446	99	20	38
+R0	cefepime	lineage	3474	2882	111	224	257
+R1	cefepime	lineage	3474	2867	126	248	233
+R0	cefepime	project	3301	2688	168	127	318
+R1	cefepime	project	3301	2726	130	120	325
+R0	cefepime	random	3474	2915	78	256	225
+R1	cefepime	random	3474	2914	79	272	209
+R0	cefepime	random_cluster	3474	2898	95	248	233
+R1	cefepime	random_cluster	3474	2908	85	247	234
+R0	cefepime	temporal	1055	665	103	54	233
+R1	cefepime	temporal	1055	635	133	126	161
+R0	cefoxitin	country	4809	4543	162	23	81
+R1	cefoxitin	country	4809	4592	113	16	88
+R2	cefoxitin	country	4809	4601	104	21	83
+R2_permuted	cefoxitin	country	4809	4548	157	23	81
+R3	cefoxitin	country	4809	4596	109	18	86
+R3_permuted	cefoxitin	country	4809	4582	123	21	83
+R0	cefoxitin	geography	1768	1629	85	9	45
+R1	cefoxitin	geography	1768	1632	82	10	44
+R2	cefoxitin	geography	1768	1642	72	10	44
+R2_permuted	cefoxitin	geography	1768	1628	86	9	45
+R3	cefoxitin	geography	1768	1639	75	10	44
+R3_permuted	cefoxitin	geography	1768	1629	85	10	44
+R0	cefoxitin	lineage	4901	4687	106	26	82
+R1	cefoxitin	lineage	4901	4709	84	23	85
+R2	cefoxitin	lineage	4901	4708	85	25	83
+R2_permuted	cefoxitin	lineage	4901	4688	105	24	84
+R3	cefoxitin	lineage	4901	4693	100	24	84
+R3_permuted	cefoxitin	lineage	4901	4723	70	24	84
+R0	cefoxitin	project	4688	4498	96	24	70
+R1	cefoxitin	project	4688	4530	64	21	73
+R2	cefoxitin	project	4688	4542	52	19	75
+R2_permuted	cefoxitin	project	4688	4493	101	23	71
+R3	cefoxitin	project	4688	4534	60	21	73
+R3_permuted	cefoxitin	project	4688	4531	63	21	73
+R0	cefoxitin	random	4901	4688	105	41	67
+R1	cefoxitin	random	4901	4698	95	37	71
+R2	cefoxitin	random	4901	4705	88	35	73
+R2_permuted	cefoxitin	random	4901	4686	107	41	67
+R3	cefoxitin	random	4901	4703	90	35	73
+R3_permuted	cefoxitin	random	4901	4695	98	36	72
+R0	cefoxitin	random_cluster	4901	4671	122	42	66
+R1	cefoxitin	random_cluster	4901	4692	101	33	75
+R2	cefoxitin	random_cluster	4901	4693	100	35	73
+R2_permuted	cefoxitin	random_cluster	4901	4671	122	43	65
+R3	cefoxitin	random_cluster	4901	4699	94	36	72
+R3_permuted	cefoxitin	random_cluster	4901	4700	93	35	73
+R0	cefoxitin	temporal	693	533	101	23	36
+R1	cefoxitin	temporal	693	548	86	24	35
+R2	cefoxitin	temporal	693	573	61	23	36
+R2_permuted	cefoxitin	temporal	693	528	106	25	34
+R3	cefoxitin	temporal	693	570	64	17	42
+R3_permuted	cefoxitin	temporal	693	549	85	24	35
+R0	ceftazidime	country	3101	2529	237	212	123
+R1	ceftazidime	country	3101	2576	190	111	224
+R2	ceftazidime	country	3101	2532	234	213	122
+R2_permuted	ceftazidime	country	3101	2537	229	212	123
+R3	ceftazidime	country	3101	2589	177	110	225
+R3_permuted	ceftazidime	country	3101	2578	188	110	225
+R0	ceftazidime	geography	722	478	209	22	13
+R1	ceftazidime	geography	722	502	185	22	13
+R2	ceftazidime	geography	722	471	216	22	13
+R2_permuted	ceftazidime	geography	722	455	232	22	13
+R3	ceftazidime	geography	722	502	185	21	14
+R3_permuted	ceftazidime	geography	722	514	173	23	12
+R0	ceftazidime	lineage	3200	2760	93	202	145
+R1	ceftazidime	lineage	3200	2788	65	187	160
+R2	ceftazidime	lineage	3200	2765	88	201	146
+R2_permuted	ceftazidime	lineage	3200	2761	92	203	144
+R3	ceftazidime	lineage	3200	2791	62	176	171
+R3_permuted	ceftazidime	lineage	3200	2792	61	194	153
+R0	ceftazidime	project	2825	2445	47	163	170
+R1	ceftazidime	project	2825	2447	45	151	182
+R2	ceftazidime	project	2825	2445	47	179	154
+R2_permuted	ceftazidime	project	2825	2439	53	174	159
+R3	ceftazidime	project	2825	2454	38	111	222
+R3_permuted	ceftazidime	project	2825	2454	38	119	214
+R0	ceftazidime	random	3200	2791	62	207	140
+R1	ceftazidime	random	3200	2798	55	218	129
+R2	ceftazidime	random	3200	2789	64	212	135
+R2_permuted	ceftazidime	random	3200	2790	63	207	140
+R3	ceftazidime	random	3200	2796	57	216	131
+R3_permuted	ceftazidime	random	3200	2796	57	215	132
+R0	ceftazidime	random_cluster	3200	2778	75	214	133
+R1	ceftazidime	random_cluster	3200	2801	52	212	135
+R2	ceftazidime	random_cluster	3200	2777	76	210	137
+R2_permuted	ceftazidime	random_cluster	3200	2782	71	211	136
+R3	ceftazidime	random_cluster	3200	2796	57	209	138
+R3_permuted	ceftazidime	random_cluster	3200	2795	58	207	140
+R0	ceftazidime	temporal	772	466	116	50	140
+R1	ceftazidime	temporal	772	471	111	26	164
+R2	ceftazidime	temporal	772	468	114	50	140
+R2_permuted	ceftazidime	temporal	772	467	115	50	140
+R3	ceftazidime	temporal	772	474	108	25	165
+R3_permuted	ceftazidime	temporal	772	472	110	24	166
+R0	ceftiofur	lineage	1270	1211	15	13	31
+R1	ceftiofur	lineage	1270	1209	17	14	30
+R0	ceftiofur	random	1270	1217	9	12	32
+R1	ceftiofur	random	1270	1215	11	13	31
+R0	ceftiofur	random_cluster	1270	1211	15	14	30
+R1	ceftiofur	random_cluster	1270	1211	15	13	31
+R0	ceftriaxone	country	6703	6399	158	87	59
+R1	ceftriaxone	country	6703	6489	68	88	58
+R2	ceftriaxone	country	6703	6407	150	87	59
+R2_permuted	ceftriaxone	country	6703	6397	160	87	59
+R3	ceftriaxone	country	6703	6482	75	88	58
+R3_permuted	ceftriaxone	country	6703	6491	66	88	58
+R0	ceftriaxone	geography	1400	1360	5	9	26
+R1	ceftriaxone	geography	1400	1350	15	9	26
+R2	ceftriaxone	geography	1400	1361	4	9	26
+R2_permuted	ceftriaxone	geography	1400	1360	5	9	26
+R3	ceftriaxone	geography	1400	1354	11	9	26
+R3_permuted	ceftriaxone	geography	1400	1348	17	9	26
+R0	ceftriaxone	lineage	6812	6629	29	87	67
+R1	ceftriaxone	lineage	6812	6622	36	88	66
+R2	ceftriaxone	lineage	6812	6633	25	89	65
+R2_permuted	ceftriaxone	lineage	6812	6628	30	87	67
+R3	ceftriaxone	lineage	6812	6626	32	87	67
+R3_permuted	ceftriaxone	lineage	6812	6618	40	89	65
+R0	ceftriaxone	project	6573	6134	289	83	67
+R1	ceftriaxone	project	6573	6036	387	55	95
+R2	ceftriaxone	project	6573	6148	275	82	68
+R2_permuted	ceftriaxone	project	6573	6050	373	52	98
+R3	ceftriaxone	project	6573	6044	379	54	96
+R3_permuted	ceftriaxone	project	6573	6059	364	54	96
+R0	ceftriaxone	random	6812	6635	23	86	68
+R1	ceftriaxone	random	6812	6628	30	87	67
+R2	ceftriaxone	random	6812	6634	24	87	67
+R2_permuted	ceftriaxone	random	6812	6635	23	86	68
+R3	ceftriaxone	random	6812	6626	32	87	67
+R3_permuted	ceftriaxone	random	6812	6624	34	88	66
+R0	ceftriaxone	random_cluster	6812	6635	23	87	67
+R1	ceftriaxone	random_cluster	6812	6623	35	88	66
+R2	ceftriaxone	random_cluster	6812	6635	23	87	67
+R2_permuted	ceftriaxone	random_cluster	6812	6635	23	87	67
+R3	ceftriaxone	random_cluster	6812	6623	35	88	66
+R3_permuted	ceftriaxone	random_cluster	6812	6629	29	88	66
+R0	ceftriaxone	temporal	435	403	8	2	22
+R1	ceftriaxone	temporal	435	399	12	2	22
+R2	ceftriaxone	temporal	435	403	8	2	22
+R2_permuted	ceftriaxone	temporal	435	403	8	2	22
+R3	ceftriaxone	temporal	435	394	17	2	22
+R3_permuted	ceftriaxone	temporal	435	401	10	2	22
+R0	chloramphenicol	country	4361	4345	4	1	11
+R1	chloramphenicol	country	4361	4342	7	2	10
+R0	chloramphenicol	geography	1611	1597	1	1	12
+R1	chloramphenicol	geography	1611	1597	1	2	11
+R0	chloramphenicol	lineage	4385	4361	6	1	17
+R1	chloramphenicol	lineage	4385	4364	3	1	17
+R0	chloramphenicol	project	4260	4245	4	1	10
+R1	chloramphenicol	project	4260	4244	5	1	10
+R0	chloramphenicol	random	4385	4362	5	2	16
+R1	chloramphenicol	random	4385	4364	3	2	16
+R0	chloramphenicol	random_cluster	4385	4364	3	1	17
+R1	chloramphenicol	random_cluster	4385	4364	3	2	16
+R0	chloramphenicol	temporal	352	344	2	1	5
+R1	chloramphenicol	temporal	352	343	3	1	5
+R0	ciprofloxacin	country	5966	5130	458	202	176
+R1	ciprofloxacin	country	5966	5482	106	70	308
+R2	ciprofloxacin	country	5966	5500	88	95	283
+R2_permuted	ciprofloxacin	country	5966	5131	457	206	172
+R3	ciprofloxacin	country	5966	5485	103	69	309
+R3_permuted	ciprofloxacin	country	5966	5482	106	69	309
+R0	ciprofloxacin	geography	1704	1528	133	20	23
+R1	ciprofloxacin	geography	1704	1540	121	23	20
+R2	ciprofloxacin	geography	1704	1563	98	21	22
+R2_permuted	ciprofloxacin	geography	1704	1512	149	25	18
+R3	ciprofloxacin	geography	1704	1545	116	20	23
+R3_permuted	ciprofloxacin	geography	1704	1540	121	22	21
+R0	ciprofloxacin	lineage	7249	6652	199	290	108
+R1	ciprofloxacin	lineage	7249	6792	59	238	160
+R2	ciprofloxacin	lineage	7249	6802	49	232	166
+R2_permuted	ciprofloxacin	lineage	7249	6653	198	290	108
+R3	ciprofloxacin	lineage	7249	6800	51	247	151
+R3_permuted	ciprofloxacin	lineage	7249	6781	70	238	160
+R0	ciprofloxacin	project	5903	5319	222	249	113
+R1	ciprofloxacin	project	5903	5424	117	176	186
+R2	ciprofloxacin	project	5903	5449	92	138	224
+R2_permuted	ciprofloxacin	project	5903	5317	224	251	111
+R3	ciprofloxacin	project	5903	5423	118	159	203
+R3_permuted	ciprofloxacin	project	5903	5422	119	176	186
+R0	ciprofloxacin	random	7249	6715	136	299	99
+R1	ciprofloxacin	random	7249	6798	53	286	112
+R2	ciprofloxacin	random	7249	6805	46	287	111
+R2_permuted	ciprofloxacin	random	7249	6711	140	296	102
+R3	ciprofloxacin	random	7249	6793	58	292	106
+R3_permuted	ciprofloxacin	random	7249	6804	47	274	124
+R0	ciprofloxacin	random_cluster	7249	6691	160	289	109
+R1	ciprofloxacin	random_cluster	7249	6788	63	294	104
+R2	ciprofloxacin	random_cluster	7249	6788	63	286	112
+R2_permuted	ciprofloxacin	random_cluster	7249	6691	160	287	111
+R3	ciprofloxacin	random_cluster	7249	6794	57	290	108
+R3_permuted	ciprofloxacin	random_cluster	7249	6794	57	286	112
+R0	ciprofloxacin	temporal	1036	795	164	49	28
+R1	ciprofloxacin	temporal	1036	826	133	55	22
+R2	ciprofloxacin	temporal	1036	829	130	55	22
+R2_permuted	ciprofloxacin	temporal	1036	794	165	49	28
+R3	ciprofloxacin	temporal	1036	833	126	53	24
+R3_permuted	ciprofloxacin	temporal	1036	822	137	55	22
+R0	ertapenem	lineage	3432	3089	304	10	29
+R1	ertapenem	lineage	3432	3204	189	13	26
+R0	ertapenem	random	3432	3194	199	10	29
+R1	ertapenem	random	3432	3176	217	14	25
+R0	ertapenem	random_cluster	3432	3182	211	11	28
+R1	ertapenem	random_cluster	3432	3184	209	14	25
+R0	gentamicin	country	7076	6839	136	21	80
+R1	gentamicin	country	7076	6808	167	17	84
+R0	gentamicin	geography	1779	1695	25	7	52
+R1	gentamicin	geography	1779	1685	35	10	49
+R0	gentamicin	lineage	7189	7020	47	42	80
+R1	gentamicin	lineage	7189	7019	48	41	81
+R0	gentamicin	project	6927	6768	74	14	71
+R1	gentamicin	project	6927	6767	75	16	69
+R0	gentamicin	random	7189	7023	44	43	79
+R1	gentamicin	random	7189	7020	47	47	75
+R0	gentamicin	random_cluster	7189	7016	51	44	78
+R1	gentamicin	random_cluster	7189	7008	59	43	79
+R0	gentamicin	temporal	809	764	29	1	15
+R1	gentamicin	temporal	809	765	28	1	15
+R0	kanamycin	lineage	1182	1163	7	4	8
+R1	kanamycin	lineage	1182	1163	7	4	8
+R0	kanamycin	random	1182	1158	12	4	8
+R1	kanamycin	random	1182	1161	9	4	8
+R0	kanamycin	random_cluster	1182	1157	13	4	8
+R1	kanamycin	random_cluster	1182	1158	12	4	8
+R0	levofloxacin	country	85	68	4	10	3
+R1	levofloxacin	country	85	72	0	10	3
+R2	levofloxacin	country	85	72	0	10	3
+R2_permuted	levofloxacin	country	85	69	3	9	4
+R3	levofloxacin	country	85	71	1	10	3
+R3_permuted	levofloxacin	country	85	72	0	10	3
+R0	levofloxacin	lineage	2805	2437	63	253	52
+R1	levofloxacin	lineage	2805	2448	52	246	59
+R2	levofloxacin	lineage	2805	2486	14	252	53
+R2_permuted	levofloxacin	lineage	2805	2432	68	253	52
+R3	levofloxacin	lineage	2805	2485	15	246	59
+R3_permuted	levofloxacin	lineage	2805	2449	51	252	53
+R0	levofloxacin	project	2784	2433	47	263	41
+R1	levofloxacin	project	2784	2459	21	254	50
+R2	levofloxacin	project	2784	2462	18	258	46
+R2_permuted	levofloxacin	project	2784	2437	43	263	41
+R3	levofloxacin	project	2784	2462	18	256	48
+R3_permuted	levofloxacin	project	2784	2459	21	254	50
+R0	levofloxacin	random	2805	2462	38	265	40
+R1	levofloxacin	random	2805	2479	21	258	47
+R2	levofloxacin	random	2805	2479	21	266	39
+R2_permuted	levofloxacin	random	2805	2465	35	263	42
+R3	levofloxacin	random	2805	2482	18	268	37
+R3_permuted	levofloxacin	random	2805	2483	17	257	48
+R0	levofloxacin	random_cluster	2805	2464	36	259	46
+R1	levofloxacin	random_cluster	2805	2483	17	258	47
+R2	levofloxacin	random_cluster	2805	2481	19	265	40
+R2_permuted	levofloxacin	random_cluster	2805	2465	35	261	44
+R3	levofloxacin	random_cluster	2805	2483	17	260	45
+R3_permuted	levofloxacin	random_cluster	2805	2478	22	257	48
+R0	levofloxacin	temporal	526	483	15	17	11
+R1	levofloxacin	temporal	526	483	15	18	10
+R2	levofloxacin	temporal	526	487	11	18	10
+R2_permuted	levofloxacin	temporal	526	480	18	18	10
+R3	levofloxacin	temporal	526	486	12	18	10
+R3_permuted	levofloxacin	temporal	526	481	17	18	10
+R0	meropenem	lineage	6099	6070	10	7	12
+R1	meropenem	lineage	6099	6071	9	7	12
+R0	meropenem	random	6099	6039	41	9	10
+R1	meropenem	random	6099	6048	32	9	10
+R0	meropenem	random_cluster	6099	6051	29	8	11
+R1	meropenem	random_cluster	6099	6054	26	7	12
+R0	nalidixic acid	country	4379	4002	314	24	39
+R1	nalidixic acid	country	4379	4288	28	18	45
+R2	nalidixic acid	country	4379	4283	33	13	50
+R2_permuted	nalidixic acid	country	4379	4003	313	24	39
+R3	nalidixic acid	country	4379	4291	25	13	50
+R3_permuted	nalidixic acid	country	4379	4288	28	18	45
+R0	nalidixic acid	geography	1633	1375	203	13	42
+R1	nalidixic acid	geography	1633	1565	13	7	48
+R2	nalidixic acid	geography	1633	1566	12	7	48
+R2_permuted	nalidixic acid	geography	1633	1375	203	13	42
+R3	nalidixic acid	geography	1633	1565	13	7	48
+R3_permuted	nalidixic acid	geography	1633	1565	13	7	48
+R0	nalidixic acid	lineage	4392	3896	433	33	30
+R1	nalidixic acid	lineage	4392	4253	76	28	35
+R2	nalidixic acid	lineage	4392	4299	30	23	40
+R2_permuted	nalidixic acid	lineage	4392	3892	437	33	30
+R3	nalidixic acid	lineage	4392	4250	79	28	35
+R3_permuted	nalidixic acid	lineage	4392	4249	80	28	35
+R0	nalidixic acid	project	4122	3725	338	21	38
+R1	nalidixic acid	project	4122	4037	26	14	45
+R2	nalidixic acid	project	4122	4035	28	9	50
+R2_permuted	nalidixic acid	project	4122	3723	340	21	38
+R3	nalidixic acid	project	4122	4039	24	9	50
+R3_permuted	nalidixic acid	project	4122	4037	26	14	45
+R0	nalidixic acid	random	4392	3996	333	29	34
+R1	nalidixic acid	random	4392	4273	56	31	32
+R2	nalidixic acid	random	4392	4290	39	31	32
+R2_permuted	nalidixic acid	random	4392	4040	289	29	34
+R3	nalidixic acid	random	4392	4279	50	31	32
+R3_permuted	nalidixic acid	random	4392	4275	54	32	31
+R0	nalidixic acid	random_cluster	4392	4023	306	32	31
+R1	nalidixic acid	random_cluster	4392	4279	50	30	33
+R2	nalidixic acid	random_cluster	4392	4288	41	28	35
+R2_permuted	nalidixic acid	random_cluster	4392	4025	304	32	31
+R3	nalidixic acid	random_cluster	4392	4284	45	30	33
+R3_permuted	nalidixic acid	random_cluster	4392	4280	49	30	33
+R0	nalidixic acid	temporal	339	253	65	6	15
+R1	nalidixic acid	temporal	339	313	5	0	21
+R2	nalidixic acid	temporal	339	313	5	0	21
+R2_permuted	nalidixic acid	temporal	339	253	65	6	15
+R3	nalidixic acid	temporal	339	313	5	0	21
+R3_permuted	nalidixic acid	temporal	339	313	5	0	21
+R0	piperacillin-tazobactam	lineage	2747	2309	171	142	125
+R1	piperacillin-tazobactam	lineage	2747	2172	308	106	161
+R0	piperacillin-tazobactam	random	2747	2292	188	130	137
+R1	piperacillin-tazobactam	random	2747	2278	202	124	143
+R0	piperacillin-tazobactam	random_cluster	2747	2240	240	122	145
+R1	piperacillin-tazobactam	random_cluster	2747	2200	280	113	154
+R0	streptomycin	country	4088	3693	65	114	216
+R1	streptomycin	country	4088	3655	103	106	224
+R0	streptomycin	geography	1263	1038	19	70	136
+R1	streptomycin	geography	1263	1040	17	62	144
+R0	streptomycin	lineage	4092	3716	43	135	198
+R1	streptomycin	lineage	4092	3710	49	131	202
+R0	streptomycin	project	3979	3581	79	126	193
+R1	streptomycin	project	3979	3566	94	119	200
+R0	streptomycin	random	4092	3730	29	132	201
+R1	streptomycin	random	4092	3724	35	132	201
+R0	streptomycin	random_cluster	4092	3725	34	133	200
+R1	streptomycin	random_cluster	4092	3715	44	154	179
+R0	sulfisoxazole	country	4032	3924	60	2	46
+R1	sulfisoxazole	country	4032	3926	58	1	47
+R0	sulfisoxazole	geography	1260	1222	1	0	37
+R1	sulfisoxazole	geography	1260	1222	1	0	37
+R0	sulfisoxazole	lineage	4032	3974	10	0	48
+R1	sulfisoxazole	lineage	4032	3975	9	2	46
+R0	sulfisoxazole	project	3904	3804	53	2	45
+R1	sulfisoxazole	project	3904	3802	55	1	46
+R0	sulfisoxazole	random	4032	3978	6	4	44
+R1	sulfisoxazole	random	4032	3976	8	3	45
+R0	sulfisoxazole	random_cluster	4032	3978	6	1	47
+R1	sulfisoxazole	random_cluster	4032	3974	10	1	47
+R0	tetracycline	country	6921	6790	45	21	65
+R1	tetracycline	country	6921	6790	45	21	65
+R0	tetracycline	geography	1618	1585	1	8	24
+R1	tetracycline	geography	1618	1585	1	9	23
+R0	tetracycline	lineage	6937	6808	41	18	70
+R1	tetracycline	lineage	6937	6807	42	15	73
+R0	tetracycline	project	6741	6615	42	18	66
+R1	tetracycline	project	6741	6614	43	19	65
+R0	tetracycline	random	6937	6830	19	18	70
+R1	tetracycline	random	6937	6824	25	19	69
+R0	tetracycline	random_cluster	6937	6832	17	19	69
+R1	tetracycline	random_cluster	6937	6825	24	21	67
+R0	tetracycline	temporal	676	664	0	1	11
+R1	tetracycline	temporal	676	664	0	3	9
+R0	tobramycin	lineage	2850	2784	16	9	41
+R1	tobramycin	lineage	2850	2792	8	9	41
+R0	tobramycin	random	2850	2791	9	8	42
+R1	tobramycin	random	2850	2795	5	9	41
+R0	tobramycin	random_cluster	2850	2793	7	7	43
+R1	tobramycin	random_cluster	2850	2794	6	8	42
+R0	trimethoprim-sulfamethoxazole	country	5623	5473	79	8	63
+R1	trimethoprim-sulfamethoxazole	country	5623	5474	78	9	62
+R2	trimethoprim-sulfamethoxazole	country	5623	5476	76	9	62
+R2_permuted	trimethoprim-sulfamethoxazole	country	5623	5476	76	8	63
+R3	trimethoprim-sulfamethoxazole	country	5623	5465	87	9	62
+R3_permuted	trimethoprim-sulfamethoxazole	country	5623	5467	85	9	62
+R0	trimethoprim-sulfamethoxazole	geography	914	858	37	4	15
+R1	trimethoprim-sulfamethoxazole	geography	914	849	46	4	15
+R2	trimethoprim-sulfamethoxazole	geography	914	858	37	4	15
+R2_permuted	trimethoprim-sulfamethoxazole	geography	914	857	38	4	15
+R3	trimethoprim-sulfamethoxazole	geography	914	856	39	4	15
+R3_permuted	trimethoprim-sulfamethoxazole	geography	914	856	39	4	15
+R0	trimethoprim-sulfamethoxazole	lineage	5722	5583	62	10	67
+R1	trimethoprim-sulfamethoxazole	lineage	5722	5586	59	8	69
+R2	trimethoprim-sulfamethoxazole	lineage	5722	5585	60	10	67
+R2_permuted	trimethoprim-sulfamethoxazole	lineage	5722	5583	62	10	67
+R3	trimethoprim-sulfamethoxazole	lineage	5722	5580	65	8	69
+R3_permuted	trimethoprim-sulfamethoxazole	lineage	5722	5585	60	8	69
+R0	trimethoprim-sulfamethoxazole	project	5591	5461	58	10	62
+R1	trimethoprim-sulfamethoxazole	project	5591	5450	69	7	65
+R2	trimethoprim-sulfamethoxazole	project	5591	5459	60	10	62
+R2_permuted	trimethoprim-sulfamethoxazole	project	5591	5462	57	10	62
+R3	trimethoprim-sulfamethoxazole	project	5591	5454	65	9	63
+R3_permuted	trimethoprim-sulfamethoxazole	project	5591	5450	69	7	65
+R0	trimethoprim-sulfamethoxazole	random	5722	5621	24	8	69
+R1	trimethoprim-sulfamethoxazole	random	5722	5625	20	5	72
+R2	trimethoprim-sulfamethoxazole	random	5722	5619	26	8	69
+R2_permuted	trimethoprim-sulfamethoxazole	random	5722	5620	25	8	69
+R3	trimethoprim-sulfamethoxazole	random	5722	5624	21	5	72
+R3_permuted	trimethoprim-sulfamethoxazole	random	5722	5626	19	3	74
+R0	trimethoprim-sulfamethoxazole	random_cluster	5722	5612	33	11	66
+R1	trimethoprim-sulfamethoxazole	random_cluster	5722	5619	26	6	71
+R2	trimethoprim-sulfamethoxazole	random_cluster	5722	5610	35	11	66
+R2_permuted	trimethoprim-sulfamethoxazole	random_cluster	5722	5611	34	12	65
+R3	trimethoprim-sulfamethoxazole	random_cluster	5722	5621	24	5	72
+R3_permuted	trimethoprim-sulfamethoxazole	random_cluster	5722	5618	27	8	69
+R0	trimethoprim-sulfamethoxazole	temporal	674	647	6	4	17
+R1	trimethoprim-sulfamethoxazole	temporal	674	646	7	4	17
+R2	trimethoprim-sulfamethoxazole	temporal	674	646	7	4	17
+R2_permuted	trimethoprim-sulfamethoxazole	temporal	674	648	5	4	17
+R3	trimethoprim-sulfamethoxazole	temporal	674	646	7	4	17
+R3_permuted	trimethoprim-sulfamethoxazole	temporal	674	647	6	4	17

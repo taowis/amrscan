@@ -1,0 +1,8 @@
+strategy	drugs	tasks	train_N_min	train_N_median	train_N_max	train_R_min	train_S_min	test_N_min	test_N_median	test_N_max	test_R_min	test_S_min	tasks_train_N_below_500	tasks_train_N_below_1000
+random	24	120	946	3252	6053	37	628	236	813	1514	9	157	0	5
+random_cluster	24	120	946	3252	6053	37	628	236	813	1514	9	157	0	5
+lineage	24	120	946	3252	6845	37	628	236	807	1760	7	96	0	5
+country	16	49	161	3257	7512	98	63	25	1249	5798	10	13	1	3
+project	16	95	607	4866	7490	191	83	48	338	2646	10	11	0	2
+geography	15	15	2359	3206	5798	67	1587	161	1430	1821	98	63	0	0
+temporal	13	13	2395	5943	6479	189	1870	343	751	1105	96	54	0	0

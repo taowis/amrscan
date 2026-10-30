@@ -1,0 +1,339 @@
+cohort	antimicrobial	holdout_strategy	comparator	N	delta_AUROC	delta_AUROC_ci_lower	delta_AUROC_ci_upper	delta_balanced_accuracy	delta_balanced_accuracy_ci_lower	delta_balanced_accuracy_ci_upper
+common	amikacin	lineage	random	3215	0.009413	-0.064183	0.075359	0.008587	-0.044548	0.066565
+common	amikacin	lineage	random_cluster	3215	-0.035656	-0.111699	0.032953	-0.036398	-0.082718	-0.002831
+common	amoxicillin-clavulanic acid	country	random	6283	0.045872	0.031802	0.061294	0.049837	0.036375	0.065328
+common	amoxicillin-clavulanic acid	country	random_cluster	6283	0.039353	0.024551	0.055883	0.042522	0.031087	0.05647
+common	amoxicillin-clavulanic acid	geography	random	1391	0.001696	-0.004231	0.00785	0.004593	-0.001913	0.011952
+common	amoxicillin-clavulanic acid	geography	random_cluster	1391	-0.000285	-0.0065	0.006148	0.007379	-0.001026	0.016669
+common	amoxicillin-clavulanic acid	lineage	random	6356	0.027082	0.017496	0.036561	0.06094	0.046533	0.076921
+common	amoxicillin-clavulanic acid	lineage	random_cluster	6356	0.021028	0.011618	0.030841	0.054555	0.04053	0.069843
+common	amoxicillin-clavulanic acid	project	random	6239	0.039546	0.02807	0.052627	0.047022	0.034392	0.060889
+common	amoxicillin-clavulanic acid	project	random_cluster	6239	0.033003	0.021294	0.044863	0.040235	0.029121	0.05233
+common	amoxicillin-clavulanic acid	temporal	random	413	0.040826	0.014263	0.071316	0.025	0.001291	0.051249
+common	amoxicillin-clavulanic acid	temporal	random_cluster	413	0.015103	-0.001691	0.032118	0.036091	0.012687	0.061713
+common	ampicillin	country	random	7119	0.037663	0.031307	0.045213	0.056673	0.047892	0.069046
+common	ampicillin	country	random_cluster	7119	0.036058	0.029568	0.043204	0.052178	0.042074	0.065687
+common	ampicillin	geography	random	1768	0.010638	0.005202	0.01674	0.031053	0.022084	0.040904
+common	ampicillin	geography	random_cluster	1768	0.009206	0.0043	0.015138	0.022001	0.009311	0.033112
+common	ampicillin	lineage	random	7566	0.00396	0.00164	0.006981	0.009974	0.006468	0.013611
+common	ampicillin	lineage	random_cluster	7566	0.002242	0.00031	0.004247	0.004154	-0.000317	0.007854
+common	ampicillin	project	random	6991	0.021654	0.016471	0.026973	0.035549	0.02938	0.041761
+common	ampicillin	project	random_cluster	6991	0.019962	0.014832	0.025417	0.030322	0.02406	0.037185
+common	ampicillin	temporal	random	1105	0.017534	0.010137	0.025308	0.014421	-0.005475	0.029356
+common	ampicillin	temporal	random_cluster	1105	0.015247	0.00872	0.021932	0.010485	-0.007334	0.023327
+common	aztreonam	lineage	random	2262	0.003945	0.001164	0.007172	0.00704	-0.007998	0.022081
+common	aztreonam	lineage	random_cluster	2262	0.002441	-0.001389	0.005844	-0.001431	-0.015178	0.010408
+common	cefazolin	country	random	2519	0.259519	0.223135	0.29832	0.217503	0.187801	0.250508
+common	cefazolin	country	random_cluster	2519	0.255662	0.219486	0.294493	0.214929	0.184893	0.247365
+common	cefazolin	geography	random	161	0.006479	-0.022546	0.0355	0.028912	0.000136	0.065008
+common	cefazolin	geography	random_cluster	161	0	-0.028764	0.03247	0.023243	0.003786	0.049596
+common	cefazolin	lineage	random	2520	0.021595	0.012371	0.031047	0.018798	0.008082	0.031406
+common	cefazolin	lineage	random_cluster	2520	0.017741	0.009783	0.025483	0.016228	0.00578	0.027062
+common	cefazolin	project	random	2408	0.079949	0.060226	0.09914	0.157026	0.134767	0.180261
+common	cefazolin	project	random_cluster	2408	0.075988	0.057528	0.094134	0.154412	0.131658	0.177232
+common	cefepime	country	random	3300	0.186937	0.153707	0.22369	0.146	0.122858	0.169981
+common	cefepime	country	random_cluster	3300	0.18079	0.147219	0.217836	0.132919	0.108755	0.157653
+common	cefepime	geography	random	619	0.111711	0.064863	0.166026	0.092768	0.036795	0.151374
+common	cefepime	geography	random_cluster	619	0.085336	0.046885	0.126611	0.045397	-0.001882	0.090413
+common	cefepime	lineage	random	3532	0.017025	0.009381	0.024238	0.028884	0.013634	0.043862
+common	cefepime	lineage	random_cluster	3532	0.008275	0.001885	0.014181	0.011661	-0.000155	0.023976
+common	cefepime	project	random	3357	0.115486	0.096365	0.135492	0.089179	0.068956	0.110487
+common	cefepime	project	random_cluster	3357	0.109645	0.09134	0.127549	0.079462	0.059287	0.101044
+common	cefepime	temporal	random	1077	0.184712	0.152337	0.22043	0.148015	0.113151	0.183135
+common	cefepime	temporal	random_cluster	1077	0.172512	0.141324	0.207427	0.147897	0.115332	0.183874
+common	cefoxitin	country	random	4931	0.035542	0.025938	0.046832	0.041606	0.028831	0.054823
+common	cefoxitin	country	random_cluster	4931	0.040497	0.02949	0.052273	0.036748	0.025033	0.050521
+common	cefoxitin	geography	random	1821	0.014439	0.005275	0.024296	0.044154	0.030503	0.060431
+common	cefoxitin	geography	random_cluster	1821	0.023915	0.015094	0.033725	0.039407	0.026419	0.055573
+common	cefoxitin	lineage	random	5027	0.001537	-0.005319	0.008504	0.02102	0.011227	0.032369
+common	cefoxitin	lineage	random_cluster	5027	0.007476	0.001495	0.013174	0.015695	0.007483	0.025381
+common	cefoxitin	project	random	4811	0.039896	0.026148	0.056414	0.029799	0.018642	0.043078
+common	cefoxitin	project	random_cluster	4811	0.042697	0.02843	0.059462	0.023059	0.013212	0.034789
+common	cefoxitin	temporal	random	751	0.074995	0.040246	0.109415	0.111964	0.060506	0.158968
+common	cefoxitin	temporal	random_cluster	751	0.058107	0.020816	0.094635	0.073874	0.029912	0.118514
+common	ceftazidime	country	random	3145	0.070529	0.057301	0.084653	0.099959	0.079332	0.121746
+common	ceftazidime	country	random_cluster	3145	0.066624	0.053461	0.080819	0.095582	0.074152	0.118663
+common	ceftazidime	geography	random	733	0.165979	0.129067	0.202415	0.128184	0.084797	0.170811
+common	ceftazidime	geography	random_cluster	733	0.161845	0.126884	0.198457	0.129317	0.090236	0.170194
+common	ceftazidime	lineage	random	3245	0.007169	0.004387	0.010039	0.013076	0.005372	0.021589
+common	ceftazidime	lineage	random_cluster	3245	0.002994	-0.000807	0.006391	0.006937	-0.000099	0.014045
+common	ceftazidime	project	random	2862	0.027963	0.020579	0.036179	0.00344	-0.003986	0.010866
+common	ceftazidime	project	random_cluster	2862	0.021776	0.012604	0.030636	-0.004294	-0.016541	0.006751
+common	ceftazidime	temporal	random	783	0.222461	0.188293	0.259938	0.170666	0.131702	0.208968
+common	ceftazidime	temporal	random_cluster	783	0.212356	0.176948	0.249863	0.169913	0.126702	0.21538
+common	ceftiofur	lineage	random	1300	0.000263	-0.00318	0.003765	0.004854	-0.000998	0.011968
+common	ceftiofur	lineage	random_cluster	1300	-0.000778	-0.004116	0.002414	0.000637	-0.005549	0.007383
+common	ceftriaxone	country	random	6807	0.010866	0.006384	0.016288	0.035757	0.02443	0.049551
+common	ceftriaxone	country	random_cluster	6807	0.011103	0.006593	0.016138	0.035849	0.024451	0.049551
+common	ceftriaxone	geography	random	1427	0.001901	-0.001391	0.005458	0.001415	0	0.003776
+common	ceftriaxone	geography	random_cluster	1427	0.001456	-0.002415	0.004647	0.00155	0	0.004039
+common	ceftriaxone	lineage	random	6917	0.002564	-0.000592	0.006318	0.000459	-0.00103	0.001973
+common	ceftriaxone	lineage	random_cluster	6917	0.002732	0.000093	0.005901	0.000798	-0.000781	0.002543
+common	ceftriaxone	project	random	6677	0.015572	0.010107	0.021499	0.031554	0.022836	0.041305
+common	ceftriaxone	project	random_cluster	6677	0.015121	0.010297	0.020388	0.03194	0.023288	0.041789
+common	ceftriaxone	temporal	random	438	0.00979	-0.034929	0.049484	0.009259	0	0.032627
+common	ceftriaxone	temporal	random_cluster	438	0.001254	-0.040122	0.038603	0.009259	0	0.032627
+common	chloramphenicol	country	random	4361	-0.002634	-0.00945	0.001768	0.001346	-0.000382	0.004858
+common	chloramphenicol	country	random_cluster	4361	-0.001702	-0.006029	0.000982	0.002817	-0.000245	0.00757
+common	chloramphenicol	geography	random	1612	-0.004269	-0.012478	0.000305	-0.005208	-0.013623	0.00036
+common	chloramphenicol	geography	random_cluster	1612	-0.001788	-0.007096	0.002675	-0.002604	-0.008722	0.000707
+common	chloramphenicol	lineage	random	4386	0.002409	-0.001422	0.00694	0.002833	-0.001937	0.009216
+common	chloramphenicol	lineage	random_cluster	4386	0.003235	0.000159	0.007566	0.004249	-0.001516	0.011167
+common	chloramphenicol	project	random	4260	-0.002355	-0.008607	0.002203	0.001552	-0.000497	0.005362
+common	chloramphenicol	project	random_cluster	4260	-0.001425	-0.005288	0.001347	0.00323	-0.000253	0.008361
+common	chloramphenicol	temporal	random	353	-0.000892	-0.00411	0.001487	-0.005208	-0.018075	0
+common	chloramphenicol	temporal	random_cluster	353	0.000973	-0.00277	0.005611	0.001946	-0.014208	0.018188
+common	ciprofloxacin	country	random	6173	0.066581	0.053446	0.081501	0.085696	0.071012	0.101365
+common	ciprofloxacin	country	random_cluster	6173	0.068677	0.055399	0.083615	0.081389	0.067373	0.095954
+common	ciprofloxacin	geography	random	1784	0.078616	0.05399	0.106297	0.133685	0.0976	0.168962
+common	ciprofloxacin	geography	random_cluster	1784	0.072566	0.047728	0.098315	0.123681	0.08562	0.161666
+common	ciprofloxacin	lineage	random	7529	0.005642	0.001555	0.009996	0.018172	0.008686	0.027771
+common	ciprofloxacin	lineage	random_cluster	7529	0.006889	0.002969	0.011259	0.012869	0.004661	0.021728
+common	ciprofloxacin	project	random	6106	0.026957	0.018743	0.035716	0.039874	0.02823	0.05359
+common	ciprofloxacin	project	random_cluster	6106	0.028912	0.020839	0.037723	0.03629	0.024995	0.050387
+common	ciprofloxacin	temporal	random	1064	0.068391	0.047675	0.090981	0.075578	0.045682	0.105342
+common	ciprofloxacin	temporal	random_cluster	1064	0.061453	0.039746	0.083365	0.065243	0.037472	0.093145
+common	ertapenem	lineage	random	3465	0.078455	-0.012222	0.194974	0.045475	-0.039781	0.13028
+common	ertapenem	lineage	random_cluster	3465	0.023735	-0.061717	0.122625	0.028767	-0.027407	0.09217
+common	gentamicin	country	random	7103	0.009722	0.005446	0.014312	0.027888	0.0197	0.037298
+common	gentamicin	country	random_cluster	7103	0.010519	0.006489	0.015144	0.027102	0.018844	0.036113
+common	gentamicin	geography	random	1793	0.009509	0.001783	0.01854	0.01014	-0.000026	0.022144
+common	gentamicin	geography	random_cluster	1793	0.008568	0.000771	0.01805	0.012269	0.002289	0.024707
+common	gentamicin	lineage	random	7216	0.000409	-0.002022	0.002984	0.003247	0.000079	0.007066
+common	gentamicin	lineage	random_cluster	7216	0.00104	-0.001665	0.004248	0.002231	-0.00098	0.005873
+common	gentamicin	project	random	6954	0.001153	-0.001225	0.003439	0.016024	0.010059	0.023497
+common	gentamicin	project	random_cluster	6954	0.001509	-0.000714	0.003537	0.015853	0.010183	0.022992
+common	gentamicin	temporal	random	813	0.013175	0.00006	0.028772	0.020823	-0.000781	0.047948
+common	gentamicin	temporal	random_cluster	813	0.012166	0.001299	0.026134	0.015418	-0.002543	0.036339
+common	kanamycin	lineage	random	1183	0.014632	0.000585	0.031651	0.002787	-0.005465	0.016786
+common	kanamycin	lineage	random_cluster	1183	-0.012371	-0.029626	0.004983	-0.002935	-0.005634	-0.000911
+common	levofloxacin	country	random	86	-0.032895	-0.097426	0.010424	-0.006579	-0.020833	0
+common	levofloxacin	country	random_cluster	86	-0.032895	-0.091238	0.009212	-0.043421	-0.172952	0.021176
+common	levofloxacin	lineage	random	2941	0.006505	0.003556	0.010002	0.014521	0.007627	0.021938
+common	levofloxacin	lineage	random_cluster	2941	0.006658	0.003721	0.009981	0.012497	0.005044	0.019915
+common	levofloxacin	project	random	2920	0.00539	0.001749	0.010735	0.002623	-0.001784	0.006352
+common	levofloxacin	project	random_cluster	2920	0.005584	0.002314	0.010554	0.001169	-0.003738	0.00565
+common	levofloxacin	temporal	random	546	0.003972	-0.003113	0.011792	-0.004762	-0.013867	0.003433
+common	levofloxacin	temporal	random_cluster	546	0.002804	-0.004617	0.011118	-0.002597	-0.009804	0.004341
+common	meropenem	lineage	random	6139	-0.031864	-0.069959	-0.000486	0.014995	-0.003491	0.048886
+common	meropenem	lineage	random_cluster	6139	-0.03576	-0.074415	-0.00535	-0.001398	-0.002686	-0.00025
+common	nalidixic acid	country	random	4509	0.110167	0.074931	0.143018	0.151736	0.106517	0.19716
+common	nalidixic acid	country	random_cluster	4509	0.107458	0.072397	0.140792	0.118523	0.082461	0.158921
+common	nalidixic acid	geography	random	1705	0.175009	0.114832	0.239877	0.180505	0.134307	0.231141
+common	nalidixic acid	geography	random_cluster	1705	0.154351	0.100625	0.218224	0.159075	0.112991	0.206223
+common	nalidixic acid	lineage	random	4522	0.103907	0.066022	0.149011	0.120718	0.082513	0.160857
+common	nalidixic acid	lineage	random_cluster	4522	0.101079	0.060916	0.148234	0.087422	0.052548	0.124974
+common	nalidixic acid	project	random	4252	0.176954	0.133596	0.224261	0.15989	0.115709	0.207234
+common	nalidixic acid	project	random_cluster	4252	0.174849	0.136509	0.219567	0.126063	0.089303	0.164258
+common	nalidixic acid	temporal	random	343	0.130713	0.063001	0.200935	0.039473	-0.02877	0.103788
+common	nalidixic acid	temporal	random_cluster	343	0.133135	0.074493	0.196492	0.078697	0.014584	0.140412
+common	piperacillin-tazobactam	lineage	random	2817	0.112356	0.046188	0.184351	0.094317	0.038564	0.151635
+common	piperacillin-tazobactam	lineage	random_cluster	2817	0.113463	0.056748	0.179917	0.070704	0.015166	0.130455
+common	streptomycin	country	random	4092	0.015054	0.011394	0.019273	0.015629	0.009896	0.021699
+common	streptomycin	country	random_cluster	4092	0.012816	0.008675	0.017377	0.014269	0.008521	0.020193
+common	streptomycin	geography	random	1265	0.023738	0.014072	0.033121	0.013622	0.003413	0.024607
+common	streptomycin	geography	random_cluster	1265	0.020184	0.010454	0.029992	0.009739	0.00056	0.019559
+common	streptomycin	lineage	random	4096	0.003796	0.001037	0.007026	0.004177	0.00015	0.00863
+common	streptomycin	lineage	random_cluster	4096	0.001452	-0.001649	0.00452	0.00282	-0.000903	0.007011
+common	streptomycin	project	random	3983	0.016666	0.011667	0.021652	0.018128	0.011202	0.02576
+common	streptomycin	project	random_cluster	3983	0.014616	0.009346	0.020044	0.016721	0.010274	0.02395
+common	sulfisoxazole	country	random	4035	0.01362	0.008407	0.019981	0.012646	0.009209	0.016564
+common	sulfisoxazole	country	random_cluster	4035	0.013229	0.008568	0.018714	0.011608	0.008211	0.015578
+common	sulfisoxazole	geography	random	1261	0.007684	0.001369	0.016391	0.001963	0	0.004546
+common	sulfisoxazole	geography	random_cluster	1261	0.006937	0.001198	0.014139	0.000654	0	0.002206
+common	sulfisoxazole	lineage	random	4035	0.00325	0.000875	0.006636	0.002156	0.00044	0.00398
+common	sulfisoxazole	lineage	random_cluster	4035	0.002859	0.001063	0.005214	0.001118	-0.000154	0.002615
+common	sulfisoxazole	project	random	3907	0.012521	0.007134	0.019042	0.011701	0.008053	0.015443
+common	sulfisoxazole	project	random_cluster	3907	0.012105	0.007095	0.018052	0.010241	0.007009	0.014048
+common	tetracycline	country	random	6924	0.007055	0.004065	0.010073	0.00426	0.001702	0.007445
+common	tetracycline	country	random_cluster	6924	0.007038	0.004215	0.010104	0.004633	0.002071	0.007652
+common	tetracycline	geography	random	1620	0.001412	-0.001115	0.004072	0.000625	-0.001227	0.002956
+common	tetracycline	geography	random_cluster	1620	0.001218	-0.001067	0.003882	0.000625	-0.001241	0.003
+common	tetracycline	lineage	random	6940	0.00132	-0.000905	0.004247	0.003781	0.001478	0.007156
+common	tetracycline	lineage	random_cluster	6940	0.00131	-0.000997	0.004239	0.004153	0.001681	0.007471
+common	tetracycline	project	random	6744	0.008076	0.004815	0.01274	0.004434	0.001758	0.00786
+common	tetracycline	project	random_cluster	6744	0.007941	0.004857	0.012653	0.004812	0.0022	0.007961
+common	tetracycline	temporal	random	676	-0.001282	-0.005277	0.001325	-0.00303	-0.007808	0
+common	tetracycline	temporal	random_cluster	676	-0.000448	-0.002213	0.001326	-0.001282	-0.004122	0
+common	tobramycin	lineage	random	2850	0.002422	-0.003275	0.009115	0.013217	0.002575	0.02759
+common	tobramycin	lineage	random_cluster	2850	0.004559	-0.003271	0.011965	0.01341	0.002974	0.027848
+common	trimethoprim-sulfamethoxazole	country	random	7037	0.011815	0.008359	0.015452	0.028969	0.021054	0.038342
+common	trimethoprim-sulfamethoxazole	country	random_cluster	7037	0.011389	0.007903	0.015336	0.02658	0.019639	0.034611
+common	trimethoprim-sulfamethoxazole	geography	random	1430	0.01526	0.006601	0.026707	0.041914	0.022088	0.06796
+common	trimethoprim-sulfamethoxazole	geography	random_cluster	1430	0.016276	0.006769	0.029206	0.034556	0.01687	0.055041
+common	trimethoprim-sulfamethoxazole	lineage	random	7146	0.005724	0.002923	0.00854	0.016771	0.007771	0.026527
+common	trimethoprim-sulfamethoxazole	lineage	random_cluster	7146	0.004839	0.002232	0.007642	0.013503	0.005875	0.0223
+common	trimethoprim-sulfamethoxazole	project	random	7008	0.010797	0.007515	0.014745	0.016229	0.010592	0.022832
+common	trimethoprim-sulfamethoxazole	project	random_cluster	7008	0.009911	0.006473	0.013522	0.012718	0.007219	0.018915
+common	trimethoprim-sulfamethoxazole	temporal	random	774	0.000974	-0.004087	0.005498	0.00163	-0.00681	0.011151
+common	trimethoprim-sulfamethoxazole	temporal	random_cluster	774	-0.002172	-0.006529	0.001588	-0.001764	-0.010258	0.006611
+maximal	amikacin	lineage	random	3339	-0.027925	-0.083375	0.023463	0.028106	-0.017476	0.076553
+maximal	amikacin	lineage	random_cluster	3339	-0.046112	-0.112061	0.006127	-0.016949	-0.047141	0.001518
+maximal	amoxicillin-clavulanic acid	country	random	6322	0.055278	0.040184	0.070977	0.050434	0.037207	0.063986
+maximal	amoxicillin-clavulanic acid	country	random_cluster	6322	0.042055	0.026939	0.058034	0.043079	0.031431	0.055134
+maximal	amoxicillin-clavulanic acid	geography	random	1505	0.003224	-0.001804	0.008598	0.006997	-0.00174	0.01636
+maximal	amoxicillin-clavulanic acid	geography	random_cluster	1505	-0.004614	-0.011339	0.003024	0.002281	-0.004185	0.009282
+maximal	amoxicillin-clavulanic acid	lineage	random	6519	0.018387	0.011092	0.026135	0.051095	0.038189	0.065878
+maximal	amoxicillin-clavulanic acid	lineage	random_cluster	6519	0.005708	-0.003018	0.015156	0.04123	0.029295	0.054747
+maximal	amoxicillin-clavulanic acid	project	random	6280	0.019372	0.010931	0.028652	0.043239	0.030309	0.057056
+maximal	amoxicillin-clavulanic acid	project	random_cluster	6280	0.005765	-0.001917	0.013445	0.035464	0.024935	0.047191
+maximal	amoxicillin-clavulanic acid	temporal	random	441	0.038637	0.010907	0.068972	0.028571	-0.002566	0.063561
+maximal	amoxicillin-clavulanic acid	temporal	random_cluster	441	0.008604	-0.008867	0.029406	0.005556	-0.018828	0.033307
+maximal	ampicillin	country	random	7266	0.038739	0.031372	0.045698	0.054132	0.044286	0.066834
+maximal	ampicillin	country	random_cluster	7266	0.038069	0.030998	0.044932	0.051452	0.041739	0.064133
+maximal	ampicillin	geography	random	1883	0.010209	0.005422	0.015207	0.027894	0.019053	0.03738
+maximal	ampicillin	geography	random_cluster	1883	0.009395	0.004694	0.014286	0.024626	0.016109	0.033264
+maximal	ampicillin	lineage	random	7717	0.004102	0.002143	0.00638	0.007539	0.004638	0.01061
+maximal	ampicillin	lineage	random_cluster	7717	0.003479	0.001801	0.0054	0.004675	0.001813	0.007586
+maximal	ampicillin	project	random	7139	0.020691	0.015963	0.026203	0.031516	0.025688	0.037798
+maximal	ampicillin	project	random_cluster	7139	0.020164	0.01586	0.025519	0.028603	0.023051	0.035037
+maximal	ampicillin	temporal	random	1138	0.017575	0.010297	0.025018	0.028137	0.018205	0.039626
+maximal	ampicillin	temporal	random_cluster	1138	0.015707	0.008316	0.023398	0.020284	0.008837	0.03339
+maximal	aztreonam	lineage	random	2320	0.001787	-0.003775	0.006719	-0.000635	-0.014032	0.014086
+maximal	aztreonam	lineage	random_cluster	2320	-0.000736	-0.006601	0.003638	-0.002264	-0.013447	0.009634
+maximal	cefazolin	country	random	2526	0.254425	0.220828	0.290511	0.239599	0.208132	0.272967
+maximal	cefazolin	country	random_cluster	2526	0.247554	0.214546	0.282045	0.230085	0.197463	0.261636
+maximal	cefazolin	geography	random	162	0.00962	-0.019093	0.040788	0.025974	0.004348	0.055866
+maximal	cefazolin	geography	random_cluster	162	0.001603	-0.025781	0.03049	0.012987	-0.019864	0.046811
+maximal	cefazolin	lineage	random	2609	0.023362	0.014759	0.033273	0.033265	0.020891	0.046178
+maximal	cefazolin	lineage	random_cluster	2609	0.017273	0.010683	0.024343	0.024423	0.013425	0.035617
+maximal	cefazolin	project	random	2413	0.066714	0.05031	0.08447	0.094386	0.07342	0.119369
+maximal	cefazolin	project	random_cluster	2413	0.058754	0.043111	0.075423	0.083762	0.062761	0.107029
+maximal	cefepime	country	random	3322	0.166239	0.135039	0.200325	0.135107	0.111005	0.162009
+maximal	cefepime	country	random_cluster	3322	0.165058	0.135391	0.19663	0.133141	0.109784	0.157517
+maximal	cefepime	geography	random	621	0.126056	0.083179	0.16868	0.072785	0.015507	0.133713
+maximal	cefepime	geography	random_cluster	621	0.099686	0.063762	0.13549	0.01538	-0.028269	0.055343
+maximal	cefepime	lineage	random	3624	0.010287	0.004013	0.017017	0.013059	-0.00027	0.027181
+maximal	cefepime	lineage	random_cluster	3624	0.006379	0.002073	0.010854	0.002539	-0.007721	0.01249
+maximal	cefepime	project	random	3381	0.118588	0.096339	0.143422	0.089598	0.06906	0.112074
+maximal	cefepime	project	random_cluster	3381	0.117987	0.097994	0.141587	0.087138	0.068114	0.1071
+maximal	cefepime	temporal	random	1126	0.163621	0.134366	0.19489	0.139388	0.106147	0.171972
+maximal	cefepime	temporal	random_cluster	1126	0.153783	0.126909	0.181557	0.121775	0.091201	0.153837
+maximal	cefoxitin	country	random	5035	0.076213	0.060904	0.093574	0.063213	0.050435	0.077629
+maximal	cefoxitin	country	random_cluster	5035	0.077902	0.062874	0.094965	0.06294	0.050698	0.077851
+maximal	cefoxitin	geography	random	1913	0.035978	0.024484	0.049549	0.064984	0.048377	0.082507
+maximal	cefoxitin	geography	random_cluster	1913	0.038813	0.0274	0.051778	0.064873	0.048638	0.081832
+maximal	cefoxitin	lineage	random	5194	0.007456	0.002177	0.012977	0.023586	0.014398	0.033688
+maximal	cefoxitin	lineage	random_cluster	5194	0.008654	0.00417	0.01391	0.022462	0.011926	0.032957
+maximal	cefoxitin	project	random	4853	0.017866	0.011183	0.026222	0.019546	0.009783	0.030293
+maximal	cefoxitin	project	random_cluster	4853	0.020965	0.013892	0.030368	0.016271	0.007677	0.025554
+maximal	cefoxitin	temporal	random	778	0.063869	0.03766	0.091618	0.096868	0.051289	0.139675
+maximal	cefoxitin	temporal	random_cluster	778	0.061699	0.034663	0.089591	0.085301	0.037386	0.135274
+maximal	ceftazidime	country	random	3193	0.045116	0.034954	0.054932	0.077357	0.058909	0.094626
+maximal	ceftazidime	country	random_cluster	3193	0.038949	0.027567	0.049649	0.062525	0.037637	0.085612
+maximal	ceftazidime	geography	random	776	0.138769	0.105595	0.172559	0.139999	0.102678	0.180691
+maximal	ceftazidime	geography	random_cluster	776	0.124654	0.086949	0.160927	0.092754	0.044364	0.135983
+maximal	ceftazidime	lineage	random	3380	0.003543	0.00023	0.007464	0.011467	0.003642	0.020091
+maximal	ceftazidime	lineage	random_cluster	3380	-0.00173	-0.007571	0.002579	-0.003296	-0.020582	0.009245
+maximal	ceftazidime	project	random	2913	0.029469	0.019546	0.041956	0.032924	0.011262	0.060982
+maximal	ceftazidime	project	random_cluster	2913	0.021917	0.012975	0.033939	0.012361	-0.004144	0.031695
+maximal	ceftazidime	temporal	random	807	0.236795	0.197446	0.276522	0.206857	0.165431	0.247129
+maximal	ceftazidime	temporal	random_cluster	807	0.227719	0.188766	0.26582	0.209811	0.167202	0.249508
+maximal	ceftiofur	lineage	random	1303	0.001007	-0.001709	0.003752	0.000667	-0.003798	0.004993
+maximal	ceftiofur	lineage	random_cluster	1303	-0.000826	-0.004518	0.002683	0.001303	-0.002987	0.006145
+maximal	ceftriaxone	country	random	6850	0.012927	0.007747	0.01912	0.038332	0.027465	0.050818
+maximal	ceftriaxone	country	random_cluster	6850	0.014334	0.008857	0.020815	0.037432	0.026469	0.049596
+maximal	ceftriaxone	geography	random	1454	0.001797	-0.003486	0.006672	0.001681	-0.001053	0.004862
+maximal	ceftriaxone	geography	random_cluster	1454	0.00331	-0.000446	0.007497	0.001536	0	0.00395
+maximal	ceftriaxone	lineage	random	6981	0.002393	-0.000122	0.005296	0.001268	-0.000513	0.003296
+maximal	ceftriaxone	lineage	random_cluster	6981	0.003473	0.000975	0.006159	0.000144	-0.001234	0.001629
+maximal	ceftriaxone	project	random	6721	0.014479	0.0093	0.021007	0.027125	0.021099	0.034502
+maximal	ceftriaxone	project	random_cluster	6721	0.01563	0.010519	0.022111	0.026071	0.020011	0.033094
+maximal	ceftriaxone	temporal	random	456	0.001224	-0.040677	0.040732	-0.00535	-0.02833	0.007337
+maximal	ceftriaxone	temporal	random_cluster	456	-0.000793	-0.054535	0.049097	0.001247	0	0.004056
+maximal	chloramphenicol	country	random	4394	-0.000111	-0.002304	0.001664	0.001594	-0.00024	0.004866
+maximal	chloramphenicol	country	random_cluster	4394	-0.001782	-0.006752	0.001236	-0.001224	-0.006368	0.003414
+maximal	chloramphenicol	geography	random	1636	-0.0013	-0.006405	0.002954	0.000346	-0.000733	0.001504
+maximal	chloramphenicol	geography	random_cluster	1636	-0.006155	-0.01732	0.001752	0.000693	-0.007785	0.008731
+maximal	chloramphenicol	lineage	random	4425	-0.001485	-0.005062	0.001243	0.001602	-0.002554	0.006558
+maximal	chloramphenicol	lineage	random_cluster	4425	-0.0046	-0.011568	0.001049	-0.000985	-0.005516	0.003253
+maximal	chloramphenicol	project	random	4293	-0.003084	-0.007525	0.000038	0.001803	-0.00013	0.005754
+maximal	chloramphenicol	project	random_cluster	4293	-0.004978	-0.012328	0.000014	-0.001428	-0.007838	0.003971
+maximal	chloramphenicol	temporal	random	378	-0.001966	-0.004775	-0.000079	0.004673	0	0.015507
+maximal	chloramphenicol	temporal	random_cluster	378	-0.000966	-0.004231	0.002379	0.004673	0	0.015794
+maximal	ciprofloxacin	country	random	6206	0.080785	0.065003	0.098049	0.094531	0.079916	0.110293
+maximal	ciprofloxacin	country	random_cluster	6206	0.076633	0.061094	0.093401	0.084581	0.070256	0.099417
+maximal	ciprofloxacin	geography	random	1810	0.081213	0.055078	0.109172	0.150491	0.113456	0.187666
+maximal	ciprofloxacin	geography	random_cluster	1810	0.081259	0.056689	0.10984	0.13533	0.102668	0.17063
+maximal	ciprofloxacin	lineage	random	7650	0.010609	0.00577	0.016067	0.028103	0.018934	0.037581
+maximal	ciprofloxacin	lineage	random_cluster	7650	0.008105	0.003824	0.01243	0.018051	0.010607	0.025906
+maximal	ciprofloxacin	project	random	6141	0.043981	0.033267	0.057112	0.046882	0.03527	0.06045
+maximal	ciprofloxacin	project	random_cluster	6141	0.040158	0.029742	0.052951	0.037543	0.027209	0.049882
+maximal	ciprofloxacin	temporal	random	1116	0.062736	0.04454	0.083496	0.077598	0.051902	0.104544
+maximal	ciprofloxacin	temporal	random_cluster	1116	0.057563	0.039477	0.077817	0.063764	0.036822	0.092127
+maximal	ertapenem	lineage	random	3519	0.034004	0.001992	0.068315	0.037999	-0.01675	0.100274
+maximal	ertapenem	lineage	random_cluster	3519	-0.01279	-0.055518	0.024572	-0.001181	-0.038274	0.040893
+maximal	gentamicin	country	random	7145	0.012706	0.007666	0.018616	0.028334	0.02062	0.037025
+maximal	gentamicin	country	random_cluster	7145	0.011656	0.007372	0.017253	0.025106	0.017686	0.033204
+maximal	gentamicin	geography	random	1819	0.00734	0.001714	0.013368	0.014135	0.004056	0.026302
+maximal	gentamicin	geography	random_cluster	1819	0.006678	0.000796	0.013095	0.009806	-0.001401	0.02205
+maximal	gentamicin	lineage	random	7342	0.00089	-0.001757	0.00323	0.004844	0.000644	0.009617
+maximal	gentamicin	lineage	random_cluster	7342	0.000681	-0.001904	0.002871	0.0023	-0.00258	0.007089
+maximal	gentamicin	project	random	6998	0.007363	0.004007	0.011621	0.015497	0.009372	0.022775
+maximal	gentamicin	project	random_cluster	6998	0.007049	0.004223	0.010643	0.013133	0.00751	0.019631
+maximal	gentamicin	temporal	random	855	0.008031	-0.00583	0.02299	0.018032	-0.002139	0.039843
+maximal	gentamicin	temporal	random_cluster	855	0.008374	-0.002188	0.01952	0.007247	-0.00664	0.024377
+maximal	kanamycin	lineage	random	1207	0.031867	0.004136	0.062349	0.000901	-0.003373	0.007782
+maximal	kanamycin	lineage	random_cluster	1207	0.02068	-0.001518	0.046911	0.013235	0.000875	0.028902
+maximal	levofloxacin	country	random	2951	0.028987	0.020209	0.038437	0.017074	0.012283	0.021979
+maximal	levofloxacin	country	random_cluster	2951	0.028598	0.020388	0.037591	0.015652	0.010878	0.020642
+maximal	levofloxacin	geography	random	99	-0.018987	-0.046796	-0.001313	-0.018671	-0.078981	0.017857
+maximal	levofloxacin	geography	random_cluster	99	-0.007595	-0.034553	0.017034	0.006329	-0.013338	0.029096
+maximal	levofloxacin	lineage	random	3008	0.005382	0.002277	0.009243	0.018745	0.011875	0.026273
+maximal	levofloxacin	lineage	random_cluster	3008	0.004938	0.002518	0.007714	0.01653	0.009497	0.024455
+maximal	levofloxacin	project	random	2941	0.009497	0.003769	0.016167	0.015572	0.010746	0.020619
+maximal	levofloxacin	project	random_cluster	2941	0.009107	0.00395	0.014797	0.014149	0.009122	0.019125
+maximal	levofloxacin	temporal	random	582	0.002586	-0.005282	0.012398	-0.001671	-0.009349	0.005668
+maximal	levofloxacin	temporal	random_cluster	582	0.000696	-0.005213	0.006933	-0.001114	-0.00925	0.006136
+maximal	meropenem	lineage	random	6217	-0.018409	-0.046948	0.007129	-0.00171	-0.026091	0.021176
+maximal	meropenem	lineage	random_cluster	6217	-0.031673	-0.060627	-0.004027	-0.014857	-0.040025	0.009701
+maximal	nalidixic acid	country	random	4543	0.152048	0.114588	0.186415	0.150031	0.105529	0.190857
+maximal	nalidixic acid	country	random_cluster	4543	0.140347	0.100989	0.180059	0.112359	0.07278	0.154028
+maximal	nalidixic acid	geography	random	1730	0.173025	0.111748	0.235913	0.183735	0.130864	0.231524
+maximal	nalidixic acid	geography	random_cluster	1730	0.150079	0.091106	0.212653	0.137145	0.086346	0.190473
+maximal	nalidixic acid	lineage	random	4570	0.092317	0.053285	0.138405	0.103564	0.065363	0.143303
+maximal	nalidixic acid	lineage	random_cluster	4570	0.08244	0.048712	0.122592	0.068801	0.03618	0.102461
+maximal	nalidixic acid	project	random	4286	0.199511	0.158041	0.244266	0.14634	0.099658	0.192919
+maximal	nalidixic acid	project	random_cluster	4286	0.186082	0.139825	0.236374	0.102402	0.063894	0.14112
+maximal	nalidixic acid	temporal	random	364	0.10415	0.046953	0.173682	0.098559	0.042197	0.161534
+maximal	nalidixic acid	temporal	random_cluster	364	0.112313	0.05375	0.176688	0.086074	0.031139	0.146649
+maximal	piperacillin-tazobactam	lineage	random	2879	0.024186	-0.019065	0.065793	0.026114	-0.008326	0.06268
+maximal	piperacillin-tazobactam	lineage	random_cluster	2879	0.043856	0.012914	0.076165	0.023012	-0.012256	0.057514
+maximal	streptomycin	country	random	4126	0.014841	0.010726	0.019674	0.013527	0.007028	0.019743
+maximal	streptomycin	country	random_cluster	4126	0.014696	0.010396	0.019245	0.015354	0.009375	0.021538
+maximal	streptomycin	geography	random	1290	0.019604	0.010506	0.02833	0.007043	-0.002308	0.01614
+maximal	streptomycin	geography	random_cluster	1290	0.019263	0.01104	0.027483	0.014331	0.004995	0.023688
+maximal	streptomycin	lineage	random	4097	0.000601	-0.002533	0.003695	-0.002606	-0.005509	0.000344
+maximal	streptomycin	lineage	random_cluster	4097	0.000297	-0.002044	0.002528	-0.000763	-0.004875	0.002487
+maximal	streptomycin	project	random	4017	0.012554	0.008043	0.017051	0.015767	0.009319	0.022827
+maximal	streptomycin	project	random_cluster	4017	0.013356	0.009003	0.017551	0.017083	0.011138	0.023859
+maximal	sulfisoxazole	country	random	4069	0.009561	0.005784	0.014354	0.010403	0.007254	0.014258
+maximal	sulfisoxazole	country	random_cluster	4069	0.009085	0.005494	0.013242	0.010443	0.007139	0.014331
+maximal	sulfisoxazole	geography	random	1286	0.004828	-0.000924	0.01129	0.000957	-0.002102	0.004887
+maximal	sulfisoxazole	geography	random_cluster	1286	0.004693	-0.000587	0.010543	0.001624	0	0.004502
+maximal	sulfisoxazole	lineage	random	4035	0.003278	0.000941	0.006131	0.000193	-0.002145	0.002517
+maximal	sulfisoxazole	lineage	random_cluster	4035	0.002813	0.000715	0.005145	0.000233	-0.001638	0.002087
+maximal	sulfisoxazole	project	random	3941	0.012124	0.007238	0.018077	0.011297	0.007936	0.015318
+maximal	sulfisoxazole	project	random_cluster	3941	0.011751	0.007247	0.017282	0.011327	0.007901	0.01509
+maximal	tetracycline	country	random	6966	0.006901	0.004395	0.00968	0.004628	0.002102	0.007868
+maximal	tetracycline	country	random_cluster	6966	0.006794	0.004289	0.009427	0.003058	0.001533	0.004919
+maximal	tetracycline	geography	random	1645	0.001104	-0.001748	0.003829	0.001232	-0.001154	0.003645
+maximal	tetracycline	geography	random_cluster	1645	0.000333	-0.001989	0.002744	0.001832	0	0.004089
+maximal	tetracycline	lineage	random	7046	0	-0.001782	0.001878	0.002745	0.000268	0.0058
+maximal	tetracycline	lineage	random_cluster	7046	-0.000299	-0.001784	0.001303	0.001206	-0.000171	0.002628
+maximal	tetracycline	project	random	6785	0.006587	0.00382	0.010064	0.004439	0.002008	0.007484
+maximal	tetracycline	project	random_cluster	6785	0.006496	0.003675	0.010039	0.002811	0.001036	0.004775
+maximal	tetracycline	temporal	random	708	0.003194	-0.002423	0.010127	0	0	0
+maximal	tetracycline	temporal	random_cluster	708	0.003046	-0.001619	0.009495	-0.00051	-0.00522	0.003394
+maximal	tobramycin	lineage	random	2901	0.005663	-0.004237	0.01493	0.02749	0.012964	0.044469
+maximal	tobramycin	lineage	random_cluster	2901	0.003236	-0.004442	0.011172	0.027107	0.01256	0.043847
+maximal	trimethoprim-sulfamethoxazole	country	random	7093	0.010075	0.006723	0.013537	0.024338	0.016523	0.034024
+maximal	trimethoprim-sulfamethoxazole	country	random_cluster	7093	0.009461	0.005976	0.013407	0.024257	0.016715	0.033451
+maximal	trimethoprim-sulfamethoxazole	geography	random	1457	0.014827	0.005466	0.02547	0.041209	0.020751	0.066531
+maximal	trimethoprim-sulfamethoxazole	geography	random_cluster	1457	0.018117	0.008662	0.029173	0.040719	0.02291	0.063123
+maximal	trimethoprim-sulfamethoxazole	lineage	random	7249	0.002036	-0.000274	0.004378	0.017801	0.009272	0.027779
+maximal	trimethoprim-sulfamethoxazole	lineage	random_cluster	7249	0.001484	-0.000732	0.003739	0.016049	0.007336	0.025572
+maximal	trimethoprim-sulfamethoxazole	project	random	7090	0.005201	0.002522	0.007979	0.016549	0.009563	0.025864
+maximal	trimethoprim-sulfamethoxazole	project	random_cluster	7090	0.004754	0.002282	0.007384	0.015726	0.008865	0.023505
+maximal	trimethoprim-sulfamethoxazole	temporal	random	807	-0.000422	-0.005599	0.004794	0.003666	-0.007891	0.015041
+maximal	trimethoprim-sulfamethoxazole	temporal	random_cluster	807	-0.002053	-0.007424	0.003397	0.001764	-0.011535	0.015176

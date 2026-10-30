@@ -1,0 +1,25 @@
+antimicrobial	tier	endpoints	genome_verified	R	S	R_fraction	common_cohort_N	common_cohort_R	common_cohort_S	common_exclusions	random_eligible_N	lineage_eligible_N	country_eligible_N	temporal_eligible_N	lineages	lineage_components	countries	year_range	plan_project_holdout	plan_geographic_transfer	plan_temporal
+amikacin	secondary	3349	3349	59	3290	0.017617	3215	47	3168	"{""missing_country"":121,""missing_year"":3,""no_lineage_component"":10}"	3349	3339	3226	3299	465	466	18	2009-2025	no	no	no
+amoxicillin-clavulanic acid	primary	6570	6570	925	5645	0.140791	6356	870	5486	"{""missing_country"":85,""missing_year"":78,""no_lineage_component"":51}"	6570	6519	6484	6453	933	934	16	2011-2025	yes	yes	yes
+ampicillin	primary	7787	7787	3720	4067	0.477719	7566	3572	3994	"{""missing_country"":72,""missing_year"":79,""no_lineage_component"":70}"	7787	7717	7714	7652	1021	1022	19	2011-2025	yes	yes	yes
+aztreonam	secondary	2322	2322	308	2014	0.132644	2262	259	2003	"{""missing_country"":57,""missing_year"":1,""no_lineage_component"":2}"	2322	2320	2265	2276	327	328	16	2009-2025	no	no	no
+cefazolin	primary	2617	2617	962	1655	0.367596	2520	870	1650	"{""missing_country"":87,""missing_year"":2,""no_lineage_component"":8}"	2617	2609	2528	2568	371	371	4	2012-2025	yes	yes	no
+cefepime	primary	3647	3647	721	2926	0.197697	3532	656	2876	"{""missing_country"":90,""missing_year"":2,""no_lineage_component"":23}"	3647	3624	3556	3598	497	498	18	2011-2025	yes	yes	yes
+cefoxitin	primary	5234	5234	986	4248	0.188384	5027	875	4152	"{""missing_country"":101,""missing_year"":66,""no_lineage_component"":40}"	5234	5194	5133	5126	855	852	15	2011-2025	yes	yes	yes
+ceftazidime	primary	3389	3389	979	2410	0.288876	3245	893	2352	"{""missing_country"":93,""missing_year"":42,""no_lineage_component"":9}"	3389	3380	3295	3300	498	499	20	2009-2025	yes	yes	yes
+ceftiofur	secondary	1327	1327	520	807	0.391861	1300	515	785	"{""missing_country"":3,""no_lineage_component"":24}"	1327	1303	1324	1327	276	278	11	2011-2022	no	no	no
+ceftriaxone	primary	7024	7024	1542	5482	0.219533	6917	1475	5442	"{""missing_country"":61,""missing_year"":3,""no_lineage_component"":43}"	7024	6981	6962	6977	962	960	15	2011-2025	yes	yes	yes
+chloramphenicol	primary	4459	4459	369	4090	0.082754	4386	353	4033	"{""missing_country"":39,""no_lineage_component"":34}"	4459	4425	4419	4455	774	771	12	2009-2023	yes	yes	yes
+ciprofloxacin	primary	7707	7707	1378	6329	0.178798	7529	1275	6254	"{""missing_country"":119,""missing_year"":2,""no_lineage_component"":57}"	7707	7650	7588	7657	1025	1023	22	2009-2025	yes	yes	yes
+ertapenem	secondary	3542	3542	90	3452	0.025409	3465	65	3400	"{""missing_country"":51,""missing_year"":3,""no_lineage_component"":23}"	3542	3519	3491	3499	477	478	19	2009-2025	no	no	no
+gentamicin	primary	7385	7385	1226	6159	0.166012	7216	1176	6040	"{""missing_country"":123,""missing_year"":3,""no_lineage_component"":43}"	7385	7342	7260	7335	1004	1002	22	2009-2025	yes	yes	yes
+kanamycin	secondary	1233	1233	178	1055	0.144363	1183	161	1022	"{""missing_country"":24,""no_lineage_component"":26}"	1233	1207	1208	1229	239	238	4	2011-2023	no	no	no
+levofloxacin	primary	3029	3029	902	2127	0.297788	2941	840	2101	"{""missing_country"":65,""missing_year"":2,""no_lineage_component"":21}"	3029	3008	2964	2979	396	395	9	2012-2025	yes	yes	yes
+meropenem	secondary	6238	6238	78	6160	0.012504	6139	57	6082	"{""missing_country"":75,""missing_year"":3,""no_lineage_component"":21}"	6238	6217	6162	6191	915	914	21	2009-2025	no	no	no
+nalidixic acid	primary	4605	4605	332	4273	0.072096	4522	289	4233	"{""missing_country"":48,""no_lineage_component"":35}"	4605	4570	4556	4601	797	794	7	2011-2025	yes	yes	yes
+piperacillin-tazobactam	secondary	2886	2886	134	2752	0.046431	2817	107	2710	"{""missing_country"":62,""no_lineage_component"":7}"	2886	2879	2824	2850	400	401	13	2011-2025	no	no	no
+streptomycin	primary	4131	4131	1487	2644	0.359961	4096	1474	2622	"{""missing_country"":1,""no_lineage_component"":34}"	4131	4097	4130	4131	721	718	4	2011-2023	yes	yes	no
+sulfisoxazole	primary	4069	4069	1458	2611	0.358319	4035	1445	2590	"{""no_lineage_component"":34}"	4069	4035	4069	4069	713	710	2	2011-2021	yes	yes	no
+tetracycline	primary	7088	7088	3012	4076	0.424944	6940	2909	4031	"{""missing_country"":105,""missing_year"":1,""no_lineage_component"":42}"	7088	7046	6982	7040	981	977	11	2011-2025	yes	yes	yes
+tobramycin	secondary	2923	2923	291	2632	0.099555	2850	261	2589	"{""missing_country"":49,""missing_year"":2,""no_lineage_component"":22}"	2923	2901	2873	2879	375	375	13	2013-2025	no	no	no
+trimethoprim-sulfamethoxazole	primary	7304	7304	1450	5854	0.198521	7146	1366	5780	"{""missing_country"":100,""missing_year"":3,""no_lineage_component"":55}"	7304	7249	7204	7257	967	965	17	2009-2025	yes	yes	yes

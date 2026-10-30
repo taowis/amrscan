@@ -1,0 +1,32 @@
+{
+  "analysis_version": "representation_sensitivity_v1",
+  "builder_version": "1.0.0",
+  "checked_at": "2026-10-29T02:31:57Z",
+  "config_sha256": "f20203e35a3ef978d9eb9620e52f96058da9c5c09a67dc9b8a61ba7e65781566",
+  "upstream": {
+    "augmentation_drugs": [
+      "amoxicillin-clavulanic acid",
+      "ampicillin",
+      "cefazolin",
+      "cefoxitin",
+      "ceftazidime",
+      "ceftriaxone",
+      "ciprofloxacin",
+      "levofloxacin",
+      "nalidixic acid",
+      "trimethoprim-sulfamethoxazole"
+    ],
+    "augmentation_plan_sha256": "39e5a31fc903d35c7b2dd02424d521bdf959ab294423fd46497e347a334b0f72",
+    "benchmark_manifest_sha256": "f0b51c760172065f233602e669d472d3a221a9a12a9eb306d91e77e2ac30f303",
+    "benchmark_version": "generalisation_v1",
+    "error_decomposition_config_sha256": "e97bd57d05b7920766ab09b470ba18f5b956155d5d910b022da41e2cc18daf75",
+    "error_decomposition_sha256sums_sha256": "f9bceaca91cb5985212f2d81bce93e976fa2e8cd48327fc58201ab58533b7b6b",
+    "feature_manifest_sha256": "ec85fc5c1916e7894e1732851dccc79b600ea861c4df4531c97c1d6b05b9b15f",
+    "generalisation_config_sha256": "00fa371a4ffd28a1dae06e7cb0b89a12adf7e357ab39eee325ce412fdca5c65f",
+    "genome_manifest_sha256": "e85a45fc1add9f0c6004dd897cd4488baad0eed8d7c1f91c9025b34beaa0f2d6",
+    "mechanism_catalogue_sha256": "c41ae6fd10e4d09716d040e0cdd0b212cda60d497892b44c19d84764da03eb34",
+    "mutation_panel_sha256": "60aa963e64ceb7696f66509b7218c77c80bfa90212a3c5261a0beb98e60e8b5f",
+    "predictions_sha256": "63b1a2c0039f661a9a31002e6c84355c14a4c02c4f31e00b124dc566895c0ce0",
+    "tasks": 1069
+  }
+}

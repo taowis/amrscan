@@ -1,0 +1,26 @@
+{
+  "ast_observations_sha256": "3300337d5ab94b5283998a78b8359ca2cd49a50341905eac0f2e6da624464320",
+  "baseline_manifest_sha256": "eccf2a710e5092b17dfa87a1bc8efc25449d66e6895fbcf20db8dd78f5edc0d9",
+  "baseline_phenotype_corrections": [
+    "PC0001"
+  ],
+  "corrected_mic_observations": 3281,
+  "corrected_mic_out_of_order": 3,
+  "corrections": {
+    "PRJNA1322038": "PC0001"
+  },
+  "corrections_sha256": "a8a92d9cb1a603aa50601ae558d7cc9176674fe146cf9f96222d5ccaedd2eb71",
+  "flagged_isolates": 137,
+  "flagged_metric_eligible_endpoints": 2041,
+  "inverted_after_corrections": 0,
+  "label_check_rule": "median MIC of R below median MIC of S, at least 3 R and 3 S MIC observations; project flagged when at least half of its tested antimicrobials are inverted",
+  "projects_flagged": {
+    "PRJNA1322038": {
+      "antimicrobials_tested": 26,
+      "inverted": 26
+    }
+  },
+  "projects_flagged_after_corrections": [],
+  "projects_tested": 22,
+  "status": "post hoc descriptive check; the PR #5 endpoints are unchanged; the label check on the PR #5 labels is the evidence for decision 0004"
+}

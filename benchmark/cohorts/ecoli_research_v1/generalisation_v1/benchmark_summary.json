@@ -1,0 +1,10 @@
+{
+  "benchmark_version": "generalisation_v1",
+  "generated_at": "2026-10-25T11:50:37Z",
+  "manifest_sha256": "90a8eb39570e70a91fb33feb0e39a881fc0aa9777e6ab61ed9524aca6913cdc5",
+  "not_feasible": 72,
+  "prediction_rows": 1030746,
+  "tasks": 1069,
+  "tasks_not_succeeded": {},
+  "tasks_succeeded": 1069
+}

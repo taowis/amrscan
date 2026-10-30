@@ -1,0 +1,93 @@
+{
+  "analysis_version": "error_decomposition_v1",
+  "associations": {
+    "lineage_shift": {
+      "n": 84,
+      "rho": -0.1813515305861578
+    },
+    "mechanism_shift": {
+      "n": 84,
+      "rho": 0.3582684938210016
+    },
+    "mutation_associated_fraction": {
+      "n": 84,
+      "rho": 0.36472919467515946
+    },
+    "mutation_not_captured_fraction": {
+      "n": 52,
+      "rho": -0.46417813542777486
+    },
+    "mutation_shift": {
+      "n": 84,
+      "rho": 0.367098496800242
+    },
+    "phenotype_prevalence_shift": {
+      "n": 84,
+      "rho": 0.3251271927535577
+    },
+    "representation_failure_fraction": {
+      "n": 84,
+      "rho": 0.3633524638847481
+    },
+    "unseen_mechanism_fraction": {
+      "n": 84,
+      "rho": 0.6566534034294585
+    }
+  },
+  "case_study_drugs": [
+    "cefazolin",
+    "cefepime",
+    "cefoxitin",
+    "ceftazidime",
+    "ceftriaxone",
+    "chloramphenicol",
+    "ciprofloxacin",
+    "gentamicin",
+    "levofloxacin",
+    "nalidixic acid",
+    "sulfisoxazole",
+    "tetracycline",
+    "trimethoprim-sulfamethoxazole"
+  ],
+  "drug_groups": {
+    "amikacin": "stable",
+    "amoxicillin-clavulanic acid": "intermediate",
+    "ampicillin": "intermediate",
+    "aztreonam": "stable",
+    "cefazolin": "high_loss",
+    "cefepime": "high_loss",
+    "cefoxitin": "high_loss",
+    "ceftazidime": "high_loss",
+    "ceftiofur": "stable",
+    "ceftriaxone": "stable",
+    "chloramphenicol": "stable",
+    "ciprofloxacin": "high_loss",
+    "ertapenem": "intermediate",
+    "gentamicin": "stable",
+    "kanamycin": "stable",
+    "levofloxacin": "stable",
+    "meropenem": "stable",
+    "nalidixic acid": "high_loss",
+    "piperacillin-tazobactam": "high_loss",
+    "streptomycin": "intermediate",
+    "sulfisoxazole": "stable",
+    "tetracycline": "stable",
+    "tobramycin": "stable",
+    "trimethoprim-sulfamethoxazole": "stable"
+  },
+  "error_categories": {
+    "R_KNOWN_DET_AND_MUT_REPRESENTED": 290,
+    "R_KNOWN_DET_NOT_REPRESENTED": 41,
+    "R_KNOWN_DET_REPRESENTED": 8726,
+    "R_KNOWN_MUT_NOT_REPRESENTED": 4796,
+    "R_KNOWN_MUT_REPRESENTED": 27,
+    "R_NO_ESTABLISHED_DET": 7183,
+    "R_UNRESOLVED": 805,
+    "S_KNOWN_DET_PRESENT": 13139,
+    "S_NO_KNOWN_DET": 13280,
+    "S_UNRESOLVED": 2219
+  },
+  "errors": 50506,
+  "generated_at": "2026-10-26T02:37:11Z",
+  "prediction_rows": 1030746
+}

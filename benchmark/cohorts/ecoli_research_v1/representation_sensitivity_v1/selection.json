@@ -1,0 +1,67 @@
+{
+  "R1_scaled": 50,
+  "budget": {
+    "budget_su": 1300,
+    "cpu_speed_factor": 1.0,
+    "measured": {
+      "100": {
+        "peak_rss_bytes": 22436306944,
+        "task_hours_total": 73.26513051823416
+      },
+      "20": {
+        "peak_rss_bytes": 110940499968,
+        "task_hours_total": 531.7527024952016
+      },
+      "200": {
+        "peak_rss_bytes": 11642265600,
+        "task_hours_total": 482.95522328854753
+      },
+      "50": {
+        "peak_rss_bytes": 43102863360,
+        "task_hours_total": 151.39502815099166
+      }
+    },
+    "measured_basis": "peak_rss_bytes: the largest of three fits (the two largest tasks by training size and the median one) in pilot/fit_pilot_scaled_<s>.json; task_hours_total: the generalisation_v1 R0 task total (56,196 s, workstation) times the ratio of the three Gadi fit times to the same three tasks' workstation times. The scaled=200 job of the second fit-pilot submission ran about 13 times slower than the same fits in the first submission (node bdw-0094); scaled=200 is not a candidate and is not used by the rule.",
+    "memory_gb_per_core": 9.14,
+    "node_memory_gb": 128,
+    "queue": "normalbw (Gadi, 28-core Broadwell nodes, 128 GB)",
+    "r3_tasks": 262,
+    "set_by": "project owner after the resource pilot",
+    "set_on": "2026-10-30",
+    "su_per_core_hour": 1.25
+  },
+  "candidates": [
+    {
+      "basis": "measured",
+      "cores_charged": 2.2861530796443343,
+      "memory_fits": true,
+      "peak_rss_bytes": 22436306944,
+      "projected_su": 311.9972157358917,
+      "scaled": 100,
+      "task_hours": 109.1780663382105,
+      "within_budget": true
+    },
+    {
+      "basis": "measured",
+      "cores_charged": 4.391976988811201,
+      "memory_fits": true,
+      "peak_rss_bytes": 43102863360,
+      "projected_su": 1238.5677074559285,
+      "scaled": 50,
+      "task_hours": 225.60550032229162,
+      "within_budget": true
+    },
+    {
+      "basis": "measured",
+      "cores_charged": 11.304309853317962,
+      "memory_fits": false,
+      "peak_rss_bytes": 110940499968,
+      "projected_su": 11197.004234976057,
+      "scaled": 20,
+      "task_hours": 792.4060384236259,
+      "within_budget": false
+    }
+  ],
+  "rule": "R1 is the smallest candidate scaled value (densest representation) for which (a) all 10,521 genomes are sketched and verified, (b) the projected peak memory of the largest benchmark task fits one available machine with 25% left free, and (c) the projected compute for the R1 benchmark plus R3 and R3_permuted fits the budget the project owner sets after seeing the pilot resource table and before any R1 model is fitted. Projections come from the pilot only. The selection, the budget and the projections are written to selection.json and committed before the R1 run.",
+  "selected_at": "2026-10-29T15:01:43Z"
+}

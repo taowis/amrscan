@@ -1,0 +1,133 @@
+strategy	antimicrobial	N	baseline_balanced_accuracy	model_balanced_accuracy	difference_model_minus_baseline	ci_lower	ci_upper	classification
+country	amoxicillin-clavulanic acid	6159	0.962463	0.899763	-0.0627	-0.078595	-0.048575	baseline_better
+country	ampicillin	7106	0.961961	0.915662	-0.046299	-0.058016	-0.037781	baseline_better
+country	cefazolin	2496	0.840276	0.688237	-0.15204	-0.185002	-0.117912	baseline_better
+country	cefepime	3245	0.908349	0.767957	-0.140393	-0.164449	-0.116716	baseline_better
+country	cefoxitin	4809	0.948591	0.905846	-0.042745	-0.057526	-0.030048	baseline_better
+country	ceftazidime	3101	0.92452	0.844286	-0.080234	-0.10346	-0.06023	baseline_better
+country	ceftriaxone	6703	0.980334	0.945115	-0.035219	-0.048955	-0.023869	baseline_better
+country	chloramphenicol	4361	0.993123	0.988711	-0.004412	-0.011143	0.001493	interval_includes_zero
+country	ciprofloxacin	5966	0.951373	0.862548	-0.088825	-0.107362	-0.072801	baseline_better
+country	gentamicin	7076	0.964255	0.947988	-0.016267	-0.023857	-0.009676	baseline_better
+country	levofloxacin	85	0.783333	0.866667	0.083333	0	0.215996	interval_includes_zero
+country	nalidixic acid	4379	0.917974	0.662969	-0.255005	-0.298135	-0.209263	baseline_better
+country	streptomycin	4088	0.932053	0.931716	-0.000336	-0.008439	0.008258	interval_includes_zero
+country	sulfisoxazole	4032	0.985835	0.972639	-0.013196	-0.017205	-0.009677	baseline_better
+country	tetracycline	6921	0.986994	0.981982	-0.005012	-0.008422	-0.002068	baseline_better
+country	trimethoprim-sulfamethoxazole	5623	0.984785	0.954648	-0.030138	-0.037549	-0.023071	baseline_better
+geography	amoxicillin-clavulanic acid	1358	0.969319	0.95339	-0.015929	-0.024381	-0.008033	baseline_better
+geography	ampicillin	1766	0.97938	0.933847	-0.045533	-0.057801	-0.03543	baseline_better
+geography	cefazolin	160	0.87393	0.898947	0.025016	-0.029488	0.088238	interval_includes_zero
+geography	cefepime	603	0.878324	0.781873	-0.096451	-0.137599	-0.047724	baseline_better
+geography	cefoxitin	1768	0.962238	0.907964	-0.054274	-0.070721	-0.038742	baseline_better
+geography	ceftazidime	722	0.886689	0.773771	-0.112918	-0.165764	-0.061308	baseline_better
+geography	ceftriaxone	1400	0.975012	0.977312	0.0023	-0.003024	0.008572	interval_includes_zero
+geography	chloramphenicol	1611	0.981908	0.98416	0.002252	-0.000949	0.007642	interval_includes_zero
+geography	ciprofloxacin	1704	0.966771	0.794101	-0.17267	-0.207705	-0.138227	baseline_better
+geography	gentamicin	1779	0.947838	0.930121	-0.017717	-0.030493	-0.006911	baseline_better
+geography	nalidixic acid	1633	0.900374	0.615543	-0.284831	-0.328523	-0.239169	baseline_better
+geography	streptomycin	1263	0.832287	0.874883	0.042597	0.020373	0.069135	model_better
+geography	sulfisoxazole	1260	0.972956	0.972302	-0.000654	-0.002253	0	interval_includes_zero
+geography	tetracycline	1618	0.980252	0.984605	0.004352	0.00065	0.008994	model_better
+geography	trimethoprim-sulfamethoxazole	914	0.979206	0.93552	-0.043686	-0.059922	-0.029756	baseline_better
+lineage	amikacin	3213	0.849498	0.804462	-0.045036	-0.10568	0.001903	interval_includes_zero
+lineage	amoxicillin-clavulanic acid	6228	0.962305	0.887521	-0.074785	-0.090944	-0.058687	baseline_better
+lineage	ampicillin	7553	0.964675	0.962328	-0.002347	-0.00784	0.002908	interval_includes_zero
+lineage	aztreonam	2226	0.949951	0.938925	-0.011027	-0.029451	0.005201	interval_includes_zero
+lineage	cefazolin	2497	0.840306	0.887016	0.04671	0.026213	0.067902	model_better
+lineage	cefepime	3474	0.903009	0.877704	-0.025305	-0.042918	-0.009457	baseline_better
+lineage	cefoxitin	4901	0.947335	0.926924	-0.020411	-0.031541	-0.010109	baseline_better
+lineage	ceftazidime	3200	0.92199	0.924782	0.002791	-0.010105	0.01542	interval_includes_zero
+lineage	ceftiofur	1270	0.966222	0.961734	-0.004489	-0.014608	0.004727	interval_includes_zero
+lineage	ceftriaxone	6812	0.978185	0.978924	0.000739	-0.003313	0.004811	interval_includes_zero
+lineage	chloramphenicol	4385	0.988721	0.982931	-0.00579	-0.01221	0	interval_includes_zero
+lineage	ciprofloxacin	7249	0.95679	0.927771	-0.029018	-0.040659	-0.017635	baseline_better
+lineage	ertapenem	3432	0.7	0.678972	-0.021028	-0.10825	0.061521	interval_includes_zero
+lineage	gentamicin	7189	0.957706	0.963104	0.005399	-0.001909	0.013795	interval_includes_zero
+lineage	kanamycin	1182	0.975812	0.958648	-0.017164	-0.037755	-0.001904	baseline_better
+lineage	levofloxacin	2805	0.918643	0.955403	0.036759	0.022625	0.049857	model_better
+lineage	meropenem	6099	0.927661	0.89203	-0.035632	-0.075772	-0.007605	baseline_better
+lineage	nalidixic acid	4392	0.921296	0.699836	-0.221461	-0.266262	-0.170667	baseline_better
+lineage	piperacillin-tazobactam	2747	0.795555	0.659443	-0.136111	-0.195903	-0.078391	baseline_better
+lineage	streptomycin	4092	0.931228	0.942553	0.011326	0.003782	0.018841	model_better
+lineage	sulfisoxazole	4032	0.985835	0.983138	-0.002696	-0.004512	-0.001082	baseline_better
+lineage	tetracycline	6937	0.986737	0.982211	-0.004526	-0.007904	-0.001921	baseline_better
+lineage	tobramycin	2850	0.96795	0.949372	-0.018578	-0.035505	-0.003993	baseline_better
+lineage	trimethoprim-sulfamethoxazole	5722	0.983669	0.961988	-0.021681	-0.029565	-0.014327	baseline_better
+project	amoxicillin-clavulanic acid	6114	0.961257	0.901656	-0.059601	-0.076769	-0.045453	baseline_better
+project	ampicillin	6978	0.960515	0.93648	-0.024035	-0.02846	-0.019332	baseline_better
+project	cefazolin	2385	0.839662	0.746827	-0.092835	-0.117698	-0.0696	baseline_better
+project	cefepime	3301	0.906492	0.824588	-0.081904	-0.10384	-0.060941	baseline_better
+project	cefoxitin	4688	0.946237	0.921668	-0.024569	-0.038821	-0.012002	baseline_better
+project	ceftazidime	2825	0.922222	0.926971	0.004749	-0.007455	0.015674	interval_includes_zero
+project	ceftriaxone	6573	0.9779	0.94962	-0.028279	-0.039198	-0.018558	baseline_better
+project	chloramphenicol	4260	0.992405	0.987372	-0.005034	-0.012945	0.001761	interval_includes_zero
+project	ciprofloxacin	5903	0.952511	0.906287	-0.046224	-0.061709	-0.031325	baseline_better
+project	gentamicin	6927	0.971058	0.957329	-0.013729	-0.02065	-0.007335	baseline_better
+project	levofloxacin	2784	0.91861	0.966633	0.048023	0.036122	0.060707	model_better
+project	nalidixic acid	4122	0.916794	0.654298	-0.262496	-0.307073	-0.215358	baseline_better
+project	streptomycin	3979	0.932798	0.929629	-0.003169	-0.012783	0.006017	interval_includes_zero
+project	sulfisoxazole	3904	0.985361	0.973454	-0.011907	-0.016	-0.008378	baseline_better
+project	tetracycline	6741	0.986811	0.981672	-0.005139	-0.008708	-0.00197	baseline_better
+project	trimethoprim-sulfamethoxazole	5591	0.984105	0.962715	-0.02139	-0.027873	-0.015596	baseline_better
+random	amikacin	3213	0.849498	0.813205	-0.036293	-0.110645	0.036134	interval_includes_zero
+random	amoxicillin-clavulanic acid	6228	0.962305	0.9495	-0.012805	-0.020316	-0.005689	baseline_better
+random	ampicillin	7553	0.964675	0.972444	0.007768	0.002765	0.013212	model_better
+random	aztreonam	2226	0.949951	0.945733	-0.004218	-0.01616	0.007218	interval_includes_zero
+random	cefazolin	2497	0.840306	0.906759	0.066453	0.047807	0.085564	model_better
+random	cefepime	3474	0.903009	0.905886	0.002877	-0.009504	0.015179	interval_includes_zero
+random	cefoxitin	4901	0.947335	0.944441	-0.002894	-0.012759	0.006816	interval_includes_zero
+random	ceftazidime	3200	0.92199	0.937815	0.015825	0.004961	0.026344	model_better
+random	ceftiofur	1270	0.966222	0.966617	0.000394	-0.00737	0.007966	interval_includes_zero
+random	ceftriaxone	6812	0.978185	0.979392	0.001207	-0.002789	0.005121	interval_includes_zero
+random	chloramphenicol	4385	0.988721	0.985764	-0.002957	-0.008959	0.002838	interval_includes_zero
+random	ciprofloxacin	7249	0.95679	0.945586	-0.011203	-0.020833	-0.002263	baseline_better
+random	ertapenem	3432	0.7	0.72474	0.02474	-0.031926	0.087451	interval_includes_zero
+random	gentamicin	7189	0.957706	0.966515	0.008809	0.001728	0.016253	model_better
+random	kanamycin	1182	0.975812	0.961431	-0.014381	-0.02953	-0.002924	baseline_better
+random	levofloxacin	2805	0.918643	0.969588	0.050945	0.038528	0.062988	model_better
+random	meropenem	6099	0.927661	0.907322	-0.020339	-0.072671	0.031688	interval_includes_zero
+random	nalidixic acid	4392	0.921296	0.821302	-0.099994	-0.137752	-0.061942	baseline_better
+random	piperacillin-tazobactam	2747	0.795555	0.75193	-0.043625	-0.099417	0.011157	interval_includes_zero
+random	streptomycin	4092	0.931228	0.946733	0.015505	0.008754	0.023428	model_better
+random	sulfisoxazole	4032	0.985835	0.985296	-0.000539	-0.002489	0.001349	interval_includes_zero
+random	tetracycline	6937	0.986737	0.985992	-0.000745	-0.00262	0.001167	interval_includes_zero
+random	tobramycin	2850	0.96795	0.962589	-0.005361	-0.016003	0.004501	interval_includes_zero
+random	trimethoprim-sulfamethoxazole	5722	0.983669	0.975866	-0.007803	-0.011825	-0.004658	baseline_better
+random_cluster	amikacin	3213	0.849498	0.768068	-0.08143	-0.148999	-0.02059	baseline_better
+random_cluster	amoxicillin-clavulanic acid	6228	0.962305	0.942538	-0.019767	-0.029173	-0.010639	baseline_better
+random_cluster	ampicillin	7553	0.964675	0.96649	0.001815	-0.004224	0.007312	interval_includes_zero
+random_cluster	aztreonam	2226	0.949951	0.937503	-0.012449	-0.030372	0.00358	interval_includes_zero
+random_cluster	cefazolin	2497	0.840306	0.903262	0.062956	0.043009	0.081241	model_better
+random_cluster	cefepime	3474	0.903009	0.890142	-0.012867	-0.029269	0.002199	interval_includes_zero
+random_cluster	cefoxitin	4901	0.947335	0.940176	-0.007159	-0.017293	0.001999	interval_includes_zero
+random_cluster	ceftazidime	3200	0.92199	0.931604	0.009614	-0.004238	0.020589	interval_includes_zero
+random_cluster	ceftiofur	1270	0.966222	0.962393	-0.003829	-0.013483	0.005957	interval_includes_zero
+random_cluster	ceftriaxone	6812	0.978185	0.979732	0.001547	-0.002505	0.005465	interval_includes_zero
+random_cluster	chloramphenicol	4385	0.988721	0.98718	-0.00154	-0.006925	0.002959	interval_includes_zero
+random_cluster	ciprofloxacin	7249	0.95679	0.941192	-0.015598	-0.026404	-0.006912	baseline_better
+random_cluster	ertapenem	3432	0.7	0.708019	0.008019	-0.083438	0.087286	interval_includes_zero
+random_cluster	gentamicin	7189	0.957706	0.965332	0.007626	0.000781	0.01515	model_better
+random_cluster	kanamycin	1182	0.975812	0.95571	-0.020103	-0.041595	-0.005069	baseline_better
+random_cluster	levofloxacin	2805	0.918643	0.967548	0.048905	0.036774	0.060802	model_better
+random_cluster	meropenem	6099	0.927661	0.89054	-0.037121	-0.075516	-0.008832	baseline_better
+random_cluster	nalidixic acid	4392	0.921296	0.787829	-0.133467	-0.175185	-0.089079	baseline_better
+random_cluster	piperacillin-tazobactam	2747	0.795555	0.731253	-0.064302	-0.12489	-0.010159	baseline_better
+random_cluster	streptomycin	4092	0.931228	0.945375	0.014147	0.00701	0.021311	model_better
+random_cluster	sulfisoxazole	4032	0.985835	0.984258	-0.001577	-0.003523	0	interval_includes_zero
+random_cluster	tetracycline	6937	0.986737	0.986364	-0.000372	-0.002322	0.001619	interval_includes_zero
+random_cluster	tobramycin	2850	0.96795	0.962782	-0.005168	-0.016356	0.004039	interval_includes_zero
+random_cluster	trimethoprim-sulfamethoxazole	5722	0.983669	0.972735	-0.010934	-0.015755	-0.00654	baseline_better
+temporal	amoxicillin-clavulanic acid	388	0.903308	0.847966	-0.055342	-0.092583	-0.018936	baseline_better
+temporal	ampicillin	1105	0.953991	0.919508	-0.034483	-0.044361	-0.025024	baseline_better
+temporal	cefepime	1055	0.757225	0.692079	-0.065146	-0.092855	-0.037263	baseline_better
+temporal	cefoxitin	693	0.815441	0.716811	-0.09863	-0.15513	-0.045771	baseline_better
+temporal	ceftazidime	772	0.591962	0.589893	-0.00207	-0.038543	0.033763	interval_includes_zero
+temporal	ceftriaxone	435	0.825459	0.809638	-0.015821	-0.041862	-0.00134	baseline_better
+temporal	chloramphenicol	352	0.985026	0.983073	-0.001953	-0.016535	0.012063	interval_includes_zero
+temporal	ciprofloxacin	1036	0.913933	0.827553	-0.08638	-0.121281	-0.054239	baseline_better
+temporal	gentamicin	809	0.962185	0.91047	-0.051715	-0.081728	-0.026894	baseline_better
+temporal	levofloxacin	526	0.933649	0.946995	0.013345	-0.011428	0.038394	interval_includes_zero
+temporal	nalidixic acid	339	0.892857	0.67963	-0.213227	-0.295417	-0.131113	baseline_better
+temporal	tetracycline	676	0.981818	0.983566	0.001748	0	0.005704	interval_includes_zero
+temporal	trimethoprim-sulfamethoxazole	674	0.968276	0.965694	-0.002583	-0.008903	0.002842	interval_includes_zero

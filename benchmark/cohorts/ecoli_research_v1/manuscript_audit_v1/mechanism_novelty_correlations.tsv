@@ -1,0 +1,4 @@
+measure	pairs	spearman_rho
+frac_any_below_min	84	0.656653
+frac_any_absent	84	0.586648
+frac_all_below_min	84	0.548813

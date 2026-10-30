@@ -1,0 +1,676 @@
+antimicrobial	determinant	determinant_type	interpretation	requires	evidence_level	review_status	carriers	carriers_R	carriers_S	r_fraction	sole_support_R	sole_support_S	lineages_json	countries_json	flag
+amikacin	aac(6')-Ib	gene	predicts_resistance	NA	source_exact_term	reviewed_source	7	6	1	0.8571	2	0	"{""ST101"":1,""ST1284"":1,""ST167"":1,""ST4380"":1,""ST744"":1}"	"{""Greece"":2,""NA"":5}"	NA
+amikacin	aac(6')-Ib-cr	gene	predicts_resistance	NA	source_exact_term	reviewed_source	6	1	5	0.1667	0	2	"{""ST131"":2,""ST38"":1,""ST410"":1,""ST44"":1,""ST68"":1}"	"{""NA"":2,""Netherlands"":1,""USA"":3}"	NA
+amikacin	aac(6')-Ib-cr5	gene	predicts_resistance	NA	family_consensus	reviewed_source	257	57	200	0.2218	41	197	"{""ST1193"":9,""ST131"":140,""ST405"":16,""ST410"":17,""ST617"":11}"	"{""Greece"":5,""NA"":30,""Pakistan"":12,""USA"":173,""Zambia"":19}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+amikacin	aac(6')-Ib3	gene	predicts_resistance	NA	source_exact_term	reviewed_source	12	7	5	0.5833	1	5	"{""ST101"":4,""ST131"":1,""ST1809"":1,""ST405"":1,""ST410"":1}"	"{""NA"":8,""USA"":4}"	NA
+amikacin	aac(6')-Il	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST410"":1}"	"{""Greece"":1}"	NA
+amikacin	aph(3')-VI	gene	predicts_resistance	NA	source_exact_term	reviewed_source	5	5	0	1.0000	0	0	"{""ST10"":1,""ST1284"":1,""ST131"":1,""ST46"":1,""ST90"":1}"	"{""Ireland"":3,""NA"":1,""USA"":1}"	NA
+amikacin	armA	gene	predicts_resistance	NA	source_exact_term	reviewed_source	11	11	0	1.0000	2	0	"{""ST10"":1,""ST131"":2,""ST14214"":1,""ST167"":1,""ST46"":1}"	"{""Ireland"":8,""NA"":3}"	NA
+amikacin	rmtB1	gene	predicts_resistance	NA	family_consensus	reviewed_source	19	17	2	0.8947	11	0	"{""ST156"":1,""ST167"":6,""ST2851"":2,""ST405"":2,""ST8346"":2}"	"{""Greece"":1,""Ireland"":13,""NA"":1,""Pakistan"":2,""USA"":2}"	NA
+amikacin	rmtC	gene	predicts_resistance	NA	source_exact_term	reviewed_source	7	7	0	1.0000	0	0	"{""ST101"":4,""ST131"":1,""ST5896"":1,""ST90"":1}"	"{""NA"":5,""USA"":2}"	NA
+amoxicillin-clavulanic acid	ampC_C-42T	point_mutation	predicts_resistance	NA	source_exact_term	reviewed_source	44	43	1	0.9773	36	1	"{""ST101"":4,""ST23"":13,""ST3580"":6,""ST58"":3,""ST88"":6}"	"{""Canada"":9,""NA"":4,""USA"":31}"	NA
+amoxicillin-clavulanic acid	ampC_T-32A	point_mutation	predicts_resistance	NA	source_exact_term	reviewed_source	46	46	0	1.0000	46	0	"{""ST12"":33,""ST127"":5,""ST405"":1,""ST73"":2,""UNKNOWN"":1}"	"{""NA"":1,""USA"":45}"	NA
+amoxicillin-clavulanic acid	blaCMY	gene	predicts_resistance	NA	family_consensus	reviewed_source	106	98	8	0.9245	68	4	"{""ST10"":17,""ST1914"":8,""ST38"":5,""ST4243"":14,""ST770"":7}"	"{""Canada"":83,""USA"":23}"	NA
+amoxicillin-clavulanic acid	blaCMY-141	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST4450"":1}"	"{""USA"":1}"	NA
+amoxicillin-clavulanic acid	blaCMY-145	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	0	"{""ST361"":1}"	"{""Pakistan"":1}"	NA
+amoxicillin-clavulanic acid	blaCMY-2	gene	predicts_resistance	NA	source_exact_term	reviewed_source	550	533	17	0.9691	505	12	"{""ST10"":47,""ST117"":30,""ST1914"":30,""ST4243"":43,""ST4253"":26}"	"{""Canada"":364,""Chile"":3,""NA"":6,""Thailand"":4,""USA"":170}"	NA
+amoxicillin-clavulanic acid	blaCMY-4	gene	predicts_resistance	NA	source_exact_term	reviewed_source	4	3	1	0.7500	3	1	"{""ST10"":1,""ST224"":1,""ST70"":2}"	"{""USA"":4}"	NA
+amoxicillin-clavulanic acid	blaCMY-42	gene	predicts_resistance	NA	source_exact_term	reviewed_source	8	6	2	0.7500	2	1	"{""ST1284"":1,""ST167"":4,""ST38"":1,""ST410"":1,""ST648"":1}"	"{""NA"":4,""Nepal"":1,""USA"":2,""Zambia"":1}"	NA
+amoxicillin-clavulanic acid	blaCMY-6	gene	predicts_resistance	NA	source_exact_term	reviewed_source	9	9	0	1.0000	0	0	"{""ST101"":4,""ST131"":1,""ST1809"":1,""ST648"":1,""ST90"":1}"	"{""NA"":6,""Sweden"":1,""USA"":2}"	NA
+amoxicillin-clavulanic acid	blaCTX-M	gene	uncertain	NA	source_partial_support	reviewed_source	11	2	9	0.1818	0	0	"{""ST1193"":1,""ST1236"":1,""ST131"":1,""ST167"":2,""ST38"":2}"	"{""USA"":10,""Zambia"":1}"	NA
+amoxicillin-clavulanic acid	blaDHA	gene	predicts_resistance	NA	family_consensus	reviewed_source	1	1	0	1.0000	1	0	"{""UNKNOWN"":1}"	"{""Australia"":1}"	NA
+amoxicillin-clavulanic acid	blaDHA-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	17	17	0	1.0000	15	0	"{""ST1193"":1,""ST131"":1,""ST38"":5,""ST69"":3,""ST83"":4}"	"{""Australia"":1,""NA"":3,""USA"":13}"	NA
+amoxicillin-clavulanic acid	blaKPC-3	gene	predicts_resistance	NA	source_exact_term	reviewed_source	3	3	0	1.0000	2	0	"{""ST131"":1,""ST1408"":1,""ST617"":1}"	"{""NA"":3}"	NA
+amoxicillin-clavulanic acid	blaKPC-4	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST131"":1}"	"{""NA"":1}"	NA
+amoxicillin-clavulanic acid	blaLAT	gene	predicts_resistance	NA	family_consensus	reviewed_source	4	2	2	0.5000	0	0	"{""ST10"":2,""ST1034"":1,""ST38"":1}"	"{""Canada"":3,""USA"":1}"	NA
+amoxicillin-clavulanic acid	blaNDM-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	9	9	0	1.0000	1	0	"{""ST101"":4,""ST131"":1,""ST156"":1,""ST1809"":1,""ST90"":1}"	"{""NA"":7,""USA"":2}"	NA
+amoxicillin-clavulanic acid	blaNDM-5	gene	predicts_resistance	NA	source_exact_term	reviewed_source	23	10	13	0.4348	3	5	"{""ST101"":1,""ST167"":10,""ST405"":4,""ST410"":4,""ST4450"":1}"	"{""Egypt"":2,""NA"":3,""Pakistan"":5,""USA"":5,""Zambia"":4}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+amoxicillin-clavulanic acid	blaNDM-6	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST1284"":1}"	"{""NA"":1}"	NA
+amoxicillin-clavulanic acid	blaNDM-7	gene	predicts_resistance	NA	source_exact_term	reviewed_source	3	3	0	1.0000	1	0	"{""ST167"":2,""ST648"":1}"	"{""NA"":2,""Sweden"":1}"	NA
+amoxicillin-clavulanic acid	blaNDM-9	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST617"":1}"	"{""Taiwan"":1}"	NA
+amoxicillin-clavulanic acid	blaOXA	gene	uncertain	NA	source_partial_support	reviewed_source	5	1	4	0.2000	0	0	"{""ST131"":2,""ST167"":1,""ST38"":1,""ST8881"":1}"	"{""NA"":1,""Pakistan"":1,""USA"":3}"	NA
+amoxicillin-clavulanic acid	blaOXA-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	131	70	61	0.5344	55	54	"{""ST131"":60,""ST167"":7,""ST405"":10,""ST410"":10,""ST617"":10}"	"{""Egypt"":3,""NA"":21,""Pakistan"":12,""USA"":65,""Zambia"":22}"	NA
+amoxicillin-clavulanic acid	blaOXA-181	gene	predicts_resistance	NA	source_exact_term	reviewed_source	3	2	1	0.6667	1	0	"{""ST131"":1,""ST167"":1,""ST410"":1}"	"{""Nigeria"":1,""USA"":2}"	NA
+amoxicillin-clavulanic acid	blaOXA-2	gene	predicts_resistance	NA	source_exact_term	reviewed_source	4	4	0	1.0000	0	0	"{""ST101"":4}"	"{""NA"":4}"	NA
+amoxicillin-clavulanic acid	blaOXA-244	gene	uncertain	NA	source_partial_support	reviewed_source	2	1	1	0.5000	0	0	"{""ST167"":1,""ST656"":1}"	"{""Egypt"":1,""NA"":1}"	NA
+amoxicillin-clavulanic acid	blaOXA-48	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST127"":1}"	"{""Portugal"":1}"	NA
+amoxicillin-clavulanic acid	blaSHV	gene	uncertain	NA	source_partial_support	reviewed_source	5	2	3	0.4000	0	0	"{""ST10"":1,""ST1079"":1,""ST540"":2,""UNKNOWN"":1}"	"{""Australia"":1,""Canada"":1,""USA"":3}"	NA
+amoxicillin-clavulanic acid	blaSHV-2A	gene	uncertain	NA	source_partial_support	reviewed_source	21	4	17	0.1905	0	0	"{""ST10"":4,""ST212"":2,""ST295"":1,""ST354"":2,""ST4253"":4}"	"{""Canada"":20,""Zambia"":1}"	NA
+amoxicillin-clavulanic acid	blaTEM	gene	uncertain	NA	source_partial_support	reviewed_source	116	24	92	0.2069	0	0	"{""ST10"":9,""ST131"":21,""ST162"":8,""ST58"":6,""ST69"":5}"	"{""Australia"":4,""Canada"":18,""NA"":5,""USA"":81,""Zambia"":4}"	NA
+amoxicillin-clavulanic acid	blaTEM-103	gene	uncertain	NA	source_partial_support	reviewed_source	2	0	2	0.0000	0	0	"{""ST372"":2}"	"{""USA"":2}"	NA
+amoxicillin-clavulanic acid	blaTEM-176	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST131"":1}"	"{""USA"":1}"	NA
+amoxicillin-clavulanic acid	blaTEM-190	gene	uncertain	NA	source_partial_support	reviewed_source	4	3	1	0.7500	0	0	"{""ST167"":2,""ST636"":2}"	"{""NA"":1,""Pakistan"":1,""USA"":2}"	NA
+amoxicillin-clavulanic acid	blaTEM-214	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST744"":1}"	"{""USA"":1}"	NA
+amoxicillin-clavulanic acid	blaTEM-30	gene	predicts_resistance	NA	source_exact_term	reviewed_source	4	3	1	0.7500	3	1	"{""ST10"":1,""ST167"":1,""ST538"":1,""ST73"":1}"	"{""Australia"":1,""NA"":1,""USA"":2}"	NA
+amoxicillin-clavulanic acid	blaTEM-31	gene	uncertain	NA	source_partial_support	reviewed_source	2	2	0	1.0000	0	0	"{""ST131"":1,""ST1722"":1}"	"{""Australia"":1,""USA"":1}"	NA
+amoxicillin-clavulanic acid	blaTEM-33	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST167"":1}"	"{""USA"":1}"	NA
+amoxicillin-clavulanic acid	blaTEM-35	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST167"":1}"	"{""USA"":1}"	NA
+amoxicillin-clavulanic acid	blaTEM-84	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST167"":1}"	"{""USA"":1}"	NA
+ampicillin	ampC_C-42T	point_mutation	predicts_resistance	NA	source_exact_term	reviewed_source	85	84	1	0.9882	67	1	"{""ST101"":4,""ST156"":9,""ST23"":14,""ST3580"":6,""ST88"":16}"	"{""Canada"":10,""NA"":4,""Netherlands"":39,""USA"":32}"	NA
+ampicillin	ampC_T-32A	point_mutation	predicts_resistance	NA	source_exact_term	reviewed_source	55	55	0	1.0000	28	0	"{""ST12"":34,""ST127"":5,""ST131"":4,""ST2015"":3,""ST73"":2}"	"{""NA"":1,""USA"":54}"	NA
+ampicillin	blaCARB-2	gene	predicts_resistance	NA	source_exact_term	reviewed_source	36	36	0	1.0000	24	0	"{""ST16870"":4,""ST3525"":2,""ST38"":8,""ST540"":3,""ST616"":2}"	"{""Canada"":20,""USA"":16}"	NA
+ampicillin	blaCMY	gene	predicts_resistance	NA	family_consensus	reviewed_source	114	108	6	0.9474	65	4	"{""ST10"":17,""ST1914"":8,""ST38"":5,""ST4243"":14,""ST770"":7}"	"{""Brazil"":1,""Canada"":83,""NA"":1,""USA"":29}"	NA
+ampicillin	blaCMY-141	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST4450"":1}"	"{""USA"":1}"	NA
+ampicillin	blaCMY-145	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	0	"{""ST361"":1}"	"{""Pakistan"":1}"	NA
+ampicillin	blaCMY-2	gene	predicts_resistance	NA	source_exact_term	reviewed_source	587	572	15	0.9744	425	7	"{""ST10"":51,""ST117"":30,""ST1914"":33,""ST38"":27,""ST4243"":43}"	"{""Canada"":372,""NA"":9,""Netherlands"":15,""Thailand"":4,""USA"":181}"	NA
+ampicillin	blaCMY-4	gene	predicts_resistance	NA	source_exact_term	reviewed_source	4	3	1	0.7500	2	1	"{""ST10"":1,""ST224"":1,""ST70"":2}"	"{""USA"":4}"	NA
+ampicillin	blaCMY-42	gene	predicts_resistance	NA	source_exact_term	reviewed_source	11	9	2	0.8182	1	0	"{""ST1284"":1,""ST167"":7,""ST38"":1,""ST410"":1,""ST648"":1}"	"{""NA"":7,""Nepal"":1,""USA"":2,""Zambia"":1}"	NA
+ampicillin	blaCMY-6	gene	predicts_resistance	NA	source_exact_term	reviewed_source	9	9	0	1.0000	0	0	"{""ST101"":4,""ST131"":1,""ST1809"":1,""ST648"":1,""ST90"":1}"	"{""NA"":6,""Sweden"":1,""USA"":2}"	NA
+ampicillin	blaCTX-M	gene	predicts_resistance	NA	family_consensus	reviewed_source	15	13	2	0.8667	2	1	"{""ST1236"":1,""ST131"":2,""ST167"":2,""ST38"":2,""ST457"":1}"	"{""USA"":14,""Zambia"":1}"	NA
+ampicillin	blaCTX-M-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	166	165	1	0.9940	123	1	"{""ST10"":13,""ST1034"":12,""ST58"":8,""ST761"":14,""ST88"":19}"	"{""Canada"":72,""Chile"":1,""NA"":1,""Netherlands"":82,""USA"":10}"	NA
+ampicillin	blaCTX-M-104	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST10"":1}"	"{""USA"":1}"	NA
+ampicillin	blaCTX-M-134	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST131"":1}"	"{""USA"":1}"	NA
+ampicillin	blaCTX-M-14	gene	predicts_resistance	NA	source_exact_term	reviewed_source	74	66	8	0.8919	28	2	"{""ST10"":6,""ST131"":8,""ST162"":8,""ST38"":20,""ST58"":3}"	"{""NA"":7,""Nepal"":1,""Netherlands"":8,""Thailand"":7,""USA"":51}"	NA
+ampicillin	blaCTX-M-15	gene	predicts_resistance	NA	source_exact_term	reviewed_source	628	543	85	0.8646	173	24	"{""ST10"":26,""ST131"":248,""ST405"":24,""ST648"":20,""ST69"":20}"	"{""NA"":27,""Netherlands"":82,""Pakistan"":33,""USA"":430,""Zambia"":30}"	NA
+ampicillin	blaCTX-M-2	gene	predicts_resistance	NA	source_exact_term	reviewed_source	5	5	0	1.0000	5	0	"{""ST1158"":2,""ST2562"":2,""ST362"":1}"	"{""Netherlands"":5}"	NA
+ampicillin	blaCTX-M-220	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST1193"":1}"	"{""USA"":1}"	NA
+ampicillin	blaCTX-M-24	gene	predicts_resistance	NA	source_exact_term	reviewed_source	2	2	0	1.0000	1	0	"{""ST141"":1,""ST354"":1}"	"{""USA"":2}"	NA
+ampicillin	blaCTX-M-27	gene	predicts_resistance	NA	source_exact_term	reviewed_source	185	181	4	0.9784	142	4	"{""ST1193"":28,""ST131"":109,""ST38"":18,""ST393"":3,""ST69"":4}"	"{""Chile"":1,""NA"":2,""Nepal"":1,""USA"":179,""Zambia"":1}"	NA
+ampicillin	blaCTX-M-3	gene	predicts_resistance	NA	source_exact_term	reviewed_source	5	5	0	1.0000	2	0	"{""ST1011"":1,""ST12"":1,""ST127"":1,""ST2064"":1,""ST38"":1}"	"{""Chile"":1,""Netherlands"":1,""USA"":3}"	NA
+ampicillin	blaCTX-M-32	gene	predicts_resistance	NA	source_exact_term	reviewed_source	11	11	0	1.0000	8	0	"{""ST10"":1,""ST1141"":1,""ST1433"":3,""ST398"":4,""ST93"":1}"	"{""Netherlands"":10,""USA"":1}"	NA
+ampicillin	blaCTX-M-55	gene	predicts_resistance	NA	source_exact_term	reviewed_source	99	88	11	0.8889	34	2	"{""ST117"":5,""ST1193"":7,""ST156"":4,""ST58"":4,""ST744"":15}"	"{""Chile"":2,""NA"":2,""Netherlands"":27,""Thailand"":8,""USA"":56}"	NA
+ampicillin	blaCTX-M-64	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST1193"":1}"	"{""USA"":1}"	NA
+ampicillin	blaCTX-M-65	gene	predicts_resistance	NA	source_exact_term	reviewed_source	8	8	0	1.0000	0	0	"{""ST1485"":1,""ST2179"":3,""ST58"":1,""ST5869"":1,""ST617"":1}"	"{""Netherlands"":3,""Taiwan"":1,""USA"":4}"	NA
+ampicillin	blaCTX-M-8	gene	predicts_resistance	NA	source_exact_term	reviewed_source	11	11	0	1.0000	9	0	"{""ST1163"":1,""ST117"":1,""ST1564"":3,""ST162"":1,""ST7094"":1}"	"{""Netherlands"":9,""USA"":2}"	NA
+ampicillin	blaCTX-M-9	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST3524"":1}"	"{""Netherlands"":1}"	NA
+ampicillin	blaDHA	gene	predicts_resistance	NA	family_consensus	reviewed_source	1	1	0	1.0000	0	0	"{""UNKNOWN"":1}"	"{""Australia"":1}"	NA
+ampicillin	blaDHA-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	20	20	0	1.0000	4	0	"{""ST1193"":1,""ST131"":2,""ST38"":5,""ST69"":4,""ST83"":4}"	"{""Australia"":1,""NA"":2,""USA"":17}"	NA
+ampicillin	blaEC-15	gene	does_not_predict	NA	expert_rule	reviewed_source	2	2	0	1.0000	0	0	"{""ST13639"":1,""ST88"":1}"	"{""Netherlands"":2}"	NA
+ampicillin	blaKPC-3	gene	predicts_resistance	NA	source_exact_term	reviewed_source	5	5	0	1.0000	0	0	"{""ST131"":2,""ST1408"":1,""ST501"":1,""ST617"":1}"	"{""NA"":4,""USA"":1}"	NA
+ampicillin	blaKPC-4	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST131"":1}"	"{""NA"":1}"	NA
+ampicillin	blaLAP-2	gene	predicts_resistance	NA	source_exact_term	reviewed_source	3	1	2	0.3333	0	0	"{""ST1602"":1,""ST167"":1,""ST2973"":1}"	"{""Pakistan"":1,""Thailand"":1,""USA"":1}"	NA
+ampicillin	blaLAT	gene	predicts_resistance	NA	family_consensus	reviewed_source	6	5	1	0.8333	0	0	"{""ST10"":2,""ST1034"":1,""ST131"":1,""ST219"":1,""ST38"":1}"	"{""Canada"":3,""USA"":3}"	NA
+ampicillin	blaNDM-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	10	10	0	1.0000	0	0	"{""ST101"":4,""ST131"":1,""ST156"":1,""ST1809"":1,""ST90"":1}"	"{""NA"":8,""USA"":2}"	NA
+ampicillin	blaNDM-5	gene	predicts_resistance	NA	source_exact_term	reviewed_source	24	10	14	0.4167	0	0	"{""ST101"":1,""ST156"":1,""ST167"":10,""ST405"":5,""ST410"":3}"	"{""Egypt"":2,""NA"":3,""Pakistan"":5,""USA"":6,""Zambia"":4}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+ampicillin	blaNDM-6	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST1284"":1}"	"{""NA"":1}"	NA
+ampicillin	blaNDM-7	gene	predicts_resistance	NA	source_exact_term	reviewed_source	3	3	0	1.0000	0	0	"{""ST167"":2,""ST648"":1}"	"{""NA"":2,""Sweden"":1}"	NA
+ampicillin	blaNDM-9	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST617"":1}"	"{""Taiwan"":1}"	NA
+ampicillin	blaOXA	gene	uncertain	NA	source_partial_support	reviewed_source	10	9	1	0.9000	0	0	"{""ST10"":1,""ST131"":5,""ST38"":1,""ST7358"":1,""ST8881"":1}"	"{""NA"":1,""Pakistan"":1,""USA"":8}"	NA
+ampicillin	blaOXA-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	298	255	43	0.8557	21	0	"{""ST131"":164,""ST167"":11,""ST405"":17,""ST410"":15,""ST617"":11}"	"{""NA"":22,""Netherlands"":5,""Pakistan"":12,""USA"":223,""Zambia"":22}"	NA
+ampicillin	blaOXA-10	gene	predicts_resistance	NA	source_exact_term	reviewed_source	6	5	1	0.8333	0	0	"{""ST13634"":1,""ST1485"":1,""ST361"":1,""ST58"":1,""UNKNOWN"":1}"	"{""NA"":1,""Netherlands"":2,""USA"":2,""Zambia"":1}"	NA
+ampicillin	blaOXA-1397	gene	predicts_resistance	NA	family_consensus	reviewed_source	1	1	0	1.0000	0	0	"{""ST44"":1}"	"{""USA"":1}"	NA
+ampicillin	blaOXA-181	gene	predicts_resistance	NA	source_exact_term	reviewed_source	3	2	1	0.6667	0	0	"{""ST131"":1,""ST167"":1,""ST410"":1}"	"{""Nigeria"":1,""USA"":2}"	NA
+ampicillin	blaOXA-2	gene	predicts_resistance	NA	source_exact_term	reviewed_source	4	4	0	1.0000	0	0	"{""ST101"":4}"	"{""NA"":4}"	NA
+ampicillin	blaOXA-244	gene	uncertain	NA	source_partial_support	reviewed_source	2	1	1	0.5000	0	0	"{""ST167"":1,""ST69"":1}"	"{""Egypt"":1,""USA"":1}"	NA
+ampicillin	blaOXA-48	gene	predicts_resistance	NA	source_exact_term	reviewed_source	3	3	0	1.0000	2	0	"{""ST127"":1,""ST38"":1,""ST405"":1}"	"{""Portugal"":2,""USA"":1}"	NA
+ampicillin	blaOXA-9	gene	predicts_resistance	NA	source_exact_term	reviewed_source	7	7	0	1.0000	0	0	"{""ST101"":1,""ST1284"":1,""ST131"":1,""ST1408"":1,""ST167"":1}"	"{""NA"":5,""USA"":2}"	NA
+ampicillin	blaPSE	gene	predicts_resistance	NA	family_consensus	reviewed_source	2	2	0	1.0000	0	0	"{""ST10624"":1,""ST616"":1}"	"{""USA"":2}"	NA
+ampicillin	blaSFO-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	3	3	0	1.0000	0	0	"{""ST1148"":1,""ST410"":1,""ST44"":1}"	"{""NA"":3}"	NA
+ampicillin	blaSHV	gene	predicts_resistance	NA	family_consensus	reviewed_source	5	5	0	1.0000	3	0	"{""ST10"":1,""ST1079"":1,""ST540"":2,""UNKNOWN"":1}"	"{""Australia"":1,""Canada"":1,""USA"":3}"	NA
+ampicillin	blaSHV-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	28	28	0	1.0000	28	0	"{""ST13706"":1,""ST13774"":1,""ST141"":1,""ST544"":2,""ST73"":21}"	"{""Australia"":2,""USA"":26}"	NA
+ampicillin	blaSHV-12	gene	predicts_resistance	NA	source_exact_term	reviewed_source	46	46	0	1.0000	29	0	"{""ST10"":3,""ST101"":4,""ST117"":6,""ST1564"":8,""ST224"":4}"	"{""NA"":1,""Netherlands"":36,""USA"":9}"	NA
+ampicillin	blaSHV-2	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST10"":1}"	"{""Canada"":1}"	NA
+ampicillin	blaSHV-2A	gene	predicts_resistance	NA	family_consensus	reviewed_source	22	21	1	0.9545	15	0	"{""ST10"":4,""ST1158"":1,""ST212"":2,""ST354"":2,""ST4253"":4}"	"{""Canada"":20,""Netherlands"":1,""Zambia"":1}"	NA
+ampicillin	blaSHV-7	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST131"":1}"	"{""USA"":1}"	NA
+ampicillin	blaTEM	gene	predicts_resistance	NA	family_consensus	reviewed_source	175	140	35	0.8000	27	21	"{""ST10"":12,""ST131"":28,""ST162"":11,""ST58"":10,""ST69"":7}"	"{""Australia"":4,""Canada"":18,""Netherlands"":30,""USA"":110,""Zambia"":4}"	NA
+ampicillin	blaTEM-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1858	1796	62	0.9666	1270	17	"{""ST10"":76,""ST1193"":92,""ST131"":307,""ST58"":66,""ST69"":143}"	"{""Australia"":34,""Canada"":187,""NA"":39,""Netherlands"":90,""USA"":1445}"	NA
+ampicillin	blaTEM-103	gene	predicts_resistance	NA	family_consensus	reviewed_source	2	2	0	1.0000	2	0	"{""ST372"":2}"	"{""USA"":2}"	NA
+ampicillin	blaTEM-12	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST131"":1}"	"{""USA"":1}"	NA
+ampicillin	blaTEM-135	gene	predicts_resistance	NA	source_exact_term	reviewed_source	12	11	1	0.9167	7	0	"{""ST14887"":1,""ST302"":1,""ST48"":1,""ST69"":1,""ST744"":3}"	"{""Canada"":5,""Thailand"":1,""USA"":6}"	NA
+ampicillin	blaTEM-17	gene	predicts_resistance	NA	source_exact_term	reviewed_source	2	2	0	1.0000	0	0	"{""ST393"":2}"	"{""USA"":2}"	NA
+ampicillin	blaTEM-176	gene	uncertain	NA	source_partial_support	reviewed_source	10	10	0	1.0000	0	0	"{""ST1302"":1,""ST131"":1,""ST1433"":2,""ST410"":1,""ST641"":3}"	"{""Netherlands"":8,""USA"":2}"	NA
+ampicillin	blaTEM-19	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST131"":1}"	"{""USA"":1}"	NA
+ampicillin	blaTEM-190	gene	uncertain	NA	source_partial_support	reviewed_source	4	3	1	0.7500	0	0	"{""ST167"":2,""ST636"":2}"	"{""NA"":1,""Pakistan"":1,""USA"":2}"	NA
+ampicillin	blaTEM-20	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST131"":1}"	"{""NA"":1}"	NA
+ampicillin	blaTEM-207	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST10"":1}"	"{""USA"":1}"	NA
+ampicillin	blaTEM-30	gene	predicts_resistance	NA	source_exact_term	reviewed_source	5	5	0	1.0000	3	0	"{""ST13700"":1,""ST167"":1,""ST48"":1,""ST538"":1,""ST73"":1}"	"{""Australia"":1,""Netherlands"":1,""USA"":3}"	NA
+ampicillin	blaTEM-31	gene	predicts_resistance	NA	family_consensus	reviewed_source	2	2	0	1.0000	2	0	"{""ST131"":1,""ST1722"":1}"	"{""Australia"":1,""USA"":1}"	NA
+ampicillin	blaTEM-32	gene	predicts_resistance	NA	source_exact_term	reviewed_source	2	2	0	1.0000	0	0	"{""ST398"":2}"	"{""Netherlands"":2}"	NA
+ampicillin	blaTEM-33	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST167"":1}"	"{""USA"":1}"	NA
+ampicillin	blaTEM-34	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST131"":1}"	"{""USA"":1}"	NA
+ampicillin	blaTEM-35	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST167"":1}"	"{""USA"":1}"	NA
+ampicillin	blaTEM-40	gene	predicts_resistance	NA	source_exact_term	reviewed_source	4	4	0	1.0000	2	0	"{""ST131"":2,""ST1859"":1,""ST95"":1}"	"{""USA"":4}"	NA
+ampicillin	blaTEM-52	gene	predicts_resistance	NA	source_exact_term	reviewed_source	12	12	0	1.0000	11	0	"{""ST10"":4,""ST115"":1,""ST1276"":1,""ST1640"":1,""ST371"":1}"	"{""Netherlands"":12}"	NA
+ampicillin	blaTEM-57	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST10"":1}"	"{""USA"":1}"	NA
+ampicillin	blaTEM-84	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST167"":1}"	"{""USA"":1}"	NA
+ampicillin	blaVEB-5	gene	uncertain	NA	source_partial_support	reviewed_source	1	1	0	1.0000	0	0	"{""ST410"":1}"	"{""NA"":1}"	NA
+aztreonam	blaCMY	gene	uncertain	NA	source_partial_support	reviewed_source	3	1	2	0.3333	0	0	"{""ST10"":1,""ST69"":1,""ST973"":1}"	"{""NA"":1,""USA"":2}"	NA
+aztreonam	blaCTX-M	gene	predicts_resistance	NA	family_consensus	reviewed_source	7	4	3	0.5714	3	3	"{""ST1193"":1,""ST131"":1,""ST167"":2,""ST38"":1,""ST457"":1}"	"{""NA"":1,""USA"":5,""Zambia"":1}"	NA
+aztreonam	blaCTX-M-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	5	3	2	0.6000	3	2	"{""ST10"":2,""ST131"":1,""ST744"":1,""ST88"":1}"	"{""USA"":5}"	NA
+aztreonam	blaCTX-M-134	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	1	"{""ST131"":1}"	"{""USA"":1}"	NA
+aztreonam	blaCTX-M-14	gene	predicts_resistance	NA	source_exact_term	reviewed_source	22	9	13	0.4091	9	13	"{""ST12736"":2,""ST131"":5,""ST38"":8,""ST405"":1,""ST69"":2}"	"{""NA"":3,""USA"":19}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+aztreonam	blaCTX-M-15	gene	predicts_resistance	NA	source_exact_term	reviewed_source	198	150	48	0.7576	149	48	"{""ST10"":8,""ST131"":100,""ST167"":9,""ST405"":11,""ST617"":9}"	"{""Brazil"":3,""Egypt"":5,""NA"":17,""USA"":139,""Zambia"":28}"	NA
+aztreonam	blaCTX-M-24	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST354"":1}"	"{""USA"":1}"	NA
+aztreonam	blaCTX-M-27	gene	predicts_resistance	NA	source_exact_term	reviewed_source	50	35	15	0.7000	35	15	"{""ST1193"":4,""ST131"":22,""ST38"":14,""ST393"":2,""ST7401"":3}"	"{""USA"":49,""United Arab Emirates"":1}"	NA
+aztreonam	blaCTX-M-55	gene	predicts_resistance	NA	source_exact_term	reviewed_source	24	22	2	0.9167	21	1	"{""ST117"":3,""ST156"":2,""ST162"":2,""ST410"":2,""ST744"":8}"	"{""NA"":6,""USA"":16,""Zambia"":2}"	NA
+aztreonam	blaCTX-M-64	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST1193"":1}"	"{""USA"":1}"	NA
+aztreonam	blaCTX-M-65	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST617"":1}"	"{""Taiwan"":1}"	NA
+aztreonam	blaKPC-3	gene	predicts_resistance	NA	source_exact_term	reviewed_source	5	5	0	1.0000	5	0	"{""ST131"":2,""ST1408"":1,""ST501"":1,""ST617"":1}"	"{""NA"":4,""USA"":1}"	NA
+aztreonam	blaKPC-4	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST131"":1}"	"{""NA"":1}"	NA
+aztreonam	blaOXA	gene	uncertain	NA	source_partial_support	reviewed_source	5	4	1	0.8000	0	0	"{""ST10"":1,""ST131"":1,""ST46"":1,""ST7358"":1,""ST8881"":1}"	"{""Greece"":1,""USA"":4}"	NA
+aztreonam	blaOXA-10	gene	predicts_resistance	NA	source_exact_term	reviewed_source	2	1	1	0.5000	0	0	"{""ST12"":1,""ST156"":1}"	"{""Greece"":1,""Zambia"":1}"	NA
+aztreonam	blaOXA-244	gene	uncertain	NA	source_partial_support	reviewed_source	2	1	1	0.5000	0	0	"{""ST167"":1,""ST656"":1}"	"{""Egypt"":1,""NA"":1}"	NA
+aztreonam	blaSHV-12	gene	predicts_resistance	NA	source_exact_term	reviewed_source	2	2	0	1.0000	2	0	"{""ST167"":1,""ST224"":1}"	"{""NA"":1,""USA"":1}"	NA
+aztreonam	blaSHV-2A	gene	uncertain	NA	source_partial_support	reviewed_source	1	1	0	1.0000	0	0	"{""ST656"":1}"	"{""Zambia"":1}"	NA
+aztreonam	blaSHV-5	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST4380"":1}"	"{""Greece"":1}"	NA
+aztreonam	blaTEM	gene	uncertain	NA	source_partial_support	reviewed_source	40	7	33	0.1750	0	0	"{""ST1193"":3,""ST131"":15,""ST167"":2,""ST617"":3,""ST69"":4}"	"{""NA"":2,""USA"":34,""Zambia"":4}"	NA
+aztreonam	blaTEM-103	gene	uncertain	NA	source_partial_support	reviewed_source	2	0	2	0.0000	0	0	"{""ST372"":2}"	"{""USA"":2}"	NA
+aztreonam	blaTEM-176	gene	uncertain	NA	source_partial_support	reviewed_source	2	1	1	0.5000	0	0	"{""ST131"":1,""ST410"":1}"	"{""USA"":2}"	NA
+aztreonam	blaTEM-19	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	1	"{""ST131"":1}"	"{""USA"":1}"	NA
+aztreonam	blaTEM-190	gene	uncertain	NA	source_partial_support	reviewed_source	1	1	0	1.0000	0	0	"{""ST636"":1}"	"{""USA"":1}"	NA
+aztreonam	blaTEM-20	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST131"":1}"	"{""NA"":1}"	NA
+aztreonam	blaTEM-31	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST131"":1}"	"{""USA"":1}"	NA
+aztreonam	blaVEB-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST12"":1}"	"{""Greece"":1}"	NA
+aztreonam	blaVEB-5	gene	uncertain	NA	source_partial_support	reviewed_source	1	1	0	1.0000	0	0	"{""ST410"":1}"	"{""NA"":1}"	NA
+cefazolin	ampC_C-42T	point_mutation	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	10	10	0	1.0000	5	0	"{""ST101"":4,""ST2014"":1,""ST58"":3,""ST88"":2}"	"{""Canada"":1,""NA"":4,""USA"":5}"	NA
+cefazolin	ampC_T-32A	point_mutation	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	48	48	0	1.0000	24	0	"{""ST12"":32,""ST127"":5,""ST131"":4,""ST2015"":3,""ST405"":1}"	"{""NA"":1,""USA"":47}"	NA
+cefazolin	blaCMY	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	5	2	3	0.4000	0	0	"{""ST10"":1,""ST1034"":1,""ST69"":1,""ST963"":1,""ST973"":1}"	"{""Canada"":1,""NA"":1,""USA"":3}"	NA
+cefazolin	blaCMY-2	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	97	94	3	0.9691	46	3	"{""ST117"":13,""ST131"":11,""ST38"":4,""ST58"":4,""ST88"":5}"	"{""Canada"":31,""NA"":9,""USA"":57}"	NA
+cefazolin	blaCMY-4	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	3	2	1	0.6667	2	0	"{""ST224"":1,""ST70"":2}"	"{""USA"":3}"	NA
+cefazolin	blaCMY-42	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	8	8	0	1.0000	2	0	"{""ST1284"":1,""ST167"":6,""ST410"":1}"	"{""NA"":7,""USA"":1}"	NA
+cefazolin	blaCMY-6	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	7	7	0	1.0000	0	0	"{""ST101"":4,""ST131"":1,""ST1809"":1,""ST5896"":1}"	"{""NA"":6,""USA"":1}"	NA
+cefazolin	blaCTX-M	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	12	12	0	1.0000	2	0	"{""ST1193"":1,""ST131"":2,""ST167"":1,""ST38"":2,""ST457"":1}"	"{""NA"":1,""USA"":11}"	NA
+cefazolin	blaCTX-M-1	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	76	73	3	0.9605	64	3	"{""ST1034"":12,""ST1252"":5,""ST1684"":6,""ST761"":14,""ST88"":6}"	"{""Canada"":64,""NA"":6,""USA"":6}"	NA
+cefazolin	blaCTX-M-134	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	1	0	"{""ST131"":1}"	"{""USA"":1}"	NA
+cefazolin	blaCTX-M-14	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	45	43	2	0.9556	20	0	"{""ST10"":3,""ST131"":6,""ST162"":5,""ST38"":17,""ST648"":2}"	"{""NA"":7,""USA"":38}"	NA
+cefazolin	blaCTX-M-15	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	321	314	7	0.9782	207	5	"{""ST10"":12,""ST1193"":13,""ST131"":155,""ST648"":13,""ST69"":12}"	"{""Canada"":3,""NA"":30,""Nigeria"":1,""USA"":287}"	NA
+cefazolin	blaCTX-M-24	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	0	0	"{""ST354"":1}"	"{""USA"":1}"	NA
+cefazolin	blaCTX-M-27	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	136	136	0	1.0000	113	0	"{""ST1193"":17,""ST131"":74,""ST38"":18,""ST457"":4,""ST69"":4}"	"{""NA"":6,""USA"":130}"	NA
+cefazolin	blaCTX-M-3	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	1	0	"{""ST12"":1}"	"{""USA"":1}"	NA
+cefazolin	blaCTX-M-32	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	1	0	"{""ST515"":1}"	"{""USA"":1}"	NA
+cefazolin	blaCTX-M-55	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	41	41	0	1.0000	17	0	"{""ST117"":3,""ST1193"":6,""ST410"":2,""ST44"":2,""ST744"":7}"	"{""NA"":6,""USA"":35}"	NA
+cefazolin	blaCTX-M-64	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	0	0	"{""ST1193"":1}"	"{""USA"":1}"	NA
+cefazolin	blaCTX-M-65	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	4	4	0	1.0000	0	0	"{""ST162"":2,""ST2179"":1,""ST617"":1}"	"{""NA"":2,""Taiwan"":1,""USA"":1}"	NA
+cefazolin	blaCTX-M-8	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	2	2	0	1.0000	2	0	"{""ST7094"":1,""ST7949"":1}"	"{""USA"":2}"	NA
+cefazolin	blaDHA-1	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	14	13	1	0.9286	3	0	"{""ST1193"":1,""ST131"":1,""ST38"":4,""ST69"":2,""ST83"":4}"	"{""NA"":2,""USA"":12}"	NA
+cefazolin	blaKPC-3	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	5	5	0	1.0000	1	0	"{""ST131"":2,""ST1408"":1,""ST501"":1,""ST617"":1}"	"{""NA"":4,""USA"":1}"	NA
+cefazolin	blaKPC-4	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	0	0	"{""ST131"":1}"	"{""NA"":1}"	NA
+cefazolin	blaLAP-2	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	0	0	"{""ST167"":1}"	"{""USA"":1}"	NA
+cefazolin	blaLAT	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	2	0	2	0.0000	0	0	"{""ST10"":1,""ST1034"":1}"	"{""Canada"":1,""USA"":1}"	NA
+cefazolin	blaNDM-1	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	8	8	0	1.0000	0	0	"{""ST101"":4,""ST131"":1,""ST167"":1,""ST1809"":1,""ST5896"":1}"	"{""NA"":7,""USA"":1}"	NA
+cefazolin	blaNDM-5	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	5	5	0	1.0000	0	0	"{""ST156"":1,""ST167"":3,""ST648"":1}"	"{""NA"":3,""USA"":2}"	NA
+cefazolin	blaNDM-6	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	0	0	"{""ST1284"":1}"	"{""NA"":1}"	NA
+cefazolin	blaNDM-7	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	2	2	0	1.0000	0	0	"{""ST167"":2}"	"{""NA"":2}"	NA
+cefazolin	blaNDM-9	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	0	0	"{""ST617"":1}"	"{""Taiwan"":1}"	NA
+cefazolin	blaOXA	gene	uncertain	NA	source_partial_support	reviewed_source	7	7	0	1.0000	0	0	"{""ST10"":1,""ST131"":4,""ST7358"":1,""ST8881"":1}"	"{""USA"":7}"	NA
+cefazolin	blaOXA-2	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	4	4	0	1.0000	0	0	"{""ST101"":4}"	"{""NA"":4}"	NA
+cefazolin	blaOXA-244	gene	uncertain	NA	source_partial_support	reviewed_source	1	1	0	1.0000	0	0	"{""ST656"":1}"	"{""NA"":1}"	NA
+cefazolin	blaSFO-1	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	3	3	0	1.0000	0	0	"{""ST1148"":1,""ST410"":1,""ST44"":1}"	"{""NA"":3}"	NA
+cefazolin	blaSHV-1	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	25	2	23	0.0800	2	23	"{""ST13706"":1,""ST13774"":1,""ST141"":1,""ST544"":2,""ST73"":20}"	"{""USA"":25}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+cefazolin	blaSHV-12	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	4	4	0	1.0000	1	0	"{""ST1193"":1,""ST167"":1,""ST224"":1,""ST69"":1}"	"{""NA"":1,""USA"":3}"	NA
+cefazolin	blaSHV-7	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	0	0	"{""ST131"":1}"	"{""USA"":1}"	NA
+cefazolin	blaTEM	gene	uncertain	NA	source_partial_support	reviewed_source	43	26	17	0.6047	0	0	"{""ST1193"":3,""ST131"":13,""ST167"":3,""ST38"":3,""ST69"":5}"	"{""Canada"":1,""NA"":3,""Nigeria"":1,""USA"":38}"	NA
+cefazolin	blaTEM-1	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	778	375	403	0.4820	118	397	"{""ST1193"":64,""ST131"":161,""ST69"":91,""ST73"":34,""ST95"":47}"	"{""Canada"":36,""NA"":47,""USA"":695}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+cefazolin	blaTEM-103	gene	uncertain	NA	source_partial_support	reviewed_source	2	0	2	0.0000	0	0	"{""ST372"":2}"	"{""USA"":2}"	NA
+cefazolin	blaTEM-12	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	0	0	"{""ST131"":1}"	"{""USA"":1}"	NA
+cefazolin	blaTEM-135	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	2	2	0	1.0000	0	0	"{""ST14887"":1,""ST90"":1}"	"{""NA"":1,""USA"":1}"	NA
+cefazolin	blaTEM-176	gene	uncertain	NA	source_partial_support	reviewed_source	2	1	1	0.5000	0	0	"{""ST131"":1,""ST410"":1}"	"{""USA"":2}"	NA
+cefazolin	blaTEM-190	gene	uncertain	NA	source_partial_support	reviewed_source	1	1	0	1.0000	0	0	"{""ST636"":1}"	"{""USA"":1}"	NA
+cefazolin	blaTEM-20	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	1	0	"{""ST131"":1}"	"{""NA"":1}"	NA
+cefazolin	blaTEM-31	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST131"":1}"	"{""USA"":1}"	NA
+cefazolin	blaVEB-5	gene	uncertain	NA	source_partial_support	reviewed_source	1	1	0	1.0000	0	0	"{""ST410"":1}"	"{""NA"":1}"	NA
+cefepime	blaCTX-M	gene	predicts_resistance	NA	family_consensus	reviewed_source	12	6	6	0.5000	3	1	"{""ST1193"":1,""ST131"":2,""ST457"":1,""ST5614"":1,""ST95"":1}"	"{""NA"":1,""USA"":10,""Zambia"":1}"	NA
+cefepime	blaCTX-M-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	128	95	33	0.7422	94	32	"{""ST10"":14,""ST1684"":6,""ST58"":8,""ST761"":10,""ST88"":16}"	"{""Canada"":32,""NA"":6,""Netherlands"":82,""USA"":8}"	NA
+cefepime	blaCTX-M-104	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	1	"{""ST10"":1}"	"{""USA"":1}"	NA
+cefepime	blaCTX-M-134	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	1	"{""ST131"":1}"	"{""USA"":1}"	NA
+cefepime	blaCTX-M-14	gene	predicts_resistance	NA	source_exact_term	reviewed_source	59	28	31	0.4746	28	29	"{""ST10"":5,""ST131"":5,""ST162"":6,""ST38"":16,""UNKNOWN"":3}"	"{""NA"":6,""Nepal"":1,""Netherlands"":8,""Thailand"":5,""USA"":39}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+cefepime	blaCTX-M-15	gene	predicts_resistance	NA	source_exact_term	reviewed_source	575	306	269	0.5322	171	148	"{""ST10"":25,""ST131"":227,""ST405"":23,""ST410"":18,""ST69"":18}"	"{""NA"":32,""Netherlands"":82,""Pakistan"":28,""USA"":380,""Zambia"":30}"	NA
+cefepime	blaCTX-M-2	gene	predicts_resistance	NA	source_exact_term	reviewed_source	5	5	0	1.0000	5	0	"{""ST1158"":2,""ST2562"":2,""ST362"":1}"	"{""Netherlands"":5}"	NA
+cefepime	blaCTX-M-220	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	1	"{""ST1193"":1}"	"{""USA"":1}"	NA
+cefepime	blaCTX-M-24	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	1	"{""ST141"":1}"	"{""USA"":1}"	NA
+cefepime	blaCTX-M-27	gene	predicts_resistance	NA	source_exact_term	reviewed_source	167	31	136	0.1856	30	133	"{""ST1193"":27,""ST131"":99,""ST38"":14,""ST457"":4,""ST69"":4}"	"{""NA"":6,""USA"":160,""Zambia"":1}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+cefepime	blaCTX-M-3	gene	predicts_resistance	NA	source_exact_term	reviewed_source	4	2	2	0.5000	1	1	"{""ST12"":1,""ST127"":1,""ST2064"":1,""ST38"":1}"	"{""Netherlands"":1,""USA"":3}"	NA
+cefepime	blaCTX-M-32	gene	predicts_resistance	NA	source_exact_term	reviewed_source	11	10	1	0.9091	10	1	"{""ST10"":1,""ST1141"":1,""ST1433"":3,""ST398"":4,""ST93"":1}"	"{""Netherlands"":10,""USA"":1}"	NA
+cefepime	blaCTX-M-55	gene	predicts_resistance	NA	source_exact_term	reviewed_source	91	50	41	0.5495	46	41	"{""ST117"":8,""ST1193"":7,""ST131"":3,""ST156"":3,""ST744"":11}"	"{""NA"":6,""Netherlands"":27,""Thailand"":8,""USA"":46,""Zambia"":2}"	NA
+cefepime	blaCTX-M-64	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST1193"":1}"	"{""USA"":1}"	NA
+cefepime	blaCTX-M-65	gene	predicts_resistance	NA	source_exact_term	reviewed_source	10	4	6	0.4000	2	6	"{""ST162"":3,""ST2179"":3,""ST58"":1,""ST5869"":1,""ST617"":1}"	"{""NA"":2,""Netherlands"":3,""Taiwan"":1,""USA"":4}"	NA
+cefepime	blaCTX-M-8	gene	predicts_resistance	NA	source_exact_term	reviewed_source	11	9	2	0.8182	8	2	"{""ST1163"":1,""ST117"":1,""ST1564"":3,""ST162"":1,""ST7094"":1}"	"{""Netherlands"":9,""USA"":2}"	NA
+cefepime	blaCTX-M-9	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST3524"":1}"	"{""Netherlands"":1}"	NA
+cefepime	blaEC-15	gene	does_not_predict	NA	expert_rule	reviewed_source	2	2	0	1.0000	0	0	"{""ST13639"":1,""ST88"":1}"	"{""Netherlands"":2}"	NA
+cefepime	blaKPC-2	gene	predicts_resistance	NA	source_exact_term	reviewed_source	4	3	1	0.7500	3	1	"{""ST8541"":4}"	"{""Brazil"":4}"	NA
+cefepime	blaKPC-3	gene	predicts_resistance	NA	source_exact_term	reviewed_source	5	4	1	0.8000	3	1	"{""ST131"":2,""ST1408"":1,""ST501"":1,""ST617"":1}"	"{""NA"":4,""USA"":1}"	NA
+cefepime	blaKPC-4	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST131"":1}"	"{""NA"":1}"	NA
+cefepime	blaNDM	gene	predicts_resistance	NA	family_consensus	reviewed_source	2	1	1	0.5000	0	0	"{""ST46"":1,""ST683"":1}"	"{""Greece"":2}"	NA
+cefepime	blaNDM-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	16	15	1	0.9375	4	0	"{""ST101"":4,""ST131"":1,""ST156"":1,""ST1809"":1,""ST90"":1}"	"{""Greece"":6,""NA"":8,""USA"":2}"	NA
+cefepime	blaNDM-5	gene	predicts_resistance	NA	source_exact_term	reviewed_source	25	11	14	0.4400	5	1	"{""ST101"":1,""ST156"":1,""ST167"":10,""ST405"":5,""ST410"":4}"	"{""Egypt"":2,""NA"":4,""Pakistan"":5,""USA"":6,""Zambia"":4}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+cefepime	blaNDM-6	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST1284"":1}"	"{""NA"":1}"	NA
+cefepime	blaNDM-7	gene	predicts_resistance	NA	source_exact_term	reviewed_source	2	2	0	1.0000	1	0	"{""ST167"":2}"	"{""NA"":2}"	NA
+cefepime	blaNDM-9	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST617"":1}"	"{""Taiwan"":1}"	NA
+cefepime	blaOXA	gene	uncertain	NA	source_partial_support	reviewed_source	8	2	6	0.2500	0	0	"{""ST10"":1,""ST131"":4,""ST167"":1,""ST46"":1,""ST8881"":1}"	"{""Greece"":1,""Pakistan"":1,""USA"":6}"	NA
+cefepime	blaOXA-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	266	137	129	0.5150	6	20	"{""ST131"":147,""ST167"":11,""ST405"":16,""ST410"":15,""ST617"":10}"	"{""Greece"":6,""NA"":23,""Pakistan"":12,""USA"":186,""Zambia"":22}"	NA
+cefepime	blaOXA-1397	gene	uncertain	NA	source_partial_support	reviewed_source	1	1	0	1.0000	0	0	"{""ST44"":1}"	"{""USA"":1}"	NA
+cefepime	blaOXA-181	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	0	"{""ST410"":1}"	"{""Nigeria"":1}"	NA
+cefepime	blaOXA-244	gene	uncertain	NA	source_partial_support	reviewed_source	3	1	2	0.3333	0	0	"{""ST167"":1,""ST656"":1,""ST69"":1}"	"{""Egypt"":1,""NA"":1,""USA"":1}"	NA
+cefepime	blaSHV	gene	uncertain	NA	source_partial_support	reviewed_source	3	3	0	1.0000	0	0	"{""ST10"":1,""ST540"":2}"	"{""USA"":3}"	NA
+cefepime	blaSHV-12	gene	predicts_resistance	NA	source_exact_term	reviewed_source	45	40	5	0.8889	36	4	"{""ST10"":3,""ST101"":4,""ST117"":6,""ST1564"":8,""ST224"":4}"	"{""NA"":1,""Netherlands"":36,""USA"":8}"	NA
+cefepime	blaSHV-2A	gene	uncertain	NA	source_partial_support	reviewed_source	2	2	0	1.0000	0	0	"{""ST1158"":1,""ST656"":1}"	"{""Netherlands"":1,""Zambia"":1}"	NA
+cefepime	blaSHV-5	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST4380"":1}"	"{""Greece"":1}"	NA
+cefepime	blaSHV-7	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	1	"{""ST131"":1}"	"{""USA"":1}"	NA
+cefepime	blaTEM	gene	uncertain	NA	source_partial_support	reviewed_source	103	40	63	0.3883	0	0	"{""ST10"":6,""ST117"":6,""ST131"":25,""ST162"":4,""ST69"":6}"	"{""NA"":3,""Netherlands"":30,""Thailand"":2,""USA"":61,""Zambia"":4}"	NA
+cefepime	blaTEM-103	gene	uncertain	NA	source_partial_support	reviewed_source	2	0	2	0.0000	0	0	"{""ST372"":2}"	"{""USA"":2}"	NA
+cefepime	blaTEM-12	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	1	"{""ST131"":1}"	"{""USA"":1}"	NA
+cefepime	blaTEM-17	gene	predicts_resistance	NA	source_exact_term	reviewed_source	2	2	0	1.0000	0	0	"{""ST393"":2}"	"{""USA"":2}"	NA
+cefepime	blaTEM-176	gene	uncertain	NA	source_partial_support	reviewed_source	10	7	3	0.7000	0	0	"{""ST1302"":1,""ST131"":1,""ST1433"":2,""ST410"":1,""ST641"":3}"	"{""Netherlands"":8,""USA"":2}"	NA
+cefepime	blaTEM-19	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	1	"{""ST131"":1}"	"{""USA"":1}"	NA
+cefepime	blaTEM-190	gene	uncertain	NA	source_partial_support	reviewed_source	3	1	2	0.3333	0	0	"{""ST167"":2,""ST636"":1}"	"{""Pakistan"":1,""USA"":2}"	NA
+cefepime	blaTEM-20	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST131"":1}"	"{""NA"":1}"	NA
+cefepime	blaTEM-31	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST131"":1}"	"{""USA"":1}"	NA
+cefepime	blaTEM-52	gene	predicts_resistance	NA	source_exact_term	reviewed_source	12	7	5	0.5833	6	5	"{""ST10"":4,""ST115"":1,""ST1276"":1,""ST1640"":1,""ST371"":1}"	"{""Netherlands"":12}"	NA
+cefepime	blaVEB-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST12"":1}"	"{""Greece"":1}"	NA
+cefepime	blaVEB-5	gene	uncertain	NA	source_partial_support	reviewed_source	1	1	0	1.0000	0	0	"{""ST410"":1}"	"{""NA"":1}"	NA
+cefepime	blaVIM-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST410"":1}"	"{""Greece"":1}"	NA
+cefoxitin	ampC_C-42T	point_mutation	predicts_resistance	NA	source_exact_term	reviewed_source	97	90	7	0.9278	83	7	"{""ST101"":4,""ST1126"":3,""ST156"":9,""ST23"":14,""ST88"":18}"	"{""Canada"":10,""NA"":4,""Netherlands"":63,""USA"":20}"	NA
+cefoxitin	ampC_G-15GG	point_mutation	uncertain	NA	expert_rule	HUMAN_REVIEW_REQUIRED	4	4	0	1.0000	0	0	"{""ST131"":1,""ST141"":1,""ST73"":2}"	"{""Netherlands"":4}"	NA
+cefoxitin	ampC_T-14TGT	point_mutation	predicts_resistance	NA	source_exact_term	reviewed_source	2	2	0	1.0000	2	0	"{""ST12"":1,""ST95"":1}"	"{""Netherlands"":2}"	NA
+cefoxitin	ampC_T-32A	point_mutation	predicts_resistance	NA	source_exact_term	reviewed_source	24	24	0	1.0000	24	0	"{""ST12"":5,""ST131"":2,""ST405"":1,""ST73"":6,""ST95"":2}"	"{""NA"":1,""Netherlands"":19,""USA"":4}"	NA
+cefoxitin	blaCMY	gene	predicts_resistance	NA	family_consensus	reviewed_source	107	101	6	0.9439	68	4	"{""ST10"":16,""ST1914"":8,""ST38"":7,""ST4243"":14,""ST770"":7}"	"{""Canada"":83,""NA"":1,""Netherlands"":2,""USA"":21}"	NA
+cefoxitin	blaCMY-141	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST4450"":1}"	"{""USA"":1}"	NA
+cefoxitin	blaCMY-145	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	0	"{""ST361"":1}"	"{""Pakistan"":1}"	NA
+cefoxitin	blaCMY-2	gene	predicts_resistance	NA	source_exact_term	reviewed_source	624	607	17	0.9728	579	14	"{""ST10"":51,""ST117"":31,""ST1914"":33,""ST38"":34,""ST4243"":43}"	"{""Canada"":367,""NA"":9,""Netherlands"":92,""Thailand"":4,""USA"":149}"	NA
+cefoxitin	blaCMY-4	gene	predicts_resistance	NA	source_exact_term	reviewed_source	2	2	0	1.0000	1	0	"{""ST224"":1,""ST648"":1}"	"{""Netherlands"":1,""USA"":1}"	NA
+cefoxitin	blaCMY-42	gene	predicts_resistance	NA	source_exact_term	reviewed_source	13	11	2	0.8462	6	1	"{""ST1284"":1,""ST167"":7,""ST410"":1,""ST617"":1,""ST7937"":1}"	"{""NA"":7,""Nepal"":1,""Netherlands"":2,""USA"":2,""Zambia"":1}"	NA
+cefoxitin	blaCMY-59	gene	predicts_resistance	NA	family_consensus	reviewed_source	1	1	0	1.0000	1	0	"{""ST93"":1}"	"{""Netherlands"":1}"	NA
+cefoxitin	blaCMY-6	gene	predicts_resistance	NA	source_exact_term	reviewed_source	8	8	0	1.0000	0	0	"{""ST101"":4,""ST131"":1,""ST1809"":1,""ST5896"":1,""ST90"":1}"	"{""NA"":6,""USA"":2}"	NA
+cefoxitin	blaCTX-M	gene	uncertain	NA	source_partial_support	reviewed_source	7	0	7	0.0000	0	0	"{""ST11895"":1,""ST1236"":1,""ST131"":1,""ST5614"":1,""ST95"":1}"	"{""USA"":7}"	NA
+cefoxitin	blaDHA-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	16	16	0	1.0000	13	0	"{""ST1193"":1,""ST34"":1,""ST38"":4,""ST648"":1,""ST69"":2}"	"{""NA"":3,""Netherlands"":7,""USA"":6}"	NA
+cefoxitin	blaEC-15	gene	does_not_predict	NA	expert_rule	reviewed_source	2	2	0	1.0000	0	0	"{""ST13639"":1,""ST88"":1}"	"{""Netherlands"":2}"	NA
+cefoxitin	blaKPC-3	gene	predicts_resistance	NA	source_exact_term	reviewed_source	2	2	0	1.0000	2	0	"{""ST131"":1,""ST617"":1}"	"{""NA"":2}"	NA
+cefoxitin	blaKPC-4	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST131"":1}"	"{""NA"":1}"	NA
+cefoxitin	blaLAT	gene	predicts_resistance	NA	family_consensus	reviewed_source	4	3	1	0.7500	0	0	"{""ST10"":1,""ST1034"":1,""ST38"":2}"	"{""Canada"":3,""Netherlands"":1}"	NA
+cefoxitin	blaNDM-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	9	9	0	1.0000	0	0	"{""ST101"":4,""ST131"":1,""ST167"":1,""ST1809"":1,""ST90"":1}"	"{""NA"":7,""USA"":2}"	NA
+cefoxitin	blaNDM-5	gene	predicts_resistance	NA	source_exact_term	reviewed_source	23	9	14	0.3913	4	9	"{""ST101"":1,""ST156"":1,""ST167"":9,""ST405"":5,""ST410"":3}"	"{""Egypt"":2,""NA"":3,""Pakistan"":5,""USA"":6,""Zambia"":4}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+cefoxitin	blaNDM-6	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST1284"":1}"	"{""NA"":1}"	NA
+cefoxitin	blaNDM-7	gene	predicts_resistance	NA	source_exact_term	reviewed_source	2	2	0	1.0000	1	0	"{""ST167"":2}"	"{""NA"":2}"	NA
+cefoxitin	blaNDM-9	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST617"":1}"	"{""Taiwan"":1}"	NA
+cefoxitin	blaOXA	gene	uncertain	NA	source_partial_support	reviewed_source	4	2	2	0.5000	0	0	"{""ST131"":2,""ST167"":1,""ST38"":1}"	"{""NA"":1,""Pakistan"":1,""USA"":2}"	NA
+cefoxitin	blaOXA-244	gene	uncertain	NA	source_partial_support	reviewed_source	2	1	1	0.5000	0	0	"{""ST167"":1,""ST656"":1}"	"{""Egypt"":1,""NA"":1}"	NA
+cefoxitin	blaSFO-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	3	1	2	0.3333	0	2	"{""ST1148"":1,""ST410"":1,""ST44"":1}"	"{""NA"":3}"	NA
+cefoxitin	blaTEM	gene	uncertain	NA	source_partial_support	reviewed_source	132	31	101	0.2348	0	0	"{""ST10"":13,""ST117"":6,""ST131"":9,""ST162"":6,""ST58"":9}"	"{""Canada"":18,""NA"":5,""Netherlands"":36,""USA"":65,""Zambia"":4}"	NA
+cefoxitin	blaTEM-176	gene	uncertain	NA	source_partial_support	reviewed_source	8	2	6	0.2500	0	0	"{""ST10"":1,""ST1302"":1,""ST1433"":2,""ST2325"":1,""ST641"":3}"	"{""Netherlands"":8}"	NA
+cefoxitin	blaTEM-190	gene	uncertain	NA	source_partial_support	reviewed_source	3	1	2	0.3333	0	0	"{""ST167"":2,""ST636"":1}"	"{""NA"":1,""Pakistan"":1,""USA"":1}"	NA
+cefoxitin	blaTEM-214	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST744"":1}"	"{""USA"":1}"	NA
+cefoxitin	blaVEB-5	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST410"":1}"	"{""NA"":1}"	NA
+ceftazidime	ampC_C-42T	point_mutation	predicts_resistance	NA	source_exact_term	reviewed_source	55	47	8	0.8545	42	8	"{""ST101"":4,""ST154"":3,""ST156"":8,""ST58"":3,""ST88"":11}"	"{""Canada"":1,""NA"":4,""Netherlands"":45,""USA"":5}"	NA
+ceftazidime	ampC_G-15GG	point_mutation	uncertain	NA	expert_rule	HUMAN_REVIEW_REQUIRED	4	0	4	0.0000	0	0	"{""ST131"":1,""ST141"":1,""ST73"":2}"	"{""Netherlands"":4}"	NA
+ceftazidime	ampC_T-14TGT	point_mutation	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	1	"{""ST12"":1}"	"{""Netherlands"":1}"	NA
+ceftazidime	ampC_T-32A	point_mutation	predicts_resistance	NA	source_exact_term	reviewed_source	61	3	58	0.0492	3	58	"{""ST12"":36,""ST127"":5,""ST131"":4,""ST2015"":3,""ST73"":6}"	"{""NA"":1,""Netherlands"":13,""USA"":47}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+ceftazidime	blaCMY	gene	predicts_resistance	NA	family_consensus	reviewed_source	12	9	3	0.7500	2	0	"{""ST1034"":1,""ST297"":1,""ST38"":2,""ST58"":1,""ST973"":1}"	"{""Canada"":1,""NA"":1,""Netherlands"":2,""USA"":8}"	NA
+ceftazidime	blaCMY-145	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	0	"{""ST361"":1}"	"{""Pakistan"":1}"	NA
+ceftazidime	blaCMY-2	gene	predicts_resistance	NA	source_exact_term	reviewed_source	180	166	14	0.9222	155	8	"{""ST117"":15,""ST131"":16,""ST38"":13,""ST429"":12,""ST69"":9}"	"{""Canada"":31,""NA"":8,""Netherlands"":84,""Thailand"":4,""USA"":49}"	NA
+ceftazidime	blaCMY-4	gene	predicts_resistance	NA	source_exact_term	reviewed_source	5	4	1	0.8000	3	1	"{""ST10"":1,""ST224"":1,""ST648"":1,""ST70"":2}"	"{""Netherlands"":1,""USA"":4}"	NA
+ceftazidime	blaCMY-42	gene	predicts_resistance	NA	source_exact_term	reviewed_source	13	11	2	0.8462	5	0	"{""ST1284"":1,""ST167"":7,""ST410"":1,""ST617"":1,""ST7937"":1}"	"{""NA"":7,""Nepal"":1,""Netherlands"":2,""USA"":2,""Zambia"":1}"	NA
+ceftazidime	blaCMY-59	gene	predicts_resistance	NA	family_consensus	reviewed_source	1	1	0	1.0000	1	0	"{""ST93"":1}"	"{""Netherlands"":1}"	NA
+ceftazidime	blaCMY-6	gene	predicts_resistance	NA	source_exact_term	reviewed_source	9	9	0	1.0000	0	0	"{""ST101"":4,""ST131"":1,""ST1809"":1,""ST648"":1,""ST90"":1}"	"{""NA"":6,""Sweden"":1,""USA"":2}"	NA
+ceftazidime	blaCTX-M	gene	predicts_resistance	NA	family_consensus	reviewed_source	9	3	6	0.3333	1	2	"{""ST11895"":1,""ST131"":1,""ST38"":2,""ST5614"":1,""ST95"":1}"	"{""NA"":1,""USA"":7,""Zambia"":1}"	NA
+ceftazidime	blaCTX-M-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	156	146	10	0.9359	145	10	"{""ST10"":12,""ST1034"":12,""ST58"":8,""ST761"":14,""ST88"":18}"	"{""Canada"":64,""Chile"":1,""NA"":5,""Netherlands"":82,""USA"":4}"	NA
+ceftazidime	blaCTX-M-104	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	1	"{""ST10"":1}"	"{""USA"":1}"	NA
+ceftazidime	blaCTX-M-14	gene	predicts_resistance	NA	source_exact_term	reviewed_source	57	19	38	0.3333	15	36	"{""ST10"":6,""ST131"":3,""ST38"":16,""ST58"":3,""UNKNOWN"":3}"	"{""NA"":5,""Nepal"":1,""Netherlands"":8,""Thailand"":6,""USA"":37}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+ceftazidime	blaCTX-M-15	gene	predicts_resistance	NA	source_exact_term	reviewed_source	485	314	171	0.6474	289	150	"{""ST10"":24,""ST131"":165,""ST405"":20,""ST648"":18,""ST69"":19}"	"{""NA"":32,""Netherlands"":82,""Pakistan"":33,""USA"":286,""Zambia"":29}"	NA
+ceftazidime	blaCTX-M-2	gene	predicts_resistance	NA	source_exact_term	reviewed_source	5	5	0	1.0000	5	0	"{""ST1158"":2,""ST2562"":2,""ST362"":1}"	"{""Netherlands"":5}"	NA
+ceftazidime	blaCTX-M-24	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	1	"{""ST354"":1}"	"{""USA"":1}"	NA
+ceftazidime	blaCTX-M-27	gene	predicts_resistance	NA	source_exact_term	reviewed_source	141	30	111	0.2128	26	108	"{""ST1193"":21,""ST131"":87,""ST38"":8,""ST69"":3,""ST73"":3}"	"{""NA"":6,""Netherlands"":1,""USA"":131,""United Arab Emirates"":1,""Zambia"":1}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+ceftazidime	blaCTX-M-3	gene	predicts_resistance	NA	source_exact_term	reviewed_source	3	1	2	0.3333	1	1	"{""ST12"":1,""ST2064"":1,""ST38"":1}"	"{""Netherlands"":1,""USA"":2}"	NA
+ceftazidime	blaCTX-M-32	gene	predicts_resistance	NA	source_exact_term	reviewed_source	11	11	0	1.0000	11	0	"{""ST10"":1,""ST1141"":1,""ST1433"":3,""ST398"":4,""ST93"":1}"	"{""Netherlands"":10,""USA"":1}"	NA
+ceftazidime	blaCTX-M-55	gene	predicts_resistance	NA	source_exact_term	reviewed_source	68	51	17	0.7500	48	17	"{""ST10"":3,""ST117"":8,""ST1193"":6,""ST156"":3,""ST744"":4}"	"{""NA"":6,""Netherlands"":27,""Thailand"":6,""USA"":24,""Zambia"":2}"	NA
+ceftazidime	blaCTX-M-64	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST1193"":1}"	"{""USA"":1}"	NA
+ceftazidime	blaCTX-M-65	gene	predicts_resistance	NA	source_exact_term	reviewed_source	8	4	4	0.5000	3	4	"{""ST162"":2,""ST2179"":2,""ST58"":1,""ST5869"":1,""ST617"":1}"	"{""NA"":2,""Netherlands"":3,""Taiwan"":1,""USA"":2}"	NA
+ceftazidime	blaCTX-M-8	gene	predicts_resistance	NA	source_exact_term	reviewed_source	11	4	7	0.3636	3	7	"{""ST1163"":1,""ST117"":1,""ST1564"":3,""ST162"":1,""ST7094"":1}"	"{""Netherlands"":9,""USA"":2}"	NA
+ceftazidime	blaCTX-M-9	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST3524"":1}"	"{""Netherlands"":1}"	NA
+ceftazidime	blaDHA-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	18	14	4	0.7778	4	3	"{""ST1193"":1,""ST34"":1,""ST38"":4,""ST69"":2,""ST83"":4}"	"{""Brazil"":1,""NA"":2,""Netherlands"":2,""USA"":13}"	NA
+ceftazidime	blaEC-15	gene	does_not_predict	NA	expert_rule	reviewed_source	2	2	0	1.0000	0	0	"{""ST13639"":1,""ST88"":1}"	"{""Netherlands"":2}"	NA
+ceftazidime	blaKPC-2	gene	predicts_resistance	NA	source_exact_term	reviewed_source	3	3	0	1.0000	3	0	"{""ST8541"":3}"	"{""Brazil"":3}"	NA
+ceftazidime	blaKPC-3	gene	predicts_resistance	NA	source_exact_term	reviewed_source	4	4	0	1.0000	4	0	"{""ST131"":2,""ST1408"":1,""ST617"":1}"	"{""NA"":4}"	NA
+ceftazidime	blaKPC-4	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST131"":1}"	"{""NA"":1}"	NA
+ceftazidime	blaLAT	gene	predicts_resistance	NA	family_consensus	reviewed_source	3	1	2	0.3333	0	0	"{""ST10"":1,""ST1034"":1,""ST38"":1}"	"{""Canada"":1,""Netherlands"":1,""USA"":1}"	NA
+ceftazidime	blaNDM-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	10	10	0	1.0000	0	0	"{""ST101"":4,""ST131"":1,""ST156"":1,""ST1809"":1,""ST90"":1}"	"{""NA"":8,""USA"":2}"	NA
+ceftazidime	blaNDM-5	gene	predicts_resistance	NA	source_exact_term	reviewed_source	23	9	14	0.3913	2	0	"{""ST101"":1,""ST156"":1,""ST167"":10,""ST405"":5,""ST410"":3}"	"{""Egypt"":2,""NA"":3,""Pakistan"":5,""USA"":5,""Zambia"":4}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+ceftazidime	blaNDM-6	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST1284"":1}"	"{""NA"":1}"	NA
+ceftazidime	blaNDM-7	gene	predicts_resistance	NA	source_exact_term	reviewed_source	3	3	0	1.0000	0	0	"{""ST167"":2,""ST648"":1}"	"{""NA"":2,""Sweden"":1}"	NA
+ceftazidime	blaNDM-9	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST617"":1}"	"{""Taiwan"":1}"	NA
+ceftazidime	blaOXA	gene	uncertain	NA	source_partial_support	reviewed_source	7	6	1	0.8571	0	0	"{""ST131"":4,""ST167"":1,""ST38"":1,""ST8881"":1}"	"{""NA"":1,""Pakistan"":1,""USA"":5}"	NA
+ceftazidime	blaOXA-2	gene	predicts_resistance	NA	source_exact_term	reviewed_source	4	4	0	1.0000	0	0	"{""ST101"":4}"	"{""NA"":4}"	NA
+ceftazidime	blaOXA-244	gene	uncertain	NA	source_partial_support	reviewed_source	2	1	1	0.5000	0	0	"{""ST167"":1,""ST656"":1}"	"{""Egypt"":1,""NA"":1}"	NA
+ceftazidime	blaSHV	gene	uncertain	NA	source_partial_support	reviewed_source	3	2	1	0.6667	0	0	"{""ST10"":1,""ST540"":2}"	"{""USA"":3}"	NA
+ceftazidime	blaSHV-12	gene	predicts_resistance	NA	source_exact_term	reviewed_source	44	42	2	0.9545	38	1	"{""ST10"":3,""ST101"":4,""ST117"":6,""ST1564"":8,""ST224"":3}"	"{""NA"":1,""Netherlands"":36,""USA"":7}"	NA
+ceftazidime	blaSHV-2A	gene	uncertain	NA	source_partial_support	reviewed_source	2	2	0	1.0000	0	0	"{""ST1158"":1,""ST656"":1}"	"{""Netherlands"":1,""Zambia"":1}"	NA
+ceftazidime	blaSHV-7	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST131"":1}"	"{""USA"":1}"	NA
+ceftazidime	blaTEM	gene	uncertain	NA	source_partial_support	reviewed_source	101	53	48	0.5248	0	0	"{""ST10"":6,""ST117"":6,""ST1193"":4,""ST131"":23,""ST69"":5}"	"{""NA"":4,""Netherlands"":36,""Thailand"":2,""USA"":51,""Zambia"":4}"	NA
+ceftazidime	blaTEM-103	gene	uncertain	NA	source_partial_support	reviewed_source	2	0	2	0.0000	0	0	"{""ST372"":2}"	"{""USA"":2}"	NA
+ceftazidime	blaTEM-12	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST131"":1}"	"{""USA"":1}"	NA
+ceftazidime	blaTEM-176	gene	uncertain	NA	source_partial_support	reviewed_source	10	9	1	0.9000	0	0	"{""ST1302"":1,""ST131"":1,""ST1433"":2,""ST410"":1,""ST641"":3}"	"{""Netherlands"":8,""USA"":2}"	NA
+ceftazidime	blaTEM-19	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	1	"{""ST131"":1}"	"{""USA"":1}"	NA
+ceftazidime	blaTEM-190	gene	uncertain	NA	source_partial_support	reviewed_source	3	2	1	0.6667	0	0	"{""ST167"":2,""ST636"":1}"	"{""Pakistan"":1,""USA"":2}"	NA
+ceftazidime	blaTEM-20	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST131"":1}"	"{""NA"":1}"	NA
+ceftazidime	blaTEM-31	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST131"":1}"	"{""USA"":1}"	NA
+ceftazidime	blaTEM-52	gene	predicts_resistance	NA	source_exact_term	reviewed_source	15	15	0	1.0000	14	0	"{""ST10"":4,""ST115"":1,""ST155"":2,""ST1844"":1,""ST371"":1}"	"{""NA"":3,""Netherlands"":12}"	NA
+ceftazidime	blaVEB-5	gene	uncertain	NA	source_partial_support	reviewed_source	1	1	0	1.0000	0	0	"{""ST410"":1}"	"{""NA"":1}"	NA
+ceftiofur	ampC_C-42T	point_mutation	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	14	4	10	0.2857	2	10	"{""ST119"":1,""ST156"":1,""ST1611"":1,""ST224"":1,""ST88"":4}"	"{""Canada"":9,""USA"":5}"	NA
+ceftiofur	blaCMY	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	70	66	4	0.9429	49	3	"{""ST10"":14,""ST117"":4,""ST1914"":7,""ST4243"":9,""ST57"":3}"	"{""Canada"":63,""USA"":7}"	NA
+ceftiofur	blaCMY-145	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	0	1	0.0000	0	0	"{""ST361"":1}"	"{""Pakistan"":1}"	NA
+ceftiofur	blaCMY-2	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	353	332	21	0.9405	315	15	"{""ST10"":41,""ST1914"":30,""ST4243"":35,""ST4253"":17,""ST69"":16}"	"{""Canada"":284,""Chile"":3,""Thailand"":4,""USA"":59,""Zambia"":1}"	NA
+ceftiofur	blaCMY-42	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	2	0	2	0.0000	0	0	"{""ST38"":1,""ST648"":1}"	"{""Nepal"":1,""Zambia"":1}"	NA
+ceftiofur	blaCTX-M	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	0	1	0.0000	0	1	"{""ST167"":1}"	"{""Zambia"":1}"	NA
+ceftiofur	blaCTX-M-1	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	9	9	0	1.0000	7	0	"{""ST10"":1,""ST117"":1,""ST155"":2,""ST38"":1,""ST5854"":1}"	"{""Canada"":8,""Chile"":1}"	NA
+ceftiofur	blaCTX-M-14	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	8	0	8	0.0000	0	7	"{""ST10"":2,""ST1286"":1,""ST131"":1,""ST1602"":1,""ST206"":1}"	"{""Nepal"":1,""Thailand"":7}"	NA
+ceftiofur	blaCTX-M-15	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	79	4	75	0.0506	4	61	"{""ST131"":20,""ST167"":8,""ST405"":6,""ST410"":5,""ST617"":7}"	"{""Chile"":2,""Egypt"":5,""Nepal"":5,""Pakistan"":33,""Zambia"":30}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+ceftiofur	blaCTX-M-27	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	5	3	2	0.6000	2	2	"{""ST131"":3,""ST155"":1,""ST641"":1}"	"{""Chile"":1,""Nepal"":1,""USA"":2,""Zambia"":1}"	NA
+ceftiofur	blaCTX-M-3	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	1	0	"{""ST1011"":1}"	"{""Chile"":1}"	NA
+ceftiofur	blaCTX-M-55	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	14	3	11	0.2143	2	11	"{""ST101"":2,""ST1011"":1,""ST162"":1,""ST165"":2,""ST457"":1}"	"{""Chile"":2,""Pakistan"":1,""Thailand"":8,""USA"":1,""Zambia"":2}"	NA
+ceftiofur	blaLAT	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	2	2	0	1.0000	0	0	"{""ST10"":1,""ST38"":1}"	"{""Canada"":2}"	NA
+ceftiofur	blaNDM-5	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	14	0	14	0.0000	0	0	"{""ST167"":6,""ST361"":1,""ST38"":1,""ST405"":3,""ST410"":3}"	"{""Egypt"":2,""Nepal"":1,""Pakistan"":5,""Thailand"":2,""Zambia"":4}"	NA
+ceftiofur	blaOXA	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST167"":1}"	"{""Pakistan"":1}"	NA
+ceftiofur	blaOXA-244	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST167"":1}"	"{""Egypt"":1}"	NA
+ceftiofur	blaSHV	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST1079"":1}"	"{""Canada"":1}"	NA
+ceftiofur	blaSHV-2	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	0	1	0.0000	0	1	"{""ST10"":1}"	"{""Canada"":1}"	NA
+ceftiofur	blaSHV-2A	gene	uncertain	NA	source_partial_support	reviewed_source	21	4	17	0.1905	0	0	"{""ST10"":4,""ST212"":2,""ST295"":1,""ST354"":2,""ST4253"":4}"	"{""Canada"":20,""Zambia"":1}"	NA
+ceftiofur	blaTEM	gene	uncertain	NA	source_partial_support	reviewed_source	26	10	16	0.3846	0	0	"{""ST101"":2,""ST1286"":2,""ST162"":2,""ST362"":2,""ST617"":3}"	"{""Canada"":17,""Chile"":2,""Thailand"":2,""USA"":1,""Zambia"":4}"	NA
+ceftiofur	blaTEM-190	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST167"":1}"	"{""Pakistan"":1}"	NA
+ceftriaxone	ampC_C-42T	point_mutation	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	42	10	32	0.2381	3	32	"{""ST101"":4,""ST23"":12,""ST3580"":5,""ST58"":3,""ST88"":6}"	"{""Canada"":9,""NA"":4,""USA"":29}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+ceftriaxone	ampC_T-32A	point_mutation	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	54	5	49	0.0926	5	49	"{""ST12"":33,""ST127"":5,""ST131"":4,""ST2015"":3,""ST73"":2}"	"{""NA"":1,""USA"":53}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+ceftriaxone	blaCMY	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	107	99	8	0.9252	68	4	"{""ST10"":17,""ST1914"":8,""ST38"":5,""ST4243"":14,""ST770"":7}"	"{""Canada"":83,""NA"":1,""USA"":23}"	NA
+ceftriaxone	blaCMY-141	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	0	0	"{""ST4450"":1}"	"{""USA"":1}"	NA
+ceftriaxone	blaCMY-145	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	0	1	0.0000	0	0	"{""ST361"":1}"	"{""Pakistan"":1}"	NA
+ceftriaxone	blaCMY-2	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	564	546	18	0.9681	511	12	"{""ST10"":49,""ST117"":30,""ST1914"":33,""ST38"":26,""ST4243"":43}"	"{""Canada"":370,""NA"":8,""Thailand"":4,""USA"":179,""Zambia"":1}"	NA
+ceftriaxone	blaCMY-4	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	4	3	1	0.7500	3	1	"{""ST10"":1,""ST224"":1,""ST70"":2}"	"{""USA"":4}"	NA
+ceftriaxone	blaCMY-42	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	11	9	2	0.8182	3	0	"{""ST1284"":1,""ST167"":7,""ST38"":1,""ST410"":1,""ST648"":1}"	"{""NA"":7,""Nepal"":1,""USA"":2,""Zambia"":1}"	NA
+ceftriaxone	blaCMY-6	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	9	9	0	1.0000	0	0	"{""ST101"":4,""ST131"":1,""ST1809"":1,""ST648"":1,""ST90"":1}"	"{""NA"":6,""Sweden"":1,""USA"":2}"	NA
+ceftriaxone	blaCTX-M	gene	predicts_resistance	NA	family_consensus	reviewed_source	12	11	1	0.9167	3	1	"{""ST1193"":1,""ST1236"":1,""ST131"":2,""ST167"":2,""ST457"":1}"	"{""USA"":11,""Zambia"":1}"	NA
+ceftriaxone	blaCTX-M-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	83	83	0	1.0000	80	0	"{""ST1034"":12,""ST1252"":5,""ST1684"":6,""ST761"":14,""ST88"":6}"	"{""Canada"":72,""USA"":11}"	NA
+ceftriaxone	blaCTX-M-104	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST10"":1}"	"{""USA"":1}"	NA
+ceftriaxone	blaCTX-M-134	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST131"":1}"	"{""USA"":1}"	NA
+ceftriaxone	blaCTX-M-14	gene	predicts_resistance	NA	source_exact_term	reviewed_source	62	52	10	0.8387	47	8	"{""ST10"":7,""ST131"":7,""ST162"":3,""ST38"":19,""UNKNOWN"":3}"	"{""NA"":4,""Nepal"":1,""Thailand"":12,""USA"":45}"	NA
+ceftriaxone	blaCTX-M-15	gene	predicts_resistance	NA	source_exact_term	reviewed_source	481	394	87	0.8191	362	72	"{""ST1193"":16,""ST131"":218,""ST405"":22,""ST648"":19,""ST69"":17}"	"{""Canada"":7,""NA"":22,""Pakistan"":33,""USA"":365,""Zambia"":30}"	NA
+ceftriaxone	blaCTX-M-24	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST354"":1}"	"{""USA"":1}"	NA
+ceftriaxone	blaCTX-M-27	gene	predicts_resistance	NA	source_exact_term	reviewed_source	174	166	8	0.9540	158	8	"{""ST1193"":22,""ST131"":102,""ST38"":19,""ST393"":3,""ST69"":4}"	"{""NA"":1,""Nepal"":1,""Thailand"":3,""USA"":168,""Zambia"":1}"	NA
+ceftriaxone	blaCTX-M-3	gene	predicts_resistance	NA	source_exact_term	reviewed_source	2	2	0	1.0000	1	0	"{""ST12"":1,""ST38"":1}"	"{""USA"":2}"	NA
+ceftriaxone	blaCTX-M-32	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST515"":1}"	"{""USA"":1}"	NA
+ceftriaxone	blaCTX-M-55	gene	predicts_resistance	NA	source_exact_term	reviewed_source	63	51	12	0.8095	46	12	"{""ST10"":3,""ST1193"":7,""ST156"":3,""ST410"":2,""ST744"":9}"	"{""NA"":2,""Pakistan"":1,""Thailand"":15,""USA"":43,""Zambia"":2}"	NA
+ceftriaxone	blaCTX-M-64	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST1193"":1}"	"{""USA"":1}"	NA
+ceftriaxone	blaCTX-M-65	gene	predicts_resistance	NA	source_exact_term	reviewed_source	3	3	0	1.0000	2	0	"{""ST1485"":1,""ST2179"":1,""ST617"":1}"	"{""Taiwan"":1,""USA"":2}"	NA
+ceftriaxone	blaCTX-M-8	gene	predicts_resistance	NA	source_exact_term	reviewed_source	2	2	0	1.0000	2	0	"{""ST7094"":1,""ST7949"":1}"	"{""USA"":2}"	NA
+ceftriaxone	blaDHA-1	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	14	11	3	0.7857	3	2	"{""ST131"":1,""ST224"":1,""ST38"":5,""ST69"":2,""ST83"":4}"	"{""Brazil"":1,""NA"":1,""USA"":12}"	NA
+ceftriaxone	blaKPC-3	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	5	5	0	1.0000	5	0	"{""ST131"":2,""ST1408"":1,""ST501"":1,""ST617"":1}"	"{""NA"":4,""USA"":1}"	NA
+ceftriaxone	blaKPC-4	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	1	0	"{""ST131"":1}"	"{""NA"":1}"	NA
+ceftriaxone	blaLAT	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	4	2	2	0.5000	0	0	"{""ST10"":2,""ST1034"":1,""ST38"":1}"	"{""Canada"":3,""USA"":1}"	NA
+ceftriaxone	blaNDM-1	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	10	10	0	1.0000	0	0	"{""ST101"":4,""ST131"":1,""ST156"":1,""ST1809"":1,""ST90"":1}"	"{""NA"":8,""USA"":2}"	NA
+ceftriaxone	blaNDM-5	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	26	12	14	0.4615	2	0	"{""ST101"":1,""ST156"":1,""ST167"":10,""ST405"":6,""ST410"":4}"	"{""India"":2,""NA"":4,""Pakistan"":5,""USA"":5,""Zambia"":4}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+ceftriaxone	blaNDM-6	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	0	0	"{""ST1284"":1}"	"{""NA"":1}"	NA
+ceftriaxone	blaNDM-7	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	3	3	0	1.0000	0	0	"{""ST167"":2,""ST648"":1}"	"{""NA"":2,""Sweden"":1}"	NA
+ceftriaxone	blaNDM-9	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	0	0	"{""ST617"":1}"	"{""Taiwan"":1}"	NA
+ceftriaxone	blaOXA	gene	uncertain	NA	source_partial_support	reviewed_source	10	9	1	0.9000	0	0	"{""ST10"":1,""ST131"":5,""ST38"":1,""ST7358"":1,""ST8881"":1}"	"{""NA"":1,""Pakistan"":1,""USA"":8}"	NA
+ceftriaxone	blaOXA-244	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST167"":1}"	"{""Egypt"":1}"	NA
+ceftriaxone	blaSHV	gene	uncertain	NA	source_partial_support	reviewed_source	4	3	1	0.7500	0	0	"{""ST10"":1,""ST1079"":1,""ST540"":2}"	"{""Canada"":1,""USA"":3}"	NA
+ceftriaxone	blaSHV-12	gene	predicts_resistance	NA	source_exact_term	reviewed_source	10	9	1	0.9000	5	0	"{""ST10"":1,""ST1193"":1,""ST167"":1,""ST224"":1,""ST617"":3}"	"{""NA"":1,""USA"":9}"	NA
+ceftriaxone	blaSHV-2	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	1	"{""ST10"":1}"	"{""Canada"":1}"	NA
+ceftriaxone	blaSHV-2A	gene	uncertain	NA	source_partial_support	reviewed_source	20	4	16	0.2000	0	0	"{""ST10"":4,""ST212"":2,""ST295"":1,""ST354"":2,""ST4253"":4}"	"{""Canada"":19,""Zambia"":1}"	NA
+ceftriaxone	blaSHV-7	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST131"":1}"	"{""USA"":1}"	NA
+ceftriaxone	blaTEM	gene	uncertain	NA	source_partial_support	reviewed_source	128	38	90	0.2969	0	0	"{""ST10"":8,""ST131"":23,""ST162"":6,""ST58"":8,""ST69"":6}"	"{""Canada"":18,""NA"":2,""Thailand"":2,""USA"":101,""Zambia"":4}"	NA
+ceftriaxone	blaTEM-103	gene	uncertain	NA	source_partial_support	reviewed_source	2	0	2	0.0000	0	0	"{""ST372"":2}"	"{""USA"":2}"	NA
+ceftriaxone	blaTEM-12	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	1	"{""ST131"":1}"	"{""USA"":1}"	NA
+ceftriaxone	blaTEM-176	gene	uncertain	NA	source_partial_support	reviewed_source	2	1	1	0.5000	0	0	"{""ST131"":1,""ST410"":1}"	"{""USA"":2}"	NA
+ceftriaxone	blaTEM-19	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	1	"{""ST131"":1}"	"{""USA"":1}"	NA
+ceftriaxone	blaTEM-190	gene	uncertain	NA	source_partial_support	reviewed_source	4	3	1	0.7500	0	0	"{""ST167"":2,""ST636"":2}"	"{""NA"":1,""Pakistan"":1,""USA"":2}"	NA
+ceftriaxone	blaTEM-20	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST131"":1}"	"{""NA"":1}"	NA
+ceftriaxone	blaTEM-207	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST10"":1}"	"{""USA"":1}"	NA
+ceftriaxone	blaTEM-214	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST744"":1}"	"{""USA"":1}"	NA
+ceftriaxone	blaTEM-31	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST131"":1}"	"{""USA"":1}"	NA
+ceftriaxone	blaVEB-5	gene	uncertain	NA	source_partial_support	reviewed_source	1	1	0	1.0000	0	0	"{""ST410"":1}"	"{""NA"":1}"	NA
+chloramphenicol	catA1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	55	52	3	0.9455	37	1	"{""ST10"":4,""ST117"":14,""ST156"":5,""ST1618"":6,""ST88"":3}"	"{""Brazil"":1,""Canada"":13,""NA"":9,""Netherlands"":13,""USA"":19}"	NA
+chloramphenicol	catA2	gene	predicts_resistance	NA	source_exact_term	reviewed_source	3	3	0	1.0000	2	0	"{""ST1236"":1,""ST1431"":1,""ST224"":1}"	"{""Chile"":1,""NA"":1,""USA"":1}"	NA
+chloramphenicol	catB3	gene	predicts_resistance	NA	source_exact_term	reviewed_source	17	11	6	0.6471	0	3	"{""ST131"":3,""ST156"":4,""ST167"":1,""ST361"":1,""ST410"":5}"	"{""Chile"":1,""China"":1,""NA"":8,""Netherlands"":4,""USA"":3}"	NA
+chloramphenicol	cmlA	gene	predicts_resistance	NA	family_consensus	reviewed_source	3	2	1	0.6667	0	0	"{""ST115"":1,""ST877"":1,""ST906"":1}"	"{""Canada"":1,""USA"":2}"	NA
+chloramphenicol	cmlA1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	104	98	6	0.9423	62	4	"{""ST10"":12,""ST101"":6,""ST224"":4,""ST48"":5,""ST772"":8}"	"{""Brazil"":2,""Canada"":32,""NA"":8,""Netherlands"":36,""USA"":25}"	NA
+chloramphenicol	cmlA6	gene	predicts_resistance	NA	family_consensus	reviewed_source	2	1	1	0.5000	1	1	"{""ST1011"":1,""ST744"":1}"	"{""Chile"":2}"	NA
+chloramphenicol	floR	gene	predicts_resistance	NA	source_exact_term	reviewed_source	258	253	5	0.9806	212	4	"{""ST10"":31,""ST101"":10,""ST117"":9,""ST4243"":10,""ST58"":14}"	"{""Canada"":45,""Chile"":3,""NA"":12,""Netherlands"":67,""USA"":127}"	NA
+ciprofloxacin	aac(6')-Ib-cr	gene	predicts_resistance	NA	source_exact_term	HUMAN_REVIEW_REQUIRED	6	6	0	1.0000	0	0	"{""ST131"":2,""ST38"":1,""ST410"":1,""ST44"":1,""ST68"":1}"	"{""NA"":2,""Netherlands"":1,""USA"":3}"	NA
+ciprofloxacin	aac(6')-Ib-cr5	gene	predicts_resistance	NA	family_consensus	HUMAN_REVIEW_REQUIRED	302	255	47	0.8444	0	3	"{""ST1193"":10,""ST131"":174,""ST405"":19,""ST410"":17,""ST617"":11}"	"{""Greece"":5,""NA"":31,""Pakistan"":12,""USA"":213,""Zambia"":22}"	NA
+ciprofloxacin	gyrA_D87G	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	17	5	12	0.2941	0	0	"{""ST2585"":1,""ST38"":2,""ST4243"":2,""ST69"":3,""ST925"":1}"	"{""Canada"":4,""Netherlands"":2,""USA"":11}"	NA
+ciprofloxacin	gyrA_D87H	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""UNKNOWN"":1}"	"{""USA"":1}"	NA
+ciprofloxacin	gyrA_D87N	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	1111	995	116	0.8956	0	0	"{""ST10"":30,""ST1193"":185,""ST131"":477,""ST405"":32,""ST744"":31}"	"{""NA"":88,""Netherlands"":30,""Pakistan"":33,""USA"":858,""Zambia"":33}"	NA
+ciprofloxacin	gyrA_D87Y	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	40	33	7	0.8250	0	0	"{""ST101"":2,""ST131"":5,""ST156"":3,""ST38"":13,""ST457"":7}"	"{""Canada"":2,""NA"":5,""Netherlands"":3,""USA"":29,""Zambia"":1}"	NA
+ciprofloxacin	gyrA_S83A	point_mutation	predicts_resistance	NA	source_exact_term	HUMAN_REVIEW_REQUIRED	15	1	14	0.0667	0	14	"{""ST155"":7,""ST38"":2,""ST401"":1,""ST678"":1,""ST69"":3}"	"{""Germany"":1,""NA"":1,""Nigeria"":1,""USA"":12}"	NA
+ciprofloxacin	gyrA_S83L	point_mutation	predicts_resistance	NA	source_exact_term	HUMAN_REVIEW_REQUIRED	1472	1112	360	0.7554	55	141	"{""ST10"":47,""ST1193"":185,""ST131"":570,""ST38"":37,""ST69"":48}"	"{""NA"":100,""Netherlands"":72,""Pakistan"":34,""USA"":1143,""Zambia"":36}"	NA
+ciprofloxacin	gyrA_S83V	point_mutation	predicts_resistance	NA	source_exact_term	HUMAN_REVIEW_REQUIRED	4	2	2	0.5000	0	1	"{""ST130"":1,""ST156"":1,""ST69"":1,""ST8131"":1}"	"{""NA"":1,""Pakistan"":1,""USA"":2}"	NA
+ciprofloxacin	parC_A56T	point_mutation	predicts_resistance	NA	source_exact_term	HUMAN_REVIEW_REQUIRED	45	33	12	0.7333	2	11	"{""ST11356"":1,""ST1244"":2,""ST206"":7,""ST744"":31,""ST9598"":1}"	"{""Canada"":4,""Germany"":1,""Netherlands"":4,""Thailand"":2,""USA"":31}"	NA
+ciprofloxacin	parC_E84A	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	3	3	0	1.0000	0	0	"{""ST156"":1,""ST162"":1,""ST405"":1}"	"{""NA"":2,""USA"":1}"	NA
+ciprofloxacin	parC_E84G	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	28	23	5	0.8214	0	0	"{""ST12736"":2,""ST156"":6,""ST1642"":2,""ST354"":4,""ST69"":3}"	"{""Germany"":1,""NA"":6,""Netherlands"":2,""Pakistan"":1,""USA"":18}"	NA
+ciprofloxacin	parC_E84K	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	4	4	0	1.0000	0	0	"{""ST10"":1,""ST156"":3}"	"{""NA"":1,""USA"":3}"	NA
+ciprofloxacin	parC_E84V	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	479	454	25	0.9478	0	0	"{""ST131"":460,""ST2279"":6,""ST8671"":2,""ST9126"":2,""UNKNOWN"":5}"	"{""Chile"":2,""NA"":25,""Pakistan"":9,""USA"":430,""Zambia"":7}"	NA
+ciprofloxacin	parC_S57T	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	98	14	84	0.1429	0	0	"{""ST106"":8,""ST393"":7,""ST501"":25,""ST69"":18,""ST720"":7}"	"{""Canada"":31,""Germany"":1,""Netherlands"":2,""Pakistan"":5,""USA"":57}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+ciprofloxacin	parC_S80I	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	1156	1034	122	0.8945	0	0	"{""ST1193"":185,""ST131"":485,""ST405"":32,""ST410"":30,""ST744"":31}"	"{""NA"":92,""Netherlands"":31,""Pakistan"":34,""USA"":892,""Zambia"":35}"	NA
+ciprofloxacin	parC_S80R	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	8	2	6	0.2500	0	0	"{""ST10"":1,""ST131"":5,""ST38"":1,""ST515"":1}"	"{""USA"":8}"	NA
+ciprofloxacin	parE_E460D	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	21	20	1	0.9524	0	0	"{""ST101"":4,""ST131"":16,""ST4450"":1}"	"{""NA"":4,""USA"":16,""Zambia"":1}"	NA
+ciprofloxacin	parE_I355T	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	101	12	89	0.1188	0	0	"{""ST2171"":8,""ST354"":8,""ST59"":10,""ST770"":34,""ST9935"":7}"	"{""Canada"":43,""NA"":1,""Netherlands"":6,""USA"":51}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+ciprofloxacin	parE_I464F	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	4	4	0	1.0000	0	0	"{""ST1177"":1,""ST189"":1,""ST38"":2}"	"{""Netherlands"":1,""USA"":3}"	NA
+ciprofloxacin	parE_I529L	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	664	459	205	0.6913	0	0	"{""ST131"":635,""ST2279"":12,""ST8671"":2,""ST9126"":2,""UNKNOWN"":5}"	"{""Germany"":2,""NA"":27,""Pakistan"":9,""USA"":611,""Zambia"":7}"	NA
+ciprofloxacin	parE_L416F	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	227	218	9	0.9604	0	0	"{""ST10"":15,""ST1193"":185,""ST156"":3,""ST162"":9,""ST393"":7}"	"{""Germany"":3,""NA"":6,""Netherlands"":2,""Pakistan"":3,""USA"":212}"	NA
+ciprofloxacin	parE_L445H	point_mutation	predicts_resistance	NA	source_exact_term	HUMAN_REVIEW_REQUIRED	4	3	1	0.7500	0	0	"{""ST131"":4}"	"{""USA"":4}"	NA
+ciprofloxacin	parE_S458A	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	255	191	64	0.7490	0	0	"{""ST167"":24,""ST405"":30,""ST410"":30,""ST617"":18,""ST648"":29}"	"{""NA"":36,""Netherlands"":15,""Pakistan"":18,""USA"":125,""Zambia"":22}"	NA
+ciprofloxacin	parE_S458T	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	21	18	3	0.8571	0	0	"{""ST44"":15,""ST448"":5,""ST8676"":1}"	"{""NA"":2,""Nepal"":1,""USA"":16,""Zambia"":2}"	NA
+ciprofloxacin	qepA	gene	predicts_resistance	NA	source_exact_term	HUMAN_REVIEW_REQUIRED	3	0	3	0.0000	0	0	"{""ST167"":2,""ST3580"":1}"	"{""USA"":1,""Zambia"":2}"	NA
+ciprofloxacin	qepA1	gene	predicts_resistance	NA	source_exact_term	HUMAN_REVIEW_REQUIRED	2	2	0	1.0000	0	0	"{""ST156"":1,""ST648"":1}"	"{""NA"":1,""USA"":1}"	NA
+ciprofloxacin	qepA4	gene	predicts_resistance	NA	source_exact_term	HUMAN_REVIEW_REQUIRED	13	7	6	0.5385	0	0	"{""ST14880"":1,""ST156"":2,""ST167"":2,""ST617"":3,""ST648"":2}"	"{""Nigeria"":2,""Pakistan"":1,""USA"":9,""Zambia"":1}"	NA
+ciprofloxacin	qepA9	gene	predicts_resistance	NA	family_consensus	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	0	0	"{""ST156"":1}"	"{""NA"":1}"	NA
+ciprofloxacin	qnrA1	gene	predicts_resistance	NA	source_exact_term	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	0	0	"{""ST131"":1}"	"{""NA"":1}"	NA
+ciprofloxacin	qnrB	gene	predicts_resistance	NA	family_consensus	HUMAN_REVIEW_REQUIRED	3	1	2	0.3333	0	2	"{""ST38"":1,""ST394"":1,""ST69"":1}"	"{""USA"":3}"	NA
+ciprofloxacin	qnrB1	gene	predicts_resistance	NA	source_exact_term	HUMAN_REVIEW_REQUIRED	3	2	1	0.6667	0	0	"{""ST1193"":1,""ST131"":1,""ST90"":1}"	"{""NA"":1,""USA"":2}"	NA
+ciprofloxacin	qnrB19	gene	predicts_resistance	NA	source_exact_term	HUMAN_REVIEW_REQUIRED	43	22	21	0.5116	17	20	"{""ST10"":9,""ST131"":2,""ST2562"":2,""ST58"":2,""ST69"":11}"	"{""NA"":1,""Netherlands"":6,""USA"":36}"	NA
+ciprofloxacin	qnrB2	gene	predicts_resistance	NA	source_exact_term	HUMAN_REVIEW_REQUIRED	3	1	2	0.3333	0	2	"{""ST131"":1,""ST399"":1,""ST48"":1}"	"{""Germany"":1,""USA"":2}"	NA
+ciprofloxacin	qnrB4	gene	predicts_resistance	NA	source_exact_term	HUMAN_REVIEW_REQUIRED	17	7	10	0.4118	0	10	"{""ST1193"":1,""ST224"":1,""ST38"":4,""ST69"":3,""ST83"":4}"	"{""Brazil"":1,""NA"":2,""USA"":14}"	NA
+ciprofloxacin	qnrB6	gene	predicts_resistance	NA	source_exact_term	HUMAN_REVIEW_REQUIRED	4	2	2	0.5000	0	2	"{""ST10"":1,""ST1431"":1,""ST1670"":1,""ST327"":1}"	"{""NA"":1,""USA"":3}"	NA
+ciprofloxacin	qnrB7	gene	predicts_resistance	NA	source_exact_term	HUMAN_REVIEW_REQUIRED	1	0	1	0.0000	0	1	"{""ST13895"":1}"	"{""USA"":1}"	NA
+ciprofloxacin	qnrS	gene	predicts_resistance	NA	family_consensus	HUMAN_REVIEW_REQUIRED	5	5	0	1.0000	4	0	"{""ST224"":3,""ST602"":1,""UNKNOWN"":1}"	"{""Netherlands"":3,""USA"":2}"	NA
+ciprofloxacin	qnrS1	gene	predicts_resistance	NA	source_exact_term	HUMAN_REVIEW_REQUIRED	215	141	74	0.6558	95	58	"{""ST10"":19,""ST131"":8,""ST46"":9,""ST58"":16,""ST69"":23}"	"{""NA"":9,""Netherlands"":79,""Pakistan"":7,""Thailand"":7,""USA"":95}"	NA
+ciprofloxacin	qnrS13	gene	predicts_resistance	NA	source_exact_term	HUMAN_REVIEW_REQUIRED	2	2	0	1.0000	0	0	"{""ST10"":1,""ST69"":1}"	"{""Netherlands"":1,""USA"":1}"	NA
+ciprofloxacin	qnrS2	gene	predicts_resistance	NA	source_exact_term	HUMAN_REVIEW_REQUIRED	5	4	1	0.8000	0	1	"{""ST10"":1,""ST2179"":3,""ST6416"":1}"	"{""Chile"":1,""Netherlands"":1,""USA"":3}"	NA
+ciprofloxacin	qnrS4	gene	predicts_resistance	NA	source_exact_term	HUMAN_REVIEW_REQUIRED	1	0	1	0.0000	0	0	"{""ST117"":1}"	"{""Nepal"":1}"	NA
+ertapenem	blaCTX-M	gene	uncertain	NA	source_partial_support	reviewed_source	14	2	12	0.1429	0	0	"{""ST1193"":1,""ST131"":2,""ST167"":2,""ST38"":2,""ST457"":1}"	"{""USA"":13,""Zambia"":1}"	NA
+ertapenem	blaEC-15	gene	does_not_predict	NA	expert_rule	reviewed_source	2	0	2	0.0000	0	0	"{""ST13639"":1,""ST88"":1}"	"{""Netherlands"":2}"	NA
+ertapenem	blaKPC-2	gene	predicts_resistance	NA	source_exact_term	reviewed_source	4	4	0	1.0000	4	0	"{""ST8541"":4}"	"{""Brazil"":4}"	NA
+ertapenem	blaKPC-3	gene	predicts_resistance	NA	source_exact_term	reviewed_source	4	4	0	1.0000	4	0	"{""ST131"":1,""ST1408"":1,""ST501"":1,""ST617"":1}"	"{""NA"":3,""USA"":1}"	NA
+ertapenem	blaNDM-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	8	8	0	1.0000	8	0	"{""ST101"":4,""ST131"":1,""ST156"":1,""ST167"":1,""ST1809"":1}"	"{""NA"":8}"	NA
+ertapenem	blaNDM-5	gene	predicts_resistance	NA	source_exact_term	reviewed_source	22	8	14	0.3636	8	14	"{""ST101"":1,""ST156"":1,""ST167"":9,""ST405"":4,""ST410"":4}"	"{""Egypt"":2,""NA"":4,""Pakistan"":5,""USA"":3,""Zambia"":4}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+ertapenem	blaNDM-6	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST1284"":1}"	"{""NA"":1}"	NA
+ertapenem	blaNDM-7	gene	predicts_resistance	NA	source_exact_term	reviewed_source	3	3	0	1.0000	3	0	"{""ST167"":2,""ST648"":1}"	"{""NA"":2,""Sweden"":1}"	NA
+ertapenem	blaNDM-9	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST617"":1}"	"{""Taiwan"":1}"	NA
+ertapenem	blaOXA	gene	uncertain	NA	source_partial_support	reviewed_source	10	1	9	0.1000	0	0	"{""ST10"":1,""ST131"":5,""ST38"":1,""ST7358"":1,""ST8881"":1}"	"{""NA"":1,""Pakistan"":1,""USA"":8}"	NA
+ertapenem	blaOXA-181	gene	predicts_resistance	NA	source_exact_term	reviewed_source	2	1	1	0.5000	1	1	"{""ST167"":1,""ST410"":1}"	"{""Nigeria"":1,""USA"":1}"	NA
+ertapenem	blaTEM-176	gene	uncertain	NA	source_partial_support	reviewed_source	10	0	10	0.0000	0	0	"{""ST1302"":1,""ST131"":1,""ST1433"":2,""ST410"":1,""ST641"":3}"	"{""Netherlands"":8,""USA"":2}"	NA
+ertapenem	blaTEM-190	gene	uncertain	NA	source_partial_support	reviewed_source	4	0	4	0.0000	0	0	"{""ST167"":2,""ST636"":2}"	"{""NA"":1,""Pakistan"":1,""USA"":2}"	NA
+ertapenem	blaVEB-5	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST410"":1}"	"{""NA"":1}"	NA
+gentamicin	aac(3)-II	gene	predicts_resistance	NA	family_consensus	reviewed_source	1	0	1	0.0000	0	0	"{""ST2325"":1}"	"{""Netherlands"":1}"	NA
+gentamicin	aac(3)-IId	gene	predicts_resistance	NA	source_exact_term	reviewed_source	296	254	42	0.8581	237	39	"{""ST1193"":16,""ST131"":111,""ST405"":9,""ST58"":13,""ST69"":10}"	"{""NA"":11,""Netherlands"":18,""Thailand"":16,""USA"":215,""Zambia"":13}"	NA
+gentamicin	aac(3)-IIe	gene	predicts_resistance	NA	source_exact_term	reviewed_source	198	175	23	0.8838	163	21	"{""ST1193"":8,""ST131"":106,""ST410"":9,""ST69"":7,""ST744"":10}"	"{""NA"":26,""Netherlands"":5,""Pakistan"":5,""USA"":146,""Zambia"":8}"	NA
+gentamicin	aac(3)-IVa	gene	predicts_resistance	NA	source_exact_term	reviewed_source	63	57	6	0.9048	49	5	"{""ST117"":6,""ST131"":7,""ST156"":2,""ST3580"":4,""ST410"":2}"	"{""Canada"":4,""NA"":1,""Netherlands"":11,""USA"":45,""Zambia"":1}"	NA
+gentamicin	aac(3)-VIa	gene	predicts_resistance	NA	source_exact_term	reviewed_source	581	569	12	0.9793	561	10	"{""ST10"":36,""ST117"":23,""ST1914"":36,""ST4243"":84,""ST770"":25}"	"{""Canada"":328,""Greece"":1,""Netherlands"":7,""USA"":245}"	NA
+gentamicin	ant(2'')-Ia	gene	predicts_resistance	NA	source_exact_term	reviewed_source	20	15	5	0.7500	10	5	"{""ST115"":2,""ST617"":1,""ST69"":2,""ST8671"":1,""ST88"":1}"	"{""Canada"":6,""Greece"":1,""NA"":1,""Netherlands"":3,""USA"":7}"	NA
+gentamicin	aph(3')-IIa	gene	uncertain	NA	source_partial_support	reviewed_source	25	2	23	0.0800	0	0	"{""ST115"":2,""ST2485"":1,""ST3580"":2,""ST38"":2,""ST501"":5}"	"{""Canada"":11,""USA"":13,""Zambia"":1}"	NA
+gentamicin	armA	gene	predicts_resistance	NA	source_exact_term	reviewed_source	11	11	0	1.0000	6	0	"{""ST10"":1,""ST131"":2,""ST14214"":1,""ST167"":1,""ST46"":1}"	"{""Ireland"":8,""NA"":3}"	NA
+gentamicin	rmtB1	gene	predicts_resistance	NA	family_consensus	reviewed_source	20	18	2	0.9000	13	2	"{""ST156"":1,""ST167"":6,""ST2851"":2,""ST405"":3,""ST8346"":2}"	"{""Greece"":1,""Ireland"":13,""NA"":1,""Pakistan"":2,""USA"":2}"	NA
+gentamicin	rmtC	gene	predicts_resistance	NA	source_exact_term	reviewed_source	7	7	0	1.0000	2	0	"{""ST101"":4,""ST131"":1,""ST5896"":1,""ST90"":1}"	"{""NA"":5,""USA"":2}"	NA
+gentamicin	rmtE	gene	predicts_resistance	NA	source_exact_term	reviewed_source	2	2	0	1.0000	2	0	"{""ST10"":1,""ST1122"":1}"	"{""USA"":2}"	NA
+imipenem	blaCTX-M	gene	uncertain	NA	source_partial_support	reviewed_source	7	1	6	0.1429	0	0	"{""ST1193"":1,""ST127"":1,""ST38"":1,""ST457"":1,""ST540"":1}"	"{""NA"":1,""USA"":5,""Zambia"":1}"	NA
+imipenem	blaEC-15	gene	does_not_predict	NA	expert_rule	reviewed_source	2	0	2	0.0000	0	0	"{""ST13639"":1,""ST88"":1}"	"{""Netherlands"":2}"	NA
+imipenem	blaKPC-2	gene	predicts_resistance	NA	source_exact_term	reviewed_source	3	1	2	0.3333	1	2	"{""ST8541"":3}"	"{""Brazil"":3}"	NA
+imipenem	blaKPC-3	gene	predicts_resistance	NA	source_exact_term	reviewed_source	4	4	0	1.0000	4	0	"{""ST131"":1,""ST1408"":1,""ST501"":1,""ST617"":1}"	"{""NA"":3,""USA"":1}"	NA
+imipenem	blaKPC-4	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST131"":1}"	"{""NA"":1}"	NA
+imipenem	blaNDM	gene	predicts_resistance	NA	family_consensus	reviewed_source	2	2	0	1.0000	0	0	"{""ST46"":1,""ST683"":1}"	"{""Greece"":2}"	NA
+imipenem	blaNDM-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	14	14	0	1.0000	13	0	"{""ST101"":4,""ST131"":1,""ST156"":1,""ST167"":1,""ST1809"":1}"	"{""Greece"":6,""NA"":8}"	NA
+imipenem	blaNDM-5	gene	predicts_resistance	NA	source_exact_term	reviewed_source	15	8	7	0.5333	7	7	"{""ST156"":1,""ST167"":7,""ST405"":1,""ST410"":3,""ST4450"":1}"	"{""China"":1,""NA"":4,""Pakistan"":4,""Thailand"":2,""USA"":2}"	NA
+imipenem	blaNDM-6	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST1284"":1}"	"{""NA"":1}"	NA
+imipenem	blaNDM-7	gene	predicts_resistance	NA	source_exact_term	reviewed_source	3	3	0	1.0000	3	0	"{""ST167"":2,""ST648"":1}"	"{""NA"":2,""Sweden"":1}"	NA
+imipenem	blaNDM-9	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST617"":1}"	"{""Taiwan"":1}"	NA
+imipenem	blaOXA	gene	uncertain	NA	source_partial_support	reviewed_source	6	1	5	0.1667	0	0	"{""ST10"":1,""ST131"":1,""ST46"":1,""ST7358"":1,""ST8881"":1}"	"{""Greece"":1,""Pakistan"":1,""USA"":4}"	NA
+imipenem	blaOXA-181	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST410"":1}"	"{""Nigeria"":1}"	NA
+imipenem	blaOXA-244	gene	uncertain	NA	source_partial_support	reviewed_source	3	1	2	0.3333	0	0	"{""ST167"":1,""ST656"":1,""ST69"":1}"	"{""Egypt"":1,""NA"":1,""USA"":1}"	NA
+imipenem	blaOXA-48	gene	predicts_resistance	NA	source_exact_term	reviewed_source	2	1	1	0.5000	0	1	"{""ST127"":1,""ST405"":1}"	"{""Portugal"":1,""USA"":1}"	NA
+imipenem	blaTEM-176	gene	uncertain	NA	source_partial_support	reviewed_source	10	0	10	0.0000	0	0	"{""ST1302"":1,""ST131"":1,""ST1433"":2,""ST410"":1,""ST641"":3}"	"{""Netherlands"":8,""USA"":2}"	NA
+imipenem	blaTEM-190	gene	uncertain	NA	source_partial_support	reviewed_source	2	0	2	0.0000	0	0	"{""ST167"":1,""ST636"":1}"	"{""Pakistan"":1,""USA"":1}"	NA
+imipenem	blaVEB-5	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST410"":1}"	"{""NA"":1}"	NA
+imipenem	blaVIM-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST410"":1}"	"{""Greece"":1}"	NA
+kanamycin	aph(3')-IIa	gene	predicts_resistance	NA	source_exact_term	reviewed_source	11	7	4	0.6364	6	4	"{""ST10"":1,""ST115"":2,""ST302"":1,""ST38"":2,""ST501"":5}"	"{""Canada"":11}"	NA
+kanamycin	aph(3')-Ia	gene	predicts_resistance	NA	source_exact_term	reviewed_source	163	161	2	0.9877	160	1	"{""ST10"":19,""ST101"":7,""ST115"":10,""ST117"":9,""ST38"":10}"	"{""Canada"":141,""NA"":11,""USA"":11}"	NA
+levofloxacin	aac(6')-Ib-cr	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	2	2	0	1.0000	0	0	"{""ST131"":2}"	"{""USA"":2}"	NA
+levofloxacin	aac(6')-Ib-cr5	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	227	219	8	0.9648	0	2	"{""ST10"":6,""ST1193"":10,""ST131"":149,""ST405"":15,""ST648"":7}"	"{""Brazil"":3,""Germany"":1,""India"":2,""NA"":13,""USA"":206}"	NA
+levofloxacin	gyrA_D87G	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	inferred_same_target	HUMAN_REVIEW_REQUIRED	9	2	7	0.2222	0	0	"{""ST13706"":1,""ST2556"":1,""ST2585"":1,""ST38"":2,""ST73"":1}"	"{""USA"":9}"	NA
+levofloxacin	gyrA_D87H	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	0	0	"{""UNKNOWN"":1}"	"{""USA"":1}"	NA
+levofloxacin	gyrA_D87N	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	inferred_same_target	HUMAN_REVIEW_REQUIRED	863	837	26	0.9699	0	0	"{""ST10"":19,""ST1193"":178,""ST131"":415,""ST405"":26,""ST648"":25}"	"{""Brazil"":4,""Germany"":6,""India"":2,""NA"":47,""USA"":801}"	NA
+levofloxacin	gyrA_D87Y	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	inferred_same_target	HUMAN_REVIEW_REQUIRED	29	26	3	0.8966	0	0	"{""ST131"":4,""ST14"":1,""ST38"":13,""ST4450"":1,""ST457"":6}"	"{""NA"":4,""USA"":25}"	NA
+levofloxacin	gyrA_S83A	point_mutation	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	13	1	12	0.0769	0	12	"{""ST155"":6,""ST38"":2,""ST401"":1,""ST678"":1,""ST69"":3}"	"{""Germany"":1,""Nigeria"":1,""USA"":11}"	NA
+levofloxacin	gyrA_S83L	point_mutation	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1100	880	220	0.8000	4	108	"{""ST10"":29,""ST1193"":178,""ST131"":486,""ST38"":31,""ST69"":43}"	"{""Brazil"":4,""Germany"":11,""India"":2,""NA"":55,""USA"":1025}"	NA
+levofloxacin	gyrA_S83V	point_mutation	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	0	1	0.0000	0	1	"{""ST69"":1}"	"{""USA"":1}"	NA
+levofloxacin	parC_A56T	point_mutation	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	19	18	1	0.9474	0	1	"{""ST206"":1,""ST744"":18}"	"{""Germany"":1,""USA"":18}"	NA
+levofloxacin	parC_E84A	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	inferred_same_target	HUMAN_REVIEW_REQUIRED	2	2	0	1.0000	0	0	"{""ST162"":1,""ST405"":1}"	"{""NA"":2}"	NA
+levofloxacin	parC_E84G	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	inferred_same_target	HUMAN_REVIEW_REQUIRED	22	18	4	0.8182	0	0	"{""ST12736"":2,""ST156"":5,""ST1642"":2,""ST354"":2,""ST69"":3}"	"{""Germany"":1,""NA"":5,""USA"":16}"	NA
+levofloxacin	parC_E84K	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	inferred_same_target	HUMAN_REVIEW_REQUIRED	2	2	0	1.0000	0	0	"{""ST156"":2}"	"{""USA"":2}"	NA
+levofloxacin	parC_E84V	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	inferred_same_target	HUMAN_REVIEW_REQUIRED	417	409	8	0.9808	0	0	"{""ST131"":400,""ST13727"":1,""ST2279"":6,""ST9126"":2,""UNKNOWN"":4}"	"{""NA"":12,""USA"":405}"	NA
+levofloxacin	parC_S57T	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	inferred_same_target	HUMAN_REVIEW_REQUIRED	29	8	21	0.2759	0	0	"{""ST106"":7,""ST131"":2,""ST38"":2,""ST393"":5,""ST501"":2}"	"{""Germany"":1,""USA"":28}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+levofloxacin	parC_S80I	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	inferred_same_target	HUMAN_REVIEW_REQUIRED	901	867	34	0.9623	0	0	"{""ST1193"":178,""ST131"":420,""ST38"":24,""ST405"":26,""ST648"":25}"	"{""Brazil"":4,""Germany"":6,""India"":2,""NA"":51,""USA"":835}"	NA
+levofloxacin	parC_S80R	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	inferred_same_target	HUMAN_REVIEW_REQUIRED	8	0	8	0.0000	0	0	"{""ST131"":6,""ST38"":1,""ST69"":1}"	"{""USA"":8}"	NA
+levofloxacin	parE_E460D	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	inferred_same_target	HUMAN_REVIEW_REQUIRED	20	20	0	1.0000	0	0	"{""ST101"":4,""ST131"":15,""ST4450"":1}"	"{""NA"":4,""USA"":16}"	NA
+levofloxacin	parE_I355T	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	inferred_same_target	HUMAN_REVIEW_REQUIRED	28	4	24	0.1429	0	0	"{""ST13750"":2,""ST1670"":4,""ST354"":3,""ST485"":2,""ST59"":10}"	"{""NA"":1,""USA"":27}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+levofloxacin	parE_I464F	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	inferred_same_target	HUMAN_REVIEW_REQUIRED	3	3	0	1.0000	0	0	"{""ST1177"":1,""ST38"":2}"	"{""USA"":3}"	NA
+levofloxacin	parE_I529L	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	inferred_same_target	HUMAN_REVIEW_REQUIRED	569	411	158	0.7223	0	0	"{""ST131"":542,""ST13725"":1,""ST2279"":12,""ST9126"":2,""UNKNOWN"":4}"	"{""Germany"":1,""NA"":12,""USA"":556}"	NA
+levofloxacin	parE_L416F	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	inferred_same_target	HUMAN_REVIEW_REQUIRED	204	201	3	0.9853	0	0	"{""ST10"":7,""ST1193"":178,""ST156"":2,""ST162"":5,""ST393"":5}"	"{""Germany"":3,""USA"":201}"	NA
+levofloxacin	parE_L445H	point_mutation	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	4	3	1	0.7500	0	0	"{""ST131"":4}"	"{""USA"":4}"	NA
+levofloxacin	parE_S458A	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	inferred_same_target	HUMAN_REVIEW_REQUIRED	151	143	8	0.9470	0	0	"{""ST167"":14,""ST38"":14,""ST405"":24,""ST410"":13,""ST648"":25}"	"{""Brazil"":4,""Germany"":2,""India"":2,""NA"":23,""USA"":119}"	NA
+levofloxacin	parE_S458T	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	inferred_same_target	HUMAN_REVIEW_REQUIRED	15	15	0	1.0000	0	0	"{""ST44"":11,""ST448"":4}"	"{""NA"":1,""USA"":14}"	NA
+levofloxacin	qepA1	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	0	0	"{""ST648"":1}"	"{""USA"":1}"	NA
+levofloxacin	qepA4	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	10	8	2	0.8000	0	0	"{""ST14880"":1,""ST167"":1,""ST405"":1,""ST443"":1,""ST617"":3}"	"{""USA"":10}"	NA
+levofloxacin	qepA9	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	0	0	"{""ST156"":1}"	"{""NA"":1}"	NA
+levofloxacin	qnrB	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	4	1	3	0.2500	0	3	"{""ST38"":1,""ST394"":1,""ST405"":1,""ST69"":1}"	"{""USA"":4}"	NA
+levofloxacin	qnrB1	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	2	2	0	1.0000	0	0	"{""ST1193"":1,""ST90"":1}"	"{""USA"":2}"	NA
+levofloxacin	qnrB19	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	21	5	16	0.2381	1	16	"{""ST10"":3,""ST131"":3,""ST394"":1,""ST44"":2,""ST69"":7}"	"{""USA"":21}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+levofloxacin	qnrB2	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	2	1	1	0.5000	0	1	"{""ST131"":1,""ST399"":1}"	"{""Germany"":1,""USA"":1}"	NA
+levofloxacin	qnrB4	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	15	5	10	0.3333	0	8	"{""ST1193"":1,""ST224"":1,""ST38"":2,""ST69"":3,""ST83"":4}"	"{""Brazil"":1,""NA"":1,""USA"":13}"	NA
+levofloxacin	qnrB6	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	2	0	2	0.0000	0	1	"{""ST10"":1,""ST1670"":1}"	"{""USA"":2}"	NA
+levofloxacin	qnrB7	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	0	1	0.0000	0	1	"{""ST13895"":1}"	"{""USA"":1}"	NA
+levofloxacin	qnrS1	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	84	44	40	0.5238	8	37	"{""ST10"":4,""ST131"":5,""ST162"":6,""ST167"":3,""ST69"":18}"	"{""Germany"":4,""NA"":10,""Nigeria"":1,""USA"":69}"	NA
+levofloxacin	qnrS13	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	0	0	"{""ST69"":1}"	"{""USA"":1}"	NA
+levofloxacin	qnrS2	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	2	2	0	1.0000	0	0	"{""ST2179"":2}"	"{""USA"":2}"	NA
+meropenem	blaCTX-M	gene	uncertain	NA	source_partial_support	reviewed_source	15	3	12	0.2000	0	0	"{""ST1236"":1,""ST131"":2,""ST167"":2,""ST38"":2,""ST457"":1}"	"{""Ireland"":2,""USA"":12,""Zambia"":1}"	NA
+meropenem	blaEC-15	gene	does_not_predict	NA	expert_rule	reviewed_source	2	0	2	0.0000	0	0	"{""ST13639"":1,""ST88"":1}"	"{""Netherlands"":2}"	NA
+meropenem	blaKPC-2	gene	predicts_resistance	NA	source_exact_term	reviewed_source	4	0	4	0.0000	0	4	"{""ST8541"":4}"	"{""Brazil"":4}"	NA
+meropenem	blaKPC-3	gene	predicts_resistance	NA	source_exact_term	reviewed_source	5	4	1	0.8000	4	1	"{""ST131"":2,""ST1408"":1,""ST501"":1,""ST617"":1}"	"{""NA"":4,""USA"":1}"	NA
+meropenem	blaKPC-4	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	1	"{""ST131"":1}"	"{""NA"":1}"	NA
+meropenem	blaNDM	gene	predicts_resistance	NA	family_consensus	reviewed_source	2	1	1	0.5000	0	0	"{""ST46"":1,""ST683"":1}"	"{""Greece"":2}"	NA
+meropenem	blaNDM-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	24	21	3	0.8750	20	3	"{""ST101"":5,""ST131"":3,""ST156"":1,""ST1809"":1,""ST90"":1}"	"{""Greece"":6,""Ireland"":8,""NA"":8,""USA"":2}"	NA
+meropenem	blaNDM-5	gene	predicts_resistance	NA	source_exact_term	reviewed_source	34	24	10	0.7059	19	10	"{""ST167"":11,""ST2851"":2,""ST405"":9,""ST410"":3,""ST8346"":2}"	"{""Ireland"":13,""NA"":3,""Pakistan"":4,""USA"":6,""Zambia"":3}"	NA
+meropenem	blaNDM-6	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST1284"":1}"	"{""NA"":1}"	NA
+meropenem	blaNDM-7	gene	predicts_resistance	NA	source_exact_term	reviewed_source	3	3	0	1.0000	3	0	"{""ST167"":2,""ST648"":1}"	"{""NA"":2,""Sweden"":1}"	NA
+meropenem	blaNDM-9	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST617"":1}"	"{""Taiwan"":1}"	NA
+meropenem	blaOXA	gene	uncertain	NA	source_partial_support	reviewed_source	11	0	11	0.0000	0	0	"{""ST10"":1,""ST131"":5,""ST46"":1,""ST7358"":1,""ST8881"":1}"	"{""Greece"":1,""NA"":1,""Pakistan"":1,""USA"":8}"	NA
+meropenem	blaOXA-181	gene	predicts_resistance	NA	source_exact_term	reviewed_source	6	5	1	0.8333	1	1	"{""ST100"":1,""ST131"":1,""ST167"":1,""ST2851"":2,""ST8346"":1}"	"{""Ireland"":4,""USA"":2}"	NA
+meropenem	blaOXA-244	gene	uncertain	NA	source_partial_support	reviewed_source	5	1	4	0.2000	0	0	"{""ST167"":1,""ST3268"":1,""ST38"":1,""ST69"":2}"	"{""Egypt"":1,""Ireland"":3,""USA"":1}"	NA
+meropenem	blaOXA-48	gene	predicts_resistance	NA	source_exact_term	reviewed_source	6	3	3	0.5000	2	3	"{""ST1011"":1,""ST127"":2,""ST38"":1,""ST405"":1,""UNKNOWN"":1}"	"{""Ireland"":2,""NA"":1,""Portugal"":2,""USA"":1}"	NA
+meropenem	blaTEM-176	gene	uncertain	NA	source_partial_support	reviewed_source	10	0	10	0.0000	0	0	"{""ST1302"":1,""ST131"":1,""ST1433"":2,""ST410"":1,""ST641"":3}"	"{""Netherlands"":8,""USA"":2}"	NA
+meropenem	blaTEM-190	gene	uncertain	NA	source_partial_support	reviewed_source	3	0	3	0.0000	0	0	"{""ST167"":2,""ST636"":1}"	"{""Pakistan"":1,""USA"":2}"	NA
+meropenem	blaTEM-214	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST744"":1}"	"{""USA"":1}"	NA
+meropenem	blaVEB-5	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST410"":1}"	"{""NA"":1}"	NA
+meropenem	blaVIM-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	2	1	1	0.5000	0	1	"{""ST117"":1,""ST410"":1}"	"{""Greece"":1,""Ireland"":1}"	NA
+nalidixic acid	gyrA_D87G	point_mutation	predicts_resistance	NA	source_exact_term	reviewed_source	7	5	2	0.7143	5	2	"{""ST3258"":1,""ST3776"":1,""ST4243"":2,""ST69"":2,""ST925"":1}"	"{""Canada"":4,""Netherlands"":2,""USA"":1}"	NA
+nalidixic acid	gyrA_D87N	point_mutation	predicts_resistance	NA	source_exact_term	reviewed_source	100	99	1	0.9900	3	0	"{""ST10"":9,""ST131"":12,""ST224"":5,""ST410"":5,""ST744"":10}"	"{""Brazil"":11,""Germany"":6,""NA"":30,""Netherlands"":30,""USA"":21}"	NA
+nalidixic acid	gyrA_D87Y	point_mutation	predicts_resistance	NA	source_exact_term	reviewed_source	16	16	0	1.0000	9	0	"{""ST101"":3,""ST209"":1,""ST336"":1,""ST4450"":1,""ST457"":5}"	"{""Canada"":4,""NA"":4,""Netherlands"":3,""USA"":5}"	NA
+nalidixic acid	gyrA_S83A	point_mutation	predicts_resistance	NA	source_exact_term	reviewed_source	4	4	0	1.0000	4	0	"{""ST155"":2,""ST2334"":1,""ST401"":1}"	"{""Germany"":1,""USA"":3}"	NA
+nalidixic acid	gyrA_S83L	point_mutation	predicts_resistance	NA	source_exact_term	reviewed_source	273	266	7	0.9744	140	4	"{""ST10"":16,""ST117"":15,""ST131"":16,""ST1914"":22,""ST752"":15}"	"{""Canada"":76,""Germany"":12,""NA"":44,""Netherlands"":72,""USA"":57}"	NA
+nalidixic acid	parC_A56T	point_mutation	predicts_resistance	NA	source_exact_term	reviewed_source	22	11	11	0.5000	0	11	"{""ST11356"":1,""ST1244"":2,""ST206"":5,""ST744"":10,""ST9598"":1}"	"{""Canada"":4,""Germany"":1,""Netherlands"":4,""USA"":13}"	NA
+nalidixic acid	parC_E84A	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	2	2	0	1.0000	0	0	"{""ST156"":1,""ST162"":1}"	"{""NA"":1,""USA"":1}"	NA
+nalidixic acid	parC_E84G	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	6	6	0	1.0000	0	0	"{""ST162"":1,""ST354"":2,""ST457"":1,""ST57"":1,""ST69"":1}"	"{""Germany"":1,""NA"":1,""Netherlands"":2,""USA"":2}"	NA
+nalidixic acid	parC_E84K	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	2	2	0	1.0000	0	0	"{""ST10"":1,""ST156"":1}"	"{""NA"":1,""USA"":1}"	NA
+nalidixic acid	parC_E84V	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	12	12	0	1.0000	0	0	"{""ST131"":12}"	"{""Brazil"":1,""NA"":11}"	NA
+nalidixic acid	parC_S57T	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	59	4	55	0.0678	0	0	"{""ST1158"":2,""ST501"":23,""ST69"":17,""ST720"":7,""UNKNOWN"":2}"	"{""Canada"":31,""Germany"":1,""NA"":1,""Netherlands"":2,""USA"":24}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+nalidixic acid	parC_S80I	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	104	103	1	0.9904	0	0	"{""ST10"":6,""ST131"":12,""ST224"":5,""ST410"":5,""ST744"":10}"	"{""Brazil"":11,""Germany"":6,""NA"":33,""Netherlands"":31,""USA"":20}"	NA
+nalidixic acid	parC_S80R	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	2	2	0	1.0000	0	0	"{""ST10"":1,""ST515"":1}"	"{""USA"":2}"	NA
+nalidixic acid	parE_E460D	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST4450"":1}"	"{""USA"":1}"	NA
+nalidixic acid	parE_I355T	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	82	15	67	0.1829	0	0	"{""ST2171"":8,""ST354"":6,""ST770"":42,""ST93"":5,""ST9935"":7}"	"{""Canada"":51,""NA"":1,""Netherlands"":6,""USA"":24}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+nalidixic acid	parE_I464F	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST189"":1}"	"{""Netherlands"":1}"	NA
+nalidixic acid	parE_I529L	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	30	16	14	0.5333	0	0	"{""ST131"":30}"	"{""Brazil"":1,""Germany"":2,""NA"":13,""USA"":14}"	NA
+nalidixic acid	parE_L416F	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	10	10	0	1.0000	0	0	"{""ST10"":6,""ST1193"":2,""ST156"":1,""ST393"":1}"	"{""Brazil"":1,""Germany"":3,""NA"":1,""Netherlands"":2,""USA"":3}"	NA
+nalidixic acid	parE_S458A	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	35	35	0	1.0000	0	0	"{""ST1196"":3,""ST224"":5,""ST410"":5,""ST457"":4,""ST4981"":4}"	"{""Brazil"":5,""Germany"":2,""NA"":10,""Netherlands"":15,""USA"":3}"	NA
+nalidixic acid	parE_S458T	point_mutation	predicts_resistance	gyrA_S83A|gyrA_S83L|gyrA_S83V|gyrA_S83W	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST448"":1}"	"{""USA"":1}"	NA
+piperacillin-tazobactam	blaCMY	gene	predicts_resistance	NA	family_consensus	reviewed_source	9	3	6	0.3333	1	2	"{""ST10"":1,""ST1034"":1,""ST297"":1,""ST69"":1,""ST973"":1}"	"{""Canada"":1,""NA"":1,""USA"":7}"	NA
+piperacillin-tazobactam	blaCMY-145	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	0	1	0.0000	0	0	"{""ST361"":1}"	"{""Pakistan"":1}"	NA
+piperacillin-tazobactam	blaCMY-2	gene	predicts_resistance	NA	source_exact_term	reviewed_source	88	15	73	0.1705	12	66	"{""ST117"":9,""ST131"":12,""ST38"":4,""ST410"":6,""ST58"":4}"	"{""Canada"":23,""NA"":6,""Thailand"":4,""USA"":52,""Zambia"":1}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+piperacillin-tazobactam	blaCMY-4	gene	predicts_resistance	NA	source_exact_term	reviewed_source	3	0	3	0.0000	0	3	"{""ST10"":1,""ST70"":2}"	"{""USA"":3}"	NA
+piperacillin-tazobactam	blaCMY-42	gene	predicts_resistance	NA	source_exact_term	reviewed_source	11	9	2	0.8182	2	1	"{""ST1284"":1,""ST167"":7,""ST38"":1,""ST410"":1,""ST648"":1}"	"{""NA"":7,""Nepal"":1,""USA"":2,""Zambia"":1}"	NA
+piperacillin-tazobactam	blaCMY-6	gene	predicts_resistance	NA	source_exact_term	reviewed_source	6	6	0	1.0000	0	0	"{""ST101"":1,""ST131"":1,""ST1809"":1,""ST648"":1,""ST90"":1}"	"{""NA"":3,""Sweden"":1,""USA"":2}"	NA
+piperacillin-tazobactam	blaCTX-M	gene	uncertain	NA	source_partial_support	reviewed_source	9	1	8	0.1111	0	0	"{""ST1193"":1,""ST131"":1,""ST38"":2,""ST5614"":1,""ST95"":1}"	"{""USA"":8,""Zambia"":1}"	NA
+piperacillin-tazobactam	blaDHA-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	15	4	11	0.2667	2	11	"{""ST1193"":1,""ST38"":5,""ST405"":1,""ST69"":2,""ST83"":4}"	"{""NA"":1,""USA"":14}"	NA
+piperacillin-tazobactam	blaKPC-3	gene	predicts_resistance	NA	source_exact_term	reviewed_source	4	4	0	1.0000	3	0	"{""ST131"":2,""ST1408"":1,""ST617"":1}"	"{""NA"":4}"	NA
+piperacillin-tazobactam	blaKPC-4	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST131"":1}"	"{""NA"":1}"	NA
+piperacillin-tazobactam	blaLAT	gene	predicts_resistance	NA	family_consensus	reviewed_source	2	0	2	0.0000	0	0	"{""ST10"":1,""ST1034"":1}"	"{""Canada"":1,""USA"":1}"	NA
+piperacillin-tazobactam	blaNDM-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	7	7	0	1.0000	1	0	"{""ST101"":1,""ST131"":1,""ST156"":1,""ST1809"":1,""ST90"":1}"	"{""NA"":5,""USA"":2}"	NA
+piperacillin-tazobactam	blaNDM-5	gene	predicts_resistance	NA	source_exact_term	reviewed_source	24	10	14	0.4167	4	5	"{""ST101"":1,""ST156"":1,""ST167"":10,""ST405"":5,""ST410"":4}"	"{""Egypt"":2,""NA"":4,""Pakistan"":5,""USA"":5,""Zambia"":4}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+piperacillin-tazobactam	blaNDM-6	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST1284"":1}"	"{""NA"":1}"	NA
+piperacillin-tazobactam	blaNDM-7	gene	predicts_resistance	NA	source_exact_term	reviewed_source	3	3	0	1.0000	1	0	"{""ST167"":2,""ST648"":1}"	"{""NA"":2,""Sweden"":1}"	NA
+piperacillin-tazobactam	blaNDM-9	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	1	0	"{""ST617"":1}"	"{""Taiwan"":1}"	NA
+piperacillin-tazobactam	blaOXA	gene	uncertain	NA	source_partial_support	reviewed_source	9	1	8	0.1111	0	0	"{""ST10"":1,""ST131"":5,""ST167"":1,""ST38"":1,""ST8881"":1}"	"{""NA"":1,""Pakistan"":1,""USA"":7}"	NA
+piperacillin-tazobactam	blaOXA-1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	207	46	161	0.2222	33	152	"{""ST131"":113,""ST167"":11,""ST405"":12,""ST410"":11,""ST617"":9}"	"{""Egypt"":3,""NA"":19,""Pakistan"":11,""USA"":147,""Zambia"":21}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+piperacillin-tazobactam	blaOXA-10	gene	predicts_resistance	NA	source_exact_term	reviewed_source	3	1	2	0.3333	1	2	"{""ST1485"":1,""ST156"":1,""UNKNOWN"":1}"	"{""USA"":2,""Zambia"":1}"	NA
+piperacillin-tazobactam	blaOXA-181	gene	predicts_resistance	NA	source_exact_term	reviewed_source	2	1	1	0.5000	1	0	"{""ST131"":1,""ST410"":1}"	"{""Nigeria"":1,""USA"":1}"	NA
+piperacillin-tazobactam	blaOXA-244	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST167"":1}"	"{""Egypt"":1}"	NA
+piperacillin-tazobactam	blaOXA-48	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST405"":1}"	"{""USA"":1}"	NA
+piperacillin-tazobactam	blaSHV	gene	uncertain	NA	source_partial_support	reviewed_source	3	2	1	0.6667	0	0	"{""ST10"":1,""ST540"":2}"	"{""USA"":3}"	NA
+piperacillin-tazobactam	blaSHV-2A	gene	uncertain	NA	source_partial_support	reviewed_source	1	1	0	1.0000	0	0	"{""ST656"":1}"	"{""Zambia"":1}"	NA
+piperacillin-tazobactam	blaTEM	gene	uncertain	NA	source_partial_support	reviewed_source	60	7	53	0.1167	0	0	"{""ST1193"":4,""ST131"":20,""ST162"":3,""ST617"":3,""ST69"":4}"	"{""Canada"":1,""NA"":3,""Thailand"":2,""USA"":50,""Zambia"":4}"	NA
+piperacillin-tazobactam	blaTEM-103	gene	uncertain	NA	source_partial_support	reviewed_source	2	0	2	0.0000	0	0	"{""ST372"":2}"	"{""USA"":2}"	NA
+piperacillin-tazobactam	blaTEM-176	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST131"":1}"	"{""USA"":1}"	NA
+piperacillin-tazobactam	blaTEM-190	gene	uncertain	NA	source_partial_support	reviewed_source	3	1	2	0.3333	0	0	"{""ST167"":2,""ST636"":1}"	"{""Pakistan"":1,""USA"":2}"	NA
+piperacillin-tazobactam	blaTEM-30	gene	predicts_resistance	NA	source_exact_term	reviewed_source	3	1	2	0.3333	1	2	"{""ST13700"":1,""ST167"":1,""ST538"":1}"	"{""USA"":3}"	NA
+piperacillin-tazobactam	blaTEM-31	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST131"":1}"	"{""USA"":1}"	NA
+piperacillin-tazobactam	blaTEM-40	gene	predicts_resistance	NA	source_exact_term	reviewed_source	2	0	2	0.0000	0	2	"{""ST1859"":1,""ST95"":1}"	"{""USA"":2}"	NA
+piperacillin-tazobactam	blaVEB-5	gene	uncertain	NA	source_partial_support	reviewed_source	1	0	1	0.0000	0	0	"{""ST410"":1}"	"{""NA"":1}"	NA
+streptomycin	aadA1	gene	predicts_resistance	NA	source_exact_term	reviewed_source	866	700	166	0.8083	428	122	"{""ST10"":71,""ST117"":40,""ST1914"":62,""ST38"":29,""ST4243"":85}"	"{""Canada"":504,""NA"":1,""USA"":361}"	NA
+streptomycin	aadA12	gene	predicts_resistance	NA	source_exact_term	reviewed_source	29	29	0	1.0000	13	0	"{""ST10"":3,""ST115"":2,""ST1286"":4,""ST675"":3,""ST752"":2}"	"{""Canada"":26,""USA"":3}"	NA
+streptomycin	aadA13	gene	predicts_resistance	NA	source_exact_term	reviewed_source	6	5	1	0.8333	0	0	"{""ST10"":1,""ST16876"":1,""ST2521"":1,""ST501"":2,""ST752"":1}"	"{""Canada"":6}"	NA
+streptomycin	aadA15	gene	predicts_resistance	NA	source_exact_term	reviewed_source	27	14	13	0.5185	0	0	"{""ST10"":3,""ST117"":2,""ST34"":1,""ST58"":1,""ST752"":2}"	"{""Canada"":12,""USA"":15}"	NA
+streptomycin	aadA16	gene	predicts_resistance	NA	source_exact_term	reviewed_source	2	2	0	1.0000	0	0	"{""ST10"":2}"	"{""Canada"":2}"	NA
+streptomycin	aadA2	gene	predicts_resistance	NA	source_exact_term	reviewed_source	139	93	46	0.6691	9	17	"{""ST10"":10,""ST362"":7,""ST38"":9,""ST641"":7,""ST772"":8}"	"{""Canada"":63,""India"":1,""USA"":75}"	NA
+streptomycin	aadA21	gene	predicts_resistance	NA	source_exact_term	reviewed_source	4	3	1	0.7500	0	0	"{""ST10"":2,""ST117"":2}"	"{""Canada"":4}"	NA
+streptomycin	aadA22	gene	predicts_resistance	NA	source_exact_term	reviewed_source	17	15	2	0.8824	4	0	"{""ST10"":4,""ST101"":2,""ST117"":2,""ST345"":1,""ST640"":1}"	"{""Canada"":10,""USA"":7}"	NA
+streptomycin	aadA3	gene	predicts_resistance	NA	source_exact_term	reviewed_source	5	5	0	1.0000	0	0	"{""ST117"":1,""ST33"":1,""ST48"":1,""ST540"":1,""UNKNOWN"":1}"	"{""Canada"":1,""USA"":4}"	NA
+streptomycin	aadA5	gene	predicts_resistance	NA	source_exact_term	reviewed_source	128	68	60	0.5312	2	53	"{""ST1034"":12,""ST115"":7,""ST131"":9,""ST761"":14,""ST88"":6}"	"{""Canada"":81,""India"":2,""USA"":45}"	NA
+streptomycin	aadA6	gene	predicts_resistance	NA	source_exact_term	reviewed_source	43	42	1	0.9767	0	0	"{""ST10"":4,""ST101"":4,""ST2562"":3,""ST316"":3,""ST362"":7}"	"{""Canada"":2,""USA"":41}"	NA
+streptomycin	aadA7	gene	predicts_resistance	NA	source_exact_term	reviewed_source	7	4	3	0.5714	0	3	"{""ST162"":2,""ST4980"":1,""ST57"":3,""ST6415"":1}"	"{""Canada"":6,""USA"":1}"	NA
+streptomycin	aadA8	gene	predicts_resistance	NA	source_exact_term	reviewed_source	5	5	0	1.0000	0	0	"{""ST117"":1,""ST33"":1,""ST4243"":1,""ST48"":1,""ST540"":1}"	"{""Canada"":2,""USA"":3}"	NA
+streptomycin	ant(3'')-Ia	gene	predicts_resistance	NA	source_exact_term	reviewed_source	2	1	1	0.5000	0	0	"{""ST10624"":1,""ST1115"":1}"	"{""USA"":2}"	NA
+streptomycin	aph(3'')-Ib	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1030	957	73	0.9291	39	10	"{""ST10"":110,""ST101"":31,""ST117"":52,""ST3580"":30,""ST58"":39}"	"{""Canada"":444,""India"":1,""NA"":1,""USA"":584}"	NA
+streptomycin	aph(6)-Ic	gene	predicts_resistance	NA	source_exact_term	reviewed_source	21	11	10	0.5238	0	6	"{""ST115"":2,""ST2485"":1,""ST3580"":2,""ST38"":2,""ST501"":4}"	"{""Canada"":10,""USA"":11}"	NA
+streptomycin	aph(6)-Id	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1020	945	75	0.9265	0	2	"{""ST10"":110,""ST101"":31,""ST117"":51,""ST38"":28,""ST58"":39}"	"{""Canada"":444,""India"":1,""NA"":1,""USA"":574}"	NA
+streptomycin	rmtE	gene	predicts_resistance	NA	source_exact_term	reviewed_source	2	2	0	1.0000	0	0	"{""ST10"":1,""ST1122"":1}"	"{""USA"":2}"	NA
+sulfisoxazole	folP_F28L	point_mutation	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	18	18	0	1.0000	0	0	"{""ST115"":11,""ST7284"":7}"	"{""Canada"":16,""USA"":2}"	NA
+sulfisoxazole	folP_P64S	point_mutation	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1	1	0	1.0000	1	0	"{""ST10"":1}"	"{""Canada"":1}"	NA
+sulfisoxazole	sul1	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	711	702	9	0.9873	314	7	"{""ST10"":52,""ST117"":37,""ST1914"":47,""ST4243"":84,""ST770"":25}"	"{""Canada"":438,""USA"":273}"	NA
+sulfisoxazole	sul2	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	1063	1054	9	0.9915	649	6	"{""ST10"":80,""ST117"":48,""ST1914"":87,""ST3580"":49,""ST4243"":87}"	"{""Canada"":584,""USA"":479}"	NA
+sulfisoxazole	sul3	gene	predicts_resistance	NA	inferred_same_target	HUMAN_REVIEW_REQUIRED	73	71	2	0.9726	55	2	"{""ST10"":8,""ST117"":2,""ST48"":4,""ST772"":8,""ST93"":2}"	"{""Canada"":41,""USA"":32}"	NA
+tetracycline	tet(A)	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1783	1767	16	0.9910	1517	12	"{""ST10"":129,""ST117"":59,""ST131"":237,""ST58"":68,""ST69"":62}"	"{""Brazil"":5,""Canada"":349,""NA"":63,""Netherlands"":163,""USA"":1200}"	NA
+tetracycline	tet(B)	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1310	1293	17	0.9870	1129	12	"{""ST10"":110,""ST1193"":44,""ST3580"":46,""ST58"":43,""ST69"":50}"	"{""Brazil"":2,""Canada"":294,""NA"":25,""Netherlands"":46,""USA"":940}"	NA
+tetracycline	tet(C)	gene	predicts_resistance	NA	source_exact_term	reviewed_source	39	29	10	0.7436	18	10	"{""ST155"":2,""ST316"":3,""ST399"":2,""ST4253"":6,""ST4995"":2}"	"{""Canada"":9,""Netherlands"":1,""USA"":29}"	NA
+tetracycline	tet(D)	gene	predicts_resistance	NA	source_exact_term	reviewed_source	29	28	1	0.9655	26	1	"{""ST10"":1,""ST12"":1,""ST38"":16,""ST648"":1,""ST73"":5}"	"{""USA"":29}"	NA
+tetracycline	tet(E)	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST11536"":1}"	"{""USA"":1}"	NA
+tetracycline	tet(H)	gene	predicts_resistance	NA	source_exact_term	reviewed_source	2	2	0	1.0000	2	0	"{""ST192"":2}"	"{""USA"":2}"	NA
+tetracycline	tet(M)	gene	predicts_resistance	NA	source_exact_term	reviewed_source	128	119	9	0.9297	0	8	"{""ST10"":15,""ST2325"":7,""ST362"":7,""ST48"":4,""ST641"":5}"	"{""Brazil"":2,""Canada"":14,""NA"":2,""Netherlands"":20,""USA"":90}"	NA
+tetracycline	tet(X5)	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST1722"":1}"	"{""Netherlands"":1}"	NA
+tobramycin	aac(3)-IId	gene	predicts_resistance	NA	source_exact_term	reviewed_source	95	61	34	0.6421	47	21	"{""ST1193"":20,""ST131"":34,""ST405"":8,""ST410"":3,""ST617"":4}"	"{""Egypt"":2,""India"":2,""NA"":6,""USA"":70,""Zambia"":13}"	NA
+tobramycin	aac(3)-IIe	gene	predicts_resistance	NA	source_exact_term	reviewed_source	134	116	18	0.8657	10	5	"{""ST1193"":5,""ST131"":78,""ST2279"":5,""ST405"":4,""ST410"":7}"	"{""Egypt"":1,""NA"":12,""Nigeria"":1,""USA"":112,""Zambia"":8}"	NA
+tobramycin	aac(3)-IVa	gene	predicts_resistance	NA	source_exact_term	reviewed_source	4	3	1	0.7500	3	0	"{""ST10"":1,""ST1485"":1,""ST156"":1,""ST167"":1}"	"{""USA"":3,""Zambia"":1}"	NA
+tobramycin	aac(3)-VIa	gene	predicts_resistance	NA	source_exact_term	reviewed_source	5	0	5	0.0000	0	5	"{""ST10"":1,""ST428"":1,""ST429"":2,""ST8578"":1}"	"{""USA"":5}"	NA
+tobramycin	aac(6')-Ib	gene	predicts_resistance	NA	source_exact_term	reviewed_source	4	4	0	1.0000	0	0	"{""ST101"":1,""ST1284"":1,""ST167"":1,""ST68"":1}"	"{""NA"":4}"	NA
+tobramycin	aac(6')-Ib-cr	gene	predicts_resistance	NA	source_exact_term	reviewed_source	4	1	3	0.2500	0	1	"{""ST131"":2,""ST38"":1,""ST68"":1}"	"{""NA"":1,""USA"":3}"	NA
+tobramycin	aac(6')-Ib-cr5	gene	predicts_resistance	NA	family_consensus	reviewed_source	205	170	35	0.8293	55	12	"{""ST131"":122,""ST405"":17,""ST410"":8,""ST617"":8,""ST648"":7}"	"{""Egypt"":3,""India"":2,""NA"":14,""USA"":161,""Zambia"":22}"	NA
+tobramycin	aac(6')-Ib3	gene	predicts_resistance	NA	source_exact_term	reviewed_source	10	10	0	1.0000	2	0	"{""ST101"":4,""ST131"":1,""ST1809"":1,""ST405"":1,""ST410"":1}"	"{""NA"":8,""USA"":2}"	NA
+tobramycin	ant(2'')-Ia	gene	predicts_resistance	NA	source_exact_term	reviewed_source	6	5	1	0.8333	2	1	"{""ST1938"":1,""ST69"":2,""ST8671"":2,""ST88"":1}"	"{""USA"":6}"	NA
+tobramycin	armA	gene	predicts_resistance	NA	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST167"":1}"	"{""NA"":1}"	NA
+tobramycin	rmtB1	gene	predicts_resistance	NA	family_consensus	reviewed_source	4	3	1	0.7500	0	0	"{""ST101"":1,""ST167"":2,""ST405"":1}"	"{""India"":1,""Pakistan"":1,""USA"":2}"	NA
+tobramycin	rmtC	gene	predicts_resistance	NA	source_exact_term	reviewed_source	7	7	0	1.0000	0	0	"{""ST101"":4,""ST131"":1,""ST5896"":1,""ST90"":1}"	"{""NA"":5,""USA"":2}"	NA
+trimethoprim-sulfamethoxazole	dfrA1	gene	component	trimethoprim	source_exact_term	reviewed_source	275	225	50	0.8182	0	0	"{""ST10"":29,""ST1914"":34,""ST355"":15,""ST38"":15,""ST73"":20}"	"{""Canada"":93,""NA"":10,""Pakistan"":4,""USA"":163,""Zambia"":2}"	NA
+trimethoprim-sulfamethoxazole	dfrA12	gene	component	trimethoprim	source_exact_term	reviewed_source	231	187	44	0.8095	0	0	"{""ST10"":9,""ST131"":45,""ST167"":10,""ST404"":11,""ST772"":8}"	"{""Canada"":32,""NA"":11,""Thailand"":13,""USA"":150,""Zambia"":8}"	NA
+trimethoprim-sulfamethoxazole	dfrA14	gene	component	trimethoprim	source_exact_term	reviewed_source	162	143	19	0.8827	0	0	"{""ST10"":9,""ST131"":15,""ST57"":12,""ST69"":22,""ST744"":9}"	"{""Canada"":29,""NA"":9,""Nepal"":3,""Pakistan"":6,""USA"":111}"	NA
+trimethoprim-sulfamethoxazole	dfrA15	gene	component	trimethoprim	source_exact_term	reviewed_source	28	28	0	1.0000	0	0	"{""ST10"":5,""ST117"":2,""ST328"":2,""ST501"":4,""ST57"":2}"	"{""Canada"":28}"	NA
+trimethoprim-sulfamethoxazole	dfrA16	gene	component	trimethoprim	source_exact_term	reviewed_source	24	10	14	0.4167	0	0	"{""ST16870"":4,""ST3525"":2,""ST38"":8,""ST43"":1,""ST975"":1}"	"{""Canada"":19,""USA"":5}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+trimethoprim-sulfamethoxazole	dfrA17	gene	component	trimethoprim	source_exact_term	reviewed_source	725	645	80	0.8897	0	0	"{""ST1193"":88,""ST131"":270,""ST405"":19,""ST648"":17,""ST69"":54}"	"{""Canada"":81,""NA"":27,""Pakistan"":12,""USA"":553,""Zambia"":26}"	NA
+trimethoprim-sulfamethoxazole	dfrA19	gene	component	trimethoprim	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST998"":1}"	"{""USA"":1}"	NA
+trimethoprim-sulfamethoxazole	dfrA23	gene	component	trimethoprim	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST361"":1}"	"{""NA"":1}"	NA
+trimethoprim-sulfamethoxazole	dfrA25	gene	component	trimethoprim	source_exact_term	reviewed_source	2	2	0	1.0000	0	0	"{""ST131"":2}"	"{""USA"":2}"	NA
+trimethoprim-sulfamethoxazole	dfrA27	gene	component	trimethoprim	source_exact_term	reviewed_source	4	4	0	1.0000	0	0	"{""ST101"":1,""ST1431"":1,""ST156"":1,""ST1670"":1}"	"{""NA"":2,""USA"":2}"	NA
+trimethoprim-sulfamethoxazole	dfrA29	gene	component	trimethoprim	source_exact_term	reviewed_source	4	4	0	1.0000	0	0	"{""ST101"":4}"	"{""NA"":4}"	NA
+trimethoprim-sulfamethoxazole	dfrA34	gene	component	trimethoprim	source_exact_term	reviewed_source	2	2	0	1.0000	0	0	"{""ST10"":1,""ST448"":1}"	"{""USA"":2}"	NA
+trimethoprim-sulfamethoxazole	dfrA5	gene	component	trimethoprim	source_exact_term	reviewed_source	63	51	12	0.8095	0	0	"{""ST131"":4,""ST38"":4,""ST58"":15,""ST88"":7,""ST95"":9}"	"{""Canada"":10,""NA"":2,""USA"":51}"	NA
+trimethoprim-sulfamethoxazole	dfrA7	gene	component	trimethoprim	source_exact_term	reviewed_source	50	30	20	0.6000	0	0	"{""ST10"":4,""ST609"":6,""ST68"":2,""ST69"":13,""ST73"":18}"	"{""Canada"":1,""NA"":1,""Pakistan"":10,""USA"":38}"	NA
+trimethoprim-sulfamethoxazole	dfrA8	gene	component	trimethoprim	source_exact_term	reviewed_source	32	27	5	0.8438	0	0	"{""ST2279"":2,""ST38"":2,""ST405"":4,""ST410"":2,""ST69"":4}"	"{""Brazil"":2,""Chile"":1,""NA"":4,""USA"":25}"	NA
+trimethoprim-sulfamethoxazole	dfrB4	gene	component	trimethoprim	source_exact_term	reviewed_source	1	1	0	1.0000	0	0	"{""ST38"":1}"	"{""USA"":1}"	NA
+trimethoprim-sulfamethoxazole	folP_F28L	point_mutation	component	sulfonamide	source_exact_term	reviewed_source	18	2	16	0.1111	0	0	"{""ST115"":11,""ST7284"":7}"	"{""Canada"":16,""USA"":2}"	NA
+trimethoprim-sulfamethoxazole	folP_P64S	point_mutation	component	sulfonamide	source_exact_term	reviewed_source	3	0	3	0.0000	0	0	"{""ST10"":1,""ST73"":1,""UNKNOWN"":1}"	"{""Canada"":1,""USA"":2}"	NA
+trimethoprim-sulfamethoxazole	sul1	gene	component	sulfonamide	source_exact_term	reviewed_source	1553	876	677	0.5641	0	0	"{""ST10"":66,""ST131"":320,""ST38"":48,""ST4243"":84,""ST69"":72}"	"{""Canada"":438,""NA"":47,""Pakistan"":26,""USA"":979,""Zambia"":33}"	NA
+trimethoprim-sulfamethoxazole	sul2	gene	component	sulfonamide	source_exact_term	reviewed_source	1916	892	1024	0.4656	0	0	"{""ST10"":110,""ST1193"":98,""ST131"":240,""ST1914"":87,""ST69"":101}"	"{""Canada"":586,""NA"":42,""Pakistan"":32,""USA"":1195,""Zambia"":26}"	HUMAN_REVIEW_REQUIRED: low R fraction among carriers
+trimethoprim-sulfamethoxazole	sul3	gene	component	sulfonamide	source_exact_term	reviewed_source	145	96	49	0.6621	0	0	"{""ST10"":14,""ST101"":5,""ST224"":5,""ST744"":12,""ST772"":8}"	"{""Brazil"":3,""Canada"":42,""NA"":6,""Thailand"":13,""USA"":77}"	NA

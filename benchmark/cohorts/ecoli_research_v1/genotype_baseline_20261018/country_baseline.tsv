@@ -1,0 +1,446 @@
+dimension	stratum	antimicrobial	study_tier	N	R	S	determinant_positive	determinant_negative	R_DET_POS	R_DET_NEG	S_DET_POS	S_DET_NEG	r_det_neg_fraction	top_lineage	top_lineage_fraction	top_project	top_project_fraction	top_country	top_country_fraction	support_status	flags	sensitivity	specificity	PPV	NPV	balanced_accuracy	F1	MCC
+country	Australia	amoxicillin-clavulanic acid	primary	83	4	79	3	80	3	1	0	79	0.2500	UNKNOWN	0.2048	PRJNA1279687	1.0000	Australia	1.0000	below_support: R 4, S 79; need R>=10 and S>=10	extreme_R_S_imbalance;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Australia	ampicillin	primary	89	46	43	44	45	44	2	0	43	0.0435	UNKNOWN	0.2135	PRJNA1279687	1.0000	Australia	1.0000	reported	one_project_majority	0.9565	1.0000	1.0000	0.9556	0.9783	0.9778	0.9560
+country	Brazil	amikacin	secondary	13	4	9	3	10	2	2	1	8	0.5000	ST10	0.2308	PRJNA511007	0.6923	Brazil	1.0000	below_support: R 4, S 9; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Brazil	ampicillin	primary	9	8	1	8	1	8	0	0	1	0.0000	ST2179	0.2222	PRJNA511007	1.0000	Brazil	1.0000	below_support: R 8, S 1; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Brazil	aztreonam	secondary	4	4	0	3	1	3	1	0	0	0.2500	ST10	0.7500	PRJNA701970	1.0000	Brazil	1.0000	below_support: R 4, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Brazil	cefepime	primary	18	10	8	8	10	7	3	1	7	0.3000	ST8541	0.2222	PRJNA511007	0.5556	Brazil	1.0000	below_support: R 10, S 8; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Brazil	cefoxitin	primary	1	0	1	0	1	0	0	0	1	NA	ST10	1.0000	PRJNA322664	1.0000	Brazil	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Brazil	ceftazidime	primary	7	7	0	7	0	7	0	0	0	0.0000	ST10	0.4286	PRJNA701970	0.5714	Brazil	1.0000	below_support: R 7, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Brazil	ceftriaxone	primary	4	4	0	4	0	4	0	0	0	0.0000	ST10	0.7500	PRJNA701970	1.0000	Brazil	1.0000	below_support: R 4, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Brazil	chloramphenicol	primary	8	4	4	4	4	3	1	1	3	0.2500	ST224	0.2500	PRJNA511007	1.0000	Brazil	1.0000	below_support: R 4, S 4; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Brazil	ciprofloxacin	primary	20	16	4	16	4	16	0	0	4	0.0000	ST10	0.2000	PRJNA511007	0.5500	Brazil	1.0000	below_support: R 16, S 4; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Brazil	ertapenem	secondary	9	4	5	4	5	4	0	0	5	0.0000	ST10	0.4444	PRJNA701970	0.4444	Brazil	1.0000	below_support: R 4, S 5; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Brazil	gentamicin	primary	18	8	10	0	18	0	8	0	10	1.0000	ST10	0.2222	PRJNA511007	0.5000	Brazil	1.0000	below_support: R 8, S 10; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Brazil	imipenem	secondary	7	1	6	3	4	1	0	2	4	0.0000	ST10	0.4286	PRJNA701970	0.5714	Brazil	1.0000	below_support: R 1, S 6; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Brazil	kanamycin	secondary	3	1	2	0	3	0	1	0	2	1.0000	ST224	0.6667	PRJNA511007	1.0000	Brazil	1.0000	below_support: R 1, S 2; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Brazil	levofloxacin	primary	4	4	0	4	0	4	0	0	0	0.0000	ST10	0.7500	PRJNA701970	1.0000	Brazil	1.0000	below_support: R 4, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Brazil	meropenem	secondary	8	0	8	4	4	0	0	4	4	NA	ST8541	0.5000	PRJNA701970	0.5000	Brazil	1.0000	below_support: R 0, S 8; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Brazil	nalidixic acid	primary	11	11	0	11	0	11	0	0	0	0.0000	ST2179	0.2727	PRJNA511007	1.0000	Brazil	1.0000	below_support: R 11, S 0; need R>=10 and S>=10	only_R;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Brazil	tetracycline	primary	9	6	3	6	3	5	1	1	2	0.1667	ST224	0.2222	PRJNA511007	0.8889	Brazil	1.0000	below_support: R 6, S 3; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Brazil	trimethoprim-sulfamethoxazole	primary	10	7	3	7	3	6	1	1	2	0.1429	ST2179	0.3000	PRJNA511007	1.0000	Brazil	1.0000	below_support: R 7, S 3; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Canada	amoxicillin-clavulanic acid	primary	1237	438	799	439	798	429	9	10	789	0.0205	ST10	0.1156	PRJNA966974	0.8755	Canada	1.0000	reported	one_project_majority	0.9795	0.9875	0.9772	0.9887	0.9835	0.9783	0.9664
+country	Canada	ampicillin	primary	1290	694	596	698	592	683	11	15	581	0.0159	ST10	0.1163	PRJNA966974	0.8729	Canada	1.0000	reported	one_project_majority	0.9841	0.9748	0.9785	0.9814	0.9795	0.9813	0.9595
+country	Canada	aztreonam	secondary	2	0	2	0	2	0	0	0	2	NA	ST226	1.0000	PRJNA563069	1.0000	Canada	1.0000	below_support: R 0, S 2; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Canada	cefazolin	primary	159	97	62	111	48	96	1	15	47	0.0103	ST761	0.0881	PRJNA662792	0.9874	Canada	1.0000	reported	one_project_majority	0.9897	0.7581	0.8649	0.9792	0.8739	0.9231	0.7944
+country	Canada	cefepime	primary	123	7	116	35	88	7	0	28	88	0.0000	ST117	0.1057	PRJNA662792	1.0000	Canada	1.0000	below_support: R 7, S 116; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Canada	cefoxitin	primary	1269	439	830	443	826	431	8	12	818	0.0182	ST10	0.1182	PRJNA966974	0.8747	Canada	1.0000	reported	one_project_majority	0.9818	0.9855	0.9729	0.9903	0.9837	0.9773	0.9653
+country	Canada	ceftazidime	primary	159	98	61	100	59	97	1	3	58	0.0102	ST761	0.0881	PRJNA662792	0.9874	Canada	1.0000	reported	one_project_majority	0.9898	0.9508	0.9700	0.9831	0.9703	0.9798	0.9468
+country	Canada	ceftiofur	secondary	1031	334	697	351	680	327	7	24	673	0.0210	ST10	0.1290	PRJNA966974	1.0000	Canada	1.0000	reported	one_project_majority	0.9790	0.9656	0.9316	0.9897	0.9723	0.9547	0.9329
+country	Canada	ceftriaxone	primary	1262	513	749	523	739	505	8	18	731	0.0156	ST10	0.1149	PRJNA966974	0.8708	Canada	1.0000	reported	one_project_majority	0.9844	0.9760	0.9656	0.9892	0.9802	0.9749	0.9576
+country	Canada	chloramphenicol	primary	1273	87	1186	87	1186	85	2	2	1184	0.0230	ST10	0.1170	PRJNA966974	0.8759	Canada	1.0000	reported	one_project_majority	0.9770	0.9983	0.9770	0.9983	0.9877	0.9770	0.9753
+country	Canada	ciprofloxacin	primary	1138	6	1132	18	1120	5	1	13	1119	0.1667	ST10	0.1283	PRJNA966974	0.8603	Canada	1.0000	below_support: R 6, S 1132; need R>=10 and S>=10	extreme_R_S_imbalance;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Canada	ertapenem	secondary	2	0	2	0	2	0	0	0	2	NA	ST226	1.0000	PRJNA563069	1.0000	Canada	1.0000	below_support: R 0, S 2; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Canada	gentamicin	primary	1264	359	905	343	921	334	25	9	896	0.0696	ST10	0.1163	PRJNA966974	0.8710	Canada	1.0000	reported	one_project_majority	0.9304	0.9901	0.9738	0.9729	0.9602	0.9516	0.9334
+country	Canada	imipenem	secondary	159	0	159	0	159	0	0	0	159	NA	ST761	0.0881	PRJNA662792	0.9874	Canada	1.0000	below_support: R 0, S 159; need R>=10 and S>=10	only_S;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Canada	kanamycin	secondary	1125	151	974	151	974	146	5	5	969	0.0331	ST10	0.1271	PRJNA966974	1.0000	Canada	1.0000	reported	one_project_majority	0.9669	0.9949	0.9669	0.9949	0.9809	0.9669	0.9618
+country	Canada	levofloxacin	primary	2	2	0	2	0	2	0	0	0	0.0000	ST226	1.0000	PRJNA563069	1.0000	Canada	1.0000	below_support: R 2, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Canada	meropenem	secondary	164	0	164	0	164	0	0	0	164	NA	ST761	0.0854	PRJNA662792	0.9634	Canada	1.0000	below_support: R 0, S 164; need R>=10 and S>=10	only_S;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Canada	nalidixic acid	primary	1220	80	1140	89	1131	77	3	12	1128	0.0375	ST10	0.1230	PRJNA966974	0.8672	Canada	1.0000	reported	one_project_majority	0.9625	0.9895	0.8652	0.9973	0.9760	0.9112	0.9061
+country	Canada	piperacillin-tazobactam	secondary	149	3	146	24	125	3	0	21	125	0.0000	ST761	0.0940	PRJNA662792	1.0000	Canada	1.0000	below_support: R 3, S 146; need R>=10 and S>=10	extreme_R_S_imbalance;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Canada	streptomycin	primary	1284	658	626	846	438	648	10	198	428	0.0152	ST10	0.1160	PRJNA966974	0.8769	Canada	1.0000	reported	one_project_majority	0.9848	0.6837	0.7660	0.9772	0.8343	0.8617	0.7048
+country	Canada	sulfisoxazole	primary	1285	775	510	754	531	746	29	8	502	0.0374	ST10	0.1167	PRJNA966974	0.8770	Canada	1.0000	reported	one_project_majority	0.9626	0.9843	0.9894	0.9454	0.9734	0.9758	0.9408
+country	Canada	tetracycline	primary	1289	621	668	617	672	604	17	13	655	0.0274	ST10	0.1156	PRJNA966974	0.8728	Canada	1.0000	reported	one_project_majority	0.9726	0.9805	0.9789	0.9747	0.9766	0.9758	0.9534
+country	Canada	tobramycin	secondary	2	0	2	1	1	0	0	1	1	NA	ST226	1.0000	PRJNA563069	1.0000	Canada	1.0000	below_support: R 0, S 2; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Canada	trimethoprim-sulfamethoxazole	primary	789	271	518	273	516	267	4	6	512	0.0148	ST10	0.1267	PRJNA966974	0.8023	Canada	1.0000	reported	one_project_majority	0.9852	0.9884	0.9780	0.9922	0.9868	0.9816	0.9720
+country	Chile	amikacin	secondary	12	0	12	1	11	0	0	1	11	NA	ST1011	0.1667	PRJNA1447459	1.0000	Chile	1.0000	below_support: R 0, S 12; need R>=10 and S>=10	only_S;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Chile	amoxicillin-clavulanic acid	primary	11	7	4	5	6	5	2	0	4	0.2857	ST1196	0.1818	PRJNA1447459	1.0000	Chile	1.0000	below_support: R 7, S 4; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Chile	ampicillin	primary	13	13	0	13	0	13	0	0	0	0.0000	ST1011	0.1538	PRJNA1447459	1.0000	Chile	1.0000	below_support: R 13, S 0; need R>=10 and S>=10	only_R;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Chile	ceftazidime	primary	8	2	6	5	3	2	0	3	3	0.0000	ST10	0.1250	PRJNA1447459	1.0000	Chile	1.0000	below_support: R 2, S 6; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Chile	ceftiofur	secondary	13	10	3	10	3	9	1	1	2	0.1000	ST1011	0.1538	PRJNA1447459	1.0000	Chile	1.0000	below_support: R 10, S 3; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Chile	chloramphenicol	primary	9	4	5	6	3	4	0	2	3	0.0000	ST1011	0.2222	PRJNA1447459	1.0000	Chile	1.0000	below_support: R 4, S 5; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Chile	ciprofloxacin	primary	13	13	0	12	1	12	1	0	0	0.0769	ST1011	0.1538	PRJNA1447459	1.0000	Chile	1.0000	below_support: R 13, S 0; need R>=10 and S>=10	only_R;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Chile	gentamicin	primary	12	6	6	4	8	3	3	1	5	0.5000	ST1011	0.1667	PRJNA1447459	1.0000	Chile	1.0000	below_support: R 6, S 6; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Chile	imipenem	secondary	13	0	13	0	13	0	0	0	13	NA	ST1011	0.1538	PRJNA1447459	1.0000	Chile	1.0000	below_support: R 0, S 13; need R>=10 and S>=10	only_S;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Chile	trimethoprim-sulfamethoxazole	primary	12	8	4	9	3	8	0	1	3	0.0000	ST1011	0.1667	PRJNA1447459	1.0000	Chile	1.0000	below_support: R 8, S 4; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	China	amoxicillin-clavulanic acid	primary	1	1	0	1	0	1	0	0	0	0.0000	ST167	1.0000	PRJNA360013	1.0000	China	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	China	ampicillin	primary	1	1	0	1	0	1	0	0	0	0.0000	ST167	1.0000	PRJNA360013	1.0000	China	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	China	aztreonam	secondary	1	1	0	1	0	1	0	0	0	0.0000	ST167	1.0000	PRJNA360013	1.0000	China	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	China	cefepime	primary	1	1	0	1	0	1	0	0	0	0.0000	ST167	1.0000	PRJNA360013	1.0000	China	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	China	ceftazidime	primary	1	1	0	1	0	1	0	0	0	0.0000	ST167	1.0000	PRJNA360013	1.0000	China	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	China	ceftriaxone	primary	1	1	0	1	0	1	0	0	0	0.0000	ST167	1.0000	PRJNA360013	1.0000	China	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	China	chloramphenicol	primary	1	1	0	1	0	1	0	0	0	0.0000	ST167	1.0000	PRJNA360013	1.0000	China	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	China	ciprofloxacin	primary	1	1	0	1	0	1	0	0	0	0.0000	ST167	1.0000	PRJNA360013	1.0000	China	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	China	ertapenem	secondary	1	1	0	1	0	1	0	0	0	0.0000	ST167	1.0000	PRJNA360013	1.0000	China	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	China	gentamicin	primary	1	1	0	1	0	1	0	0	0	0.0000	ST167	1.0000	PRJNA360013	1.0000	China	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	China	imipenem	secondary	1	1	0	1	0	1	0	0	0	0.0000	ST167	1.0000	PRJNA360013	1.0000	China	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	China	meropenem	secondary	1	1	0	1	0	1	0	0	0	0.0000	ST167	1.0000	PRJNA360013	1.0000	China	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	China	piperacillin-tazobactam	secondary	1	1	0	1	0	1	0	0	0	0.0000	ST167	1.0000	PRJNA360013	1.0000	China	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	China	tetracycline	primary	1	1	0	1	0	1	0	0	0	0.0000	ST167	1.0000	PRJNA360013	1.0000	China	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	China	trimethoprim-sulfamethoxazole	primary	1	1	0	1	0	1	0	0	0	0.0000	ST167	1.0000	PRJNA360013	1.0000	China	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Ecuador	amikacin	secondary	1	1	0	0	1	0	1	0	0	1.0000	ST131	1.0000	PRJNA1322038	1.0000	Ecuador	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Ecuador	amoxicillin-clavulanic acid	primary	1	1	0	0	1	0	1	0	0	1.0000	ST131	1.0000	PRJNA1322038	1.0000	Ecuador	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Ecuador	ampicillin	primary	1	1	0	0	1	0	1	0	0	1.0000	ST131	1.0000	PRJNA1322038	1.0000	Ecuador	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Ecuador	aztreonam	secondary	1	1	0	0	1	0	1	0	0	1.0000	ST131	1.0000	PRJNA1322038	1.0000	Ecuador	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Ecuador	cefepime	primary	1	1	0	0	1	0	1	0	0	1.0000	ST131	1.0000	PRJNA1322038	1.0000	Ecuador	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Ecuador	cefoxitin	primary	1	1	0	0	1	0	1	0	0	1.0000	ST131	1.0000	PRJNA1322038	1.0000	Ecuador	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Ecuador	ceftazidime	primary	1	1	0	0	1	0	1	0	0	1.0000	ST131	1.0000	PRJNA1322038	1.0000	Ecuador	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Ecuador	ceftiofur	secondary	1	1	0	0	1	0	1	0	0	1.0000	ST131	1.0000	PRJNA1322038	1.0000	Ecuador	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Ecuador	ceftriaxone	primary	1	1	0	0	1	0	1	0	0	1.0000	ST131	1.0000	PRJNA1322038	1.0000	Ecuador	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Ecuador	ciprofloxacin	primary	1	0	1	1	0	0	0	1	0	NA	ST131	1.0000	PRJNA1322038	1.0000	Ecuador	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Ecuador	ertapenem	secondary	1	1	0	0	1	0	1	0	0	1.0000	ST131	1.0000	PRJNA1322038	1.0000	Ecuador	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Ecuador	gentamicin	primary	1	1	0	0	1	0	1	0	0	1.0000	ST131	1.0000	PRJNA1322038	1.0000	Ecuador	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Ecuador	imipenem	secondary	1	1	0	0	1	0	1	0	0	1.0000	ST131	1.0000	PRJNA1322038	1.0000	Ecuador	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Ecuador	meropenem	secondary	1	1	0	0	1	0	1	0	0	1.0000	ST131	1.0000	PRJNA1322038	1.0000	Ecuador	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Ecuador	piperacillin-tazobactam	secondary	1	1	0	0	1	0	1	0	0	1.0000	ST131	1.0000	PRJNA1322038	1.0000	Ecuador	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Ecuador	tobramycin	secondary	1	1	0	0	1	0	1	0	0	1.0000	ST131	1.0000	PRJNA1322038	1.0000	Ecuador	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Ecuador	trimethoprim-sulfamethoxazole	primary	1	0	1	1	0	0	0	1	0	NA	ST131	1.0000	PRJNA1322038	1.0000	Ecuador	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Egypt	amikacin	secondary	5	5	0	3	2	3	2	0	0	0.4000	ST131	0.4000	PRJNA1322038	1.0000	Egypt	1.0000	below_support: R 5, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Egypt	amoxicillin-clavulanic acid	primary	5	3	2	3	2	1	2	2	0	0.6667	ST131	0.4000	PRJNA1322038	1.0000	Egypt	1.0000	below_support: R 3, S 2; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Egypt	ampicillin	primary	5	0	5	5	0	0	0	5	0	NA	ST131	0.4000	PRJNA1322038	1.0000	Egypt	1.0000	below_support: R 0, S 5; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Egypt	aztreonam	secondary	5	0	5	5	0	0	0	5	0	NA	ST131	0.4000	PRJNA1322038	1.0000	Egypt	1.0000	below_support: R 0, S 5; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Egypt	cefepime	primary	5	0	5	5	0	0	0	5	0	NA	ST131	0.4000	PRJNA1322038	1.0000	Egypt	1.0000	below_support: R 0, S 5; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Egypt	cefoxitin	primary	3	1	2	2	1	0	1	2	0	1.0000	ST131	0.3333	PRJNA1322038	1.0000	Egypt	1.0000	below_support: R 1, S 2; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Egypt	ceftazidime	primary	5	0	5	5	0	0	0	5	0	NA	ST131	0.4000	PRJNA1322038	1.0000	Egypt	1.0000	below_support: R 0, S 5; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Egypt	ceftiofur	secondary	5	0	5	5	0	0	0	5	0	NA	ST131	0.4000	PRJNA1322038	1.0000	Egypt	1.0000	below_support: R 0, S 5; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Egypt	ceftriaxone	primary	5	0	5	5	0	0	0	5	0	NA	ST131	0.4000	PRJNA1322038	1.0000	Egypt	1.0000	below_support: R 0, S 5; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Egypt	ciprofloxacin	primary	4	0	4	4	0	0	0	4	0	NA	ST167	0.5000	PRJNA1322038	1.0000	Egypt	1.0000	below_support: R 0, S 4; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Egypt	ertapenem	secondary	4	2	2	2	2	0	2	2	0	1.0000	ST131	0.5000	PRJNA1322038	1.0000	Egypt	1.0000	below_support: R 2, S 2; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Egypt	gentamicin	primary	5	3	2	2	3	0	3	2	0	1.0000	ST131	0.4000	PRJNA1322038	1.0000	Egypt	1.0000	below_support: R 3, S 2; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Egypt	imipenem	secondary	3	2	1	1	2	0	2	1	0	1.0000	ST131	0.6667	PRJNA1322038	1.0000	Egypt	1.0000	below_support: R 2, S 1; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Egypt	meropenem	secondary	4	2	2	2	2	0	2	2	0	1.0000	ST131	0.5000	PRJNA1322038	1.0000	Egypt	1.0000	below_support: R 2, S 2; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Egypt	piperacillin-tazobactam	secondary	5	2	3	3	2	0	2	3	0	1.0000	ST131	0.4000	PRJNA1322038	1.0000	Egypt	1.0000	below_support: R 2, S 3; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Egypt	tobramycin	secondary	5	1	4	4	1	0	1	4	0	1.0000	ST131	0.4000	PRJNA1322038	1.0000	Egypt	1.0000	below_support: R 1, S 4; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Egypt	trimethoprim-sulfamethoxazole	primary	4	0	4	4	0	0	0	4	0	NA	ST167	0.5000	PRJNA1322038	1.0000	Egypt	1.0000	below_support: R 0, S 4; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	France	amoxicillin-clavulanic acid	primary	1	0	1	0	1	0	0	0	1	NA	ST21	1.0000	PRJNA386458	1.0000	France	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	France	aztreonam	secondary	1	0	1	0	1	0	0	0	1	NA	ST21	1.0000	PRJNA386458	1.0000	France	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	France	cefepime	primary	1	0	1	0	1	0	0	0	1	NA	ST21	1.0000	PRJNA386458	1.0000	France	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	France	cefoxitin	primary	1	0	1	0	1	0	0	0	1	NA	ST21	1.0000	PRJNA386458	1.0000	France	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	France	ceftazidime	primary	1	0	1	0	1	0	0	0	1	NA	ST21	1.0000	PRJNA386458	1.0000	France	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	France	ceftiofur	secondary	1	0	1	0	1	0	0	0	1	NA	ST21	1.0000	PRJNA386458	1.0000	France	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	France	ertapenem	secondary	1	0	1	0	1	0	0	0	1	NA	ST21	1.0000	PRJNA386458	1.0000	France	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	France	piperacillin-tazobactam	secondary	1	0	1	0	1	0	0	0	1	NA	ST21	1.0000	PRJNA386458	1.0000	France	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Germany	ciprofloxacin	primary	89	12	77	18	71	6	6	12	65	0.5000	ST10	0.0787	PRJNA380388	1.0000	Germany	1.0000	reported	one_project_majority	0.5000	0.8442	0.3333	0.9155	0.6721	0.4000	0.2926
+country	Germany	levofloxacin	primary	85	10	75	17	68	7	3	10	65	0.3000	ST10	0.0941	PRJNA380388	1.0000	Germany	1.0000	reported	one_project_majority	0.7000	0.8667	0.4118	0.9559	0.7833	0.5185	0.4564
+country	Germany	nalidixic acid	primary	88	32	56	14	74	13	19	1	55	0.5938	ST10	0.0909	PRJNA380388	1.0000	Germany	1.0000	reported	one_project_majority	0.4062	0.9821	0.9286	0.7432	0.6942	0.5652	0.5108
+country	Greece	amikacin	secondary	8	4	4	7	1	4	0	3	1	0.0000	ST12	0.1250	PRJNA893175	1.0000	Greece	1.0000	below_support: R 4, S 4; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Greece	aztreonam	secondary	7	4	3	4	3	4	0	0	3	0.0000	ST12	0.1429	PRJNA893175	1.0000	Greece	1.0000	below_support: R 4, S 3; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Greece	cefepime	primary	7	7	0	7	0	7	0	0	0	0.0000	ST12	0.1429	PRJNA893175	1.0000	Greece	1.0000	below_support: R 7, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Greece	ciprofloxacin	primary	8	6	2	7	1	6	0	1	1	0.0000	ST12	0.1250	PRJNA893175	1.0000	Greece	1.0000	below_support: R 6, S 2; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Greece	gentamicin	primary	8	3	5	2	6	2	1	0	5	0.3333	ST12	0.1250	PRJNA893175	1.0000	Greece	1.0000	below_support: R 3, S 5; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Greece	imipenem	secondary	6	6	0	6	0	6	0	0	0	0.0000	ST12	0.1667	PRJNA893175	1.0000	Greece	1.0000	below_support: R 6, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Greece	meropenem	secondary	6	5	1	6	0	5	0	1	0	0.0000	ST12	0.1667	PRJNA893175	1.0000	Greece	1.0000	below_support: R 5, S 1; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	India	amikacin	secondary	1	0	1	1	0	0	0	1	0	NA	ST405	1.0000	PRJNA541219	1.0000	India	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	India	ceftriaxone	primary	2	2	0	2	0	2	0	0	0	0.0000	ST405	1.0000	PRJNA541219	0.5000	India	1.0000	below_support: R 2, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	India	ciprofloxacin	primary	2	2	0	2	0	2	0	0	0	0.0000	ST405	1.0000	PRJNA541219	0.5000	India	1.0000	below_support: R 2, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	India	gentamicin	primary	2	2	0	2	0	2	0	0	0	0.0000	ST405	1.0000	PRJNA541219	0.5000	India	1.0000	below_support: R 2, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	India	kanamycin	secondary	2	1	1	0	2	0	1	0	1	1.0000	ST405	1.0000	PRJNA541219	0.5000	India	1.0000	below_support: R 1, S 1; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	India	levofloxacin	primary	2	2	0	2	0	2	0	0	0	0.0000	ST405	1.0000	PRJNA541219	0.5000	India	1.0000	below_support: R 2, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	India	meropenem	secondary	2	2	0	2	0	2	0	0	0	0.0000	ST405	1.0000	PRJNA541219	0.5000	India	1.0000	below_support: R 2, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	India	streptomycin	primary	2	1	1	2	0	1	0	1	0	0.0000	ST405	1.0000	PRJNA541219	0.5000	India	1.0000	below_support: R 1, S 1; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	India	tetracycline	primary	1	1	0	1	0	1	0	0	0	0.0000	ST405	1.0000	PRJNA541219	1.0000	India	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	India	tobramycin	secondary	2	2	0	2	0	2	0	0	0	0.0000	ST405	1.0000	PRJNA541219	0.5000	India	1.0000	below_support: R 2, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Ireland	amikacin	secondary	20	20	0	20	0	20	0	0	0	0.0000	ST167	0.1500	PRJNA1219142	1.0000	Ireland	1.0000	below_support: R 20, S 0; need R>=10 and S>=10	only_R;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Ireland	gentamicin	primary	20	20	0	20	0	20	0	0	0	0.0000	ST167	0.1500	PRJNA1219142	1.0000	Ireland	1.0000	below_support: R 20, S 0; need R>=10 and S>=10	only_R;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Ireland	meropenem	secondary	24	18	6	24	0	18	0	6	0	0.0000	ST167	0.1250	PRJNA1219142	0.7917	Ireland	1.0000	below_support: R 18, S 6; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Nepal	amikacin	secondary	8	8	0	0	8	0	8	0	0	1.0000	ST131	0.2500	PRJNA1322038	1.0000	Nepal	1.0000	below_support: R 8, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Nepal	amoxicillin-clavulanic acid	primary	8	7	1	1	7	0	7	1	0	1.0000	ST131	0.2500	PRJNA1322038	1.0000	Nepal	1.0000	below_support: R 7, S 1; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nepal	ampicillin	primary	8	1	7	7	1	0	1	7	0	1.0000	ST131	0.2500	PRJNA1322038	1.0000	Nepal	1.0000	below_support: R 1, S 7; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nepal	cefepime	primary	6	2	4	5	1	1	1	4	0	0.5000	ST10	0.1667	PRJNA1322038	1.0000	Nepal	1.0000	below_support: R 2, S 4; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nepal	cefoxitin	primary	8	7	1	1	7	0	7	1	0	1.0000	ST131	0.2500	PRJNA1322038	1.0000	Nepal	1.0000	below_support: R 7, S 1; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nepal	ceftazidime	primary	8	2	6	7	1	1	1	6	0	0.5000	ST131	0.2500	PRJNA1322038	1.0000	Nepal	1.0000	below_support: R 2, S 6; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nepal	ceftiofur	secondary	8	1	7	7	1	0	1	7	0	1.0000	ST131	0.2500	PRJNA1322038	1.0000	Nepal	1.0000	below_support: R 1, S 7; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nepal	ceftriaxone	primary	8	1	7	7	1	0	1	7	0	1.0000	ST131	0.2500	PRJNA1322038	1.0000	Nepal	1.0000	below_support: R 1, S 7; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nepal	ciprofloxacin	primary	6	0	6	6	0	0	0	6	0	NA	ST131	0.3333	PRJNA1322038	1.0000	Nepal	1.0000	below_support: R 0, S 6; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Nepal	ertapenem	secondary	8	7	1	1	7	0	7	1	0	1.0000	ST131	0.2500	PRJNA1322038	1.0000	Nepal	1.0000	below_support: R 7, S 1; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nepal	gentamicin	primary	8	6	2	2	6	0	6	2	0	1.0000	ST131	0.2500	PRJNA1322038	1.0000	Nepal	1.0000	below_support: R 6, S 2; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nepal	imipenem	secondary	8	7	1	1	7	0	7	1	0	1.0000	ST131	0.2500	PRJNA1322038	1.0000	Nepal	1.0000	below_support: R 7, S 1; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nepal	meropenem	secondary	7	7	0	0	7	0	7	0	0	1.0000	ST131	0.2857	PRJNA1322038	1.0000	Nepal	1.0000	below_support: R 7, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Nepal	piperacillin-tazobactam	secondary	8	7	1	1	7	0	7	1	0	1.0000	ST131	0.2500	PRJNA1322038	1.0000	Nepal	1.0000	below_support: R 7, S 1; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nepal	trimethoprim-sulfamethoxazole	primary	6	1	5	5	1	0	1	5	0	1.0000	ST131	0.3333	PRJNA1322038	1.0000	Nepal	1.0000	below_support: R 1, S 5; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Netherlands	amikacin	secondary	337	6	331	3	334	0	6	3	328	1.0000	ST10	0.1009	PRJNA885502	1.0000	Netherlands	1.0000	below_support: R 6, S 331; need R>=10 and S>=10	extreme_R_S_imbalance;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Netherlands	ampicillin	primary	338	338	0	337	1	337	1	0	0	0.0030	ST10	0.1006	PRJNA885502	1.0000	Netherlands	1.0000	below_support: R 338, S 0; need R>=10 and S>=10	only_R;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Netherlands	cefepime	primary	325	277	48	275	50	269	8	6	42	0.0289	ST10	0.0954	PRJNA885502	1.0000	Netherlands	1.0000	reported	one_project_majority	0.9711	0.8750	0.9782	0.8400	0.9231	0.9746	0.8320
+country	Netherlands	cefoxitin	primary	467	221	246	186	281	183	38	3	243	0.1719	ST88	0.0685	PRJNA885502	0.6531	Netherlands	1.0000	reported	one_project_majority	0.8281	0.9878	0.9839	0.8648	0.9079	0.8993	0.8321
+country	Netherlands	ceftazidime	primary	448	401	47	422	26	398	3	24	23	0.0075	ST10	0.0692	PRJNA885502	0.7366	Netherlands	1.0000	reported	one_project_majority	0.9925	0.4894	0.9431	0.8846	0.7409	0.9672	0.6316
+country	Netherlands	chloramphenicol	primary	338	92	246	93	245	91	1	2	244	0.0109	ST10	0.1006	PRJNA885502	1.0000	Netherlands	1.0000	reported	one_project_majority	0.9891	0.9919	0.9785	0.9959	0.9905	0.9838	0.9777
+country	Netherlands	ciprofloxacin	primary	332	160	172	155	177	155	5	0	172	0.0312	ST10	0.1024	PRJNA885502	1.0000	Netherlands	1.0000	reported	one_project_majority	0.9688	1.0000	1.0000	0.9718	0.9844	0.9841	0.9702
+country	Netherlands	ertapenem	secondary	330	19	311	0	330	0	19	0	311	1.0000	ST10	0.1000	PRJNA885502	1.0000	Netherlands	1.0000	reported	one_project_majority	0.0000	1.0000	NA	0.9424	0.5000	0.0000	NA
+country	Netherlands	gentamicin	primary	337	48	289	44	293	44	4	0	289	0.0833	ST10	0.1009	PRJNA885502	1.0000	Netherlands	1.0000	reported	one_project_majority	0.9167	1.0000	1.0000	0.9863	0.9583	0.9565	0.9509
+country	Netherlands	imipenem	secondary	330	2	328	0	330	0	2	0	328	1.0000	ST10	0.1000	PRJNA885502	1.0000	Netherlands	1.0000	below_support: R 2, S 328; need R>=10 and S>=10	extreme_R_S_imbalance;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Netherlands	meropenem	secondary	330	0	330	0	330	0	0	0	330	NA	ST10	0.1000	PRJNA885502	1.0000	Netherlands	1.0000	below_support: R 0, S 330; need R>=10 and S>=10	only_S;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Netherlands	nalidixic acid	primary	334	97	237	77	257	77	20	0	237	0.2062	ST10	0.1018	PRJNA885502	1.0000	Netherlands	1.0000	reported	one_project_majority	0.7938	1.0000	1.0000	0.9222	0.8969	0.8851	0.8556
+country	Netherlands	tetracycline	primary	338	200	138	201	137	200	0	1	137	0.0000	ST10	0.1006	PRJNA885502	1.0000	Netherlands	1.0000	reported	one_project_majority	1.0000	0.9928	0.9950	1.0000	0.9964	0.9975	0.9939
+country	Nigeria	amikacin	secondary	7	5	2	1	6	0	5	1	1	1.0000	ST127	0.1429	PRJNA1322038	0.7143	Nigeria	1.0000	below_support: R 5, S 2; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nigeria	amoxicillin-clavulanic acid	primary	5	2	3	3	2	0	2	3	0	1.0000	ST127	0.2000	PRJNA1322038	1.0000	Nigeria	1.0000	below_support: R 2, S 3; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nigeria	ampicillin	primary	6	3	3	4	2	1	2	3	0	0.6667	ST127	0.1667	PRJNA1322038	0.8333	Nigeria	1.0000	below_support: R 3, S 3; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nigeria	aztreonam	secondary	1	1	0	0	1	0	1	0	0	1.0000	ST127	1.0000	PRJNA1322038	1.0000	Nigeria	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Nigeria	cefazolin	primary	1	1	0	1	0	1	0	0	0	0.0000	ST38	1.0000	PRJNA1156689	1.0000	Nigeria	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Nigeria	cefepime	primary	7	4	3	4	3	2	2	2	1	0.5000	ST127	0.1429	PRJNA1322038	0.7143	Nigeria	1.0000	below_support: R 4, S 3; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nigeria	cefoxitin	primary	6	3	3	1	5	0	3	1	2	1.0000	ST127	0.1667	PRJNA1322038	0.8333	Nigeria	1.0000	below_support: R 3, S 3; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nigeria	ceftazidime	primary	7	4	3	3	4	1	3	2	1	0.7500	ST127	0.1429	PRJNA1322038	0.7143	Nigeria	1.0000	below_support: R 4, S 3; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nigeria	ceftiofur	secondary	4	2	2	2	2	0	2	2	0	1.0000	ST127	0.2500	PRJNA1322038	1.0000	Nigeria	1.0000	below_support: R 2, S 2; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nigeria	ceftriaxone	primary	7	4	3	3	4	1	3	2	1	0.7500	ST127	0.1429	PRJNA1322038	0.7143	Nigeria	1.0000	below_support: R 4, S 3; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nigeria	ciprofloxacin	primary	6	3	3	4	2	1	2	3	0	0.6667	ST127	0.1667	PRJNA1322038	0.8333	Nigeria	1.0000	below_support: R 3, S 3; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nigeria	ertapenem	secondary	7	4	3	1	6	0	4	1	2	1.0000	ST127	0.1429	PRJNA1322038	0.7143	Nigeria	1.0000	below_support: R 4, S 3; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nigeria	gentamicin	primary	7	4	3	3	4	1	3	2	1	0.7500	ST127	0.1429	PRJNA1322038	0.7143	Nigeria	1.0000	below_support: R 4, S 3; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nigeria	imipenem	secondary	5	5	0	1	4	1	4	0	0	0.8000	ST127	0.2000	PRJNA1322038	1.0000	Nigeria	1.0000	below_support: R 5, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Nigeria	levofloxacin	primary	1	1	0	1	0	1	0	0	0	0.0000	ST38	1.0000	PRJNA1156689	1.0000	Nigeria	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Nigeria	meropenem	secondary	6	4	2	0	6	0	4	0	2	1.0000	ST127	0.1667	PRJNA1322038	0.6667	Nigeria	1.0000	below_support: R 4, S 2; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nigeria	piperacillin-tazobactam	secondary	5	2	3	3	2	0	2	3	0	1.0000	ST127	0.2000	PRJNA1322038	1.0000	Nigeria	1.0000	below_support: R 2, S 3; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nigeria	tobramycin	secondary	3	2	1	1	2	1	1	0	1	0.5000	ST127	0.3333	PRJNA1156689	0.6667	Nigeria	1.0000	below_support: R 2, S 1; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Nigeria	trimethoprim-sulfamethoxazole	primary	5	4	1	3	2	2	2	1	0	0.5000	ST127	0.2000	PRJNA1322038	0.6000	Nigeria	1.0000	below_support: R 4, S 1; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Pakistan	amikacin	secondary	54	52	2	12	42	10	42	2	0	0.8077	ST131	0.1667	PRJNA1322038	1.0000	Pakistan	1.0000	below_support: R 52, S 2; need R>=10 and S>=10	extreme_R_S_imbalance;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Pakistan	amoxicillin-clavulanic acid	primary	54	35	19	14	40	0	35	14	5	1.0000	ST131	0.1667	PRJNA1322038	1.0000	Pakistan	1.0000	reported	one_project_majority	0.0000	0.2632	0.0000	0.1250	0.1316	0.0000	-0.8030
+country	Pakistan	ampicillin	primary	54	13	41	41	13	0	13	41	0	1.0000	ST131	0.1667	PRJNA1322038	1.0000	Pakistan	1.0000	reported	one_project_majority	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	-1.0000
+country	Pakistan	aztreonam	secondary	4	2	2	1	3	0	2	1	1	1.0000	ST10	0.2500	PRJNA1322038	1.0000	Pakistan	1.0000	below_support: R 2, S 2; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Pakistan	cefepime	primary	49	21	28	30	19	2	19	28	0	0.9048	ST131	0.1837	PRJNA1322038	1.0000	Pakistan	1.0000	reported	one_project_majority	0.0952	0.0000	0.0667	0.0000	0.0476	0.0784	-0.9189
+country	Pakistan	cefoxitin	primary	49	42	7	5	44	0	42	5	2	1.0000	ST131	0.1837	PRJNA1322038	1.0000	Pakistan	1.0000	below_support: R 42, S 7; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Pakistan	ceftazidime	primary	53	23	30	35	18	5	18	30	0	0.7826	ST131	0.1698	PRJNA1322038	1.0000	Pakistan	1.0000	reported	one_project_majority	0.2174	0.0000	0.1429	0.0000	0.1087	0.1724	-0.8190
+country	Pakistan	ceftiofur	secondary	54	20	34	35	19	1	19	34	0	0.9500	ST131	0.1667	PRJNA1322038	1.0000	Pakistan	1.0000	reported	one_project_majority	0.0500	0.0000	0.0286	0.0000	0.0250	0.0364	-0.9607
+country	Pakistan	ceftriaxone	primary	54	20	34	35	19	1	19	34	0	0.9500	ST131	0.1667	PRJNA1322038	1.0000	Pakistan	1.0000	reported	one_project_majority	0.0500	0.0000	0.0286	0.0000	0.0250	0.0364	-0.9607
+country	Pakistan	ciprofloxacin	primary	44	5	39	39	5	0	5	39	0	1.0000	ST131	0.2045	PRJNA1322038	1.0000	Pakistan	1.0000	below_support: R 5, S 39; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Pakistan	ertapenem	secondary	54	48	6	5	49	0	48	5	1	1.0000	ST131	0.1667	PRJNA1322038	1.0000	Pakistan	1.0000	below_support: R 48, S 6; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Pakistan	gentamicin	primary	54	43	11	11	43	0	43	11	0	1.0000	ST131	0.1667	PRJNA1322038	1.0000	Pakistan	1.0000	reported	one_project_majority	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	-1.0000
+country	Pakistan	imipenem	secondary	53	49	4	4	49	0	49	4	0	1.0000	ST131	0.1698	PRJNA1322038	1.0000	Pakistan	1.0000	below_support: R 49, S 4; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Pakistan	meropenem	secondary	53	49	4	4	49	0	49	4	0	1.0000	ST131	0.1698	PRJNA1322038	1.0000	Pakistan	1.0000	below_support: R 49, S 4; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Pakistan	piperacillin-tazobactam	secondary	52	44	8	13	39	6	38	7	1	0.8636	ST131	0.1538	PRJNA1322038	1.0000	Pakistan	1.0000	below_support: R 44, S 8; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Pakistan	tobramycin	secondary	5	4	1	1	4	0	4	1	0	1.0000	ST10	0.2000	PRJNA1322038	1.0000	Pakistan	1.0000	below_support: R 4, S 1; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Pakistan	trimethoprim-sulfamethoxazole	primary	45	10	35	38	7	3	7	35	0	0.7000	ST131	0.2000	PRJNA1322038	1.0000	Pakistan	1.0000	reported	one_project_majority	0.3000	0.0000	0.0789	0.0000	0.1500	0.1250	-0.8030
+country	Portugal	amikacin	secondary	2	0	2	0	2	0	0	0	2	NA	ST127	0.5000	PRJNA808048	0.5000	Portugal	1.0000	below_support: R 0, S 2; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Portugal	amoxicillin-clavulanic acid	primary	1	1	0	1	0	1	0	0	0	0.0000	ST127	1.0000	PRJNA808048	1.0000	Portugal	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Portugal	ampicillin	primary	2	2	0	2	0	2	0	0	0	0.0000	ST127	0.5000	PRJNA808048	0.5000	Portugal	1.0000	below_support: R 2, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Portugal	aztreonam	secondary	1	0	1	0	1	0	0	0	1	NA	ST127	1.0000	PRJNA808048	1.0000	Portugal	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Portugal	cefepime	primary	2	0	2	0	2	0	0	0	2	NA	ST127	0.5000	PRJNA808048	0.5000	Portugal	1.0000	below_support: R 0, S 2; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Portugal	cefoxitin	primary	1	0	1	0	1	0	0	0	1	NA	ST127	1.0000	PRJNA808048	1.0000	Portugal	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Portugal	ceftazidime	primary	2	0	2	0	2	0	0	0	2	NA	ST127	0.5000	PRJNA808048	0.5000	Portugal	1.0000	below_support: R 0, S 2; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Portugal	chloramphenicol	primary	1	0	1	0	1	0	0	0	1	NA	ST127	1.0000	PRJNA808048	1.0000	Portugal	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Portugal	ciprofloxacin	primary	2	0	2	0	2	0	0	0	2	NA	ST127	0.5000	PRJNA808048	0.5000	Portugal	1.0000	below_support: R 0, S 2; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Portugal	ertapenem	secondary	2	1	1	0	2	0	1	0	1	1.0000	ST127	0.5000	PRJNA808048	0.5000	Portugal	1.0000	below_support: R 1, S 1; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Portugal	gentamicin	primary	2	0	2	0	2	0	0	0	2	NA	ST127	0.5000	PRJNA808048	0.5000	Portugal	1.0000	below_support: R 0, S 2; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Portugal	imipenem	secondary	1	0	1	1	0	0	0	1	0	NA	ST127	1.0000	PRJNA808048	1.0000	Portugal	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Portugal	levofloxacin	primary	1	0	1	0	1	0	0	0	1	NA	ST127	1.0000	PRJNA808048	1.0000	Portugal	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Portugal	meropenem	secondary	2	1	1	2	0	1	0	1	0	0.0000	ST127	0.5000	PRJNA808048	0.5000	Portugal	1.0000	below_support: R 1, S 1; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	Portugal	nalidixic acid	primary	1	0	1	0	1	0	0	0	1	NA	ST127	1.0000	PRJNA808048	1.0000	Portugal	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Portugal	tetracycline	primary	1	0	1	0	1	0	0	0	1	NA	ST127	1.0000	PRJNA808048	1.0000	Portugal	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Portugal	tobramycin	secondary	1	0	1	0	1	0	0	0	1	NA	ST127	1.0000	PRJNA808048	1.0000	Portugal	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Portugal	trimethoprim-sulfamethoxazole	primary	1	0	1	0	1	0	0	0	1	NA	ST127	1.0000	PRJNA808048	1.0000	Portugal	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	South Africa	amikacin	secondary	2	2	0	0	2	0	2	0	0	1.0000	ST58	0.5000	PRJNA541983	1.0000	South Africa	1.0000	below_support: R 2, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	South Africa	ampicillin	primary	1	1	0	0	1	0	1	0	0	1.0000	ST58	1.0000	PRJNA541983	1.0000	South Africa	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	South Africa	cefepime	primary	2	0	2	0	2	0	0	0	2	NA	ST58	0.5000	PRJNA541983	1.0000	South Africa	1.0000	below_support: R 0, S 2; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	South Africa	ceftazidime	primary	2	0	2	0	2	0	0	0	2	NA	ST58	0.5000	PRJNA541983	1.0000	South Africa	1.0000	below_support: R 0, S 2; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	South Africa	ceftriaxone	primary	2	0	2	0	2	0	0	0	2	NA	ST58	0.5000	PRJNA541983	1.0000	South Africa	1.0000	below_support: R 0, S 2; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	South Africa	chloramphenicol	primary	1	1	0	0	1	0	1	0	0	1.0000	ST58	1.0000	PRJNA541983	1.0000	South Africa	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	South Africa	ciprofloxacin	primary	2	1	1	0	2	0	1	0	1	1.0000	ST58	0.5000	PRJNA541983	1.0000	South Africa	1.0000	below_support: R 1, S 1; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	South Africa	ertapenem	secondary	2	0	2	0	2	0	0	0	2	NA	ST58	0.5000	PRJNA541983	1.0000	South Africa	1.0000	below_support: R 0, S 2; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	South Africa	gentamicin	primary	2	0	2	0	2	0	0	0	2	NA	ST58	0.5000	PRJNA541983	1.0000	South Africa	1.0000	below_support: R 0, S 2; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	South Africa	imipenem	secondary	2	0	2	0	2	0	0	0	2	NA	ST58	0.5000	PRJNA541983	1.0000	South Africa	1.0000	below_support: R 0, S 2; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	South Africa	levofloxacin	primary	2	0	2	0	2	0	0	0	2	NA	ST58	0.5000	PRJNA541983	1.0000	South Africa	1.0000	below_support: R 0, S 2; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	South Africa	meropenem	secondary	2	2	0	0	2	0	2	0	0	1.0000	ST58	0.5000	PRJNA541983	1.0000	South Africa	1.0000	below_support: R 2, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	South Africa	streptomycin	primary	2	2	0	0	2	0	2	0	0	1.0000	ST58	0.5000	PRJNA541983	1.0000	South Africa	1.0000	below_support: R 2, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	South Africa	tetracycline	primary	1	1	0	1	0	1	0	0	0	0.0000	ST58	1.0000	PRJNA541983	1.0000	South Africa	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	South Africa	tobramycin	secondary	2	1	1	0	2	0	1	0	1	1.0000	ST58	0.5000	PRJNA541983	1.0000	South Africa	1.0000	below_support: R 1, S 1; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	South Africa	trimethoprim-sulfamethoxazole	primary	1	1	0	0	1	0	1	0	0	1.0000	ST58	1.0000	PRJNA541983	1.0000	South Africa	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Spain	ampicillin	primary	1	1	0	1	0	1	0	0	0	0.0000	ST533	1.0000	PRJNA394656	1.0000	Spain	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Spain	cefepime	primary	1	1	0	1	0	1	0	0	0	0.0000	ST533	1.0000	PRJNA394656	1.0000	Spain	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Spain	ceftazidime	primary	1	1	0	1	0	1	0	0	0	0.0000	ST533	1.0000	PRJNA394656	1.0000	Spain	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Spain	chloramphenicol	primary	1	1	0	1	0	1	0	0	0	0.0000	ST533	1.0000	PRJNA394656	1.0000	Spain	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Spain	ciprofloxacin	primary	1	1	0	1	0	1	0	0	0	0.0000	ST533	1.0000	PRJNA394656	1.0000	Spain	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Spain	ertapenem	secondary	1	0	1	0	1	0	0	0	1	NA	ST533	1.0000	PRJNA394656	1.0000	Spain	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Spain	gentamicin	primary	1	1	0	1	0	1	0	0	0	0.0000	ST533	1.0000	PRJNA394656	1.0000	Spain	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Spain	imipenem	secondary	1	0	1	0	1	0	0	0	1	NA	ST533	1.0000	PRJNA394656	1.0000	Spain	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Spain	meropenem	secondary	1	0	1	0	1	0	0	0	1	NA	ST533	1.0000	PRJNA394656	1.0000	Spain	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Spain	nalidixic acid	primary	1	1	0	1	0	1	0	0	0	0.0000	ST533	1.0000	PRJNA394656	1.0000	Spain	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Spain	tetracycline	primary	1	1	0	1	0	1	0	0	0	0.0000	ST533	1.0000	PRJNA394656	1.0000	Spain	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Sweden	amoxicillin-clavulanic acid	primary	1	1	0	1	0	1	0	0	0	0.0000	ST648	1.0000	PRJNA401330	1.0000	Sweden	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Sweden	ampicillin	primary	1	1	0	1	0	1	0	0	0	0.0000	ST648	1.0000	PRJNA401330	1.0000	Sweden	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Sweden	aztreonam	secondary	1	1	0	1	0	1	0	0	0	0.0000	ST648	1.0000	PRJNA401330	1.0000	Sweden	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Sweden	ceftazidime	primary	1	1	0	1	0	1	0	0	0	0.0000	ST648	1.0000	PRJNA401330	1.0000	Sweden	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Sweden	ceftriaxone	primary	1	1	0	1	0	1	0	0	0	0.0000	ST648	1.0000	PRJNA401330	1.0000	Sweden	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Sweden	chloramphenicol	primary	1	1	0	0	1	0	1	0	0	1.0000	ST648	1.0000	PRJNA401330	1.0000	Sweden	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Sweden	ciprofloxacin	primary	1	1	0	1	0	1	0	0	0	0.0000	ST648	1.0000	PRJNA401330	1.0000	Sweden	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Sweden	ertapenem	secondary	1	1	0	1	0	1	0	0	0	0.0000	ST648	1.0000	PRJNA401330	1.0000	Sweden	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Sweden	gentamicin	primary	1	0	1	0	1	0	0	0	1	NA	ST648	1.0000	PRJNA401330	1.0000	Sweden	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Sweden	imipenem	secondary	1	1	0	1	0	1	0	0	0	0.0000	ST648	1.0000	PRJNA401330	1.0000	Sweden	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Sweden	levofloxacin	primary	1	1	0	1	0	1	0	0	0	0.0000	ST648	1.0000	PRJNA401330	1.0000	Sweden	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Sweden	meropenem	secondary	1	1	0	1	0	1	0	0	0	0.0000	ST648	1.0000	PRJNA401330	1.0000	Sweden	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Sweden	piperacillin-tazobactam	secondary	1	1	0	1	0	1	0	0	0	0.0000	ST648	1.0000	PRJNA401330	1.0000	Sweden	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Sweden	tobramycin	secondary	1	1	0	1	0	1	0	0	0	0.0000	ST648	1.0000	PRJNA401330	1.0000	Sweden	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Sweden	trimethoprim-sulfamethoxazole	primary	1	1	0	1	0	1	0	0	0	0.0000	ST648	1.0000	PRJNA401330	1.0000	Sweden	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Taiwan	amikacin	secondary	1	0	1	0	1	0	0	0	1	NA	ST617	1.0000	PRJNA384104	1.0000	Taiwan	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Taiwan	amoxicillin-clavulanic acid	primary	1	1	0	1	0	1	0	0	0	0.0000	ST617	1.0000	PRJNA384104	1.0000	Taiwan	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Taiwan	ampicillin	primary	1	1	0	1	0	1	0	0	0	0.0000	ST617	1.0000	PRJNA384104	1.0000	Taiwan	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Taiwan	aztreonam	secondary	1	1	0	1	0	1	0	0	0	0.0000	ST617	1.0000	PRJNA384104	1.0000	Taiwan	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Taiwan	cefazolin	primary	1	1	0	1	0	1	0	0	0	0.0000	ST617	1.0000	PRJNA384104	1.0000	Taiwan	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Taiwan	cefepime	primary	1	1	0	1	0	1	0	0	0	0.0000	ST617	1.0000	PRJNA384104	1.0000	Taiwan	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Taiwan	cefoxitin	primary	1	1	0	1	0	1	0	0	0	0.0000	ST617	1.0000	PRJNA384104	1.0000	Taiwan	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Taiwan	ceftazidime	primary	1	1	0	1	0	1	0	0	0	0.0000	ST617	1.0000	PRJNA384104	1.0000	Taiwan	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Taiwan	ceftriaxone	primary	1	1	0	1	0	1	0	0	0	0.0000	ST617	1.0000	PRJNA384104	1.0000	Taiwan	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Taiwan	chloramphenicol	primary	1	1	0	1	0	1	0	0	0	0.0000	ST617	1.0000	PRJNA384104	1.0000	Taiwan	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Taiwan	ciprofloxacin	primary	1	1	0	1	0	1	0	0	0	0.0000	ST617	1.0000	PRJNA384104	1.0000	Taiwan	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Taiwan	ertapenem	secondary	1	1	0	1	0	1	0	0	0	0.0000	ST617	1.0000	PRJNA384104	1.0000	Taiwan	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Taiwan	gentamicin	primary	1	1	0	0	1	0	1	0	0	1.0000	ST617	1.0000	PRJNA384104	1.0000	Taiwan	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Taiwan	imipenem	secondary	1	1	0	1	0	1	0	0	0	0.0000	ST617	1.0000	PRJNA384104	1.0000	Taiwan	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Taiwan	meropenem	secondary	1	1	0	1	0	1	0	0	0	0.0000	ST617	1.0000	PRJNA384104	1.0000	Taiwan	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Taiwan	piperacillin-tazobactam	secondary	1	1	0	1	0	1	0	0	0	0.0000	ST617	1.0000	PRJNA384104	1.0000	Taiwan	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Taiwan	tetracycline	primary	1	1	0	1	0	1	0	0	0	0.0000	ST617	1.0000	PRJNA384104	1.0000	Taiwan	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Taiwan	tobramycin	secondary	1	1	0	0	1	0	1	0	0	1.0000	ST617	1.0000	PRJNA384104	1.0000	Taiwan	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Taiwan	trimethoprim-sulfamethoxazole	primary	1	1	0	1	0	1	0	0	0	0.0000	ST617	1.0000	PRJNA384104	1.0000	Taiwan	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Thailand	amikacin	secondary	25	25	0	2	23	2	23	0	0	0.9200	ST101	0.1600	PRJNA1322038	1.0000	Thailand	1.0000	below_support: R 25, S 0; need R>=10 and S>=10	only_R;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Thailand	amoxicillin-clavulanic acid	primary	23	12	11	4	19	0	12	4	7	1.0000	ST101	0.1739	PRJNA1322038	1.0000	Thailand	1.0000	reported	one_project_majority	0.0000	0.6364	0.0000	0.3684	0.3182	0.0000	-0.4792
+country	Thailand	ampicillin	primary	25	0	25	19	6	0	0	19	6	NA	ST101	0.1600	PRJNA1322038	1.0000	Thailand	1.0000	below_support: R 0, S 25; need R>=10 and S>=10	only_S;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Thailand	aztreonam	secondary	1	1	0	0	1	0	1	0	0	1.0000	ST206	1.0000	PRJNA1322038	1.0000	Thailand	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Thailand	cefepime	primary	21	6	15	15	6	3	3	12	3	0.5000	ST101	0.1429	PRJNA1322038	1.0000	Thailand	1.0000	below_support: R 6, S 15; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Thailand	cefoxitin	primary	22	17	5	4	18	0	17	4	1	1.0000	ST101	0.1818	PRJNA1322038	1.0000	Thailand	1.0000	below_support: R 17, S 5; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Thailand	ceftazidime	primary	21	9	12	15	6	5	4	10	2	0.4444	ST101	0.1429	PRJNA1322038	1.0000	Thailand	1.0000	below_support: R 9, S 12; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Thailand	ceftiofur	secondary	24	0	24	18	6	0	0	18	6	NA	ST101	0.1667	PRJNA1322038	1.0000	Thailand	1.0000	below_support: R 0, S 24; need R>=10 and S>=10	only_S;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Thailand	ceftriaxone	primary	44	19	25	37	7	19	0	18	7	0.0000	ST131	0.1591	PRJNA1322038	0.5682	Thailand	1.0000	reported	one_project_majority	1.0000	0.2800	0.5135	1.0000	0.6400	0.6786	0.3792
+country	Thailand	ciprofloxacin	primary	19	4	15	16	3	2	2	14	1	0.5000	ST101	0.1053	PRJNA1322038	1.0000	Thailand	1.0000	below_support: R 4, S 15; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Thailand	ertapenem	secondary	25	23	2	2	23	0	23	2	0	1.0000	ST101	0.1600	PRJNA1322038	1.0000	Thailand	1.0000	below_support: R 23, S 2; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Thailand	gentamicin	primary	25	2	23	16	9	0	2	16	7	1.0000	ST101	0.1600	PRJNA1322038	1.0000	Thailand	1.0000	below_support: R 2, S 23; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Thailand	imipenem	secondary	25	24	1	2	23	1	23	1	0	0.9583	ST101	0.1600	PRJNA1322038	1.0000	Thailand	1.0000	below_support: R 24, S 1; need R>=10 and S>=10	extreme_R_S_imbalance;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Thailand	meropenem	secondary	23	23	0	0	23	0	23	0	0	1.0000	ST101	0.1739	PRJNA1322038	1.0000	Thailand	1.0000	below_support: R 23, S 0; need R>=10 and S>=10	only_R;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Thailand	piperacillin-tazobactam	secondary	23	21	2	4	19	2	19	2	0	0.9048	ST101	0.1739	PRJNA1322038	1.0000	Thailand	1.0000	below_support: R 21, S 2; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Thailand	tobramycin	secondary	2	0	2	1	1	0	0	1	1	NA	ST131	0.5000	PRJNA1322038	1.0000	Thailand	1.0000	below_support: R 0, S 2; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Thailand	trimethoprim-sulfamethoxazole	primary	21	3	18	16	5	0	3	16	2	1.0000	ST101	0.1429	PRJNA1322038	1.0000	Thailand	1.0000	below_support: R 3, S 18; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	USA	amikacin	secondary	2694	9	2685	178	2516	8	1	170	2515	0.1111	ST131	0.2019	PRJNA809394	0.7706	USA	1.0000	below_support: R 9, S 2685; need R>=10 and S>=10	extreme_R_S_imbalance;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	USA	amoxicillin-clavulanic acid	primary	4884	353	4531	342	4542	318	35	24	4507	0.0992	ST131	0.0776	PRJNA292663	0.5066	USA	1.0000	reported	one_project_majority	0.9008	0.9947	0.9298	0.9923	0.9478	0.9151	0.9087
+country	USA	ampicillin	primary	5820	2424	3396	2284	3536	2242	182	42	3354	0.0751	ST131	0.1134	PRJNA292663	0.4548	USA	1.0000	reported	NA	0.9249	0.9876	0.9816	0.9485	0.9563	0.9524	0.9213
+country	USA	aztreonam	secondary	2166	209	1957	238	1928	192	17	46	1911	0.0813	ST131	0.1533	PRJNA809394	0.9303	USA	1.0000	reported	one_project_majority	0.9187	0.9765	0.8067	0.9912	0.9476	0.8591	0.8451
+country	USA	cefazolin	primary	2344	775	1569	1153	1191	731	44	422	1147	0.0568	ST131	0.1711	PRJNA809394	0.8072	USA	1.0000	reported	one_project_majority	0.9432	0.7310	0.6340	0.9631	0.8371	0.7583	0.6345
+country	USA	cefepime	primary	2893	259	2634	675	2218	253	6	422	2212	0.0232	ST131	0.1974	PRJNA809394	0.6941	USA	1.0000	reported	one_project_majority	0.9768	0.8398	0.3748	0.9973	0.9083	0.5418	0.5512
+country	USA	cefoxitin	primary	3147	238	2909	196	2951	189	49	7	2902	0.2059	ST131	0.0642	PRJNA292663	0.8189	USA	1.0000	reported	one_project_majority	0.7941	0.9976	0.9643	0.9834	0.8959	0.8710	0.8662
+country	USA	ceftazidime	primary	2485	295	2190	606	1879	292	3	314	1876	0.0102	ST131	0.1787	PRJNA809394	0.8129	USA	1.0000	reported	one_project_majority	0.9898	0.8566	0.4818	0.9984	0.9232	0.6482	0.6376
+country	USA	ceftiofur	secondary	118	65	53	68	50	65	0	3	50	0.0000	ST10	0.1186	PRJNA266657	0.6271	USA	1.0000	reported	one_project_majority	1.0000	0.9434	0.9559	1.0000	0.9717	0.9774	0.9496
+country	USA	ceftriaxone	primary	5430	833	4597	925	4505	819	14	106	4491	0.0168	ST131	0.1050	PRJNA292663	0.4808	USA	1.0000	reported	NA	0.9832	0.9769	0.8854	0.9969	0.9801	0.9317	0.9204
+country	USA	chloramphenicol	primary	2783	161	2622	164	2619	160	1	4	2618	0.0062	ST10	0.0596	PRJNA292663	0.9378	USA	1.0000	reported	one_project_majority	0.9938	0.9985	0.9756	0.9996	0.9961	0.9846	0.9837
+country	USA	ciprofloxacin	primary	5578	956	4622	1280	4298	938	18	342	4280	0.0188	ST131	0.0993	PRJNA292663	0.4624	USA	1.0000	reported	NA	0.9812	0.9260	0.7328	0.9958	0.9536	0.8390	0.8130
+country	USA	ertapenem	secondary	2973	23	2950	5	2968	5	18	0	2950	0.7826	ST131	0.2042	PRJNA809394	0.6949	USA	1.0000	reported	extreme_R_S_imbalance;one_project_majority	0.2174	1.0000	1.0000	0.9939	0.6087	0.3571	0.4648
+country	USA	gentamicin	primary	5428	673	4755	646	4782	628	45	18	4737	0.0669	ST131	0.1083	PRJNA292663	0.4731	USA	1.0000	reported	NA	0.9331	0.9962	0.9721	0.9906	0.9647	0.9522	0.9459
+country	USA	imipenem	secondary	2485	3	2482	3	2482	3	0	0	2482	0.0000	ST131	0.1638	PRJNA809394	0.8290	USA	1.0000	below_support: R 3, S 2482; need R>=10 and S>=10	extreme_R_S_imbalance;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	USA	kanamycin	secondary	77	10	67	10	67	10	0	0	67	0.0000	ST10	0.1169	PRJNA266657	0.9740	USA	1.0000	reported	one_project_majority	1.0000	1.0000	1.0000	1.0000	1.0000	1.0000	1.0000
+country	USA	levofloxacin	primary	2730	832	1898	1110	1620	823	9	287	1611	0.0108	ST131	0.1769	PRJNA809394	0.7198	USA	1.0000	reported	one_project_majority	0.9892	0.8488	0.7414	0.9944	0.9190	0.8476	0.7853
+country	USA	meropenem	secondary	5451	16	5435	11	5440	10	6	1	5434	0.3750	ST131	0.1108	PRJNA292663	0.4867	USA	1.0000	reported	extreme_R_S_imbalance	0.6250	0.9998	0.9091	0.9989	0.8124	0.7407	0.7532
+country	USA	nalidixic acid	primary	2768	67	2701	71	2697	65	2	6	2695	0.0299	ST10	0.0603	PRJNA292663	0.9382	USA	1.0000	reported	extreme_R_S_imbalance;one_project_majority	0.9701	0.9978	0.9155	0.9993	0.9840	0.9420	0.9410
+country	USA	piperacillin-tazobactam	secondary	2474	64	2410	228	2246	33	31	195	2215	0.4844	ST131	0.1843	PRJNA809394	0.8145	USA	1.0000	reported	extreme_R_S_imbalance;one_project_majority	0.5156	0.9191	0.1447	0.9862	0.7174	0.2260	0.2386
+country	USA	streptomycin	primary	2838	824	2014	906	1932	801	23	105	1909	0.0279	ST10	0.0588	PRJNA292663	0.9348	USA	1.0000	reported	one_project_majority	0.9721	0.9479	0.8841	0.9881	0.9600	0.9260	0.8958
+country	USA	sulfisoxazole	primary	2781	683	2098	688	2093	680	3	8	2090	0.0044	ST10	0.0586	PRJNA292663	0.9540	USA	1.0000	reported	one_project_majority	0.9956	0.9962	0.9884	0.9986	0.9959	0.9920	0.9894
+country	USA	tetracycline	primary	5336	2096	3240	2091	3245	2064	32	27	3213	0.0153	ST131	0.0956	PRJNA292663	0.4904	USA	1.0000	reported	NA	0.9847	0.9917	0.9871	0.9901	0.9882	0.9859	0.9768
+country	USA	tobramycin	secondary	2813	226	2587	252	2561	216	10	36	2551	0.0442	ST131	0.1788	PRJNA809394	0.7010	USA	1.0000	reported	one_project_majority	0.9558	0.9861	0.8571	0.9961	0.9709	0.9038	0.8964
+country	USA	trimethoprim-sulfamethoxazole	primary	4834	924	3910	942	3892	904	20	38	3872	0.0216	ST131	0.1163	PRJNA292663	0.4348	USA	1.0000	reported	NA	0.9784	0.9903	0.9597	0.9949	0.9843	0.9689	0.9616
+country	United Arab Emirates	amikacin	secondary	1	0	1	0	1	0	0	0	1	NA	ST131	1.0000	PRJNA383781	1.0000	United Arab Emirates	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	United Arab Emirates	aztreonam	secondary	1	1	0	1	0	1	0	0	0	0.0000	ST131	1.0000	PRJNA383781	1.0000	United Arab Emirates	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	United Arab Emirates	ceftazidime	primary	1	1	0	1	0	1	0	0	0	0.0000	ST131	1.0000	PRJNA383781	1.0000	United Arab Emirates	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	United Arab Emirates	chloramphenicol	primary	1	0	1	0	1	0	0	0	1	NA	ST131	1.0000	PRJNA383781	1.0000	United Arab Emirates	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	United Arab Emirates	ciprofloxacin	primary	1	1	0	1	0	1	0	0	0	0.0000	ST131	1.0000	PRJNA383781	1.0000	United Arab Emirates	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	United Arab Emirates	ertapenem	secondary	1	0	1	0	1	0	0	0	1	NA	ST131	1.0000	PRJNA383781	1.0000	United Arab Emirates	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	United Arab Emirates	gentamicin	primary	1	0	1	0	1	0	0	0	1	NA	ST131	1.0000	PRJNA383781	1.0000	United Arab Emirates	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	United Arab Emirates	imipenem	secondary	1	0	1	0	1	0	0	0	1	NA	ST131	1.0000	PRJNA383781	1.0000	United Arab Emirates	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	United Arab Emirates	meropenem	secondary	1	0	1	0	1	0	0	0	1	NA	ST131	1.0000	PRJNA383781	1.0000	United Arab Emirates	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	United Arab Emirates	trimethoprim-sulfamethoxazole	primary	1	1	0	1	0	1	0	0	0	0.0000	ST131	1.0000	PRJNA383781	1.0000	United Arab Emirates	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	Zambia	amikacin	secondary	33	33	0	19	14	19	14	0	0	0.4242	ST617	0.1818	PRJNA1322038	1.0000	Zambia	1.0000	below_support: R 33, S 0; need R>=10 and S>=10	only_R;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Zambia	amoxicillin-clavulanic acid	primary	34	7	27	27	7	1	6	26	1	0.8571	ST131	0.2353	PRJNA1322038	1.0000	Zambia	1.0000	below_support: R 7, S 27; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Zambia	ampicillin	primary	36	0	36	36	0	0	0	36	0	NA	ST131	0.2222	PRJNA1322038	1.0000	Zambia	1.0000	below_support: R 0, S 36; need R>=10 and S>=10	only_S;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Zambia	aztreonam	secondary	32	0	32	31	1	0	0	31	1	NA	ST131	0.1875	PRJNA1322038	1.0000	Zambia	1.0000	below_support: R 0, S 32; need R>=10 and S>=10	only_S;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Zambia	cefepime	primary	35	2	33	35	0	2	0	33	0	0.0000	ST131	0.2286	PRJNA1322038	1.0000	Zambia	1.0000	below_support: R 2, S 33; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Zambia	cefoxitin	primary	26	14	12	6	20	0	14	6	6	1.0000	ST131	0.2308	PRJNA1322038	1.0000	Zambia	1.0000	reported	one_project_majority	0.0000	0.5000	0.0000	0.3000	0.2500	0.0000	-0.5916
+country	Zambia	ceftazidime	primary	34	0	34	33	1	0	0	33	1	NA	ST131	0.2353	PRJNA1322038	1.0000	Zambia	1.0000	below_support: R 0, S 34; need R>=10 and S>=10	only_S;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Zambia	ceftiofur	secondary	35	0	35	34	1	0	0	34	1	NA	ST131	0.2286	PRJNA1322038	1.0000	Zambia	1.0000	below_support: R 0, S 35; need R>=10 and S>=10	only_S;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Zambia	ceftriaxone	primary	35	0	35	34	1	0	0	34	1	NA	ST131	0.2286	PRJNA1322038	1.0000	Zambia	1.0000	below_support: R 0, S 35; need R>=10 and S>=10	only_S;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Zambia	ciprofloxacin	primary	36	0	36	36	0	0	0	36	0	NA	ST131	0.2222	PRJNA1322038	1.0000	Zambia	1.0000	below_support: R 0, S 36; need R>=10 and S>=10	only_S;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Zambia	ertapenem	secondary	35	31	4	4	31	0	31	4	0	1.0000	ST131	0.2286	PRJNA1322038	1.0000	Zambia	1.0000	below_support: R 31, S 4; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Zambia	gentamicin	primary	35	13	22	21	14	0	13	21	1	1.0000	ST131	0.2286	PRJNA1322038	1.0000	Zambia	1.0000	reported	one_project_majority	0.0000	0.0455	0.0000	0.0714	0.0227	0.0000	-0.9415
+country	Zambia	imipenem	secondary	31	31	0	0	31	0	31	0	0	1.0000	ST131	0.2581	PRJNA1322038	1.0000	Zambia	1.0000	below_support: R 31, S 0; need R>=10 and S>=10	only_R;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Zambia	meropenem	secondary	34	31	3	3	31	0	31	3	0	1.0000	ST131	0.2353	PRJNA1322038	1.0000	Zambia	1.0000	below_support: R 31, S 3; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	Zambia	piperacillin-tazobactam	secondary	33	17	16	27	6	12	5	15	1	0.2941	ST131	0.2121	PRJNA1322038	1.0000	Zambia	1.0000	reported	one_project_majority	0.7059	0.0625	0.4444	0.1667	0.3842	0.5455	-0.3001
+country	Zambia	tetracycline	primary	1	0	1	1	0	0	0	1	0	NA	ST10955	1.0000	PRJNA1322038	1.0000	Zambia	1.0000	below_support: R 0, S 1; need R>=10 and S>=10	only_S	NA	NA	NA	NA	NA	NA	NA
+country	Zambia	tobramycin	secondary	35	10	25	25	10	0	10	25	0	1.0000	ST131	0.2286	PRJNA1322038	1.0000	Zambia	1.0000	reported	one_project_majority	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	-1.0000
+country	Zambia	trimethoprim-sulfamethoxazole	primary	36	2	34	34	2	0	2	34	0	1.0000	ST131	0.2222	PRJNA1322038	1.0000	Zambia	1.0000	below_support: R 2, S 34; need R>=10 and S>=10	one_project_majority	NA	NA	NA	NA	NA	NA	NA
+country	unknown	amikacin	secondary	123	15	108	37	86	12	3	25	83	0.2000	ST131	0.2114	PRJNA1242317	0.1951	NA	1.0000	reported	NA	0.8000	0.7685	0.3243	0.9651	0.7843	0.4615	0.4057
+country	unknown	amoxicillin-clavulanic acid	primary	83	43	40	44	39	37	6	7	33	0.1395	ST131	0.2771	PRJNA600948	0.2410	NA	1.0000	reported	NA	0.8605	0.8250	0.8409	0.8462	0.8427	0.8506	0.6863
+country	unknown	ampicillin	primary	72	67	5	67	5	65	2	2	3	0.0299	ST131	0.1806	PRJNA1420937	0.2361	NA	1.0000	below_support: R 67, S 5; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	unknown	aztreonam	secondary	55	45	10	34	21	32	13	2	8	0.2889	ST131	0.2364	PRJNA316321	0.2364	NA	1.0000	reported	NA	0.7111	0.8000	0.9412	0.3810	0.7556	0.8101	0.4058
+country	unknown	cefazolin	primary	88	84	4	85	3	84	0	1	3	0.0000	ST131	0.1591	PRJNA1242317	0.2841	NA	1.0000	below_support: R 84, S 4; need R>=10 and S>=10	extreme_R_S_imbalance	NA	NA	NA	NA	NA	NA	NA
+country	unknown	cefepime	primary	90	60	30	76	14	58	2	18	12	0.0333	ST131	0.1778	PRJNA1242317	0.2667	NA	1.0000	reported	NA	0.9667	0.4000	0.7632	0.8571	0.6833	0.8529	0.4769
+country	unknown	cefoxitin	primary	95	42	53	33	62	31	11	2	51	0.2619	ST131	0.2316	PRJNA600948	0.2211	NA	1.0000	reported	NA	0.7381	0.9623	0.9394	0.8226	0.8502	0.8267	0.7305
+country	unknown	ceftazidime	primary	93	68	25	84	9	67	1	17	8	0.0147	ST131	0.2366	PRJNA600948	0.2151	NA	1.0000	reported	NA	0.9853	0.3200	0.7976	0.8889	0.6526	0.8816	0.4578
+country	unknown	ceftiofur	secondary	3	2	1	1	2	0	2	1	0	1.0000	ST131	0.3333	PRJNA1322038	1.0000	NA	1.0000	below_support: R 2, S 1; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	unknown	ceftriaxone	primary	61	53	8	53	8	51	2	2	6	0.0377	ST131	0.2787	PRJNA316321	0.2295	NA	1.0000	below_support: R 53, S 8; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	unknown	chloramphenicol	primary	38	16	22	21	17	16	0	5	17	0.0000	ST162	0.2105	PRJNA1242317	0.5789	NA	1.0000	reported	one_project_majority	1.0000	0.7727	0.7619	1.0000	0.8864	0.8649	0.7673
+country	unknown	ciprofloxacin	primary	119	91	28	105	14	89	2	16	12	0.0220	ST131	0.2353	PRJNA600948	0.1933	NA	1.0000	reported	NA	0.9780	0.4286	0.8476	0.8571	0.7033	0.9082	0.5353
+country	unknown	ertapenem	secondary	48	24	24	18	30	18	6	0	24	0.2500	ST131	0.2083	PRJNA316321	0.2708	NA	1.0000	reported	NA	0.7500	1.0000	1.0000	0.8000	0.8750	0.8571	0.7746
+country	unknown	gentamicin	primary	125	42	83	41	84	38	4	3	80	0.0952	ST131	0.2320	PRJNA1242317	0.2000	NA	1.0000	reported	NA	0.9048	0.9639	0.9268	0.9524	0.9343	0.9157	0.8739
+country	unknown	imipenem	secondary	116	25	91	19	97	19	6	0	91	0.2400	ST131	0.2328	PRJNA600948	0.2069	NA	1.0000	reported	NA	0.7600	1.0000	1.0000	0.9381	0.8800	0.8636	0.8444
+country	unknown	kanamycin	secondary	25	15	10	11	14	11	4	0	10	0.2667	ST162	0.2400	PRJNA1242317	1.0000	NA	1.0000	reported	one_project_majority	0.7333	1.0000	1.0000	0.7143	0.8667	0.8462	0.7237
+country	unknown	levofloxacin	primary	65	50	15	58	7	50	0	8	7	0.0000	ST131	0.2000	PRJNA1242317	0.3077	NA	1.0000	reported	NA	1.0000	0.4667	0.8621	1.0000	0.7333	0.9259	0.6343
+country	unknown	meropenem	secondary	74	22	52	20	54	18	4	2	50	0.1818	ST131	0.2297	PRJNA1420937	0.2297	NA	1.0000	reported	NA	0.8182	0.9615	0.9000	0.9259	0.8899	0.8571	0.8025
+country	unknown	nalidixic acid	primary	49	43	6	44	5	43	0	1	5	0.0000	ST131	0.2653	PRJNA600948	0.4898	NA	1.0000	below_support: R 43, S 6; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+country	unknown	piperacillin-tazobactam	secondary	60	28	32	40	20	26	2	14	18	0.0714	ST131	0.2000	PRJNA1420937	0.2500	NA	1.0000	reported	NA	0.9286	0.5625	0.6500	0.9000	0.7455	0.7647	0.5197
+country	unknown	streptomycin	primary	1	1	0	1	0	1	0	0	0	0.0000	ST361	1.0000	PRJNA810075	1.0000	NA	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+country	unknown	tetracycline	primary	99	76	23	76	23	73	3	3	20	0.0395	ST131	0.2121	PRJNA600948	0.2424	NA	1.0000	reported	NA	0.9605	0.8696	0.9605	0.8696	0.9150	0.9605	0.8301
+country	unknown	tobramycin	secondary	50	28	22	24	26	21	7	3	19	0.2500	ST131	0.2600	PRJNA316321	0.2800	NA	1.0000	reported	NA	0.7500	0.8636	0.8750	0.7308	0.8068	0.8077	0.6097
+country	unknown	trimethoprim-sulfamethoxazole	primary	84	58	26	57	27	55	3	2	24	0.0517	ST131	0.2619	PRJNA600948	0.2500	NA	1.0000	reported	NA	0.9483	0.9231	0.9649	0.8889	0.9357	0.9565	0.8625
+geography_group	non_reference	amikacin	secondary	530	165	365	72	458	60	105	12	353	0.6364	ST10	0.0906	PRJNA885502	0.6358	Netherlands	0.6358	reported	one_project_majority	0.3636	0.9671	0.8333	0.7707	0.6654	0.5063	0.4470
+geography_group	non_reference	amoxicillin-clavulanic acid	primary	1466	520	946	503	963	443	77	60	886	0.1481	ST10	0.1064	PRJNA966974	0.7387	Canada	0.8438	reported	one_project_majority	0.8519	0.9366	0.8807	0.9200	0.8942	0.8661	0.7946
+geography_group	non_reference	ampicillin	primary	1881	1124	757	1218	663	1092	32	126	631	0.0285	ST10	0.1047	PRJNA966974	0.5986	Canada	0.6858	reported	one_project_majority	0.9715	0.8336	0.8966	0.9517	0.9025	0.9325	0.8264
+geography_group	non_reference	aztreonam	secondary	63	17	46	48	15	11	6	37	9	0.3529	ST131	0.1587	PRJNA1322038	0.6984	Zambia	0.5079	reported	one_project_majority	0.6471	0.1957	0.2292	0.6000	0.4214	0.3385	-0.1639
+geography_group	non_reference	cefazolin	primary	161	99	62	113	48	98	1	15	47	0.0101	ST761	0.0870	PRJNA662792	0.9752	Canada	0.9876	reported	one_project_majority	0.9899	0.7581	0.8673	0.9792	0.8740	0.9245	0.7957
+geography_group	non_reference	cefepime	primary	605	340	265	422	183	303	37	119	146	0.1088	ST10	0.0810	PRJNA885502	0.5372	Netherlands	0.5372	reported	one_project_majority	0.8912	0.5509	0.7180	0.7978	0.7211	0.7953	0.4776
+geography_group	non_reference	cefoxitin	primary	1855	746	1109	649	1206	615	131	34	1075	0.1756	ST10	0.1024	PRJNA966974	0.5984	Canada	0.6841	reported	one_project_majority	0.8244	0.9693	0.9476	0.8914	0.8969	0.8817	0.8160
+geography_group	non_reference	ceftazidime	primary	761	552	209	637	124	521	31	116	93	0.0562	ST10	0.0670	PRJNA885502	0.4336	Netherlands	0.5887	reported	NA	0.9438	0.4450	0.8179	0.7500	0.6944	0.8764	0.4699
+geography_group	non_reference	ceftiofur	secondary	1176	368	808	462	714	337	31	125	683	0.0842	ST10	0.1216	PRJNA966974	0.8767	Canada	0.8767	reported	one_project_majority	0.9158	0.8453	0.7294	0.9566	0.8805	0.8120	0.7226
+geography_group	non_reference	ceftriaxone	primary	1427	567	860	653	774	535	32	118	742	0.0564	ST10	0.1121	PRJNA966974	0.7701	Canada	0.8844	reported	one_project_majority	0.9436	0.8628	0.8193	0.9587	0.9032	0.8770	0.7920
+geography_group	non_reference	chloramphenicol	primary	1635	192	1443	193	1442	186	6	7	1436	0.0312	ST10	0.1125	PRJNA966974	0.6820	Canada	0.7786	reported	one_project_majority	0.9688	0.9951	0.9637	0.9958	0.9819	0.9662	0.9617
+geography_group	non_reference	ciprofloxacin	primary	1727	233	1494	339	1388	210	23	129	1365	0.0987	ST10	0.1146	PRJNA966974	0.5669	Canada	0.6589	reported	one_project_majority	0.9013	0.9137	0.6195	0.9834	0.9075	0.7343	0.7009
+geography_group	non_reference	ertapenem	secondary	485	143	342	22	463	7	136	15	327	0.9510	ST10	0.0948	PRJNA885502	0.6804	Netherlands	0.6804	reported	one_project_majority	0.0490	0.9561	0.3182	0.7063	0.5025	0.0848	0.0112
+geography_group	non_reference	gentamicin	primary	1805	521	1284	472	1333	408	113	64	1220	0.2169	ST10	0.1086	PRJNA966974	0.6100	Canada	0.7003	reported	one_project_majority	0.7831	0.9502	0.8644	0.9152	0.8666	0.8218	0.7561
+geography_group	non_reference	imipenem	secondary	649	131	518	22	627	12	119	10	508	0.9084	ST10	0.0817	PRJNA885502	0.5085	Netherlands	0.5085	reported	one_project_majority	0.0916	0.9807	0.5455	0.8102	0.5361	0.1569	0.1604
+geography_group	non_reference	kanamycin	secondary	1130	153	977	151	979	146	7	5	972	0.0458	ST10	0.1265	PRJNA966974	0.9956	Canada	0.9956	reported	one_project_majority	0.9542	0.9949	0.9669	0.9928	0.9746	0.9605	0.9544
+geography_group	non_reference	levofloxacin	primary	98	20	78	27	71	17	3	10	68	0.1500	ST10	0.1122	PRJNA380388	0.8673	Germany	0.8673	reported	one_project_majority	0.8500	0.8718	0.6296	0.9577	0.8609	0.7234	0.6511
+geography_group	non_reference	meropenem	secondary	671	148	523	50	621	29	119	21	502	0.8041	ST10	0.0790	PRJNA885502	0.4918	Netherlands	0.4918	reported	NA	0.1959	0.9598	0.5800	0.8084	0.5779	0.2929	0.2460
+geography_group	non_reference	nalidixic acid	primary	1655	221	1434	192	1463	179	42	13	1421	0.1900	ST10	0.1160	PRJNA966974	0.6393	Canada	0.7372	reported	one_project_majority	0.8100	0.9909	0.9323	0.9713	0.9004	0.8668	0.8507
+geography_group	non_reference	piperacillin-tazobactam	secondary	280	100	180	78	202	26	74	52	128	0.7400	ST131	0.0750	PRJNA662792	0.5321	Canada	0.5321	reported	one_project_majority	0.2600	0.7111	0.3333	0.6337	0.4856	0.2921	-0.0309
+geography_group	non_reference	streptomycin	primary	1288	661	627	848	440	649	12	199	428	0.0182	ST10	0.1157	PRJNA966974	0.8742	Canada	0.9969	reported	one_project_majority	0.9818	0.6826	0.7653	0.9727	0.8322	0.8602	0.7003
+geography_group	non_reference	sulfisoxazole	primary	1285	775	510	754	531	746	29	8	502	0.0374	ST10	0.1167	PRJNA966974	0.8770	Canada	1.0000	reported	one_project_majority	0.9626	0.9843	0.9894	0.9454	0.9734	0.9758	0.9408
+geography_group	non_reference	tetracycline	primary	1643	832	811	830	813	814	18	16	795	0.0216	ST10	0.1120	PRJNA966974	0.6847	Canada	0.7845	reported	one_project_majority	0.9784	0.9803	0.9807	0.9779	0.9793	0.9795	0.9586
+geography_group	non_reference	tobramycin	secondary	60	23	37	36	24	4	19	32	5	0.8261	ST131	0.2000	PRJNA1322038	0.8167	Zambia	0.5833	reported	one_project_majority	0.1739	0.1351	0.1111	0.2083	0.1545	0.1356	-0.6857
+geography_group	non_reference	trimethoprim-sulfamethoxazole	primary	935	311	624	394	541	290	21	104	520	0.0675	ST10	0.1134	PRJNA966974	0.6770	Canada	0.8439	reported	one_project_majority	0.9325	0.8333	0.7360	0.9612	0.8829	0.8227	0.7307
+geography_group	reference	amikacin	secondary	2694	9	2685	178	2516	8	1	170	2515	0.1111	ST131	0.2019	PRJNA809394	0.7706	USA	1.0000	below_support: R 9, S 2685; need R>=10 and S>=10	extreme_R_S_imbalance;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+geography_group	reference	amoxicillin-clavulanic acid	primary	4884	353	4531	342	4542	318	35	24	4507	0.0992	ST131	0.0776	PRJNA292663	0.5066	USA	1.0000	reported	one_project_majority	0.9008	0.9947	0.9298	0.9923	0.9478	0.9151	0.9087
+geography_group	reference	ampicillin	primary	5820	2424	3396	2284	3536	2242	182	42	3354	0.0751	ST131	0.1134	PRJNA292663	0.4548	USA	1.0000	reported	NA	0.9249	0.9876	0.9816	0.9485	0.9563	0.9524	0.9213
+geography_group	reference	aztreonam	secondary	2166	209	1957	238	1928	192	17	46	1911	0.0813	ST131	0.1533	PRJNA809394	0.9303	USA	1.0000	reported	one_project_majority	0.9187	0.9765	0.8067	0.9912	0.9476	0.8591	0.8451
+geography_group	reference	cefazolin	primary	2344	775	1569	1153	1191	731	44	422	1147	0.0568	ST131	0.1711	PRJNA809394	0.8072	USA	1.0000	reported	one_project_majority	0.9432	0.7310	0.6340	0.9631	0.8371	0.7583	0.6345
+geography_group	reference	cefepime	primary	2893	259	2634	675	2218	253	6	422	2212	0.0232	ST131	0.1974	PRJNA809394	0.6941	USA	1.0000	reported	one_project_majority	0.9768	0.8398	0.3748	0.9973	0.9083	0.5418	0.5512
+geography_group	reference	cefoxitin	primary	3147	238	2909	196	2951	189	49	7	2902	0.2059	ST131	0.0642	PRJNA292663	0.8189	USA	1.0000	reported	one_project_majority	0.7941	0.9976	0.9643	0.9834	0.8959	0.8710	0.8662
+geography_group	reference	ceftazidime	primary	2485	295	2190	606	1879	292	3	314	1876	0.0102	ST131	0.1787	PRJNA809394	0.8129	USA	1.0000	reported	one_project_majority	0.9898	0.8566	0.4818	0.9984	0.9232	0.6482	0.6376
+geography_group	reference	ceftiofur	secondary	118	65	53	68	50	65	0	3	50	0.0000	ST10	0.1186	PRJNA266657	0.6271	USA	1.0000	reported	one_project_majority	1.0000	0.9434	0.9559	1.0000	0.9717	0.9774	0.9496
+geography_group	reference	ceftriaxone	primary	5430	833	4597	925	4505	819	14	106	4491	0.0168	ST131	0.1050	PRJNA292663	0.4808	USA	1.0000	reported	NA	0.9832	0.9769	0.8854	0.9969	0.9801	0.9317	0.9204
+geography_group	reference	chloramphenicol	primary	2783	161	2622	164	2619	160	1	4	2618	0.0062	ST10	0.0596	PRJNA292663	0.9378	USA	1.0000	reported	one_project_majority	0.9938	0.9985	0.9756	0.9996	0.9961	0.9846	0.9837
+geography_group	reference	ciprofloxacin	primary	5578	956	4622	1280	4298	938	18	342	4280	0.0188	ST131	0.0993	PRJNA292663	0.4624	USA	1.0000	reported	NA	0.9812	0.9260	0.7328	0.9958	0.9536	0.8390	0.8130
+geography_group	reference	ertapenem	secondary	2973	23	2950	5	2968	5	18	0	2950	0.7826	ST131	0.2042	PRJNA809394	0.6949	USA	1.0000	reported	extreme_R_S_imbalance;one_project_majority	0.2174	1.0000	1.0000	0.9939	0.6087	0.3571	0.4648
+geography_group	reference	gentamicin	primary	5428	673	4755	646	4782	628	45	18	4737	0.0669	ST131	0.1083	PRJNA292663	0.4731	USA	1.0000	reported	NA	0.9331	0.9962	0.9721	0.9906	0.9647	0.9522	0.9459
+geography_group	reference	imipenem	secondary	2485	3	2482	3	2482	3	0	0	2482	0.0000	ST131	0.1638	PRJNA809394	0.8290	USA	1.0000	below_support: R 3, S 2482; need R>=10 and S>=10	extreme_R_S_imbalance;one_project_majority	NA	NA	NA	NA	NA	NA	NA
+geography_group	reference	kanamycin	secondary	77	10	67	10	67	10	0	0	67	0.0000	ST10	0.1169	PRJNA266657	0.9740	USA	1.0000	reported	one_project_majority	1.0000	1.0000	1.0000	1.0000	1.0000	1.0000	1.0000
+geography_group	reference	levofloxacin	primary	2730	832	1898	1110	1620	823	9	287	1611	0.0108	ST131	0.1769	PRJNA809394	0.7198	USA	1.0000	reported	one_project_majority	0.9892	0.8488	0.7414	0.9944	0.9190	0.8476	0.7853
+geography_group	reference	meropenem	secondary	5451	16	5435	11	5440	10	6	1	5434	0.3750	ST131	0.1108	PRJNA292663	0.4867	USA	1.0000	reported	extreme_R_S_imbalance	0.6250	0.9998	0.9091	0.9989	0.8124	0.7407	0.7532
+geography_group	reference	nalidixic acid	primary	2768	67	2701	71	2697	65	2	6	2695	0.0299	ST10	0.0603	PRJNA292663	0.9382	USA	1.0000	reported	extreme_R_S_imbalance;one_project_majority	0.9701	0.9978	0.9155	0.9993	0.9840	0.9420	0.9410
+geography_group	reference	piperacillin-tazobactam	secondary	2474	64	2410	228	2246	33	31	195	2215	0.4844	ST131	0.1843	PRJNA809394	0.8145	USA	1.0000	reported	extreme_R_S_imbalance;one_project_majority	0.5156	0.9191	0.1447	0.9862	0.7174	0.2260	0.2386
+geography_group	reference	streptomycin	primary	2838	824	2014	906	1932	801	23	105	1909	0.0279	ST10	0.0588	PRJNA292663	0.9348	USA	1.0000	reported	one_project_majority	0.9721	0.9479	0.8841	0.9881	0.9600	0.9260	0.8958
+geography_group	reference	sulfisoxazole	primary	2781	683	2098	688	2093	680	3	8	2090	0.0044	ST10	0.0586	PRJNA292663	0.9540	USA	1.0000	reported	one_project_majority	0.9956	0.9962	0.9884	0.9986	0.9959	0.9920	0.9894
+geography_group	reference	tetracycline	primary	5336	2096	3240	2091	3245	2064	32	27	3213	0.0153	ST131	0.0956	PRJNA292663	0.4904	USA	1.0000	reported	NA	0.9847	0.9917	0.9871	0.9901	0.9882	0.9859	0.9768
+geography_group	reference	tobramycin	secondary	2813	226	2587	252	2561	216	10	36	2551	0.0442	ST131	0.1788	PRJNA809394	0.7010	USA	1.0000	reported	one_project_majority	0.9558	0.9861	0.8571	0.9961	0.9709	0.9038	0.8964
+geography_group	reference	trimethoprim-sulfamethoxazole	primary	4834	924	3910	942	3892	904	20	38	3872	0.0216	ST131	0.1163	PRJNA292663	0.4348	USA	1.0000	reported	NA	0.9784	0.9903	0.9597	0.9949	0.9843	0.9689	0.9616
+geography_group	unknown	amikacin	secondary	123	15	108	37	86	12	3	25	83	0.2000	ST131	0.2114	PRJNA1242317	0.1951	NA	1.0000	reported	NA	0.8000	0.7685	0.3243	0.9651	0.7843	0.4615	0.4057
+geography_group	unknown	amoxicillin-clavulanic acid	primary	83	43	40	44	39	37	6	7	33	0.1395	ST131	0.2771	PRJNA600948	0.2410	NA	1.0000	reported	NA	0.8605	0.8250	0.8409	0.8462	0.8427	0.8506	0.6863
+geography_group	unknown	ampicillin	primary	72	67	5	67	5	65	2	2	3	0.0299	ST131	0.1806	PRJNA1420937	0.2361	NA	1.0000	below_support: R 67, S 5; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+geography_group	unknown	aztreonam	secondary	55	45	10	34	21	32	13	2	8	0.2889	ST131	0.2364	PRJNA316321	0.2364	NA	1.0000	reported	NA	0.7111	0.8000	0.9412	0.3810	0.7556	0.8101	0.4058
+geography_group	unknown	cefazolin	primary	88	84	4	85	3	84	0	1	3	0.0000	ST131	0.1591	PRJNA1242317	0.2841	NA	1.0000	below_support: R 84, S 4; need R>=10 and S>=10	extreme_R_S_imbalance	NA	NA	NA	NA	NA	NA	NA
+geography_group	unknown	cefepime	primary	90	60	30	76	14	58	2	18	12	0.0333	ST131	0.1778	PRJNA1242317	0.2667	NA	1.0000	reported	NA	0.9667	0.4000	0.7632	0.8571	0.6833	0.8529	0.4769
+geography_group	unknown	cefoxitin	primary	95	42	53	33	62	31	11	2	51	0.2619	ST131	0.2316	PRJNA600948	0.2211	NA	1.0000	reported	NA	0.7381	0.9623	0.9394	0.8226	0.8502	0.8267	0.7305
+geography_group	unknown	ceftazidime	primary	93	68	25	84	9	67	1	17	8	0.0147	ST131	0.2366	PRJNA600948	0.2151	NA	1.0000	reported	NA	0.9853	0.3200	0.7976	0.8889	0.6526	0.8816	0.4578
+geography_group	unknown	ceftiofur	secondary	3	2	1	1	2	0	2	1	0	1.0000	ST131	0.3333	PRJNA1322038	1.0000	NA	1.0000	below_support: R 2, S 1; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+geography_group	unknown	ceftriaxone	primary	61	53	8	53	8	51	2	2	6	0.0377	ST131	0.2787	PRJNA316321	0.2295	NA	1.0000	below_support: R 53, S 8; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+geography_group	unknown	chloramphenicol	primary	38	16	22	21	17	16	0	5	17	0.0000	ST162	0.2105	PRJNA1242317	0.5789	NA	1.0000	reported	one_project_majority	1.0000	0.7727	0.7619	1.0000	0.8864	0.8649	0.7673
+geography_group	unknown	ciprofloxacin	primary	119	91	28	105	14	89	2	16	12	0.0220	ST131	0.2353	PRJNA600948	0.1933	NA	1.0000	reported	NA	0.9780	0.4286	0.8476	0.8571	0.7033	0.9082	0.5353
+geography_group	unknown	ertapenem	secondary	48	24	24	18	30	18	6	0	24	0.2500	ST131	0.2083	PRJNA316321	0.2708	NA	1.0000	reported	NA	0.7500	1.0000	1.0000	0.8000	0.8750	0.8571	0.7746
+geography_group	unknown	gentamicin	primary	125	42	83	41	84	38	4	3	80	0.0952	ST131	0.2320	PRJNA1242317	0.2000	NA	1.0000	reported	NA	0.9048	0.9639	0.9268	0.9524	0.9343	0.9157	0.8739
+geography_group	unknown	imipenem	secondary	116	25	91	19	97	19	6	0	91	0.2400	ST131	0.2328	PRJNA600948	0.2069	NA	1.0000	reported	NA	0.7600	1.0000	1.0000	0.9381	0.8800	0.8636	0.8444
+geography_group	unknown	kanamycin	secondary	25	15	10	11	14	11	4	0	10	0.2667	ST162	0.2400	PRJNA1242317	1.0000	NA	1.0000	reported	one_project_majority	0.7333	1.0000	1.0000	0.7143	0.8667	0.8462	0.7237
+geography_group	unknown	levofloxacin	primary	65	50	15	58	7	50	0	8	7	0.0000	ST131	0.2000	PRJNA1242317	0.3077	NA	1.0000	reported	NA	1.0000	0.4667	0.8621	1.0000	0.7333	0.9259	0.6343
+geography_group	unknown	meropenem	secondary	74	22	52	20	54	18	4	2	50	0.1818	ST131	0.2297	PRJNA1420937	0.2297	NA	1.0000	reported	NA	0.8182	0.9615	0.9000	0.9259	0.8899	0.8571	0.8025
+geography_group	unknown	nalidixic acid	primary	49	43	6	44	5	43	0	1	5	0.0000	ST131	0.2653	PRJNA600948	0.4898	NA	1.0000	below_support: R 43, S 6; need R>=10 and S>=10	NA	NA	NA	NA	NA	NA	NA	NA
+geography_group	unknown	piperacillin-tazobactam	secondary	60	28	32	40	20	26	2	14	18	0.0714	ST131	0.2000	PRJNA1420937	0.2500	NA	1.0000	reported	NA	0.9286	0.5625	0.6500	0.9000	0.7455	0.7647	0.5197
+geography_group	unknown	streptomycin	primary	1	1	0	1	0	1	0	0	0	0.0000	ST361	1.0000	PRJNA810075	1.0000	NA	1.0000	below_support: R 1, S 0; need R>=10 and S>=10	only_R	NA	NA	NA	NA	NA	NA	NA
+geography_group	unknown	tetracycline	primary	99	76	23	76	23	73	3	3	20	0.0395	ST131	0.2121	PRJNA600948	0.2424	NA	1.0000	reported	NA	0.9605	0.8696	0.9605	0.8696	0.9150	0.9605	0.8301
+geography_group	unknown	tobramycin	secondary	50	28	22	24	26	21	7	3	19	0.2500	ST131	0.2600	PRJNA316321	0.2800	NA	1.0000	reported	NA	0.7500	0.8636	0.8750	0.7308	0.8068	0.8077	0.6097
+geography_group	unknown	trimethoprim-sulfamethoxazole	primary	84	58	26	57	27	55	3	2	24	0.0517	ST131	0.2619	PRJNA600948	0.2500	NA	1.0000	reported	NA	0.9483	0.9231	0.9649	0.8889	0.9357	0.9565	0.8625

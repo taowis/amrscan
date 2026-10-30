@@ -1,0 +1,17 @@
+measure	subset	pairs	spearman_rho	lodo_min	lodo_max
+unseen_mechanism_fraction	all pairs	84	0.656653	0.623937	0.708521
+unseen_mechanism_fraction	lineage only	24	0.412174		
+unseen_mechanism_fraction	country only	16	0.894118		
+unseen_mechanism_fraction	project only	16	0.7		
+unseen_mechanism_fraction	geography only	15	0.885714		
+unseen_mechanism_fraction	temporal only	13	0.637363		
+unseen_mechanism_fraction	without nalidixic acid	79	0.642827		
+unseen_mechanism_fraction	without nalidixic acid and cefazolin	75	0.616467		
+lineage_shift	all pairs	84	-0.181352	-0.281891	-0.130794
+lineage_shift	lineage only	24	0.309565		
+lineage_shift	country only	16	0.191176		
+lineage_shift	project only	16	-0.188235		
+lineage_shift	geography only	15	-0.0428571		
+lineage_shift	temporal only	13	0		
+lineage_shift	without nalidixic acid	79	-0.130794		
+lineage_shift	without nalidixic acid and cefazolin	75	-0.15764		

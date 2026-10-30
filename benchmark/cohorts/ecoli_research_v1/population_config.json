@@ -1,0 +1,94 @@
+{
+  "population_id": "ecoli_research_v1_population",
+  "config_version": "1.1.0",
+  "cohort_id": "ecoli_research_v1",
+  "genome_qc": {
+    "note": "Broad operational bounds for usable E. coli assemblies, not biological limits. Fail removes an assembly from genomic analyses; warning keeps it and is reported.",
+    "fail_length_min": 2500000,
+    "fail_length_max": 8000000,
+    "warn_length_min": 4000000,
+    "warn_length_max": 6500000,
+    "warn_contigs_max": 500,
+    "warn_n50_min": 20000,
+    "warn_ambiguous_fraction_max": 0.005,
+    "fail_ambiguous_fraction_max": 0.05
+  },
+  "mlst": {
+    "scheme": "ecoli_achtman_4",
+    "loci": ["adk", "fumC", "gyrB", "icd", "mdh", "purA", "recA"]
+  },
+  "phylogroup": {
+    "method": "EzClermont in silico Clermont PCR",
+    "assigned": ["A", "B1", "B2", "C", "D", "E", "F", "G"],
+    "cryptic": ["cryptic"]
+  },
+  "lineage": {
+    "definition": "lineage_id = ST<n> for an assigned Achtman ST; UNKNOWN otherwise",
+    "major_lineage_min_isolates": 50,
+    "top_n": 20
+  },
+  "holdout_eligibility": {
+    "population": ["pr5_eligible_isolate", "genome_qc_not_fail"],
+    "lineage": ["population", "mlst_assigned"],
+    "country": ["population", "known_country"],
+    "temporal": ["population", "valid_collection_year"],
+    "source": ["population", "known_source_category"],
+    "known_source_categories": ["human", "animal", "food", "environment", "other"]
+  },
+  "feasibility_rules": {
+    "decision": "HUMAN_REVIEW_REQUIRED",
+    "note": "Provisional screening rules on binary R/S endpoints of population-eligible isolates. They describe whether a holdout could be populated; they are not study decisions.",
+    "lineage": {"feasible": {"min_R": 50, "min_S": 50, "min_sts_with_both": 5, "max_largest_st_fraction": 0.5},
+                "marginal": {"min_R": 20, "min_S": 20, "min_sts_with_both": 3}},
+    "country": {"min_group_isolates": 50, "feasible": {"min_groups_with_both": 3, "max_largest_fraction": 0.8},
+                "marginal": {"min_groups_with_both": 2}},
+    "temporal": {"cutoff_year": 2021, "feasible": {"min_recent": 100, "min_recent_R": 20, "min_recent_S": 20},
+                 "marginal": {"min_recent": 30, "min_recent_R": 5, "min_recent_S": 5}},
+    "source": {"min_group_isolates": 50, "feasible": {"min_groups_with_both": 3},
+               "marginal": {"min_groups_with_both": 2}},
+    "min_both_per_group": 10
+  },
+  "review_flags": {
+    "note": "Thresholds that raise a human-review flag. Nothing is excluded by them.",
+    "min_lineage_isolates": 50,
+    "lineage_single_country_fraction": 0.9,
+    "lineage_single_source_fraction": 0.9,
+    "lineage_after_cutoff_fraction": 0.9,
+    "dominant_lineage_fraction": 0.1,
+    "min_resistant_for_concentration": 20,
+    "resistance_single_lineage_fraction": 0.5,
+    "resistance_single_cluster_fraction": 0.2,
+    "resistance_single_project_fraction": 0.5,
+    "lineage_single_project_fraction": 0.8,
+    "large_snp_cluster_isolates": 50,
+    "low_mlst_success_fraction": 0.9
+  },
+  "evaluation_design": {
+    "decision_record": "docs/decisions/0001-ecoli-evaluation-design.md",
+    "decided": "2026-10-15",
+    "note": "Decisions taken after review of the population census, before any genotype-phenotype or model result. The temporal cutoff is feasibility_rules.temporal.cutoff_year.",
+    "split_unit": "NCBI SNP cluster, or the isolate when unclustered; never divided in any split, including random splits",
+    "lineage_grouping": "connected components of population isolates sharing an assigned ST or an NCBI SNP cluster",
+    "unknown_lineage": "joins the component of its SNP cluster; without a cluster it is never test data",
+    "primary_external_axis": "leave-one-project-out",
+    "source": "descriptive stratification only; no source holdout",
+    "geography": {"reference_country": "USA", "min_pooled": 20, "min_per_country": 10},
+    "temporal_min_per_period": 20,
+    "drug_tiers": {
+      "primary": {"min_R": 100, "min_S": 100, "max_top_project_R_fraction": 0.5,
+                  "min_projects_with_both": 3, "min_sts_with_both": 10},
+      "secondary": {"min_R": 50, "min_S": 50},
+      "project_both_min": 10,
+      "st_both_min": 5,
+      "excluded": {
+        "cefotaxime": "118 S against 641 R; resistance-enriched sampling from two projects",
+        "cefotaxime-clavulanic acid": "ESBL phenotypic confirmation test, not a treatment drug; 54 of 56 R from PRJNA885502",
+        "ceftazidime-clavulanic acid": "ESBL phenotypic confirmation test, not a treatment drug; all 54 R from PRJNA885502",
+        "colistin": "polymyxin susceptibility is unreliable outside reference broth microdilution; 19 R",
+        "polymyxin B": "polymyxin susceptibility is unreliable outside reference broth microdilution; 106 of 107 R from PRJNA1322038",
+        "trimethoprim": "74% of R from PRJNA885502; two projects with both phenotypes",
+        "ampicillin-sulbactam": "one project with both phenotypes; 56% of R from PRJNA1271593"
+      }
+    }
+  }
+}

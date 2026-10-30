@@ -1,0 +1,13 @@
+representation	drug_set	pairs	pairs_expected	median_gap_AUROC	pairs_gap_positive	pairs_gap_ci_above_zero	largest_gap_AUROC
+R0	all	84	84	0.012848	77	60	0.259519
+R0	r2_drugs	48	48	0.021625	47	39	0.259519
+R1	all	84	84	0.012112	77	53	0.208196
+R1	r2_drugs	48	48	0.016943	47	36	0.208196
+R2	all	48	84	0.013548	47	32	0.263414
+R2	r2_drugs	48	48	0.013548	47	32	0.263414
+R2_permuted	all	48	84	0.021691	46	39	0.237387
+R2_permuted	r2_drugs	48	48	0.021691	46	39	0.237387
+R3	all	48	84	0.015339	45	39	0.209819
+R3	r2_drugs	48	48	0.015339	45	39	0.209819
+R3_permuted	all	48	84	0.018487	47	38	0.213215
+R3_permuted	r2_drugs	48	48	0.018487	47	38	0.213215

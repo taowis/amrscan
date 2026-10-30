@@ -1,0 +1,913 @@
+cohort	antimicrobial	split_strategy	indicator	value	N	N_R	N_S	AUROC	balanced_accuracy	sensitivity	specificity	supported
+common	amikacin	lineage	lineage_seen_in_training	no	3208	47	3161	0.872697	0.796015	0.617021	0.975008	yes
+common	amikacin	lineage	snp_cluster_seen_in_training	no	1430	27	1403	0.913783	0.782041	0.592593	0.97149	yes
+common	amikacin	random	lineage_seen_in_training	yes	2907	40	2867	0.877171	0.797502	0.625	0.970003	yes
+common	amikacin	random	lineage_seen_in_training	no	301	7	294	0.874636	0.85034	0.714286	0.986395	no
+common	amikacin	random	snp_cluster_seen_in_training	yes	1020	11	1009	0.953419	0.76579	0.545455	0.986125	yes
+common	amikacin	random	snp_cluster_seen_in_training	no	410	16	394	0.908629	0.836929	0.75	0.923858	yes
+common	amikacin	random_cluster	lineage_seen_in_training	yes	2821	37	2784	0.836129	0.759854	0.540541	0.979167	yes
+common	amikacin	random_cluster	lineage_seen_in_training	no	387	10	377	0.919363	0.842042	0.7	0.984085	yes
+common	amikacin	random_cluster	snp_cluster_seen_in_training	no	1430	27	1403	0.842084	0.766017	0.555556	0.976479	yes
+common	amoxicillin-clavulanic acid	country	lineage_seen_in_training	yes	4031	618	3413	0.948381	0.908802	0.855987	0.961617	yes
+common	amoxicillin-clavulanic acid	country	lineage_seen_in_training	no	2232	201	2031	0.886025	0.849567	0.711443	0.987691	yes
+common	amoxicillin-clavulanic acid	country	snp_cluster_seen_in_training	yes	72	13	59	1	0.974576	1	0.949153	yes
+common	amoxicillin-clavulanic acid	country	snp_cluster_seen_in_training	no	2617	391	2226	0.936783	0.886054	0.810742	0.961366	yes
+common	amoxicillin-clavulanic acid	geography	lineage_seen_in_training	yes	1157	419	738	0.974509	0.955747	0.933174	0.97832	yes
+common	amoxicillin-clavulanic acid	geography	lineage_seen_in_training	no	219	85	134	0.982397	0.955092	0.917647	0.992537	yes
+common	amoxicillin-clavulanic acid	geography	snp_cluster_seen_in_training	yes	28	9	19	1	1	1	1	no
+common	amoxicillin-clavulanic acid	geography	snp_cluster_seen_in_training	no	669	249	420	0.970711	0.943919	0.911647	0.97619	yes
+common	amoxicillin-clavulanic acid	lineage	lineage_seen_in_training	no	6335	864	5471	0.947364	0.892452	0.795139	0.989764	yes
+common	amoxicillin-clavulanic acid	lineage	snp_cluster_seen_in_training	no	2728	431	2297	0.939815	0.879709	0.770302	0.989116	yes
+common	amoxicillin-clavulanic acid	project	lineage_seen_in_training	yes	5003	689	4314	0.956819	0.916602	0.86357	0.969634	yes
+common	amoxicillin-clavulanic acid	project	lineage_seen_in_training	no	1215	119	1096	0.960341	0.929123	0.865546	0.992701	yes
+common	amoxicillin-clavulanic acid	project	snp_cluster_seen_in_training	yes	239	29	210	0.986371	0.936946	0.931034	0.942857	yes
+common	amoxicillin-clavulanic acid	project	snp_cluster_seen_in_training	no	2415	372	2043	0.953437	0.915058	0.857527	0.972589	yes
+common	amoxicillin-clavulanic acid	random	lineage_seen_in_training	yes	5773	802	4971	0.971842	0.951108	0.917706	0.98451	yes
+common	amoxicillin-clavulanic acid	random	lineage_seen_in_training	no	562	62	500	0.967887	0.915355	0.83871	0.992	yes
+common	amoxicillin-clavulanic acid	random	snp_cluster_seen_in_training	yes	1742	274	1468	0.981307	0.962288	0.941606	0.98297	yes
+common	amoxicillin-clavulanic acid	random	snp_cluster_seen_in_training	no	986	157	829	0.961472	0.92709	0.866242	0.987937	yes
+common	amoxicillin-clavulanic acid	random_cluster	lineage_seen_in_training	yes	5666	795	4871	0.967442	0.941474	0.899371	0.983576	yes
+common	amoxicillin-clavulanic acid	random_cluster	lineage_seen_in_training	no	669	69	600	0.950471	0.937862	0.884058	0.991667	yes
+common	amoxicillin-clavulanic acid	random_cluster	snp_cluster_seen_in_training	no	2728	431	2297	0.963942	0.933724	0.883991	0.983457	yes
+common	amoxicillin-clavulanic acid	temporal	lineage_seen_in_training	yes	368	99	269	0.88596	0.853085	0.858586	0.847584	yes
+common	amoxicillin-clavulanic acid	temporal	lineage_seen_in_training	no	40	10	30	0.671667	0.7	0.5	0.9	yes
+common	amoxicillin-clavulanic acid	temporal	snp_cluster_seen_in_training	yes	60	4	56	0.986607	0.964286	1	0.928571	no
+common	amoxicillin-clavulanic acid	temporal	snp_cluster_seen_in_training	no	148	58	90	0.845881	0.808238	0.827586	0.788889	yes
+common	ampicillin	country	lineage_seen_in_training	yes	4967	2465	2502	0.968744	0.943442	0.918458	0.968425	yes
+common	ampicillin	country	lineage_seen_in_training	no	2130	655	1475	0.948231	0.928674	0.870229	0.987119	yes
+common	ampicillin	country	snp_cluster_seen_in_training	yes	80	54	26	0.962251	0.980769	1	0.961538	yes
+common	ampicillin	country	snp_cluster_seen_in_training	no	3063	1551	1512	0.965596	0.94355	0.915538	0.971561	yes
+common	ampicillin	geography	lineage_seen_in_training	yes	1479	964	515	0.977167	0.943358	0.9139	0.972816	yes
+common	ampicillin	geography	lineage_seen_in_training	no	273	192	81	0.981932	0.93914	0.890625	0.987654	yes
+common	ampicillin	geography	snp_cluster_seen_in_training	yes	33	21	12	1	0.958333	1	0.916667	yes
+common	ampicillin	geography	snp_cluster_seen_in_training	no	828	552	276	0.982179	0.94837	0.914855	0.981884	yes
+common	ampicillin	lineage	lineage_seen_in_training	no	7543	3561	3982	0.983523	0.96805	0.951418	0.984681	yes
+common	ampicillin	lineage	snp_cluster_seen_in_training	no	3344	1805	1539	0.983584	0.97008	0.959003	0.981157	yes
+common	ampicillin	project	lineage_seen_in_training	yes	5871	2702	3169	0.970418	0.94312	0.919689	0.966551	yes
+common	ampicillin	project	lineage_seen_in_training	no	1097	335	762	0.9607	0.929439	0.874627	0.984252	yes
+common	ampicillin	project	snp_cluster_seen_in_training	yes	392	323	69	0.969893	0.944631	0.990712	0.898551	yes
+common	ampicillin	project	snp_cluster_seen_in_training	no	2657	1228	1429	0.964728	0.937488	0.907166	0.96781	yes
+common	ampicillin	random	lineage_seen_in_training	yes	6958	3342	3616	0.987625	0.975029	0.964991	0.985066	yes
+common	ampicillin	random	lineage_seen_in_training	no	585	219	366	0.991978	0.973071	0.954338	0.991803	yes
+common	ampicillin	random	snp_cluster_seen_in_training	yes	2227	1255	972	0.989444	0.974739	0.972112	0.977366	yes
+common	ampicillin	random	snp_cluster_seen_in_training	no	1117	550	567	0.985009	0.976554	0.965455	0.987654	yes
+common	ampicillin	random_cluster	lineage_seen_in_training	yes	6801	3274	3527	0.986218	0.971924	0.960293	0.983555	yes
+common	ampicillin	random_cluster	lineage_seen_in_training	no	742	287	455	0.993721	0.969472	0.947735	0.991209	yes
+common	ampicillin	random_cluster	snp_cluster_seen_in_training	no	3344	1805	1539	0.985961	0.97114	0.961773	0.980507	yes
+common	ampicillin	temporal	lineage_seen_in_training	yes	1000	863	137	0.952508	0.924571	0.951333	0.89781	yes
+common	ampicillin	temporal	lineage_seen_in_training	no	99	88	11	0.988636	0.9375	0.875	1	yes
+common	ampicillin	temporal	snp_cluster_seen_in_training	yes	117	107	10	0.981308	0.95	1	0.9	yes
+common	ampicillin	temporal	snp_cluster_seen_in_training	no	397	355	42	0.94336	0.898994	0.940845	0.857143	yes
+common	aztreonam	lineage	lineage_seen_in_training	no	2260	258	2002	0.982966	0.95113	0.930233	0.972028	yes
+common	aztreonam	lineage	snp_cluster_seen_in_training	no	976	191	785	0.979294	0.952873	0.95288	0.952866	yes
+common	aztreonam	random	lineage_seen_in_training	yes	2033	240	1793	0.99026	0.958695	0.945833	0.971556	yes
+common	aztreonam	random	lineage_seen_in_training	no	227	18	209	0.995481	0.962653	0.944444	0.980861	yes
+common	aztreonam	random	snp_cluster_seen_in_training	yes	714	126	588	0.991078	0.965986	0.97619	0.955782	yes
+common	aztreonam	random	snp_cluster_seen_in_training	no	262	65	197	0.978251	0.941312	0.938462	0.944162	yes
+common	aztreonam	random_cluster	lineage_seen_in_training	yes	2009	235	1774	0.987341	0.956684	0.940426	0.972943	yes
+common	aztreonam	random_cluster	lineage_seen_in_training	no	251	23	228	0.97807	0.886728	0.826087	0.947368	yes
+common	aztreonam	random_cluster	snp_cluster_seen_in_training	no	976	191	785	0.983856	0.94509	0.942408	0.947771	yes
+common	cefazolin	country	lineage_seen_in_training	yes	171	81	90	0.879081	0.806173	0.679012	0.933333	yes
+common	cefazolin	country	lineage_seen_in_training	no	2346	787	1559	0.801775	0.795902	0.625159	0.966645	yes
+common	cefazolin	country	snp_cluster_seen_in_training	no	1149	535	614	0.844245	0.831617	0.699065	0.964169	yes
+common	cefazolin	geography	lineage_seen_in_training	yes	71	51	20	0.887745	0.840196	0.980392	0.7	yes
+common	cefazolin	geography	lineage_seen_in_training	no	90	47	43	0.936665	0.931222	0.978723	0.883721	yes
+common	cefazolin	geography	snp_cluster_seen_in_training	no	119	87	32	0.894217	0.884878	0.988506	0.78125	yes
+common	cefazolin	lineage	lineage_seen_in_training	no	2518	869	1649	0.931461	0.878753	0.796318	0.961189	yes
+common	cefazolin	lineage	snp_cluster_seen_in_training	no	1149	535	614	0.944418	0.90047	0.857944	0.942997	yes
+common	cefazolin	project	lineage_seen_in_training	yes	1729	637	1092	0.882334	0.854919	0.839874	0.869963	yes
+common	cefazolin	project	lineage_seen_in_training	no	677	127	550	0.859263	0.778848	0.80315	0.754545	yes
+common	cefazolin	project	snp_cluster_seen_in_training	yes	111	79	32	0.937104	0.918513	0.962025	0.875	yes
+common	cefazolin	project	snp_cluster_seen_in_training	no	966	386	580	0.9017	0.85075	0.870466	0.831034	yes
+common	cefazolin	random	lineage_seen_in_training	yes	2281	814	1467	0.959452	0.903799	0.858722	0.948875	yes
+common	cefazolin	random	lineage_seen_in_training	no	237	55	182	0.956543	0.889011	0.8	0.978022	yes
+common	cefazolin	random	snp_cluster_seen_in_training	yes	837	390	447	0.97425	0.950052	0.935897	0.964206	yes
+common	cefazolin	random	snp_cluster_seen_in_training	no	312	145	167	0.975676	0.905905	0.889655	0.922156	yes
+common	cefazolin	random_cluster	lineage_seen_in_training	yes	2205	779	1426	0.952489	0.900526	0.861361	0.939691	yes
+common	cefazolin	random_cluster	lineage_seen_in_training	no	313	90	223	0.972646	0.912083	0.855556	0.96861	yes
+common	cefazolin	random_cluster	snp_cluster_seen_in_training	no	1149	535	614	0.963249	0.915451	0.900935	0.929967	yes
+common	cefepime	country	lineage_seen_in_training	yes	1875	437	1438	0.849277	0.817077	0.826087	0.808067	yes
+common	cefepime	country	lineage_seen_in_training	no	1420	130	1290	0.818855	0.815474	0.707692	0.923256	yes
+common	cefepime	country	snp_cluster_seen_in_training	yes	38	8	30	0.916667	0.75	1	0.5	no
+common	cefepime	country	snp_cluster_seen_in_training	no	1399	310	1089	0.851491	0.823136	0.822581	0.823691	yes
+common	cefepime	geography	lineage_seen_in_training	yes	391	265	126	0.859	0.792662	0.807547	0.777778	yes
+common	cefepime	geography	lineage_seen_in_training	no	224	128	96	0.781494	0.723958	0.65625	0.791667	yes
+common	cefepime	geography	snp_cluster_seen_in_training	yes	8	6	2	1	0.916667	0.833333	1	no
+common	cefepime	geography	snp_cluster_seen_in_training	no	310	184	126	0.81649	0.749698	0.777174	0.722222	yes
+common	cefepime	lineage	lineage_seen_in_training	no	3526	652	2874	0.952258	0.873131	0.837423	0.908838	yes
+common	cefepime	lineage	snp_cluster_seen_in_training	no	1579	371	1208	0.925983	0.841717	0.816712	0.866722	yes
+common	cefepime	project	lineage_seen_in_training	yes	2775	499	2276	0.883854	0.841251	0.815631	0.866872	yes
+common	cefepime	project	lineage_seen_in_training	no	576	123	453	0.86195	0.799467	0.658537	0.940397	yes
+common	cefepime	project	snp_cluster_seen_in_training	yes	274	66	208	0.745629	0.710883	0.772727	0.649038	yes
+common	cefepime	project	snp_cluster_seen_in_training	no	1196	284	912	0.870417	0.839688	0.809859	0.869518	yes
+common	cefepime	random	lineage_seen_in_training	yes	3191	578	2613	0.966571	0.906558	0.889273	0.923842	yes
+common	cefepime	random	lineage_seen_in_training	no	335	74	261	0.979963	0.92508	0.945946	0.904215	yes
+common	cefepime	random	snp_cluster_seen_in_training	yes	1130	246	884	0.962118	0.907773	0.910569	0.904977	yes
+common	cefepime	random	snp_cluster_seen_in_training	no	449	125	324	0.958519	0.890556	0.92	0.861111	yes
+common	cefepime	random_cluster	lineage_seen_in_training	yes	3118	562	2556	0.960245	0.896661	0.879004	0.914319	yes
+common	cefepime	random_cluster	lineage_seen_in_training	no	408	90	318	0.958945	0.890147	0.877778	0.902516	yes
+common	cefepime	random_cluster	snp_cluster_seen_in_training	no	1579	371	1208	0.94434	0.871568	0.87062	0.872517	yes
+common	cefepime	temporal	lineage_seen_in_training	yes	877	338	539	0.811192	0.728845	0.724852	0.732839	yes
+common	cefepime	temporal	lineage_seen_in_training	no	195	125	70	0.738629	0.7	0.6	0.8	yes
+common	cefepime	temporal	snp_cluster_seen_in_training	yes	109	22	87	0.819227	0.679467	0.772727	0.586207	yes
+common	cefepime	temporal	snp_cluster_seen_in_training	no	390	216	174	0.781928	0.738266	0.763889	0.712644	yes
+common	cefoxitin	country	lineage_seen_in_training	yes	3670	701	2969	0.959516	0.915874	0.857347	0.974402	yes
+common	cefoxitin	country	lineage_seen_in_training	no	1243	150	1093	0.946185	0.923007	0.853333	0.992681	yes
+common	cefoxitin	country	snp_cluster_seen_in_training	yes	77	28	49	0.98688	0.951531	0.964286	0.938776	yes
+common	cefoxitin	country	snp_cluster_seen_in_training	no	2116	386	1730	0.952268	0.900356	0.823834	0.976879	yes
+common	cefoxitin	geography	lineage_seen_in_training	yes	1479	512	967	0.973446	0.914578	0.863281	0.965874	yes
+common	cefoxitin	geography	lineage_seen_in_training	no	329	117	212	0.951016	0.886087	0.786325	0.985849	yes
+common	cefoxitin	geography	snp_cluster_seen_in_training	yes	41	21	20	1	0.975	1	0.95	yes
+common	cefoxitin	geography	snp_cluster_seen_in_training	no	840	289	551	0.965118	0.899714	0.83391	0.965517	yes
+common	cefoxitin	lineage	lineage_seen_in_training	no	5008	871	4137	0.979471	0.934195	0.887486	0.980904	yes
+common	cefoxitin	lineage	snp_cluster_seen_in_training	no	2245	427	1818	0.970946	0.922671	0.871194	0.974147	yes
+common	cefoxitin	project	lineage_seen_in_training	yes	3688	607	3081	0.966348	0.937557	0.896211	0.978903	yes
+common	cefoxitin	project	lineage_seen_in_training	no	1104	114	990	0.967309	0.957496	0.921053	0.993939	yes
+common	cefoxitin	project	snp_cluster_seen_in_training	yes	74	17	57	0.992776	0.944272	0.941176	0.947368	yes
+common	cefoxitin	project	snp_cluster_seen_in_training	no	2056	338	1718	0.94971	0.91939	0.857988	0.980792	yes
+common	cefoxitin	random	lineage_seen_in_training	yes	4511	794	3717	0.987185	0.94863	0.924433	0.972828	yes
+common	cefoxitin	random	lineage_seen_in_training	no	497	77	420	0.979128	0.944481	0.896104	0.992857	yes
+common	cefoxitin	random	snp_cluster_seen_in_training	yes	1384	275	1109	0.987228	0.940103	0.905455	0.974752	yes
+common	cefoxitin	random	snp_cluster_seen_in_training	no	861	152	709	0.981089	0.942191	0.921053	0.963329	yes
+common	cefoxitin	random_cluster	lineage_seen_in_training	yes	4404	780	3624	0.987131	0.943847	0.916667	0.971026	yes
+common	cefoxitin	random_cluster	lineage_seen_in_training	no	604	91	513	0.980946	0.947625	0.901099	0.994152	yes
+common	cefoxitin	random_cluster	snp_cluster_seen_in_training	no	2245	427	1818	0.983156	0.934318	0.901639	0.966997	yes
+common	cefoxitin	temporal	lineage_seen_in_training	yes	640	136	504	0.856056	0.780929	0.720588	0.84127	yes
+common	cefoxitin	temporal	lineage_seen_in_training	no	108	19	89	0.874926	0.840331	0.736842	0.94382	yes
+common	cefoxitin	temporal	snp_cluster_seen_in_training	yes	59	6	53	0.660377	0.72956	0.666667	0.792453	no
+common	cefoxitin	temporal	snp_cluster_seen_in_training	no	290	74	216	0.802459	0.732107	0.621622	0.842593	yes
+common	ceftazidime	country	lineage_seen_in_training	yes	1834	586	1248	0.925512	0.834184	0.817406	0.850962	yes
+common	ceftazidime	country	lineage_seen_in_training	no	1305	231	1074	0.890826	0.828116	0.718615	0.937616	yes
+common	ceftazidime	country	snp_cluster_seen_in_training	yes	68	20	48	0.892708	0.614583	1	0.229167	yes
+common	ceftazidime	country	snp_cluster_seen_in_training	no	1324	439	885	0.911589	0.83307	0.790433	0.875706	yes
+common	ceftazidime	geography	lineage_seen_in_training	yes	461	392	69	0.851375	0.814071	0.729592	0.898551	yes
+common	ceftazidime	geography	lineage_seen_in_training	no	267	200	67	0.803918	0.752612	0.55	0.955224	yes
+common	ceftazidime	geography	snp_cluster_seen_in_training	yes	15	13	2	0.961538	0.961538	0.923077	1	no
+common	ceftazidime	geography	snp_cluster_seen_in_training	no	376	319	57	0.824919	0.769317	0.661442	0.877193	yes
+common	ceftazidime	lineage	lineage_seen_in_training	no	3238	889	2349	0.97576	0.931193	0.934758	0.927629	yes
+common	ceftazidime	lineage	snp_cluster_seen_in_training	no	1446	504	942	0.968693	0.917507	0.930556	0.904459	yes
+common	ceftazidime	project	lineage_seen_in_training	yes	2184	444	1740	0.948454	0.910011	0.921171	0.898851	yes
+common	ceftazidime	project	lineage_seen_in_training	no	671	93	578	0.985769	0.951985	0.924731	0.979239	yes
+common	ceftazidime	project	snp_cluster_seen_in_training	yes	146	37	109	0.891892	0.781056	0.864865	0.697248	yes
+common	ceftazidime	project	snp_cluster_seen_in_training	no	1132	310	822	0.955447	0.924767	0.932258	0.917275	yes
+common	ceftazidime	random	lineage_seen_in_training	yes	2932	790	2142	0.979367	0.937345	0.931646	0.943044	yes
+common	ceftazidime	random	lineage_seen_in_training	no	306	99	207	0.987752	0.970575	0.979798	0.961353	yes
+common	ceftazidime	random	snp_cluster_seen_in_training	yes	1055	334	721	0.981222	0.935749	0.931138	0.940361	yes
+common	ceftazidime	random	snp_cluster_seen_in_training	no	391	170	221	0.968193	0.919005	0.964706	0.873303	yes
+common	ceftazidime	random_cluster	lineage_seen_in_training	yes	2817	721	2096	0.978187	0.937848	0.933426	0.942271	yes
+common	ceftazidime	random_cluster	lineage_seen_in_training	no	421	168	253	0.982849	0.949499	0.946429	0.952569	yes
+common	ceftazidime	random_cluster	snp_cluster_seen_in_training	no	1446	504	942	0.973882	0.931099	0.936508	0.92569	yes
+common	ceftazidime	temporal	lineage_seen_in_training	yes	610	399	211	0.726906	0.538853	0.817043	0.260664	yes
+common	ceftazidime	temporal	lineage_seen_in_training	no	167	149	18	0.674124	0.693326	0.66443	0.722222	yes
+common	ceftazidime	temporal	snp_cluster_seen_in_training	yes	70	22	48	0.807292	0.506629	0.909091	0.104167	yes
+common	ceftazidime	temporal	snp_cluster_seen_in_training	no	302	244	58	0.643937	0.530172	0.75	0.310345	yes
+common	ceftiofur	lineage	lineage_seen_in_training	no	1284	508	776	0.977266	0.960539	0.94685	0.974227	yes
+common	ceftiofur	lineage	snp_cluster_seen_in_training	no	591	241	350	0.972122	0.956669	0.941909	0.971429	yes
+common	ceftiofur	random	lineage_seen_in_training	yes	1117	443	674	0.976249	0.965589	0.959368	0.97181	yes
+common	ceftiofur	random	lineage_seen_in_training	no	167	65	102	0.996078	0.953846	0.907692	1	yes
+common	ceftiofur	random	snp_cluster_seen_in_training	yes	382	160	222	0.97607	0.972241	0.9625	0.981982	yes
+common	ceftiofur	random	snp_cluster_seen_in_training	no	209	81	128	0.978926	0.953511	0.938272	0.96875	yes
+common	ceftiofur	random_cluster	lineage_seen_in_training	yes	1081	428	653	0.979961	0.964021	0.955607	0.972435	yes
+common	ceftiofur	random_cluster	lineage_seen_in_training	no	203	80	123	0.977134	0.944055	0.9125	0.97561	yes
+common	ceftiofur	random_cluster	snp_cluster_seen_in_training	no	591	241	350	0.975039	0.958743	0.946058	0.971429	yes
+common	ceftriaxone	country	lineage_seen_in_training	yes	4607	1106	3501	0.984179	0.969137	0.950271	0.988003	yes
+common	ceftriaxone	country	lineage_seen_in_training	no	2178	259	1919	0.975638	0.951844	0.907336	0.996352	yes
+common	ceftriaxone	country	snp_cluster_seen_in_training	yes	83	45	38	0.984503	0.986842	1	0.973684	yes
+common	ceftriaxone	country	snp_cluster_seen_in_training	no	2921	735	2186	0.984118	0.972073	0.952381	0.991766	yes
+common	ceftriaxone	geography	lineage_seen_in_training	yes	1197	530	667	0.98307	0.9695	0.958491	0.98051	yes
+common	ceftriaxone	geography	lineage_seen_in_training	no	214	108	106	0.977027	0.967505	0.944444	0.990566	yes
+common	ceftriaxone	geography	snp_cluster_seen_in_training	yes	29	15	14	1	1	1	1	yes
+common	ceftriaxone	geography	snp_cluster_seen_in_training	no	687	341	346	0.975963	0.966424	0.953079	0.979769	yes
+common	ceftriaxone	lineage	lineage_seen_in_training	no	6894	1467	5427	0.986848	0.976215	0.961827	0.990603	yes
+common	ceftriaxone	lineage	snp_cluster_seen_in_training	no	3061	835	2226	0.98695	0.98136	0.97485	0.987871	yes
+common	ceftriaxone	project	lineage_seen_in_training	yes	5420	1125	4295	0.971787	0.929964	0.949333	0.910594	yes
+common	ceftriaxone	project	lineage_seen_in_training	no	1234	163	1071	0.956769	0.948784	0.93865	0.958917	yes
+common	ceftriaxone	project	snp_cluster_seen_in_training	yes	276	123	153	0.987247	0.930575	0.99187	0.869281	yes
+common	ceftriaxone	project	snp_cluster_seen_in_training	no	2634	605	2029	0.969578	0.924413	0.940496	0.908329	yes
+common	ceftriaxone	random	lineage_seen_in_training	yes	6314	1375	4939	0.988139	0.979868	0.969455	0.990281	yes
+common	ceftriaxone	random	lineage_seen_in_training	no	580	92	488	0.990667	0.954473	0.913043	0.995902	yes
+common	ceftriaxone	random	snp_cluster_seen_in_training	yes	2040	604	1436	0.991269	0.984147	0.980132	0.988162	yes
+common	ceftriaxone	random	snp_cluster_seen_in_training	no	1021	231	790	0.987208	0.981051	0.969697	0.992405	yes
+common	ceftriaxone	random_cluster	lineage_seen_in_training	yes	6201	1341	4860	0.988394	0.97737	0.964206	0.990535	yes
+common	ceftriaxone	random_cluster	lineage_seen_in_training	no	693	126	567	0.986605	0.962522	0.928571	0.996473	yes
+common	ceftriaxone	random_cluster	snp_cluster_seen_in_training	no	3061	835	2226	0.989379	0.980463	0.971257	0.989668	yes
+common	ceftriaxone	temporal	lineage_seen_in_training	yes	409	356	53	0.818608	0.799687	0.957865	0.641509	yes
+common	ceftriaxone	temporal	lineage_seen_in_training	no	23	22	1	0.954545	0.931818	0.863636	1	no
+common	ceftriaxone	temporal	snp_cluster_seen_in_training	yes	68	63	5	0.634921	0.592063	0.984127	0.2	no
+common	ceftriaxone	temporal	snp_cluster_seen_in_training	no	154	136	18	0.848856	0.814951	0.963235	0.666667	yes
+common	chloramphenicol	country	lineage_seen_in_training	yes	3097	241	2856	0.995551	0.988051	0.979253	0.996849	yes
+common	chloramphenicol	country	lineage_seen_in_training	no	1248	99	1149	0.986769	0.989464	0.979798	0.99913	yes
+common	chloramphenicol	country	snp_cluster_seen_in_training	yes	39	1	38	1	1	1	1	no
+common	chloramphenicol	country	snp_cluster_seen_in_training	no	1875	141	1734	0.99555	0.991754	0.985816	0.997693	yes
+common	chloramphenicol	geography	lineage_seen_in_training	yes	1290	149	1141	0.99118	0.984386	0.973154	0.995618	yes
+common	chloramphenicol	geography	lineage_seen_in_training	no	311	43	268	0.993796	0.984641	0.976744	0.992537	yes
+common	chloramphenicol	geography	snp_cluster_seen_in_training	yes	21	0	21	NA	NA	NA	1	no
+common	chloramphenicol	geography	snp_cluster_seen_in_training	no	758	88	670	0.990527	0.986398	0.977273	0.995522	yes
+common	chloramphenicol	lineage	lineage_seen_in_training	no	4370	353	4017	0.988213	0.985883	0.974504	0.997262	yes
+common	chloramphenicol	lineage	snp_cluster_seen_in_training	no	1929	149	1780	0.983634	0.985173	0.973154	0.997191	yes
+common	chloramphenicol	project	lineage_seen_in_training	yes	3102	225	2877	0.99711	0.989721	0.982222	0.997219	yes
+common	chloramphenicol	project	lineage_seen_in_training	no	1142	73	1069	0.994413	0.985834	0.972603	0.999065	yes
+common	chloramphenicol	project	snp_cluster_seen_in_training	yes	46	6	40	1	1	1	1	no
+common	chloramphenicol	project	snp_cluster_seen_in_training	no	1805	119	1686	0.993022	0.990707	0.983193	0.998221	yes
+common	chloramphenicol	random	lineage_seen_in_training	yes	3918	306	3612	0.987305	0.98391	0.970588	0.997231	yes
+common	chloramphenicol	random	lineage_seen_in_training	no	452	47	405	1	1	1	1	yes
+common	chloramphenicol	random	snp_cluster_seen_in_training	yes	1184	74	1110	0.985878	0.992342	0.986486	0.998198	yes
+common	chloramphenicol	random	snp_cluster_seen_in_training	no	745	75	670	0.985274	0.977761	0.96	0.995522	yes
+common	chloramphenicol	random_cluster	lineage_seen_in_training	yes	3775	290	3485	0.987653	0.984772	0.972414	0.997131	yes
+common	chloramphenicol	random_cluster	lineage_seen_in_training	no	595	63	532	0.999612	0.99906	1	0.99812	yes
+common	chloramphenicol	random_cluster	snp_cluster_seen_in_training	no	1929	149	1780	0.983974	0.985173	0.973154	0.997191	yes
+common	chloramphenicol	temporal	lineage_seen_in_training	yes	280	81	199	0.99026	0.972579	0.975309	0.969849	yes
+common	chloramphenicol	temporal	lineage_seen_in_training	no	73	15	58	1	1	1	1	yes
+common	chloramphenicol	temporal	snp_cluster_seen_in_training	yes	1	0	1	NA	NA	NA	1	no
+common	chloramphenicol	temporal	snp_cluster_seen_in_training	no	148	37	111	0.994887	0.986486	1	0.972973	yes
+common	ciprofloxacin	country	lineage_seen_in_training	yes	4681	1039	3642	0.949318	0.918033	0.900866	0.9352	yes
+common	ciprofloxacin	country	lineage_seen_in_training	no	1485	83	1402	0.9004	0.823759	0.686747	0.96077	yes
+common	ciprofloxacin	country	snp_cluster_seen_in_training	yes	105	60	45	0.889444	0.847222	0.983333	0.711111	yes
+common	ciprofloxacin	country	snp_cluster_seen_in_training	no	2516	626	1890	0.959341	0.917146	0.900958	0.933333	yes
+common	ciprofloxacin	geography	lineage_seen_in_training	yes	1489	287	1202	0.931122	0.798482	0.602787	0.994176	yes
+common	ciprofloxacin	geography	lineage_seen_in_training	no	280	38	242	0.915507	0.695302	0.394737	0.995868	yes
+common	ciprofloxacin	geography	snp_cluster_seen_in_training	yes	37	10	27	1	0.95	0.9	1	yes
+common	ciprofloxacin	geography	snp_cluster_seen_in_training	no	806	188	618	0.934543	0.790126	0.585106	0.995146	yes
+common	ciprofloxacin	lineage	lineage_seen_in_training	no	7507	1271	6236	0.98511	0.954164	0.929976	0.978352	yes
+common	ciprofloxacin	lineage	snp_cluster_seen_in_training	no	3304	782	2522	0.99084	0.966698	0.960358	0.973037	yes
+common	ciprofloxacin	project	lineage_seen_in_training	yes	5170	1133	4037	0.966183	0.926437	0.888791	0.964082	yes
+common	ciprofloxacin	project	lineage_seen_in_training	no	925	68	857	0.934416	0.8289	0.676471	0.98133	yes
+common	ciprofloxacin	project	snp_cluster_seen_in_training	yes	385	219	166	0.994306	0.976633	0.995434	0.957831	yes
+common	ciprofloxacin	project	snp_cluster_seen_in_training	no	2214	525	1689	0.968617	0.914748	0.868571	0.960924	yes
+common	ciprofloxacin	random	lineage_seen_in_training	yes	6901	1220	5681	0.987087	0.962777	0.940164	0.98539	yes
+common	ciprofloxacin	random	lineage_seen_in_training	no	606	51	555	0.967179	0.916163	0.843137	0.989189	yes
+common	ciprofloxacin	random	snp_cluster_seen_in_training	yes	2212	566	1646	0.997178	0.990391	0.992933	0.987849	yes
+common	ciprofloxacin	random	snp_cluster_seen_in_training	no	1092	216	876	0.981215	0.945142	0.907407	0.982877	yes
+common	ciprofloxacin	random_cluster	lineage_seen_in_training	yes	6760	1199	5561	0.98636	0.963289	0.940784	0.985794	yes
+common	ciprofloxacin	random_cluster	lineage_seen_in_training	no	747	72	675	0.968477	0.914722	0.847222	0.982222	yes
+common	ciprofloxacin	random_cluster	snp_cluster_seen_in_training	no	3304	782	2522	0.992518	0.977076	0.968031	0.986122	yes
+common	ciprofloxacin	temporal	lineage_seen_in_training	yes	962	556	406	0.93682	0.869117	0.77518	0.963054	yes
+common	ciprofloxacin	temporal	lineage_seen_in_training	no	97	43	54	0.885013	0.769811	0.55814	0.981481	yes
+common	ciprofloxacin	temporal	snp_cluster_seen_in_training	yes	107	84	23	0.957039	0.966356	0.97619	0.956522	yes
+common	ciprofloxacin	temporal	snp_cluster_seen_in_training	no	389	275	114	0.911707	0.82823	0.709091	0.947368	yes
+common	ertapenem	lineage	lineage_seen_in_training	no	3458	64	3394	0.809761	0.668795	0.390625	0.946965	yes
+common	ertapenem	lineage	snp_cluster_seen_in_training	no	1536	46	1490	0.816158	0.655252	0.369565	0.94094	yes
+common	ertapenem	random	lineage_seen_in_training	yes	3153	58	3095	0.843778	0.762893	0.586207	0.93958	yes
+common	ertapenem	random	lineage_seen_in_training	no	305	6	299	0.772575	0.696488	0.5	0.892977	no
+common	ertapenem	random	snp_cluster_seen_in_training	yes	1089	23	1066	0.857492	0.754935	0.565217	0.944653	yes
+common	ertapenem	random	snp_cluster_seen_in_training	no	447	23	424	0.901148	0.844135	0.782609	0.90566	yes
+common	ertapenem	random_cluster	lineage_seen_in_training	yes	3087	52	3035	0.817501	0.749192	0.557692	0.940692	yes
+common	ertapenem	random_cluster	lineage_seen_in_training	no	371	12	359	0.666435	0.5513	0.166667	0.935933	yes
+common	ertapenem	random_cluster	snp_cluster_seen_in_training	no	1536	46	1490	0.831252	0.737175	0.543478	0.930872	yes
+common	gentamicin	country	lineage_seen_in_training	yes	5054	961	4093	0.973948	0.94146	0.918835	0.964085	yes
+common	gentamicin	country	lineage_seen_in_training	no	2026	140	1886	0.972712	0.922614	0.85	0.995228	yes
+common	gentamicin	country	snp_cluster_seen_in_training	yes	114	25	89	1	0.876404	1	0.752809	yes
+common	gentamicin	country	snp_cluster_seen_in_training	no	3019	614	2405	0.982042	0.952805	0.941368	0.964241	yes
+common	gentamicin	geography	lineage_seen_in_training	yes	1494	443	1051	0.964975	0.931916	0.878104	0.985728	yes
+common	gentamicin	geography	lineage_seen_in_training	no	283	61	222	0.940851	0.884434	0.786885	0.981982	yes
+common	gentamicin	geography	snp_cluster_seen_in_training	yes	33	14	19	1	1	1	1	yes
+common	gentamicin	geography	snp_cluster_seen_in_training	no	846	292	554	0.972649	0.943839	0.907534	0.980144	yes
+common	gentamicin	lineage	lineage_seen_in_training	no	7193	1172	6021	0.984618	0.962156	0.933447	0.990865	yes
+common	gentamicin	lineage	snp_cluster_seen_in_training	no	3191	673	2518	0.988442	0.972498	0.956909	0.988086	yes
+common	gentamicin	project	lineage_seen_in_training	yes	5718	974	4744	0.982917	0.957847	0.928131	0.987563	yes
+common	gentamicin	project	lineage_seen_in_training	no	1213	111	1102	0.980968	0.929256	0.864865	0.993648	yes
+common	gentamicin	project	snp_cluster_seen_in_training	yes	297	49	248	0.997614	0.98778	0.979592	0.995968	yes
+common	gentamicin	project	snp_cluster_seen_in_training	no	2761	584	2177	0.984418	0.966798	0.946918	0.986679	yes
+common	gentamicin	random	lineage_seen_in_training	yes	6586	1109	5477	0.985384	0.968561	0.946799	0.990323	yes
+common	gentamicin	random	lineage_seen_in_training	no	607	63	544	0.972864	0.923976	0.857143	0.990809	yes
+common	gentamicin	random	snp_cluster_seen_in_training	yes	2123	482	1641	0.988172	0.982249	0.973029	0.991469	yes
+common	gentamicin	random	snp_cluster_seen_in_training	no	1068	191	877	0.988669	0.972321	0.968586	0.976055	yes
+common	gentamicin	random_cluster	lineage_seen_in_training	yes	6484	1099	5385	0.985896	0.964857	0.940855	0.988858	yes
+common	gentamicin	random_cluster	lineage_seen_in_training	no	709	73	636	0.97019	0.932853	0.876712	0.988994	yes
+common	gentamicin	random_cluster	snp_cluster_seen_in_training	no	3191	673	2518	0.987212	0.973138	0.961367	0.984909	yes
+common	gentamicin	temporal	lineage_seen_in_training	yes	716	146	570	0.958622	0.910622	0.849315	0.97193	yes
+common	gentamicin	temporal	lineage_seen_in_training	no	91	15	76	0.95614	0.866667	0.733333	1	yes
+common	gentamicin	temporal	snp_cluster_seen_in_training	yes	73	9	64	1	0.984375	1	0.96875	no
+common	gentamicin	temporal	snp_cluster_seen_in_training	no	314	83	231	0.963412	0.90823	0.855422	0.961039	yes
+common	kanamycin	lineage	lineage_seen_in_training	no	1172	159	1013	0.953519	0.957639	0.918239	0.997038	yes
+common	kanamycin	lineage	snp_cluster_seen_in_training	no	533	66	467	0.942363	0.954545	0.909091	1	yes
+common	kanamycin	random	lineage_seen_in_training	yes	1012	140	872	0.972887	0.960272	0.928571	0.991972	yes
+common	kanamycin	random	lineage_seen_in_training	no	160	19	141	1	0.996454	1	0.992908	yes
+common	kanamycin	random	snp_cluster_seen_in_training	yes	343	39	304	0.9903	0.974359	0.948718	1	yes
+common	kanamycin	random	snp_cluster_seen_in_training	no	190	27	163	0.930698	0.959895	0.925926	0.993865	yes
+common	kanamycin	random_cluster	lineage_seen_in_training	yes	1008	144	864	0.955444	0.95081	0.909722	0.991898	yes
+common	kanamycin	random_cluster	lineage_seen_in_training	no	164	15	149	1	0.996644	1	0.993289	yes
+common	kanamycin	random_cluster	snp_cluster_seen_in_training	no	533	66	467	0.945996	0.953475	0.909091	0.997859	yes
+common	levofloxacin	country	lineage_seen_in_training	yes	59	8	51	0.909314	0.875	0.75	1	no
+common	levofloxacin	country	lineage_seen_in_training	no	27	2	25	0.78	0.75	0.5	1	no
+common	levofloxacin	country	snp_cluster_seen_in_training	yes	3	0	3	NA	NA	NA	1	no
+common	levofloxacin	country	snp_cluster_seen_in_training	no	13	2	11	1	1	1	1	no
+common	levofloxacin	lineage	lineage_seen_in_training	no	2939	840	2099	0.979962	0.952137	0.928571	0.975703	yes
+common	levofloxacin	lineage	snp_cluster_seen_in_training	no	1270	541	729	0.986226	0.956051	0.946396	0.965706	yes
+common	levofloxacin	project	lineage_seen_in_training	yes	2430	778	1652	0.98611	0.977233	0.976864	0.977603	yes
+common	levofloxacin	project	lineage_seen_in_training	no	488	45	443	0.924655	0.85217	0.711111	0.993228	yes
+common	levofloxacin	project	snp_cluster_seen_in_training	yes	241	190	51	0.982869	0.960784	1	0.921569	yes
+common	levofloxacin	project	snp_cluster_seen_in_training	no	1013	337	676	0.991471	0.971845	0.967359	0.976331	yes
+common	levofloxacin	random	lineage_seen_in_training	yes	2680	812	1868	0.98635	0.974087	0.96798	0.980193	yes
+common	levofloxacin	random	lineage_seen_in_training	no	259	28	231	0.98624	0.926407	0.857143	0.995671	yes
+common	levofloxacin	random	snp_cluster_seen_in_training	yes	934	426	508	0.995273	0.981942	0.983568	0.980315	yes
+common	levofloxacin	random	snp_cluster_seen_in_training	no	336	115	221	0.990675	0.973382	0.973913	0.972851	yes
+common	levofloxacin	random_cluster	lineage_seen_in_training	yes	2634	800	1834	0.98662	0.977685	0.975	0.980371	yes
+common	levofloxacin	random_cluster	lineage_seen_in_training	no	305	40	265	0.955566	0.910613	0.825	0.996226	yes
+common	levofloxacin	random_cluster	snp_cluster_seen_in_training	no	1270	541	729	0.993949	0.980261	0.985213	0.975309	yes
+common	levofloxacin	temporal	lineage_seen_in_training	yes	503	301	202	0.962296	0.957822	0.9701	0.945545	yes
+common	levofloxacin	temporal	lineage_seen_in_training	no	42	14	28	0.897959	0.839286	0.714286	0.964286	yes
+common	levofloxacin	temporal	snp_cluster_seen_in_training	yes	90	76	14	0.93468	0.957707	0.986842	0.928571	yes
+common	levofloxacin	temporal	snp_cluster_seen_in_training	no	165	114	51	0.95098	0.934469	0.947368	0.921569	yes
+common	meropenem	lineage	lineage_seen_in_training	no	6127	57	6070	0.946938	0.876534	0.754386	0.998682	yes
+common	meropenem	lineage	snp_cluster_seen_in_training	no	2714	40	2674	0.94669	0.874439	0.75	0.998878	yes
+common	meropenem	random	lineage_seen_in_training	yes	5570	53	5517	0.905635	0.902942	0.811321	0.994562	yes
+common	meropenem	random	lineage_seen_in_training	no	557	4	553	1	0.997288	1	0.994575	no
+common	meropenem	random	snp_cluster_seen_in_training	yes	1781	10	1771	0.781988	0.846894	0.7	0.993789	yes
+common	meropenem	random	snp_cluster_seen_in_training	no	933	30	903	0.96076	0.928904	0.866667	0.991141	yes
+common	meropenem	random_cluster	lineage_seen_in_training	yes	5428	50	5378	0.915244	0.87749	0.76	0.99498	yes
+common	meropenem	random_cluster	lineage_seen_in_training	no	699	7	692	1	1	1	1	no
+common	meropenem	random_cluster	snp_cluster_seen_in_training	no	2714	40	2674	0.946976	0.884695	0.775	0.99439	yes
+common	nalidixic acid	country	lineage_seen_in_training	yes	3364	225	3139	0.955259	0.895707	0.795556	0.995859	yes
+common	nalidixic acid	country	lineage_seen_in_training	no	1129	52	1077	0.950575	0.882758	0.769231	0.996286	yes
+common	nalidixic acid	country	snp_cluster_seen_in_training	yes	39	0	39	NA	NA	NA	1	no
+common	nalidixic acid	country	snp_cluster_seen_in_training	no	1911	130	1781	0.956289	0.905727	0.815385	0.99607	yes
+common	nalidixic acid	geography	lineage_seen_in_training	yes	1361	177	1184	0.880697	0.867523	0.740113	0.994932	yes
+common	nalidixic acid	geography	lineage_seen_in_training	no	333	45	288	0.923688	0.907639	0.822222	0.993056	yes
+common	nalidixic acid	geography	snp_cluster_seen_in_training	yes	21	0	21	NA	NA	NA	1	no
+common	nalidixic acid	geography	snp_cluster_seen_in_training	no	771	109	662	0.909816	0.897572	0.798165	0.996979	yes
+common	nalidixic acid	lineage	lineage_seen_in_training	no	4506	289	4217	0.969024	0.915813	0.847751	0.983875	yes
+common	nalidixic acid	lineage	snp_cluster_seen_in_training	no	1958	137	1821	0.959597	0.917866	0.846715	0.989017	yes
+common	nalidixic acid	project	lineage_seen_in_training	yes	3251	226	3025	0.914741	0.896081	0.79646	0.995702	yes
+common	nalidixic acid	project	lineage_seen_in_training	no	985	40	945	0.894193	0.872884	0.75	0.995767	yes
+common	nalidixic acid	project	snp_cluster_seen_in_training	yes	46	0	46	NA	NA	NA	1	no
+common	nalidixic acid	project	snp_cluster_seen_in_training	no	1723	124	1599	0.941619	0.909414	0.822581	0.996248	yes
+common	nalidixic acid	random	lineage_seen_in_training	yes	4009	260	3749	0.973479	0.924634	0.861538	0.98773	yes
+common	nalidixic acid	random	lineage_seen_in_training	no	497	29	468	0.961465	0.926761	0.862069	0.991453	yes
+common	nalidixic acid	random	snp_cluster_seen_in_training	yes	1207	70	1137	0.992549	0.951866	0.914286	0.989446	yes
+common	nalidixic acid	random	snp_cluster_seen_in_training	no	751	67	684	0.942568	0.913524	0.835821	0.991228	yes
+common	nalidixic acid	random_cluster	lineage_seen_in_training	yes	3928	258	3670	0.974328	0.930324	0.872093	0.988556	yes
+common	nalidixic acid	random_cluster	lineage_seen_in_training	no	578	31	547	0.968685	0.899569	0.806452	0.992687	yes
+common	nalidixic acid	random_cluster	snp_cluster_seen_in_training	no	1958	137	1821	0.966137	0.941411	0.890511	0.992312	yes
+common	nalidixic acid	temporal	lineage_seen_in_training	yes	270	80	190	0.942664	0.85625	0.7125	1	yes
+common	nalidixic acid	temporal	lineage_seen_in_training	no	73	19	54	0.909844	0.894737	0.789474	1	yes
+common	nalidixic acid	temporal	snp_cluster_seen_in_training	yes	1	0	1	NA	NA	NA	1	no
+common	nalidixic acid	temporal	snp_cluster_seen_in_training	no	143	50	93	0.950753	0.83	0.66	1	yes
+common	piperacillin-tazobactam	lineage	lineage_seen_in_training	no	2810	107	2703	0.802523	0.707774	0.579439	0.836108	yes
+common	piperacillin-tazobactam	lineage	snp_cluster_seen_in_training	no	1278	66	1212	0.775171	0.716172	0.666667	0.765677	yes
+common	piperacillin-tazobactam	random	lineage_seen_in_training	yes	2559	101	2458	0.855419	0.784289	0.693069	0.875509	yes
+common	piperacillin-tazobactam	random	lineage_seen_in_training	no	251	6	245	0.866667	0.715306	0.5	0.930612	no
+common	piperacillin-tazobactam	random	snp_cluster_seen_in_training	yes	956	40	916	0.825396	0.783897	0.725	0.842795	yes
+common	piperacillin-tazobactam	random	snp_cluster_seen_in_training	no	322	26	296	0.924766	0.838617	0.846154	0.831081	yes
+common	piperacillin-tazobactam	random_cluster	lineage_seen_in_training	yes	2487	98	2389	0.836532	0.718689	0.591837	0.845542	yes
+common	piperacillin-tazobactam	random_cluster	lineage_seen_in_training	no	323	9	314	0.726645	0.564933	0.222222	0.907643	no
+common	piperacillin-tazobactam	random_cluster	snp_cluster_seen_in_training	no	1278	66	1212	0.812969	0.688606	0.590909	0.786304	yes
+common	streptomycin	country	lineage_seen_in_training	yes	2722	1092	1630	0.949554	0.910956	0.910256	0.911656	yes
+common	streptomycin	country	lineage_seen_in_training	no	1354	375	979	0.95709	0.926351	0.898667	0.954035	yes
+common	streptomycin	country	snp_cluster_seen_in_training	yes	37	16	21	0.885417	0.717262	0.625	0.809524	yes
+common	streptomycin	country	snp_cluster_seen_in_training	no	1760	714	1046	0.955102	0.918153	0.908964	0.927342	yes
+common	streptomycin	geography	lineage_seen_in_training	yes	1025	530	495	0.920305	0.868944	0.964151	0.773737	yes
+common	streptomycin	geography	lineage_seen_in_training	no	229	119	110	0.90699	0.876165	0.915966	0.836364	yes
+common	streptomycin	geography	snp_cluster_seen_in_training	yes	20	8	12	0.953125	0.833333	1	0.666667	no
+common	streptomycin	geography	snp_cluster_seen_in_training	no	605	351	254	0.91997	0.887201	0.951567	0.822835	yes
+common	streptomycin	lineage	lineage_seen_in_training	no	4080	1470	2610	0.96475	0.939436	0.942857	0.936015	yes
+common	streptomycin	lineage	snp_cluster_seen_in_training	no	1799	732	1067	0.9628	0.939875	0.945355	0.934396	yes
+common	streptomycin	project	lineage_seen_in_training	yes	2801	1098	1703	0.949381	0.918398	0.920765	0.916031	yes
+common	streptomycin	project	lineage_seen_in_training	no	1166	320	846	0.94274	0.926441	0.88125	0.971631	yes
+common	streptomycin	project	snp_cluster_seen_in_training	yes	44	23	21	0.872671	0.774327	0.73913	0.809524	yes
+common	streptomycin	project	snp_cluster_seen_in_training	no	1681	681	1000	0.949657	0.924947	0.911894	0.938	yes
+common	streptomycin	random	lineage_seen_in_training	yes	3666	1348	2318	0.967976	0.944621	0.956973	0.932269	yes
+common	streptomycin	random	lineage_seen_in_training	no	414	122	292	0.963227	0.937121	0.901639	0.972603	yes
+common	streptomycin	random	snp_cluster_seen_in_training	yes	1126	508	618	0.971086	0.949179	0.974409	0.923948	yes
+common	streptomycin	random	snp_cluster_seen_in_training	no	673	224	449	0.962242	0.946483	0.941964	0.951002	yes
+common	streptomycin	random_cluster	lineage_seen_in_training	yes	3556	1302	2254	0.964029	0.946525	0.951613	0.941437	yes
+common	streptomycin	random_cluster	lineage_seen_in_training	no	524	168	356	0.968349	0.936932	0.904762	0.969101	yes
+common	streptomycin	random_cluster	snp_cluster_seen_in_training	no	1799	732	1067	0.966181	0.947254	0.953552	0.940956	yes
+common	sulfisoxazole	country	lineage_seen_in_training	yes	2682	1095	1587	0.983108	0.971274	0.967123	0.975425	yes
+common	sulfisoxazole	country	lineage_seen_in_training	no	1337	344	993	0.984827	0.974891	0.97093	0.978852	yes
+common	sulfisoxazole	country	snp_cluster_seen_in_training	yes	37	20	17	1	1	1	1	yes
+common	sulfisoxazole	country	snp_cluster_seen_in_training	no	1728	736	992	0.986278	0.978918	0.985054	0.972782	yes
+common	sulfisoxazole	geography	lineage_seen_in_training	yes	1020	619	401	0.974591	0.971517	0.957997	0.985037	yes
+common	sulfisoxazole	geography	lineage_seen_in_training	no	230	140	90	0.985873	0.974603	0.971429	0.977778	yes
+common	sulfisoxazole	geography	snp_cluster_seen_in_training	yes	20	12	8	1	1	1	1	no
+common	sulfisoxazole	geography	snp_cluster_seen_in_training	no	603	423	180	0.978021	0.975473	0.978723	0.972222	yes
+common	sulfisoxazole	lineage	lineage_seen_in_training	no	4019	1439	2580	0.987951	0.983154	0.972898	0.993411	yes
+common	sulfisoxazole	lineage	snp_cluster_seen_in_training	no	1765	756	1009	0.989625	0.988926	0.986772	0.99108	yes
+common	sulfisoxazole	project	lineage_seen_in_training	yes	2723	1079	1644	0.978372	0.96885	0.963855	0.973844	yes
+common	sulfisoxazole	project	lineage_seen_in_training	no	1168	285	883	0.983744	0.982734	0.982456	0.983012	yes
+common	sulfisoxazole	project	snp_cluster_seen_in_training	yes	41	24	17	1	1	1	1	yes
+common	sulfisoxazole	project	snp_cluster_seen_in_training	no	1660	707	953	0.983893	0.97858	0.984441	0.972718	yes
+common	sulfisoxazole	random	lineage_seen_in_training	yes	3590	1339	2251	0.992679	0.984799	0.977595	0.992004	yes
+common	sulfisoxazole	random	lineage_seen_in_training	no	429	100	329	0.982128	0.975441	0.96	0.990881	yes
+common	sulfisoxazole	random	snp_cluster_seen_in_training	yes	1086	537	549	0.993543	0.98988	0.990689	0.989071	yes
+common	sulfisoxazole	random	snp_cluster_seen_in_training	no	679	219	460	0.990371	0.98652	0.981735	0.991304	yes
+common	sulfisoxazole	random_cluster	lineage_seen_in_training	yes	3512	1298	2214	0.990278	0.98329	0.973806	0.992773	yes
+common	sulfisoxazole	random_cluster	lineage_seen_in_training	no	507	141	366	0.987385	0.978985	0.971631	0.986339	yes
+common	sulfisoxazole	random_cluster	snp_cluster_seen_in_training	no	1765	756	1009	0.991384	0.988431	0.986772	0.990089	yes
+common	tetracycline	country	lineage_seen_in_training	yes	4525	2238	2287	0.985479	0.983996	0.975424	0.992567	yes
+common	tetracycline	country	lineage_seen_in_training	no	2381	653	1728	0.975546	0.972043	0.946401	0.997685	yes
+common	tetracycline	country	snp_cluster_seen_in_training	yes	46	29	17	1	1	1	1	yes
+common	tetracycline	country	snp_cluster_seen_in_training	no	2956	1348	1608	0.979101	0.977472	0.96365	0.991294	yes
+common	tetracycline	geography	lineage_seen_in_training	yes	1350	694	656	0.986358	0.983858	0.978386	0.989329	yes
+common	tetracycline	geography	lineage_seen_in_training	no	259	122	137	0.988034	0.988602	0.991803	0.985401	yes
+common	tetracycline	geography	snp_cluster_seen_in_training	yes	25	16	9	1	1	1	1	no
+common	tetracycline	geography	snp_cluster_seen_in_training	no	754	365	389	0.981523	0.980044	0.978082	0.982005	yes
+common	tetracycline	lineage	lineage_seen_in_training	no	6922	2903	4019	0.990723	0.981503	0.97072	0.992287	yes
+common	tetracycline	lineage	snp_cluster_seen_in_training	no	3012	1385	1627	0.986438	0.977194	0.966065	0.988322	yes
+common	tetracycline	project	lineage_seen_in_training	yes	5468	2387	3081	0.984593	0.982626	0.971093	0.994158	yes
+common	tetracycline	project	lineage_seen_in_training	no	1258	381	877	0.978364	0.972785	0.950131	0.995439	yes
+common	tetracycline	project	snp_cluster_seen_in_training	yes	251	162	89	0.991746	0.973332	0.969136	0.977528	yes
+common	tetracycline	project	snp_cluster_seen_in_training	no	2658	1162	1496	0.975245	0.977487	0.962995	0.991979	yes
+common	tetracycline	random	lineage_seen_in_training	yes	6371	2702	3669	0.991192	0.984701	0.975944	0.993459	yes
+common	tetracycline	random	lineage_seen_in_training	no	551	201	350	0.991244	0.987193	0.9801	0.994286	yes
+common	tetracycline	random	snp_cluster_seen_in_training	yes	2022	926	1096	0.987807	0.983559	0.976242	0.990876	yes
+common	tetracycline	random	snp_cluster_seen_in_training	no	990	459	531	0.988179	0.980041	0.969499	0.990584	yes
+common	tetracycline	random_cluster	lineage_seen_in_training	yes	6195	2638	3557	0.991769	0.985297	0.976497	0.994096	yes
+common	tetracycline	random_cluster	lineage_seen_in_training	no	727	265	462	0.993711	0.984628	0.973585	0.995671	yes
+common	tetracycline	random_cluster	snp_cluster_seen_in_training	no	3012	1385	1627	0.988023	0.983009	0.974007	0.99201	yes
+common	tetracycline	temporal	lineage_seen_in_training	yes	596	342	254	0.984828	0.985323	0.982456	0.988189	yes
+common	tetracycline	temporal	lineage_seen_in_training	no	79	48	31	1	1	1	1	yes
+common	tetracycline	temporal	snp_cluster_seen_in_training	yes	66	36	30	0.969444	0.958333	0.916667	1	yes
+common	tetracycline	temporal	snp_cluster_seen_in_training	no	241	157	84	0.992796	0.990863	0.993631	0.988095	yes
+common	tobramycin	lineage	lineage_seen_in_training	no	2847	260	2587	0.979168	0.962853	0.938462	0.987244	yes
+common	tobramycin	lineage	snp_cluster_seen_in_training	no	1227	172	1055	0.985928	0.972542	0.959302	0.985782	yes
+common	tobramycin	random	lineage_seen_in_training	yes	2597	249	2348	0.985178	0.969941	0.951807	0.988075	yes
+common	tobramycin	random	lineage_seen_in_training	no	250	11	239	0.82693	0.813998	0.636364	0.991632	yes
+common	tobramycin	random	snp_cluster_seen_in_training	yes	893	117	776	0.991012	0.986298	0.982906	0.989691	yes
+common	tobramycin	random	snp_cluster_seen_in_training	no	334	55	279	0.971228	0.947377	0.909091	0.985663	yes
+common	tobramycin	random_cluster	lineage_seen_in_training	yes	2558	246	2312	0.990314	0.969554	0.95122	0.987889	yes
+common	tobramycin	random_cluster	lineage_seen_in_training	no	289	14	275	0.823377	0.815974	0.642857	0.989091	yes
+common	tobramycin	random_cluster	snp_cluster_seen_in_training	no	1227	172	1055	0.986741	0.973964	0.959302	0.988626	yes
+common	trimethoprim-sulfamethoxazole	country	lineage_seen_in_training	yes	4762	1054	3708	0.977008	0.929978	0.906072	0.953883	yes
+common	trimethoprim-sulfamethoxazole	country	lineage_seen_in_training	no	2253	220	2033	0.972989	0.926831	0.877273	0.97639	yes
+common	trimethoprim-sulfamethoxazole	country	snp_cluster_seen_in_training	yes	103	45	58	0.990421	0.974138	1	0.948276	yes
+common	trimethoprim-sulfamethoxazole	country	snp_cluster_seen_in_training	no	2982	664	2318	0.980723	0.942497	0.930723	0.954271	yes
+common	trimethoprim-sulfamethoxazole	geography	lineage_seen_in_training	yes	1200	346	854	0.961773	0.903105	0.817919	0.98829	yes
+common	trimethoprim-sulfamethoxazole	geography	lineage_seen_in_training	no	214	57	157	0.949156	0.897139	0.807018	0.987261	yes
+common	trimethoprim-sulfamethoxazole	geography	snp_cluster_seen_in_training	yes	30	12	18	1	1	1	1	yes
+common	trimethoprim-sulfamethoxazole	geography	snp_cluster_seen_in_training	no	689	229	460	0.969152	0.921426	0.855895	0.986957	yes
+common	trimethoprim-sulfamethoxazole	lineage	lineage_seen_in_training	no	7123	1360	5763	0.980861	0.941699	0.910294	0.973104	yes
+common	trimethoprim-sulfamethoxazole	lineage	snp_cluster_seen_in_training	no	3144	761	2383	0.979342	0.948784	0.929041	0.968527	yes
+common	trimethoprim-sulfamethoxazole	project	lineage_seen_in_training	yes	5852	1173	4679	0.977533	0.938678	0.911338	0.966018	yes
+common	trimethoprim-sulfamethoxazole	project	lineage_seen_in_training	no	1133	112	1021	0.97896	0.930211	0.883929	0.976494	yes
+common	trimethoprim-sulfamethoxazole	project	snp_cluster_seen_in_training	yes	380	160	220	0.988523	0.946591	0.975	0.918182	yes
+common	trimethoprim-sulfamethoxazole	project	snp_cluster_seen_in_training	no	2675	557	2118	0.977542	0.946764	0.922801	0.970727	yes
+common	trimethoprim-sulfamethoxazole	random	lineage_seen_in_training	yes	6541	1293	5248	0.984485	0.960086	0.948183	0.971989	yes
+common	trimethoprim-sulfamethoxazole	random	lineage_seen_in_training	no	582	67	515	0.997508	0.981858	0.985075	0.978641	yes
+common	trimethoprim-sulfamethoxazole	random	snp_cluster_seen_in_training	yes	2123	580	1543	0.985702	0.967957	0.968966	0.966948	yes
+common	trimethoprim-sulfamethoxazole	random	snp_cluster_seen_in_training	no	1021	181	840	0.986125	0.962257	0.944751	0.979762	yes
+common	trimethoprim-sulfamethoxazole	random_cluster	lineage_seen_in_training	yes	6421	1273	5148	0.983904	0.956366	0.94187	0.970862	yes
+common	trimethoprim-sulfamethoxazole	random_cluster	lineage_seen_in_training	no	702	87	615	0.997047	0.99187	1	0.98374	yes
+common	trimethoprim-sulfamethoxazole	random_cluster	snp_cluster_seen_in_training	no	3144	761	2383	0.984808	0.962134	0.955322	0.968947	yes
+common	trimethoprim-sulfamethoxazole	temporal	lineage_seen_in_training	yes	726	344	382	0.972209	0.927151	0.956395	0.897906	yes
+common	trimethoprim-sulfamethoxazole	temporal	lineage_seen_in_training	no	42	19	23	0.995423	0.956522	1	0.913043	yes
+common	trimethoprim-sulfamethoxazole	temporal	snp_cluster_seen_in_training	yes	114	58	56	0.983067	0.928879	0.982759	0.875	yes
+common	trimethoprim-sulfamethoxazole	temporal	snp_cluster_seen_in_training	no	257	137	120	0.957847	0.911953	0.948905	0.875	yes
+maximal	amikacin	lineage	lineage_seen_in_training	no	3332	59	3273	0.872646	0.830734	0.677966	0.983501	yes
+maximal	amikacin	lineage	snp_cluster_seen_in_training	no	1504	35	1469	0.871127	0.817339	0.657143	0.977536	yes
+maximal	amikacin	random	lineage_seen_in_training	yes	3027	54	2973	0.889502	0.849507	0.722222	0.976791	yes
+maximal	amikacin	random	lineage_seen_in_training	no	305	5	300	0.934667	0.888333	0.8	0.976667	no
+maximal	amikacin	random	snp_cluster_seen_in_training	yes	1040	15	1025	0.926309	0.892195	0.8	0.98439	yes
+maximal	amikacin	random	snp_cluster_seen_in_training	no	464	20	444	0.87911	0.844595	0.75	0.939189	yes
+maximal	amikacin	random_cluster	lineage_seen_in_training	yes	2957	51	2906	0.872802	0.799961	0.627451	0.972471	yes
+maximal	amikacin	random_cluster	lineage_seen_in_training	no	375	8	367	0.843665	0.860014	0.75	0.970027	no
+maximal	amikacin	random_cluster	snp_cluster_seen_in_training	no	1504	35	1469	0.871895	0.796927	0.628571	0.965283	yes
+maximal	amoxicillin-clavulanic acid	country	lineage_seen_in_training	yes	4608	665	3943	0.913158	0.882093	0.804511	0.959675	yes
+maximal	amoxicillin-clavulanic acid	country	lineage_seen_in_training	no	1656	155	1501	0.960796	0.939498	0.890323	0.988674	yes
+maximal	amoxicillin-clavulanic acid	country	snp_cluster_seen_in_training	yes	117	14	103	0.971567	0.940014	0.928571	0.951456	yes
+maximal	amoxicillin-clavulanic acid	country	snp_cluster_seen_in_training	no	2573	391	2182	0.928338	0.8878	0.820972	0.954629	yes
+maximal	amoxicillin-clavulanic acid	geography	lineage_seen_in_training	yes	1223	423	800	0.973494	0.950925	0.92435	0.9775	yes
+maximal	amoxicillin-clavulanic acid	geography	lineage_seen_in_training	no	223	85	138	0.984783	0.951577	0.917647	0.985507	yes
+maximal	amoxicillin-clavulanic acid	geography	snp_cluster_seen_in_training	yes	32	9	23	1	1	1	1	no
+maximal	amoxicillin-clavulanic acid	geography	snp_cluster_seen_in_training	no	693	252	441	0.967624	0.936791	0.900794	0.972789	yes
+maximal	amoxicillin-clavulanic acid	lineage	lineage_seen_in_training	no	6491	913	5578	0.955663	0.896305	0.801752	0.990857	yes
+maximal	amoxicillin-clavulanic acid	lineage	snp_cluster_seen_in_training	no	2813	468	2345	0.950734	0.886977	0.784188	0.989765	yes
+maximal	amoxicillin-clavulanic acid	project	lineage_seen_in_training	yes	5094	697	4397	0.96233	0.909265	0.860832	0.957698	yes
+maximal	amoxicillin-clavulanic acid	project	lineage_seen_in_training	no	1127	112	1015	0.981021	0.951909	0.910714	0.993103	yes
+maximal	amoxicillin-clavulanic acid	project	snp_cluster_seen_in_training	yes	246	29	217	0.979024	0.910218	0.931034	0.889401	yes
+maximal	amoxicillin-clavulanic acid	project	snp_cluster_seen_in_training	no	2409	373	2036	0.961934	0.909912	0.86059	0.959234	yes
+maximal	amoxicillin-clavulanic acid	random	lineage_seen_in_training	yes	5921	849	5072	0.972567	0.946271	0.910483	0.982058	yes
+maximal	amoxicillin-clavulanic acid	random	lineage_seen_in_training	no	570	64	506	0.969306	0.932559	0.875	0.990119	yes
+maximal	amoxicillin-clavulanic acid	random	snp_cluster_seen_in_training	yes	1806	299	1507	0.984482	0.961605	0.939799	0.983411	yes
+maximal	amoxicillin-clavulanic acid	random	snp_cluster_seen_in_training	no	1007	169	838	0.964292	0.925365	0.869822	0.980907	yes
+maximal	amoxicillin-clavulanic acid	random_cluster	lineage_seen_in_training	yes	5812	840	4972	0.964903	0.931727	0.880952	0.982502	yes
+maximal	amoxicillin-clavulanic acid	random_cluster	lineage_seen_in_training	no	679	73	606	0.970546	0.94273	0.890411	0.99505	yes
+maximal	amoxicillin-clavulanic acid	random_cluster	snp_cluster_seen_in_training	no	2813	468	2345	0.963685	0.928439	0.876068	0.98081	yes
+maximal	amoxicillin-clavulanic acid	temporal	lineage_seen_in_training	yes	399	113	286	0.889226	0.847856	0.849558	0.846154	yes
+maximal	amoxicillin-clavulanic acid	temporal	lineage_seen_in_training	no	33	9	24	0.731481	0.701389	0.444444	0.958333	no
+maximal	amoxicillin-clavulanic acid	temporal	snp_cluster_seen_in_training	yes	63	4	59	0.974576	0.949153	1	0.898305	no
+maximal	amoxicillin-clavulanic acid	temporal	snp_cluster_seen_in_training	no	157	66	91	0.84632	0.81019	0.818182	0.802198	yes
+maximal	ampicillin	country	lineage_seen_in_training	yes	5526	2679	2847	0.969146	0.94534	0.915267	0.975413	yes
+maximal	ampicillin	country	lineage_seen_in_training	no	1642	477	1165	0.942047	0.931338	0.872117	0.990558	yes
+maximal	ampicillin	country	snp_cluster_seen_in_training	yes	137	103	34	0.969446	0.975585	0.980583	0.970588	yes
+maximal	ampicillin	country	snp_cluster_seen_in_training	no	3035	1522	1513	0.966119	0.944416	0.910644	0.978189	yes
+maximal	ampicillin	geography	lineage_seen_in_training	yes	1546	1000	546	0.977586	0.945179	0.916	0.974359	yes
+maximal	ampicillin	geography	lineage_seen_in_training	no	277	192	85	0.979963	0.93943	0.890625	0.988235	yes
+maximal	ampicillin	geography	snp_cluster_seen_in_training	yes	37	25	12	1	0.958333	1	0.916667	yes
+maximal	ampicillin	geography	snp_cluster_seen_in_training	no	852	567	285	0.982472	0.949773	0.91358	0.985965	yes
+maximal	ampicillin	lineage	lineage_seen_in_training	no	7687	3664	4023	0.986513	0.970497	0.957151	0.983843	yes
+maximal	ampicillin	lineage	snp_cluster_seen_in_training	no	3416	1865	1551	0.985857	0.972363	0.967292	0.977434	yes
+maximal	ampicillin	project	lineage_seen_in_training	yes	5962	2746	3216	0.970603	0.946567	0.917698	0.975435	yes
+maximal	ampicillin	project	lineage_seen_in_training	no	1079	327	752	0.95946	0.930261	0.868502	0.992021	yes
+maximal	ampicillin	project	snp_cluster_seen_in_training	yes	400	331	69	0.963812	0.967993	0.993958	0.942029	yes
+maximal	ampicillin	project	snp_cluster_seen_in_training	no	2678	1240	1438	0.964698	0.939957	0.905645	0.97427	yes
+maximal	ampicillin	random	lineage_seen_in_training	yes	7067	3429	3638	0.988772	0.974668	0.965004	0.984332	yes
+maximal	ampicillin	random	lineage_seen_in_training	no	620	235	385	0.991069	0.965018	0.940426	0.98961	yes
+maximal	ampicillin	random	snp_cluster_seen_in_training	yes	2250	1276	974	0.990206	0.97514	0.974922	0.975359	yes
+maximal	ampicillin	random	snp_cluster_seen_in_training	no	1166	589	577	0.987521	0.972729	0.955857	0.989601	yes
+maximal	ampicillin	random_cluster	lineage_seen_in_training	yes	6949	3382	3567	0.9875	0.971896	0.959491	0.984301	yes
+maximal	ampicillin	random_cluster	lineage_seen_in_training	no	738	282	456	0.994051	0.967245	0.943262	0.991228	yes
+maximal	ampicillin	random_cluster	snp_cluster_seen_in_training	no	3416	1865	1551	0.987664	0.969417	0.958177	0.980658	yes
+maximal	ampicillin	temporal	lineage_seen_in_training	yes	1011	874	137	0.95025	0.920873	0.943936	0.89781	yes
+maximal	ampicillin	temporal	lineage_seen_in_training	no	99	88	11	0.977273	0.9375	0.875	1	yes
+maximal	ampicillin	temporal	snp_cluster_seen_in_training	yes	118	108	10	0.977778	0.95	1	0.9	yes
+maximal	ampicillin	temporal	snp_cluster_seen_in_training	no	398	356	42	0.938737	0.89065	0.924157	0.857143	yes
+maximal	aztreonam	lineage	lineage_seen_in_training	no	2318	306	2012	0.987713	0.951416	0.934641	0.968191	yes
+maximal	aztreonam	lineage	snp_cluster_seen_in_training	no	1013	222	791	0.981051	0.943896	0.945946	0.941846	yes
+maximal	aztreonam	random	lineage_seen_in_training	yes	2092	281	1811	0.987158	0.955241	0.94306	0.967421	yes
+maximal	aztreonam	random	lineage_seen_in_training	no	226	25	201	0.990448	0.93005	0.88	0.9801	yes
+maximal	aztreonam	random	snp_cluster_seen_in_training	yes	735	142	593	0.990131	0.964985	0.978873	0.951096	yes
+maximal	aztreonam	random	snp_cluster_seen_in_training	no	278	80	198	0.966098	0.920896	0.9125	0.929293	yes
+maximal	aztreonam	random_cluster	lineage_seen_in_training	yes	2063	280	1783	0.990203	0.959577	0.95	0.969153	yes
+maximal	aztreonam	random_cluster	lineage_seen_in_training	no	255	26	229	0.97783	0.860598	0.769231	0.951965	yes
+maximal	aztreonam	random_cluster	snp_cluster_seen_in_training	no	1013	222	791	0.983016	0.945516	0.95045	0.940582	yes
+maximal	cefazolin	country	lineage_seen_in_training	yes	236	130	106	0.895755	0.853701	0.792308	0.915094	yes
+maximal	cefazolin	country	lineage_seen_in_training	no	2282	739	1543	0.796714	0.800823	0.635995	0.965651	yes
+maximal	cefazolin	country	snp_cluster_seen_in_training	no	1150	536	614	0.841889	0.846365	0.735075	0.957655	yes
+maximal	cefazolin	geography	lineage_seen_in_training	yes	72	52	20	0.883173	0.840385	0.980769	0.7	yes
+maximal	cefazolin	geography	lineage_seen_in_training	no	90	47	43	0.93716	0.931222	0.978723	0.883721	yes
+maximal	cefazolin	geography	snp_cluster_seen_in_training	no	119	87	32	0.882723	0.884878	0.988506	0.78125	yes
+maximal	cefazolin	lineage	lineage_seen_in_training	no	2607	954	1653	0.932682	0.874005	0.790356	0.957653	yes
+maximal	cefazolin	lineage	snp_cluster_seen_in_training	no	1202	586	616	0.944892	0.894965	0.853242	0.936688	yes
+maximal	cefazolin	project	lineage_seen_in_training	yes	1795	649	1146	0.892162	0.84659	0.793529	0.899651	yes
+maximal	cefazolin	project	lineage_seen_in_training	no	611	115	496	0.855102	0.865156	0.756522	0.97379	yes
+maximal	cefazolin	project	snp_cluster_seen_in_training	yes	113	81	32	0.945988	0.918981	0.962963	0.875	yes
+maximal	cefazolin	project	snp_cluster_seen_in_training	no	964	384	580	0.907179	0.874847	0.830729	0.918966	yes
+maximal	cefazolin	random	lineage_seen_in_training	yes	2370	891	1479	0.961239	0.915614	0.87991	0.951318	yes
+maximal	cefazolin	random	lineage_seen_in_training	no	237	63	174	0.975005	0.914204	0.857143	0.971264	yes
+maximal	cefazolin	random	snp_cluster_seen_in_training	yes	846	415	431	0.976468	0.956093	0.946988	0.965197	yes
+maximal	cefazolin	random	snp_cluster_seen_in_training	no	356	171	185	0.97253	0.913118	0.918129	0.908108	yes
+maximal	cefazolin	random_cluster	lineage_seen_in_training	yes	2300	858	1442	0.955171	0.894991	0.846154	0.943828	yes
+maximal	cefazolin	random_cluster	lineage_seen_in_training	no	307	96	211	0.966059	0.915235	0.854167	0.976303	yes
+maximal	cefazolin	random_cluster	snp_cluster_seen_in_training	no	1202	586	616	0.964176	0.915485	0.895904	0.935065	yes
+maximal	cefepime	country	lineage_seen_in_training	yes	1875	437	1438	0.827043	0.792535	0.82151	0.763561	yes
+maximal	cefepime	country	lineage_seen_in_training	no	1420	130	1290	0.705865	0.766398	0.669231	0.863566	yes
+maximal	cefepime	country	snp_cluster_seen_in_training	yes	38	8	30	0.8875	0.85	1	0.7	no
+maximal	cefepime	country	snp_cluster_seen_in_training	no	1399	310	1089	0.831193	0.803652	0.83871	0.768595	yes
+maximal	cefepime	geography	lineage_seen_in_training	yes	393	266	127	0.856891	0.809721	0.721805	0.897638	yes
+maximal	cefepime	geography	lineage_seen_in_training	no	224	128	96	0.780965	0.779948	0.601562	0.958333	yes
+maximal	cefepime	geography	snp_cluster_seen_in_training	yes	8	6	2	1	0.833333	0.666667	1	no
+maximal	cefepime	geography	snp_cluster_seen_in_training	no	310	184	126	0.813233	0.795204	0.717391	0.873016	yes
+maximal	cefepime	lineage	lineage_seen_in_training	no	3618	714	2904	0.957178	0.887605	0.858543	0.916667	yes
+maximal	cefepime	lineage	snp_cluster_seen_in_training	no	1632	409	1223	0.937641	0.871859	0.858191	0.885527	yes
+maximal	cefepime	project	lineage_seen_in_training	yes	2783	504	2279	0.884863	0.825503	0.785714	0.865292	yes
+maximal	cefepime	project	lineage_seen_in_training	no	570	119	451	0.851255	0.808651	0.663866	0.953437	yes
+maximal	cefepime	project	snp_cluster_seen_in_training	yes	281	69	212	0.711444	0.644825	0.681159	0.608491	yes
+maximal	cefepime	project	snp_cluster_seen_in_training	no	1190	282	908	0.873612	0.840808	0.804965	0.876652	yes
+maximal	cefepime	random	lineage_seen_in_training	yes	3288	643	2645	0.966877	0.903915	0.88647	0.921361	yes
+maximal	cefepime	random	lineage_seen_in_training	no	330	71	259	0.977269	0.917206	0.915493	0.918919	yes
+maximal	cefepime	random	snp_cluster_seen_in_training	yes	1120	256	864	0.960128	0.905093	0.90625	0.903935	yes
+maximal	cefepime	random	snp_cluster_seen_in_training	no	512	153	359	0.950243	0.866878	0.875817	0.857939	yes
+maximal	cefepime	random_cluster	lineage_seen_in_training	yes	3212	618	2594	0.961308	0.896065	0.883495	0.908635	yes
+maximal	cefepime	random_cluster	lineage_seen_in_training	no	406	96	310	0.972245	0.906855	0.875	0.93871	yes
+maximal	cefepime	random_cluster	snp_cluster_seen_in_training	no	1632	409	1223	0.948212	0.882842	0.892421	0.873262	yes
+maximal	cefepime	temporal	lineage_seen_in_training	yes	903	356	547	0.77972	0.710173	0.879213	0.541133	yes
+maximal	cefepime	temporal	lineage_seen_in_training	no	197	127	70	0.724241	0.684646	0.669291	0.7	yes
+maximal	cefepime	temporal	snp_cluster_seen_in_training	yes	110	22	88	0.782541	0.670455	1	0.340909	yes
+maximal	cefepime	temporal	snp_cluster_seen_in_training	no	400	226	174	0.74302	0.6982	0.827434	0.568966	yes
+maximal	cefoxitin	country	lineage_seen_in_training	yes	3737	753	2984	0.944194	0.888315	0.840637	0.935992	yes
+maximal	cefoxitin	country	lineage_seen_in_training	no	1240	162	1078	0.931649	0.88377	0.796296	0.971243	yes
+maximal	cefoxitin	country	snp_cluster_seen_in_training	yes	78	29	49	0.987333	0.839901	0.965517	0.714286	yes
+maximal	cefoxitin	country	snp_cluster_seen_in_training	no	2130	400	1730	0.947689	0.886481	0.8325	0.940462	yes
+maximal	cefoxitin	geography	lineage_seen_in_training	yes	1531	562	969	0.954417	0.888844	0.822064	0.955624	yes
+maximal	cefoxitin	geography	lineage_seen_in_training	no	343	131	212	0.925104	0.841711	0.70229	0.981132	yes
+maximal	cefoxitin	geography	snp_cluster_seen_in_training	yes	42	22	20	1	0.95	1	0.9	yes
+maximal	cefoxitin	geography	snp_cluster_seen_in_training	no	854	303	551	0.948216	0.892578	0.825083	0.960073	yes
+maximal	cefoxitin	lineage	lineage_seen_in_training	no	5175	975	4200	0.972749	0.919588	0.871795	0.967381	yes
+maximal	cefoxitin	lineage	snp_cluster_seen_in_training	no	2327	471	1856	0.967272	0.919286	0.878981	0.959591	yes
+maximal	cefoxitin	project	lineage_seen_in_training	yes	3704	611	3093	0.96984	0.934512	0.918167	0.950857	yes
+maximal	cefoxitin	project	lineage_seen_in_training	no	1091	110	981	0.974071	0.962534	0.945455	0.979613	yes
+maximal	cefoxitin	project	snp_cluster_seen_in_training	yes	115	23	92	0.909263	0.771739	0.869565	0.673913	yes
+maximal	cefoxitin	project	snp_cluster_seen_in_training	no	2016	332	1684	0.955073	0.924978	0.888554	0.961401	yes
+maximal	cefoxitin	random	lineage_seen_in_training	yes	4675	889	3786	0.98237	0.940845	0.913386	0.968304	yes
+maximal	cefoxitin	random	lineage_seen_in_training	no	500	86	414	0.97739	0.932423	0.872093	0.992754	yes
+maximal	cefoxitin	random	snp_cluster_seen_in_training	yes	1403	296	1107	0.985083	0.945458	0.918919	0.971996	yes
+maximal	cefoxitin	random	snp_cluster_seen_in_training	no	924	175	749	0.972397	0.917784	0.874286	0.961282	yes
+maximal	cefoxitin	random_cluster	lineage_seen_in_training	yes	4559	871	3688	0.982081	0.943299	0.925373	0.961226	yes
+maximal	cefoxitin	random_cluster	lineage_seen_in_training	no	616	104	512	0.969266	0.937425	0.884615	0.990234	yes
+maximal	cefoxitin	random_cluster	snp_cluster_seen_in_training	no	2327	471	1856	0.978268	0.9357	0.917197	0.954203	yes
+maximal	cefoxitin	temporal	lineage_seen_in_training	yes	660	140	520	0.854416	0.803571	0.707143	0.9	yes
+maximal	cefoxitin	temporal	lineage_seen_in_training	no	109	20	89	0.895787	0.841292	0.75	0.932584	yes
+maximal	cefoxitin	temporal	snp_cluster_seen_in_training	yes	66	8	58	0.670259	0.698276	0.5	0.896552	no
+maximal	cefoxitin	temporal	snp_cluster_seen_in_training	no	291	73	218	0.809287	0.75088	0.616438	0.885321	yes
+maximal	ceftazidime	country	lineage_seen_in_training	yes	2135	601	1534	0.94171	0.853289	0.821963	0.884615	yes
+maximal	ceftazidime	country	lineage_seen_in_training	no	1044	229	815	0.937836	0.827133	0.720524	0.933742	yes
+maximal	ceftazidime	country	snp_cluster_seen_in_training	yes	68	20	48	0.91875	0.645833	1	0.291667	yes
+maximal	ceftazidime	country	snp_cluster_seen_in_training	no	1334	445	889	0.933258	0.843757	0.8	0.887514	yes
+maximal	ceftazidime	geography	lineage_seen_in_training	yes	496	404	92	0.871556	0.830768	0.737624	0.923913	yes
+maximal	ceftazidime	geography	lineage_seen_in_training	no	274	202	72	0.790876	0.763339	0.554455	0.972222	yes
+maximal	ceftazidime	geography	snp_cluster_seen_in_training	yes	15	13	2	0.961538	0.961538	0.923077	1	no
+maximal	ceftazidime	geography	snp_cluster_seen_in_training	no	386	325	61	0.824489	0.79082	0.68	0.901639	yes
+maximal	ceftazidime	lineage	lineage_seen_in_training	no	3373	973	2400	0.976686	0.927209	0.919836	0.934583	yes
+maximal	ceftazidime	lineage	snp_cluster_seen_in_training	no	1516	559	957	0.971464	0.918023	0.924866	0.911181	yes
+maximal	ceftazidime	project	lineage_seen_in_training	yes	2289	457	1832	0.945487	0.902185	0.901532	0.902838	yes
+maximal	ceftazidime	project	lineage_seen_in_training	no	609	95	514	0.958059	0.874882	0.778947	0.970817	yes
+maximal	ceftazidime	project	snp_cluster_seen_in_training	yes	155	41	114	0.871416	0.763586	0.878049	0.649123	yes
+maximal	ceftazidime	project	snp_cluster_seen_in_training	no	1134	313	821	0.944556	0.891115	0.86262	0.91961	yes
+maximal	ceftazidime	random	lineage_seen_in_training	yes	3042	867	2175	0.978814	0.93171	0.925029	0.938391	yes
+maximal	ceftazidime	random	lineage_seen_in_training	no	331	106	225	0.984109	0.940314	0.933962	0.946667	yes
+maximal	ceftazidime	random	snp_cluster_seen_in_training	yes	1100	378	722	0.983229	0.941121	0.941799	0.940443	yes
+maximal	ceftazidime	random	snp_cluster_seen_in_training	no	416	181	235	0.959492	0.896861	0.917127	0.876596	yes
+maximal	ceftazidime	random_cluster	lineage_seen_in_training	yes	2960	825	2135	0.974678	0.924844	0.911515	0.938173	yes
+maximal	ceftazidime	random_cluster	lineage_seen_in_training	no	413	148	265	0.975829	0.936423	0.925676	0.94717	yes
+maximal	ceftazidime	random_cluster	snp_cluster_seen_in_training	no	1516	559	957	0.967301	0.911691	0.906977	0.916405	yes
+maximal	ceftazidime	temporal	lineage_seen_in_training	yes	628	413	215	0.720604	0.533859	0.830508	0.237209	yes
+maximal	ceftazidime	temporal	lineage_seen_in_training	no	166	147	19	0.655926	0.67884	0.673469	0.684211	yes
+maximal	ceftazidime	temporal	snp_cluster_seen_in_training	yes	74	23	51	0.797528	0.537084	0.956522	0.117647	yes
+maximal	ceftazidime	temporal	snp_cluster_seen_in_training	no	306	249	57	0.646727	0.521877	0.763052	0.280702	yes
+maximal	ceftiofur	lineage	lineage_seen_in_training	no	1287	509	778	0.97533	0.957337	0.939096	0.975578	yes
+maximal	ceftiofur	lineage	snp_cluster_seen_in_training	no	592	242	350	0.968081	0.959646	0.942149	0.977143	yes
+maximal	ceftiofur	random	lineage_seen_in_training	yes	1123	449	674	0.978012	0.960664	0.951002	0.970326	yes
+maximal	ceftiofur	random	lineage_seen_in_training	no	164	60	104	0.985897	0.958333	0.916667	1	yes
+maximal	ceftiofur	random	snp_cluster_seen_in_training	yes	364	147	217	0.981065	0.970375	0.959184	0.981567	yes
+maximal	ceftiofur	random	snp_cluster_seen_in_training	no	228	95	133	0.964939	0.949624	0.936842	0.962406	yes
+maximal	ceftiofur	random_cluster	lineage_seen_in_training	yes	1086	431	655	0.978656	0.960004	0.953596	0.966412	yes
+maximal	ceftiofur	random_cluster	lineage_seen_in_training	no	201	78	123	0.975922	0.940588	0.897436	0.98374	yes
+maximal	ceftiofur	random_cluster	snp_cluster_seen_in_training	no	592	242	350	0.974174	0.950437	0.938017	0.962857	yes
+maximal	ceftriaxone	country	lineage_seen_in_training	yes	4608	1107	3501	0.983388	0.970063	0.952123	0.988003	yes
+maximal	ceftriaxone	country	lineage_seen_in_training	no	2178	259	1919	0.978139	0.955705	0.915058	0.996352	yes
+maximal	ceftriaxone	country	snp_cluster_seen_in_training	yes	83	45	38	0.985088	0.986842	1	0.973684	yes
+maximal	ceftriaxone	country	snp_cluster_seen_in_training	no	2922	736	2186	0.984138	0.973464	0.955163	0.991766	yes
+maximal	ceftriaxone	geography	lineage_seen_in_training	yes	1199	531	668	0.982261	0.975204	0.969868	0.980539	yes
+maximal	ceftriaxone	geography	lineage_seen_in_training	no	214	108	106	0.978861	0.967505	0.944444	0.990566	yes
+maximal	ceftriaxone	geography	snp_cluster_seen_in_training	yes	29	15	14	1	1	1	1	yes
+maximal	ceftriaxone	geography	snp_cluster_seen_in_training	no	687	341	346	0.976836	0.973755	0.967742	0.979769	yes
+maximal	ceftriaxone	lineage	lineage_seen_in_training	no	6958	1521	5437	0.988168	0.972956	0.955293	0.99062	yes
+maximal	ceftriaxone	lineage	snp_cluster_seen_in_training	no	3099	871	2228	0.988433	0.976818	0.964409	0.989228	yes
+maximal	ceftriaxone	project	lineage_seen_in_training	yes	5439	1127	4312	0.973925	0.952509	0.967169	0.937848	yes
+maximal	ceftriaxone	project	lineage_seen_in_training	no	1218	162	1056	0.957211	0.958246	0.938272	0.97822	yes
+maximal	ceftriaxone	project	snp_cluster_seen_in_training	yes	279	126	153	0.988951	0.894725	0.992063	0.797386	yes
+maximal	ceftriaxone	project	snp_cluster_seen_in_training	no	2632	603	2029	0.976187	0.956669	0.973466	0.939872	yes
+maximal	ceftriaxone	random	lineage_seen_in_training	yes	6384	1429	4955	0.98976	0.979559	0.969209	0.989909	yes
+maximal	ceftriaxone	random	lineage_seen_in_training	no	574	92	482	0.98453	0.949012	0.902174	0.995851	yes
+maximal	ceftriaxone	random	snp_cluster_seen_in_training	yes	2067	619	1448	0.990668	0.985362	0.983845	0.986878	yes
+maximal	ceftriaxone	random	snp_cluster_seen_in_training	no	1032	252	780	0.988757	0.976954	0.960317	0.99359	yes
+maximal	ceftriaxone	random_cluster	lineage_seen_in_training	yes	6276	1399	4877	0.989944	0.974403	0.957827	0.990978	yes
+maximal	ceftriaxone	random_cluster	lineage_seen_in_training	no	682	122	560	0.982919	0.957231	0.918033	0.996429	yes
+maximal	ceftriaxone	random_cluster	snp_cluster_seen_in_training	no	3099	871	2228	0.990283	0.974971	0.959816	0.990126	yes
+maximal	ceftriaxone	temporal	lineage_seen_in_training	yes	420	366	54	0.824201	0.808743	0.95082	0.666667	yes
+maximal	ceftriaxone	temporal	lineage_seen_in_training	no	23	22	1	0.954545	0.931818	0.863636	1	no
+maximal	ceftriaxone	temporal	snp_cluster_seen_in_training	yes	68	63	5	0.628571	0.592063	0.984127	0.2	no
+maximal	ceftriaxone	temporal	snp_cluster_seen_in_training	no	158	140	18	0.845635	0.811905	0.957143	0.666667	yes
+maximal	chloramphenicol	country	lineage_seen_in_training	yes	3097	241	2856	0.996897	0.987876	0.979253	0.996499	yes
+maximal	chloramphenicol	country	lineage_seen_in_training	no	1248	99	1149	0.989547	0.989464	0.979798	0.99913	yes
+maximal	chloramphenicol	country	snp_cluster_seen_in_training	yes	39	1	38	1	1	1	1	no
+maximal	chloramphenicol	country	snp_cluster_seen_in_training	no	1875	141	1734	0.994033	0.991754	0.985816	0.997693	yes
+maximal	chloramphenicol	geography	lineage_seen_in_training	yes	1290	149	1141	0.992827	0.983948	0.973154	0.994741	yes
+maximal	chloramphenicol	geography	lineage_seen_in_training	no	311	43	268	0.986289	0.984641	0.976744	0.992537	yes
+maximal	chloramphenicol	geography	snp_cluster_seen_in_training	yes	21	0	21	NA	NA	NA	1	no
+maximal	chloramphenicol	geography	snp_cluster_seen_in_training	no	758	88	670	0.994276	0.986398	0.977273	0.995522	yes
+maximal	chloramphenicol	lineage	lineage_seen_in_training	no	4409	369	4040	0.988642	0.986072	0.97561	0.996535	yes
+maximal	chloramphenicol	lineage	snp_cluster_seen_in_training	no	1948	156	1792	0.987832	0.985226	0.974359	0.996094	yes
+maximal	chloramphenicol	project	lineage_seen_in_training	yes	3112	226	2886	0.99248	0.994189	0.99115	0.997228	yes
+maximal	chloramphenicol	project	lineage_seen_in_training	no	1132	72	1060	0.981368	0.985639	0.972222	0.999057	yes
+maximal	chloramphenicol	project	snp_cluster_seen_in_training	yes	48	7	41	1	1	1	1	no
+maximal	chloramphenicol	project	snp_cluster_seen_in_training	no	1803	118	1685	0.991596	0.990635	0.983051	0.99822	yes
+maximal	chloramphenicol	random	lineage_seen_in_training	yes	3940	325	3615	0.989199	0.982817	0.969231	0.996404	yes
+maximal	chloramphenicol	random	lineage_seen_in_training	no	469	44	425	1	0.998824	1	0.997647	yes
+maximal	chloramphenicol	random	snp_cluster_seen_in_training	yes	1195	85	1110	0.987101	0.992766	0.988235	0.997297	yes
+maximal	chloramphenicol	random	snp_cluster_seen_in_training	no	753	71	682	0.98859	0.975941	0.957746	0.994135	yes
+maximal	chloramphenicol	random_cluster	lineage_seen_in_training	yes	3861	318	3543	0.985746	0.979297	0.962264	0.996331	yes
+maximal	chloramphenicol	random_cluster	lineage_seen_in_training	no	548	51	497	1	0.998994	1	0.997988	yes
+maximal	chloramphenicol	random_cluster	snp_cluster_seen_in_training	no	1948	156	1792	0.983237	0.985226	0.974359	0.996094	yes
+maximal	chloramphenicol	temporal	lineage_seen_in_training	yes	301	91	210	0.988121	0.98022	0.989011	0.971429	yes
+maximal	chloramphenicol	temporal	lineage_seen_in_training	no	76	16	60	0.997917	0.960417	0.9375	0.983333	yes
+maximal	chloramphenicol	temporal	snp_cluster_seen_in_training	yes	1	0	1	NA	NA	NA	1	no
+maximal	chloramphenicol	temporal	snp_cluster_seen_in_training	no	158	41	117	0.990306	0.987179	1	0.974359	yes
+maximal	ciprofloxacin	country	lineage_seen_in_training	yes	4682	1040	3642	0.951203	0.918493	0.900962	0.936024	yes
+maximal	ciprofloxacin	country	lineage_seen_in_training	no	1485	83	1402	0.908556	0.824472	0.686747	0.962197	yes
+maximal	ciprofloxacin	country	snp_cluster_seen_in_training	yes	105	60	45	0.93963	0.847222	0.983333	0.711111	yes
+maximal	ciprofloxacin	country	snp_cluster_seen_in_training	no	2517	627	1890	0.961212	0.919878	0.904306	0.93545	yes
+maximal	ciprofloxacin	geography	lineage_seen_in_training	yes	1490	288	1202	0.959648	0.826045	0.65625	0.99584	yes
+maximal	ciprofloxacin	geography	lineage_seen_in_training	no	280	38	242	0.932797	0.761092	0.526316	0.995868	yes
+maximal	ciprofloxacin	geography	snp_cluster_seen_in_training	yes	37	10	27	1	0.95	0.9	1	yes
+maximal	ciprofloxacin	geography	snp_cluster_seen_in_training	no	806	188	618	0.962396	0.814062	0.632979	0.995146	yes
+maximal	ciprofloxacin	lineage	lineage_seen_in_training	no	7628	1363	6265	0.983718	0.95047	0.919296	0.981644	yes
+maximal	ciprofloxacin	lineage	snp_cluster_seen_in_training	no	3378	841	2537	0.98888	0.962804	0.947681	0.977927	yes
+maximal	ciprofloxacin	project	lineage_seen_in_training	yes	5175	1137	4038	0.969022	0.926308	0.886544	0.966072	yes
+maximal	ciprofloxacin	project	lineage_seen_in_training	no	923	65	858	0.934624	0.821445	0.661538	0.981352	yes
+maximal	ciprofloxacin	project	snp_cluster_seen_in_training	yes	397	231	166	0.994341	0.980611	0.991342	0.96988	yes
+maximal	ciprofloxacin	project	snp_cluster_seen_in_training	no	2203	514	1689	0.971476	0.91258	0.861868	0.963292	yes
+maximal	ciprofloxacin	random	lineage_seen_in_training	yes	7012	1306	5706	0.987505	0.965697	0.947167	0.984227	yes
+maximal	ciprofloxacin	random	lineage_seen_in_training	no	616	57	559	0.961052	0.932335	0.877193	0.987478	yes
+maximal	ciprofloxacin	random	snp_cluster_seen_in_training	yes	2230	595	1635	0.996676	0.989682	0.991597	0.987768	yes
+maximal	ciprofloxacin	random	snp_cluster_seen_in_training	no	1148	246	902	0.982235	0.951404	0.922764	0.980044	yes
+maximal	ciprofloxacin	random_cluster	lineage_seen_in_training	yes	6901	1291	5610	0.986946	0.961917	0.938807	0.985027	yes
+maximal	ciprofloxacin	random_cluster	lineage_seen_in_training	no	727	72	655	0.973388	0.922159	0.861111	0.983206	yes
+maximal	ciprofloxacin	random_cluster	snp_cluster_seen_in_training	no	3378	841	2537	0.992738	0.975072	0.965517	0.984628	yes
+maximal	ciprofloxacin	temporal	lineage_seen_in_training	yes	992	580	412	0.925479	0.854335	0.762069	0.946602	yes
+maximal	ciprofloxacin	temporal	lineage_seen_in_training	no	98	44	54	0.867003	0.763468	0.545455	0.981481	yes
+maximal	ciprofloxacin	temporal	snp_cluster_seen_in_training	yes	121	98	23	0.965839	0.957853	0.959184	0.956522	yes
+maximal	ciprofloxacin	temporal	snp_cluster_seen_in_training	no	388	272	116	0.892574	0.799442	0.676471	0.922414	yes
+maximal	ertapenem	lineage	lineage_seen_in_training	no	3512	89	3423	0.854468	0.752696	0.58427	0.921122	yes
+maximal	ertapenem	lineage	snp_cluster_seen_in_training	no	1570	63	1507	0.862346	0.78326	0.650794	0.915727	yes
+maximal	ertapenem	random	lineage_seen_in_training	yes	3200	78	3122	0.900029	0.799225	0.679487	0.918962	yes
+maximal	ertapenem	random	lineage_seen_in_training	no	312	11	301	0.851102	0.768348	0.636364	0.900332	yes
+maximal	ertapenem	random	snp_cluster_seen_in_training	yes	1121	32	1089	0.892476	0.800132	0.6875	0.912764	yes
+maximal	ertapenem	random	snp_cluster_seen_in_training	no	449	31	418	0.922596	0.847006	0.806452	0.88756	yes
+maximal	ertapenem	random_cluster	lineage_seen_in_training	yes	3137	73	3064	0.859129	0.799063	0.671233	0.926893	yes
+maximal	ertapenem	random_cluster	lineage_seen_in_training	no	375	16	359	0.789519	0.606111	0.3125	0.899721	yes
+maximal	ertapenem	random_cluster	snp_cluster_seen_in_training	no	1570	63	1507	0.858049	0.782597	0.650794	0.914399	yes
+maximal	gentamicin	country	lineage_seen_in_training	yes	5055	962	4093	0.974401	0.936824	0.909563	0.964085	yes
+maximal	gentamicin	country	lineage_seen_in_training	no	2026	140	1886	0.976511	0.918777	0.842857	0.994698	yes
+maximal	gentamicin	country	snp_cluster_seen_in_training	yes	114	25	89	1	0.859551	1	0.719101	yes
+maximal	gentamicin	country	snp_cluster_seen_in_training	no	3020	615	2405	0.982757	0.949203	0.933333	0.965073	yes
+maximal	gentamicin	geography	lineage_seen_in_training	yes	1496	444	1052	0.966607	0.930459	0.876126	0.984791	yes
+maximal	gentamicin	geography	lineage_seen_in_training	no	283	61	222	0.945946	0.884434	0.786885	0.981982	yes
+maximal	gentamicin	geography	snp_cluster_seen_in_training	yes	33	14	19	1	1	1	1	yes
+maximal	gentamicin	geography	snp_cluster_seen_in_training	no	846	292	554	0.972587	0.942127	0.90411	0.980144	yes
+maximal	gentamicin	lineage	lineage_seen_in_training	no	7319	1215	6104	0.984334	0.960845	0.930864	0.990826	yes
+maximal	gentamicin	lineage	snp_cluster_seen_in_training	no	3266	702	2564	0.98655	0.972587	0.957265	0.98791	yes
+maximal	gentamicin	project	lineage_seen_in_training	yes	5738	978	4760	0.967406	0.951985	0.916155	0.987815	yes
+maximal	gentamicin	project	lineage_seen_in_training	no	1196	108	1088	0.959006	0.937057	0.87963	0.994485	yes
+maximal	gentamicin	project	snp_cluster_seen_in_training	yes	310	59	251	0.987102	0.975083	0.966102	0.984064	yes
+maximal	gentamicin	project	snp_cluster_seen_in_training	no	2749	575	2174	0.972083	0.964175	0.942609	0.985741	yes
+maximal	gentamicin	random	lineage_seen_in_training	yes	6732	1153	5579	0.986554	0.967123	0.94536	0.988887	yes
+maximal	gentamicin	random	lineage_seen_in_training	no	587	62	525	0.979724	0.921705	0.854839	0.988571	yes
+maximal	gentamicin	random	snp_cluster_seen_in_training	yes	2118	492	1626	0.98834	0.977804	0.965447	0.99016	yes
+maximal	gentamicin	random	snp_cluster_seen_in_training	no	1148	210	938	0.987253	0.966311	0.957143	0.97548	yes
+maximal	gentamicin	random_cluster	lineage_seen_in_training	yes	6599	1140	5459	0.985948	0.966526	0.94386	0.989192	yes
+maximal	gentamicin	random_cluster	lineage_seen_in_training	no	720	75	645	0.981829	0.929457	0.866667	0.992248	yes
+maximal	gentamicin	random_cluster	snp_cluster_seen_in_training	no	3266	702	2564	0.988393	0.973944	0.961538	0.986349	yes
+maximal	gentamicin	temporal	lineage_seen_in_training	yes	749	155	594	0.962643	0.927343	0.896774	0.957912	yes
+maximal	gentamicin	temporal	lineage_seen_in_training	no	92	15	77	0.916883	0.893506	0.8	0.987013	yes
+maximal	gentamicin	temporal	snp_cluster_seen_in_training	yes	80	16	64	0.992188	0.960938	0.9375	0.984375	yes
+maximal	gentamicin	temporal	snp_cluster_seen_in_training	no	321	80	241	0.975337	0.952178	0.95	0.954357	yes
+maximal	kanamycin	lineage	lineage_seen_in_training	no	1196	174	1022	0.963155	0.950171	0.902299	0.998043	yes
+maximal	kanamycin	lineage	snp_cluster_seen_in_training	no	544	75	469	0.954215	0.946667	0.893333	1	yes
+maximal	kanamycin	random	lineage_seen_in_training	yes	1040	157	883	0.960139	0.955201	0.917197	0.993205	yes
+maximal	kanamycin	random	lineage_seen_in_training	no	156	17	139	1	1	1	1	yes
+maximal	kanamycin	random	snp_cluster_seen_in_training	yes	341	39	302	0.975548	0.961538	0.923077	1	yes
+maximal	kanamycin	random	snp_cluster_seen_in_training	no	203	36	167	0.954923	0.958333	0.916667	1	yes
+maximal	kanamycin	random_cluster	lineage_seen_in_training	yes	1029	156	873	0.950561	0.958102	0.923077	0.993127	yes
+maximal	kanamycin	random_cluster	lineage_seen_in_training	no	167	18	149	1	1	1	1	yes
+maximal	kanamycin	random_cluster	snp_cluster_seen_in_training	no	544	75	469	0.938806	0.958934	0.92	0.997868	yes
+maximal	levofloxacin	country	lineage_seen_in_training	yes	1822	536	1286	0.950863	0.722009	0.481343	0.962675	yes
+maximal	levofloxacin	country	lineage_seen_in_training	no	1106	296	810	0.968948	0.932787	0.908784	0.95679	yes
+maximal	levofloxacin	country	snp_cluster_seen_in_training	yes	9	0	9	NA	NA	NA	1	no
+maximal	levofloxacin	country	snp_cluster_seen_in_training	no	1253	535	718	0.964483	0.786805	0.611215	0.962396	yes
+maximal	levofloxacin	geography	lineage_seen_in_training	yes	72	18	54	0.942387	0.907407	0.833333	0.981481	yes
+maximal	levofloxacin	geography	lineage_seen_in_training	no	27	2	25	0.86	0.75	0.5	1	no
+maximal	levofloxacin	geography	snp_cluster_seen_in_training	yes	3	0	3	NA	NA	NA	1	no
+maximal	levofloxacin	geography	snp_cluster_seen_in_training	no	22	9	13	1	1	1	1	no
+maximal	levofloxacin	lineage	lineage_seen_in_training	no	3006	892	2114	0.981049	0.964298	0.960762	0.967833	yes
+maximal	levofloxacin	lineage	snp_cluster_seen_in_training	no	1313	576	737	0.986523	0.968662	0.973958	0.963365	yes
+maximal	levofloxacin	project	lineage_seen_in_training	yes	2433	780	1653	0.986568	0.977162	0.973077	0.981246	yes
+maximal	levofloxacin	project	lineage_seen_in_training	no	485	43	442	0.945465	0.869831	0.744186	0.995475	yes
+maximal	levofloxacin	project	snp_cluster_seen_in_training	yes	243	192	51	0.984783	0.987592	0.994792	0.980392	yes
+maximal	levofloxacin	project	snp_cluster_seen_in_training	no	1011	335	676	0.994019	0.979171	0.973134	0.985207	yes
+maximal	levofloxacin	random	lineage_seen_in_training	yes	2743	860	1883	0.986697	0.97554	0.968605	0.982475	yes
+maximal	levofloxacin	random	lineage_seen_in_training	no	263	32	231	0.951299	0.931006	0.875	0.987013	yes
+maximal	levofloxacin	random	snp_cluster_seen_in_training	yes	963	428	535	0.995825	0.984579	0.985981	0.983178	yes
+maximal	levofloxacin	random	snp_cluster_seen_in_training	no	350	148	202	0.995417	0.977489	0.97973	0.975248	yes
+maximal	levofloxacin	random_cluster	lineage_seen_in_training	yes	2689	850	1839	0.985188	0.977998	0.971765	0.984231	yes
+maximal	levofloxacin	random_cluster	lineage_seen_in_training	no	317	42	275	0.959307	0.887403	0.785714	0.989091	yes
+maximal	levofloxacin	random_cluster	snp_cluster_seen_in_training	no	1313	576	737	0.991206	0.9825	0.982639	0.982361	yes
+maximal	levofloxacin	temporal	lineage_seen_in_training	yes	517	311	206	0.963616	0.956404	0.971061	0.941748	yes
+maximal	levofloxacin	temporal	lineage_seen_in_training	no	45	16	29	0.913793	0.857759	0.75	0.965517	yes
+maximal	levofloxacin	temporal	snp_cluster_seen_in_training	yes	90	76	14	0.933271	0.957707	0.986842	0.928571	yes
+maximal	levofloxacin	temporal	snp_cluster_seen_in_training	no	174	121	53	0.956573	0.928037	0.950413	0.90566	yes
+maximal	meropenem	lineage	lineage_seen_in_training	no	6205	78	6127	0.942365	0.884044	0.769231	0.998858	yes
+maximal	meropenem	lineage	snp_cluster_seen_in_training	no	2759	53	2706	0.942364	0.896042	0.792453	0.99963	yes
+maximal	meropenem	random	lineage_seen_in_training	yes	5649	69	5580	0.932254	0.88772	0.782609	0.992832	yes
+maximal	meropenem	random	lineage_seen_in_training	no	556	9	547	0.976031	0.940788	0.888889	0.992687	no
+maximal	meropenem	random	snp_cluster_seen_in_training	yes	1794	12	1782	0.850426	0.829405	0.666667	0.992144	yes
+maximal	meropenem	random	snp_cluster_seen_in_training	no	965	41	924	0.970304	0.933613	0.878049	0.989177	yes
+maximal	meropenem	random_cluster	lineage_seen_in_training	yes	5525	69	5456	0.91244	0.872963	0.753623	0.992302	yes
+maximal	meropenem	random_cluster	lineage_seen_in_training	no	680	9	671	0.939228	0.944444	0.888889	1	no
+maximal	meropenem	random_cluster	snp_cluster_seen_in_training	no	2759	53	2706	0.922621	0.891792	0.792453	0.991131	yes
+maximal	nalidixic acid	country	lineage_seen_in_training	yes	3364	225	3139	0.91708	0.882852	0.768889	0.996814	yes
+maximal	nalidixic acid	country	lineage_seen_in_training	no	1129	52	1077	0.93246	0.883223	0.769231	0.997214	yes
+maximal	nalidixic acid	country	snp_cluster_seen_in_training	yes	39	0	39	NA	NA	NA	1	no
+maximal	nalidixic acid	country	snp_cluster_seen_in_training	no	1911	130	1781	0.959813	0.883212	0.769231	0.997193	yes
+maximal	nalidixic acid	geography	lineage_seen_in_training	yes	1361	177	1184	0.876947	0.867523	0.740113	0.994932	yes
+maximal	nalidixic acid	geography	lineage_seen_in_training	no	333	45	288	0.922685	0.907639	0.822222	0.993056	yes
+maximal	nalidixic acid	geography	snp_cluster_seen_in_training	yes	21	0	21	NA	NA	NA	1	no
+maximal	nalidixic acid	geography	snp_cluster_seen_in_training	no	771	109	662	0.906885	0.897572	0.798165	0.996979	yes
+maximal	nalidixic acid	lineage	lineage_seen_in_training	no	4554	331	4223	0.971401	0.92018	0.851964	0.988397	yes
+maximal	nalidixic acid	lineage	snp_cluster_seen_in_training	no	1987	161	1826	0.964684	0.930401	0.869565	0.991238	yes
+maximal	nalidixic acid	project	lineage_seen_in_training	yes	3254	228	3026	0.906204	0.888864	0.780702	0.997026	yes
+maximal	nalidixic acid	project	lineage_seen_in_training	no	982	38	944	0.876004	0.867362	0.736842	0.997881	yes
+maximal	nalidixic acid	project	snp_cluster_seen_in_training	yes	47	1	46	1	1	1	1	no
+maximal	nalidixic acid	project	snp_cluster_seen_in_training	no	1722	123	1599	0.959406	0.892745	0.788618	0.996873	yes
+maximal	nalidixic acid	random	lineage_seen_in_training	yes	4081	307	3774	0.974797	0.931183	0.872964	0.989401	yes
+maximal	nalidixic acid	random	lineage_seen_in_training	no	473	24	449	0.962231	0.89472	0.791667	0.997773	yes
+maximal	nalidixic acid	random	snp_cluster_seen_in_training	yes	1238	87	1151	0.995921	0.977111	0.965517	0.988705	yes
+maximal	nalidixic acid	random	snp_cluster_seen_in_training	no	749	74	675	0.944434	0.904665	0.810811	0.998519	yes
+maximal	nalidixic acid	random_cluster	lineage_seen_in_training	yes	3986	300	3686	0.975577	0.929128	0.866667	0.99159	yes
+maximal	nalidixic acid	random_cluster	lineage_seen_in_training	no	568	31	537	0.961224	0.884303	0.774194	0.994413	yes
+maximal	nalidixic acid	random_cluster	snp_cluster_seen_in_training	no	1987	161	1826	0.964721	0.93515	0.875776	0.994524	yes
+maximal	nalidixic acid	temporal	lineage_seen_in_training	yes	288	97	191	0.949074	0.878825	0.762887	0.994764	yes
+maximal	nalidixic acid	temporal	lineage_seen_in_training	no	75	21	54	0.916667	0.904762	0.809524	1	yes
+maximal	nalidixic acid	temporal	snp_cluster_seen_in_training	yes	1	0	1	NA	NA	NA	1	no
+maximal	nalidixic acid	temporal	snp_cluster_seen_in_training	no	152	58	94	0.949101	0.848129	0.706897	0.989362	yes
+maximal	piperacillin-tazobactam	lineage	lineage_seen_in_training	no	2872	134	2738	0.832083	0.745129	0.574627	0.915632	yes
+maximal	piperacillin-tazobactam	lineage	snp_cluster_seen_in_training	no	1315	84	1231	0.80464	0.745895	0.607143	0.884647	yes
+maximal	piperacillin-tazobactam	random	lineage_seen_in_training	yes	2617	127	2490	0.885621	0.794534	0.724409	0.864659	yes
+maximal	piperacillin-tazobactam	random	lineage_seen_in_training	no	255	7	248	0.822005	0.741359	0.571429	0.91129	no
+maximal	piperacillin-tazobactam	random	snp_cluster_seen_in_training	yes	1012	46	966	0.836574	0.756211	0.673913	0.838509	yes
+maximal	piperacillin-tazobactam	random	snp_cluster_seen_in_training	no	303	38	265	0.954717	0.869861	0.973684	0.766038	yes
+maximal	piperacillin-tazobactam	random_cluster	lineage_seen_in_training	yes	2536	123	2413	0.881571	0.783908	0.699187	0.868628	yes
+maximal	piperacillin-tazobactam	random_cluster	lineage_seen_in_training	no	336	11	325	0.79035	0.673427	0.454545	0.892308	yes
+maximal	piperacillin-tazobactam	random_cluster	snp_cluster_seen_in_training	no	1315	84	1231	0.87705	0.795656	0.761905	0.829407	yes
+maximal	streptomycin	country	lineage_seen_in_training	yes	2722	1092	1630	0.954355	0.914477	0.913004	0.915951	yes
+maximal	streptomycin	country	lineage_seen_in_training	no	1354	375	979	0.95389	0.925017	0.896	0.954035	yes
+maximal	streptomycin	country	snp_cluster_seen_in_training	yes	37	16	21	0.86756	0.748512	0.6875	0.809524	yes
+maximal	streptomycin	country	snp_cluster_seen_in_training	no	1760	714	1046	0.958067	0.926367	0.921569	0.931166	yes
+maximal	streptomycin	geography	lineage_seen_in_training	yes	1025	530	495	0.922462	0.871641	0.973585	0.769697	yes
+maximal	streptomycin	geography	lineage_seen_in_training	no	229	119	110	0.908136	0.883537	0.957983	0.809091	yes
+maximal	streptomycin	geography	snp_cluster_seen_in_training	yes	20	8	12	0.869792	0.833333	1	0.666667	no
+maximal	streptomycin	geography	snp_cluster_seen_in_training	no	605	351	254	0.926234	0.892147	0.977208	0.807087	yes
+maximal	streptomycin	lineage	lineage_seen_in_training	no	4081	1471	2610	0.965134	0.938924	0.942216	0.935632	yes
+maximal	streptomycin	lineage	snp_cluster_seen_in_training	no	1799	732	1067	0.962092	0.94372	0.954918	0.932521	yes
+maximal	streptomycin	project	lineage_seen_in_training	yes	2803	1098	1705	0.949002	0.915584	0.916211	0.914956	yes
+maximal	streptomycin	project	lineage_seen_in_training	no	1164	320	844	0.959266	0.919187	0.865625	0.972749	yes
+maximal	streptomycin	project	snp_cluster_seen_in_training	yes	44	23	21	0.884058	0.774327	0.73913	0.809524	yes
+maximal	streptomycin	project	snp_cluster_seen_in_training	no	1681	681	1000	0.955962	0.920776	0.904552	0.937	yes
+maximal	streptomycin	random	lineage_seen_in_training	yes	3643	1347	2296	0.965071	0.943578	0.952487	0.934669	yes
+maximal	streptomycin	random	lineage_seen_in_training	no	438	124	314	0.971055	0.944601	0.927419	0.961783	yes
+maximal	streptomycin	random	snp_cluster_seen_in_training	yes	1117	495	622	0.971678	0.950674	0.965657	0.935691	yes
+maximal	streptomycin	random	snp_cluster_seen_in_training	no	682	237	445	0.956071	0.949827	0.953586	0.946067	yes
+maximal	streptomycin	random_cluster	lineage_seen_in_training	yes	3523	1285	2238	0.965642	0.944367	0.954864	0.93387	yes
+maximal	streptomycin	random_cluster	lineage_seen_in_training	no	558	186	372	0.969418	0.946237	0.94086	0.951613	yes
+maximal	streptomycin	random_cluster	snp_cluster_seen_in_training	no	1799	732	1067	0.964727	0.948501	0.964481	0.932521	yes
+maximal	sulfisoxazole	country	lineage_seen_in_training	yes	2682	1095	1587	0.979183	0.971589	0.967123	0.976055	yes
+maximal	sulfisoxazole	country	lineage_seen_in_training	no	1337	344	993	0.98341	0.974891	0.97093	0.978852	yes
+maximal	sulfisoxazole	country	snp_cluster_seen_in_training	yes	37	20	17	1	1	1	1	yes
+maximal	sulfisoxazole	country	snp_cluster_seen_in_training	no	1728	736	992	0.984434	0.98043	0.985054	0.975806	yes
+maximal	sulfisoxazole	geography	lineage_seen_in_training	yes	1020	619	401	0.974919	0.971517	0.957997	0.985037	yes
+maximal	sulfisoxazole	geography	lineage_seen_in_training	no	230	140	90	0.987222	0.974603	0.971429	0.977778	yes
+maximal	sulfisoxazole	geography	snp_cluster_seen_in_training	yes	20	12	8	1	1	1	1	no
+maximal	sulfisoxazole	geography	snp_cluster_seen_in_training	no	603	423	180	0.979498	0.975473	0.978723	0.972222	yes
+maximal	sulfisoxazole	lineage	lineage_seen_in_training	no	4019	1439	2580	0.98773	0.983114	0.973593	0.992636	yes
+maximal	sulfisoxazole	lineage	snp_cluster_seen_in_training	no	1765	756	1009	0.990209	0.988431	0.986772	0.990089	yes
+maximal	sulfisoxazole	project	lineage_seen_in_training	yes	2723	1079	1644	0.977954	0.969313	0.964782	0.973844	yes
+maximal	sulfisoxazole	project	lineage_seen_in_training	no	1168	285	883	0.983179	0.981036	0.982456	0.979615	yes
+maximal	sulfisoxazole	project	snp_cluster_seen_in_training	yes	41	24	17	1	1	1	1	yes
+maximal	sulfisoxazole	project	snp_cluster_seen_in_training	no	1660	707	953	0.984046	0.979287	0.985856	0.972718	yes
+maximal	sulfisoxazole	random	lineage_seen_in_training	yes	3605	1340	2265	0.99169	0.984307	0.976119	0.992494	yes
+maximal	sulfisoxazole	random	lineage_seen_in_training	no	414	99	315	0.98836	0.980087	0.969697	0.990476	yes
+maximal	sulfisoxazole	random	snp_cluster_seen_in_training	yes	1068	535	533	0.990421	0.990637	0.990654	0.990619	yes
+maximal	sulfisoxazole	random	snp_cluster_seen_in_training	no	697	221	476	0.995665	0.991273	0.99095	0.991597	yes
+maximal	sulfisoxazole	random_cluster	lineage_seen_in_training	yes	3516	1296	2220	0.990152	0.984822	0.976852	0.992793	yes
+maximal	sulfisoxazole	random_cluster	lineage_seen_in_training	no	503	143	360	0.983528	0.969969	0.951049	0.988889	yes
+maximal	sulfisoxazole	random_cluster	snp_cluster_seen_in_training	no	1765	756	1009	0.990568	0.988926	0.986772	0.99108	yes
+maximal	tetracycline	country	lineage_seen_in_training	yes	4526	2239	2287	0.985516	0.983782	0.975435	0.992129	yes
+maximal	tetracycline	country	lineage_seen_in_training	no	2381	653	1728	0.973641	0.971754	0.946401	0.997106	yes
+maximal	tetracycline	country	snp_cluster_seen_in_training	yes	46	29	17	1	1	1	1	yes
+maximal	tetracycline	country	snp_cluster_seen_in_training	no	2957	1349	1608	0.978499	0.977485	0.963677	0.991294	yes
+maximal	tetracycline	geography	lineage_seen_in_training	yes	1350	694	656	0.986522	0.983137	0.976945	0.989329	yes
+maximal	tetracycline	geography	lineage_seen_in_training	no	259	122	137	0.990008	0.980854	0.983607	0.978102	yes
+maximal	tetracycline	geography	snp_cluster_seen_in_training	yes	25	16	9	1	1	1	1	no
+maximal	tetracycline	geography	snp_cluster_seen_in_training	no	754	365	389	0.98147	0.978674	0.975342	0.982005	yes
+maximal	tetracycline	lineage	lineage_seen_in_training	no	7028	2986	4042	0.989444	0.980804	0.969524	0.992083	yes
+maximal	tetracycline	lineage	snp_cluster_seen_in_training	no	3080	1442	1638	0.987168	0.977474	0.965326	0.989621	yes
+maximal	tetracycline	project	lineage_seen_in_training	yes	5490	2394	3096	0.983362	0.982055	0.969925	0.994186	yes
+maximal	tetracycline	project	lineage_seen_in_training	no	1236	374	862	0.977974	0.969782	0.946524	0.993039	yes
+maximal	tetracycline	project	snp_cluster_seen_in_training	yes	265	175	90	0.990667	0.974603	0.971429	0.977778	yes
+maximal	tetracycline	project	snp_cluster_seen_in_training	no	2644	1149	1495	0.973904	0.97684	0.961706	0.991973	yes
+maximal	tetracycline	random	lineage_seen_in_training	yes	6434	2758	3676	0.990255	0.985269	0.976795	0.993743	yes
+maximal	tetracycline	random	lineage_seen_in_training	no	594	228	366	0.989622	0.976165	0.960526	0.991803	yes
+maximal	tetracycline	random	snp_cluster_seen_in_training	yes	2020	932	1088	0.987171	0.985594	0.978541	0.992647	yes
+maximal	tetracycline	random	snp_cluster_seen_in_training	no	1060	510	550	0.983816	0.976898	0.964706	0.989091	yes
+maximal	tetracycline	random_cluster	lineage_seen_in_training	yes	6284	2707	3577	0.98971	0.984544	0.976358	0.992731	yes
+maximal	tetracycline	random_cluster	lineage_seen_in_training	no	744	279	465	0.993941	0.983513	0.971326	0.995699	yes
+maximal	tetracycline	random_cluster	snp_cluster_seen_in_training	no	3080	1442	1638	0.986924	0.9809	0.971567	0.990232	yes
+maximal	tetracycline	temporal	lineage_seen_in_training	yes	620	363	257	0.985969	0.983953	0.983471	0.984436	yes
+maximal	tetracycline	temporal	lineage_seen_in_training	no	80	49	31	1	1	1	1	yes
+maximal	tetracycline	temporal	snp_cluster_seen_in_training	yes	72	41	31	0.97561	0.963415	0.926829	1	yes
+maximal	tetracycline	temporal	snp_cluster_seen_in_training	no	245	161	84	0.993641	0.990942	0.993789	0.988095	yes
+maximal	tobramycin	lineage	lineage_seen_in_training	no	2898	288	2610	0.973281	0.953939	0.920139	0.987739	yes
+maximal	tobramycin	lineage	snp_cluster_seen_in_training	no	1258	190	1068	0.983018	0.964966	0.942105	0.987828	yes
+maximal	tobramycin	random	lineage_seen_in_training	yes	2635	275	2360	0.980962	0.967978	0.949091	0.986864	yes
+maximal	tobramycin	random	lineage_seen_in_training	no	263	13	250	0.797538	0.842154	0.692308	0.992	yes
+maximal	tobramycin	random	snp_cluster_seen_in_training	yes	875	129	746	0.991645	0.98234	0.976744	0.987936	yes
+maximal	tobramycin	random	snp_cluster_seen_in_training	no	383	61	322	0.962987	0.951252	0.918033	0.984472	yes
+maximal	tobramycin	random_cluster	lineage_seen_in_training	yes	2597	273	2324	0.982434	0.967689	0.948718	0.986661	yes
+maximal	tobramycin	random_cluster	lineage_seen_in_training	no	301	15	286	0.839161	0.829837	0.666667	0.993007	yes
+maximal	tobramycin	random_cluster	snp_cluster_seen_in_training	no	1258	190	1068	0.980914	0.972861	0.957895	0.987828	yes
+maximal	trimethoprim-sulfamethoxazole	country	lineage_seen_in_training	yes	4763	1055	3708	0.977435	0.928601	0.903318	0.953883	yes
+maximal	trimethoprim-sulfamethoxazole	country	lineage_seen_in_training	no	2253	220	2033	0.972321	0.928061	0.877273	0.978849	yes
+maximal	trimethoprim-sulfamethoxazole	country	snp_cluster_seen_in_training	yes	103	45	58	0.989655	0.974138	1	0.948276	yes
+maximal	trimethoprim-sulfamethoxazole	country	snp_cluster_seen_in_training	no	2983	665	2318	0.981428	0.941261	0.92782	0.954702	yes
+maximal	trimethoprim-sulfamethoxazole	geography	lineage_seen_in_training	yes	1202	348	854	0.963037	0.907831	0.83908	0.976581	yes
+maximal	trimethoprim-sulfamethoxazole	geography	lineage_seen_in_training	no	214	57	157	0.949547	0.896357	0.824561	0.968153	yes
+maximal	trimethoprim-sulfamethoxazole	geography	snp_cluster_seen_in_training	yes	30	12	18	1	1	1	1	yes
+maximal	trimethoprim-sulfamethoxazole	geography	snp_cluster_seen_in_training	no	689	229	460	0.967994	0.930178	0.882096	0.978261	yes
+maximal	trimethoprim-sulfamethoxazole	lineage	lineage_seen_in_training	no	7226	1428	5798	0.980362	0.941379	0.909664	0.973094	yes
+maximal	trimethoprim-sulfamethoxazole	lineage	snp_cluster_seen_in_training	no	3209	805	2404	0.980073	0.944433	0.924224	0.964642	yes
+maximal	trimethoprim-sulfamethoxazole	project	lineage_seen_in_training	yes	5879	1186	4693	0.978069	0.940169	0.913153	0.967185	yes
+maximal	trimethoprim-sulfamethoxazole	project	lineage_seen_in_training	no	1133	111	1022	0.979708	0.938709	0.900901	0.976517	yes
+maximal	trimethoprim-sulfamethoxazole	project	snp_cluster_seen_in_training	yes	401	169	232	0.98888	0.949373	0.976331	0.922414	yes
+maximal	trimethoprim-sulfamethoxazole	project	snp_cluster_seen_in_training	no	2673	556	2117	0.977733	0.946497	0.920863	0.97213	yes
+maximal	trimethoprim-sulfamethoxazole	random	lineage_seen_in_training	yes	6647	1358	5289	0.984135	0.957365	0.944035	0.970694	yes
+maximal	trimethoprim-sulfamethoxazole	random	lineage_seen_in_training	no	579	70	509	0.99593	0.978838	0.971429	0.986248	yes
+maximal	trimethoprim-sulfamethoxazole	random	snp_cluster_seen_in_training	yes	2146	589	1557	0.98387	0.964098	0.960951	0.967245	yes
+maximal	trimethoprim-sulfamethoxazole	random	snp_cluster_seen_in_training	no	1063	216	847	0.989888	0.959235	0.944444	0.974026	yes
+maximal	trimethoprim-sulfamethoxazole	random_cluster	lineage_seen_in_training	yes	6547	1343	5204	0.98361	0.954027	0.937453	0.9706	yes
+maximal	trimethoprim-sulfamethoxazole	random_cluster	lineage_seen_in_training	no	679	85	594	0.983205	0.967211	0.952941	0.981481	yes
+maximal	trimethoprim-sulfamethoxazole	random_cluster	snp_cluster_seen_in_training	no	3209	805	2404	0.983614	0.957901	0.946584	0.969218	yes
+maximal	trimethoprim-sulfamethoxazole	temporal	lineage_seen_in_training	yes	739	351	388	0.970019	0.924373	0.954416	0.89433	yes
+maximal	trimethoprim-sulfamethoxazole	temporal	lineage_seen_in_training	no	42	19	23	0.997712	0.956522	1	0.913043	yes
+maximal	trimethoprim-sulfamethoxazole	temporal	snp_cluster_seen_in_training	yes	128	62	66	0.985337	0.938905	0.983871	0.893939	yes
+maximal	trimethoprim-sulfamethoxazole	temporal	snp_cluster_seen_in_training	no	248	136	112	0.956473	0.902836	0.948529	0.857143	yes

@@ -1,0 +1,2 @@
+correction_id	project	action	scope	evidence	decision_record
+PC0001	PRJNA1322038	swap_R_S	all_binary_endpoints	R and S labels run against the submitted MICs for 26 of 26 antimicrobials with at least 3 R and 3 S MIC observations (qc/phenotype_label_check.tsv, genotype_baseline_20261018)	docs/decisions/0004-ecoli-phenotype-label-correction.md

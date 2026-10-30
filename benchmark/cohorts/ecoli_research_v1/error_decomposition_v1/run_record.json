@@ -1,0 +1,76 @@
+{
+  "analysis_version": "error_decomposition_v1",
+  "builder": "bin/error_decomposition.py 1.0.0",
+  "builder_sha256_at_freeze": "b2deaaef8ee164ed723af949678d0f7bc80f43449ccdc50e85caf63f9a7fe324",
+  "builder_sha256_final": "218e09c635a4494336ee24b910eeb79788a9aae8a183b1561578c9b6e0178f6f",
+  "config_sha256": "e97bd57d05b7920766ab09b470ba18f5b956155d5d910b022da41e2cc18daf75",
+  "catalogue_sha256": "c41ae6fd10e4d09716d040e0cdd0b212cda60d497892b44c19d84764da03eb34",
+  "design_commit": "6024a4f",
+  "upstream_benchmark": "generalisation_v1, predictions.tsv.gz SHA-256 63b1a2c0039f661a9a31002e6c84355c14a4c02c4f31e00b124dc566895c0ce0",
+  "environment": "environment/generalisation-benchmark.txt, Python 3.12.12",
+  "machine": "Apple M4, 10 cores, 16 GB RAM, macOS 26 (Darwin 25.5.0)",
+  "commands": [
+    "bin/error_decomposition.py catalogue",
+    "bin/error_decomposition.py freeze --benchmark datasets/ecoli_research_v1/generalisation_v1 --outdir datasets/ecoli_research_v1/error_decomposition_v1",
+    "bin/error_decomposition.py calls --calls datasets/ecoli_research_v1/amrfinder_calls_4.2.7_db2026-08-07.1 --outdir datasets/ecoli_research_v1/error_decomposition_v1",
+    "bin/error_decomposition.py audit --benchmark datasets/ecoli_research_v1/generalisation_v1 --cache datasets/ecoli_research_v1/genome_cache --outdir datasets/ecoli_research_v1/error_decomposition_v1 --workers 3",
+    "bin/error_decomposition.py context --benchmark datasets/ecoli_research_v1/generalisation_v1 --population datasets/ecoli_research_v1/population_20261015 --baseline datasets/ecoli_research_v1/genotype_baseline_20261024 --ast datasets/ecoli_research_v1/ast_census_20261012/processed --outdir datasets/ecoli_research_v1/error_decomposition_v1",
+    "bin/error_decomposition.py augment --benchmark datasets/ecoli_research_v1/generalisation_v1 --population datasets/ecoli_research_v1/population_20261015 --baseline datasets/ecoli_research_v1/genotype_baseline_20261024 --outdir datasets/ecoli_research_v1/error_decomposition_v1",
+    "bin/error_decomposition.py report --benchmark datasets/ecoli_research_v1/generalisation_v1 --population datasets/ecoli_research_v1/population_20261015 --baseline datasets/ecoli_research_v1/genotype_baseline_20261024 --outdir datasets/ecoli_research_v1/error_decomposition_v1"
+  ],
+  "stages": {
+    "freeze": {
+      "frozen_at": "2026-10-25T14:12:43Z",
+      "drug_groups": {
+        "high_loss": 7,
+        "intermediate": 4,
+        "stable": 13
+      }
+    },
+    "calls": {
+      "finished": "2026-10-25T14:17Z",
+      "isolates": 10521,
+      "success": 10521,
+      "amr_calls": 99319,
+      "known_mutation_rows": 36524
+    },
+    "audit": {
+      "started": "2026-10-25T14:17Z",
+      "finished": "2026-10-25T14:43:18Z",
+      "genomes_verified": 10521,
+      "gene_calls": 80486,
+      "mutation_calls": 16680
+    },
+    "context": {
+      "finished": "2026-10-25T14:49:01Z",
+      "prediction_rows": 1030746,
+      "tasks": 1069
+    },
+    "augment": {
+      "started": "2026-10-25T14:50:12Z",
+      "finished": "2026-10-25T18:25:01Z",
+      "wall_seconds": 12931,
+      "max_rss_bytes": 6882246656,
+      "tasks_per_variant": 262,
+      "succeeded": 524,
+      "failed": 0,
+      "task_seconds_median": 26.1,
+      "task_seconds_max": 48.7
+    },
+    "report": {
+      "wall_seconds": 442,
+      "cpu_seconds": 177,
+      "max_rss_bytes": 1414791168,
+      "errors": 50506,
+      "note": "final run; wall time inflated by disk contention from another project's job on the same drive"
+    }
+  },
+  "deviations": [
+    "The genome-hash check in calls first compared a provenance field that does not exist, so it never ran. Fixed before any capture result was read (decision 0008, corrections after freezing); all 10,521 call sets pass the corrected check.",
+    "The first context build read the NA determinant status that PR #14 writes for the 2,826 mapping-uncertain endpoints as genotype unavailable, putting 805 false negatives under R_GENOTYPE_UNAVAILABLE. endpoint_status now takes the PR #7 status (uncertain) for endpoints that have calls, and context was rebuilt; the rule in decision 0008 did not change.",
+    "The first report run stopped with a KeyError: perf() did not return the endpoint counts N, N_R and N_S listed in its output fields. They were added and the report was rerun; no metric changed.",
+    "_spearman() now returns no coefficient for a constant input instead of NaN, and audit writes NA instead of an empty detail field. Both were found by the tests or by git diff --check; no association in the real run had a constant input. audit was rerun from its checkpoint and report was rerun with the final code; every committed table was identical apart from the detail column, gzip timestamps and generated_at.",
+    "The augmented runs shared the machine with an alignment job from another project for part of the time; task times are not representative of an idle machine. Free memory stayed above 25%."
+  ],
+  "not_committed": "prediction_error_context.tsv.gz (about 76 MB), amr_calls.tsv.gz, mutation_capture.tsv.gz (the per-call copy is committed as mutation_capture.tsv), audit_checkpoint.jsonl, the augmented task predictions under augmented/, and mechanism_catalogue_snapshot.tsv (a row subset of the committed catalogue); all stay in datasets/ecoli_research_v1/error_decomposition_v1/ and are rebuilt by the commands above"
+}

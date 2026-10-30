@@ -1,0 +1,82 @@
+Job Id: 182410275.gadi-pbs
+    Job_Name = amrscan-head
+    Job_Owner = ktl590@gadi-login-09.gadi.nci.org.au
+    resources_used.cpupercent = 29
+    resources_used.cput = 00:13:55
+    resources_used.jobfs = 160359b
+    resources_used.mem = 1055784kb
+    resources_used.ncpus = 1
+    resources_used.vmem = 1055784kb
+    resources_used.walltime = 01:10:09
+    job_state = F
+    queue = copyq-exec
+    server = gadi-pbs-01.gadi.nci.org.au
+    Checkpoint = u
+    ctime = Wed Oct 28 10:56:41 2026
+    Error_Path = gadi.nci.org.au:/scratch/qn73/ktl590/amrscan-scale/amrscan/amr
+	scan-head.e182410275
+    exec_host = gadi-dm-01/6
+    exec_vnode = (gadi-dm-01:ncpus=1:mem=8388608kb:jobfs=102400kb)
+    group_list = qn73
+    Hold_Types = n
+    Join_Path = oe
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Wed Oct 28 12:17:35 2026
+    Output_Path = gadi.nci.org.au:/scratch/qn73/ktl590/amrscan-scale/full/head.
+	log
+    Priority = 0
+    qtime = Wed Oct 28 10:56:41 2026
+    Rerunable = False
+    Resource_List.jobfs = 104857600b
+    Resource_List.mem = 8589934592b
+    Resource_List.mpiprocs = 1
+    Resource_List.ncpus = 1
+    Resource_List.nodect = 1
+    Resource_List.place = free
+    Resource_List.select = 1:ncpus=1:mpiprocs=1:mem=8589934592:job_tags=copyq:j
+	obfs=104857600
+    Resource_List.storage = scratch/qn73
+    Resource_List.walltime = 10:00:00
+    Resource_List.wd = 1
+    stime = Wed Oct 28 11:07:09 2026
+    obittime = Wed Oct 28 12:17:35 2026
+    session_id = 3897574
+    jobdir = /home/590/ktl590
+    substate = 92
+    Variable_List = PBS_O_HOME=/home/590/ktl590,PBS_O_LANG=en_AU.UTF-8,
+	PBS_O_LOGNAME=ktl590,
+	PBS_O_PATH=/g/data/dt49/opt/vcftools/usr/local/bin:/g/data/gy10/opt/mi
+	niconda3/bin:/home/590/ktl590/perl5/bin:/opt/pbs/default/bin:/opt/nci/b
+	in:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/opt/pbs/default/bin:
+	/project/WGS_IPN/opt/svtools:/project/WGS_IPN/scripts:/project/WGS_IPN/
+	opt/svtools:/project/WGS_IPN/scripts/Sequences_Processing,
+	PBS_O_SHELL=/bin/bash,PBS_O_TZ=:/etc/localtime,
+	PBS_O_INTERACTIVE_AUTH_METHOD=resvport,
+	PBS_O_HOST=gadi-login-09.gadi.nci.org.au,
+	PBS_O_WORKDIR=/scratch/qn73/ktl590/amrscan-scale/amrscan,
+	PBS_O_SYSTEM=Linux,WORK=/scratch/qn73/ktl590/amrscan-scale/full,
+	THREADS=2,PBS_NCI_HT=0,PBS_NCI_STORAGE=scratch/qn73,PBS_NCI_IMAGE=,
+	PBS_NCPUS=1,PBS_NGPUS=0,PBS_NNODES=1,PBS_NCI_NCPUS_PER_NODE=48,
+	PBS_NCI_NUMA_PER_NODE=4,PBS_NCI_NCPUS_PER_NUMA=12,PROJECT=qn73,
+	PBS_VMEM=8589934592,PBS_NCI_WD=1,PBS_NCI_JOBFS=104857600b,
+	PBS_NCI_LAUNCH_COMPATIBILITY=0,PBS_NCI_FS_GDATA1=0,
+	PBS_NCI_FS_GDATA1A=0,PBS_NCI_FS_GDATA1B=0,PBS_NCI_FS_GDATA2=0,
+	PBS_NCI_FS_GDATA3=0,PBS_NCI_FS_GDATA4=0,PBS_O_QUEUE=copyq,
+	PBS_JOBFS=/jobfs/182410275.gadi-pbs
+    comment = Job run at Wed Oct 28 at 11:07 on (gadi-dm-01:ncpus=1:mem=8388608
+	kb:jobfs=102400kb) and finished
+    etime = Wed Oct 28 10:56:41 2026
+    run_count = 1
+    Stageout_status = 1
+    Exit_status = 0
+    Submit_arguments = -P qn73 -l storage=scratch/qn73 -v WORK=/scratch/qn73/kt
+	l590/amrscan-scale/full,
+	THREADS=2 -o /scratch/qn73/ktl590/amrscan-scale/full/head.log examples
+	/gadi-scale/run_amrscan.pbs
+    estimated.exec_vnode = (gadi-dm-06:ncpus=1:mem=8388608kb:jobfs=102400kb)
+    estimated.start_time = Wed Oct 28 12:29:46 2026
+    history_timestamp = 1793150255
+    project = qn73
+    Submit_Host = gadi-login-09.gadi.nci.org.au
+

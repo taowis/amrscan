@@ -1,0 +1,15 @@
+antimicrobial	split_strategy	R1_gap_rescue	R2_gap_rescue	R2_permuted_gap_rescue	R3_gap_rescue	R3_permuted_gap_rescue
+ciprofloxacin	lineage	0.004388	0.004148	0.00023	0.005753	0.004081
+ciprofloxacin	country	0.028231	0.045809	0.001647	0.029482	0.026942
+ciprofloxacin	project	0.005658	0.013211	0.001469	0.010469	0.006028
+ciprofloxacin	geography	0.023056	0.055787	-0.010225	0.026377	0.027686
+ciprofloxacin	temporal	0.028705	0.030076	0.000228	0.041357	0.027989
+levofloxacin	lineage	0.000034	0.003792	-0.001541	0.001373	-0.000012
+levofloxacin	country	-0.05	-0.072368	-0.001316	-0.002632	0.011842
+levofloxacin	project	0.003364	-0.00468	-0.001117	0.000367	0.001227
+levofloxacin	temporal	-0.000866	-0.004288	-0.001745	0.005346	0.001869
+nalidixic acid	lineage	0.100593	0.098022	0.001481	0.098404	0.097904
+nalidixic acid	country	0.093386	0.057375	0.000778	0.095703	0.090165
+nalidixic acid	project	0.114479	0.11936	0.000969	0.126503	0.112448
+nalidixic acid	geography	0.095471	0.114945	0.003932	0.105833	0.08681
+nalidixic acid	temporal	0.115127	0.123137	0.015048	0.106557	0.106081

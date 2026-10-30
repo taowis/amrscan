@@ -1,0 +1,11 @@
+antimicrobial	strategy	fold	train_N	train_R	train_S	test_N	test_R	test_S
+cefazolin	country	USA	161	98	63	2359	772	1587
+cefazolin	project	PRJNA809394	607	524	83	1913	346	1567
+cefepime	country	USA	619	397	222	2913	259	2654
+ceftazidime	country	USA	733	596	137	2512	297	2215
+levofloxacin	project	PRJNA809394	866	501	365	2075	339	1736
+kanamycin	lineage	fold1	946	128	818	237	33	204
+kanamycin	lineage	fold2	946	129	817	237	32	205
+kanamycin	lineage	fold3	946	129	817	237	32	205
+kanamycin	lineage	fold4	947	129	818	236	32	204
+kanamycin	lineage	fold5	947	129	818	236	32	204

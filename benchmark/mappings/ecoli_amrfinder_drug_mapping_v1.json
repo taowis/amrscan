@@ -1,0 +1,247 @@
+{
+  "catalogue_coverage": {
+    "exact": 2372,
+    "family": 3363,
+    "none": 2149
+  },
+  "combination_rules": {
+    "trimethoprim-sulfamethoxazole": {
+      "components": {
+        "sulfonamide": [
+          "sulfamethoxazole"
+        ],
+        "trimethoprim": [
+          "trimethoprim"
+        ]
+      },
+      "partial": "uncertain",
+      "positive": "a determinant for each component",
+      "reference": "Tagg KA et al. 2019. Novel trimethoprim resistance gene dfrA34 identified in Salmonella Heidelberg in the USA. J Antimicrob Chemother 74:38-41. doi:10.1093/jac/dky373. PMID 30202900",
+      "review_status": "HUMAN_REVIEW_REQUIRED"
+    }
+  },
+  "decision_record": "docs/decisions/0002-ecoli-determinant-mapping-v1.md",
+  "evidence_policy": {
+    "element_type": "AMR",
+    "ignored_element_types": [
+      "STRESS",
+      "VIRULENCE"
+    ],
+    "matching": "exact AMRFinderPlus element symbol; no class or text matching",
+    "partial_methods_as_uncertain": [
+      "INTERNAL_STOP",
+      "PARTIALP",
+      "PARTIALX"
+    ],
+    "status_order": "positive if any predicts_resistance rule applies with its requires met; otherwise uncertain if any uncertain rule applies or a requires is unmet; otherwise negative"
+  },
+  "fixed_on": "2026-10-18",
+  "mapping_version": "ecoli_amrfinder_drug_mapping_v1",
+  "not_mapped_antimicrobials": {
+    "amoxicillin": "excluded",
+    "ampicillin-sulbactam": "excluded",
+    "azithromycin": "excluded",
+    "cefotaxime": "excluded",
+    "cefotaxime-clavulanic acid": "excluded",
+    "ceftazidime-avibactam": "excluded",
+    "ceftazidime-clavulanic acid": "excluded",
+    "ceftolozane-tazobactam": "excluded",
+    "colistin": "excluded",
+    "doripenem": "excluded",
+    "fosfomycin": "excluded",
+    "imipenem-relebactam": "excluded",
+    "meropenem-vaborbactam": "excluded",
+    "minocycline": "excluded",
+    "nitrofurantoin": "excluded",
+    "piperacillin": "excluded",
+    "polymyxin B": "excluded",
+    "tigecycline": "excluded",
+    "trimethoprim": "excluded"
+  },
+  "organism": "Escherichia coli",
+  "pointfinder_entries_without_amrfinder_symbol": [
+    {
+      "mutation": "gyrA_D87A",
+      "pointfinder_entry": "gyrA_1_CP073768.1",
+      "reason": "not reported by AMRFinderPlus for Escherichia"
+    },
+    {
+      "mutation": "gyrA_D87A",
+      "pointfinder_entry": "gyrA_1_CP073768.1",
+      "reason": "not reported by AMRFinderPlus for Escherichia"
+    },
+    {
+      "mutation": "parC_F60K",
+      "pointfinder_entry": "parC_1_CP084529.1",
+      "reason": "not reported by AMRFinderPlus for Escherichia"
+    },
+    {
+      "mutation": "-13 ins GT,G",
+      "pointfinder_entry": "ampC-promoter-size-53bp_1_CP037449.1",
+      "reason": "no matching AMRFinderPlus symbol"
+    },
+    {
+      "mutation": "-15 ins TG",
+      "pointfinder_entry": "ampC-promoter-size-53bp_1_CP037449.1",
+      "reason": "no matching AMRFinderPlus symbol"
+    },
+    {
+      "mutation": "-16 ins GT",
+      "pointfinder_entry": "ampC-promoter-size-53bp_1_CP037449.1",
+      "reason": "no matching AMRFinderPlus symbol"
+    }
+  ],
+  "references": {
+    "ampc": "Jacoby GA. 2009. AmpC beta-lactamases. Clin Microbiol Rev 22:161-182. doi:10.1128/CMR.00036-08. PMID 19136439",
+    "amrfinderplus": "Feldgarden M et al. 2021. AMRFinderPlus and the Reference Gene Catalog. Sci Rep 11:12728. doi:10.1038/s41598-021-91456-0. PMID 34135355",
+    "bush": "Bush K, Jacoby GA. 2010. Updated functional classification of beta-lactamases. Antimicrob Agents Chemother 54:969-976. doi:10.1128/AAC.01009-09. PMID 19995920",
+    "dfra34": "Tagg KA et al. 2019. Novel trimethoprim resistance gene dfrA34 identified in Salmonella Heidelberg in the USA. J Antimicrob Chemother 74:38-41. doi:10.1093/jac/dky373. PMID 30202900",
+    "pmqr": "Strahilevitz J et al. 2009. Plasmid-mediated quinolone resistance: a multifaceted threat. Clin Microbiol Rev 22:664-689. doi:10.1128/CMR.00016-09. PMID 19822894",
+    "pointfinder": "Zankari E et al. 2017. PointFinder. J Antimicrob Chemother 72:2764-2768. doi:10.1093/jac/dkx217. PMID 29091202",
+    "quinolone": "Hooper DC, Jacoby GA. 2015. Mechanisms of drug resistance: quinolone resistance. Ann N Y Acad Sci 1354:12-31. doi:10.1111/nyas.12830. PMID 26190223",
+    "resfinder": "Bortolaia V et al. 2020. ResFinder 4.0 for predictions of phenotypes from genotypes. J Antimicrob Chemother 75:3491-3500. doi:10.1093/jac/dkaa345. PMID 32780112",
+    "stoesser": "Stoesser N et al. 2013. Predicting antimicrobial susceptibilities for Escherichia coli and Klebsiella pneumoniae isolates using whole genomic sequence data. J Antimicrob Chemother 68:2234-2244. doi:10.1093/jac/dkt180. PMID 23722448"
+  },
+  "rule_count": 46701,
+  "rule_variants": {
+    "fq_two_mechanisms": "ciprofloxacin and levofloxacin positive only with at least two distinct predicting determinants; exactly one is uncertain",
+    "primary": "uncertain endpoints excluded from metrics",
+    "uncertain_as_negative": "uncertain endpoints counted as determinant-negative",
+    "uncertain_as_positive": "uncertain endpoints counted as determinant-positive"
+  },
+  "rules_file": "ecoli_amrfinder_drug_mapping_v1.tsv",
+  "rules_sha256": "67f0eb67585fabafad5c00fd53dd6b4839767e4af94d67732c8299034ac6795a",
+  "source_term_translation": {
+    "direct": {
+      "amikacin": "amikacin",
+      "amoxicillin+clavulanic acid": "amoxicillin-clavulanic acid",
+      "ampicillin": "ampicillin",
+      "aztreonam": "aztreonam",
+      "cefepime": "cefepime",
+      "cefoxitin": "cefoxitin",
+      "ceftazidime": "ceftazidime",
+      "ceftiofur": "ceftiofur",
+      "ceftriaxone": "ceftriaxone",
+      "chloramphenicol": "chloramphenicol",
+      "ciprofloxacin": "ciprofloxacin",
+      "ertapenem": "ertapenem",
+      "gentamicin": "gentamicin",
+      "gentamicin c": "gentamicin",
+      "imipenem": "imipenem",
+      "kanamycin": "kanamycin",
+      "kanamycin a": "kanamycin",
+      "meropenem": "meropenem",
+      "nalidixic acid": "nalidixic acid",
+      "piperacillin+tazobactam": "piperacillin-tazobactam",
+      "streptomycin": "streptomycin",
+      "sulfamethoxazole": "trimethoprim-sulfamethoxazole#sulfonamide",
+      "tetracycline": "tetracycline",
+      "tobramycin": "tobramycin",
+      "trimethoprim": "trimethoprim-sulfamethoxazole#trimethoprim"
+    },
+    "inferred": {
+      "cefazolin": [
+        "cephalothin",
+        "cefotaxime",
+        "ceftriaxone",
+        "ceftazidime"
+      ],
+      "ceftiofur": [
+        "cefotaxime",
+        "ceftriaxone"
+      ],
+      "ceftriaxone": [
+        "cefotaxime"
+      ],
+      "levofloxacin": [
+        "ciprofloxacin",
+        "fluoroquinolone"
+      ],
+      "sulfisoxazole": [
+        "sulfamethoxazole"
+      ]
+    },
+    "unknown_class": {
+      "unknown aminoglycoside": [
+        "gentamicin",
+        "streptomycin",
+        "amikacin",
+        "tobramycin",
+        "kanamycin"
+      ],
+      "unknown beta-lactam": [
+        "ampicillin",
+        "amoxicillin-clavulanic acid",
+        "cefoxitin",
+        "cefazolin",
+        "ceftriaxone",
+        "ceftazidime",
+        "cefepime",
+        "meropenem",
+        "ertapenem",
+        "imipenem",
+        "piperacillin-tazobactam",
+        "aztreonam",
+        "ceftiofur"
+      ],
+      "unknown quinolone": [
+        "ciprofloxacin",
+        "levofloxacin",
+        "nalidixic acid"
+      ]
+    }
+  },
+  "sources": {
+    "amrfinderplus_database": {
+      "files_sha256": {
+        "AMRProt-mutation.tsv": "b6f441972d1753a0cc9b1a4d317950eb085e3a52bea8b6d82e0ff53b15280f7b",
+        "AMRProt.fa": "41d5ebf4f807c9590f27de7dd23c9f037afb4d8efd613790c54847fb1fc2896b",
+        "AMR_DNA-Escherichia.tsv": "495c2c35bb396d7538d7562774f5029c69ee1940269435fbc91b8d7fe25f9fae",
+        "fam.tsv": "00323cb11e1a5195c636b9d7d54d925e8274518300f3b6188ec87edc016b4487"
+      },
+      "path": "datasets/amrfinderplus-db/2026-08-07.1",
+      "version": "2026-08-07.1"
+    },
+    "evaluation_plan_sha256": "11c4e31edef61e957bf8e1f7933a2f07b0cff421d1f61ad6cf62fd9e648b4750",
+    "pointfinder_db": {
+      "commit": "694919f59a38980204009e7ade76bf319cb7df0b",
+      "phenotypes_sha256": "e5bef5baf08e122cc27e29546b3508b4ce8141cef4eab92b4e34d763709f4969",
+      "tag": "resfinder-4.7.2",
+      "url": "https://bitbucket.org/genomicepidemiology/pointfinder_db"
+    },
+    "resfinder_db": {
+      "commit": "852f367c4900530e797a48f3eedf010e6455ae16",
+      "phenotypes_sha256": "44e6022cf86e44df4ede7ef5a856c80fc0a074c96489072ecc58eb359d180dc9",
+      "tag": "resfinder-4.7.2",
+      "url": "https://bitbucket.org/genomicepidemiology/resfinder_db"
+    }
+  },
+  "status": "prespecified",
+  "study_antimicrobials": {
+    "amikacin": "secondary",
+    "amoxicillin-clavulanic acid": "primary",
+    "ampicillin": "primary",
+    "aztreonam": "secondary",
+    "cefazolin": "primary",
+    "cefepime": "primary",
+    "cefoxitin": "primary",
+    "ceftazidime": "primary",
+    "ceftiofur": "secondary",
+    "ceftriaxone": "primary",
+    "chloramphenicol": "primary",
+    "ciprofloxacin": "primary",
+    "ertapenem": "secondary",
+    "gentamicin": "primary",
+    "imipenem": "secondary",
+    "kanamycin": "secondary",
+    "levofloxacin": "primary",
+    "meropenem": "secondary",
+    "nalidixic acid": "primary",
+    "piperacillin-tazobactam": "secondary",
+    "streptomycin": "primary",
+    "sulfisoxazole": "primary",
+    "tetracycline": "primary",
+    "tobramycin": "secondary",
+    "trimethoprim-sulfamethoxazole": "primary"
+  }
+}

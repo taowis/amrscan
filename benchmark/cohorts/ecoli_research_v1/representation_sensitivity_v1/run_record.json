@@ -1,0 +1,190 @@
+{
+  "analysis_version": "representation_sensitivity_v1",
+  "builder": "bin/representation_sensitivity.py 1.0.0",
+  "builder_sha256_final": "92b7fbe6ceba0557480d1398dc9c4f8830588b5d0ea7667406e7002f3a5edde8",
+  "config_sha256": "f20203e35a3ef978d9eb9620e52f96058da9c5c09a67dc9b8a61ba7e65781566",
+  "design_commit": "518222c",
+  "selection_commit": "a00cd62",
+  "environment": "environment/generalisation-benchmark.txt, Python 3.12.12 (workstation); .venv-gadi from scripts/gadi/representation_sensitivity/setup_env.sh (Gadi)",
+  "machines": {
+    "workstation": "Apple M4, 10 cores, 16 GB RAM, macOS 26 (Darwin 25.5.0)",
+    "gadi": "NCI Gadi normalbw, 28-core Broadwell nodes (128 GB for the fit pilot, 256 GB for the refits)"
+  },
+  "commands_workstation": [
+    "bin/representation_sensitivity.py check --benchmark datasets/ecoli_research_v1/generalisation_v1 --decomposition datasets/ecoli_research_v1/error_decomposition_v1 --outdir datasets/ecoli_research_v1/representation_sensitivity_v1",
+    "bin/representation_sensitivity.py sketch --benchmark datasets/ecoli_research_v1/generalisation_v1 --decomposition datasets/ecoli_research_v1/error_decomposition_v1 --outdir datasets/ecoli_research_v1/representation_sensitivity_v1 --cache datasets/ecoli_research_v1/genome_cache --baseline datasets/ecoli_research_v1/genotype_baseline_20261024 --workers 6",
+    "bin/representation_sensitivity.py pilot --benchmark datasets/ecoli_research_v1/generalisation_v1 --decomposition datasets/ecoli_research_v1/error_decomposition_v1 --outdir datasets/ecoli_research_v1/representation_sensitivity_v1 --cache datasets/ecoli_research_v1/genome_cache --workers 3",
+    "bin/representation_sensitivity.py select --benchmark datasets/ecoli_research_v1/generalisation_v1 --decomposition datasets/ecoli_research_v1/error_decomposition_v1 --outdir datasets/ecoli_research_v1/representation_sensitivity_v1 --budget benchmark/cohorts/ecoli_research_v1/representation_sensitivity_v1/budget.json",
+    "bin/representation_sensitivity.py report --benchmark datasets/ecoli_research_v1/generalisation_v1 --decomposition datasets/ecoli_research_v1/error_decomposition_v1 --outdir datasets/ecoli_research_v1/representation_sensitivity_v1 --population datasets/ecoli_research_v1/population_20261015 --baseline datasets/ecoli_research_v1/genotype_baseline_20261024",
+    "bin/representation_sensitivity.py pairwise --benchmark datasets/ecoli_research_v1/generalisation_v1 --decomposition datasets/ecoli_research_v1/error_decomposition_v1 --outdir datasets/ecoli_research_v1/representation_sensitivity_v1 --population datasets/ecoli_research_v1/population_20261015 --baseline datasets/ecoli_research_v1/genotype_baseline_20261024",
+    "scripts/ecoli_research_v1/compare_platform_runs.py datasets/ecoli_research_v1/generalisation_v1 datasets/ecoli_research_v1/representation_sensitivity_v1/R0_gadi --out benchmark/cohorts/ecoli_research_v1/representation_sensitivity_v1/r0_platform_check.tsv"
+  ],
+  "commands_gadi": [
+    "qsub -P <project> -l storage=scratch/<project> -v SCALED=<200|100|50|20> scripts/gadi/representation_sensitivity/fitpilot.pbs",
+    "qsub -P <project> -l storage=scratch/<project> -l mem=32GB,ncpus=8 -v REP=matrix scripts/gadi/representation_sensitivity/run.pbs",
+    "qsub -P <project> -l storage=scratch/<project> -N rs-R1-common -v REP=R1,WORKERS=28,MEM_GB=256,ONLY='^common__' scripts/gadi/representation_sensitivity/run.pbs",
+    "qsub -P <project> -l storage=scratch/<project> -N rs-R1-maximal -v REP=R1,WORKERS=28,MEM_GB=256,ONLY='^maximal__' scripts/gadi/representation_sensitivity/run.pbs",
+    "qsub -P <project> -l storage=scratch/<project> -N rs-R3 -v REP=R3,WORKERS=28,MEM_GB=256 scripts/gadi/representation_sensitivity/run.pbs",
+    "qsub -P <project> -l storage=scratch/<project> -N rs-R3_permuted -v REP=R3_permuted,WORKERS=28,MEM_GB=256 scripts/gadi/representation_sensitivity/run.pbs",
+    "qsub -P <project> -l storage=scratch/<project> -l ncpus=8,mem=72GB,walltime=06:00:00 -v WORKERS=6 scripts/gadi/representation_sensitivity/r0_platform_check.pbs"
+  ],
+  "stages": {
+    "check": {
+      "at": "2026-10-29T02:31:57Z",
+      "tasks": 1069
+    },
+    "sketch": {
+      "started": "2026-10-29T02:31Z",
+      "finished": "2026-10-29T04:53Z",
+      "genomes": 10521,
+      "genome_verified": 10521,
+      "r0_reproduced": 10521,
+      "scaled": 20
+    },
+    "pilot": {
+      "finished": "2026-10-29T08:25Z",
+      "r0_feature_space_check": "all true",
+      "r0_capture_mismatches": 0
+    },
+    "select": {
+      "R1_scaled": 50,
+      "budget_su": 1300,
+      "budget_revised_su": 1600
+    },
+    "report": {
+      "finished": "2026-10-30T02:32Z",
+      "seconds": 1934,
+      "peak_rss_gb": 1.5,
+      "tasks_completed": {
+        "R0": 532,
+        "R1": 532,
+        "R2": 262,
+        "R2_permuted": 262,
+        "R3": 262,
+        "R3_permuted": 262
+      }
+    },
+    "pairwise": {
+      "finished": "2026-10-30T03:20Z",
+      "seconds": 347,
+      "rows": 272
+    },
+    "r0_platform_check": {
+      "tasks": 532,
+      "identical_predictions": 532,
+      "max_abs_probability_diff": 0.0
+    }
+  },
+  "gadi_jobs": [
+    {
+      "job": "fit pilot scaled 200, first submission",
+      "exit": 1,
+      "su": 10.35,
+      "walltime": "00:34:56",
+      "note": "failed writing JSON; numbers lost"
+    },
+    {
+      "job": "fit pilot scaled 100, first submission",
+      "exit": 1,
+      "su": 12.82,
+      "walltime": "00:43:17",
+      "note": "failed writing JSON"
+    },
+    {
+      "job": "fit pilot scaled 50, first submission",
+      "exit": 1,
+      "su": 17.3,
+      "walltime": "00:58:24",
+      "note": "failed writing JSON"
+    },
+    {
+      "job": "fit pilot scaled 20, first submission",
+      "exit": 1,
+      "su": 39.03,
+      "walltime": "02:11:43",
+      "note": "failed writing JSON"
+    },
+    {
+      "job": "182560409 fit pilot scaled 200",
+      "exit": 0,
+      "su": 24.04,
+      "walltime": "01:21:08",
+      "mem_used_gb": 11.61,
+      "note": "about 13 times slower than the first submission (node bdw-0094)"
+    },
+    {
+      "job": "182560410 fit pilot scaled 100",
+      "exit": 0,
+      "su": 3.78,
+      "walltime": "00:12:46",
+      "mem_used_gb": 21.78
+    },
+    {
+      "job": "182560411 fit pilot scaled 50",
+      "exit": 0,
+      "su": 7.64,
+      "walltime": "00:25:48",
+      "mem_used_gb": 41.38
+    },
+    {
+      "job": "182560412 fit pilot scaled 20",
+      "exit": 0,
+      "su": 26.52,
+      "walltime": "01:29:31",
+      "mem_used_gb": 104.18
+    },
+    {
+      "job": "182583922 R1 matrix",
+      "exit": 0,
+      "su": 2.41,
+      "walltime": "00:32:34",
+      "mem_used_gb": 32.0
+    },
+    {
+      "job": "182583923 R1 common cohort",
+      "exit": 0,
+      "su": 338.26,
+      "walltime": "09:30:49",
+      "mem_used_gb": 144.86,
+      "tasks": 532
+    },
+    {
+      "job": "182583924 R1 maximal cohort",
+      "exit": 0,
+      "su": 361.3,
+      "walltime": "10:09:42",
+      "mem_used_gb": 150.67,
+      "tasks": 537
+    },
+    {
+      "job": "182583925 R3",
+      "exit": 0,
+      "su": 214.6,
+      "walltime": "06:02:08",
+      "mem_used_gb": 142.26,
+      "tasks": 262
+    },
+    {
+      "job": "182583926 R3_permuted",
+      "exit": 0,
+      "su": 209.66,
+      "walltime": "05:53:48",
+      "mem_used_gb": 150.02,
+      "tasks": 262
+    },
+    {
+      "job": "182583927 R0 platform check",
+      "exit": 0,
+      "su": 28.49,
+      "walltime": "02:50:58",
+      "mem_used_gb": 40.43,
+      "tasks": 532
+    }
+  ],
+  "su_total": 1296.2,
+  "not_committed": [
+    "datasets/ecoli_research_v1/representation_sensitivity_v1/sketches (scaled 20 sketches of 10,521 genomes)",
+    "R1, R3, R3_permuted matrices (3.7 GB each) and pilot_scaled_* matrices (on Gadi scratch)",
+    "task predictions (R1/tasks, R3/tasks, R3_permuted/tasks, R0_gadi/tasks) and R1/predictions.tsv.gz (13 MB)"
+  ]
+}

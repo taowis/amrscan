@@ -1,0 +1,24 @@
+#!/bin/bash
+# Refit the frozen tasks for one representation (R1, R3 or R3_permuted), or
+# build the R1 matrix with REP=matrix. Resumable: finished tasks are reused.
+# Submit from the repository root. MEM_GB (the job's memory) turns on packing:
+# a task starts only while the running tasks' estimated memory fits 75% of it.
+#   qsub -P qn73 -l storage=scratch/qn73 -v REP=R1,WORKERS=28,MEM_GB=256,ONLY='^common__' \
+#       scripts/gadi/representation_sensitivity/run.pbs
+#PBS -P qn73
+#PBS -l storage=scratch/qn73
+#PBS -q normalbw
+#PBS -l ncpus=28,mem=256GB,walltime=24:00:00,wd
+#PBS -N rs-run
+#PBS -j oe
+set -euo pipefail
+: "${REP:?pass REP with -v}"
+D=datasets/ecoli_research_v1
+args=(--benchmark $D/generalisation_v1 --decomposition $D/error_decomposition_v1
+      --outdir $D/representation_sensitivity_v1)
+if [ "$REP" = matrix ]; then
+  .venv-gadi/bin/python bin/representation_sensitivity.py matrix "${args[@]}"
+else
+  .venv-gadi/bin/python bin/representation_sensitivity.py run --representation "$REP" --workers "${WORKERS:-1}" \
+    --population $D/population_20261015 --baseline $D/genotype_baseline_20261024 "${args[@]}" ${ONLY:+--only "$ONLY"} ${MEM_GB:+--memory-gb "$MEM_GB"}
+fi

@@ -1,0 +1,18 @@
+#!/bin/bash
+# Resource pilot for one candidate density: builds its matrix and times model
+# fits on the largest tasks; predictions are discarded unscored. Submit from
+# the repository root, one job per candidate (and SCALED=200 for R0):
+#   qsub -P qn73 -l storage=scratch/qn73 -v SCALED=20 scripts/gadi/representation_sensitivity/fitpilot.pbs
+#PBS -P qn73
+#PBS -l storage=scratch/qn73
+#PBS -q normalbw
+#PBS -l ncpus=14,mem=128GB,walltime=04:00:00,wd
+#PBS -N rs-fitpilot
+#PBS -j oe
+set -euo pipefail
+: "${SCALED:?pass SCALED with -v}"
+D=datasets/ecoli_research_v1
+.venv-gadi/bin/python bin/representation_sensitivity.py fitpilot --scaled "$SCALED" \
+  --benchmark $D/generalisation_v1 --decomposition $D/error_decomposition_v1 \
+  --population $D/population_20261015 --baseline $D/genotype_baseline_20261024 \
+  --outdir $D/representation_sensitivity_v1

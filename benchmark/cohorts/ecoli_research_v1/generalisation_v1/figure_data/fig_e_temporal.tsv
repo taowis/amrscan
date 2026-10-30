@@ -1,0 +1,27 @@
+cohort	antimicrobial	split_strategy	fold_or_holdout_id	N	N_R	N_S	AUROC	balanced_accuracy	MCC	supported
+common	amoxicillin-clavulanic acid	temporal	before_2021_to_2021_on	413	113	300	0.88174	0.836445	0.624668	yes
+common	ampicillin	temporal	before_2021_to_2021_on	1105	957	148	0.944446	0.919508	0.735122	yes
+common	cefepime	temporal	before_2021_to_2021_on	1077	467	610	0.750658	0.689922	0.378017	yes
+common	cefoxitin	temporal	before_2021_to_2021_on	751	156	595	0.8218	0.710935	0.415162	yes
+common	ceftazidime	temporal	before_2021_to_2021_on	783	552	231	0.678042	0.584098	0.170895	yes
+common	ceftriaxone	temporal	before_2021_to_2021_on	438	384	54	0.804808	0.805845	0.638	yes
+common	chloramphenicol	temporal	before_2021_to_2021_on	353	96	257	0.992056	0.983119	0.951316	yes
+common	ciprofloxacin	temporal	before_2021_to_2021_on	1064	603	461	0.88641	0.825604	0.647917	yes
+common	gentamicin	temporal	before_2021_to_2021_on	813	162	651	0.956283	0.909797	0.82539	yes
+common	levofloxacin	temporal	before_2021_to_2021_on	546	315	231	0.963554	0.947908	0.898567	yes
+common	nalidixic acid	temporal	before_2021_to_2021_on	343	99	244	0.714212	0.677948	0.388304	yes
+common	tetracycline	temporal	before_2021_to_2021_on	676	390	286	0.988363	0.983566	0.966687	yes
+common	trimethoprim-sulfamethoxazole	temporal	before_2021_to_2021_on	774	367	407	0.973602	0.928101	0.855289	yes
+maximal	amoxicillin-clavulanic acid	temporal	before_2021_to_2021_on	441	126	315	0.890842	0.854762	0.692645	yes
+maximal	ampicillin	temporal	before_2021_to_2021_on	1138	986	152	0.945313	0.915915	0.725494	yes
+maximal	cefepime	temporal	before_2021_to_2021_on	1126	490	636	0.772917	0.706353	0.415305	yes
+maximal	cefoxitin	temporal	before_2021_to_2021_on	778	163	615	0.826739	0.707631	0.444956	yes
+maximal	ceftazidime	temporal	before_2021_to_2021_on	807	565	242	0.664971	0.562934	0.131651	yes
+maximal	ceftriaxone	temporal	before_2021_to_2021_on	456	401	55	0.813285	0.81766	0.65096	yes
+maximal	chloramphenicol	temporal	before_2021_to_2021_on	378	107	271	0.989964	0.974911	0.942009	yes
+maximal	ciprofloxacin	temporal	before_2021_to_2021_on	1116	639	477	0.892668	0.82322	0.642074	yes
+maximal	gentamicin	temporal	before_2021_to_2021_on	855	173	682	0.958126	0.911617	0.828645	yes
+maximal	levofloxacin	temporal	before_2021_to_2021_on	582	337	245	0.962266	0.943051	0.887112	yes
+maximal	nalidixic acid	temporal	before_2021_to_2021_on	364	119	245	0.743766	0.680312	0.398235	yes
+maximal	tetracycline	temporal	before_2021_to_2021_on	708	416	292	0.984161	0.9796	0.9592	yes
+maximal	trimethoprim-sulfamethoxazole	temporal	before_2021_to_2021_on	807	384	423	0.97225	0.926095	0.851541	yes

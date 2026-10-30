@@ -1,0 +1,15 @@
+#!/bin/bash
+# Genotype-phenotype baseline from the validated calls.
+#PBS -N amrscan-baseline
+#PBS -q normal
+#PBS -l ncpus=4
+#PBS -l mem=16GB
+#PBS -l walltime=01:00:00
+#PBS -j oe
+set -euo pipefail
+source "${AMRSCAN_REPO:-/scratch/$PROJECT/$USER/amrscan/amrscan-dev}/scripts/gadi/env.sh"
+cd "$AMRSCAN_REPO"
+OUT="datasets/ecoli_research_v1/genotype_baseline_${BASELINE_TAG:-$(date -u +%Y%m%d)}"
+python3 bin/genotype_baseline.py build --processed "$PR5_DIR" --population "$PR6_DIR" --calls "$CALLS_DIR" \
+  --database "$DB_DIR" --outdir "$OUT" --workers "$PBS_NCPUS"
+(cd "$OUT" && sha256sum -c --quiet SHA256SUMS) && echo "baseline written to $OUT"

@@ -1,0 +1,294 @@
+{
+  "analysis_manifest_frozen_at": "2026-10-25T14:12:43Z",
+  "drugs": [
+    "amoxicillin-clavulanic acid",
+    "ampicillin",
+    "cefazolin",
+    "cefoxitin",
+    "ceftazidime",
+    "ceftriaxone",
+    "ciprofloxacin",
+    "levofloxacin",
+    "nalidixic acid",
+    "trimethoprim-sulfamethoxazole"
+  ],
+  "eligibility": {
+    "amikacin": {
+      "captured_fraction": null,
+      "carriers": 0,
+      "eligible": false,
+      "reason": "no point-mutation rule in the catalogue"
+    },
+    "amoxicillin-clavulanic acid": {
+      "captured_fraction": 0.0,
+      "carriers": 84,
+      "eligible": true,
+      "reason": ""
+    },
+    "ampicillin": {
+      "captured_fraction": 0.0,
+      "carriers": 134,
+      "eligible": true,
+      "reason": ""
+    },
+    "aztreonam": {
+      "captured_fraction": null,
+      "carriers": 0,
+      "eligible": false,
+      "reason": "no point-mutation rule in the catalogue"
+    },
+    "cefazolin": {
+      "captured_fraction": 0.0,
+      "carriers": 53,
+      "eligible": true,
+      "reason": ""
+    },
+    "cefepime": {
+      "captured_fraction": null,
+      "carriers": 0,
+      "eligible": false,
+      "reason": "no point-mutation rule in the catalogue"
+    },
+    "cefoxitin": {
+      "captured_fraction": 0.0,
+      "carriers": 89,
+      "eligible": true,
+      "reason": ""
+    },
+    "ceftazidime": {
+      "captured_fraction": 0.0,
+      "carriers": 98,
+      "eligible": true,
+      "reason": ""
+    },
+    "ceftiofur": {
+      "captured_fraction": 0.0,
+      "carriers": 14,
+      "eligible": false,
+      "reason": "14 carriers, below 20"
+    },
+    "ceftriaxone": {
+      "captured_fraction": 0.0,
+      "carriers": 90,
+      "eligible": true,
+      "reason": ""
+    },
+    "chloramphenicol": {
+      "captured_fraction": null,
+      "carriers": 0,
+      "eligible": false,
+      "reason": "no point-mutation rule in the catalogue"
+    },
+    "ciprofloxacin": {
+      "captured_fraction": 0.010137149672033392,
+      "carriers": 1677,
+      "eligible": true,
+      "reason": ""
+    },
+    "ertapenem": {
+      "captured_fraction": null,
+      "carriers": 0,
+      "eligible": false,
+      "reason": "no point-mutation rule in the catalogue"
+    },
+    "gentamicin": {
+      "captured_fraction": null,
+      "carriers": 0,
+      "eligible": false,
+      "reason": "0 carriers, below 20"
+    },
+    "kanamycin": {
+      "captured_fraction": null,
+      "carriers": 0,
+      "eligible": false,
+      "reason": "0 carriers, below 20"
+    },
+    "levofloxacin": {
+      "captured_fraction": 0.005897219882055603,
+      "carriers": 1187,
+      "eligible": true,
+      "reason": ""
+    },
+    "meropenem": {
+      "captured_fraction": null,
+      "carriers": 0,
+      "eligible": false,
+      "reason": "no point-mutation rule in the catalogue"
+    },
+    "nalidixic acid": {
+      "captured_fraction": 0.017811704834605598,
+      "carriers": 393,
+      "eligible": true,
+      "reason": ""
+    },
+    "piperacillin-tazobactam": {
+      "captured_fraction": null,
+      "carriers": 0,
+      "eligible": false,
+      "reason": "no point-mutation rule in the catalogue"
+    },
+    "streptomycin": {
+      "captured_fraction": null,
+      "carriers": 0,
+      "eligible": false,
+      "reason": "0 carriers, below 20"
+    },
+    "sulfisoxazole": {
+      "captured_fraction": 0.0,
+      "carriers": 19,
+      "eligible": false,
+      "reason": "19 carriers, below 20"
+    },
+    "tetracycline": {
+      "captured_fraction": null,
+      "carriers": 0,
+      "eligible": false,
+      "reason": "0 carriers, below 20"
+    },
+    "tobramycin": {
+      "captured_fraction": null,
+      "carriers": 0,
+      "eligible": false,
+      "reason": "0 carriers, below 20"
+    },
+    "trimethoprim-sulfamethoxazole": {
+      "captured_fraction": 0.0,
+      "carriers": 20,
+      "eligible": true,
+      "reason": ""
+    }
+  },
+  "indicator_prevalence": {
+    "16S_A1408G": 0,
+    "16S_A523C": 0,
+    "16S_G1058C": 0,
+    "16S_T1406A": 0,
+    "ampC_C-42A": 0,
+    "ampC_C-42G": 0,
+    "ampC_C-42T": 137,
+    "ampC_T-14TGT": 6,
+    "ampC_T-32A": 128,
+    "ampC_T-32C": 0,
+    "ampC_T-32G": 0,
+    "folP_F28I": 0,
+    "folP_F28L": 18,
+    "folP_P64S": 4,
+    "gyrA_A196E": 0,
+    "gyrA_A51V": 0,
+    "gyrA_A67S": 0,
+    "gyrA_A84P": 0,
+    "gyrA_A84V": 0,
+    "gyrA_D82G": 0,
+    "gyrA_D87G": 42,
+    "gyrA_D87H": 1,
+    "gyrA_D87N": 1627,
+    "gyrA_D87V": 0,
+    "gyrA_D87Y": 56,
+    "gyrA_G81C": 0,
+    "gyrA_G81D": 0,
+    "gyrA_Q106H": 0,
+    "gyrA_Q106R": 0,
+    "gyrA_S83A": 23,
+    "gyrA_S83L": 2298,
+    "gyrA_S83V": 6,
+    "gyrA_S83W": 1,
+    "gyrB_D426N": 0,
+    "gyrB_K447E": 0,
+    "parC_A56T": 62,
+    "parC_E84A": 3,
+    "parC_E84G": 58,
+    "parC_E84K": 8,
+    "parC_E84R": 0,
+    "parC_E84V": 704,
+    "parC_F60I": 0,
+    "parC_G78C": 0,
+    "parC_G78D": 0,
+    "parC_S57T": 128,
+    "parC_S80I": 1685,
+    "parC_S80L": 0,
+    "parC_S80R": 13,
+    "parC_S80W": 0,
+    "parE_D476N": 0,
+    "parE_E460D": 23,
+    "parE_G423R": 0,
+    "parE_I355T": 139,
+    "parE_I444F": 0,
+    "parE_I464F": 4,
+    "parE_I470M": 0,
+    "parE_I529L": 1008,
+    "parE_L416F": 302,
+    "parE_L445H": 7,
+    "parE_P439S": 1,
+    "parE_S458A": 396,
+    "parE_S458T": 29
+  },
+  "indicators": [
+    "16S_A1408G",
+    "16S_A523C",
+    "16S_G1058C",
+    "16S_T1406A",
+    "ampC_C-42A",
+    "ampC_C-42G",
+    "ampC_C-42T",
+    "ampC_T-14TGT",
+    "ampC_T-32A",
+    "ampC_T-32C",
+    "ampC_T-32G",
+    "folP_F28I",
+    "folP_F28L",
+    "folP_P64S",
+    "gyrA_A196E",
+    "gyrA_A51V",
+    "gyrA_A67S",
+    "gyrA_A84P",
+    "gyrA_A84V",
+    "gyrA_D82G",
+    "gyrA_D87G",
+    "gyrA_D87H",
+    "gyrA_D87N",
+    "gyrA_D87V",
+    "gyrA_D87Y",
+    "gyrA_G81C",
+    "gyrA_G81D",
+    "gyrA_Q106H",
+    "gyrA_Q106R",
+    "gyrA_S83A",
+    "gyrA_S83L",
+    "gyrA_S83V",
+    "gyrA_S83W",
+    "gyrB_D426N",
+    "gyrB_K447E",
+    "parC_A56T",
+    "parC_E84A",
+    "parC_E84G",
+    "parC_E84K",
+    "parC_E84R",
+    "parC_E84V",
+    "parC_F60I",
+    "parC_G78C",
+    "parC_G78D",
+    "parC_S57T",
+    "parC_S80I",
+    "parC_S80L",
+    "parC_S80R",
+    "parC_S80W",
+    "parE_D476N",
+    "parE_E460D",
+    "parE_G423R",
+    "parE_I355T",
+    "parE_I444F",
+    "parE_I464F",
+    "parE_I470M",
+    "parE_I529L",
+    "parE_L416F",
+    "parE_L445H",
+    "parE_P439S",
+    "parE_S458A",
+    "parE_S458T"
+  ],
+  "variants": [
+    "mutation_augmented",
+    "permuted_control"
+  ],
+  "written_at": "2026-10-25T14:49:45Z"
+}

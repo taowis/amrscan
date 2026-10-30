@@ -39,3 +39,20 @@ nav:
       - 0006 Caller wrapper: decisions/0006-caller-wrapper.md
       - 0007 nf-core conventions: decisions/0007-nf-core-conventions.md
       - 0008 Gadi runs: decisions/0008-gadi-runs.md
+  - E. coli study:
+      - Research cohort: ecoli-research-cohort.md
+      - Population structure: ecoli-population-structure.md
+      - Determinant baseline: ecoli-genotype-phenotype-baseline.md
+      - Generalisation benchmark: ecoli-generalisation-benchmark.md
+      - Error decomposition: ecoli-domain-shift-error-decomposition.md
+      - Representation sensitivity: ecoli-representation-sensitivity.md
+      - Foundation validation: foundation-validation.md
+      - Tracked data audit: tracked-data-audit.md
+      - Study decisions:
+          - 0001 Evaluation design: decisions/0001-ecoli-evaluation-design.md
+          - 0002 Determinant mapping v1: decisions/0002-ecoli-determinant-mapping-v1.md
+          - 0003 Determinant mapping v2: decisions/0003-ecoli-determinant-mapping-v2.md
+          - 0004 Phenotype label correction: decisions/0004-ecoli-phenotype-label-correction.md
+          - 0007 Generalisation benchmark: decisions/0007-ecoli-generalisation-benchmark.md
+          - 0008 Error decomposition: decisions/0008-ecoli-error-decomposition.md
+          - 0011 Representation sensitivity: decisions/0011-ecoli-representation-sensitivity.md

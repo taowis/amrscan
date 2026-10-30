@@ -1,0 +1,13 @@
+{"rows": 10521, "observed_features": 3686700, "kept_features": 1679419, "patterns": 871422, "nnz": 977187744, "build_seconds": 1908.8, "build_max_rss_bytes": 12459175936}
+
+======================================================================================
+                  Resource Usage on 2026-10-30 02:44:22:
+   Job Id:             182583922.gadi-pbs
+   Project:            qn73
+   Exit Status:        0
+   Service Units:      2.41
+   NCPUs Requested:    2                   CPU Time Used: 00:18:12        
+   Memory Requested:   32.0GB                Memory Used: 32.0GB          
+   Walltime Requested: 02:00:00            Walltime Used: 00:32:34        
+   JobFS Requested:    100.0MB                JobFS Used: 0B              
+======================================================================================

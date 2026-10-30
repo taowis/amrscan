@@ -1,0 +1,20 @@
+{
+  "actions": {
+    "sketched": 10521
+  },
+  "duplicate_genomes": [],
+  "finished_at": "2026-10-24T06:20:21Z",
+  "genome_manifest_sha256": "e85a45fc1add9f0c6004dd897cd4488baad0eed8d7c1f91c9025b34beaa0f2d6",
+  "genomes": 10521,
+  "params": {
+    "ksize": 31,
+    "method": "FracMinHash k-mer presence",
+    "scaled": 200,
+    "seed": 42,
+    "tool": "sourmash",
+    "tool_version": "4.9.4"
+  },
+  "status_counts": {
+    "verified": 10521
+  }
+}

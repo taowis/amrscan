@@ -1,0 +1,559 @@
+cohort	antimicrobial	split_strategy	outcome	N	label_corrected_fraction	multiple_observations_fraction	conflict_fraction	method_missing_fraction	breakpoint_standard_missing_fraction	mixed_breakpoint_standards_fraction	provenance_missing_fraction	method_mix	standard_mix
+common	amikacin	lineage	error	110	0.154545	0	0	1	0	0	0	NA 1.00	EUCAST 0.66; CLSI 0.34
+common	amikacin	lineage	correct	3105	0.036715	0.000644	0	1	0	0	0	NA 1.00	CLSI 0.86; EUCAST 0.14
+common	amikacin	random	error	122	0.163934	0	0	1	0	0	0	NA 1.00	EUCAST 0.68; CLSI 0.32
+common	amikacin	random	correct	3093	0.035887	0.000647	0	1	0	0	0	NA 1.00	CLSI 0.86; EUCAST 0.14
+common	amikacin	random_cluster	error	75	0.186667	0	0	1	0	0	0	NA 1.00	EUCAST 0.65; CLSI 0.35
+common	amikacin	random_cluster	correct	3140	0.037261	0.000637	0	1	0	0	0	NA 1.00	CLSI 0.86; EUCAST 0.14
+common	amoxicillin-clavulanic acid	country	error	274	0.054745	0.00365	0	1	0	0	0	NA 1.00	CLSI 0.95; EUCAST 0.05
+common	amoxicillin-clavulanic acid	country	correct	6009	0.010651	0.000166	0	1	0	0	0	NA 1.00	CLSI 0.99; EUCAST 0.01
+common	amoxicillin-clavulanic acid	geography	error	57	0.438596	0	0	1	0	0	0	NA 1.00	CLSI 0.54; EUCAST 0.46
+common	amoxicillin-clavulanic acid	geography	correct	1334	0.081709	0	0	1	0	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08; SFM 0.00
+common	amoxicillin-clavulanic acid	lineage	error	258	0.131783	0.007752	0	1	0	0	0	NA 1.00	CLSI 0.86; EUCAST 0.14
+common	amoxicillin-clavulanic acid	lineage	correct	6098	0.016399	0	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02; SFM 0.00
+common	amoxicillin-clavulanic acid	project	error	291	0.082474	0	0	1	0	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08
+common	amoxicillin-clavulanic acid	project	correct	5948	0.018494	0.000168	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+common	amoxicillin-clavulanic acid	random	error	173	0.138728	0.00578	0	1	0	0	0	NA 1.00	CLSI 0.86; EUCAST 0.14
+common	amoxicillin-clavulanic acid	random	correct	6183	0.017791	0.000162	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02; SFM 0.00
+common	amoxicillin-clavulanic acid	random_cluster	error	190	0.105263	0.005263	0	1	0	0	0	NA 1.00	CLSI 0.89; EUCAST 0.11
+common	amoxicillin-clavulanic acid	random_cluster	correct	6166	0.018488	0.000162	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02; SFM 0.00
+common	amoxicillin-clavulanic acid	temporal	error	70	0.285714	0	0	1	0	0	0	NA 1.00	CLSI 0.71; EUCAST 0.29
+common	amoxicillin-clavulanic acid	temporal	correct	343	0.253644	0	0	1	0	0	0	NA 1.00	CLSI 0.75; EUCAST 0.25
+common	ampicillin	country	error	564	0.005319	0.001773	0	1	0	0	0	NA 1.00	CLSI 0.99; EUCAST 0.01
+common	ampicillin	country	correct	6555	0.00778	0.000153	0	1	0	0	0	NA 1.00	CLSI 0.99; EUCAST 0.01
+common	ampicillin	geography	error	141	0.099291	0	0	1	0	0	0	NA 1.00	EUCAST 0.51; CLSI 0.49
+common	ampicillin	geography	correct	1627	0.073755	0	0	1	0.000615	0	0	NA 1.00	CLSI 0.75; EUCAST 0.25; NA 0.00
+common	ampicillin	lineage	error	283	0.035336	0	0	1	0	0	0	NA 1.00	CLSI 0.89; EUCAST 0.11
+common	ampicillin	lineage	correct	7283	0.017026	0.000275	0	1	0.000137	0	0	NA 1.00	CLSI 0.94; EUCAST 0.06; NA 0.00
+common	ampicillin	project	error	426	0.018779	0	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+common	ampicillin	project	correct	6565	0.019193	0	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+common	ampicillin	random	error	209	0.028708	0	0	1	0	0	0	NA 1.00	CLSI 0.91; EUCAST 0.09
+common	ampicillin	random	correct	7357	0.017398	0.000272	0	1	0.000136	0	0	NA 1.00	CLSI 0.94; EUCAST 0.06; NA 0.00
+common	ampicillin	random_cluster	error	251	0.035857	0	0	1	0	0	0	NA 1.00	CLSI 0.88; EUCAST 0.12
+common	ampicillin	random_cluster	correct	7315	0.017088	0.000273	0	1	0.000137	0	0	NA 1.00	CLSI 0.94; EUCAST 0.06; NA 0.00
+common	ampicillin	temporal	error	83	0.048193	0	0	1	0	0	0	NA 1.00	EUCAST 0.70; CLSI 0.30
+common	ampicillin	temporal	correct	1022	0.100783	0	0	1	0	0	0	NA 1.00	CLSI 0.62; EUCAST 0.38
+common	aztreonam	lineage	error	84	0.047619	0	0	1	0	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07
+common	aztreonam	lineage	correct	2178	0.018825	0.000918	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.02; SFM 0.00
+common	aztreonam	random	error	76	0.026316	0	0	1	0	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07
+common	aztreonam	random	correct	2186	0.019671	0.000915	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03; SFM 0.00
+common	aztreonam	random_cluster	error	83	0.048193	0	0	1	0	0	0	NA 1.00	CLSI 0.90; EUCAST 0.10
+common	aztreonam	random_cluster	correct	2179	0.018816	0.000918	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02; SFM 0.00
+common	cefazolin	country	error	612	0	0.001634	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	cefazolin	country	correct	1907	0	0.000524	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	cefazolin	geography	error	14	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	cefazolin	geography	correct	147	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	cefazolin	lineage	error	226	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	cefazolin	lineage	correct	2294	0	0.000872	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	cefazolin	project	error	683	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	cefazolin	project	correct	1725	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	cefazolin	random	error	207	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	cefazolin	random	correct	2313	0	0.000865	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	cefazolin	random_cluster	error	211	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	cefazolin	random_cluster	correct	2309	0	0.000866	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	cefepime	country	error	776	0.001289	0.001289	0	1	0	0	0	NA 1.00	CLSI 0.88; EUCAST 0.12
+common	cefepime	country	correct	2524	0.019017	0.000396	0	1	0	0	0	NA 1.00	CLSI 0.88; EUCAST 0.12
+common	cefepime	geography	error	158	0.082278	0	0	1	0	0	0	NA 1.00	EUCAST 0.88; CLSI 0.12
+common	cefepime	geography	correct	461	0.238612	0	0	1	0.002169	0	0	NA 1.00	EUCAST 0.74; CLSI 0.26; SFM 0.00
+common	cefepime	lineage	error	377	0.037135	0.002653	0	1	0	0	0	NA 1.00	CLSI 0.83; EUCAST 0.17
+common	cefepime	lineage	correct	3155	0.034548	0.000317	0	1	0.000317	0	0	NA 1.00	CLSI 0.87; EUCAST 0.13; SFM 0.00
+common	cefepime	project	error	495	0.020202	0	0	1	0	0	0	NA 1.00	CLSI 0.80; EUCAST 0.20
+common	cefepime	project	correct	2862	0.039483	0.000349	0	1	0	0	0	NA 1.00	CLSI 0.87; EUCAST 0.13
+common	cefepime	random	error	309	0.038835	0.003236	0	1	0	0	0	NA 1.00	CLSI 0.83; EUCAST 0.17
+common	cefepime	random	correct	3223	0.03444	0.00031	0	1	0.00031	0	0	NA 1.00	CLSI 0.87; EUCAST 0.13; SFM 0.00
+common	cefepime	random_cluster	error	337	0.032641	0.002967	0	1	0	0	0	NA 1.00	CLSI 0.83; EUCAST 0.17
+common	cefepime	random_cluster	correct	3195	0.035055	0.000313	0	1	0.000313	0	0	NA 1.00	CLSI 0.87; EUCAST 0.13; SFM 0.00
+common	cefepime	temporal	error	344	0.017442	0	0	1	0	0	0	NA 1.00	CLSI 0.67; EUCAST 0.33
+common	cefepime	temporal	correct	733	0.12824	0	0	1	0	0	0	NA 1.00	CLSI 0.55; EUCAST 0.45
+common	cefoxitin	country	error	252	0.039683	0	0	1	0	0	0	NA 1.00	CLSI 0.70; EUCAST 0.30
+common	cefoxitin	country	correct	4679	0.004274	0	0	1	0	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08
+common	cefoxitin	geography	error	138	0.224638	0	0	1	0.007246	0	0	NA 1.00	EUCAST 0.54; CLSI 0.45; NA 0.01
+common	cefoxitin	geography	correct	1683	0.053476	0	0	1	0	0	0	NA 1.00	CLSI 0.78; EUCAST 0.22; SFM 0.00
+common	cefoxitin	lineage	error	200	0.135	0	0	1	0.005	0	0	NA 1.00	CLSI 0.79; EUCAST 0.21; NA 0.01
+common	cefoxitin	lineage	correct	4827	0.019474	0	0	1	0	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08; SFM 0.00
+common	cefoxitin	project	error	176	0.153409	0	0	1	0	0	0	NA 1.00	CLSI 0.76; EUCAST 0.24
+common	cefoxitin	project	correct	4635	0.02028	0	0	1	0	0	0	NA 1.00	CLSI 0.94; EUCAST 0.06
+common	cefoxitin	random	error	179	0.100559	0	0	1	0.005587	0	0	NA 1.00	CLSI 0.75; EUCAST 0.24; NA 0.01
+common	cefoxitin	random	correct	4848	0.021246	0	0	1	0	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08; SFM 0.00
+common	cefoxitin	random_cluster	error	197	0.101523	0	0	1	0.005076	0	0	NA 1.00	CLSI 0.76; EUCAST 0.24; NA 0.01
+common	cefoxitin	random_cluster	correct	4830	0.020911	0	0	1	0	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08; SFM 0.00
+common	cefoxitin	temporal	error	147	0.190476	0	0	1	0	0	0	NA 1.00	CLSI 0.73; EUCAST 0.27
+common	cefoxitin	temporal	correct	604	0.110927	0	0	1	0	0	0	NA 1.00	CLSI 0.50; EUCAST 0.50
+common	ceftazidime	country	error	375	0.013333	0.002667	0	1	0	0	0	NA 1.00	CLSI 0.65; EUCAST 0.35
+common	ceftazidime	country	correct	2770	0.017329	0.000361	0	1	0	0	0	NA 1.00	CLSI 0.88; EUCAST 0.12
+common	ceftazidime	geography	error	230	0.03913	0	0	1	0	0	0	NA 1.00	EUCAST 0.78; CLSI 0.22
+common	ceftazidime	geography	correct	503	0.236581	0	0	1	0.001988	0	0	NA 1.00	EUCAST 0.75; CLSI 0.24; SFM 0.00
+common	ceftazidime	lineage	error	242	0.090909	0.004132	0	1	0	0	0	NA 1.00	CLSI 0.83; EUCAST 0.17
+common	ceftazidime	lineage	correct	3003	0.035298	0.000333	0	1	0.000333	0	0	NA 1.00	CLSI 0.83; EUCAST 0.17; SFM 0.00
+common	ceftazidime	project	error	222	0.054054	0	0	1	0	0	0	NA 1.00	CLSI 0.94; EUCAST 0.06
+common	ceftazidime	project	correct	2640	0.043939	0.000379	0	1	0	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07
+common	ceftazidime	random	error	205	0.068293	0.004878	0	1	0	0	0	NA 1.00	CLSI 0.87; EUCAST 0.13
+common	ceftazidime	random	correct	3040	0.0375	0.000329	0	1	0.000329	0	0	NA 1.00	CLSI 0.82; EUCAST 0.18; SFM 0.00
+common	ceftazidime	random_cluster	error	211	0.066351	0.004739	0	1	0	0	0	NA 1.00	CLSI 0.87; EUCAST 0.13
+common	ceftazidime	random_cluster	correct	3034	0.037574	0.00033	0	1	0.00033	0	0	NA 1.00	CLSI 0.82; EUCAST 0.18; NA 0.00
+common	ceftazidime	temporal	error	266	0.018797	0	0	1	0	0	0	NA 1.00	CLSI 0.55; EUCAST 0.45
+common	ceftazidime	temporal	correct	517	0.193424	0	0	1	0	0	0	NA 1.00	EUCAST 0.63; CLSI 0.37
+common	ceftiofur	lineage	error	48	0.333333	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	ceftiofur	lineage	correct	1252	0.092652	0	0	1	0	0	0	NA 1.00	CLSI 1.00; SFM 0.00
+common	ceftiofur	random	error	43	0.27907	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	ceftiofur	random	correct	1257	0.095465	0	0	1	0	0	0	NA 1.00	CLSI 1.00; SFM 0.00
+common	ceftiofur	random_cluster	error	47	0.297872	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	ceftiofur	random_cluster	correct	1253	0.094174	0	0	1	0	0	0	NA 1.00	CLSI 1.00; SFM 0.00
+common	ceftriaxone	country	error	222	0.004505	0	0	1	0	0	0	NA 1.00	CLSI 1.00; EUCAST 0.00
+common	ceftriaxone	country	correct	6585	0.008049	0.000456	0	1	0	0	0	NA 1.00	CLSI 0.99; EUCAST 0.01
+common	ceftriaxone	geography	error	33	0.30303	0	0	1	0	0	0	NA 1.00	CLSI 0.67; EUCAST 0.33
+common	ceftriaxone	geography	correct	1394	0.088953	0	0	1	0.01363	0	0	NA 1.00	CLSI 0.89; EUCAST 0.09; NA 0.01
+common	ceftriaxone	lineage	error	102	0.078431	0	0	1	0	0	0	NA 1.00	CLSI 0.91; EUCAST 0.09
+common	ceftriaxone	lineage	correct	6815	0.018489	0.00044	0	1	0.002788	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02; NA 0.00
+common	ceftriaxone	project	error	373	0.02681	0	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03
+common	ceftriaxone	project	correct	6304	0.01967	0.000159	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+common	ceftriaxone	random	error	97	0.092784	0	0	1	0	0	0	NA 1.00	CLSI 0.90; EUCAST 0.10
+common	ceftriaxone	random	correct	6820	0.018328	0.00044	0	1	0.002786	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02; NA 0.00
+common	ceftriaxone	random_cluster	error	96	0.09375	0	0	1	0	0	0	NA 1.00	CLSI 0.90; EUCAST 0.10
+common	ceftriaxone	random_cluster	correct	6821	0.018326	0.00044	0	1	0.002786	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02; NA 0.00
+common	ceftriaxone	temporal	error	33	0.090909	0	0	1	0	0	0	NA 1.00	CLSI 0.91; EUCAST 0.09
+common	ceftriaxone	temporal	correct	405	0.25679	0	0	1	0	0	0	NA 1.00	CLSI 0.74; EUCAST 0.26
+common	chloramphenicol	country	error	15	0	0	0	1	0	0	0	NA 1.00	CLSI 0.73; EUCAST 0.27
+common	chloramphenicol	country	correct	4346	0	0	0	1	0	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08
+common	chloramphenicol	geography	error	13	0	0	0	1	0	0	0	NA 1.00	CLSI 0.69; EUCAST 0.31
+common	chloramphenicol	geography	correct	1599	0	0	0	1	0.000625	0	0	NA 1.00	CLSI 0.79; EUCAST 0.21; NA 0.00
+common	chloramphenicol	lineage	error	23	0	0	0	1	0	0	0	NA 1.00	CLSI 0.78; EUCAST 0.22
+common	chloramphenicol	lineage	correct	4363	0	0	0	1	0.000229	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08; NA 0.00
+common	chloramphenicol	project	error	14	0	0	0	1	0	0	0	NA 1.00	CLSI 0.71; EUCAST 0.29
+common	chloramphenicol	project	correct	4246	0	0	0	1	0	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08
+common	chloramphenicol	random	error	21	0	0	0	1	0	0	0	NA 1.00	CLSI 0.71; EUCAST 0.29
+common	chloramphenicol	random	correct	4365	0	0	0	1	0.000229	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08; NA 0.00
+common	chloramphenicol	random_cluster	error	20	0	0	0	1	0	0	0	NA 1.00	CLSI 0.80; EUCAST 0.20
+common	chloramphenicol	random_cluster	correct	4366	0	0	0	1	0.000229	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08; NA 0.00
+common	chloramphenicol	temporal	error	7	0	0	0	1	0	0	0	NA 1.00	EUCAST 0.57; CLSI 0.43
+common	chloramphenicol	temporal	correct	346	0	0	0	1	0	0	0	NA 1.00	EUCAST 0.97; CLSI 0.03
+common	ciprofloxacin	country	error	697	0	0	0	1	0	0	0	NA 1.00	CLSI 0.82; EUCAST 0.18
+common	ciprofloxacin	country	correct	5476	0	0.000548	0	1	0	0	0	NA 1.00	CLSI 0.94; EUCAST 0.06
+common	ciprofloxacin	geography	error	162	0.055556	0	0	1	0	0	0	NA 1.00	EUCAST 0.83; CLSI 0.17
+common	ciprofloxacin	geography	correct	1622	0.065351	0	0	1	0.000617	0	0	NA 1.00	CLSI 0.73; EUCAST 0.26; NA 0.00
+common	ciprofloxacin	lineage	error	319	0.043887	0	0	1	0	0	0	NA 1.00	CLSI 0.68; EUCAST 0.32
+common	ciprofloxacin	lineage	correct	7210	0.014008	0.000416	0	1	0.000139	0	0	NA 1.00	CLSI 0.94; EUCAST 0.06; NA 0.00
+common	ciprofloxacin	project	error	349	0.037249	0	0	1	0	0	0	NA 1.00	CLSI 0.61; EUCAST 0.39
+common	ciprofloxacin	project	correct	5757	0.017718	0.000174	0	1	0	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07
+common	ciprofloxacin	random	error	244	0.028689	0	0	1	0	0	0	NA 1.00	CLSI 0.71; EUCAST 0.29
+common	ciprofloxacin	random	correct	7285	0.014825	0.000412	0	1	0.000137	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07; NA 0.00
+common	ciprofloxacin	random_cluster	error	283	0.024735	0	0	1	0	0	0	NA 1.00	CLSI 0.73; EUCAST 0.27
+common	ciprofloxacin	random_cluster	correct	7246	0.014905	0.000414	0	1	0.000138	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07; NA 0.00
+common	ciprofloxacin	temporal	error	198	0.070707	0	0	1	0	0	0	NA 1.00	EUCAST 0.73; CLSI 0.27
+common	ciprofloxacin	temporal	correct	866	0.092379	0	0	1	0	0	0	NA 1.00	CLSI 0.66; EUCAST 0.34
+common	ertapenem	lineage	error	337	0.11276	0.002967	0	1	0.002967	0	0	NA 1.00	EUCAST 0.52; CLSI 0.47; NA 0.00
+common	ertapenem	lineage	correct	3128	0.030371	0.00032	0	1	0	0	0	NA 1.00	CLSI 0.90; EUCAST 0.10; SFM 0.00
+common	ertapenem	random	error	233	0.133047	0.004292	0	1	0.004292	0	0	NA 1.00	CLSI 0.59; EUCAST 0.40; NA 0.00
+common	ertapenem	random	correct	3232	0.031559	0.000309	0	1	0	0	0	NA 1.00	CLSI 0.88; EUCAST 0.12; SFM 0.00
+common	ertapenem	random_cluster	error	244	0.139344	0.004098	0	1	0	0	0	NA 1.00	CLSI 0.56; EUCAST 0.44
+common	ertapenem	random_cluster	correct	3221	0.030736	0.00031	0	1	0.00031	0	0	NA 1.00	CLSI 0.88; EUCAST 0.12; NA 0.00
+common	gentamicin	country	error	220	0.027273	0.009091	0	1	0	0	0	NA 1.00	CLSI 0.91; EUCAST 0.09
+common	gentamicin	country	correct	6883	0.012204	0.000145	0	1	0	0	0	NA 1.00	CLSI 0.94; EUCAST 0.06
+common	gentamicin	geography	error	78	0.141026	0	0	1	0	0	0	NA 1.00	CLSI 0.54; EUCAST 0.46
+common	gentamicin	geography	correct	1715	0.07172	0	0	1	0.000583	0	0	NA 1.00	CLSI 0.72; EUCAST 0.28; NA 0.00
+common	gentamicin	lineage	error	130	0.1	0	0	1	0	0	0	NA 1.00	CLSI 0.71; EUCAST 0.29
+common	gentamicin	lineage	correct	7086	0.017076	0.000423	0	1	0.000141	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07; NA 0.00
+common	gentamicin	project	error	150	0.1	0	0	1	0	0	0	NA 1.00	CLSI 0.81; EUCAST 0.19
+common	gentamicin	project	correct	6804	0.01749	0.000147	0	1	0	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07
+common	gentamicin	random	error	128	0.132812	0	0	1	0	0	0	NA 1.00	CLSI 0.70; EUCAST 0.30
+common	gentamicin	random	correct	7088	0.016507	0.000423	0	1	0.000141	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07; NA 0.00
+common	gentamicin	random_cluster	error	132	0.113636	0	0	1	0	0	0	NA 1.00	CLSI 0.72; EUCAST 0.28
+common	gentamicin	random_cluster	correct	7084	0.016798	0.000423	0	1	0.000141	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07; NA 0.00
+common	gentamicin	temporal	error	45	0.222222	0	0	1	0	0	0	NA 1.00	EUCAST 0.64; CLSI 0.36
+common	gentamicin	temporal	correct	768	0.126302	0	0	1	0	0	0	NA 1.00	EUCAST 0.57; CLSI 0.43
+common	kanamycin	lineage	error	16	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	kanamycin	lineage	correct	1167	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	kanamycin	random	error	21	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	kanamycin	random	correct	1162	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	kanamycin	random_cluster	error	22	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	kanamycin	random_cluster	correct	1161	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	levofloxacin	country	error	7	0	0	0	1	0	0	0	NA 1.00	EUCAST 1.00
+common	levofloxacin	country	correct	79	0	0	0	1	0	0	0	NA 1.00	EUCAST 1.00
+common	levofloxacin	lineage	error	122	0	0	0	1	0	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07
+common	levofloxacin	lineage	correct	2819	0	0.001064	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03
+common	levofloxacin	project	error	93	0	0	0	1	0	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08
+common	levofloxacin	project	correct	2827	0	0.000354	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03
+common	levofloxacin	random	error	82	0	0	0	1	0	0	0	NA 1.00	CLSI 0.90; EUCAST 0.10
+common	levofloxacin	random	correct	2859	0	0.001049	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03
+common	levofloxacin	random_cluster	error	86	0	0	0	1	0	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08
+common	levofloxacin	random_cluster	correct	2855	0	0.001051	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03
+common	levofloxacin	temporal	error	27	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	levofloxacin	temporal	correct	519	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	meropenem	lineage	error	24	0	0	0	1	0	0	0	NA 1.00	CLSI 0.71; EUCAST 0.29
+common	meropenem	lineage	correct	6115	0.020932	0	0	1	0.000164	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08; NA 0.00
+common	meropenem	random	error	53	0.075472	0	0	1	0	0	0	NA 1.00	CLSI 0.77; EUCAST 0.23
+common	meropenem	random	correct	6086	0.020375	0	0	1	0.000164	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08; NA 0.00
+common	meropenem	random_cluster	error	41	0.121951	0	0	1	0	0	0	NA 1.00	CLSI 0.73; EUCAST 0.27
+common	meropenem	random_cluster	correct	6098	0.020171	0	0	1	0.000164	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08; NA 0.00
+common	nalidixic acid	country	error	362	0	0	0	1	0	0	0	NA 1.00	CLSI 0.75; EUCAST 0.25
+common	nalidixic acid	country	correct	4147	0	0	0	1	0	0	0	NA 1.00	CLSI 0.94; EUCAST 0.06
+common	nalidixic acid	geography	error	246	0	0	0	1	0	0	0	NA 1.00	CLSI 0.66; EUCAST 0.34
+common	nalidixic acid	geography	correct	1459	0	0	0	1	0.000685	0	0	NA 1.00	CLSI 0.82; EUCAST 0.18; NA 0.00
+common	nalidixic acid	lineage	error	471	0	0	0	1	0	0	0	NA 1.00	CLSI 0.78; EUCAST 0.22
+common	nalidixic acid	lineage	correct	4051	0	0	0	1	0.000247	0	0	NA 1.00	CLSI 0.94; EUCAST 0.06; NA 0.00
+common	nalidixic acid	project	error	382	0	0	0	1	0	0	0	NA 1.00	CLSI 0.76; EUCAST 0.24
+common	nalidixic acid	project	correct	3870	0	0	0	1	0	0	0	NA 1.00	CLSI 0.94; EUCAST 0.06
+common	nalidixic acid	random	error	377	0	0	0	1	0	0	0	NA 1.00	CLSI 0.70; EUCAST 0.30
+common	nalidixic acid	random	correct	4145	0	0	0	1	0.000241	0	0	NA 1.00	CLSI 0.94; EUCAST 0.05; NA 0.00
+common	nalidixic acid	random_cluster	error	345	0	0	0	1	0	0	0	NA 1.00	CLSI 0.75; EUCAST 0.25
+common	nalidixic acid	random_cluster	correct	4177	0	0	0	1	0.000239	0	0	NA 1.00	CLSI 0.94; EUCAST 0.06; NA 0.00
+common	nalidixic acid	temporal	error	81	0	0	0	1	0	0	0	NA 1.00	EUCAST 0.99; CLSI 0.01
+common	nalidixic acid	temporal	correct	262	0	0	0	1	0	0	0	NA 1.00	EUCAST 0.98; CLSI 0.02
+common	piperacillin-tazobactam	lineage	error	315	0.155556	0.003175	0	1	0	0	0	NA 1.00	CLSI 0.84; EUCAST 0.16
+common	piperacillin-tazobactam	lineage	correct	2502	0.032774	0.0004	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03; SFM 0.00
+common	piperacillin-tazobactam	random	error	339	0.120944	0.00295	0	1	0	0	0	NA 1.00	CLSI 0.88; EUCAST 0.12
+common	piperacillin-tazobactam	random	correct	2478	0.03632	0.000404	0	1	0	0	0	NA 1.00	CLSI 0.96; EUCAST 0.04; SFM 0.00
+common	piperacillin-tazobactam	random_cluster	error	394	0.126904	0.002538	0	1	0	0	0	NA 1.00	CLSI 0.87; EUCAST 0.13
+common	piperacillin-tazobactam	random_cluster	correct	2423	0.03343	0.000413	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03; SFM 0.00
+common	streptomycin	country	error	281	0	0	0	1	0.523132	0	0	NA 1.00	NA 0.52; NARMS 0.41; CLSI 0.07
+common	streptomycin	country	correct	3811	0	0	0	1	0.270795	0	0	NA 1.00	NARMS 0.68; NA 0.27; CLSI 0.05
+common	streptomycin	geography	error	155	0	0	0	1	0.890323	0	0	NA 1.00	NA 0.89; CLSI 0.11
+common	streptomycin	geography	correct	1110	0	0	0	1	0.869369	0	0	NA 1.00	NA 0.87; CLSI 0.13; NARMS 0.00
+common	streptomycin	lineage	error	241	0	0	0	1	0.564315	0	0	NA 1.00	NA 0.56; NARMS 0.34; CLSI 0.10
+common	streptomycin	lineage	correct	3855	0	0	0	1	0.270558	0	0	NA 1.00	NARMS 0.68; NA 0.27; CLSI 0.05
+common	streptomycin	project	error	272	0	0	0	1	0.558824	0	0	NA 1.00	NA 0.56; NARMS 0.39; CLSI 0.05
+common	streptomycin	project	correct	3711	0	0	0	1	0.276745	0	0	NA 1.00	NARMS 0.68; NA 0.28; CLSI 0.04
+common	streptomycin	random	error	230	0	0	0	1	0.582609	0	0	NA 1.00	NA 0.58; NARMS 0.33; CLSI 0.09
+common	streptomycin	random	correct	3866	0	0	0	1	0.270305	0	0	NA 1.00	NARMS 0.68; NA 0.27; CLSI 0.05
+common	streptomycin	random_cluster	error	234	0	0	0	1	0.598291	0	0	NA 1.00	NA 0.60; NARMS 0.32; CLSI 0.08
+common	streptomycin	random_cluster	correct	3862	0	0	0	1	0.269032	0	0	NA 1.00	NARMS 0.68; NA 0.27; CLSI 0.05
+common	sulfisoxazole	country	error	108	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	sulfisoxazole	country	correct	3927	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	sulfisoxazole	geography	error	39	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	sulfisoxazole	geography	correct	1222	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	sulfisoxazole	lineage	error	60	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	sulfisoxazole	lineage	correct	3975	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	sulfisoxazole	project	error	100	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	sulfisoxazole	project	correct	3807	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	sulfisoxazole	random	error	52	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	sulfisoxazole	random	correct	3983	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	sulfisoxazole	random_cluster	error	55	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	sulfisoxazole	random_cluster	correct	3980	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	tetracycline	country	error	112	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	tetracycline	country	correct	6812	0	0.00044	0	1	0	0	0	NA 1.00	CLSI 0.95; EUCAST 0.05
+common	tetracycline	geography	error	27	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	tetracycline	geography	correct	1593	0.000628	0	0	1	0.000628	0	0	NA 1.00	CLSI 0.79; EUCAST 0.21; NA 0.00
+common	tetracycline	lineage	error	113	0	0	0	1	0	0	0	NA 1.00	CLSI 0.99; EUCAST 0.01
+common	tetracycline	lineage	correct	6827	0.000146	0.000439	0	1	0.000146	0	0	NA 1.00	CLSI 0.95; EUCAST 0.05; NA 0.00
+common	tetracycline	project	error	111	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	tetracycline	project	correct	6633	0	0.000151	0	1	0	0	0	NA 1.00	CLSI 0.95; EUCAST 0.05
+common	tetracycline	random	error	91	0	0	0	1	0	0	0	NA 1.00	CLSI 0.99; EUCAST 0.01
+common	tetracycline	random	correct	6849	0.000146	0.000438	0	1	0.000146	0	0	NA 1.00	CLSI 0.95; EUCAST 0.05; NA 0.00
+common	tetracycline	random_cluster	error	88	0	0	0	1	0	0	0	NA 1.00	CLSI 0.99; EUCAST 0.01
+common	tetracycline	random_cluster	correct	6852	0.000146	0.000438	0	1	0.000146	0	0	NA 1.00	CLSI 0.95; EUCAST 0.05; NA 0.00
+common	tetracycline	temporal	error	11	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+common	tetracycline	temporal	correct	665	0.001504	0	0	1	0	0	0	NA 1.00	EUCAST 0.51; CLSI 0.49
+common	tobramycin	lineage	error	57	0.017544	0	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+common	tobramycin	lineage	correct	2793	0.017186	0.001074	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+common	tobramycin	random	error	51	0.019608	0	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+common	tobramycin	random	correct	2799	0.017149	0.001072	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+common	tobramycin	random_cluster	error	50	0.02	0	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+common	tobramycin	random_cluster	correct	2800	0.017143	0.001071	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+common	trimethoprim-sulfamethoxazole	country	error	349	0.008596	0	0	1	0	0	0	NA 1.00	CLSI 0.99; EUCAST 0.01
+common	trimethoprim-sulfamethoxazole	country	correct	6688	0.007626	0.000449	0	1	0	0	0	NA 1.00	CLSI 0.99; EUCAST 0.01
+common	trimethoprim-sulfamethoxazole	geography	error	92	0.108696	0	0	1	0	0	0	NA 1.00	CLSI 0.89; EUCAST 0.11
+common	trimethoprim-sulfamethoxazole	geography	correct	1338	0.091928	0	0	1	0	0	0	NA 1.00	CLSI 0.91; EUCAST 0.09
+common	trimethoprim-sulfamethoxazole	lineage	error	268	0.041045	0	0	1	0	0	0	NA 1.00	CLSI 0.96; EUCAST 0.04
+common	trimethoprim-sulfamethoxazole	lineage	correct	6878	0.017738	0.000436	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+common	trimethoprim-sulfamethoxazole	project	error	262	0.030534	0	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03
+common	trimethoprim-sulfamethoxazole	project	correct	6746	0.018529	0.000148	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+common	trimethoprim-sulfamethoxazole	random	error	226	0.039823	0	0	1	0	0	0	NA 1.00	CLSI 0.96; EUCAST 0.04
+common	trimethoprim-sulfamethoxazole	random	correct	6920	0.017919	0.000434	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+common	trimethoprim-sulfamethoxazole	random_cluster	error	225	0.053333	0	0	1	0	0	0	NA 1.00	CLSI 0.95; EUCAST 0.05
+common	trimethoprim-sulfamethoxazole	random_cluster	correct	6921	0.017483	0.000433	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+common	trimethoprim-sulfamethoxazole	temporal	error	57	0.105263	0	0	1	0	0	0	NA 1.00	CLSI 0.89; EUCAST 0.11
+common	trimethoprim-sulfamethoxazole	temporal	correct	717	0.140865	0	0	1	0	0	0	NA 1.00	CLSI 0.86; EUCAST 0.14
+maximal	amikacin	lineage	error	107	0.196262	0	0	1	0	0	0	NA 1.00	EUCAST 0.64; CLSI 0.36
+maximal	amikacin	lineage	correct	3232	0.034963	0.000619	0	1	0	0	0	NA 1.00	CLSI 0.85; EUCAST 0.14; SFM 0.01
+maximal	amikacin	random	error	141	0.134752	0	0	1	0	0	0	NA 1.00	CLSI 0.53; EUCAST 0.46; SFM 0.01
+maximal	amikacin	random	correct	3208	0.035848	0.000623	0	1	0	0	0	NA 1.00	CLSI 0.85; EUCAST 0.15; SFM 0.01
+maximal	amikacin	random_cluster	error	109	0.12844	0	0	1	0	0	0	NA 1.00	EUCAST 0.56; CLSI 0.43; SFM 0.01
+maximal	amikacin	random_cluster	correct	3240	0.037037	0.000617	0	1	0	0	0	NA 1.00	CLSI 0.85; EUCAST 0.15; SFM 0.01
+maximal	amoxicillin-clavulanic acid	country	error	266	0.06015	0.003759	0	1	0	0	0	NA 1.00	CLSI 0.94; EUCAST 0.06
+maximal	amoxicillin-clavulanic acid	country	correct	6056	0.010403	0.000165	0	1	0	0	0	NA 1.00	CLSI 0.99; EUCAST 0.01
+maximal	amoxicillin-clavulanic acid	geography	error	61	0.393443	0	0	1	0	0	0	NA 1.00	CLSI 0.51; EUCAST 0.49
+maximal	amoxicillin-clavulanic acid	geography	correct	1444	0.076177	0	0	1	0	0	0	NA 1.00	CLSI 0.86; EUCAST 0.14; SFM 0.00
+maximal	amoxicillin-clavulanic acid	lineage	error	284	0.091549	0.007042	0	1	0	0	0	NA 1.00	CLSI 0.86; EUCAST 0.13; SFM 0.01
+maximal	amoxicillin-clavulanic acid	lineage	correct	6235	0.017803	0	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03; SFM 0.00
+maximal	amoxicillin-clavulanic acid	project	error	299	0.063545	0	0	1	0	0	0	NA 1.00	CLSI 0.94; EUCAST 0.06
+maximal	amoxicillin-clavulanic acid	project	correct	5981	0.019729	0.000167	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+maximal	amoxicillin-clavulanic acid	random	error	195	0.117949	0.005128	0	1	0	0	0	NA 1.00	CLSI 0.83; EUCAST 0.16; SFM 0.01
+maximal	amoxicillin-clavulanic acid	random	correct	6375	0.017882	0.000157	0	1	0	0	0	NA 1.00	CLSI 0.96; EUCAST 0.03; SFM 0.00
+maximal	amoxicillin-clavulanic acid	random_cluster	error	220	0.104545	0.004545	0	1	0	0	0	NA 1.00	CLSI 0.82; EUCAST 0.17; SFM 0.01
+maximal	amoxicillin-clavulanic acid	random_cluster	correct	6350	0.017953	0.000157	0	1	0	0	0	NA 1.00	CLSI 0.96; EUCAST 0.03; SFM 0.00
+maximal	amoxicillin-clavulanic acid	temporal	error	57	0.315789	0	0	1	0	0	0	NA 1.00	CLSI 0.63; EUCAST 0.32; SFM 0.05
+maximal	amoxicillin-clavulanic acid	temporal	correct	384	0.231771	0	0	1	0	0	0	NA 1.00	CLSI 0.74; EUCAST 0.23; SFM 0.02
+maximal	ampicillin	country	error	560	0	0.001786	0	1	0	0	0	NA 1.00	CLSI 0.99; EUCAST 0.01
+maximal	ampicillin	country	correct	6706	0.008052	0.000149	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+maximal	ampicillin	geography	error	144	0.090278	0	0	1	0	0	0	NA 1.00	EUCAST 0.51; CLSI 0.49
+maximal	ampicillin	geography	correct	1739	0.06958	0	0	1	0.000575	0	0	NA 1.00	CLSI 0.72; EUCAST 0.28; NA 0.00
+maximal	ampicillin	lineage	error	281	0.024911	0	0	1	0	0	0	NA 1.00	CLSI 0.86; EUCAST 0.14
+maximal	ampicillin	lineage	correct	7436	0.017483	0.000269	0	1	0.000134	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07; NA 0.00
+maximal	ampicillin	project	error	413	0.01937	0	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03
+maximal	ampicillin	project	correct	6726	0.019179	0	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03
+maximal	ampicillin	random	error	226	0.039823	0	0	1	0	0	0	NA 1.00	CLSI 0.87; EUCAST 0.13
+maximal	ampicillin	random	correct	7561	0.016929	0.000265	0	1	0.000132	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07; NA 0.00
+maximal	ampicillin	random_cluster	error	248	0.044355	0	0	1	0	0	0	NA 1.00	CLSI 0.86; EUCAST 0.14
+maximal	ampicillin	random_cluster	correct	7539	0.016713	0.000265	0	1	0.000133	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07; NA 0.00
+maximal	ampicillin	temporal	error	89	0.078652	0	0	1	0	0	0	NA 1.00	EUCAST 0.71; CLSI 0.29
+maximal	ampicillin	temporal	correct	1049	0.095329	0	0	1	0	0	0	NA 1.00	CLSI 0.64; EUCAST 0.36
+maximal	aztreonam	lineage	error	96	0.052083	0	0	1	0	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08
+maximal	aztreonam	lineage	correct	2224	0.019335	0.000899	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.02; SFM 0.01
+maximal	aztreonam	random	error	93	0.064516	0	0	1	0	0	0	NA 1.00	CLSI 0.90; EUCAST 0.10
+maximal	aztreonam	random	correct	2229	0.018843	0.000897	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.02; SFM 0.01
+maximal	aztreonam	random_cluster	error	94	0.06383	0	0	1	0	0	0	NA 1.00	CLSI 0.91; EUCAST 0.09
+maximal	aztreonam	random_cluster	correct	2228	0.018851	0.000898	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.02; SFM 0.01
+maximal	cefazolin	country	error	661	0	0.003026	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	cefazolin	country	correct	1865	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	cefazolin	geography	error	12	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	cefazolin	geography	correct	150	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	cefazolin	lineage	error	256	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	cefazolin	lineage	correct	2353	0	0.00085	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	cefazolin	project	error	439	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	cefazolin	project	correct	1974	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	cefazolin	random	error	195	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	cefazolin	random	correct	2422	0	0.000826	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	cefazolin	random_cluster	error	214	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	cefazolin	random_cluster	correct	2403	0	0.000832	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	cefepime	country	error	746	0.00134	0.00134	0	1	0	0	0	NA 1.00	CLSI 0.86; EUCAST 0.14
+maximal	cefepime	country	correct	2576	0.018634	0.000388	0	1	0	0	0	NA 1.00	CLSI 0.89; EUCAST 0.11
+maximal	cefepime	geography	error	129	0.077519	0	0	1	0	0	0	NA 1.00	EUCAST 0.77; CLSI 0.23
+maximal	cefepime	geography	correct	492	0.229675	0	0	1	0.002033	0	0	NA 1.00	EUCAST 0.77; CLSI 0.22; SFM 0.00
+maximal	cefepime	lineage	error	349	0.037249	0.002865	0	1	0	0	0	NA 1.00	CLSI 0.82; EUCAST 0.17; SFM 0.01
+maximal	cefepime	lineage	correct	3275	0.034198	0.000305	0	1	0.000305	0	0	NA 1.00	CLSI 0.87; EUCAST 0.13; SFM 0.01
+maximal	cefepime	project	error	519	0.019268	0	0	1	0	0	0	NA 1.00	CLSI 0.80; EUCAST 0.20
+maximal	cefepime	project	correct	2862	0.040182	0.000349	0	1	0	0	0	NA 1.00	CLSI 0.87; EUCAST 0.13
+maximal	cefepime	random	error	335	0.029851	0.002985	0	1	0	0	0	NA 1.00	CLSI 0.85; EUCAST 0.14; SFM 0.01
+maximal	cefepime	random	correct	3312	0.034722	0.000302	0	1	0.000302	0	0	NA 1.00	CLSI 0.86; EUCAST 0.13; SFM 0.01
+maximal	cefepime	random_cluster	error	387	0.023256	0	0	1	0	0	0	NA 1.00	CLSI 0.83; EUCAST 0.15; SFM 0.01
+maximal	cefepime	random_cluster	correct	3260	0.035583	0.000613	0	1	0.000307	0	0	NA 1.00	CLSI 0.86; EUCAST 0.13; SFM 0.01
+maximal	cefepime	temporal	error	347	0.017291	0	0	1	0	0	0	NA 1.00	CLSI 0.71; EUCAST 0.27; SFM 0.01
+maximal	cefepime	temporal	correct	779	0.120668	0	0	1	0	0	0	NA 1.00	CLSI 0.53; EUCAST 0.45; SFM 0.02
+maximal	cefoxitin	country	error	420	0.030952	0	0	1	0	0	0	NA 1.00	CLSI 0.71; EUCAST 0.29
+maximal	cefoxitin	country	correct	4615	0.003684	0	0	1	0	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08
+maximal	cefoxitin	geography	error	187	0.171123	0	0	1	0.005348	0	0	NA 1.00	EUCAST 0.66; CLSI 0.34; NA 0.01
+maximal	cefoxitin	geography	correct	1726	0.051564	0	0	1	0	0	0	NA 1.00	CLSI 0.78; EUCAST 0.22; SFM 0.00
+maximal	cefoxitin	lineage	error	288	0.100694	0	0	1	0.003472	0	0	NA 1.00	CLSI 0.74; EUCAST 0.24; SFM 0.01
+maximal	cefoxitin	lineage	correct	4906	0.019364	0	0	1	0	0	0	NA 1.00	CLSI 0.90; EUCAST 0.09; SFM 0.00
+maximal	cefoxitin	project	error	244	0.106557	0	0	1	0	0	0	NA 1.00	CLSI 0.91; EUCAST 0.09
+maximal	cefoxitin	project	correct	4609	0.021263	0	0	1	0	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07
+maximal	cefoxitin	random	error	229	0.087336	0	0	1	0.004367	0	0	NA 1.00	CLSI 0.74; EUCAST 0.24; SFM 0.02
+maximal	cefoxitin	random	correct	5005	0.020779	0	0	1	0	0	0	NA 1.00	CLSI 0.90; EUCAST 0.09; SFM 0.00
+maximal	cefoxitin	random_cluster	error	255	0.090196	0	0	1	0.003922	0	0	NA 1.00	CLSI 0.75; EUCAST 0.23; SFM 0.02
+maximal	cefoxitin	random_cluster	correct	4979	0.020285	0	0	1	0	0	0	NA 1.00	CLSI 0.90; EUCAST 0.09; SFM 0.00
+maximal	cefoxitin	temporal	error	135	0.22963	0	0	1	0	0	0	NA 1.00	CLSI 0.71; EUCAST 0.27; SFM 0.02
+maximal	cefoxitin	temporal	correct	643	0.099533	0	0	1	0	0	0	NA 1.00	CLSI 0.51; EUCAST 0.47; SFM 0.02
+maximal	ceftazidime	country	error	317	0.015773	0.003155	0	1	0	0	0	NA 1.00	CLSI 0.59; EUCAST 0.41
+maximal	ceftazidime	country	correct	2876	0.01669	0.000348	0	1	0	0	0	NA 1.00	CLSI 0.87; EUCAST 0.13
+maximal	ceftazidime	geography	error	221	0.040724	0	0	1	0	0	0	NA 1.00	EUCAST 0.77; CLSI 0.23
+maximal	ceftazidime	geography	correct	555	0.214414	0	0	1	0.001802	0	0	NA 1.00	EUCAST 0.77; CLSI 0.22; SFM 0.00
+maximal	ceftazidime	lineage	error	235	0.06383	0.004255	0	1	0	0	0	NA 1.00	CLSI 0.80; EUCAST 0.19; SFM 0.01
+maximal	ceftazidime	lineage	correct	3145	0.036884	0.000318	0	1	0.000318	0	0	NA 1.00	CLSI 0.81; EUCAST 0.18; SFM 0.00
+maximal	ceftazidime	project	error	257	0.050584	0	0	1	0	0	0	NA 1.00	CLSI 0.94; EUCAST 0.06
+maximal	ceftazidime	project	correct	2656	0.044428	0.000377	0	1	0	0	0	NA 1.00	CLSI 0.91; EUCAST 0.09
+maximal	ceftazidime	random	error	214	0.051402	0	0	1	0	0	0	NA 1.00	CLSI 0.85; EUCAST 0.13; SFM 0.02
+maximal	ceftazidime	random	correct	3175	0.037795	0.00063	0	1	0.000315	0	0	NA 1.00	CLSI 0.81; EUCAST 0.19; SFM 0.00
+maximal	ceftazidime	random_cluster	error	248	0.060484	0	0	1	0	0	0	NA 1.00	CLSI 0.83; EUCAST 0.15; SFM 0.02
+maximal	ceftazidime	random_cluster	correct	3141	0.036931	0.000637	0	1	0.000318	0	0	NA 1.00	CLSI 0.81; EUCAST 0.19; SFM 0.00
+maximal	ceftazidime	temporal	error	283	0.017668	0	0	1	0	0	0	NA 1.00	CLSI 0.56; EUCAST 0.42; SFM 0.02
+maximal	ceftazidime	temporal	correct	524	0.19084	0	0	1	0	0	0	NA 1.00	EUCAST 0.63; CLSI 0.36; SFM 0.02
+maximal	ceftiofur	lineage	error	44	0.318182	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	ceftiofur	lineage	correct	1259	0.096108	0	0	1	0	0	0	NA 1.00	CLSI 1.00; SFM 0.00
+maximal	ceftiofur	random	error	44	0.318182	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	ceftiofur	random	correct	1283	0.09431	0	0	1	0	0	0	NA 1.00	CLSI 1.00; SFM 0.00
+maximal	ceftiofur	random_cluster	error	43	0.302326	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	ceftiofur	random_cluster	correct	1284	0.095016	0	0	1	0	0	0	NA 1.00	CLSI 1.00; SFM 0.00
+maximal	ceftriaxone	country	error	234	0.004274	0	0	1	0	0	0	NA 1.00	CLSI 1.00; EUCAST 0.00
+maximal	ceftriaxone	country	correct	6616	0.008011	0.000453	0	1	0	0	0	NA 1.00	CLSI 0.99; EUCAST 0.01
+maximal	ceftriaxone	geography	error	34	0.323529	0	0	1	0	0	0	NA 1.00	CLSI 0.65; EUCAST 0.35
+maximal	ceftriaxone	geography	correct	1420	0.08662	0	0	1	0.01338	0	0	NA 1.00	CLSI 0.90; EUCAST 0.09; NA 0.01
+maximal	ceftriaxone	lineage	error	104	0.076923	0	0	1	0	0	0	NA 1.00	CLSI 0.91; EUCAST 0.09
+maximal	ceftriaxone	lineage	correct	6877	0.018758	0.000436	0	1	0.002763	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02; NA 0.00
+maximal	ceftriaxone	project	error	344	0.034884	0	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03
+maximal	ceftriaxone	project	correct	6377	0.019602	0.000157	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+maximal	ceftriaxone	random	error	103	0.097087	0	0	1	0	0	0	NA 1.00	CLSI 0.89; EUCAST 0.11
+maximal	ceftriaxone	random	correct	6921	0.01835	0.000433	0	1	0.002745	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02; NA 0.00
+maximal	ceftriaxone	random_cluster	error	105	0.095238	0	0	1	0	0	0	NA 1.00	CLSI 0.90; EUCAST 0.10
+maximal	ceftriaxone	random_cluster	correct	6919	0.018355	0.000434	0	1	0.002746	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02; NA 0.00
+maximal	ceftriaxone	temporal	error	33	0.060606	0	0	1	0	0	0	NA 1.00	CLSI 0.94; EUCAST 0.06
+maximal	ceftriaxone	temporal	correct	423	0.248227	0	0	1	0	0	0	NA 1.00	CLSI 0.75; EUCAST 0.25
+maximal	chloramphenicol	country	error	15	0	0	0	1	0	0	0	NA 1.00	CLSI 0.67; EUCAST 0.33
+maximal	chloramphenicol	country	correct	4379	0	0	0	1	0	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08
+maximal	chloramphenicol	geography	error	14	0	0	0	1	0	0	0	NA 1.00	CLSI 0.64; EUCAST 0.36
+maximal	chloramphenicol	geography	correct	1622	0	0	0	1	0.000617	0	0	NA 1.00	CLSI 0.79; EUCAST 0.21; NA 0.00
+maximal	chloramphenicol	lineage	error	25	0	0	0	1	0	0	0	NA 1.00	CLSI 0.76; EUCAST 0.20; SFM 0.04
+maximal	chloramphenicol	lineage	correct	4400	0	0	0	1	0.000227	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08; SFM 0.01
+maximal	chloramphenicol	project	error	14	0	0	0	1	0	0	0	NA 1.00	CLSI 0.64; EUCAST 0.36
+maximal	chloramphenicol	project	correct	4279	0	0	0	1	0	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08
+maximal	chloramphenicol	random	error	22	0	0	0	1	0	0	0	NA 1.00	CLSI 0.77; EUCAST 0.18; SFM 0.05
+maximal	chloramphenicol	random	correct	4437	0	0	0	1	0.000225	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08; SFM 0.01
+maximal	chloramphenicol	random_cluster	error	23	0	0	0	1	0	0	0	NA 1.00	CLSI 0.78; EUCAST 0.17; SFM 0.04
+maximal	chloramphenicol	random_cluster	correct	4436	0	0	0	1	0.000225	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08; SFM 0.01
+maximal	chloramphenicol	temporal	error	9	0	0	0	1	0	0	0	NA 1.00	EUCAST 0.44; CLSI 0.44; SFM 0.11
+maximal	chloramphenicol	temporal	correct	369	0	0	0	1	0	0	0	NA 1.00	EUCAST 0.91; SFM 0.05; CLSI 0.04
+maximal	ciprofloxacin	country	error	725	0	0	0	1	0	0	0	NA 1.00	CLSI 0.83; EUCAST 0.17
+maximal	ciprofloxacin	country	correct	5481	0	0.000547	0	1	0	0	0	NA 1.00	CLSI 0.94; EUCAST 0.06
+maximal	ciprofloxacin	geography	error	169	0.094675	0	0	1	0	0	0	NA 1.00	EUCAST 0.84; CLSI 0.16
+maximal	ciprofloxacin	geography	correct	1641	0.060329	0	0	1	0.000609	0	0	NA 1.00	CLSI 0.74; EUCAST 0.26; NA 0.00
+maximal	ciprofloxacin	lineage	error	348	0.034483	0	0	1	0	0	0	NA 1.00	CLSI 0.71; EUCAST 0.28; SFM 0.01
+maximal	ciprofloxacin	lineage	correct	7302	0.014517	0.000411	0	1	0.000137	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07; SFM 0.00
+maximal	ciprofloxacin	project	error	367	0.038147	0	0	1	0	0	0	NA 1.00	CLSI 0.64; EUCAST 0.36
+maximal	ciprofloxacin	project	correct	5774	0.018012	0.000173	0	1	0	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07
+maximal	ciprofloxacin	random	error	245	0.028571	0	0	1	0	0	0	NA 1.00	CLSI 0.69; EUCAST 0.29; SFM 0.02
+maximal	ciprofloxacin	random	correct	7462	0.014875	0.000402	0	1	0.000134	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07; SFM 0.00
+maximal	ciprofloxacin	random_cluster	error	287	0.034843	0	0	1	0	0	0	NA 1.00	CLSI 0.70; EUCAST 0.29; SFM 0.01
+maximal	ciprofloxacin	random_cluster	correct	7420	0.014555	0.000404	0	1	0.000135	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07; SFM 0.00
+maximal	ciprofloxacin	temporal	error	212	0.066038	0	0	1	0	0	0	NA 1.00	EUCAST 0.69; CLSI 0.30; SFM 0.01
+maximal	ciprofloxacin	temporal	correct	904	0.088496	0	0	1	0	0	0	NA 1.00	CLSI 0.66; EUCAST 0.32; SFM 0.02
+maximal	ertapenem	lineage	error	376	0.151596	0.00266	0	1	0.00266	0	0	NA 1.00	EUCAST 0.55; CLSI 0.45; NA 0.00
+maximal	ertapenem	lineage	correct	3143	0.025135	0.000318	0	1	0	0	0	NA 1.00	CLSI 0.91; EUCAST 0.09; SFM 0.00
+maximal	ertapenem	random	error	344	0.119186	0	0	1	0.002907	0	0	NA 1.00	CLSI 0.58; EUCAST 0.42; NA 0.00
+maximal	ertapenem	random	correct	3198	0.029706	0.000625	0	1	0	0	0	NA 1.00	CLSI 0.89; EUCAST 0.11; SFM 0.00
+maximal	ertapenem	random_cluster	error	348	0.112069	0.002874	0	1	0.002874	0	0	NA 1.00	CLSI 0.56; EUCAST 0.44; NA 0.00
+maximal	ertapenem	random_cluster	correct	3194	0.030369	0.000313	0	1	0	0	0	NA 1.00	CLSI 0.90; EUCAST 0.10; SFM 0.00
+maximal	gentamicin	country	error	216	0.027778	0.009259	0	1	0	0	0	NA 1.00	CLSI 0.91; EUCAST 0.09
+maximal	gentamicin	country	correct	6929	0.012123	0.000144	0	1	0	0	0	NA 1.00	CLSI 0.94; EUCAST 0.06
+maximal	gentamicin	geography	error	88	0.125	0	0	1	0	0	0	NA 1.00	CLSI 0.56; EUCAST 0.44
+maximal	gentamicin	geography	correct	1731	0.071057	0	0	1	0.000578	0	0	NA 1.00	CLSI 0.73; EUCAST 0.27; NA 0.00
+maximal	gentamicin	lineage	error	145	0.096552	0	0	1	0	0	0	NA 1.00	CLSI 0.76; EUCAST 0.24
+maximal	gentamicin	lineage	correct	7197	0.01709	0.000556	0	1	0.000139	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07; SFM 0.00
+maximal	gentamicin	project	error	138	0.130435	0	0	1	0	0	0	NA 1.00	CLSI 0.77; EUCAST 0.23
+maximal	gentamicin	project	correct	6860	0.017347	0.000146	0	1	0	0	0	NA 1.00	CLSI 0.94; EUCAST 0.06
+maximal	gentamicin	random	error	142	0.133803	0	0	1	0	0	0	NA 1.00	CLSI 0.70; EUCAST 0.29; SFM 0.01
+maximal	gentamicin	random	correct	7243	0.016292	0.000552	0	1	0.000138	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07; SFM 0.00
+maximal	gentamicin	random_cluster	error	146	0.10274	0	0	1	0	0	0	NA 1.00	CLSI 0.73; EUCAST 0.27; SFM 0.01
+maximal	gentamicin	random_cluster	correct	7239	0.016853	0.000553	0	1	0.000138	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07; SFM 0.00
+maximal	gentamicin	temporal	error	47	0.234043	0	0	1	0	0	0	NA 1.00	EUCAST 0.66; CLSI 0.34
+maximal	gentamicin	temporal	correct	808	0.118812	0	0	1	0	0	0	NA 1.00	EUCAST 0.53; CLSI 0.44; SFM 0.03
+maximal	kanamycin	lineage	error	19	0	0	0	1	0	0	0	NA 1.00	CLSI 0.79; SFM 0.21
+maximal	kanamycin	lineage	correct	1188	0	0	0	1	0	0	0	NA 1.00	CLSI 0.98; SFM 0.02
+maximal	kanamycin	random	error	23	0	0	0	1	0	0	0	NA 1.00	CLSI 0.78; SFM 0.22
+maximal	kanamycin	random	correct	1210	0	0	0	1	0	0	0	NA 1.00	CLSI 0.98; SFM 0.02
+maximal	kanamycin	random_cluster	error	16	0	0	0	1	0	0	0	NA 1.00	CLSI 0.69; SFM 0.31
+maximal	kanamycin	random_cluster	correct	1217	0	0	0	1	0	0	0	NA 1.00	CLSI 0.98; SFM 0.02
+maximal	levofloxacin	country	error	142	0	0	0	1	0	0	0	NA 1.00	CLSI 0.95; EUCAST 0.05
+maximal	levofloxacin	country	correct	2809	0	0.001068	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03
+maximal	levofloxacin	geography	error	8	0	0	0	1	0	0	0	NA 1.00	EUCAST 0.88; CLSI 0.12
+maximal	levofloxacin	geography	correct	91	0	0	0	1	0	0	0	NA 1.00	EUCAST 0.93; CLSI 0.07
+maximal	levofloxacin	lineage	error	133	0	0	0	1	0	0	0	NA 1.00	CLSI 0.91; EUCAST 0.06; SFM 0.03
+maximal	levofloxacin	lineage	correct	2875	0	0.001043	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03; SFM 0.01
+maximal	levofloxacin	project	error	134	0	0	0	1	0	0	0	NA 1.00	CLSI 0.95; EUCAST 0.05
+maximal	levofloxacin	project	correct	2807	0	0.000356	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03
+maximal	levofloxacin	random	error	81	0	0	0	1	0	0	0	NA 1.00	CLSI 0.86; EUCAST 0.09; SFM 0.05
+maximal	levofloxacin	random	correct	2948	0	0.001018	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03; SFM 0.01
+maximal	levofloxacin	random_cluster	error	88	0	0	0	1	0	0	0	NA 1.00	CLSI 0.89; EUCAST 0.07; SFM 0.05
+maximal	levofloxacin	random_cluster	correct	2941	0	0.00102	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03; SFM 0.01
+maximal	levofloxacin	temporal	error	32	0	0	0	1	0	0	0	NA 1.00	CLSI 0.94; SFM 0.06
+maximal	levofloxacin	temporal	correct	550	0	0	0	1	0	0	0	NA 1.00	CLSI 0.97; SFM 0.03
+maximal	meropenem	lineage	error	30	0.066667	0	0	1	0	0	0	NA 1.00	CLSI 0.67; EUCAST 0.33
+maximal	meropenem	lineage	correct	6187	0.02085	0	0	1	0.000162	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08; NA 0.00
+maximal	meropenem	random	error	51	0.078431	0	0	1	0	0	0	NA 1.00	CLSI 0.73; EUCAST 0.27
+maximal	meropenem	random	correct	6187	0.020527	0	0	1	0.000162	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08; NA 0.00
+maximal	meropenem	random_cluster	error	57	0.105263	0	0	1	0	0	0	NA 1.00	CLSI 0.72; EUCAST 0.28
+maximal	meropenem	random_cluster	correct	6181	0.020223	0	0	1	0.000162	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08; NA 0.00
+maximal	nalidixic acid	country	error	353	0	0	0	1	0	0	0	NA 1.00	CLSI 0.76; EUCAST 0.24
+maximal	nalidixic acid	country	correct	4190	0	0	0	1	0	0	0	NA 1.00	CLSI 0.94; EUCAST 0.06
+maximal	nalidixic acid	geography	error	248	0	0	0	1	0	0	0	NA 1.00	CLSI 0.67; EUCAST 0.33
+maximal	nalidixic acid	geography	correct	1482	0	0	0	1	0.000675	0	0	NA 1.00	CLSI 0.83; EUCAST 0.17; NA 0.00
+maximal	nalidixic acid	lineage	error	445	0	0	0	1	0	0	0	NA 1.00	CLSI 0.77; EUCAST 0.22; SFM 0.00
+maximal	nalidixic acid	lineage	correct	4125	0	0	0	1	0.000242	0	0	NA 1.00	CLSI 0.93; EUCAST 0.06; SFM 0.00
+maximal	nalidixic acid	project	error	388	0	0	0	1	0	0	0	NA 1.00	CLSI 0.78; EUCAST 0.22
+maximal	nalidixic acid	project	correct	3898	0	0	0	1	0	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07
+maximal	nalidixic acid	random	error	302	0	0	0	1	0	0	0	NA 1.00	CLSI 0.72; EUCAST 0.27; SFM 0.01
+maximal	nalidixic acid	random	correct	4303	0	0	0	1	0.000232	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07; SFM 0.00
+maximal	nalidixic acid	random_cluster	error	394	0	0	0	1	0	0	0	NA 1.00	CLSI 0.77; EUCAST 0.23; SFM 0.01
+maximal	nalidixic acid	random_cluster	correct	4211	0	0	0	1	0.000237	0	0	NA 1.00	CLSI 0.93; EUCAST 0.07; SFM 0.00
+maximal	nalidixic acid	temporal	error	91	0	0	0	1	0	0	0	NA 1.00	EUCAST 0.92; SFM 0.07; CLSI 0.01
+maximal	nalidixic acid	temporal	correct	273	0	0	0	1	0	0	0	NA 1.00	EUCAST 0.93; SFM 0.05; CLSI 0.02
+maximal	piperacillin-tazobactam	lineage	error	297	0.171717	0.003367	0	1	0	0	0	NA 1.00	CLSI 0.83; EUCAST 0.17
+maximal	piperacillin-tazobactam	lineage	correct	2582	0.032146	0.000387	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03; SFM 0.00
+maximal	piperacillin-tazobactam	random	error	332	0.150602	0.003012	0	1	0	0	0	NA 1.00	CLSI 0.85; EUCAST 0.15
+maximal	piperacillin-tazobactam	random	correct	2554	0.03289	0.000392	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03; SFM 0.00
+maximal	piperacillin-tazobactam	random_cluster	error	389	0.1491	0.002571	0	1	0	0	0	NA 1.00	CLSI 0.85; EUCAST 0.15
+maximal	piperacillin-tazobactam	random_cluster	correct	2497	0.030437	0.0004	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03; SFM 0.00
+maximal	streptomycin	country	error	286	0	0	0	1	0.520979	0	0	NA 1.00	NA 0.52; NARMS 0.40; CLSI 0.08
+maximal	streptomycin	country	correct	3840	0	0	0	1	0.27474	0	0	NA 1.00	NARMS 0.67; NA 0.27; CLSI 0.05
+maximal	streptomycin	geography	error	160	0	0	0	1	0.9	0	0	NA 1.00	NA 0.90; CLSI 0.10
+maximal	streptomycin	geography	correct	1130	0	0	0	1	0.870796	0	0	NA 1.00	NA 0.87; CLSI 0.13; NARMS 0.00
+maximal	streptomycin	lineage	error	235	0	0	0	1	0.582979	0	0	NA 1.00	NA 0.58; NARMS 0.33; CLSI 0.09
+maximal	streptomycin	lineage	correct	3862	0	0	0	1	0.269808	0	0	NA 1.00	NARMS 0.68; NA 0.27; CLSI 0.05
+maximal	streptomycin	project	error	282	0	0	0	1	0.542553	0	0	NA 1.00	NA 0.54; NARMS 0.41; CLSI 0.05
+maximal	streptomycin	project	correct	3735	0	0	0	1	0.281392	0	0	NA 1.00	NARMS 0.68; NA 0.28; CLSI 0.04
+maximal	streptomycin	random	error	247	0	0	0	1	0.587045	0	0	NA 1.00	NA 0.59; NARMS 0.32; CLSI 0.09
+maximal	streptomycin	random	correct	3884	0	0	0	1	0.272657	0	0	NA 1.00	NARMS 0.68; NA 0.27; CLSI 0.05
+maximal	streptomycin	random_cluster	error	235	0	0	0	1	0.582979	0	0	NA 1.00	NA 0.58; NARMS 0.33; CLSI 0.09
+maximal	streptomycin	random_cluster	correct	3896	0	0	0	1	0.273871	0	0	NA 1.00	NARMS 0.67; NA 0.27; CLSI 0.05
+maximal	sulfisoxazole	country	error	105	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	sulfisoxazole	country	correct	3964	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	sulfisoxazole	geography	error	39	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	sulfisoxazole	geography	correct	1247	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	sulfisoxazole	lineage	error	58	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	sulfisoxazole	lineage	correct	3977	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	sulfisoxazole	project	error	106	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	sulfisoxazole	project	correct	3835	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	sulfisoxazole	random	error	57	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	sulfisoxazole	random	correct	4012	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	sulfisoxazole	random_cluster	error	56	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	sulfisoxazole	random_cluster	correct	4013	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	tetracycline	country	error	119	0	0	0	1	0	0	0	NA 1.00	CLSI 1.00
+maximal	tetracycline	country	correct	6847	0	0.000438	0	1	0	0	0	NA 1.00	CLSI 0.95; EUCAST 0.05
+maximal	tetracycline	geography	error	29	0	0	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03
+maximal	tetracycline	geography	correct	1616	0.000619	0	0	1	0.000619	0	0	NA 1.00	CLSI 0.79; EUCAST 0.21; NA 0.00
+maximal	tetracycline	lineage	error	116	0	0	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.01; SFM 0.01
+maximal	tetracycline	lineage	correct	6930	0.000144	0.000433	0	1	0.000144	0	0	NA 1.00	CLSI 0.94; EUCAST 0.05; SFM 0.00
+maximal	tetracycline	project	error	116	0	0	0	1	0	0	0	NA 1.00	CLSI 0.99; EUCAST 0.01
+maximal	tetracycline	project	correct	6669	0	0.00015	0	1	0	0	0	NA 1.00	CLSI 0.95; EUCAST 0.05
+maximal	tetracycline	random	error	100	0	0	0	1	0	0	0	NA 1.00	CLSI 0.98; SFM 0.01; EUCAST 0.01
+maximal	tetracycline	random	correct	6988	0.000143	0.000429	0	1	0.000143	0	0	NA 1.00	CLSI 0.94; EUCAST 0.05; SFM 0.00
+maximal	tetracycline	random_cluster	error	110	0	0	0	1	0	0	0	NA 1.00	CLSI 0.99; SFM 0.01
+maximal	tetracycline	random_cluster	correct	6978	0.000143	0.00043	0	1	0.000143	0	0	NA 1.00	CLSI 0.94; EUCAST 0.05; SFM 0.00
+maximal	tetracycline	temporal	error	14	0	0	0	1	0	0	0	NA 1.00	CLSI 0.86; EUCAST 0.07; SFM 0.07
+maximal	tetracycline	temporal	correct	694	0.001441	0	0	1	0	0	0	NA 1.00	EUCAST 0.49; CLSI 0.49; SFM 0.03
+maximal	tobramycin	lineage	error	65	0.030769	0	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03
+maximal	tobramycin	lineage	correct	2836	0.01763	0.001058	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+maximal	tobramycin	random	error	50	0.02	0	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+maximal	tobramycin	random	correct	2873	0.017751	0.001044	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+maximal	tobramycin	random_cluster	error	52	0.019231	0	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+maximal	tobramycin	random_cluster	correct	2871	0.017764	0.001045	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+maximal	trimethoprim-sulfamethoxazole	country	error	323	0.009288	0	0	1	0	0	0	NA 1.00	CLSI 0.99; EUCAST 0.01
+maximal	trimethoprim-sulfamethoxazole	country	correct	6770	0.007533	0.000443	0	1	0	0	0	NA 1.00	CLSI 0.99; EUCAST 0.01
+maximal	trimethoprim-sulfamethoxazole	geography	error	92	0.108696	0	0	1	0	0	0	NA 1.00	CLSI 0.89; EUCAST 0.11
+maximal	trimethoprim-sulfamethoxazole	geography	correct	1365	0.09011	0	0	1	0	0	0	NA 1.00	CLSI 0.91; EUCAST 0.09
+maximal	trimethoprim-sulfamethoxazole	lineage	error	266	0.041353	0	0	1	0	0	0	NA 1.00	CLSI 0.95; EUCAST 0.05
+maximal	trimethoprim-sulfamethoxazole	lineage	correct	6983	0.017901	0.00043	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+maximal	trimethoprim-sulfamethoxazole	project	error	269	0.02974	0	0	1	0	0	0	NA 1.00	CLSI 0.97; EUCAST 0.03
+maximal	trimethoprim-sulfamethoxazole	project	correct	6821	0.018766	0.000147	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+maximal	trimethoprim-sulfamethoxazole	random	error	230	0.03913	0	0	1	0	0	0	NA 1.00	CLSI 0.96; EUCAST 0.04
+maximal	trimethoprim-sulfamethoxazole	random	correct	7074	0.017953	0.000424	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+maximal	trimethoprim-sulfamethoxazole	random_cluster	error	229	0.048035	0	0	1	0	0	0	NA 1.00	CLSI 0.95; EUCAST 0.05
+maximal	trimethoprim-sulfamethoxazole	random_cluster	correct	7075	0.017668	0.000424	0	1	0	0	0	NA 1.00	CLSI 0.98; EUCAST 0.02
+maximal	trimethoprim-sulfamethoxazole	temporal	error	61	0.081967	0	0	1	0	0	0	NA 1.00	CLSI 0.92; EUCAST 0.08
+maximal	trimethoprim-sulfamethoxazole	temporal	correct	746	0.136729	0	0	1	0	0	0	NA 1.00	CLSI 0.86; EUCAST 0.14
+common	ALL	country	error	5226	0.008419	0.001339	0	1	0.028129	0	0	NA 1.00	CLSI 0.84; EUCAST 0.11; NA 0.03
+common	ALL	country	correct	73198	0.005724	0.000246	0	1	0.014099	0	0	NA 1.00	CLSI 0.91; EUCAST 0.04; NARMS 0.04
+common	ALL	geography	error	1583	0.083386	0	0	1	0.087808	0	0	NA 1.00	EUCAST 0.49; CLSI 0.43; NA 0.09
+common	ALL	geography	correct	18807	0.054501	0	0	1	0.052746	0	0	NA 1.00	CLSI 0.75; EUCAST 0.20; NA 0.05
+common	ALL	lineage	error	4426	0.062811	0.001356	0	1	0.031179	0	0	NA 1.00	CLSI 0.77; EUCAST 0.18; NA 0.03
+common	ALL	lineage	correct	102779	0.01584	0.000321	0	1	0.01042	0	0	NA 1.00	CLSI 0.91; EUCAST 0.05; NARMS 0.03
+common	ALL	project	error	4399	0.02887	0	0	1	0.034553	0	0	NA 1.00	CLSI 0.83; EUCAST 0.11; NA 0.03
+common	ALL	project	correct	75080	0.013705	0.00012	0	1	0.013679	0	0	NA 1.00	CLSI 0.91; EUCAST 0.04; NARMS 0.03
+common	ALL	random	error	3768	0.060244	0.001327	0	1	0.036093	0	0	NA 1.00	CLSI 0.77; EUCAST 0.17; NA 0.04
+common	ALL	random	correct	103437	0.016232	0.000329	0	1	0.010373	0	0	NA 1.00	CLSI 0.91; EUCAST 0.05; NARMS 0.03
+common	ALL	random_cluster	error	3917	0.061016	0.001276	0	1	0.035997	0	0	NA 1.00	CLSI 0.78; EUCAST 0.16; NA 0.04
+common	ALL	random_cluster	correct	103288	0.016139	0.000329	0	1	0.01034	0	0	NA 1.00	CLSI 0.91; EUCAST 0.05; NARMS 0.03
+common	ALL	temporal	error	1369	0.070124	0	0	1	0	0	0	NA 1.00	CLSI 0.55; EUCAST 0.45
+common	ALL	temporal	correct	7767	0.107377	0	0	1	0	0	0	NA 1.00	CLSI 0.58; EUCAST 0.42
+maximal	ALL	country	error	5488	0.0082	0.001458	0	1	0.02715	0	0	NA 1.00	CLSI 0.84; EUCAST 0.11; NA 0.03
+maximal	ALL	country	correct	76519	0.005463	0.000261	0	1	0.013787	0	0	NA 1.00	CLSI 0.91; EUCAST 0.04; NARMS 0.03
+maximal	ALL	geography	error	1635	0.08318	0	0	1	0.088685	0	0	NA 1.00	EUCAST 0.49; CLSI 0.42; NA 0.09
+maximal	ALL	geography	correct	19451	0.052491	0	0	1	0.051977	0	0	NA 1.00	CLSI 0.74; EUCAST 0.21; NA 0.05
+maximal	ALL	lineage	error	4602	0.062364	0.001304	0	1	0.030204	0	0	NA 1.00	CLSI 0.76; EUCAST 0.19; NA 0.03
+maximal	ALL	lineage	correct	104529	0.015938	0.000325	0	1	0.010236	0	0	NA 1.00	CLSI 0.91; EUCAST 0.06; NARMS 0.03
+maximal	ALL	project	error	4329	0.029568	0	0	1	0.035343	0	0	NA 1.00	CLSI 0.83; EUCAST 0.10; NA 0.04
+maximal	ALL	project	correct	75863	0.013893	0.000119	0	1	0.013854	0	0	NA 1.00	CLSI 0.91; EUCAST 0.04; NARMS 0.03
+maximal	ALL	random	error	4001	0.063234	0.00075	0	1	0.036741	0	0	NA 1.00	CLSI 0.76; EUCAST 0.18; NA 0.04
+maximal	ALL	random	correct	105864	0.016058	0.00035	0	1	0.010268	0	0	NA 1.00	CLSI 0.90; EUCAST 0.06; NARMS 0.02
+maximal	ALL	random_cluster	error	4353	0.060648	0.000689	0	1	0.031932	0	0	NA 1.00	CLSI 0.77; EUCAST 0.18; NA 0.03
+maximal	ALL	random_cluster	correct	105512	0.016008	0.000351	0	1	0.010378	0	0	NA 1.00	CLSI 0.90; EUCAST 0.06; NARMS 0.02
+maximal	ALL	temporal	error	1410	0.070213	0	0	1	0	0	0	NA 1.00	CLSI 0.55; EUCAST 0.43; SFM 0.02
+maximal	ALL	temporal	correct	8146	0.102013	0	0	1	0	0	0	NA 1.00	CLSI 0.58; EUCAST 0.41; SFM 0.02
