@@ -1,0 +1,30 @@
+{
+  "builder_version": "1.0.0",
+  "created_at": "2026-10-24T06:33:54Z",
+  "deduplicated": true,
+  "feature_hashes_sha256": "04aa3b458eed6fe0a5464ccb32d72c88bc71d924c722600699a02f531a155af9",
+  "feature_pattern_sha256": "950360bf94c4873da44b34ebd35ac5439aea2e699912d2af4757c883aa42c2de",
+  "genome_manifest_sha256": "e85a45fc1add9f0c6004dd897cd4488baad0eed8d7c1f91c9025b34beaa0f2d6",
+  "genome_verification_sha256": "82a12f2abd7f5953318d2d3020fee9189fb6f6bf7dc89c4a7ddd0b0876deb7a5",
+  "global_prune": {
+    "min_absent": 5,
+    "min_present": 5,
+    "note": "drops only features every per-task training filter would drop"
+  },
+  "indices_sha256": "9c0150e28fc1023c4ba3262d5a0dc3658a036d87b3cdd7dfda47d6c646e011fd",
+  "indptr_sha256": "709c64686bd00029f532503c625a2e2c6ebc072095df35abb4cb0fa2b6e8266e",
+  "kept_features": 419872,
+  "nnz": 252981846,
+  "observed_features": 921736,
+  "params": {
+    "ksize": 31,
+    "method": "FracMinHash k-mer presence",
+    "scaled": 200,
+    "seed": 42,
+    "tool": "sourmash",
+    "tool_version": "4.9.4"
+  },
+  "patterns": 271797,
+  "rows": 10521,
+  "rows_sha256": "d1d3c8e23b1214e5755161884252f52ccbf321e92e72116277477370298e72ba"
+}

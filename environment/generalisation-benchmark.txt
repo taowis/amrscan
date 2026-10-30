@@ -1,0 +1,7 @@
+# Python 3.12 virtual environment for bin/generalisation_benchmark.py (generalisation benchmark):
+#   python3.12 -m venv .venv && .venv/bin/pip install -r environment/generalisation-benchmark.txt
+numpy==2.3.3
+scipy==1.16.2
+scikit-learn==1.7.2
+sourmash==4.9.4
+coverage==7.10.6

@@ -1,0 +1,101 @@
+cohort	antimicrobial	split_strategy	fold_or_holdout_id	N	N_R	N_S	AUROC	balanced_accuracy	MCC	supported
+common	amoxicillin-clavulanic acid	country	Canada	1239	434	805	0.983878	0.979874	0.95924	yes
+common	amoxicillin-clavulanic acid	country	Pakistan	54	19	35	0.871429	0.696992	0.376552	yes
+common	amoxicillin-clavulanic acid	country	Thailand	25	11	14	0.701299	0.681818	0.492366	yes
+common	amoxicillin-clavulanic acid	country	USA	4965	360	4605	0.870517	0.812057	0.618603	yes
+common	ampicillin	country	Canada	1267	681	586	0.976037	0.961266	0.921074	yes
+common	ampicillin	country	Pakistan	54	41	13	0.990619	0.95122	0.830723	yes
+common	ampicillin	country	USA	5798	2408	3390	0.959702	0.93552	0.881827	yes
+common	cefazolin	country	Canada	160	97	63	0.909753	0.868679	0.749413	yes
+common	cefazolin	country	USA	2359	772	1587	0.784453	0.782139	0.645957	yes
+common	cefepime	country	Netherlands	338	283	55	0.869354	0.838452	0.515094	yes
+common	cefepime	country	Pakistan	49	28	21	0.959184	0.97619	0.958927	yes
+common	cefepime	country	USA	2913	259	2654	0.895169	0.856746	0.504651	yes
+common	cefoxitin	country	Canada	1255	435	820	0.982418	0.979429	0.957831	yes
+common	cefoxitin	country	Netherlands	440	162	278	0.915601	0.817391	0.715942	yes
+common	cefoxitin	country	USA	3206	243	2963	0.946264	0.880822	0.751793	yes
+common	cefoxitin	country	Zambia	30	15	15	0.573333	0.6	0.236433	yes
+common	ceftazidime	country	Canada	160	98	62	0.942561	0.838051	0.660627	yes
+common	ceftazidime	country	Netherlands	420	395	25	0.897722	0.836962	0.340115	yes
+common	ceftazidime	country	Pakistan	53	30	23	0.975362	0.804348	0.684271	yes
+common	ceftazidime	country	USA	2512	297	2215	0.944476	0.891726	0.63072	yes
+common	ceftriaxone	country	Canada	1263	508	755	0.98116	0.981888	0.963777	yes
+common	ceftriaxone	country	Pakistan	54	34	20	0.989706	0.925	0.883788	yes
+common	ceftriaxone	country	USA	5490	830	4660	0.983221	0.954076	0.924462	yes
+common	chloramphenicol	country	Canada	1249	87	1162	0.986517	0.988075	0.981388	yes
+common	chloramphenicol	country	Netherlands	338	92	246	0.99567	0.981	0.955604	yes
+common	chloramphenicol	country	USA	2774	161	2613	0.995648	0.989726	0.973798	yes
+common	ciprofloxacin	country	Germany	90	12	78	0.701923	0.717949	0.452389	yes
+common	ciprofloxacin	country	Netherlands	338	164	174	0.912602	0.743902	0.573572	yes
+common	ciprofloxacin	country	USA	5745	946	4799	0.969738	0.949589	0.822139	yes
+common	gentamicin	country	Canada	1252	356	896	0.971114	0.957922	0.92302	yes
+common	gentamicin	country	Netherlands	338	48	290	0.93671	0.94102	0.889841	yes
+common	gentamicin	country	Pakistan	54	11	43	0.991543	0.93129	0.835631	yes
+common	gentamicin	country	USA	5423	668	4755	0.978827	0.935222	0.837174	yes
+common	gentamicin	country	Zambia	36	22	14	0.967532	0.87013	0.765532	yes
+common	levofloxacin	country	Germany	86	10	76	0.871053	0.85	0.82062	yes
+common	nalidixic acid	country	Canada	1265	80	1185	0.975506	0.938265	0.856853	yes
+common	nalidixic acid	country	Germany	89	32	57	0.701754	0.6875	0.526875	yes
+common	nalidixic acid	country	Netherlands	338	98	240	0.951063	0.895876	0.848876	yes
+common	nalidixic acid	country	USA	2817	67	2750	0.943731	0.93229	0.905117	yes
+common	streptomycin	country	Canada	1261	649	612	0.914908	0.869675	0.754622	yes
+common	streptomycin	country	USA	2831	822	2009	0.974682	0.919153	0.855851	yes
+common	sulfisoxazole	country	Canada	1261	764	497	0.976731	0.972318	0.938002	yes
+common	sulfisoxazole	country	USA	2774	681	2093	0.994532	0.97583	0.935542	yes
+common	tetracycline	country	Canada	1266	608	658	0.984982	0.980826	0.962055	yes
+common	tetracycline	country	Netherlands	338	200	138	1	1	1	yes
+common	tetracycline	country	USA	5320	2089	3231	0.982392	0.980037	0.965428	yes
+common	trimethoprim-sulfamethoxazole	country	Canada	1267	286	981	0.965821	0.894453	0.835091	yes
+common	trimethoprim-sulfamethoxazole	country	Pakistan	54	35	19	0.985714	0.957143	0.8886	yes
+common	trimethoprim-sulfamethoxazole	country	USA	5716	958	4758	0.985005	0.943489	0.841552	yes
+maximal	amoxicillin-clavulanic acid	country	Canada	1264	438	826	0.982566	0.980784	0.961569	yes
+maximal	amoxicillin-clavulanic acid	country	Pakistan	54	19	35	0.880451	0.711278	0.404694	yes
+maximal	amoxicillin-clavulanic acid	country	Thailand	25	11	14	0.701299	0.681818	0.492366	yes
+maximal	amoxicillin-clavulanic acid	country	USA	4979	362	4617	0.854359	0.809181	0.596866	yes
+maximal	ampicillin	country	Australia	89	46	43	0.974216	0.932508	0.865015	yes
+maximal	ampicillin	country	Canada	1292	694	598	0.978505	0.96524	0.928909	yes
+maximal	ampicillin	country	Pakistan	54	41	13	0.977486	0.95122	0.830723	yes
+maximal	ampicillin	country	USA	5831	2429	3402	0.959757	0.937603	0.887148	yes
+maximal	cefazolin	country	Canada	160	97	63	0.923008	0.894453	0.818938	yes
+maximal	cefazolin	country	USA	2366	778	1588	0.790309	0.794026	0.661721	yes
+maximal	cefepime	country	Netherlands	338	283	55	0.867973	0.837199	0.504833	yes
+maximal	cefepime	country	Pakistan	49	28	21	0.955782	0.97619	0.958927	yes
+maximal	cefepime	country	USA	2935	262	2673	0.892467	0.836311	0.440678	yes
+maximal	cefoxitin	country	Canada	1280	439	841	0.980471	0.983159	0.963732	yes
+maximal	cefoxitin	country	Netherlands	505	227	278	0.849626	0.751323	0.579363	yes
+maximal	cefoxitin	country	USA	3220	245	2975	0.955893	0.891717	0.627744	yes
+maximal	cefoxitin	country	Zambia	30	15	15	0.702222	0.5	0	yes
+maximal	ceftazidime	country	Canada	160	98	62	0.948321	0.868664	0.718421	yes
+maximal	ceftazidime	country	Netherlands	461	409	52	0.936007	0.85102	0.463274	yes
+maximal	ceftazidime	country	Pakistan	53	30	23	0.973913	0.717391	0.55076	yes
+maximal	ceftazidime	country	USA	2519	298	2221	0.951239	0.890971	0.644052	yes
+maximal	ceftriaxone	country	Canada	1288	513	775	0.981137	0.981207	0.962733	yes
+maximal	ceftriaxone	country	Pakistan	54	34	20	0.985294	0.95	0.921954	yes
+maximal	ceftriaxone	country	USA	5508	838	4670	0.98306	0.956169	0.926627	yes
+maximal	chloramphenicol	country	Canada	1273	87	1186	0.990745	0.987663	0.975325	yes
+maximal	chloramphenicol	country	Netherlands	338	92	246	0.996068	0.981	0.955604	yes
+maximal	chloramphenicol	country	USA	2783	161	2622	0.995774	0.98973	0.973803	yes
+maximal	ciprofloxacin	country	Germany	90	12	78	0.693376	0.717949	0.452389	yes
+maximal	ciprofloxacin	country	Netherlands	338	164	174	0.916491	0.746951	0.578267	yes
+maximal	ciprofloxacin	country	USA	5778	958	4820	0.971929	0.949141	0.823297	yes
+maximal	gentamicin	country	Canada	1276	359	917	0.971844	0.959485	0.927834	yes
+maximal	gentamicin	country	Netherlands	338	48	290	0.947126	0.888937	0.82311	yes
+maximal	gentamicin	country	Pakistan	54	11	43	0.987315	0.840381	0.705828	yes
+maximal	gentamicin	country	USA	5441	673	4768	0.978967	0.933304	0.834697	yes
+maximal	gentamicin	country	Zambia	36	22	14	0.964286	0.798701	0.650213	yes
+maximal	levofloxacin	country	Germany	86	10	76	0.85	0.85	0.82062	yes
+maximal	levofloxacin	country	USA	2865	832	2033	0.957854	0.796294	0.657119	yes
+maximal	nalidixic acid	country	Canada	1290	80	1210	0.981746	0.940031	0.880062	yes
+maximal	nalidixic acid	country	Germany	89	32	57	0.685307	0.6875	0.526875	yes
+maximal	nalidixic acid	country	Netherlands	338	98	240	0.941093	0.865264	0.80551	yes
+maximal	nalidixic acid	country	USA	2826	67	2759	0.944061	0.932292	0.905124	yes
+maximal	streptomycin	country	Canada	1286	659	627	0.920883	0.877054	0.771591	yes
+maximal	streptomycin	country	USA	2840	824	2016	0.96653	0.916604	0.855204	yes
+maximal	sulfisoxazole	country	Canada	1286	775	511	0.977841	0.972817	0.939342	yes
+maximal	sulfisoxazole	country	USA	2783	683	2100	0.994216	0.975906	0.935733	yes
+maximal	tetracycline	country	Canada	1291	621	670	0.984159	0.98046	0.961232	yes
+maximal	tetracycline	country	Netherlands	338	200	138	1	1	1	yes
+maximal	tetracycline	country	USA	5337	2096	3241	0.981789	0.97971	0.964749	yes
+maximal	trimethoprim-sulfamethoxazole	country	Canada	1292	291	1001	0.964055	0.889415	0.828653	yes
+maximal	trimethoprim-sulfamethoxazole	country	Pakistan	54	35	19	0.990977	0.957143	0.8886	yes
+maximal	trimethoprim-sulfamethoxazole	country	USA	5747	970	4777	0.98488	0.943805	0.843922	yes

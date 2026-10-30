@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "/scratch/qn73/ktl590/Projects/amrscan-dev/bin/representation_sensitivity.py", line 1348, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/scratch/qn73/ktl590/Projects/amrscan-dev/bin/representation_sensitivity.py", line 1327, in main
+    r = stage_fit_pilot(config, args.outdir, args.benchmark, args.population, args.baseline, args.scaled)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/qn73/ktl590/Projects/amrscan-dev/bin/representation_sensitivity.py", line 850, in stage_fit_pilot
+    gb.write_json(p["pilot"] / f"fit_pilot_scaled_{scaled}.json", out)
+  File "/scratch/qn73/ktl590/Projects/amrscan-dev/bin/generalisation_benchmark.py", line 940, in write_json
+    pop.write_json_atomic(Path(path), value)
+  File "/scratch/qn73/ktl590/Projects/amrscan-dev/bin/population_structure.py", line 82, in write_json_atomic
+    tmp.write_text(json.dumps(value, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+  File "/usr/lib64/python3.12/pathlib.py", line 1047, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'datasets/ecoli_research_v1/representation_sensitivity_v1/pilot/.fit_pilot_scaled_50.json.1354700.tmp'
+
+======================================================================================
+                  Resource Usage on 2026-10-29 17:26:44:
+   Job Id:             182549873.gadi-pbs
+   Project:            qn73
+   Exit Status:        1
+   Service Units:      17.30
+   NCPUs Requested:    14                  CPU Time Used: 00:43:19        
+   Memory Requested:   128.0GB               Memory Used: 57.21GB         
+   Walltime Requested: 02:00:00            Walltime Used: 00:58:24        
+   JobFS Requested:    100.0MB                JobFS Used: 0B              
+======================================================================================

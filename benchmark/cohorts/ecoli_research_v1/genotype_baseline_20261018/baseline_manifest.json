@@ -1,0 +1,37 @@
+{
+  "amrfinderplus_database_fingerprint": "sha256:748425a026512fda44008b9d106a4546518cc57dac59eb6432232eb3ac2c978b",
+  "amrfinderplus_database_version": "2026-08-07.1",
+  "amrfinderplus_version": "4.2.7",
+  "baseline_version": "1.0.0",
+  "builder_sha256": "ddcc9338e4cee27a49296c42bec212bf7e958ce2d585d7865c38acd4e0d54b43",
+  "caller_policy": {
+    "coverage_min": 0.5,
+    "ident_min": -1,
+    "organism": "Escherichia",
+    "plus": false,
+    "report_all_equal": true,
+    "translation_table": 11
+  },
+  "caller_successful_isolates": 10521,
+  "code_commit": "6b126fc15f38a114ab3c8c77a3fefc0390532396",
+  "cohort_isolate_count": 10521,
+  "config_sha256": "d272bdac2794ab9f795eac04aff2969f248ebe7a1e3c4366967fc21e61a8ba51",
+  "generated_at": "2026-10-18T08:25:29Z",
+  "generated_at_semantics": "latest successful AMRFinderPlus call used; fixed so rebuilds are deterministic",
+  "mapping_interpretable_endpoints": 110317,
+  "mapping_metadata_sha256": "79747d4c458bd1dd815134ddd6a1d7b3849fefc96a55bb0a976b0077f49fd8d7",
+  "mapping_rules_sha256": "67f0eb67585fabafad5c00fd53dd6b4839767e4af94d67732c8299034ac6795a",
+  "mapping_version": "ecoli_amrfinder_drug_mapping_v1",
+  "metric_eligible_endpoints": 110317,
+  "phenotype_endpoint_count": 162629,
+  "pr5_cohort_id": "ecoli_research_v1",
+  "pr5_cohort_manifest_sha256": "21348c7da115dc0306db07d32839bd91263328a2409c4a1fb65cce8b327d3caf",
+  "pr5_files_sha256": {
+    "candidate_isolates.tsv": "68b17d5eebb09b01157522d612955bf55190ddbd63a0eaebcd44a976fb4b574e",
+    "cohort_manifest.json": "21348c7da115dc0306db07d32839bd91263328a2409c4a1fb65cce8b327d3caf",
+    "isolate_drug_endpoints.tsv": "edb3c14f9ef931bd832761780ef3b2700dafe44cadb2865d7e464a165ebb2a54"
+  },
+  "pr6_code_commit": "397329bf82445ae3909a9483535855f14bb94df0",
+  "pr6_population_id": "ecoli_research_v1_population",
+  "pr6_population_manifest_sha256": "ca4c0f65bea9afce4bcb9e677e6eb934dc5a099ce141bd36baf41abf43223468"
+}

@@ -1,0 +1,16 @@
+#!/bin/bash
+# Download the 10,521 cohort assemblies from NCBI Datasets (copyq has internet).
+# Resumable: resubmit if it hits walltime; verified genomes are kept.
+#PBS -N amrscan-fetch
+#PBS -q copyq
+#PBS -l ncpus=1
+#PBS -l mem=8GB
+#PBS -l walltime=10:00:00
+#PBS -j oe
+set -euo pipefail
+source "${AMRSCAN_REPO:-/scratch/$PROJECT/$USER/amrscan/amrscan-dev}/scripts/gadi/env.sh"
+cd "$AMRSCAN_REPO"
+# At most 3 concurrent NCBI requests, as in PR #6.
+python3 bin/population_structure.py fetch-genomes --cohort "$PR5_DIR" --cache "$GENOME_CACHE" \
+  --expected-cohort-manifest-sha256 "$PR5_MANIFEST_SHA256" --workers 3
+echo "assemblies in cache: $(find "$GENOME_CACHE" -mindepth 2 -maxdepth 2 -name genome.fna | wc -l)"

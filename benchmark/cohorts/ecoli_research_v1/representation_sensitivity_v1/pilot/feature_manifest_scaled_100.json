@@ -1,0 +1,33 @@
+{
+  "build_max_rss_bytes": 9221185536,
+  "build_seconds": 1682.0,
+  "builder": "bin/representation_sensitivity.py 1.0.0",
+  "created_at": "2026-10-29T05:57:01Z",
+  "deduplicated": true,
+  "feature_hashes_sha256": "f9f90a529fc86530485cca4ef144669769aae0d68653b926e3bf930183d47a7a",
+  "feature_pattern_sha256": "538cdf06ebb224c84506cc229052e007071be605a9a82b74aa479b0d06f3cc08",
+  "genome_manifest_sha256": "e85a45fc1add9f0c6004dd897cd4488baad0eed8d7c1f91c9025b34beaa0f2d6",
+  "genome_verification_sha256": "cfe0eec97327675facc5b364cc6dc39852cfd06ae906791c1b76bab3890b198b",
+  "global_prune": {
+    "min_absent": 5,
+    "min_present": 5,
+    "note": "drops only features every per-task training filter would drop"
+  },
+  "indices_sha256": "eabfa9996af406297658b54ee1d5dde4fea9048a5c4401a2d635e1124a036252",
+  "indptr_sha256": "e0b3464a3d25314eebc12cdecaf18b736b5357fa656e72d37d317e824583f118",
+  "kept_features": 839758,
+  "nnz": 501483462,
+  "observed_features": 1842888,
+  "params": {
+    "ksize": 31,
+    "method": "FracMinHash k-mer presence",
+    "scaled": 100,
+    "seed": 42,
+    "tool": "sourmash",
+    "tool_version": "4.9.4"
+  },
+  "patterns": 493072,
+  "representation": "pilot_scaled_100",
+  "rows": 10521,
+  "rows_sha256": "d1d3c8e23b1214e5755161884252f52ccbf321e92e72116277477370298e72ba"
+}

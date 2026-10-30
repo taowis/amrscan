@@ -1,0 +1,42 @@
+{
+  "config_version": "1.1.0",
+  "description": "Established-determinant genotype-phenotype baseline for ecoli_research_v1 (PR #7).",
+  "mapping": {
+    "version": "ecoli_amrfinder_drug_mapping_v1",
+    "rules": "benchmark/mappings/ecoli_amrfinder_drug_mapping_v1.tsv",
+    "metadata": "benchmark/mappings/ecoli_amrfinder_drug_mapping_v1.json"
+  },
+  "expected_upstream": {
+    "pr5_cohort_manifest_sha256": "21348c7da115dc0306db07d32839bd91263328a2409c4a1fb65cce8b327d3caf",
+    "pr6_population_manifest_sha256": "ca4c0f65bea9afce4bcb9e677e6eb934dc5a099ce141bd36baf41abf43223468"
+  },
+  "phenotype_corrections": {
+    "table": "benchmark/cohorts/ecoli_research_v1/phenotype_corrections_v1.tsv",
+    "sha256": "a8a92d9cb1a603aa50601ae558d7cc9176674fe146cf9f96222d5ccaedd2eb71",
+    "decision_record": "docs/decisions/0004-ecoli-phenotype-label-correction.md"
+  },
+  "caller": {
+    "version": "4.2.7",
+    "database_version": "2026-08-07.1",
+    "database_id": "sha256:748425a026512fda44008b9d106a4546518cc57dac59eb6432232eb3ac2c978b"
+  },
+  "stratum_support": {
+    "min_R": 10,
+    "min_S": 10,
+    "rule": "metrics for a stratum only with at least min_R resistant and min_S susceptible metric-eligible endpoints; smaller strata keep counts with NA metrics",
+    "basis": "same 10 R / 10 S floor as per-country reporting in decision 0001",
+    "decision": "HUMAN_REVIEW_REQUIRED"
+  },
+  "temporal": {
+    "period_field": "period",
+    "cutoff_year": 2021,
+    "basis": "periods from decision 0001 (earlier before 2021, recent from 2021); calendar years are reported as counts with the same support rule",
+    "by_year": true
+  },
+  "mapping_audit": {
+    "min_carriers": 20,
+    "low_r_fraction": 0.5,
+    "high_r_fraction": 0.9,
+    "action": "flag for human review only; no rule is changed on observed agreement"
+  }
+}

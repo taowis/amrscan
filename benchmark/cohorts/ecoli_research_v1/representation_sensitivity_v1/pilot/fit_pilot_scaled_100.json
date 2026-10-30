@@ -1,0 +1,36 @@
+{
+  "build_max_rss_bytes": 9221185536,
+  "build_seconds": 1682.0,
+  "cpus": 56,
+  "fits": [
+    {
+      "features_used": 467268,
+      "fit_seconds": 300.62,
+      "n_train": 7711,
+      "peak_rss_bytes": 22436306944,
+      "seconds": 301.36,
+      "task_id": "maximal__ampicillin__project__PRJNA266657"
+    },
+    {
+      "features_used": 468829,
+      "fit_seconds": 287.56,
+      "n_train": 7698,
+      "peak_rss_bytes": 22403698688,
+      "seconds": 287.73,
+      "task_id": "maximal__ampicillin__project__PRJNA1279687"
+    },
+    {
+      "features_used": 407509,
+      "fit_seconds": 144.33,
+      "n_train": 3515,
+      "peak_rss_bytes": 10775687168,
+      "seconds": 144.5,
+      "task_id": "common__chloramphenicol__random_cluster__fold4"
+    }
+  ],
+  "machine": "gadi-cpu-bdw-0109.gadi.nci.org.au",
+  "measured_at": "2026-10-29T08:02:35Z",
+  "nnz": 501483462,
+  "patterns": 493072,
+  "scaled": 100
+}

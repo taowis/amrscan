@@ -1,0 +1,11 @@
+name: amrscan-population-structure
+# mlst 2.34.0 and later need libxcrypt1, which bioconda does not provide for
+# macOS ARM64; 2.33.0 is the newest release that installs there.
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - mlst=2.33.0
+  - ezclermont=1.0.0
+  - python=3.12

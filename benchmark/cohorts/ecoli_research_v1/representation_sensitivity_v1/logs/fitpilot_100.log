@@ -1,0 +1,14 @@
+{"scaled": 100, "nnz": 501483462, "patterns": 493072, "build_seconds": 1682.0, "build_max_rss_bytes": 9221185536, "fits": [{"task_id": "maximal__ampicillin__project__PRJNA266657", "n_train": 7711, "seconds": 301.36, "fit_seconds": 300.62, "features_used": 467268, "peak_rss_bytes": 22436306944}, {"task_id": "maximal__ampicillin__project__PRJNA1279687", "n_train": 7698, "seconds": 287.73, "fit_seconds": 287.56, "features_used": 468829, "peak_rss_bytes": 22403698688}, {"task_id": "common__chloramphenicol__random_cluster__fold4", "n_train": 3515, "seconds": 144.5, "fit_seconds": 144.33, "features_used": 407509, "peak_rss_bytes": 10775687168}], "machine": "gadi-cpu-bdw-0109.gadi.nci.org.au", "cpus": 56, "measured_at": "2026-10-29T08:02:35Z"}
+{"scaled": 100, "nnz": 501483462, "fits": [{"task_id": "maximal__ampicillin__project__PRJNA266657", "n_train": 7711, "seconds": 301.36, "fit_seconds": 300.62, "features_used": 467268, "peak_rss_bytes": 22436306944}, {"task_id": "maximal__ampicillin__project__PRJNA1279687", "n_train": 7698, "seconds": 287.73, "fit_seconds": 287.56, "features_used": 468829, "peak_rss_bytes": 22403698688}, {"task_id": "common__chloramphenicol__random_cluster__fold4", "n_train": 3515, "seconds": 144.5, "fit_seconds": 144.33, "features_used": 407509, "peak_rss_bytes": 10775687168}]}
+
+======================================================================================
+                  Resource Usage on 2026-10-29 19:02:39:
+   Job Id:             182560410.gadi-pbs
+   Project:            qn73
+   Exit Status:        0
+   Service Units:      3.78
+   NCPUs Requested:    14                  CPU Time Used: 00:12:21        
+   Memory Requested:   128.0GB               Memory Used: 21.78GB         
+   Walltime Requested: 02:00:00            Walltime Used: 00:12:46        
+   JobFS Requested:    100.0MB                JobFS Used: 0B              
+======================================================================================

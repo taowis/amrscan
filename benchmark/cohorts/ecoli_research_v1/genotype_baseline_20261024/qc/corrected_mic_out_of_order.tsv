@@ -1,0 +1,4 @@
+project	antimicrobial	breakpoint_standard	isolate_id	record_id	corrected_phenotype	mic	median_mic_R	median_mic_S
+PRJNA1322038	amoxicillin-clavulanic acid	EUCAST	PDT003341052.1	ba6229c5a60b09f4fc1cd412cd6c44a05b0036e340bc3b2a902fc3b30ce02c0c	R	=4	32.0	4.0
+PRJNA1322038	cefoxitin	CLSI	PDT003341052.1	e24c845e0e1c371d872c804c89c72343ee02fde308eda01e007c664bb95a559b	R	<4	64.0	4.0
+PRJNA1322038	ticarcillin-clavulanic acid	EUCAST	PDT003341070.1	1fbc88c13a2d1aa16fc928ffc0c348f2569638560fae0e1f6a3b65f719e8bbf4	R	<8	128.0	8.0

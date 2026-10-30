@@ -1,0 +1,280 @@
+cohort	antimicrobial	split_strategy	drug_group	N	R	errors	FN	FP	R_KNOWN_DET_AND_MUT_REPRESENTED	R_KNOWN_DET_NOT_REPRESENTED	R_KNOWN_DET_REPRESENTED	R_KNOWN_MUT_NOT_REPRESENTED	R_KNOWN_MUT_REPRESENTED	R_NO_ESTABLISHED_DET	R_UNRESOLVED	S_KNOWN_DET_PRESENT	S_NO_KNOWN_DET	S_UNRESOLVED	R_KNOWN_DET_AND_MUT_REPRESENTED_fraction_of_FN	R_KNOWN_DET_NOT_REPRESENTED_fraction_of_FN	R_KNOWN_DET_REPRESENTED_fraction_of_FN	R_KNOWN_MUT_NOT_REPRESENTED_fraction_of_FN	R_KNOWN_MUT_REPRESENTED_fraction_of_FN	R_NO_ESTABLISHED_DET_fraction_of_FN	R_UNRESOLVED_fraction_of_FN
+common	amikacin	lineage	stable	3215	47	110	17	93	0	0	6	0	0	11	0	19	74	0	0	0	0.352941	0	0	0.647059	0
+common	amikacin	random	stable	3215	47	122	16	106	0	0	7	0	0	9	0	18	87	1	0	0	0.4375	0	0	0.5625	0
+common	amikacin	random_cluster	stable	3215	47	75	21	54	0	0	10	0	0	11	0	16	38	0	0	0	0.47619	0	0	0.52381	0
+common	amoxicillin-clavulanic acid	country	intermediate	6283	824	274	153	121	0	0	22	75	0	49	7	31	83	7	0	0	0.143791	0.490196	0	0.320261	0.045752
+common	amoxicillin-clavulanic acid	geography	intermediate	1391	510	57	37	20	0	0	6	6	0	24	1	11	8	1	0	0	0.162162	0.162162	0	0.648649	0.027027
+common	amoxicillin-clavulanic acid	lineage	intermediate	6356	870	258	191	67	0	0	54	73	0	56	8	26	38	3	0	0	0.282723	0.382199	0	0.293194	0.041885
+common	amoxicillin-clavulanic acid	project	intermediate	6239	814	291	145	146	0	0	18	71	0	49	7	29	104	13	0	0	0.124138	0.489655	0	0.337931	0.048276
+common	amoxicillin-clavulanic acid	random	intermediate	6356	870	173	81	92	0	0	11	16	0	46	8	31	55	6	0	0	0.135802	0.197531	0	0.567901	0.098765
+common	amoxicillin-clavulanic acid	random_cluster	intermediate	6356	870	190	91	99	0	0	16	21	0	47	7	34	58	7	0	0	0.175824	0.230769	0	0.516484	0.076923
+common	amoxicillin-clavulanic acid	temporal	intermediate	413	113	70	17	53	0	0	4	0	0	10	3	13	36	4	0	0	0.235294	0	0	0.588235	0.176471
+common	ampicillin	country	intermediate	7119	3130	564	418	146	0	0	183	51	0	184	0	50	89	7	0	0	0.437799	0.12201	0	0.440191	0
+common	ampicillin	geography	intermediate	1768	1164	141	125	16	0	0	72	36	0	17	0	11	4	1	0	0	0.576	0.288	0	0.136	0
+common	ampicillin	lineage	intermediate	7566	3572	283	190	93	0	0	68	56	0	66	0	53	35	5	0	0	0.357895	0.294737	0	0.347368	0
+common	ampicillin	project	intermediate	6991	3048	426	276	150	0	0	68	37	0	171	0	49	94	7	0	0	0.246377	0.134058	0	0.619565	0
+common	ampicillin	random	intermediate	7566	3572	209	142	67	0	0	44	33	0	65	0	49	12	6	0	0	0.309859	0.232394	0	0.457746	0
+common	ampicillin	random_cluster	intermediate	7566	3572	251	180	71	0	0	68	45	0	67	0	51	15	5	0	0	0.377778	0.25	0	0.372222	0
+common	ampicillin	temporal	intermediate	1105	957	83	70	13	0	0	37	31	0	2	0	13	0	0	0	0	0.528571	0.442857	0	0.028571	0
+common	aztreonam	lineage	stable	2262	259	84	24	60	0	0	9	0	0	15	0	37	21	2	0	0	0.375	0	0	0.625	0
+common	aztreonam	random	stable	2262	259	76	21	55	0	0	5	0	0	16	0	41	13	1	0	0	0.238095	0	0	0.761905	0
+common	aztreonam	random_cluster	stable	2262	259	83	25	58	0	0	10	0	0	15	0	39	17	2	0	0	0.4	0	0	0.6	0
+common	cefazolin	country	high_loss	2519	869	612	466	146	24	0	374	26	0	40	2	50	93	3	0.051502	0	0.802575	0.055794	0	0.085837	0.004292
+common	cefazolin	geography	high_loss	161	98	14	4	10	0	0	2	1	0	1	0	8	2	0	0	0	0.5	0.25	0	0.25	0
+common	cefazolin	lineage	high_loss	2520	870	226	166	60	9	0	91	28	0	36	2	49	11	0	0.054217	0	0.548193	0.168675	0	0.216867	0.012048
+common	cefazolin	project	high_loss	2408	765	683	139	544	23	0	69	21	0	24	2	211	319	14	0.165468	0	0.496403	0.151079	0	0.172662	0.014388
+common	cefazolin	random	high_loss	2520	870	207	118	89	0	0	66	13	0	38	1	61	23	5	0	0	0.559322	0.110169	0	0.322034	0.008475
+common	cefazolin	random_cluster	high_loss	2520	870	211	123	88	2	0	73	13	0	34	1	61	25	2	0.01626	0	0.593496	0.105691	0	0.276423	0.00813
+common	cefepime	country	high_loss	3300	570	776	136	640	0	0	114	0	0	13	9	226	412	2	0	0	0.838235	0	0	0.095588	0.066176
+common	cefepime	geography	high_loss	619	397	158	136	22	0	0	116	0	0	14	6	19	3	0	0	0	0.852941	0	0	0.102941	0.044118
+common	cefepime	lineage	high_loss	3532	656	377	99	278	0	0	83	0	0	13	3	244	28	6	0	0	0.838384	0	0	0.131313	0.030303
+common	cefepime	project	high_loss	3357	626	495	145	350	0	0	120	0	0	16	9	302	48	0	0	0	0.827586	0	0	0.110345	0.062069
+common	cefepime	random	high_loss	3532	656	309	70	239	0	0	53	0	0	15	2	210	25	4	0	0	0.757143	0	0	0.214286	0.028571
+common	cefepime	random_cluster	high_loss	3532	656	337	91	246	0	0	72	0	0	15	4	218	23	5	0	0	0.791209	0	0	0.164835	0.043956
+common	cefepime	temporal	high_loss	1077	467	344	112	232	0	0	96	0	0	8	8	225	7	0	0	0	0.857143	0	0	0.071429	0.071429
+common	cefoxitin	country	high_loss	4931	855	252	142	110	0	0	16	56	0	64	6	17	90	3	0	0	0.112676	0.394366	0	0.450704	0.042254
+common	cefoxitin	geography	high_loss	1821	632	138	103	35	0	0	8	54	0	35	6	10	23	2	0	0	0.07767	0.524272	0	0.339806	0.058252
+common	cefoxitin	lineage	high_loss	5027	875	200	118	82	0	0	13	31	0	65	9	17	62	3	0	0	0.110169	0.262712	0	0.550847	0.076271
+common	cefoxitin	project	high_loss	4811	725	176	107	69	0	0	10	35	0	55	7	15	51	3	0	0	0.093458	0.327103	0	0.514019	0.065421
+common	cefoxitin	random	high_loss	5027	875	179	77	102	0	0	8	17	0	50	2	17	80	5	0	0	0.103896	0.220779	0	0.649351	0.025974
+common	cefoxitin	random_cluster	high_loss	5027	875	197	84	113	0	0	11	19	0	50	4	16	92	5	0	0	0.130952	0.22619	0	0.595238	0.047619
+common	cefoxitin	temporal	high_loss	751	156	147	70	77	0	0	5	26	0	33	6	3	70	4	0	0	0.071429	0.371429	0	0.471429	0.085714
+common	ceftazidime	country	high_loss	3145	820	375	204	171	1	0	146	41	0	5	11	118	49	4	0.004902	0	0.715686	0.20098	0	0.02451	0.053922
+common	ceftazidime	geography	high_loss	733	596	230	216	14	0	0	164	40	0	5	7	8	5	1	0	0	0.759259	0.185185	0	0.023148	0.032407
+common	ceftazidime	lineage	high_loss	3245	893	242	71	171	0	0	57	6	0	5	3	140	30	1	0	0	0.802817	0.084507	0	0.070423	0.042254
+common	ceftazidime	project	high_loss	2862	541	222	39	183	0	0	29	2	0	5	3	165	16	2	0	0	0.74359	0.051282	0	0.128205	0.076923
+common	ceftazidime	random	high_loss	3245	893	205	56	149	0	0	42	6	0	5	3	135	14	0	0	0	0.75	0.107143	0	0.089286	0.053571
+common	ceftazidime	random_cluster	high_loss	3245	893	211	70	141	0	0	56	6	0	5	3	128	13	0	0	0	0.8	0.085714	0	0.071429	0.042857
+common	ceftazidime	temporal	high_loss	783	552	266	127	139	0	0	75	40	0	2	10	138	1	0	0	0	0.590551	0.314961	0	0.015748	0.07874
+common	ceftiofur	lineage	stable	1300	515	48	26	22	0	0	9	2	0	14	1	17	4	1	0	0	0.346154	0.076923	0	0.538462	0.038462
+common	ceftiofur	random	stable	1300	515	43	21	22	0	0	4	2	0	14	1	18	3	1	0	0	0.190476	0.095238	0	0.666667	0.047619
+common	ceftiofur	random_cluster	stable	1300	515	47	26	21	0	0	10	2	0	13	1	17	3	1	0	0	0.384615	0.076923	0	0.5	0.038462
+common	ceftriaxone	country	stable	6807	1372	222	130	92	0	0	99	7	0	21	3	38	52	2	0	0	0.761538	0.053846	0	0.161538	0.023077
+common	ceftriaxone	geography	stable	1427	645	33	20	13	0	0	2	2	0	15	1	11	1	1	0	0	0.1	0.1	0	0.75	0.05
+common	ceftriaxone	lineage	stable	6917	1475	102	53	49	0	0	14	8	0	27	4	40	7	2	0	0	0.264151	0.150943	0	0.509434	0.075472
+common	ceftriaxone	project	stable	6677	1296	373	61	312	0	0	27	6	0	24	4	43	256	13	0	0	0.442623	0.098361	0	0.393443	0.065574
+common	ceftriaxone	random	stable	6917	1475	97	53	44	0	0	13	8	0	28	4	40	2	2	0	0	0.245283	0.150943	0	0.528302	0.075472
+common	ceftriaxone	random_cluster	stable	6917	1475	96	52	44	0	0	13	8	0	27	4	40	2	2	0	0	0.25	0.153846	0	0.519231	0.076923
+common	ceftriaxone	temporal	stable	438	384	33	14	19	0	0	6	1	0	4	3	18	1	0	0	0	0.428571	0.071429	0	0.285714	0.214286
+common	chloramphenicol	country	stable	4361	340	15	7	8	0	0	4	0	0	3	0	8	0	0	0	0	0.571429	0	0	0.428571	0
+common	chloramphenicol	geography	stable	1612	192	13	5	8	0	0	0	0	0	5	0	7	1	0	0	0	0	0	0	1	0
+common	chloramphenicol	lineage	stable	4386	353	23	11	12	0	0	5	0	0	6	0	11	1	0	0	0	0.454545	0	0	0.545455	0
+common	chloramphenicol	project	stable	4260	298	14	7	7	0	0	4	0	0	3	0	7	0	0	0	0	0.571429	0	0	0.428571	0
+common	chloramphenicol	random	stable	4386	353	21	9	12	0	0	3	0	0	6	0	10	2	0	0	0	0.333333	0	0	0.666667	0
+common	chloramphenicol	random_cluster	stable	4386	353	20	8	12	0	0	2	0	0	6	0	11	1	0	0	0	0.25	0	0	0.75	0
+common	chloramphenicol	temporal	stable	353	96	7	1	6	0	0	1	0	0	0	0	5	1	0	0	0	1	0	0	0	0
+common	ciprofloxacin	country	high_loss	6173	1122	697	215	482	5	3	70	106	1	24	6	152	273	57	0.023256	0.013953	0.325581	0.493023	0.004651	0.111628	0.027907
+common	ciprofloxacin	geography	high_loss	1784	329	162	131	31	3	3	56	49	1	15	4	8	21	2	0.022901	0.022901	0.427481	0.374046	0.007634	0.114504	0.030534
+common	ciprofloxacin	lineage	high_loss	7529	1275	319	152	167	5	0	24	94	2	25	2	83	74	10	0.032895	0	0.157895	0.618421	0.013158	0.164474	0.013158
+common	ciprofloxacin	project	high_loss	6106	1205	349	192	157	4	3	69	84	1	26	5	87	61	9	0.020833	0.015625	0.359375	0.4375	0.005208	0.135417	0.026042
+common	ciprofloxacin	random	high_loss	7529	1275	244	113	131	5	0	23	54	2	28	1	71	52	8	0.044248	0	0.20354	0.477876	0.017699	0.247788	0.00885
+common	ciprofloxacin	random_cluster	high_loss	7529	1275	283	120	163	4	0	22	63	2	26	3	83	69	11	0.033333	0	0.183333	0.525	0.016667	0.216667	0.025
+common	ciprofloxacin	temporal	high_loss	1064	603	198	158	40	7	3	77	58	2	6	5	22	17	1	0.044304	0.018987	0.487342	0.367089	0.012658	0.037975	0.031646
+common	ertapenem	lineage	intermediate	3465	65	337	36	301	0	0	7	0	0	29	0	0	297	4	0	0	0.194444	0	0	0.805556	0
+common	ertapenem	random	intermediate	3465	65	233	32	201	0	0	3	0	0	29	0	0	196	5	0	0	0.09375	0	0	0.90625	0
+common	ertapenem	random_cluster	intermediate	3465	65	244	34	210	0	0	6	0	0	28	0	0	205	5	0	0	0.176471	0	0	0.823529	0
+common	gentamicin	country	stable	7103	1105	220	92	128	0	0	36	0	0	56	0	24	100	4	0	0	0.391304	0	0	0.608696	0
+common	gentamicin	geography	stable	1793	508	78	67	11	0	0	24	0	0	43	0	9	1	1	0	0	0.358209	0	0	0.641791	0
+common	gentamicin	lineage	stable	7216	1176	130	77	53	0	0	23	0	0	54	0	26	24	3	0	0	0.298701	0	0	0.701299	0
+common	gentamicin	project	stable	6954	1089	150	81	69	0	0	34	0	0	47	0	24	40	5	0	0	0.419753	0	0	0.580247	0
+common	gentamicin	random	stable	7216	1176	128	68	60	0	0	15	0	0	53	0	26	29	5	0	0	0.220588	0	0	0.779412	0
+common	gentamicin	random_cluster	stable	7216	1176	132	70	62	0	0	17	0	0	53	0	25	34	3	0	0	0.242857	0	0	0.757143	0
+common	gentamicin	temporal	stable	813	162	45	24	21	0	0	13	0	0	11	0	4	16	1	0	0	0.541667	0	0	0.458333	0
+common	kanamycin	lineage	stable	1183	161	16	13	3	0	0	6	0	0	7	0	1	1	1	0	0	0.461538	0	0	0.538462	0
+common	kanamycin	random	stable	1183	161	21	11	10	0	0	4	0	0	7	0	1	8	1	0	0	0.363636	0	0	0.636364	0
+common	kanamycin	random_cluster	stable	1183	161	22	13	9	0	0	6	0	0	7	0	1	7	1	0	0	0.461538	0	0	0.538462	0
+common	levofloxacin	country	stable	86	10	7	2	5	0	0	0	0	0	2	0	1	4	0	0	0	0	0	0	1	0
+common	levofloxacin	lineage	stable	2941	840	122	45	77	7	0	8	20	0	10	0	42	28	7	0.155556	0	0.177778	0.444444	0	0.222222	0
+common	levofloxacin	project	stable	2920	823	93	31	62	7	0	8	6	0	10	0	31	26	5	0.225806	0	0.258065	0.193548	0	0.322581	0
+common	levofloxacin	random	stable	2941	840	82	31	51	8	0	8	5	0	10	0	30	17	4	0.258065	0	0.258065	0.16129	0	0.322581	0
+common	levofloxacin	random_cluster	stable	2941	840	86	34	52	7	0	8	9	0	10	0	36	12	4	0.205882	0	0.235294	0.264706	0	0.294118	0
+common	levofloxacin	temporal	stable	546	315	27	11	16	4	0	7	0	0	0	0	11	4	1	0.363636	0	0.636364	0	0	0	0
+common	meropenem	lineage	stable	6139	57	24	12	12	0	0	4	0	0	8	0	4	6	2	0	0	0.333333	0	0	0.666667	0
+common	meropenem	random	stable	6139	57	53	10	43	0	0	4	0	0	6	0	4	37	2	0	0	0.4	0	0	0.6	0
+common	meropenem	random_cluster	stable	6139	57	41	12	29	0	0	4	0	0	8	0	3	25	1	0	0	0.333333	0	0	0.666667	0
+common	nalidixic acid	country	high_loss	4509	277	362	175	187	0	0	0	137	0	37	1	2	177	8	0	0	0	0.782857	0	0.211429	0.005714
+common	nalidixic acid	geography	high_loss	1705	222	246	157	89	0	0	0	115	2	39	1	3	86	0	0	0	0	0.732484	0.012739	0.248408	0.006369
+common	nalidixic acid	lineage	high_loss	4522	289	471	152	319	0	0	0	126	0	25	1	5	307	7	0	0	0	0.828947	0	0.164474	0.006579
+common	nalidixic acid	project	high_loss	4252	266	382	170	212	0	0	0	133	0	36	1	2	205	5	0	0	0	0.782353	0	0.211765	0.005882
+common	nalidixic acid	random	high_loss	4522	289	377	84	293	0	0	0	59	0	24	1	10	274	9	0	0	0	0.702381	0	0.285714	0.011905
+common	nalidixic acid	random_cluster	high_loss	4522	289	345	107	238	0	0	0	81	0	25	1	6	225	7	0	0	0	0.757009	0	0.233645	0.009346
+common	nalidixic acid	temporal	high_loss	343	99	81	52	29	0	0	0	36	0	15	1	0	29	0	0	0	0	0.692308	0	0.288462	0.019231
+common	piperacillin-tazobactam	lineage	high_loss	2817	107	315	64	251	0	0	32	0	0	29	3	96	139	16	0	0	0.5	0	0	0.453125	0.046875
+common	piperacillin-tazobactam	random	high_loss	2817	107	339	42	297	0	0	18	0	0	22	2	115	170	12	0	0	0.428571	0	0	0.52381	0.047619
+common	piperacillin-tazobactam	random_cluster	high_loss	2817	107	394	45	349	0	0	20	0	0	22	3	123	220	6	0	0	0.444444	0	0	0.488889	0.066667
+common	streptomycin	country	intermediate	4092	1471	281	98	183	0	0	65	0	0	33	0	183	0	0	0	0	0.663265	0	0	0.336735	0
+common	streptomycin	geography	intermediate	1265	652	155	31	124	0	0	19	0	0	12	0	124	0	0	0	0	0.612903	0	0	0.387097	0
+common	streptomycin	lineage	intermediate	4096	1474	241	77	164	0	0	42	0	0	35	0	163	1	0	0	0	0.545455	0	0	0.454545	0
+common	streptomycin	project	intermediate	3983	1422	272	110	162	0	0	79	0	0	31	0	162	0	0	0	0	0.718182	0	0	0.281818	0
+common	streptomycin	random	intermediate	4096	1474	230	63	167	0	0	28	0	0	35	0	166	1	0	0	0	0.444444	0	0	0.555556	0
+common	streptomycin	random_cluster	intermediate	4096	1474	234	67	167	0	0	32	0	0	35	0	165	2	0	0	0	0.477612	0	0	0.522388	0
+common	sulfisoxazole	country	stable	4035	1445	108	45	63	0	0	12	1	0	32	0	14	47	2	0	0	0.266667	0.022222	0	0.711111	0
+common	sulfisoxazole	geography	stable	1261	764	39	30	9	0	0	0	1	0	29	0	8	0	1	0	0	0	0.033333	0	0.966667	0
+common	sulfisoxazole	lineage	stable	4035	1445	60	37	23	0	0	4	1	0	32	0	16	5	2	0	0	0.108108	0.027027	0	0.864865	0
+common	sulfisoxazole	project	stable	3907	1370	100	43	57	0	0	10	1	0	32	0	13	42	2	0	0	0.232558	0.023256	0	0.744186	0
+common	sulfisoxazole	random	stable	4035	1445	52	33	19	0	0	3	1	0	29	0	15	2	2	0	0	0.090909	0.030303	0	0.878788	0
+common	sulfisoxazole	random_cluster	stable	4035	1445	55	36	19	0	0	4	1	0	31	0	16	1	2	0	0	0.111111	0.027778	0	0.861111	0
+common	tetracycline	country	stable	6924	2897	112	90	22	0	2	43	0	0	45	0	20	0	2	0	0.022222	0.477778	0	0	0.5	0
+common	tetracycline	geography	stable	1620	820	27	16	11	0	0	1	0	0	15	0	9	0	2	0	0	0.0625	0	0	0.9375	0
+common	tetracycline	lineage	stable	6940	2909	113	84	29	0	2	37	0	0	45	0	25	2	2	0	0.02381	0.440476	0	0	0.535714	0
+common	tetracycline	project	stable	6744	2774	111	87	24	0	2	40	0	0	45	0	21	0	3	0	0.022989	0.45977	0	0	0.517241	0
+common	tetracycline	random	stable	6940	2909	91	62	29	0	2	15	0	0	45	0	25	2	2	0	0.032258	0.241935	0	0	0.725806	0
+common	tetracycline	random_cluster	stable	6940	2909	88	62	26	0	2	14	0	0	46	0	23	1	2	0	0.032258	0.225806	0	0	0.741935	0
+common	tetracycline	temporal	stable	676	390	11	6	5	0	0	0	0	0	6	0	5	0	0	0	0	0	0	0	1	0
+common	tobramycin	lineage	stable	2850	261	57	23	34	0	0	12	0	0	11	0	30	4	0	0	0	0.521739	0	0	0.478261	0
+common	tobramycin	random	stable	2850	261	51	16	35	0	0	5	0	0	11	0	31	4	0	0	0	0.3125	0	0	0.6875	0
+common	tobramycin	random_cluster	stable	2850	261	50	16	34	0	0	5	0	0	11	0	32	2	0	0	0	0.3125	0	0	0.6875	0
+common	trimethoprim-sulfamethoxazole	country	stable	7037	1279	349	124	225	0	0	74	0	0	24	26	39	5	181	0	0	0.596774	0	0	0.193548	0.209677
+common	trimethoprim-sulfamethoxazole	geography	stable	1430	408	92	62	30	0	0	35	0	0	8	19	7	2	21	0	0	0.564516	0	0	0.129032	0.306452
+common	trimethoprim-sulfamethoxazole	lineage	stable	7146	1366	268	119	149	0	0	58	0	0	28	33	39	4	106	0	0	0.487395	0	0	0.235294	0.277311
+common	trimethoprim-sulfamethoxazole	project	stable	7008	1291	262	110	152	0	0	54	0	0	26	30	36	4	112	0	0	0.490909	0	0	0.236364	0.272727
+common	trimethoprim-sulfamethoxazole	random	stable	7146	1366	226	72	154	0	0	22	0	0	28	22	41	2	111	0	0	0.305556	0	0	0.388889	0.305556
+common	trimethoprim-sulfamethoxazole	random_cluster	stable	7146	1366	225	84	141	0	0	31	0	0	28	25	38	2	101	0	0	0.369048	0	0	0.333333	0.297619
+common	trimethoprim-sulfamethoxazole	temporal	stable	774	367	57	14	43	0	0	5	0	0	5	4	12	1	30	0	0	0.357143	0	0	0.357143	0.285714
+maximal	amikacin	lineage	stable	3339	59	107	19	88	0	0	8	0	0	11	0	31	56	1	0	0	0.421053	0	0	0.578947	0
+maximal	amikacin	random	stable	3349	59	141	15	126	0	0	5	0	0	10	0	62	64	0	0	0	0.333333	0	0	0.666667	0
+maximal	amikacin	random_cluster	stable	3349	59	109	21	88	0	0	10	0	0	11	0	29	58	1	0	0	0.47619	0	0	0.52381	0
+maximal	amoxicillin-clavulanic acid	country	intermediate	6322	830	266	155	111	0	0	21	76	0	51	7	31	73	7	0	0	0.135484	0.490323	0	0.329032	0.045161
+maximal	amoxicillin-clavulanic acid	geography	intermediate	1505	519	61	41	20	0	0	8	6	0	25	2	11	8	1	0	0	0.195122	0.146341	0	0.609756	0.04878
+maximal	amoxicillin-clavulanic acid	lineage	intermediate	6519	920	284	185	99	0	0	42	75	0	58	10	34	59	6	0	0	0.227027	0.405405	0	0.313514	0.054054
+maximal	amoxicillin-clavulanic acid	project	intermediate	6280	820	299	136	163	0	0	14	70	0	47	5	30	121	12	0	0	0.102941	0.514706	0	0.345588	0.036765
+maximal	amoxicillin-clavulanic acid	random	intermediate	6570	925	195	90	105	0	0	17	18	0	47	8	37	62	6	0	0	0.188889	0.2	0	0.522222	0.088889
+maximal	amoxicillin-clavulanic acid	random_cluster	intermediate	6570	925	220	107	113	0	0	20	24	0	53	10	37	69	7	0	0	0.186916	0.224299	0	0.495327	0.093458
+maximal	amoxicillin-clavulanic acid	temporal	intermediate	441	126	57	23	34	0	0	8	0	0	12	3	13	17	4	0	0	0.347826	0	0	0.521739	0.130435
+maximal	ampicillin	country	intermediate	7266	3210	560	436	124	0	0	195	52	0	189	0	52	65	7	0	0	0.447248	0.119266	0	0.433486	0
+maximal	ampicillin	geography	intermediate	1883	1224	144	127	17	0	0	73	35	0	19	0	11	5	1	0	0	0.574803	0.275591	0	0.149606	0
+maximal	ampicillin	lineage	intermediate	7717	3681	281	193	88	0	0	58	67	0	67	1	56	25	7	0	0	0.300518	0.34715	0	0.34715	0.005181
+maximal	ampicillin	project	intermediate	7139	3127	413	281	132	0	0	63	38	0	180	0	50	75	7	0	0	0.224199	0.135231	0	0.640569	0
+maximal	ampicillin	random	intermediate	7787	3720	226	154	72	0	0	47	37	0	69	1	50	15	7	0	0	0.305195	0.24026	0	0.448052	0.006494
+maximal	ampicillin	random_cluster	intermediate	7787	3720	248	177	71	0	0	56	49	0	71	1	54	12	5	0	0	0.316384	0.276836	0	0.40113	0.00565
+maximal	ampicillin	temporal	intermediate	1138	986	89	75	14	0	0	42	31	0	2	0	13	1	0	0	0	0.56	0.413333	0	0.026667	0
+maximal	aztreonam	lineage	stable	2320	307	96	25	71	0	0	11	0	0	14	0	42	26	3	0	0	0.44	0	0	0.56	0
+maximal	aztreonam	random	stable	2322	308	93	26	67	0	0	10	0	0	16	0	42	22	3	0	0	0.384615	0	0	0.615385	0
+maximal	aztreonam	random_cluster	stable	2322	308	94	27	67	0	0	13	0	0	14	0	42	22	3	0	0	0.481481	0	0	0.518519	0
+maximal	cefazolin	country	high_loss	2526	875	661	469	192	24	0	377	27	0	39	2	48	141	3	0.051173	0	0.803838	0.057569	0	0.083156	0.004264
+maximal	cefazolin	geography	high_loss	162	99	12	3	9	0	0	1	1	0	1	0	7	2	0	0	0	0.333333	0.333333	0	0.333333	0
+maximal	cefazolin	lineage	high_loss	2609	955	256	179	77	21	0	89	27	0	39	3	54	22	1	0.117318	0	0.497207	0.150838	0	0.217877	0.01676
+maximal	cefazolin	project	high_loss	2413	769	439	147	292	23	0	72	23	0	27	2	153	128	11	0.156463	0	0.489796	0.156463	0	0.183673	0.013605
+maximal	cefazolin	random	high_loss	2617	962	195	112	83	1	0	61	13	0	35	2	58	22	3	0.008929	0	0.544643	0.116071	0	0.3125	0.017857
+maximal	cefazolin	random_cluster	high_loss	2617	962	214	126	88	2	0	73	16	0	33	2	62	22	4	0.015873	0	0.579365	0.126984	0	0.261905	0.015873
+maximal	cefepime	country	high_loss	3322	573	746	145	601	0	0	124	0	0	12	9	236	362	3	0	0	0.855172	0	0	0.082759	0.062069
+maximal	cefepime	geography	high_loss	621	398	129	94	35	0	0	75	0	0	13	6	33	2	0	0	0	0.797872	0	0	0.138298	0.06383
+maximal	cefepime	lineage	high_loss	3624	718	349	103	246	0	0	87	0	0	12	4	209	34	3	0	0	0.84466	0	0	0.116505	0.038835
+maximal	cefepime	project	high_loss	3381	630	519	153	366	0	0	129	0	0	15	9	308	56	2	0	0	0.843137	0	0	0.098039	0.058824
+maximal	cefepime	random	high_loss	3647	721	335	85	250	0	0	72	0	0	12	1	217	28	5	0	0	0.847059	0	0	0.141176	0.011765
+maximal	cefepime	random_cluster	high_loss	3647	721	387	88	299	0	0	73	0	0	12	3	252	42	5	0	0	0.829545	0	0	0.136364	0.034091
+maximal	cefepime	temporal	high_loss	1126	490	347	89	258	0	0	73	0	0	8	8	248	10	0	0	0	0.820225	0	0	0.089888	0.089888
+maximal	cefoxitin	country	high_loss	5035	926	420	175	245	0	0	12	77	0	77	9	17	225	3	0	0	0.068571	0.44	0	0.44	0.051429
+maximal	cefoxitin	geography	high_loss	1913	701	187	151	36	0	0	11	80	0	51	9	10	23	3	0	0	0.072848	0.529801	0	0.337748	0.059603
+maximal	cefoxitin	lineage	high_loss	5194	979	288	134	154	0	0	17	38	0	70	9	18	128	8	0	0	0.126866	0.283582	0	0.522388	0.067164
+maximal	cefoxitin	project	high_loss	4853	731	244	75	169	0	0	9	17	0	46	3	18	147	4	0	0	0.12	0.226667	0	0.613333	0.04
+maximal	cefoxitin	random	high_loss	5234	986	229	93	136	0	0	12	15	0	62	4	21	104	11	0	0	0.129032	0.16129	0	0.666667	0.043011
+maximal	cefoxitin	random_cluster	high_loss	5234	986	255	88	167	0	0	11	16	0	57	4	20	139	8	0	0	0.125	0.181818	0	0.647727	0.045455
+maximal	cefoxitin	temporal	high_loss	778	163	135	81	54	0	0	11	26	0	38	6	3	48	3	0	0	0.135802	0.320988	0	0.469136	0.074074
+maximal	ceftazidime	country	high_loss	3193	835	317	181	136	0	0	123	42	0	6	10	119	15	2	0	0	0.679558	0.232044	0	0.033149	0.055249
+maximal	ceftazidime	geography	high_loss	776	611	221	207	14	0	0	153	41	0	6	7	8	5	1	0	0	0.73913	0.198068	0	0.028986	0.033816
+maximal	ceftazidime	lineage	high_loss	3380	977	235	89	146	0	0	70	10	0	6	3	131	14	1	0	0	0.786517	0.11236	0	0.067416	0.033708
+maximal	ceftazidime	project	high_loss	2913	558	257	75	182	0	0	62	4	0	6	3	169	12	1	0	0	0.826667	0.053333	0	0.08	0.04
+maximal	ceftazidime	random	high_loss	3389	979	214	67	147	0	0	53	6	0	7	1	134	13	0	0	0	0.791045	0.089552	0	0.104478	0.014925
+maximal	ceftazidime	random_cluster	high_loss	3389	979	248	93	155	0	0	75	6	0	8	4	131	24	0	0	0	0.806452	0.064516	0	0.086022	0.043011
+maximal	ceftazidime	temporal	high_loss	807	565	283	125	158	0	0	74	40	0	2	9	156	2	0	0	0	0.592	0.32	0	0.016	0.072
+maximal	ceftiofur	lineage	stable	1303	516	44	25	19	0	0	8	2	0	14	1	18	0	1	0	0	0.32	0.08	0	0.56	0.04
+maximal	ceftiofur	random	stable	1327	520	44	23	21	0	0	6	2	0	14	1	18	2	1	0	0	0.26087	0.086957	0	0.608696	0.043478
+maximal	ceftiofur	random_cluster	stable	1327	520	43	23	20	0	0	6	2	0	14	1	17	2	1	0	0	0.26087	0.086957	0	0.608696	0.043478
+maximal	ceftriaxone	country	stable	6850	1385	234	134	100	0	0	103	7	0	21	3	37	60	3	0	0	0.768657	0.052239	0	0.156716	0.022388
+maximal	ceftriaxone	geography	stable	1454	651	34	21	13	0	0	3	2	0	15	1	11	1	1	0	0	0.142857	0.095238	0	0.714286	0.047619
+maximal	ceftriaxone	lineage	stable	6981	1529	104	58	46	0	0	18	8	0	27	5	41	3	2	0	0	0.310345	0.137931	0	0.465517	0.086207
+maximal	ceftriaxone	project	stable	6721	1308	344	53	291	0	0	19	6	0	24	4	44	240	7	0	0	0.358491	0.113208	0	0.45283	0.075472
+maximal	ceftriaxone	random	stable	7024	1542	103	53	50	0	0	15	8	0	26	4	40	8	2	0	0	0.283019	0.150943	0	0.490566	0.075472
+maximal	ceftriaxone	random_cluster	stable	7024	1542	105	57	48	0	0	16	8	0	28	5	41	5	2	0	0	0.280702	0.140351	0	0.491228	0.087719
+maximal	ceftriaxone	temporal	stable	456	401	33	15	18	0	0	7	1	0	4	3	18	0	0	0	0	0.466667	0.066667	0	0.266667	0.2
+maximal	chloramphenicol	country	stable	4394	340	15	6	9	0	0	3	0	0	3	0	8	1	0	0	0	0.5	0	0	0.5	0
+maximal	chloramphenicol	geography	stable	1636	192	14	6	8	0	0	1	0	0	5	0	7	1	0	0	0	0.166667	0	0	0.833333	0
+maximal	chloramphenicol	lineage	stable	4425	369	25	10	15	0	0	4	0	0	6	0	13	2	0	0	0	0.4	0	0	0.6	0
+maximal	chloramphenicol	project	stable	4293	298	14	6	8	0	0	3	0	0	3	0	7	1	0	0	0	0.5	0	0	0.5	0
+maximal	chloramphenicol	random	stable	4459	369	22	9	13	0	0	3	0	0	6	0	12	1	0	0	0	0.333333	0	0	0.666667	0
+maximal	chloramphenicol	random_cluster	stable	4459	369	23	11	12	0	0	5	0	0	6	0	12	0	0	0	0	0.454545	0	0	0.545455	0
+maximal	chloramphenicol	temporal	stable	378	107	9	3	6	0	0	3	0	0	0	0	6	0	0	0	0	1	0	0	0	0
+maximal	ciprofloxacin	country	high_loss	6206	1134	725	223	502	6	1	71	111	1	27	6	153	276	73	0.026906	0.004484	0.318386	0.497758	0.004484	0.121076	0.026906
+maximal	ciprofloxacin	geography	high_loss	1810	330	169	141	28	5	3	57	56	1	15	4	3	24	1	0.035461	0.021277	0.404255	0.397163	0.007092	0.106383	0.028369
+maximal	ciprofloxacin	lineage	high_loss	7650	1367	348	173	175	8	0	22	108	2	31	2	95	71	9	0.046243	0	0.127168	0.624277	0.011561	0.179191	0.011561
+maximal	ciprofloxacin	project	high_loss	6141	1217	367	198	169	8	2	72	81	2	30	3	94	57	18	0.040404	0.010101	0.363636	0.409091	0.010101	0.151515	0.015152
+maximal	ciprofloxacin	random	high_loss	7707	1378	245	106	139	3	0	20	52	2	28	1	76	56	7	0.028302	0	0.188679	0.490566	0.018868	0.264151	0.009434
+maximal	ciprofloxacin	random_cluster	high_loss	7707	1378	287	131	156	3	0	27	70	2	27	2	86	63	7	0.022901	0	0.206107	0.534351	0.015267	0.206107	0.015267
+maximal	ciprofloxacin	temporal	high_loss	1116	639	212	171	41	10	3	84	62	2	7	3	24	15	2	0.05848	0.017544	0.491228	0.362573	0.011696	0.040936	0.017544
+maximal	ertapenem	lineage	intermediate	3519	90	376	37	339	0	0	7	0	0	30	0	0	328	11	0	0	0.189189	0	0	0.810811	0
+maximal	ertapenem	random	intermediate	3542	90	344	31	313	0	0	3	0	0	28	0	0	304	9	0	0	0.096774	0	0	0.903226	0
+maximal	ertapenem	random_cluster	intermediate	3542	90	348	38	310	0	0	7	0	0	31	0	0	300	10	0	0	0.184211	0	0	0.815789	0
+maximal	gentamicin	country	stable	7145	1113	216	96	120	0	0	36	0	0	60	0	24	92	4	0	0	0.375	0	0	0.625	0
+maximal	gentamicin	geography	stable	1819	512	88	64	24	0	0	24	0	0	40	0	9	13	2	0	0	0.375	0	0	0.625	0
+maximal	gentamicin	lineage	stable	7342	1219	145	83	62	0	0	22	0	0	61	0	28	30	4	0	0	0.26506	0	0	0.73494	0
+maximal	gentamicin	project	stable	6998	1097	138	84	54	0	0	36	0	0	48	0	24	26	4	0	0	0.428571	0	0	0.571429	0
+maximal	gentamicin	random	stable	7385	1226	142	69	73	0	0	15	0	0	54	0	28	41	4	0	0	0.217391	0	0	0.782609	0
+maximal	gentamicin	random_cluster	stable	7385	1226	146	77	69	0	0	23	0	0	54	0	26	39	4	0	0	0.298701	0	0	0.701299	0
+maximal	gentamicin	temporal	stable	855	173	47	25	22	0	0	14	0	0	11	0	5	16	1	0	0	0.56	0	0	0.44	0
+maximal	kanamycin	lineage	stable	1207	176	19	17	2	0	0	6	0	0	11	0	1	0	1	0	0	0.352941	0	0	0.647059	0
+maximal	kanamycin	random	stable	1233	178	23	16	7	0	0	5	0	0	11	0	1	5	1	0	0	0.3125	0	0	0.6875	0
+maximal	kanamycin	random_cluster	stable	1233	178	16	12	4	0	0	1	0	0	11	0	1	2	1	0	0	0.083333	0	0	0.916667	0
+maximal	levofloxacin	country	stable	2951	842	142	34	108	9	0	8	5	0	12	0	40	55	13	0.264706	0	0.235294	0.147059	0	0.352941	0
+maximal	levofloxacin	geography	stable	99	20	8	3	5	1	0	0	0	0	2	0	2	3	0	0.333333	0	0	0	0	0.666667	0
+maximal	levofloxacin	lineage	stable	3008	892	133	46	87	9	0	6	21	0	10	0	44	35	8	0.195652	0	0.130435	0.456522	0	0.217391	0
+maximal	levofloxacin	project	stable	2941	833	134	35	99	9	0	8	6	0	12	0	40	47	12	0.257143	0	0.228571	0.171429	0	0.342857	0
+maximal	levofloxacin	random	stable	3029	902	81	31	50	9	0	7	3	0	12	0	34	13	3	0.290323	0	0.225806	0.096774	0	0.387097	0
+maximal	levofloxacin	random_cluster	stable	3029	902	88	32	56	8	0	8	5	0	11	0	36	16	4	0.25	0	0.25	0.15625	0	0.34375	0
+maximal	levofloxacin	temporal	stable	582	337	32	15	17	6	0	7	1	0	1	0	12	4	1	0.4	0	0.466667	0.066667	0	0.066667	0
+maximal	meropenem	lineage	stable	6217	78	30	17	13	0	0	6	0	0	11	0	4	8	1	0	0	0.352941	0	0	0.647059	0
+maximal	meropenem	random	stable	6238	78	51	17	34	0	0	8	0	0	9	0	6	25	3	0	0	0.470588	0	0	0.529412	0
+maximal	meropenem	random_cluster	stable	6238	78	57	19	38	0	0	8	0	0	11	0	6	31	1	0	0	0.421053	0	0	0.578947	0
+maximal	nalidixic acid	country	high_loss	4543	277	353	183	170	0	0	0	142	0	40	1	2	159	9	0	0	0	0.775956	0	0.218579	0.005464
+maximal	nalidixic acid	geography	high_loss	1730	222	248	158	90	0	0	0	116	2	39	1	3	87	0	0	0	0	0.734177	0.012658	0.246835	0.006329
+maximal	nalidixic acid	lineage	high_loss	4570	331	445	163	282	0	0	0	141	0	22	0	6	275	1	0	0	0	0.865031	0	0.134969	0
+maximal	nalidixic acid	project	high_loss	4286	266	388	169	219	0	0	0	130	0	38	1	3	208	8	0	0	0	0.769231	0	0.224852	0.005917
+maximal	nalidixic acid	random	high_loss	4605	332	302	101	201	0	0	0	75	0	25	1	10	184	7	0	0	0	0.742574	0	0.247525	0.009901
+maximal	nalidixic acid	random_cluster	high_loss	4605	332	394	118	276	0	0	0	93	0	24	1	7	258	11	0	0	0	0.788136	0	0.20339	0.008475
+maximal	nalidixic acid	temporal	high_loss	364	119	91	62	29	0	0	0	44	0	17	1	0	29	0	0	0	0	0.709677	0	0.274194	0.016129
+maximal	piperacillin-tazobactam	lineage	high_loss	2879	134	297	53	244	0	0	24	0	0	26	3	75	159	10	0	0	0.45283	0	0	0.490566	0.056604
+maximal	piperacillin-tazobactam	random	high_loss	2886	134	332	44	288	0	0	19	0	0	23	2	123	157	8	0	0	0.431818	0	0	0.522727	0.045455
+maximal	piperacillin-tazobactam	random_cluster	high_loss	2886	134	389	42	347	0	0	15	0	0	24	3	141	195	11	0	0	0.357143	0	0	0.571429	0.071429
+maximal	streptomycin	country	intermediate	4126	1483	286	106	180	0	0	73	0	0	33	0	180	0	0	0	0	0.688679	0	0	0.311321	0
+maximal	streptomycin	geography	intermediate	1290	662	160	33	127	0	0	21	0	0	12	0	127	0	0	0	0	0.636364	0	0	0.363636	0
+maximal	streptomycin	lineage	intermediate	4097	1475	235	63	172	0	0	28	0	0	35	0	172	0	0	0	0	0.444444	0	0	0.555556	0
+maximal	streptomycin	project	intermediate	4017	1434	282	107	175	0	0	76	0	0	31	0	174	1	0	0	0	0.71028	0	0	0.28972	0
+maximal	streptomycin	random	intermediate	4131	1487	247	69	178	0	0	34	0	0	35	0	178	0	0	0	0	0.492754	0	0	0.507246	0
+maximal	streptomycin	random_cluster	intermediate	4131	1487	235	72	163	0	0	37	0	0	35	0	163	0	0	0	0	0.513889	0	0	0.486111	0
+maximal	sulfisoxazole	country	stable	4069	1458	105	44	61	0	0	11	1	0	32	0	14	45	2	0	0	0.25	0.022727	0	0.727273	0
+maximal	sulfisoxazole	geography	stable	1286	775	39	30	9	0	0	0	1	0	29	0	8	0	1	0	0	0	0.033333	0	0.966667	0
+maximal	sulfisoxazole	lineage	stable	4035	1445	58	36	22	0	0	3	1	0	32	0	15	5	2	0	0	0.083333	0.027778	0	0.888889	0
+maximal	sulfisoxazole	project	stable	3941	1383	106	43	63	0	0	10	1	0	32	0	13	48	2	0	0	0.232558	0.023256	0	0.744186	0
+maximal	sulfisoxazole	random	stable	4069	1458	57	36	21	0	0	6	1	0	29	0	16	3	2	0	0	0.166667	0.027778	0	0.805556	0
+maximal	sulfisoxazole	random_cluster	stable	4069	1458	56	37	19	0	0	5	1	0	31	0	15	3	1	0	0	0.135135	0.027027	0	0.837838	0
+maximal	tetracycline	country	stable	6966	2917	119	95	24	0	2	47	0	0	46	0	22	0	2	0	0.021053	0.494737	0	0	0.484211	0
+maximal	tetracycline	geography	stable	1645	833	29	17	12	0	0	2	0	0	15	0	10	0	2	0	0	0.117647	0	0	0.882353	0
+maximal	tetracycline	lineage	stable	7046	2992	116	83	33	0	2	33	0	0	48	0	29	2	2	0	0.024096	0.39759	0	0	0.578313	0
+maximal	tetracycline	project	stable	6785	2793	116	90	26	0	2	42	0	0	46	0	24	0	2	0	0.022222	0.466667	0	0	0.511111	0
+maximal	tetracycline	random	stable	7088	3012	100	72	28	0	2	20	0	0	50	0	26	0	2	0	0.027778	0.277778	0	0	0.694444	0
+maximal	tetracycline	random_cluster	stable	7088	3012	110	79	31	0	2	27	0	0	50	0	27	2	2	0	0.025316	0.341772	0	0	0.632911	0
+maximal	tetracycline	temporal	stable	708	416	14	7	7	0	0	1	0	0	6	0	7	0	0	0	0	0.142857	0	0	0.857143	0
+maximal	tobramycin	lineage	stable	2901	289	65	34	31	0	0	21	0	0	13	0	29	2	0	0	0	0.617647	0	0	0.382353	0
+maximal	tobramycin	random	stable	2923	291	50	18	32	0	0	5	0	0	13	0	29	3	0	0	0	0.277778	0	0	0.722222	0
+maximal	tobramycin	random_cluster	stable	2923	291	52	18	34	0	0	5	0	0	13	0	32	2	0	0	0	0.277778	0	0	0.722222	0
+maximal	trimethoprim-sulfamethoxazole	country	stable	7093	1296	323	119	204	0	0	69	0	0	24	26	37	3	164	0	0	0.579832	0	0	0.201681	0.218487
+maximal	trimethoprim-sulfamethoxazole	geography	stable	1457	415	92	63	29	0	0	36	0	0	8	19	7	2	20	0	0	0.571429	0	0	0.126984	0.301587
+maximal	trimethoprim-sulfamethoxazole	lineage	stable	7249	1434	266	133	133	0	0	69	0	0	29	35	41	1	91	0	0	0.518797	0	0	0.218045	0.263158
+maximal	trimethoprim-sulfamethoxazole	project	stable	7090	1319	269	112	157	0	0	54	0	0	25	33	37	5	115	0	0	0.482143	0	0	0.223214	0.294643
+maximal	trimethoprim-sulfamethoxazole	random	stable	7304	1450	230	79	151	0	0	27	0	0	29	23	42	6	103	0	0	0.341772	0	0	0.367089	0.291139
+maximal	trimethoprim-sulfamethoxazole	random_cluster	stable	7304	1450	229	86	143	0	0	31	0	0	29	26	41	3	99	0	0	0.360465	0	0	0.337209	0.302326
+maximal	trimethoprim-sulfamethoxazole	temporal	stable	807	384	61	15	46	0	0	6	0	0	5	4	13	1	32	0	0	0.4	0	0	0.333333	0.266667
+common	ALL	country	ALL	78424	18386	5226	2497	2729	30	5	1258	500	1	632	71	973	1474	282	0.012014	0.002002	0.503805	0.20024	0.0004	0.253104	0.028434
+common	ALL	geography	ALL	20390	7937	1583	1140	443	3	3	505	304	3	277	45	253	157	33	0.002632	0.002632	0.442982	0.266667	0.002632	0.242982	0.039474
+common	ALL	lineage	ALL	107205	21810	4426	1857	2569	21	2	666	445	2	652	69	1183	1203	183	0.011309	0.001077	0.358643	0.239634	0.001077	0.351104	0.037157
+common	ALL	project	ALL	79479	18353	4399	1743	2656	34	5	639	396	1	600	68	1197	1266	193	0.019507	0.002869	0.366609	0.227194	0.000574	0.344234	0.039013
+common	ALL	random	ALL	107205	21810	3768	1301	2467	13	2	404	214	2	619	47	1165	1110	192	0.009992	0.001537	0.31053	0.164489	0.001537	0.475788	0.036126
+common	ALL	random_cluster	ALL	107205	21810	3917	1471	2446	13	2	510	268	2	620	56	1182	1092	172	0.008838	0.00136	0.346703	0.182189	0.00136	0.421482	0.038069
+common	ALL	temporal	ALL	9136	4661	1369	676	693	11	3	326	192	2	102	40	469	183	41	0.016272	0.004438	0.482249	0.284024	0.002959	0.150888	0.059172
+maximal	ALL	country	ALL	82007	19494	5488	2601	2887	39	3	1273	540	1	672	73	1020	1572	295	0.014994	0.001153	0.489427	0.207612	0.000384	0.258362	0.028066
+maximal	ALL	geography	ALL	21086	8164	1635	1159	476	6	3	465	338	3	295	49	267	176	33	0.005177	0.002588	0.401208	0.291631	0.002588	0.25453	0.042278
+maximal	ALL	lineage	ALL	109131	22932	4602	1958	2644	38	2	659	498	2	683	76	1186	1285	173	0.019408	0.001021	0.336568	0.254341	0.001021	0.348825	0.038815
+maximal	ALL	project	ALL	80192	18583	4329	1764	2565	40	4	669	376	2	610	63	1188	1172	205	0.022676	0.002268	0.379252	0.213152	0.001134	0.345805	0.035714
+maximal	ALL	random	ALL	109865	23107	4001	1416	2585	13	2	470	230	2	650	49	1260	1138	187	0.009181	0.001412	0.331921	0.162429	0.001412	0.45904	0.034605
+maximal	ALL	random_cluster	ALL	109865	23107	4353	1579	2774	13	2	552	290	2	658	62	1278	1309	187	0.008233	0.001267	0.349588	0.183661	0.001267	0.416719	0.039265
+maximal	ALL	temporal	ALL	9556	4906	1410	706	704	16	3	330	205	2	113	37	518	143	43	0.022663	0.004249	0.467422	0.290368	0.002833	0.160057	0.052408

@@ -1,0 +1,91 @@
+{
+  "analysis_version": "error_decomposition_v1",
+  "config_version": "1.0.0",
+  "description": "Decomposition of the generalisation_v1 prediction errors by established determinant, k-mer representation of that determinant, mechanism and population novelty, and phenotype and genome quality, with a point-mutation augmentation sensitivity analysis on the frozen splits",
+  "decision_record": "docs/decisions/0008-ecoli-error-decomposition.md",
+  "upstream": {
+    "benchmark_version": "generalisation_v1",
+    "generalisation_config": "benchmark/cohorts/ecoli_research_v1/generalisation_v1.json",
+    "generalisation_config_sha256": "00fa371a4ffd28a1dae06e7cb0b89a12adf7e357ab39eee325ce412fdca5c65f",
+    "benchmark_manifest_sha256": "f0b51c760172065f233602e669d472d3a221a9a12a9eb306d91e77e2ac30f303",
+    "benchmark_manifest_content_sha256": "90a8eb39570e70a91fb33feb0e39a881fc0aa9777e6ab61ed9524aca6913cdc5",
+    "predictions_sha256": "63b1a2c0039f661a9a31002e6c84355c14a4c02c4f31e00b124dc566895c0ce0",
+    "feature_manifest_sha256": "ec85fc5c1916e7894e1732851dccc79b600ea861c4df4531c97c1d6b05b9b15f",
+    "mapping_rules": "benchmark/mappings/ecoli_amrfinder_drug_mapping_v1.tsv",
+    "mapping_rules_sha256": "67f0eb67585fabafad5c00fd53dd6b4839767e4af94d67732c8299034ac6795a",
+    "genome_manifest": "benchmark/cohorts/ecoli_research_v1/genome_manifest.tsv",
+    "genome_manifest_sha256": "e85a45fc1add9f0c6004dd897cd4488baad0eed8d7c1f91c9025b34beaa0f2d6",
+    "amrfinder_caller_version": "4.2.7",
+    "amrfinder_database": "datasets/amrfinderplus-db/2026-08-07.1",
+    "amrfinder_database_version": "2026-08-07.1",
+    "amrfinder_taxgroup": "Escherichia",
+    "amrfinder_database_files_sha256": {
+      "AMRProt-mutation.tsv": "b6f441972d1753a0cc9b1a4d317950eb085e3a52bea8b6d82e0ff53b15280f7b",
+      "AMRProt.fa": "41d5ebf4f807c9590f27de7dd23c9f037afb4d8efd613790c54847fb1fc2896b",
+      "AMR_DNA-Escherichia.tsv": "495c2c35bb396d7538d7562774f5029c69ee1940269435fbc91b8d7fe25f9fae",
+      "fam.tsv": "00323cb11e1a5195c636b9d7d54d925e8274518300f3b6188ec87edc016b4487"
+    }
+  },
+  "catalogue": {
+    "version": "ecoli_amr_mechanisms_v1",
+    "path": "benchmark/mappings/ecoli_amr_mechanisms_v1.tsv",
+    "sha256": "c41ae6fd10e4d09716d040e0cdd0b212cda60d497892b44c19d84764da03eb34",
+    "organism": "Escherichia coli",
+    "source": "every rule of determinant mapping v1 for a study antimicrobial; mechanism class from the rules below; point-mutation loci from the AMRFinderPlus 2026-08-07.1 mutation tables; gene function from AMRFinderPlus fam.tsv family names",
+    "antimicrobials": ["amikacin", "amoxicillin-clavulanic acid", "ampicillin", "aztreonam", "cefazolin", "cefepime", "cefoxitin", "ceftazidime", "ceftiofur", "ceftriaxone", "chloramphenicol", "ciprofloxacin", "ertapenem", "gentamicin", "kanamycin", "levofloxacin", "meropenem", "nalidixic acid", "piperacillin-tazobactam", "streptomycin", "sulfisoxazole", "tetracycline", "tobramycin", "trimethoprim-sulfamethoxazole"]
+  },
+  "mechanism_classes": {
+    "gene_default": "acquired_gene",
+    "intrinsic_gene_families": ["blaEC"],
+    "point_mutation_genes": {
+      "gyrA": "target_site_mutation", "gyrB": "target_site_mutation", "parC": "target_site_mutation",
+      "parE": "target_site_mutation", "folP": "target_site_mutation", "16S": "target_site_mutation",
+      "23S": "target_site_mutation", "ampC": "promoter_mutation", "blaTEMp": "promoter_mutation",
+      "marR": "regulatory_mutation", "acrR": "regulatory_mutation", "soxR": "regulatory_mutation",
+      "soxS": "regulatory_mutation", "ompF": "porin_mutation", "ompC": "porin_mutation"
+    },
+    "note": "a point mutation in a gene not listed here is a catalogue error"
+  },
+  "drug_groups": {
+    "source": "generalisation_drop.tsv of generalisation_v1",
+    "cohort": "common",
+    "comparator": "random",
+    "metric": "AUROC",
+    "statistic": "largest pooled drop over the drug's holdouts (lineage, country, project, geography, temporal), same test isolates",
+    "high_loss_min_delta": 0.05,
+    "high_loss_requires_ci_above_zero": true,
+    "stable_max_delta": 0.02,
+    "case_study_tiers_from": ["amoxicillin-clavulanic acid", "ampicillin", "cefazolin", "cefepime", "cefoxitin", "ceftazidime", "ceftriaxone", "chloramphenicol", "ciprofloxacin", "gentamicin", "levofloxacin", "nalidixic acid", "streptomycin", "sulfisoxazole", "tetracycline", "trimethoprim-sulfamethoxazole"],
+    "note": "case studies are every primary drug in the high_loss or stable group; all drugs are analysed quantitatively"
+  },
+  "capture": {
+    "definition": "a determinant is captured when at least one PR #14 kept feature k-mer encodes it in that genome: for a gene, a kept k-mer inside the called gene; for a point mutation, a kept k-mer overlapping a changed base of the mutant allele. Partially represented: no such kept k-mer, but a mutant-allele k-mer is sampled (and pruned), or a wild-type-allele k-mer at the site is kept, so the mutation shows only as the absence of a wild-type feature. Not represented: no sampled k-mer at the site for either allele (gene: no sampled k-mer in the gene). Unknown: the site could not be located. Phenotype and model output are never read.",
+    "ksize_from_benchmark": true,
+    "flank": 40,
+    "protein_window": 7,
+    "protein_max_mismatch": 3,
+    "dna_window": 12,
+    "dna_max_mismatch": 2,
+    "dna_search_margin": 300
+  },
+  "novelty": {
+    "min_training_carriers": 5,
+    "combination_min_training_carriers": 1,
+    "prevalence_report_min": 0.01,
+    "definition": "a determinant is seen in training when at least 5 training endpoints of the task carry it (any phenotype; 5 is the PR #14 feature minimum); an endpoint's mechanism is seen when all its established determinants are, unseen otherwise; DET- endpoints have no established mechanism; the exact determinant combination is seen when at least one training endpoint carries it"
+  },
+  "augmentation": {
+    "cohort": "common",
+    "interpretations": ["predicts_resistance", "component"],
+    "indicators": "one 0/1 column per catalogue point mutation with a predicts_resistance or component rule for any study drug, set from the AMRFinderPlus calls (partial hits excluded); the same columns for every drug",
+    "min_carriers": 20,
+    "max_captured_fraction": 0.9,
+    "eligibility": "a drug is refitted when its catalogue has a point-mutation rule, at least 20 common-cohort endpoints carry such a mutation and fewer than 90% of those carriers have it captured by the PR #14 features",
+    "variants": ["mutation_augmented", "permuted_control"],
+    "control": "the indicator block with its rows permuted across isolates (seed below), keeping prevalence and co-occurrence but breaking the link to each genome",
+    "control_seed": 20261029,
+    "model": "the PR #14 model, C grid, inner CV, seeds, feature filter and threshold, unchanged"
+  },
+  "bootstrap": {"replicates": 1000, "seed": 20261028, "level": 0.95, "unit": "split_unit"},
+  "support": {"min_R": 10, "min_S": 10}
+}

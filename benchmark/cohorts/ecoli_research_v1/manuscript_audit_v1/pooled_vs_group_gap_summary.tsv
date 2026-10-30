@@ -1,0 +1,4 @@
+holdout_strategy	drugs	median_pooled_gap	median_group_mean_gap	median_group_weighted_gap	median_pooled_minus_group_mean	max_abs_pooled_minus_group_mean	drugs_abs_difference_above_0.02
+lineage	24	0.004801	0.004047	0.00406143	0.0010099	0.0993592	4
+country	15	0.035542	0.0205653	0.0401666	0.00627467	0.138105	3
+project	16	0.01916	0.0129155	0.0136456	0.00576506	0.0784877	3

@@ -1,0 +1,85 @@
+antimicrobial	split_strategy	drug_group	R0_AUROC	R1_AUROC
+amikacin	lineage	stable	0.881605	0.87273
+amoxicillin-clavulanic acid	lineage	intermediate	0.942105	0.946724
+amoxicillin-clavulanic acid	country	intermediate	0.923812	0.931574
+amoxicillin-clavulanic acid	project	intermediate	0.929255	0.956749
+amoxicillin-clavulanic acid	geography	intermediate	0.976457	0.975371
+amoxicillin-clavulanic acid	temporal	intermediate	0.88174	0.875088
+ampicillin	lineage	intermediate	0.98231	0.983294
+ampicillin	country	intermediate	0.947909	0.96516
+ampicillin	project	intermediate	0.964032	0.969252
+ampicillin	geography	intermediate	0.97084	0.977047
+ampicillin	temporal	intermediate	0.944446	0.953995
+aztreonam	lineage	stable	0.985608	0.983026
+cefazolin	lineage	high_loss	0.938461	0.931512
+cefazolin	country	high_loss	0.700495	0.805727
+cefazolin	project	high_loss	0.876713	0.879482
+cefazolin	geography	high_loss	0.953191	0.923955
+cefepime	lineage	high_loss	0.94766	0.952527
+cefepime	country	high_loss	0.778821	0.85463
+cefepime	project	high_loss	0.851014	0.880266
+cefepime	geography	high_loss	0.842359	0.831234
+cefepime	temporal	high_loss	0.750658	0.789811
+cefoxitin	lineage	high_loss	0.973079	0.978498
+cefoxitin	country	high_loss	0.940744	0.956262
+cefoxitin	project	high_loss	0.936481	0.965924
+cefoxitin	geography	high_loss	0.953367	0.96719
+cefoxitin	temporal	high_loss	0.8218	0.859869
+ceftazidime	lineage	high_loss	0.971827	0.975728
+ceftazidime	country	high_loss	0.908876	0.91931
+ceftazidime	project	high_loss	0.946828	0.95605
+ceftazidime	geography	high_loss	0.803575	0.836409
+ceftazidime	temporal	high_loss	0.678042	0.699499
+ceftiofur	lineage	stable	0.978396	0.975969
+ceftriaxone	lineage	stable	0.984759	0.986277
+ceftriaxone	country	stable	0.976493	0.98253
+ceftriaxone	project	stable	0.972667	0.969744
+ceftriaxone	geography	stable	0.980887	0.980354
+ceftriaxone	temporal	stable	0.804808	0.818552
+chloramphenicol	lineage	stable	0.987903	0.988228
+chloramphenicol	country	stable	0.994888	0.993029
+chloramphenicol	project	stable	0.993761	0.996311
+chloramphenicol	geography	stable	0.992132	0.991846
+chloramphenicol	temporal	stable	0.992056	0.992421
+ciprofloxacin	lineage	high_loss	0.969067	0.985164
+ciprofloxacin	country	high_loss	0.906296	0.946863
+ciprofloxacin	project	high_loss	0.947498	0.9649
+ciprofloxacin	geography	high_loss	0.892196	0.930334
+ciprofloxacin	temporal	high_loss	0.88641	0.934859
+ertapenem	lineage	intermediate	0.739285	0.810462
+gentamicin	lineage	stable	0.984363	0.98466
+gentamicin	country	stable	0.976923	0.974687
+gentamicin	project	stable	0.984291	0.983062
+gentamicin	geography	stable	0.958393	0.961956
+gentamicin	temporal	stable	0.956283	0.957146
+kanamycin	lineage	stable	0.959959	0.954069
+levofloxacin	lineage	stable	0.980299	0.97997
+levofloxacin	country	stable	0.877632	0.871053
+levofloxacin	project	stable	0.981243	0.984215
+levofloxacin	temporal	stable	0.963554	0.962846
+meropenem	lineage	stable	0.954212	0.946965
+nalidixic acid	lineage	high_loss	0.776436	0.969036
+nalidixic acid	country	high_loss	0.765117	0.954381
+nalidixic acid	project	high_loss	0.69793	0.910741
+nalidixic acid	geography	high_loss	0.693059	0.890413
+nalidixic acid	temporal	high_loss	0.714212	0.935999
+piperacillin-tazobactam	lineage	high_loss	0.718371	0.801647
+streptomycin	lineage	intermediate	0.965303	0.964838
+streptomycin	country	intermediate	0.95433	0.953666
+streptomycin	project	intermediate	0.952802	0.94996
+streptomycin	geography	intermediate	0.912121	0.916789
+sulfisoxazole	lineage	stable	0.988968	0.987995
+sulfisoxazole	country	stable	0.978598	0.983145
+sulfisoxazole	project	stable	0.979459	0.979401
+sulfisoxazole	geography	stable	0.974055	0.976731
+tetracycline	lineage	stable	0.989367	0.9907
+tetracycline	country	stable	0.983825	0.983544
+tetracycline	project	stable	0.982656	0.983726
+tetracycline	geography	stable	0.986388	0.986671
+tetracycline	temporal	stable	0.988363	0.986633
+tobramycin	lineage	stable	0.977687	0.979251
+trimethoprim-sulfamethoxazole	lineage	stable	0.97921	0.980901
+trimethoprim-sulfamethoxazole	country	stable	0.974327	0.97747
+trimethoprim-sulfamethoxazole	project	stable	0.974356	0.978258
+trimethoprim-sulfamethoxazole	geography	stable	0.957992	0.960805
+trimethoprim-sulfamethoxazole	temporal	stable	0.973602	0.973616

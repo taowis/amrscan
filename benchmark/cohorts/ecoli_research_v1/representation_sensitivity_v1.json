@@ -1,0 +1,77 @@
+{
+  "analysis_version": "representation_sensitivity_v1",
+  "config_version": "1.0.0",
+  "description": "Confirmatory sensitivity analysis: the frozen generalisation_v1 benchmark refitted with a denser FracMinHash representation, and with known-mutation indicators on top of it, against the original scaled 200 features and the error_decomposition_v1 mutation augmentation.",
+  "decision_record": "docs/decisions/0011-ecoli-representation-sensitivity.md",
+  "upstream": {
+    "benchmark_version": "generalisation_v1",
+    "generalisation_config": "benchmark/cohorts/ecoli_research_v1/generalisation_v1.json",
+    "generalisation_config_sha256": "00fa371a4ffd28a1dae06e7cb0b89a12adf7e357ab39eee325ce412fdca5c65f",
+    "benchmark_manifest_sha256": "f0b51c760172065f233602e669d472d3a221a9a12a9eb306d91e77e2ac30f303",
+    "predictions_sha256": "63b1a2c0039f661a9a31002e6c84355c14a4c02c4f31e00b124dc566895c0ce0",
+    "feature_manifest_sha256": "ec85fc5c1916e7894e1732851dccc79b600ea861c4df4531c97c1d6b05b9b15f",
+    "genome_manifest": "benchmark/cohorts/ecoli_research_v1/genome_manifest.tsv",
+    "genome_manifest_sha256": "e85a45fc1add9f0c6004dd897cd4488baad0eed8d7c1f91c9025b34beaa0f2d6",
+    "genome_manifest_rows": 10521,
+    "error_decomposition_config": "benchmark/cohorts/ecoli_research_v1/error_decomposition_v1.json",
+    "error_decomposition_config_sha256": "e97bd57d05b7920766ab09b470ba18f5b956155d5d910b022da41e2cc18daf75",
+    "error_decomposition_outputs": "benchmark/cohorts/ecoli_research_v1/error_decomposition_v1",
+    "error_decomposition_sha256sums_sha256": "f9bceaca91cb5985212f2d81bce93e976fa2e8cd48327fc58201ab58533b7b6b",
+    "augmentation_plan_sha256": "39e5a31fc903d35c7b2dd02424d521bdf959ab294423fd46497e347a334b0f72",
+    "mechanism_catalogue": "benchmark/mappings/ecoli_amr_mechanisms_v1.tsv",
+    "mechanism_catalogue_sha256": "c41ae6fd10e4d09716d040e0cdd0b212cda60d497892b44c19d84764da03eb34"
+  },
+  "representations": {
+    "R0": {"description": "PR #14 features: sourmash 4.9.4 FracMinHash 31-mers, scaled 200, seed 42, presence, global 5/5 prune, identical-presence columns merged", "source": "reused: generalisation_v1 matrix and predictions, not refitted"},
+    "R1": {"description": "R0 with a smaller scaled value, chosen by the selection rule below; every other feature parameter as R0", "source": "new: features built from the sketch_scaled sketches by downsampling, then the full frozen benchmark refitted"},
+    "R2": {"description": "R0 plus the 62 error_decomposition_v1 known-mutation indicators", "source": "reused: error_decomposition_v1 mutation_augmented predictions (262 common-cohort tasks of the 10 eligible drugs), not refitted"},
+    "R2_permuted": {"description": "R0 plus the same indicators with rows permuted (seed 20261029)", "source": "reused: error_decomposition_v1 permuted_control predictions"},
+    "R3": {"description": "R1 plus the same 62 indicators, same eligibility and task set as R2", "source": "new"},
+    "R3_permuted": {"description": "R1 plus the R2_permuted indicator block (same permutation)", "source": "new"}
+  },
+  "density": {
+    "ksize": 31,
+    "hash_seed": 42,
+    "tool": "sourmash",
+    "tool_version": "4.9.4",
+    "reference_scaled": 200,
+    "candidates": [100, 50, 20],
+    "sketch_scaled": 20,
+    "note": "each genome is sketched once at scaled 20; a coarser FracMinHash sketch is the subset of hashes below its threshold, so every candidate and R0 are exact downsamples. Downsampling to 200 must reproduce the PR #14 sketch of every genome hash for hash, or the run stops.",
+    "pilot_reads": "feature counts, matrix size, sparsity, build time and memory, model-fit time and memory, and the k-mer capture of called genes and mutations; no prediction, metric or phenotype of a test endpoint",
+    "selection_rule": "R1 is the smallest candidate scaled value (densest representation) for which (a) all 10,521 genomes are sketched and verified, (b) the projected peak memory of the largest benchmark task fits one available machine with 25% left free, and (c) the projected compute for the R1 benchmark plus R3 and R3_permuted fits the budget the project owner sets after seeing the pilot resource table and before any R1 model is fitted. Projections come from the pilot only. The selection, the budget and the projections are written to selection.json and committed before the R1 run.",
+    "stop_rule": "no candidate other than the selected one is fitted; scaled values below 20 are not tried in this analysis"
+  },
+  "benchmark": {
+    "tasks": 1069,
+    "scope": "every frozen generalisation_v1 task (common and maximal cohorts) for R1; the R2 task set (common cohort, the 10 drugs eligible in error_decomposition_v1) for R3 and R3_permuted",
+    "split_identity": "each task is rebuilt with bin/generalisation_benchmark.py from the frozen inputs and must match the benchmark manifest's split hash; train and test isolate lists, phenotypes, antimicrobial, strategy and holdout are compared with the R0 task and with the R2 task status where one exists, and any difference stops the run",
+    "model": "the generalisation_v1 model, C grid, inner CV, seeds, per-task feature filter and fixed 0.5 threshold, unchanged",
+    "statuses": ["completed", "not_applicable", "failed", "resource_failed"]
+  },
+  "mutation_panel": {
+    "source": "error_decomposition_v1 augmentation_plan.json indicators: catalogue point mutations with a predicts_resistance or component rule, set from the AMRFinderPlus 4.2.7 calls, partial hits excluded",
+    "indicators": 62,
+    "eligibility": "unchanged from error_decomposition_v1: 10 drugs"
+  },
+  "capture": {
+    "definition": "error_decomposition_v1 rules applied to each representation's kept feature set: a gene is captured when a k-mer inside it is a kept feature; a mutation is captured when a mutant-allele k-mer at the changed base is a kept feature, partially represented when only a sampled-but-pruned mutant k-mer or a kept wild-type k-mer exists, not represented otherwise",
+    "positive_control": "gyrA_S83L",
+    "quinolones": ["nalidixic acid", "ciprofloxacin", "levofloxacin"],
+    "stable_controls": ["chloramphenicol", "tetracycline", "gentamicin"],
+    "mechanism_shift_control": "cefazolin",
+    "unresolved_controls": ["cefepime", "ceftazidime"],
+    "counterexample": "levofloxacin"
+  },
+  "analysis": {
+    "cohort": "common",
+    "pooling": "per drug and strategy, predictions pooled over folds or holdouts as in error_decomposition_v1",
+    "metrics": ["AUROC", "AUPRC", "sensitivity", "specificity", "PPV", "NPV", "balanced_accuracy", "F1", "MCC", "brier", "calibration_slope", "calibration_intercept"],
+    "gap": "AUROC on random-split predictions minus AUROC on holdout predictions, over the holdout's test isolates, as in error_decomposition_v1",
+    "gap_rescue": "gap_R0 - gap_Rx, 95% interval from a paired bootstrap over split units",
+    "correlations": "Spearman correlation over drug x holdout pairs of the AUROC drop with the error_decomposition_v1 unseen-mechanism fraction and lineage shift, same definitions, recomputed with each representation's drop",
+    "rule_comparison": "the PR #7 determinant prediction against each representation's prediction on identical endpoints (four-way table)"
+  },
+  "bootstrap": {"replicates": 1000, "seed": 20261028, "level": 0.95, "unit": "split_unit"},
+  "support": {"metric_min_R": 10, "metric_min_S": 10}
+}

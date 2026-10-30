@@ -1,0 +1,6 @@
+holdout_strategy	drugs	median_gap	median_gap_without	max_abs_change	flagged_test_endpoints
+lineage	24	0.00480078	0.00482303	0.0323355	1906
+country	16	0.0252979	0.025218	0.00995123	463
+project	16	0.0191597	0.0193302	0.00842551	1156
+geography	15	0.0106378	0.0094193	0.0340588	1157
+temporal	13	0.0175344	0.0217742	0.0481168	930

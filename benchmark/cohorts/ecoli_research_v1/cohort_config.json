@@ -1,0 +1,43 @@
+{
+  "cohort_id": "ecoli_research_v1",
+  "config_version": "1.0.0",
+  "organism": "Escherichia coli",
+  "identity_policy": {
+    "require_versioned_pdt": true,
+    "require_biosample_for_overall": true,
+    "require_genbank_assembly_for_overall": true,
+    "assembly_pattern": "GCA_\\d+\\.\\d+"
+  },
+  "phenotype_policy": {
+    "binary_categories": ["R", "S"],
+    "recognized_nonbinary_categories": ["I", "SDD", "NS", "HLAR", "ND"],
+    "retain_unknown_and_missing_categories": true,
+    "consistent_repeated_observations": "one endpoint with repeated_consistent status",
+    "discordant_binary_observations": "CONFLICT; exclude from binary endpoints",
+    "mixed_binary_and_nonbinary_observations": "NON_BINARY_OR_CONFLICT; exclude from binary endpoints"
+  },
+  "duplicate_policy": {
+    "preserve_all_observations": true,
+    "exact_duplicate_source_ids": "error",
+    "repeated_consistent_endpoint": "retain all source rows and derive one endpoint"
+  },
+  "eligibility": {
+    "binary_rs_requires": ["versioned_pdt", "recognized_antimicrobial", "one_unambiguous_R_or_S_endpoint"],
+    "overall_requires": ["binary_rs", "valid_biosample", "valid_GCA_assembly", "identity_consensus"],
+    "country_requires": ["overall", "known_country"],
+    "temporal_requires": ["overall", "valid_collection_year"],
+    "source_requires": ["overall", "known_source_category"],
+    "known_source_categories": ["human", "animal", "food", "environment", "other"]
+  },
+  "study_drug_readiness": {
+    "decision": "HUMAN_REVIEW_REQUIRED",
+    "minimum_total_isolates": null,
+    "minimum_resistant_isolates": null,
+    "minimum_susceptible_isolates": null,
+    "minimum_countries": null,
+    "minimum_year_span": null,
+    "minimum_source_categories": null,
+    "maximum_conflict_fraction": null,
+    "note": "No publication-panel thresholds are set before human review of the real population census."
+  }
+}

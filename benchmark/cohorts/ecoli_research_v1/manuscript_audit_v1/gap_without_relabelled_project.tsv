@@ -1,0 +1,85 @@
+antimicrobial	holdout_strategy	N	N_without	gap	gap_without	flagged_test_endpoints
+amikacin	lineage	3215	3084	0.00941261	0.00793755	131
+amoxicillin-clavulanic acid	country	6283	6204	0.045872	0.0436076	79
+amoxicillin-clavulanic acid	geography	1391	1257	0.00169593	-0.00128411	134
+amoxicillin-clavulanic acid	lineage	6356	6222	0.0270818	0.024586	134
+amoxicillin-clavulanic acid	project	6239	6105	0.0395462	0.032252	134
+amoxicillin-clavulanic acid	temporal	413	306	0.040826	0.0304673	107
+ampicillin	country	7119	7065	0.0376631	0.038118	54
+ampicillin	geography	1768	1634	0.0106378	0.0094193	134
+ampicillin	lineage	7566	7432	0.00395999	0.00388871	134
+ampicillin	project	6991	6857	0.021654	0.0219949	134
+ampicillin	temporal	1105	998	0.0175344	0.0194967	107
+aztreonam	lineage	2262	2217	0.00394485	0.00404812	45
+cefazolin	country	2519	2519	0.259519	0.259519	0
+cefazolin	geography	161	161	0.00647878	0.00647878	0
+cefazolin	lineage	2520	2520	0.0215953	0.0215953	0
+cefazolin	project	2408	2408	0.0799494	0.0799494	0
+cefepime	country	3300	3251	0.186937	0.196888	49
+cefepime	geography	619	496	0.111711	0.142924	123
+cefepime	lineage	3532	3409	0.0170251	0.016445	123
+cefepime	project	3357	3234	0.115486	0.123911	123
+cefepime	temporal	1077	977	0.184712	0.216219	100
+cefoxitin	country	4931	4901	0.0355417	0.0353819	30
+cefoxitin	geography	1821	1700	0.0144388	0.0141092	121
+cefoxitin	lineage	5027	4906	0.00153716	0.00157588	121
+cefoxitin	project	4811	4690	0.0398957	0.0418388	121
+cefoxitin	temporal	751	656	0.0749946	0.073035	95
+ceftazidime	country	3145	3092	0.070529	0.0719446	53
+ceftazidime	geography	733	605	0.165979	0.18634	128
+ceftazidime	lineage	3245	3117	0.00716885	0.0067026	128
+ceftazidime	project	2862	2734	0.0279634	0.0279447	128
+ceftazidime	temporal	783	678	0.222461	0.270578	105
+ceftiofur	lineage	1300	1168	0.000263435	0.000742589	132
+ceftriaxone	country	6807	6753	0.0108658	0.0111403	54
+ceftriaxone	geography	1427	1293	0.00190131	0.00103019	134
+ceftriaxone	lineage	6917	6783	0.0025638	0.00248715	134
+ceftriaxone	project	6677	6543	0.0155717	0.0140581	134
+ceftriaxone	temporal	438	331	0.00978974	0.0217742	107
+chloramphenicol	country	4361	4361	-0.0026336	-0.0026336	0
+chloramphenicol	geography	1612	1612	-0.00426937	-0.00426937	0
+chloramphenicol	lineage	4386	4386	0.00240895	0.00240895	0
+chloramphenicol	project	4260	4260	-0.00235543	-0.00235543	0
+chloramphenicol	temporal	353	353	-0.000891699	-0.000891699	0
+ciprofloxacin	country	6173	6173	0.0665815	0.0665815	0
+ciprofloxacin	geography	1784	1669	0.0786158	0.112675	115
+ciprofloxacin	lineage	7529	7414	0.00564157	0.00559793	115
+ciprofloxacin	project	6106	5991	0.026957	0.028128	115
+ciprofloxacin	temporal	1064	970	0.0683909	0.0774629	94
+ertapenem	lineage	3465	3332	0.0784548	0.11079	133
+gentamicin	country	7103	7013	0.0097224	0.00987949	90
+gentamicin	geography	1793	1659	0.00950856	0.00662664	134
+gentamicin	lineage	7216	7082	0.000409191	5.79091e-06	134
+gentamicin	project	6954	6820	0.00115305	0.000407351	134
+gentamicin	temporal	813	706	0.0131754	0.0151306	107
+kanamycin	lineage	1183	1183	0.0146315	0.0146315	0
+levofloxacin	country	86	86	-0.0328947	-0.0328947	0
+levofloxacin	lineage	2941	2941	0.00650456	0.00650456	0
+levofloxacin	project	2920	2920	0.00539016	0.00539016	0
+levofloxacin	temporal	546	546	0.00397169	0.00397169	0
+meropenem	lineage	6139	6011	-0.0318642	-0.03771	128
+nalidixic acid	country	4509	4509	0.110167	0.110167	0
+nalidixic acid	geography	1705	1705	0.175009	0.175009	0
+nalidixic acid	lineage	4522	4522	0.103907	0.103907	0
+nalidixic acid	project	4252	4252	0.176954	0.176954	0
+nalidixic acid	temporal	343	343	0.130713	0.130713	0
+piperacillin-tazobactam	lineage	2817	2686	0.112356	0.116833	131
+streptomycin	country	4092	4092	0.0150541	0.0150541	0
+streptomycin	geography	1265	1265	0.023738	0.023738	0
+streptomycin	lineage	4096	4096	0.00379603	0.00379603	0
+streptomycin	project	3983	3983	0.0166655	0.0166655	0
+sulfisoxazole	country	4035	4035	0.0136201	0.0136201	0
+sulfisoxazole	geography	1261	1261	0.00768354	0.00768354	0
+sulfisoxazole	lineage	4035	4035	0.00324992	0.00324992	0
+sulfisoxazole	project	3907	3907	0.0125214	0.0125214	0
+tetracycline	country	6924	6924	0.00705537	0.00705537	0
+tetracycline	geography	1620	1619	0.00141159	0.00141026	1
+tetracycline	lineage	6940	6939	0.00131961	0.00132066	1
+tetracycline	project	6744	6744	0.00807625	0.00807625	0
+tetracycline	temporal	676	675	-0.00128205	-0.00127636	1
+tobramycin	lineage	2850	2801	0.00242183	0.00143297	49
+trimethoprim-sulfamethoxazole	country	7037	6983	0.0118155	0.0119125	54
+trimethoprim-sulfamethoxazole	geography	1430	1297	0.0152599	0.0189929	133
+trimethoprim-sulfamethoxazole	lineage	7146	7013	0.00572441	0.00583114	133
+trimethoprim-sulfamethoxazole	project	7008	6875	0.0107971	0.0109227	133
+trimethoprim-sulfamethoxazole	temporal	774	667	0.000974098	0.00165335	107

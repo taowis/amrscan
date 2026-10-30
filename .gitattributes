@@ -1,0 +1,4 @@
+# RIS needs CRLF line ends and a trailing space after "ER  -"
+*.ris -text -whitespace
+# PBS job records are kept as the scheduler wrote them
+benchmark/**/logs/** -whitespace

@@ -1,0 +1,1073 @@
+cohort	antimicrobial	split_strategy	phenotype	mechanism_group	gene_capture	mutation_capture	determinant_seen_in_training	endpoints
+common	amikacin	lineage	R	acquired_gene	captured	NA	no	2
+common	amikacin	lineage	R	acquired_gene	captured	NA	yes	4
+common	amikacin	lineage	S	no_established_determinant	NA	NA	NA	74
+common	amikacin	random	R	acquired_gene	captured	NA	no	1
+common	amikacin	random	R	acquired_gene	captured	NA	yes	6
+common	amikacin	random	S	no_established_determinant	NA	NA	NA	87
+common	amikacin	random_cluster	R	acquired_gene	captured	NA	no	3
+common	amikacin	random_cluster	R	acquired_gene	captured	NA	yes	7
+common	amikacin	random_cluster	S	no_established_determinant	NA	NA	NA	38
+common	amoxicillin-clavulanic acid	country	R	acquired_gene	captured	NA	no	16
+common	amoxicillin-clavulanic acid	country	R	acquired_gene	captured	NA	yes	6
+common	amoxicillin-clavulanic acid	country	R	mutation	NA	not_represented	no	39
+common	amoxicillin-clavulanic acid	country	R	mutation	NA	partially_represented	no	5
+common	amoxicillin-clavulanic acid	country	R	mutation	NA	partially_represented	yes	31
+common	amoxicillin-clavulanic acid	country	S	no_established_determinant	NA	NA	NA	83
+common	amoxicillin-clavulanic acid	geography	R	acquired_gene	captured	NA	no	1
+common	amoxicillin-clavulanic acid	geography	R	acquired_gene	captured	NA	yes	5
+common	amoxicillin-clavulanic acid	geography	R	mutation	NA	partially_represented	yes	6
+common	amoxicillin-clavulanic acid	geography	S	no_established_determinant	NA	NA	NA	8
+common	amoxicillin-clavulanic acid	lineage	R	acquired_gene	captured	NA	no	12
+common	amoxicillin-clavulanic acid	lineage	R	acquired_gene	captured	NA	yes	42
+common	amoxicillin-clavulanic acid	lineage	R	mutation	NA	not_represented	yes	39
+common	amoxicillin-clavulanic acid	lineage	R	mutation	NA	partially_represented	yes	34
+common	amoxicillin-clavulanic acid	lineage	S	no_established_determinant	NA	NA	NA	38
+common	amoxicillin-clavulanic acid	project	R	acquired_gene	captured	NA	no	2
+common	amoxicillin-clavulanic acid	project	R	acquired_gene	captured	NA	yes	16
+common	amoxicillin-clavulanic acid	project	R	mutation	NA	not_represented	no	37
+common	amoxicillin-clavulanic acid	project	R	mutation	NA	not_represented	yes	1
+common	amoxicillin-clavulanic acid	project	R	mutation	NA	partially_represented	no	3
+common	amoxicillin-clavulanic acid	project	R	mutation	NA	partially_represented	yes	30
+common	amoxicillin-clavulanic acid	project	S	no_established_determinant	NA	NA	NA	104
+common	amoxicillin-clavulanic acid	random	R	acquired_gene	captured	NA	no	3
+common	amoxicillin-clavulanic acid	random	R	acquired_gene	captured	NA	yes	8
+common	amoxicillin-clavulanic acid	random	R	mutation	NA	not_represented	yes	4
+common	amoxicillin-clavulanic acid	random	R	mutation	NA	partially_represented	yes	12
+common	amoxicillin-clavulanic acid	random	S	no_established_determinant	NA	NA	NA	55
+common	amoxicillin-clavulanic acid	random_cluster	R	acquired_gene	captured	NA	no	4
+common	amoxicillin-clavulanic acid	random_cluster	R	acquired_gene	captured	NA	yes	12
+common	amoxicillin-clavulanic acid	random_cluster	R	mutation	NA	not_represented	yes	5
+common	amoxicillin-clavulanic acid	random_cluster	R	mutation	NA	partially_represented	yes	16
+common	amoxicillin-clavulanic acid	random_cluster	S	no_established_determinant	NA	NA	NA	58
+common	amoxicillin-clavulanic acid	temporal	R	acquired_gene	captured	NA	yes	4
+common	amoxicillin-clavulanic acid	temporal	S	no_established_determinant	NA	NA	NA	36
+common	ampicillin	country	R	acquired_gene	captured	NA	no	119
+common	ampicillin	country	R	acquired_gene	captured	NA	yes	64
+common	ampicillin	country	R	mutation	NA	not_represented	no	22
+common	ampicillin	country	R	mutation	NA	partially_represented	no	4
+common	ampicillin	country	R	mutation	NA	partially_represented	yes	25
+common	ampicillin	country	S	no_established_determinant	NA	NA	NA	89
+common	ampicillin	geography	R	acquired_gene	captured	NA	no	17
+common	ampicillin	geography	R	acquired_gene	captured	NA	yes	55
+common	ampicillin	geography	R	mutation	NA	partially_represented	yes	36
+common	ampicillin	geography	S	no_established_determinant	NA	NA	NA	4
+common	ampicillin	lineage	R	acquired_gene	captured	NA	no	7
+common	ampicillin	lineage	R	acquired_gene	captured	NA	yes	61
+common	ampicillin	lineage	R	mutation	NA	not_represented	yes	22
+common	ampicillin	lineage	R	mutation	NA	partially_represented	yes	34
+common	ampicillin	lineage	S	no_established_determinant	NA	NA	NA	35
+common	ampicillin	project	R	acquired_gene	captured	NA	no	4
+common	ampicillin	project	R	acquired_gene	captured	NA	yes	64
+common	ampicillin	project	R	mutation	NA	not_represented	yes	12
+common	ampicillin	project	R	mutation	NA	partially_represented	yes	25
+common	ampicillin	project	S	no_established_determinant	NA	NA	NA	94
+common	ampicillin	random	R	acquired_gene	captured	NA	no	3
+common	ampicillin	random	R	acquired_gene	captured	NA	yes	41
+common	ampicillin	random	R	mutation	NA	not_represented	yes	13
+common	ampicillin	random	R	mutation	NA	partially_represented	yes	20
+common	ampicillin	random	S	no_established_determinant	NA	NA	NA	12
+common	ampicillin	random_cluster	R	acquired_gene	captured	NA	no	5
+common	ampicillin	random_cluster	R	acquired_gene	captured	NA	yes	63
+common	ampicillin	random_cluster	R	mutation	NA	not_represented	yes	11
+common	ampicillin	random_cluster	R	mutation	NA	partially_represented	yes	34
+common	ampicillin	random_cluster	S	no_established_determinant	NA	NA	NA	15
+common	ampicillin	temporal	R	acquired_gene	captured	NA	no	22
+common	ampicillin	temporal	R	acquired_gene	captured	NA	yes	15
+common	ampicillin	temporal	R	mutation	NA	partially_represented	yes	31
+common	aztreonam	lineage	R	acquired_gene	captured	NA	no	3
+common	aztreonam	lineage	R	acquired_gene	captured	NA	yes	6
+common	aztreonam	lineage	S	no_established_determinant	NA	NA	NA	21
+common	aztreonam	random	R	acquired_gene	captured	NA	no	2
+common	aztreonam	random	R	acquired_gene	captured	NA	yes	3
+common	aztreonam	random	S	no_established_determinant	NA	NA	NA	13
+common	aztreonam	random_cluster	R	acquired_gene	captured	NA	no	1
+common	aztreonam	random_cluster	R	acquired_gene	captured	NA	yes	9
+common	aztreonam	random_cluster	S	no_established_determinant	NA	NA	NA	17
+common	cefazolin	country	R	acquired_gene	captured	NA	no	249
+common	cefazolin	country	R	acquired_gene	captured	NA	yes	125
+common	cefazolin	country	R	both	captured	not_represented	no	22
+common	cefazolin	country	R	both	captured	partially_represented	no	2
+common	cefazolin	country	R	mutation	NA	not_represented	no	17
+common	cefazolin	country	R	mutation	NA	partially_represented	no	8
+common	cefazolin	country	R	mutation	NA	partially_represented	yes	1
+common	cefazolin	country	S	no_established_determinant	NA	NA	NA	93
+common	cefazolin	geography	R	acquired_gene	captured	NA	yes	2
+common	cefazolin	geography	R	mutation	NA	partially_represented	yes	1
+common	cefazolin	geography	S	no_established_determinant	NA	NA	NA	2
+common	cefazolin	lineage	R	acquired_gene	captured	NA	no	7
+common	cefazolin	lineage	R	acquired_gene	captured	NA	yes	84
+common	cefazolin	lineage	R	both	captured	not_represented	yes	8
+common	cefazolin	lineage	R	both	captured	partially_represented	yes	1
+common	cefazolin	lineage	R	mutation	NA	not_represented	yes	18
+common	cefazolin	lineage	R	mutation	NA	partially_represented	no	5
+common	cefazolin	lineage	R	mutation	NA	partially_represented	yes	5
+common	cefazolin	lineage	S	no_established_determinant	NA	NA	NA	11
+common	cefazolin	project	R	acquired_gene	captured	NA	no	8
+common	cefazolin	project	R	acquired_gene	captured	NA	yes	61
+common	cefazolin	project	R	both	captured	not_represented	no	22
+common	cefazolin	project	R	both	captured	partially_represented	no	1
+common	cefazolin	project	R	mutation	NA	not_represented	no	16
+common	cefazolin	project	R	mutation	NA	partially_represented	no	4
+common	cefazolin	project	R	mutation	NA	partially_represented	yes	1
+common	cefazolin	project	S	no_established_determinant	NA	NA	NA	319
+common	cefazolin	random	R	acquired_gene	captured	NA	no	4
+common	cefazolin	random	R	acquired_gene	captured	NA	yes	62
+common	cefazolin	random	R	mutation	NA	not_represented	yes	8
+common	cefazolin	random	R	mutation	NA	partially_represented	yes	5
+common	cefazolin	random	S	no_established_determinant	NA	NA	NA	23
+common	cefazolin	random_cluster	R	acquired_gene	captured	NA	no	5
+common	cefazolin	random_cluster	R	acquired_gene	captured	NA	yes	68
+common	cefazolin	random_cluster	R	both	captured	not_represented	yes	1
+common	cefazolin	random_cluster	R	both	captured	partially_represented	yes	1
+common	cefazolin	random_cluster	R	mutation	NA	not_represented	yes	6
+common	cefazolin	random_cluster	R	mutation	NA	partially_represented	no	3
+common	cefazolin	random_cluster	R	mutation	NA	partially_represented	yes	4
+common	cefazolin	random_cluster	S	no_established_determinant	NA	NA	NA	25
+common	cefepime	country	R	acquired_gene	captured	NA	no	42
+common	cefepime	country	R	acquired_gene	captured	NA	yes	72
+common	cefepime	country	S	no_established_determinant	NA	NA	NA	412
+common	cefepime	geography	R	acquired_gene	captured	NA	no	32
+common	cefepime	geography	R	acquired_gene	captured	NA	yes	84
+common	cefepime	geography	S	no_established_determinant	NA	NA	NA	3
+common	cefepime	lineage	R	acquired_gene	captured	NA	no	7
+common	cefepime	lineage	R	acquired_gene	captured	NA	yes	76
+common	cefepime	lineage	S	no_established_determinant	NA	NA	NA	28
+common	cefepime	project	R	acquired_gene	captured	NA	no	22
+common	cefepime	project	R	acquired_gene	captured	NA	yes	98
+common	cefepime	project	S	no_established_determinant	NA	NA	NA	48
+common	cefepime	random	R	acquired_gene	captured	NA	no	1
+common	cefepime	random	R	acquired_gene	captured	NA	yes	52
+common	cefepime	random	S	no_established_determinant	NA	NA	NA	25
+common	cefepime	random_cluster	R	acquired_gene	captured	NA	no	5
+common	cefepime	random_cluster	R	acquired_gene	captured	NA	yes	67
+common	cefepime	random_cluster	S	no_established_determinant	NA	NA	NA	23
+common	cefepime	temporal	R	acquired_gene	captured	NA	no	62
+common	cefepime	temporal	R	acquired_gene	captured	NA	yes	34
+common	cefepime	temporal	S	no_established_determinant	NA	NA	NA	7
+common	cefoxitin	country	R	acquired_gene	captured	NA	no	5
+common	cefoxitin	country	R	acquired_gene	captured	NA	yes	11
+common	cefoxitin	country	R	mutation	NA	not_represented	no	5
+common	cefoxitin	country	R	mutation	NA	not_represented	yes	2
+common	cefoxitin	country	R	mutation	NA	partially_represented	yes	49
+common	cefoxitin	country	S	no_established_determinant	NA	NA	NA	90
+common	cefoxitin	geography	R	acquired_gene	captured	NA	yes	8
+common	cefoxitin	geography	R	mutation	NA	not_represented	no	3
+common	cefoxitin	geography	R	mutation	NA	partially_represented	yes	51
+common	cefoxitin	geography	S	no_established_determinant	NA	NA	NA	23
+common	cefoxitin	lineage	R	acquired_gene	captured	NA	yes	13
+common	cefoxitin	lineage	R	mutation	NA	not_represented	no	5
+common	cefoxitin	lineage	R	mutation	NA	not_represented	yes	1
+common	cefoxitin	lineage	R	mutation	NA	partially_represented	yes	25
+common	cefoxitin	lineage	S	no_established_determinant	NA	NA	NA	62
+common	cefoxitin	project	R	acquired_gene	captured	NA	yes	10
+common	cefoxitin	project	R	mutation	NA	not_represented	yes	2
+common	cefoxitin	project	R	mutation	NA	partially_represented	yes	33
+common	cefoxitin	project	S	no_established_determinant	NA	NA	NA	51
+common	cefoxitin	random	R	acquired_gene	captured	NA	yes	8
+common	cefoxitin	random	R	mutation	NA	not_represented	no	1
+common	cefoxitin	random	R	mutation	NA	not_represented	yes	3
+common	cefoxitin	random	R	mutation	NA	partially_represented	yes	13
+common	cefoxitin	random	S	no_established_determinant	NA	NA	NA	80
+common	cefoxitin	random_cluster	R	acquired_gene	captured	NA	yes	11
+common	cefoxitin	random_cluster	R	mutation	NA	not_represented	no	1
+common	cefoxitin	random_cluster	R	mutation	NA	not_represented	yes	3
+common	cefoxitin	random_cluster	R	mutation	NA	partially_represented	yes	15
+common	cefoxitin	random_cluster	S	no_established_determinant	NA	NA	NA	92
+common	cefoxitin	temporal	R	acquired_gene	captured	NA	yes	5
+common	cefoxitin	temporal	R	mutation	NA	partially_represented	yes	26
+common	cefoxitin	temporal	S	no_established_determinant	NA	NA	NA	70
+common	ceftazidime	country	R	acquired_gene	captured	NA	no	50
+common	ceftazidime	country	R	acquired_gene	captured	NA	yes	96
+common	ceftazidime	country	R	both	captured	partially_represented	no	1
+common	ceftazidime	country	R	mutation	NA	not_represented	no	3
+common	ceftazidime	country	R	mutation	NA	partially_represented	yes	38
+common	ceftazidime	country	S	no_established_determinant	NA	NA	NA	49
+common	ceftazidime	geography	R	acquired_gene	captured	NA	no	107
+common	ceftazidime	geography	R	acquired_gene	captured	NA	yes	57
+common	ceftazidime	geography	R	mutation	NA	partially_represented	yes	40
+common	ceftazidime	geography	S	no_established_determinant	NA	NA	NA	5
+common	ceftazidime	lineage	R	acquired_gene	captured	NA	no	7
+common	ceftazidime	lineage	R	acquired_gene	captured	NA	yes	50
+common	ceftazidime	lineage	R	mutation	NA	not_represented	yes	3
+common	ceftazidime	lineage	R	mutation	NA	partially_represented	yes	3
+common	ceftazidime	lineage	S	no_established_determinant	NA	NA	NA	30
+common	ceftazidime	project	R	acquired_gene	captured	NA	no	3
+common	ceftazidime	project	R	acquired_gene	captured	NA	yes	26
+common	ceftazidime	project	R	mutation	NA	not_represented	yes	2
+common	ceftazidime	project	S	no_established_determinant	NA	NA	NA	16
+common	ceftazidime	random	R	acquired_gene	captured	NA	no	3
+common	ceftazidime	random	R	acquired_gene	captured	NA	yes	39
+common	ceftazidime	random	R	mutation	NA	not_represented	yes	3
+common	ceftazidime	random	R	mutation	NA	partially_represented	yes	3
+common	ceftazidime	random	S	no_established_determinant	NA	NA	NA	14
+common	ceftazidime	random_cluster	R	acquired_gene	captured	NA	no	8
+common	ceftazidime	random_cluster	R	acquired_gene	captured	NA	yes	48
+common	ceftazidime	random_cluster	R	mutation	NA	not_represented	yes	3
+common	ceftazidime	random_cluster	R	mutation	NA	partially_represented	yes	3
+common	ceftazidime	random_cluster	S	no_established_determinant	NA	NA	NA	13
+common	ceftazidime	temporal	R	acquired_gene	captured	NA	no	63
+common	ceftazidime	temporal	R	acquired_gene	captured	NA	yes	12
+common	ceftazidime	temporal	R	mutation	NA	not_represented	yes	1
+common	ceftazidime	temporal	R	mutation	NA	partially_represented	yes	39
+common	ceftazidime	temporal	S	no_established_determinant	NA	NA	NA	1
+common	ceftiofur	lineage	R	acquired_gene	captured	NA	no	4
+common	ceftiofur	lineage	R	acquired_gene	captured	NA	yes	5
+common	ceftiofur	lineage	R	mutation	NA	partially_represented	yes	2
+common	ceftiofur	lineage	S	no_established_determinant	NA	NA	NA	4
+common	ceftiofur	random	R	acquired_gene	captured	NA	no	1
+common	ceftiofur	random	R	acquired_gene	captured	NA	yes	3
+common	ceftiofur	random	R	mutation	NA	partially_represented	yes	2
+common	ceftiofur	random	S	no_established_determinant	NA	NA	NA	3
+common	ceftiofur	random_cluster	R	acquired_gene	captured	NA	no	2
+common	ceftiofur	random_cluster	R	acquired_gene	captured	NA	yes	8
+common	ceftiofur	random_cluster	R	mutation	NA	partially_represented	yes	2
+common	ceftiofur	random_cluster	S	no_established_determinant	NA	NA	NA	3
+common	ceftriaxone	country	R	acquired_gene	captured	NA	no	15
+common	ceftriaxone	country	R	acquired_gene	captured	NA	yes	84
+common	ceftriaxone	country	R	mutation	NA	not_represented	no	4
+common	ceftriaxone	country	R	mutation	NA	partially_represented	yes	3
+common	ceftriaxone	country	S	no_established_determinant	NA	NA	NA	52
+common	ceftriaxone	geography	R	acquired_gene	captured	NA	yes	2
+common	ceftriaxone	geography	R	mutation	NA	partially_represented	yes	2
+common	ceftriaxone	geography	S	no_established_determinant	NA	NA	NA	1
+common	ceftriaxone	lineage	R	acquired_gene	captured	NA	no	5
+common	ceftriaxone	lineage	R	acquired_gene	captured	NA	yes	9
+common	ceftriaxone	lineage	R	mutation	NA	not_represented	yes	4
+common	ceftriaxone	lineage	R	mutation	NA	partially_represented	yes	4
+common	ceftriaxone	lineage	S	no_established_determinant	NA	NA	NA	7
+common	ceftriaxone	project	R	acquired_gene	captured	NA	no	6
+common	ceftriaxone	project	R	acquired_gene	captured	NA	yes	21
+common	ceftriaxone	project	R	mutation	NA	not_represented	yes	3
+common	ceftriaxone	project	R	mutation	NA	partially_represented	yes	3
+common	ceftriaxone	project	S	no_established_determinant	NA	NA	NA	256
+common	ceftriaxone	random	R	acquired_gene	captured	NA	no	7
+common	ceftriaxone	random	R	acquired_gene	captured	NA	yes	6
+common	ceftriaxone	random	R	mutation	NA	not_represented	yes	4
+common	ceftriaxone	random	R	mutation	NA	partially_represented	yes	4
+common	ceftriaxone	random	S	no_established_determinant	NA	NA	NA	2
+common	ceftriaxone	random_cluster	R	acquired_gene	captured	NA	no	4
+common	ceftriaxone	random_cluster	R	acquired_gene	captured	NA	yes	9
+common	ceftriaxone	random_cluster	R	mutation	NA	not_represented	yes	4
+common	ceftriaxone	random_cluster	R	mutation	NA	partially_represented	yes	4
+common	ceftriaxone	random_cluster	S	no_established_determinant	NA	NA	NA	2
+common	ceftriaxone	temporal	R	acquired_gene	captured	NA	no	4
+common	ceftriaxone	temporal	R	acquired_gene	captured	NA	yes	2
+common	ceftriaxone	temporal	R	mutation	NA	not_represented	yes	1
+common	ceftriaxone	temporal	S	no_established_determinant	NA	NA	NA	1
+common	chloramphenicol	country	R	acquired_gene	captured	NA	no	1
+common	chloramphenicol	country	R	acquired_gene	captured	NA	yes	3
+common	chloramphenicol	geography	S	no_established_determinant	NA	NA	NA	1
+common	chloramphenicol	lineage	R	acquired_gene	captured	NA	no	1
+common	chloramphenicol	lineage	R	acquired_gene	captured	NA	yes	4
+common	chloramphenicol	lineage	S	no_established_determinant	NA	NA	NA	1
+common	chloramphenicol	project	R	acquired_gene	captured	NA	no	1
+common	chloramphenicol	project	R	acquired_gene	captured	NA	yes	3
+common	chloramphenicol	random	R	acquired_gene	captured	NA	no	1
+common	chloramphenicol	random	R	acquired_gene	captured	NA	yes	2
+common	chloramphenicol	random	S	no_established_determinant	NA	NA	NA	2
+common	chloramphenicol	random_cluster	R	acquired_gene	captured	NA	no	1
+common	chloramphenicol	random_cluster	R	acquired_gene	captured	NA	yes	1
+common	chloramphenicol	random_cluster	S	no_established_determinant	NA	NA	NA	1
+common	chloramphenicol	temporal	R	acquired_gene	captured	NA	yes	1
+common	chloramphenicol	temporal	S	no_established_determinant	NA	NA	NA	1
+common	ciprofloxacin	country	R	acquired_gene	captured	NA	no	2
+common	ciprofloxacin	country	R	acquired_gene	captured	NA	yes	68
+common	ciprofloxacin	country	R	acquired_gene	not_represented	NA	no	3
+common	ciprofloxacin	country	R	both	captured	not_represented	no	3
+common	ciprofloxacin	country	R	both	captured	partially_represented	no	2
+common	ciprofloxacin	country	R	mutation	NA	captured	no	1
+common	ciprofloxacin	country	R	mutation	NA	not_represented	no	3
+common	ciprofloxacin	country	R	mutation	NA	not_represented	yes	64
+common	ciprofloxacin	country	R	mutation	NA	partially_represented	no	11
+common	ciprofloxacin	country	R	mutation	NA	partially_represented	yes	28
+common	ciprofloxacin	country	S	no_established_determinant	NA	NA	NA	273
+common	ciprofloxacin	geography	R	acquired_gene	captured	NA	yes	56
+common	ciprofloxacin	geography	R	acquired_gene	not_represented	NA	no	3
+common	ciprofloxacin	geography	R	both	captured	not_represented	no	1
+common	ciprofloxacin	geography	R	both	captured	not_represented	yes	1
+common	ciprofloxacin	geography	R	both	captured	partially_represented	yes	1
+common	ciprofloxacin	geography	R	mutation	NA	captured	no	1
+common	ciprofloxacin	geography	R	mutation	NA	not_represented	no	1
+common	ciprofloxacin	geography	R	mutation	NA	not_represented	yes	43
+common	ciprofloxacin	geography	R	mutation	NA	partially_represented	yes	5
+common	ciprofloxacin	geography	S	no_established_determinant	NA	NA	NA	21
+common	ciprofloxacin	lineage	R	acquired_gene	captured	NA	no	2
+common	ciprofloxacin	lineage	R	acquired_gene	captured	NA	yes	22
+common	ciprofloxacin	lineage	R	both	captured	not_represented	no	2
+common	ciprofloxacin	lineage	R	both	captured	not_represented	yes	3
+common	ciprofloxacin	lineage	R	mutation	NA	captured	no	2
+common	ciprofloxacin	lineage	R	mutation	NA	not_represented	no	2
+common	ciprofloxacin	lineage	R	mutation	NA	not_represented	yes	70
+common	ciprofloxacin	lineage	R	mutation	NA	partially_represented	no	2
+common	ciprofloxacin	lineage	R	mutation	NA	partially_represented	yes	20
+common	ciprofloxacin	lineage	S	no_established_determinant	NA	NA	NA	74
+common	ciprofloxacin	project	R	acquired_gene	captured	NA	no	2
+common	ciprofloxacin	project	R	acquired_gene	captured	NA	yes	67
+common	ciprofloxacin	project	R	acquired_gene	not_represented	NA	no	3
+common	ciprofloxacin	project	R	both	captured	not_represented	no	1
+common	ciprofloxacin	project	R	both	captured	not_represented	yes	2
+common	ciprofloxacin	project	R	both	captured	partially_represented	yes	1
+common	ciprofloxacin	project	R	mutation	NA	captured	no	1
+common	ciprofloxacin	project	R	mutation	NA	not_represented	no	2
+common	ciprofloxacin	project	R	mutation	NA	not_represented	yes	63
+common	ciprofloxacin	project	R	mutation	NA	partially_represented	yes	19
+common	ciprofloxacin	project	S	no_established_determinant	NA	NA	NA	61
+common	ciprofloxacin	random	R	acquired_gene	captured	NA	no	1
+common	ciprofloxacin	random	R	acquired_gene	captured	NA	yes	22
+common	ciprofloxacin	random	R	both	captured	not_represented	no	1
+common	ciprofloxacin	random	R	both	captured	not_represented	yes	3
+common	ciprofloxacin	random	R	both	captured	partially_represented	yes	1
+common	ciprofloxacin	random	R	mutation	NA	captured	no	2
+common	ciprofloxacin	random	R	mutation	NA	not_represented	no	1
+common	ciprofloxacin	random	R	mutation	NA	not_represented	yes	47
+common	ciprofloxacin	random	R	mutation	NA	partially_represented	yes	6
+common	ciprofloxacin	random	S	no_established_determinant	NA	NA	NA	52
+common	ciprofloxacin	random_cluster	R	acquired_gene	captured	NA	no	2
+common	ciprofloxacin	random_cluster	R	acquired_gene	captured	NA	yes	20
+common	ciprofloxacin	random_cluster	R	both	captured	not_represented	yes	3
+common	ciprofloxacin	random_cluster	R	both	captured	partially_represented	yes	1
+common	ciprofloxacin	random_cluster	R	mutation	NA	captured	no	2
+common	ciprofloxacin	random_cluster	R	mutation	NA	not_represented	no	1
+common	ciprofloxacin	random_cluster	R	mutation	NA	not_represented	yes	53
+common	ciprofloxacin	random_cluster	R	mutation	NA	partially_represented	yes	9
+common	ciprofloxacin	random_cluster	S	no_established_determinant	NA	NA	NA	69
+common	ciprofloxacin	temporal	R	acquired_gene	captured	NA	yes	77
+common	ciprofloxacin	temporal	R	acquired_gene	not_represented	NA	no	3
+common	ciprofloxacin	temporal	R	both	captured	not_represented	no	3
+common	ciprofloxacin	temporal	R	both	captured	not_represented	yes	3
+common	ciprofloxacin	temporal	R	both	captured	partially_represented	yes	1
+common	ciprofloxacin	temporal	R	mutation	NA	captured	no	2
+common	ciprofloxacin	temporal	R	mutation	NA	not_represented	no	1
+common	ciprofloxacin	temporal	R	mutation	NA	not_represented	yes	41
+common	ciprofloxacin	temporal	R	mutation	NA	partially_represented	yes	16
+common	ciprofloxacin	temporal	S	no_established_determinant	NA	NA	NA	17
+common	ertapenem	lineage	R	acquired_gene	captured	NA	no	5
+common	ertapenem	lineage	R	acquired_gene	captured	NA	yes	2
+common	ertapenem	lineage	S	no_established_determinant	NA	NA	NA	297
+common	ertapenem	random	R	acquired_gene	captured	NA	no	3
+common	ertapenem	random	S	no_established_determinant	NA	NA	NA	196
+common	ertapenem	random_cluster	R	acquired_gene	captured	NA	no	6
+common	ertapenem	random_cluster	S	no_established_determinant	NA	NA	NA	205
+common	gentamicin	country	R	acquired_gene	captured	NA	no	2
+common	gentamicin	country	R	acquired_gene	captured	NA	yes	34
+common	gentamicin	country	S	no_established_determinant	NA	NA	NA	100
+common	gentamicin	geography	R	acquired_gene	captured	NA	no	17
+common	gentamicin	geography	R	acquired_gene	captured	NA	yes	7
+common	gentamicin	geography	S	no_established_determinant	NA	NA	NA	1
+common	gentamicin	lineage	R	acquired_gene	captured	NA	no	1
+common	gentamicin	lineage	R	acquired_gene	captured	NA	yes	22
+common	gentamicin	lineage	S	no_established_determinant	NA	NA	NA	24
+common	gentamicin	project	R	acquired_gene	captured	NA	yes	34
+common	gentamicin	project	S	no_established_determinant	NA	NA	NA	40
+common	gentamicin	random	R	acquired_gene	captured	NA	yes	15
+common	gentamicin	random	S	no_established_determinant	NA	NA	NA	29
+common	gentamicin	random_cluster	R	acquired_gene	captured	NA	yes	17
+common	gentamicin	random_cluster	S	no_established_determinant	NA	NA	NA	34
+common	gentamicin	temporal	R	acquired_gene	captured	NA	no	2
+common	gentamicin	temporal	R	acquired_gene	captured	NA	yes	11
+common	gentamicin	temporal	S	no_established_determinant	NA	NA	NA	16
+common	kanamycin	lineage	R	acquired_gene	captured	NA	yes	6
+common	kanamycin	lineage	S	no_established_determinant	NA	NA	NA	1
+common	kanamycin	random	R	acquired_gene	captured	NA	yes	4
+common	kanamycin	random	S	no_established_determinant	NA	NA	NA	8
+common	kanamycin	random_cluster	R	acquired_gene	captured	NA	yes	6
+common	kanamycin	random_cluster	S	no_established_determinant	NA	NA	NA	7
+common	levofloxacin	country	S	no_established_determinant	NA	NA	NA	4
+common	levofloxacin	lineage	R	acquired_gene	captured	NA	yes	8
+common	levofloxacin	lineage	R	both	captured	not_represented	no	2
+common	levofloxacin	lineage	R	both	captured	not_represented	yes	5
+common	levofloxacin	lineage	R	mutation	NA	not_represented	yes	15
+common	levofloxacin	lineage	R	mutation	NA	partially_represented	no	2
+common	levofloxacin	lineage	R	mutation	NA	partially_represented	yes	3
+common	levofloxacin	lineage	S	no_established_determinant	NA	NA	NA	28
+common	levofloxacin	project	R	acquired_gene	captured	NA	yes	8
+common	levofloxacin	project	R	both	captured	not_represented	no	1
+common	levofloxacin	project	R	both	captured	not_represented	yes	5
+common	levofloxacin	project	R	both	captured	partially_represented	yes	1
+common	levofloxacin	project	R	mutation	NA	not_represented	yes	3
+common	levofloxacin	project	R	mutation	NA	partially_represented	no	1
+common	levofloxacin	project	R	mutation	NA	partially_represented	yes	2
+common	levofloxacin	project	S	no_established_determinant	NA	NA	NA	26
+common	levofloxacin	random	R	acquired_gene	captured	NA	yes	8
+common	levofloxacin	random	R	both	captured	not_represented	no	2
+common	levofloxacin	random	R	both	captured	not_represented	yes	5
+common	levofloxacin	random	R	both	captured	partially_represented	yes	1
+common	levofloxacin	random	R	mutation	NA	not_represented	yes	5
+common	levofloxacin	random	S	no_established_determinant	NA	NA	NA	17
+common	levofloxacin	random_cluster	R	acquired_gene	captured	NA	yes	8
+common	levofloxacin	random_cluster	R	both	captured	not_represented	no	1
+common	levofloxacin	random_cluster	R	both	captured	not_represented	yes	5
+common	levofloxacin	random_cluster	R	both	captured	partially_represented	yes	1
+common	levofloxacin	random_cluster	R	mutation	NA	not_represented	yes	6
+common	levofloxacin	random_cluster	R	mutation	NA	partially_represented	yes	3
+common	levofloxacin	random_cluster	S	no_established_determinant	NA	NA	NA	12
+common	levofloxacin	temporal	R	acquired_gene	captured	NA	yes	7
+common	levofloxacin	temporal	R	both	captured	not_represented	yes	3
+common	levofloxacin	temporal	R	both	captured	partially_represented	yes	1
+common	levofloxacin	temporal	S	no_established_determinant	NA	NA	NA	4
+common	meropenem	lineage	R	acquired_gene	captured	NA	no	3
+common	meropenem	lineage	R	acquired_gene	captured	NA	yes	1
+common	meropenem	lineage	S	no_established_determinant	NA	NA	NA	6
+common	meropenem	random	R	acquired_gene	captured	NA	no	3
+common	meropenem	random	R	acquired_gene	captured	NA	yes	1
+common	meropenem	random	S	no_established_determinant	NA	NA	NA	37
+common	meropenem	random_cluster	R	acquired_gene	captured	NA	no	3
+common	meropenem	random_cluster	R	acquired_gene	captured	NA	yes	1
+common	meropenem	random_cluster	S	no_established_determinant	NA	NA	NA	25
+common	nalidixic acid	country	R	mutation	NA	not_represented	no	10
+common	nalidixic acid	country	R	mutation	NA	not_represented	yes	113
+common	nalidixic acid	country	R	mutation	NA	partially_represented	no	1
+common	nalidixic acid	country	R	mutation	NA	partially_represented	yes	13
+common	nalidixic acid	country	S	no_established_determinant	NA	NA	NA	177
+common	nalidixic acid	geography	R	mutation	NA	captured	no	2
+common	nalidixic acid	geography	R	mutation	NA	not_represented	no	18
+common	nalidixic acid	geography	R	mutation	NA	not_represented	yes	81
+common	nalidixic acid	geography	R	mutation	NA	partially_represented	no	9
+common	nalidixic acid	geography	R	mutation	NA	partially_represented	yes	7
+common	nalidixic acid	geography	S	no_established_determinant	NA	NA	NA	86
+common	nalidixic acid	lineage	R	mutation	NA	not_represented	no	14
+common	nalidixic acid	lineage	R	mutation	NA	not_represented	yes	92
+common	nalidixic acid	lineage	R	mutation	NA	partially_represented	no	2
+common	nalidixic acid	lineage	R	mutation	NA	partially_represented	yes	18
+common	nalidixic acid	lineage	S	no_established_determinant	NA	NA	NA	307
+common	nalidixic acid	project	R	mutation	NA	not_represented	no	9
+common	nalidixic acid	project	R	mutation	NA	not_represented	yes	112
+common	nalidixic acid	project	R	mutation	NA	partially_represented	yes	12
+common	nalidixic acid	project	S	no_established_determinant	NA	NA	NA	205
+common	nalidixic acid	random	R	mutation	NA	not_represented	no	6
+common	nalidixic acid	random	R	mutation	NA	not_represented	yes	47
+common	nalidixic acid	random	R	mutation	NA	partially_represented	yes	6
+common	nalidixic acid	random	S	no_established_determinant	NA	NA	NA	274
+common	nalidixic acid	random_cluster	R	mutation	NA	not_represented	no	6
+common	nalidixic acid	random_cluster	R	mutation	NA	not_represented	yes	67
+common	nalidixic acid	random_cluster	R	mutation	NA	partially_represented	yes	8
+common	nalidixic acid	random_cluster	S	no_established_determinant	NA	NA	NA	225
+common	nalidixic acid	temporal	R	mutation	NA	not_represented	no	1
+common	nalidixic acid	temporal	R	mutation	NA	not_represented	yes	30
+common	nalidixic acid	temporal	R	mutation	NA	partially_represented	yes	5
+common	nalidixic acid	temporal	S	no_established_determinant	NA	NA	NA	29
+common	piperacillin-tazobactam	lineage	R	acquired_gene	captured	NA	no	7
+common	piperacillin-tazobactam	lineage	R	acquired_gene	captured	NA	yes	25
+common	piperacillin-tazobactam	lineage	S	no_established_determinant	NA	NA	NA	139
+common	piperacillin-tazobactam	random	R	acquired_gene	captured	NA	no	1
+common	piperacillin-tazobactam	random	R	acquired_gene	captured	NA	yes	17
+common	piperacillin-tazobactam	random	S	no_established_determinant	NA	NA	NA	170
+common	piperacillin-tazobactam	random_cluster	R	acquired_gene	captured	NA	no	2
+common	piperacillin-tazobactam	random_cluster	R	acquired_gene	captured	NA	yes	18
+common	piperacillin-tazobactam	random_cluster	S	no_established_determinant	NA	NA	NA	220
+common	streptomycin	country	R	acquired_gene	captured	NA	no	4
+common	streptomycin	country	R	acquired_gene	captured	NA	yes	61
+common	streptomycin	geography	R	acquired_gene	captured	NA	no	3
+common	streptomycin	geography	R	acquired_gene	captured	NA	yes	16
+common	streptomycin	lineage	R	acquired_gene	captured	NA	no	6
+common	streptomycin	lineage	R	acquired_gene	captured	NA	yes	36
+common	streptomycin	lineage	S	no_established_determinant	NA	NA	NA	1
+common	streptomycin	project	R	acquired_gene	captured	NA	no	9
+common	streptomycin	project	R	acquired_gene	captured	NA	yes	70
+common	streptomycin	random	R	acquired_gene	captured	NA	no	1
+common	streptomycin	random	R	acquired_gene	captured	NA	yes	27
+common	streptomycin	random	S	no_established_determinant	NA	NA	NA	1
+common	streptomycin	random_cluster	R	acquired_gene	captured	NA	no	3
+common	streptomycin	random_cluster	R	acquired_gene	captured	NA	yes	29
+common	streptomycin	random_cluster	S	no_established_determinant	NA	NA	NA	2
+common	sulfisoxazole	country	R	acquired_gene	captured	NA	yes	12
+common	sulfisoxazole	country	R	mutation	NA	not_represented	no	1
+common	sulfisoxazole	country	S	no_established_determinant	NA	NA	NA	47
+common	sulfisoxazole	geography	R	mutation	NA	not_represented	no	1
+common	sulfisoxazole	lineage	R	acquired_gene	captured	NA	yes	4
+common	sulfisoxazole	lineage	R	mutation	NA	not_represented	no	1
+common	sulfisoxazole	lineage	S	no_established_determinant	NA	NA	NA	5
+common	sulfisoxazole	project	R	acquired_gene	captured	NA	yes	10
+common	sulfisoxazole	project	R	mutation	NA	not_represented	no	1
+common	sulfisoxazole	project	S	no_established_determinant	NA	NA	NA	42
+common	sulfisoxazole	random	R	acquired_gene	captured	NA	yes	3
+common	sulfisoxazole	random	R	mutation	NA	not_represented	no	1
+common	sulfisoxazole	random	S	no_established_determinant	NA	NA	NA	2
+common	sulfisoxazole	random_cluster	R	acquired_gene	captured	NA	yes	4
+common	sulfisoxazole	random_cluster	R	mutation	NA	not_represented	no	1
+common	sulfisoxazole	random_cluster	S	no_established_determinant	NA	NA	NA	1
+common	tetracycline	country	R	acquired_gene	captured	NA	no	27
+common	tetracycline	country	R	acquired_gene	captured	NA	yes	16
+common	tetracycline	country	R	acquired_gene	partially_represented	NA	no	2
+common	tetracycline	geography	R	acquired_gene	captured	NA	yes	1
+common	tetracycline	lineage	R	acquired_gene	captured	NA	yes	37
+common	tetracycline	lineage	R	acquired_gene	partially_represented	NA	no	2
+common	tetracycline	lineage	S	no_established_determinant	NA	NA	NA	2
+common	tetracycline	project	R	acquired_gene	captured	NA	no	25
+common	tetracycline	project	R	acquired_gene	captured	NA	yes	15
+common	tetracycline	project	R	acquired_gene	partially_represented	NA	no	2
+common	tetracycline	random	R	acquired_gene	captured	NA	yes	15
+common	tetracycline	random	R	acquired_gene	partially_represented	NA	no	2
+common	tetracycline	random	S	no_established_determinant	NA	NA	NA	2
+common	tetracycline	random_cluster	R	acquired_gene	captured	NA	yes	14
+common	tetracycline	random_cluster	R	acquired_gene	partially_represented	NA	no	2
+common	tetracycline	random_cluster	S	no_established_determinant	NA	NA	NA	1
+common	tobramycin	lineage	R	acquired_gene	captured	NA	no	5
+common	tobramycin	lineage	R	acquired_gene	captured	NA	yes	7
+common	tobramycin	lineage	S	no_established_determinant	NA	NA	NA	4
+common	tobramycin	random	R	acquired_gene	captured	NA	no	5
+common	tobramycin	random	S	no_established_determinant	NA	NA	NA	4
+common	tobramycin	random_cluster	R	acquired_gene	captured	NA	no	4
+common	tobramycin	random_cluster	R	acquired_gene	captured	NA	yes	1
+common	tobramycin	random_cluster	S	no_established_determinant	NA	NA	NA	2
+common	trimethoprim-sulfamethoxazole	country	R	acquired_gene	captured	NA	no	48
+common	trimethoprim-sulfamethoxazole	country	R	acquired_gene	captured	NA	yes	26
+common	trimethoprim-sulfamethoxazole	country	S	no_established_determinant	NA	NA	NA	5
+common	trimethoprim-sulfamethoxazole	geography	R	acquired_gene	captured	NA	no	31
+common	trimethoprim-sulfamethoxazole	geography	R	acquired_gene	captured	NA	yes	4
+common	trimethoprim-sulfamethoxazole	geography	S	no_established_determinant	NA	NA	NA	2
+common	trimethoprim-sulfamethoxazole	lineage	R	acquired_gene	captured	NA	no	3
+common	trimethoprim-sulfamethoxazole	lineage	R	acquired_gene	captured	NA	yes	55
+common	trimethoprim-sulfamethoxazole	lineage	S	no_established_determinant	NA	NA	NA	4
+common	trimethoprim-sulfamethoxazole	project	R	acquired_gene	captured	NA	no	33
+common	trimethoprim-sulfamethoxazole	project	R	acquired_gene	captured	NA	yes	21
+common	trimethoprim-sulfamethoxazole	project	S	no_established_determinant	NA	NA	NA	4
+common	trimethoprim-sulfamethoxazole	random	R	acquired_gene	captured	NA	no	1
+common	trimethoprim-sulfamethoxazole	random	R	acquired_gene	captured	NA	yes	21
+common	trimethoprim-sulfamethoxazole	random	S	no_established_determinant	NA	NA	NA	2
+common	trimethoprim-sulfamethoxazole	random_cluster	R	acquired_gene	captured	NA	no	3
+common	trimethoprim-sulfamethoxazole	random_cluster	R	acquired_gene	captured	NA	yes	28
+common	trimethoprim-sulfamethoxazole	random_cluster	S	no_established_determinant	NA	NA	NA	2
+common	trimethoprim-sulfamethoxazole	temporal	R	acquired_gene	captured	NA	yes	5
+common	trimethoprim-sulfamethoxazole	temporal	S	no_established_determinant	NA	NA	NA	1
+maximal	amikacin	lineage	R	acquired_gene	captured	NA	yes	8
+maximal	amikacin	lineage	S	no_established_determinant	NA	NA	NA	56
+maximal	amikacin	random	R	acquired_gene	captured	NA	yes	5
+maximal	amikacin	random	S	no_established_determinant	NA	NA	NA	64
+maximal	amikacin	random_cluster	R	acquired_gene	captured	NA	yes	10
+maximal	amikacin	random_cluster	S	no_established_determinant	NA	NA	NA	58
+maximal	amoxicillin-clavulanic acid	country	R	acquired_gene	captured	NA	no	16
+maximal	amoxicillin-clavulanic acid	country	R	acquired_gene	captured	NA	yes	5
+maximal	amoxicillin-clavulanic acid	country	R	mutation	NA	not_represented	no	39
+maximal	amoxicillin-clavulanic acid	country	R	mutation	NA	partially_represented	no	6
+maximal	amoxicillin-clavulanic acid	country	R	mutation	NA	partially_represented	yes	31
+maximal	amoxicillin-clavulanic acid	country	S	no_established_determinant	NA	NA	NA	73
+maximal	amoxicillin-clavulanic acid	geography	R	acquired_gene	captured	NA	no	2
+maximal	amoxicillin-clavulanic acid	geography	R	acquired_gene	captured	NA	yes	6
+maximal	amoxicillin-clavulanic acid	geography	R	mutation	NA	partially_represented	yes	6
+maximal	amoxicillin-clavulanic acid	geography	S	no_established_determinant	NA	NA	NA	8
+maximal	amoxicillin-clavulanic acid	lineage	R	acquired_gene	captured	NA	no	7
+maximal	amoxicillin-clavulanic acid	lineage	R	acquired_gene	captured	NA	yes	35
+maximal	amoxicillin-clavulanic acid	lineage	R	mutation	NA	not_represented	yes	40
+maximal	amoxicillin-clavulanic acid	lineage	R	mutation	NA	partially_represented	yes	35
+maximal	amoxicillin-clavulanic acid	lineage	S	no_established_determinant	NA	NA	NA	59
+maximal	amoxicillin-clavulanic acid	project	R	acquired_gene	captured	NA	no	2
+maximal	amoxicillin-clavulanic acid	project	R	acquired_gene	captured	NA	yes	12
+maximal	amoxicillin-clavulanic acid	project	R	mutation	NA	not_represented	yes	37
+maximal	amoxicillin-clavulanic acid	project	R	mutation	NA	partially_represented	yes	33
+maximal	amoxicillin-clavulanic acid	project	S	no_established_determinant	NA	NA	NA	121
+maximal	amoxicillin-clavulanic acid	random	R	acquired_gene	captured	NA	no	6
+maximal	amoxicillin-clavulanic acid	random	R	acquired_gene	captured	NA	yes	11
+maximal	amoxicillin-clavulanic acid	random	R	mutation	NA	not_represented	yes	5
+maximal	amoxicillin-clavulanic acid	random	R	mutation	NA	partially_represented	yes	13
+maximal	amoxicillin-clavulanic acid	random	S	no_established_determinant	NA	NA	NA	62
+maximal	amoxicillin-clavulanic acid	random_cluster	R	acquired_gene	captured	NA	no	8
+maximal	amoxicillin-clavulanic acid	random_cluster	R	acquired_gene	captured	NA	yes	12
+maximal	amoxicillin-clavulanic acid	random_cluster	R	mutation	NA	not_represented	yes	7
+maximal	amoxicillin-clavulanic acid	random_cluster	R	mutation	NA	partially_represented	yes	17
+maximal	amoxicillin-clavulanic acid	random_cluster	S	no_established_determinant	NA	NA	NA	69
+maximal	amoxicillin-clavulanic acid	temporal	R	acquired_gene	captured	NA	yes	8
+maximal	amoxicillin-clavulanic acid	temporal	S	no_established_determinant	NA	NA	NA	17
+maximal	ampicillin	country	R	acquired_gene	captured	NA	no	135
+maximal	ampicillin	country	R	acquired_gene	captured	NA	yes	60
+maximal	ampicillin	country	R	mutation	NA	not_represented	no	22
+maximal	ampicillin	country	R	mutation	NA	partially_represented	no	5
+maximal	ampicillin	country	R	mutation	NA	partially_represented	yes	25
+maximal	ampicillin	country	S	no_established_determinant	NA	NA	NA	65
+maximal	ampicillin	geography	R	acquired_gene	captured	NA	no	18
+maximal	ampicillin	geography	R	acquired_gene	captured	NA	yes	55
+maximal	ampicillin	geography	R	mutation	NA	partially_represented	yes	35
+maximal	ampicillin	geography	S	no_established_determinant	NA	NA	NA	5
+maximal	ampicillin	lineage	R	acquired_gene	captured	NA	no	7
+maximal	ampicillin	lineage	R	acquired_gene	captured	NA	yes	51
+maximal	ampicillin	lineage	R	mutation	NA	not_represented	yes	22
+maximal	ampicillin	lineage	R	mutation	NA	partially_represented	yes	45
+maximal	ampicillin	lineage	S	no_established_determinant	NA	NA	NA	25
+maximal	ampicillin	project	R	acquired_gene	captured	NA	no	4
+maximal	ampicillin	project	R	acquired_gene	captured	NA	yes	59
+maximal	ampicillin	project	R	mutation	NA	not_represented	yes	11
+maximal	ampicillin	project	R	mutation	NA	partially_represented	yes	27
+maximal	ampicillin	project	S	no_established_determinant	NA	NA	NA	75
+maximal	ampicillin	random	R	acquired_gene	captured	NA	no	3
+maximal	ampicillin	random	R	acquired_gene	captured	NA	yes	44
+maximal	ampicillin	random	R	mutation	NA	not_represented	yes	11
+maximal	ampicillin	random	R	mutation	NA	partially_represented	yes	26
+maximal	ampicillin	random	S	no_established_determinant	NA	NA	NA	15
+maximal	ampicillin	random_cluster	R	acquired_gene	captured	NA	no	3
+maximal	ampicillin	random_cluster	R	acquired_gene	captured	NA	yes	53
+maximal	ampicillin	random_cluster	R	mutation	NA	not_represented	yes	13
+maximal	ampicillin	random_cluster	R	mutation	NA	partially_represented	yes	36
+maximal	ampicillin	random_cluster	S	no_established_determinant	NA	NA	NA	12
+maximal	ampicillin	temporal	R	acquired_gene	captured	NA	no	23
+maximal	ampicillin	temporal	R	acquired_gene	captured	NA	yes	19
+maximal	ampicillin	temporal	R	mutation	NA	partially_represented	yes	31
+maximal	ampicillin	temporal	S	no_established_determinant	NA	NA	NA	1
+maximal	aztreonam	lineage	R	acquired_gene	captured	NA	no	3
+maximal	aztreonam	lineage	R	acquired_gene	captured	NA	yes	8
+maximal	aztreonam	lineage	S	no_established_determinant	NA	NA	NA	26
+maximal	aztreonam	random	R	acquired_gene	captured	NA	no	5
+maximal	aztreonam	random	R	acquired_gene	captured	NA	yes	5
+maximal	aztreonam	random	S	no_established_determinant	NA	NA	NA	22
+maximal	aztreonam	random_cluster	R	acquired_gene	captured	NA	no	6
+maximal	aztreonam	random_cluster	R	acquired_gene	captured	NA	yes	7
+maximal	aztreonam	random_cluster	S	no_established_determinant	NA	NA	NA	22
+maximal	cefazolin	country	R	acquired_gene	captured	NA	no	252
+maximal	cefazolin	country	R	acquired_gene	captured	NA	yes	125
+maximal	cefazolin	country	R	both	captured	not_represented	no	22
+maximal	cefazolin	country	R	both	captured	partially_represented	no	2
+maximal	cefazolin	country	R	mutation	NA	not_represented	no	17
+maximal	cefazolin	country	R	mutation	NA	partially_represented	no	9
+maximal	cefazolin	country	R	mutation	NA	partially_represented	yes	1
+maximal	cefazolin	country	S	no_established_determinant	NA	NA	NA	141
+maximal	cefazolin	geography	R	acquired_gene	captured	NA	yes	1
+maximal	cefazolin	geography	R	mutation	NA	partially_represented	yes	1
+maximal	cefazolin	geography	S	no_established_determinant	NA	NA	NA	2
+maximal	cefazolin	lineage	R	acquired_gene	captured	NA	no	10
+maximal	cefazolin	lineage	R	acquired_gene	captured	NA	yes	79
+maximal	cefazolin	lineage	R	both	captured	not_represented	yes	20
+maximal	cefazolin	lineage	R	both	captured	partially_represented	yes	1
+maximal	cefazolin	lineage	R	mutation	NA	not_represented	yes	18
+maximal	cefazolin	lineage	R	mutation	NA	partially_represented	no	3
+maximal	cefazolin	lineage	R	mutation	NA	partially_represented	yes	6
+maximal	cefazolin	lineage	S	no_established_determinant	NA	NA	NA	22
+maximal	cefazolin	project	R	acquired_gene	captured	NA	no	4
+maximal	cefazolin	project	R	acquired_gene	captured	NA	yes	68
+maximal	cefazolin	project	R	both	captured	not_represented	no	22
+maximal	cefazolin	project	R	both	captured	partially_represented	yes	1
+maximal	cefazolin	project	R	mutation	NA	not_represented	no	17
+maximal	cefazolin	project	R	mutation	NA	partially_represented	no	2
+maximal	cefazolin	project	R	mutation	NA	partially_represented	yes	4
+maximal	cefazolin	project	S	no_established_determinant	NA	NA	NA	128
+maximal	cefazolin	random	R	acquired_gene	captured	NA	no	8
+maximal	cefazolin	random	R	acquired_gene	captured	NA	yes	53
+maximal	cefazolin	random	R	both	captured	partially_represented	yes	1
+maximal	cefazolin	random	R	mutation	NA	not_represented	yes	8
+maximal	cefazolin	random	R	mutation	NA	partially_represented	yes	5
+maximal	cefazolin	random	S	no_established_determinant	NA	NA	NA	22
+maximal	cefazolin	random_cluster	R	acquired_gene	captured	NA	no	6
+maximal	cefazolin	random_cluster	R	acquired_gene	captured	NA	yes	67
+maximal	cefazolin	random_cluster	R	both	captured	not_represented	yes	1
+maximal	cefazolin	random_cluster	R	both	captured	partially_represented	yes	1
+maximal	cefazolin	random_cluster	R	mutation	NA	not_represented	yes	9
+maximal	cefazolin	random_cluster	R	mutation	NA	partially_represented	yes	7
+maximal	cefazolin	random_cluster	S	no_established_determinant	NA	NA	NA	22
+maximal	cefepime	country	R	acquired_gene	captured	NA	no	47
+maximal	cefepime	country	R	acquired_gene	captured	NA	yes	77
+maximal	cefepime	country	S	no_established_determinant	NA	NA	NA	362
+maximal	cefepime	geography	R	acquired_gene	captured	NA	no	27
+maximal	cefepime	geography	R	acquired_gene	captured	NA	yes	48
+maximal	cefepime	geography	S	no_established_determinant	NA	NA	NA	2
+maximal	cefepime	lineage	R	acquired_gene	captured	NA	no	8
+maximal	cefepime	lineage	R	acquired_gene	captured	NA	yes	79
+maximal	cefepime	lineage	S	no_established_determinant	NA	NA	NA	34
+maximal	cefepime	project	R	acquired_gene	captured	NA	no	22
+maximal	cefepime	project	R	acquired_gene	captured	NA	yes	107
+maximal	cefepime	project	S	no_established_determinant	NA	NA	NA	56
+maximal	cefepime	random	R	acquired_gene	captured	NA	no	5
+maximal	cefepime	random	R	acquired_gene	captured	NA	yes	67
+maximal	cefepime	random	S	no_established_determinant	NA	NA	NA	28
+maximal	cefepime	random_cluster	R	acquired_gene	captured	NA	no	9
+maximal	cefepime	random_cluster	R	acquired_gene	captured	NA	yes	64
+maximal	cefepime	random_cluster	S	no_established_determinant	NA	NA	NA	42
+maximal	cefepime	temporal	R	acquired_gene	captured	NA	no	62
+maximal	cefepime	temporal	R	acquired_gene	captured	NA	yes	11
+maximal	cefepime	temporal	S	no_established_determinant	NA	NA	NA	10
+maximal	cefoxitin	country	R	acquired_gene	captured	NA	yes	12
+maximal	cefoxitin	country	R	mutation	NA	not_represented	no	13
+maximal	cefoxitin	country	R	mutation	NA	not_represented	yes	1
+maximal	cefoxitin	country	R	mutation	NA	partially_represented	no	5
+maximal	cefoxitin	country	R	mutation	NA	partially_represented	yes	58
+maximal	cefoxitin	country	S	no_established_determinant	NA	NA	NA	225
+maximal	cefoxitin	geography	R	acquired_gene	captured	NA	yes	11
+maximal	cefoxitin	geography	R	mutation	NA	not_represented	no	10
+maximal	cefoxitin	geography	R	mutation	NA	partially_represented	no	5
+maximal	cefoxitin	geography	R	mutation	NA	partially_represented	yes	65
+maximal	cefoxitin	geography	S	no_established_determinant	NA	NA	NA	23
+maximal	cefoxitin	lineage	R	acquired_gene	captured	NA	no	1
+maximal	cefoxitin	lineage	R	acquired_gene	captured	NA	yes	16
+maximal	cefoxitin	lineage	R	mutation	NA	not_represented	no	1
+maximal	cefoxitin	lineage	R	mutation	NA	not_represented	yes	11
+maximal	cefoxitin	lineage	R	mutation	NA	partially_represented	yes	26
+maximal	cefoxitin	lineage	S	no_established_determinant	NA	NA	NA	128
+maximal	cefoxitin	project	R	acquired_gene	captured	NA	yes	9
+maximal	cefoxitin	project	R	mutation	NA	not_represented	yes	1
+maximal	cefoxitin	project	R	mutation	NA	partially_represented	yes	16
+maximal	cefoxitin	project	S	no_established_determinant	NA	NA	NA	147
+maximal	cefoxitin	random	R	acquired_gene	captured	NA	no	1
+maximal	cefoxitin	random	R	acquired_gene	captured	NA	yes	11
+maximal	cefoxitin	random	R	mutation	NA	not_represented	yes	3
+maximal	cefoxitin	random	R	mutation	NA	partially_represented	yes	12
+maximal	cefoxitin	random	S	no_established_determinant	NA	NA	NA	104
+maximal	cefoxitin	random_cluster	R	acquired_gene	captured	NA	yes	11
+maximal	cefoxitin	random_cluster	R	mutation	NA	not_represented	yes	3
+maximal	cefoxitin	random_cluster	R	mutation	NA	partially_represented	yes	13
+maximal	cefoxitin	random_cluster	S	no_established_determinant	NA	NA	NA	139
+maximal	cefoxitin	temporal	R	acquired_gene	captured	NA	yes	11
+maximal	cefoxitin	temporal	R	mutation	NA	partially_represented	yes	26
+maximal	cefoxitin	temporal	S	no_established_determinant	NA	NA	NA	48
+maximal	ceftazidime	country	R	acquired_gene	captured	NA	no	48
+maximal	ceftazidime	country	R	acquired_gene	captured	NA	yes	75
+maximal	ceftazidime	country	R	mutation	NA	not_represented	yes	3
+maximal	ceftazidime	country	R	mutation	NA	partially_represented	yes	39
+maximal	ceftazidime	country	S	no_established_determinant	NA	NA	NA	15
+maximal	ceftazidime	geography	R	acquired_gene	captured	NA	no	97
+maximal	ceftazidime	geography	R	acquired_gene	captured	NA	yes	56
+maximal	ceftazidime	geography	R	mutation	NA	partially_represented	yes	41
+maximal	ceftazidime	geography	S	no_established_determinant	NA	NA	NA	5
+maximal	ceftazidime	lineage	R	acquired_gene	captured	NA	no	9
+maximal	ceftazidime	lineage	R	acquired_gene	captured	NA	yes	61
+maximal	ceftazidime	lineage	R	mutation	NA	not_represented	yes	3
+maximal	ceftazidime	lineage	R	mutation	NA	partially_represented	yes	7
+maximal	ceftazidime	lineage	S	no_established_determinant	NA	NA	NA	14
+maximal	ceftazidime	project	R	acquired_gene	captured	NA	no	3
+maximal	ceftazidime	project	R	acquired_gene	captured	NA	yes	59
+maximal	ceftazidime	project	R	mutation	NA	not_represented	yes	2
+maximal	ceftazidime	project	R	mutation	NA	partially_represented	yes	2
+maximal	ceftazidime	project	S	no_established_determinant	NA	NA	NA	12
+maximal	ceftazidime	random	R	acquired_gene	captured	NA	no	5
+maximal	ceftazidime	random	R	acquired_gene	captured	NA	yes	48
+maximal	ceftazidime	random	R	mutation	NA	not_represented	yes	3
+maximal	ceftazidime	random	R	mutation	NA	partially_represented	yes	3
+maximal	ceftazidime	random	S	no_established_determinant	NA	NA	NA	13
+maximal	ceftazidime	random_cluster	R	acquired_gene	captured	NA	no	9
+maximal	ceftazidime	random_cluster	R	acquired_gene	captured	NA	yes	66
+maximal	ceftazidime	random_cluster	R	mutation	NA	not_represented	yes	3
+maximal	ceftazidime	random_cluster	R	mutation	NA	partially_represented	yes	3
+maximal	ceftazidime	random_cluster	S	no_established_determinant	NA	NA	NA	24
+maximal	ceftazidime	temporal	R	acquired_gene	captured	NA	no	61
+maximal	ceftazidime	temporal	R	acquired_gene	captured	NA	yes	13
+maximal	ceftazidime	temporal	R	mutation	NA	not_represented	yes	1
+maximal	ceftazidime	temporal	R	mutation	NA	partially_represented	yes	39
+maximal	ceftazidime	temporal	S	no_established_determinant	NA	NA	NA	2
+maximal	ceftiofur	lineage	R	acquired_gene	captured	NA	no	4
+maximal	ceftiofur	lineage	R	acquired_gene	captured	NA	yes	4
+maximal	ceftiofur	lineage	R	mutation	NA	partially_represented	yes	2
+maximal	ceftiofur	random	R	acquired_gene	captured	NA	no	3
+maximal	ceftiofur	random	R	acquired_gene	captured	NA	yes	3
+maximal	ceftiofur	random	R	mutation	NA	partially_represented	yes	2
+maximal	ceftiofur	random	S	no_established_determinant	NA	NA	NA	2
+maximal	ceftiofur	random_cluster	R	acquired_gene	captured	NA	no	1
+maximal	ceftiofur	random_cluster	R	acquired_gene	captured	NA	yes	5
+maximal	ceftiofur	random_cluster	R	mutation	NA	partially_represented	yes	2
+maximal	ceftiofur	random_cluster	S	no_established_determinant	NA	NA	NA	2
+maximal	ceftriaxone	country	R	acquired_gene	captured	NA	no	15
+maximal	ceftriaxone	country	R	acquired_gene	captured	NA	yes	88
+maximal	ceftriaxone	country	R	mutation	NA	not_represented	no	4
+maximal	ceftriaxone	country	R	mutation	NA	partially_represented	yes	3
+maximal	ceftriaxone	country	S	no_established_determinant	NA	NA	NA	60
+maximal	ceftriaxone	geography	R	acquired_gene	captured	NA	yes	3
+maximal	ceftriaxone	geography	R	mutation	NA	partially_represented	yes	2
+maximal	ceftriaxone	geography	S	no_established_determinant	NA	NA	NA	1
+maximal	ceftriaxone	lineage	R	acquired_gene	captured	NA	no	8
+maximal	ceftriaxone	lineage	R	acquired_gene	captured	NA	yes	10
+maximal	ceftriaxone	lineage	R	mutation	NA	not_represented	yes	4
+maximal	ceftriaxone	lineage	R	mutation	NA	partially_represented	yes	4
+maximal	ceftriaxone	lineage	S	no_established_determinant	NA	NA	NA	3
+maximal	ceftriaxone	project	R	acquired_gene	captured	NA	no	7
+maximal	ceftriaxone	project	R	acquired_gene	captured	NA	yes	12
+maximal	ceftriaxone	project	R	mutation	NA	not_represented	yes	3
+maximal	ceftriaxone	project	R	mutation	NA	partially_represented	yes	3
+maximal	ceftriaxone	project	S	no_established_determinant	NA	NA	NA	240
+maximal	ceftriaxone	random	R	acquired_gene	captured	NA	no	7
+maximal	ceftriaxone	random	R	acquired_gene	captured	NA	yes	8
+maximal	ceftriaxone	random	R	mutation	NA	not_represented	yes	4
+maximal	ceftriaxone	random	R	mutation	NA	partially_represented	yes	4
+maximal	ceftriaxone	random	S	no_established_determinant	NA	NA	NA	8
+maximal	ceftriaxone	random_cluster	R	acquired_gene	captured	NA	no	7
+maximal	ceftriaxone	random_cluster	R	acquired_gene	captured	NA	yes	9
+maximal	ceftriaxone	random_cluster	R	mutation	NA	not_represented	yes	4
+maximal	ceftriaxone	random_cluster	R	mutation	NA	partially_represented	yes	4
+maximal	ceftriaxone	random_cluster	S	no_established_determinant	NA	NA	NA	5
+maximal	ceftriaxone	temporal	R	acquired_gene	captured	NA	no	4
+maximal	ceftriaxone	temporal	R	acquired_gene	captured	NA	yes	3
+maximal	ceftriaxone	temporal	R	mutation	NA	not_represented	yes	1
+maximal	chloramphenicol	country	R	acquired_gene	captured	NA	no	1
+maximal	chloramphenicol	country	R	acquired_gene	captured	NA	yes	2
+maximal	chloramphenicol	country	S	no_established_determinant	NA	NA	NA	1
+maximal	chloramphenicol	geography	R	acquired_gene	captured	NA	yes	1
+maximal	chloramphenicol	geography	S	no_established_determinant	NA	NA	NA	1
+maximal	chloramphenicol	lineage	R	acquired_gene	captured	NA	no	2
+maximal	chloramphenicol	lineage	R	acquired_gene	captured	NA	yes	2
+maximal	chloramphenicol	lineage	S	no_established_determinant	NA	NA	NA	2
+maximal	chloramphenicol	project	R	acquired_gene	captured	NA	no	1
+maximal	chloramphenicol	project	R	acquired_gene	captured	NA	yes	2
+maximal	chloramphenicol	project	S	no_established_determinant	NA	NA	NA	1
+maximal	chloramphenicol	random	R	acquired_gene	captured	NA	no	2
+maximal	chloramphenicol	random	R	acquired_gene	captured	NA	yes	1
+maximal	chloramphenicol	random	S	no_established_determinant	NA	NA	NA	1
+maximal	chloramphenicol	random_cluster	R	acquired_gene	captured	NA	no	2
+maximal	chloramphenicol	random_cluster	R	acquired_gene	captured	NA	yes	3
+maximal	chloramphenicol	temporal	R	acquired_gene	captured	NA	no	1
+maximal	chloramphenicol	temporal	R	acquired_gene	captured	NA	yes	2
+maximal	ciprofloxacin	country	R	acquired_gene	captured	NA	no	3
+maximal	ciprofloxacin	country	R	acquired_gene	captured	NA	yes	68
+maximal	ciprofloxacin	country	R	acquired_gene	not_represented	NA	no	1
+maximal	ciprofloxacin	country	R	both	captured	not_represented	no	3
+maximal	ciprofloxacin	country	R	both	captured	not_represented	yes	1
+maximal	ciprofloxacin	country	R	both	captured	partially_represented	no	2
+maximal	ciprofloxacin	country	R	mutation	NA	captured	no	1
+maximal	ciprofloxacin	country	R	mutation	NA	not_represented	no	3
+maximal	ciprofloxacin	country	R	mutation	NA	not_represented	yes	65
+maximal	ciprofloxacin	country	R	mutation	NA	partially_represented	no	11
+maximal	ciprofloxacin	country	R	mutation	NA	partially_represented	yes	32
+maximal	ciprofloxacin	country	S	no_established_determinant	NA	NA	NA	276
+maximal	ciprofloxacin	geography	R	acquired_gene	captured	NA	yes	57
+maximal	ciprofloxacin	geography	R	acquired_gene	not_represented	NA	no	3
+maximal	ciprofloxacin	geography	R	both	captured	not_represented	no	2
+maximal	ciprofloxacin	geography	R	both	captured	not_represented	yes	2
+maximal	ciprofloxacin	geography	R	both	captured	partially_represented	yes	1
+maximal	ciprofloxacin	geography	R	mutation	NA	captured	no	1
+maximal	ciprofloxacin	geography	R	mutation	NA	not_represented	no	1
+maximal	ciprofloxacin	geography	R	mutation	NA	not_represented	yes	39
+maximal	ciprofloxacin	geography	R	mutation	NA	partially_represented	yes	16
+maximal	ciprofloxacin	geography	S	no_established_determinant	NA	NA	NA	24
+maximal	ciprofloxacin	lineage	R	acquired_gene	captured	NA	no	1
+maximal	ciprofloxacin	lineage	R	acquired_gene	captured	NA	yes	21
+maximal	ciprofloxacin	lineage	R	both	captured	captured	no	1
+maximal	ciprofloxacin	lineage	R	both	captured	not_represented	no	3
+maximal	ciprofloxacin	lineage	R	both	captured	not_represented	yes	3
+maximal	ciprofloxacin	lineage	R	both	captured	partially_represented	yes	1
+maximal	ciprofloxacin	lineage	R	mutation	NA	captured	no	2
+maximal	ciprofloxacin	lineage	R	mutation	NA	not_represented	no	3
+maximal	ciprofloxacin	lineage	R	mutation	NA	not_represented	yes	72
+maximal	ciprofloxacin	lineage	R	mutation	NA	partially_represented	no	3
+maximal	ciprofloxacin	lineage	R	mutation	NA	partially_represented	yes	30
+maximal	ciprofloxacin	lineage	S	no_established_determinant	NA	NA	NA	71
+maximal	ciprofloxacin	project	R	acquired_gene	captured	NA	no	3
+maximal	ciprofloxacin	project	R	acquired_gene	captured	NA	yes	69
+maximal	ciprofloxacin	project	R	acquired_gene	not_represented	NA	no	2
+maximal	ciprofloxacin	project	R	both	captured	not_represented	no	1
+maximal	ciprofloxacin	project	R	both	captured	not_represented	yes	4
+maximal	ciprofloxacin	project	R	both	captured	partially_represented	yes	3
+maximal	ciprofloxacin	project	R	mutation	NA	captured	no	2
+maximal	ciprofloxacin	project	R	mutation	NA	not_represented	no	1
+maximal	ciprofloxacin	project	R	mutation	NA	not_represented	yes	61
+maximal	ciprofloxacin	project	R	mutation	NA	partially_represented	yes	19
+maximal	ciprofloxacin	project	S	no_established_determinant	NA	NA	NA	57
+maximal	ciprofloxacin	random	R	acquired_gene	captured	NA	no	2
+maximal	ciprofloxacin	random	R	acquired_gene	captured	NA	yes	18
+maximal	ciprofloxacin	random	R	both	captured	not_represented	yes	2
+maximal	ciprofloxacin	random	R	both	captured	partially_represented	yes	1
+maximal	ciprofloxacin	random	R	mutation	NA	captured	no	2
+maximal	ciprofloxacin	random	R	mutation	NA	not_represented	no	1
+maximal	ciprofloxacin	random	R	mutation	NA	not_represented	yes	46
+maximal	ciprofloxacin	random	R	mutation	NA	partially_represented	yes	5
+maximal	ciprofloxacin	random	S	no_established_determinant	NA	NA	NA	56
+maximal	ciprofloxacin	random_cluster	R	acquired_gene	captured	NA	no	3
+maximal	ciprofloxacin	random_cluster	R	acquired_gene	captured	NA	yes	24
+maximal	ciprofloxacin	random_cluster	R	both	captured	not_represented	yes	3
+maximal	ciprofloxacin	random_cluster	R	mutation	NA	captured	no	2
+maximal	ciprofloxacin	random_cluster	R	mutation	NA	not_represented	no	2
+maximal	ciprofloxacin	random_cluster	R	mutation	NA	not_represented	yes	55
+maximal	ciprofloxacin	random_cluster	R	mutation	NA	partially_represented	yes	13
+maximal	ciprofloxacin	random_cluster	S	no_established_determinant	NA	NA	NA	63
+maximal	ciprofloxacin	temporal	R	acquired_gene	captured	NA	no	1
+maximal	ciprofloxacin	temporal	R	acquired_gene	captured	NA	yes	83
+maximal	ciprofloxacin	temporal	R	acquired_gene	not_represented	NA	no	3
+maximal	ciprofloxacin	temporal	R	both	captured	not_represented	no	3
+maximal	ciprofloxacin	temporal	R	both	captured	not_represented	yes	5
+maximal	ciprofloxacin	temporal	R	both	captured	partially_represented	yes	2
+maximal	ciprofloxacin	temporal	R	mutation	NA	captured	no	2
+maximal	ciprofloxacin	temporal	R	mutation	NA	not_represented	no	1
+maximal	ciprofloxacin	temporal	R	mutation	NA	not_represented	yes	46
+maximal	ciprofloxacin	temporal	R	mutation	NA	partially_represented	yes	15
+maximal	ciprofloxacin	temporal	S	no_established_determinant	NA	NA	NA	15
+maximal	ertapenem	lineage	R	acquired_gene	captured	NA	no	6
+maximal	ertapenem	lineage	R	acquired_gene	captured	NA	yes	1
+maximal	ertapenem	lineage	S	no_established_determinant	NA	NA	NA	328
+maximal	ertapenem	random	R	acquired_gene	captured	NA	no	3
+maximal	ertapenem	random	S	no_established_determinant	NA	NA	NA	304
+maximal	ertapenem	random_cluster	R	acquired_gene	captured	NA	no	7
+maximal	ertapenem	random_cluster	S	no_established_determinant	NA	NA	NA	300
+maximal	gentamicin	country	R	acquired_gene	captured	NA	no	2
+maximal	gentamicin	country	R	acquired_gene	captured	NA	yes	34
+maximal	gentamicin	country	S	no_established_determinant	NA	NA	NA	92
+maximal	gentamicin	geography	R	acquired_gene	captured	NA	no	17
+maximal	gentamicin	geography	R	acquired_gene	captured	NA	yes	7
+maximal	gentamicin	geography	S	no_established_determinant	NA	NA	NA	13
+maximal	gentamicin	lineage	R	acquired_gene	captured	NA	no	1
+maximal	gentamicin	lineage	R	acquired_gene	captured	NA	yes	21
+maximal	gentamicin	lineage	S	no_established_determinant	NA	NA	NA	30
+maximal	gentamicin	project	R	acquired_gene	captured	NA	yes	36
+maximal	gentamicin	project	S	no_established_determinant	NA	NA	NA	26
+maximal	gentamicin	random	R	acquired_gene	captured	NA	yes	15
+maximal	gentamicin	random	S	no_established_determinant	NA	NA	NA	41
+maximal	gentamicin	random_cluster	R	acquired_gene	captured	NA	yes	23
+maximal	gentamicin	random_cluster	S	no_established_determinant	NA	NA	NA	39
+maximal	gentamicin	temporal	R	acquired_gene	captured	NA	no	2
+maximal	gentamicin	temporal	R	acquired_gene	captured	NA	yes	12
+maximal	gentamicin	temporal	S	no_established_determinant	NA	NA	NA	16
+maximal	kanamycin	lineage	R	acquired_gene	captured	NA	yes	6
+maximal	kanamycin	random	R	acquired_gene	captured	NA	yes	5
+maximal	kanamycin	random	S	no_established_determinant	NA	NA	NA	5
+maximal	kanamycin	random_cluster	R	acquired_gene	captured	NA	yes	1
+maximal	kanamycin	random_cluster	S	no_established_determinant	NA	NA	NA	2
+maximal	levofloxacin	country	R	acquired_gene	captured	NA	no	1
+maximal	levofloxacin	country	R	acquired_gene	captured	NA	yes	7
+maximal	levofloxacin	country	R	both	captured	not_represented	no	3
+maximal	levofloxacin	country	R	both	captured	not_represented	yes	5
+maximal	levofloxacin	country	R	both	captured	partially_represented	yes	1
+maximal	levofloxacin	country	R	mutation	NA	not_represented	no	1
+maximal	levofloxacin	country	R	mutation	NA	not_represented	yes	3
+maximal	levofloxacin	country	R	mutation	NA	partially_represented	yes	1
+maximal	levofloxacin	country	S	no_established_determinant	NA	NA	NA	55
+maximal	levofloxacin	geography	R	both	captured	not_represented	yes	1
+maximal	levofloxacin	geography	S	no_established_determinant	NA	NA	NA	3
+maximal	levofloxacin	lineage	R	acquired_gene	captured	NA	yes	6
+maximal	levofloxacin	lineage	R	both	captured	not_represented	no	2
+maximal	levofloxacin	lineage	R	both	captured	not_represented	yes	6
+maximal	levofloxacin	lineage	R	both	captured	partially_represented	yes	1
+maximal	levofloxacin	lineage	R	mutation	NA	not_represented	yes	12
+maximal	levofloxacin	lineage	R	mutation	NA	partially_represented	no	5
+maximal	levofloxacin	lineage	R	mutation	NA	partially_represented	yes	4
+maximal	levofloxacin	lineage	S	no_established_determinant	NA	NA	NA	35
+maximal	levofloxacin	project	R	acquired_gene	captured	NA	yes	8
+maximal	levofloxacin	project	R	both	captured	not_represented	no	2
+maximal	levofloxacin	project	R	both	captured	not_represented	yes	6
+maximal	levofloxacin	project	R	both	captured	partially_represented	yes	1
+maximal	levofloxacin	project	R	mutation	NA	not_represented	yes	4
+maximal	levofloxacin	project	R	mutation	NA	partially_represented	yes	2
+maximal	levofloxacin	project	S	no_established_determinant	NA	NA	NA	47
+maximal	levofloxacin	random	R	acquired_gene	captured	NA	yes	7
+maximal	levofloxacin	random	R	both	captured	not_represented	no	1
+maximal	levofloxacin	random	R	both	captured	not_represented	yes	7
+maximal	levofloxacin	random	R	both	captured	partially_represented	yes	1
+maximal	levofloxacin	random	R	mutation	NA	not_represented	yes	3
+maximal	levofloxacin	random	S	no_established_determinant	NA	NA	NA	13
+maximal	levofloxacin	random_cluster	R	acquired_gene	captured	NA	yes	8
+maximal	levofloxacin	random_cluster	R	both	captured	not_represented	yes	7
+maximal	levofloxacin	random_cluster	R	both	captured	partially_represented	yes	1
+maximal	levofloxacin	random_cluster	R	mutation	NA	not_represented	yes	3
+maximal	levofloxacin	random_cluster	R	mutation	NA	partially_represented	yes	2
+maximal	levofloxacin	random_cluster	S	no_established_determinant	NA	NA	NA	16
+maximal	levofloxacin	temporal	R	acquired_gene	captured	NA	yes	7
+maximal	levofloxacin	temporal	R	both	captured	not_represented	yes	5
+maximal	levofloxacin	temporal	R	both	captured	partially_represented	yes	1
+maximal	levofloxacin	temporal	R	mutation	NA	not_represented	yes	1
+maximal	levofloxacin	temporal	S	no_established_determinant	NA	NA	NA	4
+maximal	meropenem	lineage	R	acquired_gene	captured	NA	no	4
+maximal	meropenem	lineage	R	acquired_gene	captured	NA	yes	2
+maximal	meropenem	lineage	S	no_established_determinant	NA	NA	NA	8
+maximal	meropenem	random	R	acquired_gene	captured	NA	no	6
+maximal	meropenem	random	R	acquired_gene	captured	NA	yes	2
+maximal	meropenem	random	S	no_established_determinant	NA	NA	NA	25
+maximal	meropenem	random_cluster	R	acquired_gene	captured	NA	no	5
+maximal	meropenem	random_cluster	R	acquired_gene	captured	NA	yes	3
+maximal	meropenem	random_cluster	S	no_established_determinant	NA	NA	NA	31
+maximal	nalidixic acid	country	R	mutation	NA	not_represented	no	10
+maximal	nalidixic acid	country	R	mutation	NA	not_represented	yes	116
+maximal	nalidixic acid	country	R	mutation	NA	partially_represented	yes	16
+maximal	nalidixic acid	country	S	no_established_determinant	NA	NA	NA	159
+maximal	nalidixic acid	geography	R	mutation	NA	captured	no	2
+maximal	nalidixic acid	geography	R	mutation	NA	not_represented	no	18
+maximal	nalidixic acid	geography	R	mutation	NA	not_represented	yes	81
+maximal	nalidixic acid	geography	R	mutation	NA	partially_represented	no	10
+maximal	nalidixic acid	geography	R	mutation	NA	partially_represented	yes	7
+maximal	nalidixic acid	geography	S	no_established_determinant	NA	NA	NA	87
+maximal	nalidixic acid	lineage	R	mutation	NA	not_represented	no	9
+maximal	nalidixic acid	lineage	R	mutation	NA	not_represented	yes	115
+maximal	nalidixic acid	lineage	R	mutation	NA	partially_represented	no	1
+maximal	nalidixic acid	lineage	R	mutation	NA	partially_represented	yes	16
+maximal	nalidixic acid	lineage	S	no_established_determinant	NA	NA	NA	275
+maximal	nalidixic acid	project	R	mutation	NA	not_represented	no	8
+maximal	nalidixic acid	project	R	mutation	NA	not_represented	yes	111
+maximal	nalidixic acid	project	R	mutation	NA	partially_represented	yes	11
+maximal	nalidixic acid	project	S	no_established_determinant	NA	NA	NA	208
+maximal	nalidixic acid	random	R	mutation	NA	not_represented	no	4
+maximal	nalidixic acid	random	R	mutation	NA	not_represented	yes	66
+maximal	nalidixic acid	random	R	mutation	NA	partially_represented	yes	5
+maximal	nalidixic acid	random	S	no_established_determinant	NA	NA	NA	184
+maximal	nalidixic acid	random_cluster	R	mutation	NA	not_represented	no	5
+maximal	nalidixic acid	random_cluster	R	mutation	NA	not_represented	yes	80
+maximal	nalidixic acid	random_cluster	R	mutation	NA	partially_represented	no	1
+maximal	nalidixic acid	random_cluster	R	mutation	NA	partially_represented	yes	7
+maximal	nalidixic acid	random_cluster	S	no_established_determinant	NA	NA	NA	258
+maximal	nalidixic acid	temporal	R	mutation	NA	not_represented	no	1
+maximal	nalidixic acid	temporal	R	mutation	NA	not_represented	yes	35
+maximal	nalidixic acid	temporal	R	mutation	NA	partially_represented	no	1
+maximal	nalidixic acid	temporal	R	mutation	NA	partially_represented	yes	7
+maximal	nalidixic acid	temporal	S	no_established_determinant	NA	NA	NA	29
+maximal	piperacillin-tazobactam	lineage	R	acquired_gene	captured	NA	no	3
+maximal	piperacillin-tazobactam	lineage	R	acquired_gene	captured	NA	yes	21
+maximal	piperacillin-tazobactam	lineage	S	no_established_determinant	NA	NA	NA	159
+maximal	piperacillin-tazobactam	random	R	acquired_gene	captured	NA	no	1
+maximal	piperacillin-tazobactam	random	R	acquired_gene	captured	NA	yes	18
+maximal	piperacillin-tazobactam	random	S	no_established_determinant	NA	NA	NA	157
+maximal	piperacillin-tazobactam	random_cluster	R	acquired_gene	captured	NA	no	2
+maximal	piperacillin-tazobactam	random_cluster	R	acquired_gene	captured	NA	yes	13
+maximal	piperacillin-tazobactam	random_cluster	S	no_established_determinant	NA	NA	NA	195
+maximal	streptomycin	country	R	acquired_gene	captured	NA	no	4
+maximal	streptomycin	country	R	acquired_gene	captured	NA	yes	69
+maximal	streptomycin	geography	R	acquired_gene	captured	NA	no	6
+maximal	streptomycin	geography	R	acquired_gene	captured	NA	yes	15
+maximal	streptomycin	lineage	R	acquired_gene	captured	NA	no	4
+maximal	streptomycin	lineage	R	acquired_gene	captured	NA	yes	24
+maximal	streptomycin	project	R	acquired_gene	captured	NA	no	3
+maximal	streptomycin	project	R	acquired_gene	captured	NA	yes	73
+maximal	streptomycin	project	S	no_established_determinant	NA	NA	NA	1
+maximal	streptomycin	random	R	acquired_gene	captured	NA	no	4
+maximal	streptomycin	random	R	acquired_gene	captured	NA	yes	30
+maximal	streptomycin	random_cluster	R	acquired_gene	captured	NA	no	4
+maximal	streptomycin	random_cluster	R	acquired_gene	captured	NA	yes	33
+maximal	sulfisoxazole	country	R	acquired_gene	captured	NA	yes	11
+maximal	sulfisoxazole	country	R	mutation	NA	not_represented	no	1
+maximal	sulfisoxazole	country	S	no_established_determinant	NA	NA	NA	45
+maximal	sulfisoxazole	geography	R	mutation	NA	not_represented	no	1
+maximal	sulfisoxazole	lineage	R	acquired_gene	captured	NA	yes	3
+maximal	sulfisoxazole	lineage	R	mutation	NA	not_represented	no	1
+maximal	sulfisoxazole	lineage	S	no_established_determinant	NA	NA	NA	5
+maximal	sulfisoxazole	project	R	acquired_gene	captured	NA	yes	10
+maximal	sulfisoxazole	project	R	mutation	NA	not_represented	no	1
+maximal	sulfisoxazole	project	S	no_established_determinant	NA	NA	NA	48
+maximal	sulfisoxazole	random	R	acquired_gene	captured	NA	yes	6
+maximal	sulfisoxazole	random	R	mutation	NA	not_represented	no	1
+maximal	sulfisoxazole	random	S	no_established_determinant	NA	NA	NA	3
+maximal	sulfisoxazole	random_cluster	R	acquired_gene	captured	NA	yes	5
+maximal	sulfisoxazole	random_cluster	R	mutation	NA	not_represented	no	1
+maximal	sulfisoxazole	random_cluster	S	no_established_determinant	NA	NA	NA	3
+maximal	tetracycline	country	R	acquired_gene	captured	NA	no	27
+maximal	tetracycline	country	R	acquired_gene	captured	NA	yes	20
+maximal	tetracycline	country	R	acquired_gene	partially_represented	NA	no	2
+maximal	tetracycline	geography	R	acquired_gene	captured	NA	yes	2
+maximal	tetracycline	lineage	R	acquired_gene	captured	NA	yes	33
+maximal	tetracycline	lineage	R	acquired_gene	partially_represented	NA	no	2
+maximal	tetracycline	lineage	S	no_established_determinant	NA	NA	NA	2
+maximal	tetracycline	project	R	acquired_gene	captured	NA	no	1
+maximal	tetracycline	project	R	acquired_gene	captured	NA	yes	41
+maximal	tetracycline	project	R	acquired_gene	partially_represented	NA	no	2
+maximal	tetracycline	random	R	acquired_gene	captured	NA	no	1
+maximal	tetracycline	random	R	acquired_gene	captured	NA	yes	19
+maximal	tetracycline	random	R	acquired_gene	partially_represented	NA	no	2
+maximal	tetracycline	random_cluster	R	acquired_gene	captured	NA	no	1
+maximal	tetracycline	random_cluster	R	acquired_gene	captured	NA	yes	26
+maximal	tetracycline	random_cluster	R	acquired_gene	partially_represented	NA	no	2
+maximal	tetracycline	random_cluster	S	no_established_determinant	NA	NA	NA	2
+maximal	tetracycline	temporal	R	acquired_gene	captured	NA	yes	1
+maximal	tobramycin	lineage	R	acquired_gene	captured	NA	no	4
+maximal	tobramycin	lineage	R	acquired_gene	captured	NA	yes	17
+maximal	tobramycin	lineage	S	no_established_determinant	NA	NA	NA	2
+maximal	tobramycin	random	R	acquired_gene	captured	NA	no	5
+maximal	tobramycin	random	S	no_established_determinant	NA	NA	NA	3
+maximal	tobramycin	random_cluster	R	acquired_gene	captured	NA	no	5
+maximal	tobramycin	random_cluster	S	no_established_determinant	NA	NA	NA	2
+maximal	trimethoprim-sulfamethoxazole	country	R	acquired_gene	captured	NA	no	49
+maximal	trimethoprim-sulfamethoxazole	country	R	acquired_gene	captured	NA	yes	20
+maximal	trimethoprim-sulfamethoxazole	country	S	no_established_determinant	NA	NA	NA	3
+maximal	trimethoprim-sulfamethoxazole	geography	R	acquired_gene	captured	NA	no	32
+maximal	trimethoprim-sulfamethoxazole	geography	R	acquired_gene	captured	NA	yes	4
+maximal	trimethoprim-sulfamethoxazole	geography	S	no_established_determinant	NA	NA	NA	2
+maximal	trimethoprim-sulfamethoxazole	lineage	R	acquired_gene	captured	NA	no	5
+maximal	trimethoprim-sulfamethoxazole	lineage	R	acquired_gene	captured	NA	yes	64
+maximal	trimethoprim-sulfamethoxazole	lineage	S	no_established_determinant	NA	NA	NA	1
+maximal	trimethoprim-sulfamethoxazole	project	R	acquired_gene	captured	NA	no	34
+maximal	trimethoprim-sulfamethoxazole	project	R	acquired_gene	captured	NA	yes	20
+maximal	trimethoprim-sulfamethoxazole	project	S	no_established_determinant	NA	NA	NA	5
+maximal	trimethoprim-sulfamethoxazole	random	R	acquired_gene	captured	NA	no	2
+maximal	trimethoprim-sulfamethoxazole	random	R	acquired_gene	captured	NA	yes	25
+maximal	trimethoprim-sulfamethoxazole	random	S	no_established_determinant	NA	NA	NA	6
+maximal	trimethoprim-sulfamethoxazole	random_cluster	R	acquired_gene	captured	NA	no	3
+maximal	trimethoprim-sulfamethoxazole	random_cluster	R	acquired_gene	captured	NA	yes	28
+maximal	trimethoprim-sulfamethoxazole	random_cluster	S	no_established_determinant	NA	NA	NA	3
+maximal	trimethoprim-sulfamethoxazole	temporal	R	acquired_gene	captured	NA	yes	6
+maximal	trimethoprim-sulfamethoxazole	temporal	S	no_established_determinant	NA	NA	NA	1

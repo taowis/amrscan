@@ -19,13 +19,19 @@ susceptibility results from 26 countries, collected 2009–2025, each genome
 called with the same pinned AMRFinderPlus release. The study asks how well
 resistance predicted from the genome carries over to lineages, countries,
 submitting projects and years that were not in training, and which resistance
-mechanisms account for the cases where it does not. The cohort build,
-population structure, determinant baseline, generalisation benchmark across 24
-drugs and six split designs, and the error analysis are being prepared for
-publication and will be released here with the manuscript.
-The study is my own work: the analysis is complete and the manuscript is in
-preparation. The full analysis code and results are in a private repository,
-available to reviewers and prospective employers on request.
+mechanisms account for the cases where it does not. The analysis code,
+frozen configurations, decision records and result tables of the study are in
+this repository: the cohort build, population structure, determinant baseline,
+generalisation benchmark across 24 drugs and seven split strategies, the error
+decomposition with known-mutation features, and the representation sensitivity
+analysis with denser k-mer sampling. The study guides are listed under
+"E. coli study" in the [documentation](docs/index.md), starting with
+[the research cohort](docs/ecoli-research-cohort.md), and the decision
+records for the study are `docs/decisions/0001` to `0004`, `0007-ecoli-*`,
+`0008-ecoli-*` and `0011`. Genomes and susceptibility results come from NCBI
+Pathogen Detection and are rebuilt by the commands in each guide; the large
+intermediate files under `datasets/` are not committed. A manuscript is in
+preparation.
 
 A sequence match does not by itself establish phenotypic resistance. A negative
 report also does not establish susceptibility. Retain caller methods, database

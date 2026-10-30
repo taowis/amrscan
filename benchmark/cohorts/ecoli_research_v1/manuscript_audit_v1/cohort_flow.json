@@ -1,0 +1,12 @@
+{
+ "benchmark_drugs": 24,
+ "benchmark_endpoints": 109865,
+ "benchmark_isolates_maximal_random": 8194,
+ "common_cohort_endpoints": 107205,
+ "common_cohort_isolates": 7850,
+ "common_exclusions_endpoint_reasons": {
+  "missing_country": 1631,
+  "missing_year": 295,
+  "no_lineage_component": 734
+ }
+}

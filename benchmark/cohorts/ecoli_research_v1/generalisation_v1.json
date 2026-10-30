@@ -1,0 +1,96 @@
+{
+  "benchmark_version": "generalisation_v1",
+  "config_version": "1.0.0",
+  "cohort_id": "ecoli_research_v1",
+  "description": "Random-split against lineage, country, project, geographic and temporal holdouts for genomic AMR prediction (PR #9).",
+  "decision_record": "docs/decisions/0005-ecoli-generalisation-benchmark.md",
+  "upstream": {
+    "pr5_cohort_manifest_sha256": "21348c7da115dc0306db07d32839bd91263328a2409c4a1fb65cce8b327d3caf",
+    "pr6_population_manifest_sha256": "ca4c0f65bea9afce4bcb9e677e6eb934dc5a099ce141bd36baf41abf43223468",
+    "pr7_baseline_manifest_sha256": "eccf2a710e5092b17dfa87a1bc8efc25449d66e6895fbcf20db8dd78f5edc0d9",
+    "pr7_mapping_version": "ecoli_amrfinder_drug_mapping_v1",
+    "pr7_phenotype_corrections_sha256": "a8a92d9cb1a603aa50601ae558d7cc9176674fe146cf9f96222d5ccaedd2eb71",
+    "genome_manifest": "benchmark/cohorts/ecoli_research_v1/genome_manifest.tsv",
+    "genome_manifest_sha256": "e85a45fc1add9f0c6004dd897cd4488baad0eed8d7c1f91c9025b34beaa0f2d6",
+    "genome_manifest_rows": 10521
+  },
+  "endpoints": {
+    "definition": "binary R/S endpoint of a population-eligible isolate from the PR #7 primary build (phenotype column, PR #5 label with the decision 0004 correction); the isolate's genome must match the PR #8 manifest",
+    "population_config": "benchmark/cohorts/ecoli_research_v1/population_config.json",
+    "population_config_sha256": "df55c31d6f1331217e79afd0ac6501136736d707f124e1aa49182829fbc59c0d",
+    "tiers": "decision 0001 drug_tiers rules recomputed on the corrected labels; primary and secondary drugs enter"
+  },
+  "features": {
+    "method": "FracMinHash k-mer presence",
+    "tool": "sourmash",
+    "tool_version": "4.9.4",
+    "ksize": 31,
+    "scaled": 200,
+    "hash_seed": 42,
+    "note": "canonical 31-mers are kept when their 64-bit MurmurHash falls below 2^64/200; the kept set is fixed by the hash function, not learned from genomes or labels",
+    "min_train_present": 5,
+    "min_train_absent": 5,
+    "filter": "per task, a feature is used only if present in at least 5 and absent from at least 5 training isolates; test genomes are projected onto that set",
+    "deduplicate_identical_columns": true
+  },
+  "model": {
+    "family": "logistic regression",
+    "library": "scikit-learn 1.7.2",
+    "penalty": "l1",
+    "solver": "liblinear",
+    "class_weight": "balanced",
+    "intercept_scaling": 1,
+    "tol": 0.0001,
+    "max_iter": 1000,
+    "C_grid": [0.03, 0.1, 0.3],
+    "inner_folds": 3,
+    "inner_unit": "split_unit",
+    "selection_metric": "mean inner AUROC; ties go to the smaller C",
+    "threshold": 0.5,
+    "threshold_policy": "fixed at 0.5 for every task; not tuned"
+  },
+  "seeds": {
+    "split": 20261024,
+    "inner_cv": 20261025,
+    "model": 20261026,
+    "bootstrap": 20261027
+  },
+  "splits": {
+    "folds": 5,
+    "strategies": {
+      "random": {"tiers": ["primary", "secondary"], "cohorts": ["common", "maximal"],
+                 "unit": "isolate", "note": "conventional stratified isolate-level split; SNP clusters may be divided"},
+      "random_cluster": {"tiers": ["primary", "secondary"], "cohorts": ["common", "maximal"],
+                         "unit": "split_unit", "note": "decision 0001 reference: SNP clusters kept whole"},
+      "lineage": {"tiers": ["primary", "secondary"], "cohorts": ["common", "maximal"],
+                  "unit": "lineage_component", "note": "grouped CV over decision 0001 lineage components; isolates without a component train only"},
+      "country": {"tiers": ["primary"], "cohorts": ["common", "maximal"],
+                  "min_test_R": 10, "min_test_S": 10, "min_train_R": 20, "min_train_S": 20,
+                  "note": "leave one country out for countries with at least 10 R and 10 S (decision 0001 per-country rule); isolates without a country are not used"},
+      "project": {"tiers": ["primary"], "cohorts": ["common", "maximal"], "plan_flag": "project_holdout",
+                  "min_test_R": 10, "min_test_S": 10, "min_train_R": 20, "min_train_S": 20,
+                  "note": "leave one project out for projects with at least 10 R and 10 S (decision 0001 project_both_min)"},
+      "geography": {"tiers": ["primary"], "cohorts": ["common", "maximal"], "plan_flag": "geographic_transfer",
+                    "reference_country": "USA", "min_test_R": 20, "min_test_S": 20, "min_train_R": 20, "min_train_S": 20,
+                    "note": "train on USA isolates, test on all other countries pooled (decision 0001)"},
+      "temporal": {"tiers": ["primary"], "cohorts": ["common", "maximal"], "plan_flag": "temporal",
+                   "cutoff_year": 2021, "min_test_R": 20, "min_test_S": 20, "min_train_R": 20, "min_train_S": 20,
+                   "note": "train before 2021, test 2021 on (decision 0001 cutoff and per-period minimum)"}
+    }
+  },
+  "cohorts": {
+    "common": "per drug, endpoints with a verified genome, a lineage component, a known country and a valid year; every strategy runs on this set",
+    "maximal": "per drug and strategy, every endpoint with a verified genome and the metadata that strategy needs; secondary analysis"
+  },
+  "support": {
+    "metric_min_R": 10,
+    "metric_min_S": 10,
+    "rule": "metrics are always computed where defined; rows below 10 R or 10 S are marked supported = no"
+  },
+  "bootstrap": {
+    "replicates": 1000,
+    "level": 0.95,
+    "unit": "split_unit (NCBI SNP cluster, or the isolate when unclustered)",
+    "paired": "drops resample the same units for the random and the holdout predictions"
+  }
+}

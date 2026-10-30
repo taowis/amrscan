@@ -1,0 +1,44 @@
+{
+  "calls_directory": "datasets/ecoli_research_v1/amrfinder_calls_4.2.7_db2026-08-07.1 (not committed; 439 MB, 42,107 files)",
+  "command": "python3 bin/genotype_baseline.py call --population datasets/ecoli_research_v1/population_20261015 --cache datasets/ecoli_research_v1/genome_cache --calls datasets/ecoli_research_v1/amrfinder_calls_4.2.7_db2026-08-07.1 --database datasets/amrfinderplus-db/2026-08-07.1 --workers 8",
+  "caller": {
+    "amrfinderplus": "4.2.7",
+    "database": "2026-08-07.1",
+    "database_id": "sha256:748425a026512fda44008b9d106a4546518cc57dac59eb6432232eb3ac2c978b",
+    "environment": "datasets/amrfinderplus-db/env-4.2.7-osx-arm64.explicit.txt"
+  },
+  "machine": "Apple M4, 10 cores (4 performance, 6 efficiency), 16 GB RAM, macOS 26.5 (Darwin 25.5.0); genomes and calls on an external drive",
+  "threads_per_call": 1,
+  "workers": "4 at first, then 8",
+  "isolates": 10521,
+  "results": {
+    "success": 10521,
+    "failed": 0,
+    "provenance_mismatch": 0,
+    "harmonization_failed": 0
+  },
+  "sessions": [
+    {
+      "first_call": "2026-10-17T17:36:37Z",
+      "last_call": "2026-10-17T22:35:58Z",
+      "calls": 4362,
+      "note": "several restarts in this window, including a stop to disconnect the drive; incomplete isolates were moved to .quarantine and called again"
+    },
+    {
+      "first_call": "2026-10-18T02:00:39Z",
+      "last_call": "2026-10-18T08:25:29Z",
+      "calls": 6159,
+      "note": "resume; the 4,362 earlier calls were revalidated and reused"
+    }
+  ],
+  "active_wall_hours": 11.4,
+  "throughput_8_workers": "about 13 to 18 isolates per minute; slowest for near-complete assemblies with few contigs",
+  "quarantined_partial_outputs": 22,
+  "control": "PDT000041778.1 reproduced the PR #4 raw report byte for byte",
+  "build": {
+    "command": "python3 bin/genotype_baseline.py build --processed datasets/ecoli_research_v1/ast_census_20261012/processed --population datasets/ecoli_research_v1/population_20261015 --calls datasets/ecoli_research_v1/amrfinder_calls_4.2.7_db2026-08-07.1 --database datasets/amrfinderplus-db/2026-08-07.1 --outdir datasets/ecoli_research_v1/genotype_baseline_20261018 --workers 8",
+    "wall_seconds": 17.2,
+    "peak_memory_gb": 0.95,
+    "rebuild": "a second build into a new directory gave an identical SHA256SUMS"
+  }
+}

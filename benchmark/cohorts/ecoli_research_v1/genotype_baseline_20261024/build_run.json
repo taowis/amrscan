@@ -1,0 +1,22 @@
+{
+  "calls": "same AMRFinderPlus calls as genotype_baseline_20261018; see ../genotype_baseline_20261018/call_run.json",
+  "phenotype_corrections": {
+    "table": "benchmark/cohorts/ecoli_research_v1/phenotype_corrections_v1.tsv",
+    "sha256": "a8a92d9cb1a603aa50601ae558d7cc9176674fe146cf9f96222d5ccaedd2eb71",
+    "decision_record": "docs/decisions/0004-ecoli-phenotype-label-correction.md",
+    "corrected_endpoints": 3281,
+    "corrected_metric_eligible_endpoints": 2041
+  },
+  "build": {
+    "command": "python3 bin/genotype_baseline.py build --processed datasets/ecoli_research_v1/ast_census_20261012/processed --population datasets/ecoli_research_v1/population_20261015 --calls datasets/ecoli_research_v1/amrfinder_calls_4.2.7_db2026-08-07.1 --database datasets/amrfinderplus-db/2026-08-07.1 --outdir datasets/ecoli_research_v1/genotype_baseline_20261024 --workers 8",
+    "code_commit": "9f1b742c5c98c237af567cecdcec99248620812f",
+    "date": "2026-10-24",
+    "machine": "Apple M4, 10 cores, 16 GB RAM, macOS 26.5; calls on an external drive",
+    "wall_seconds": 80.8,
+    "peak_memory_gb": 0.77,
+    "note": "an earlier build of the same code before it was committed took 541 s from a cold drive (12.7 s user CPU) and produced the same tables",
+    "rebuild": "a second build into a new directory gave an identical SHA256SUMS"
+  },
+  "mapping_v2_build": "same command with --config benchmark/cohorts/ecoli_research_v1/baseline_config_mapping_v2.json --outdir datasets/ecoli_research_v1/genotype_baseline_20261024_mapping_v2",
+  "qc": "python3 scripts/ecoli_research_v1/baseline_qc.py --baseline datasets/ecoli_research_v1/genotype_baseline_20261024 --processed datasets/ecoli_research_v1/ast_census_20261012/processed --outdir benchmark/cohorts/ecoli_research_v1/genotype_baseline_20261024/qc --corrections benchmark/cohorts/ecoli_research_v1/phenotype_corrections_v1.tsv"
+}

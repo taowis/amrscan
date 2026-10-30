@@ -1,0 +1,15 @@
+{
+  "ast_observations_sha256": "3300337d5ab94b5283998a78b8359ca2cd49a50341905eac0f2e6da624464320",
+  "baseline_manifest_sha256": "ef7d3e84ca477a8dbb5f5e38f71c1fcb945b366e01f033547e1c6a9fc37b0f10",
+  "flagged_isolates": 137,
+  "flagged_metric_eligible_endpoints": 2041,
+  "label_check_rule": "median MIC of R below median MIC of S, at least 3 R and 3 S MIC observations; project flagged when at least half of its tested antimicrobials are inverted",
+  "projects_flagged": {
+    "PRJNA1322038": {
+      "antimicrobials_tested": 26,
+      "inverted": 26
+    }
+  },
+  "projects_tested": 22,
+  "status": "post hoc descriptive check; the primary baseline and PR #5 endpoints are unchanged; HUMAN_REVIEW_REQUIRED"
+}

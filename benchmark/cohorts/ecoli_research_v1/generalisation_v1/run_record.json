@@ -1,0 +1,37 @@
+{
+  "benchmark_version": "generalisation_v1",
+  "builder": "bin/generalisation_benchmark.py 1.0.0",
+  "builder_sha256": "ab6a9219713dc7c43c12fd4d8c96d0636f5c140a3b3ed16c0d6d130548fa18e7",
+  "config_sha256": "00fa371a4ffd28a1dae06e7cb0b89a12adf7e357ab39eee325ce412fdca5c65f",
+  "code_commit": "18031d8",
+  "environment": "environment/generalisation-benchmark.txt, Python 3.12.12",
+  "machine": "Apple M4, 10 cores, 16 GB RAM, macOS 26 (Darwin 25.5.0); one worker",
+  "commands": [
+    "bin/generalisation_benchmark.py sketch --population datasets/ecoli_research_v1/population_20261015 --baseline datasets/ecoli_research_v1/genotype_baseline_20261024 --cache datasets/ecoli_research_v1/genome_cache --outdir datasets/ecoli_research_v1/generalisation_v1",
+    "bin/generalisation_benchmark.py matrix --population datasets/ecoli_research_v1/population_20261015 --baseline datasets/ecoli_research_v1/genotype_baseline_20261024 --outdir datasets/ecoli_research_v1/generalisation_v1",
+    "bin/generalisation_benchmark.py freeze --population datasets/ecoli_research_v1/population_20261015 --baseline datasets/ecoli_research_v1/genotype_baseline_20261024 --outdir datasets/ecoli_research_v1/generalisation_v1",
+    "bin/generalisation_benchmark.py run --population datasets/ecoli_research_v1/population_20261015 --baseline datasets/ecoli_research_v1/genotype_baseline_20261024 --outdir datasets/ecoli_research_v1/generalisation_v1 --workers 1",
+    "bin/generalisation_benchmark.py report --population datasets/ecoli_research_v1/population_20261015 --baseline datasets/ecoli_research_v1/genotype_baseline_20261024 --outdir datasets/ecoli_research_v1/generalisation_v1"
+  ],
+  "stages": {
+    "sketch": {"finished": "2026-10-24T06:20Z", "wall_minutes": 38, "genomes_verified": 10521},
+    "matrix": {"wall_seconds": 797, "max_rss_bytes": 5821890560},
+    "freeze": {"frozen_at": "2026-10-24T06:37:03Z", "tasks": 1069, "not_feasible": 72},
+    "run": {
+      "first_task_finished": "2026-10-24T06:38:14Z",
+      "last_task_finished": "2026-10-25T11:37:16Z",
+      "task_seconds_total": 56196,
+      "task_seconds_median": 26.6,
+      "task_seconds_max": 2088.9,
+      "max_rss_bytes": 7003045888,
+      "succeeded": 1069,
+      "failed": 0
+    },
+    "report": {"wall_seconds": 693, "max_rss_bytes": 1539031040, "prediction_rows": 1030746}
+  },
+  "deviations": [
+    "The 28 amoxicillin-clavulanic acid common-cohort tasks were run first as a pilot (after freezing) and reviewed for leakage and split behaviour before the remaining tasks were started; the pilot checkpoints were reused, not refitted.",
+    "Between about 07:50 and 14:00 UTC on 2026-10-24 an alignment job from another project shared the machine; task times rose up to tenfold while the feature matrix was paged out. Results are unaffected; timings in fold checkpoints from that window are not representative.",
+    "The run process stopped without an error after 2026-10-24T19:30:13Z with 600 of 1069 tasks checkpointed; the cause was not found (no reboot, no traceback). It was restarted on 2026-10-25T08:51:09Z with the same command, code and config, rebuilt and checked every task split against the frozen manifest, reused the 600 checkpoints and ran the remaining 469."
+  ]
+}

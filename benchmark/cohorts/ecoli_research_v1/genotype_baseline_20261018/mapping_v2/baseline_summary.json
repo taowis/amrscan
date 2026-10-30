@@ -1,0 +1,70 @@
+{
+  "binary_rs_endpoints": 121689,
+  "caller_status": {
+    "success": 10521
+  },
+  "cohort_isolates": 10521,
+  "concordance_categories": {
+    "R_DET_NEG": 1854,
+    "R_DET_POS": 21124,
+    "S_DET_NEG": 83134,
+    "S_DET_POS": 4205
+  },
+  "definitions": {
+    "R_DET_NEG": "candidate for unexplained resistance, not evidence of a novel mechanism",
+    "baseline_positive_call": "determinant_status positive under the mapping version",
+    "determinant_negative": "no determinant satisfying the mapping was detected in a successfully analysed genome; not biological susceptibility",
+    "positive_reference": "phenotype R"
+  },
+  "genome_qc": {
+    "pass": 10500,
+    "warning": 21
+  },
+  "genomes_available": 10521,
+  "mapping_audit_flags": 31,
+  "metric_eligible_endpoints": 110317,
+  "phenotype_endpoints": 162629,
+  "stratum_support": {
+    "basis": "same 10 R / 10 S floor as per-country reporting in decision 0001",
+    "decision": "HUMAN_REVIEW_REQUIRED",
+    "min_R": 10,
+    "min_S": 10,
+    "rule": "metrics for a stratum only with at least min_R resistant and min_S susceptible metric-eligible endpoints; smaller strata keep counts with NA metrics"
+  },
+  "study_antimicrobials": {
+    "amikacin": "secondary",
+    "amoxicillin-clavulanic acid": "primary",
+    "ampicillin": "primary",
+    "aztreonam": "secondary",
+    "cefazolin": "primary",
+    "cefepime": "primary",
+    "cefoxitin": "primary",
+    "ceftazidime": "primary",
+    "ceftiofur": "secondary",
+    "ceftriaxone": "primary",
+    "chloramphenicol": "primary",
+    "ciprofloxacin": "primary",
+    "ertapenem": "secondary",
+    "gentamicin": "primary",
+    "imipenem": "secondary",
+    "kanamycin": "secondary",
+    "levofloxacin": "primary",
+    "meropenem": "secondary",
+    "nalidixic acid": "primary",
+    "piperacillin-tazobactam": "secondary",
+    "streptomycin": "primary",
+    "sulfisoxazole": "primary",
+    "tetracycline": "primary",
+    "tobramycin": "secondary",
+    "trimethoprim-sulfamethoxazole": "primary"
+  },
+  "study_endpoint_genotype_status": {
+    "determinant_negative": 84988,
+    "determinant_positive": 25329,
+    "determinant_uncertain": 2826
+  },
+  "susceptible_with_determinant_endpoints": 4205,
+  "unexplained_resistance_endpoints": 1854,
+  "unique_assemblies": 10521,
+  "unmapped_amr_determinants": 645
+}

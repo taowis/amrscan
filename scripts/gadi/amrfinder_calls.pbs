@@ -1,0 +1,50 @@
+#!/bin/bash
+# AMRFinderPlus on every cached genome, through bin/genotype_baseline.py call.
+# One isolate per worker thread, single-threaded AMRFinderPlus. Resumable:
+# valid calls are reused, so resubmit after a walltime stop.
+#PBS -N amrscan-amrfinder
+#PBS -q normal
+#PBS -l ncpus=48
+#PBS -l mem=190GB
+#PBS -l jobfs=100GB
+#PBS -l walltime=08:00:00
+#PBS -j oe
+set -euo pipefail
+source "${AMRSCAN_REPO:-/scratch/$PROJECT/$USER/amrscan/amrscan-dev}/scripts/gadi/env.sh"
+cd "$AMRSCAN_REPO"
+export TMPDIR="$PBS_JOBFS/tmp"
+mkdir -p "$TMPDIR"
+
+# The wrapper hashes every database file on each call; read them from local disk.
+LOCAL_DB="$PBS_JOBFS/db/$DB_NAME"
+mkdir -p "$(dirname "$LOCAL_DB")"
+cp -r "$DB_DIR" "$LOCAL_DB"
+(cd "$LOCAL_DB" && sha256sum -c --quiet "$AMRSCAN_REPO/$DB_SUMS")
+echo "AMRFinderPlus $(amrfinder --version); $(amrfinder --database "$LOCAL_DB" --database_version | tr '\n' ' ')"
+
+# Platform control: the PR #4 isolate must reproduce the macOS report exactly.
+CONTROL="$PBS_JOBFS/control"
+mkdir -p "$CONTROL"
+python3 bin/amrscan.py call --sample "$CONTROL_ISOLATE" --input "$GENOME_CACHE/$CONTROL_ASSEMBLY/genome.fna" \
+  --database "$LOCAL_DB" --organism Escherichia --threads 1 \
+  --log "$CONTROL/control.log" --raw "$CONTROL/control.tsv" --provenance "$CONTROL/control.json"
+got=$(sha256sum "$CONTROL/control.tsv" | cut -d' ' -f1)
+mkdir -p "$CALLS_DIR"
+echo "{\"control_isolate\": \"$CONTROL_ISOLATE\", \"expected_raw_sha256\": \"$CONTROL_RAW_SHA256\", \"observed_raw_sha256\": \"$got\", \"host\": \"$(hostname)\", \"job\": \"$PBS_JOBID\", \"checked_at\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" \
+  >> "$CALLS_DIR/platform_control.jsonl"
+if [ "$got" != "$CONTROL_RAW_SHA256" ]; then
+  echo "platform control differs from the macOS PR #4 report; stopping"
+  diff "$CONTROL_EXPECTED" "$CONTROL/control.tsv" || true
+  exit 3
+fi
+echo "platform control matches"
+
+python3 bin/genotype_baseline.py call --population "$PR6_DIR" --cache "$GENOME_CACHE" --calls "$CALLS_DIR" \
+  --database "$LOCAL_DB" --workers "$PBS_NCPUS" --threads 1
+python3 - <<'PY'
+import json, collections, os
+c = collections.Counter()
+for line in open(os.path.join(os.environ["CALLS_DIR"], "call_log.jsonl")):
+    r = json.loads(line); c[r["status"]] += 1
+print("call log status counts:", dict(c))
+PY

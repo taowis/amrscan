@@ -1,0 +1,18 @@
+#!/bin/bash
+# Platform check: refit the common-cohort R0 tasks with the PR #14 matrix on
+# Gadi, into a separate directory, to compare with the workstation run.
+#   qsub -P qn73 -l storage=scratch/qn73 -v WORKERS=8 scripts/gadi/representation_sensitivity/r0_platform_check.pbs
+#PBS -P qn73
+#PBS -l storage=scratch/qn73
+#PBS -q normalbw
+#PBS -l ncpus=28,mem=128GB,walltime=10:00:00,wd
+#PBS -N rs-r0check
+#PBS -j oe
+set -euo pipefail
+D=datasets/ecoli_research_v1
+OUT=$D/representation_sensitivity_v1/R0_gadi
+mkdir -p "$OUT"
+ln -sfn ../../generalisation_v1/matrix "$OUT/matrix"
+cp $D/generalisation_v1/benchmark_manifest.json $D/generalisation_v1/genome_verification.tsv "$OUT/"
+.venv-gadi/bin/python bin/generalisation_benchmark.py run --population $D/population_20261015 \
+  --baseline $D/genotype_baseline_20261024 --outdir "$OUT" --workers "${WORKERS:-1}" --only '^common__'

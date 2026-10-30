@@ -1,0 +1,193 @@
+{
+  "analysis_version": "error_decomposition_v1",
+  "builder_sha256": "b2deaaef8ee164ed723af949678d0f7bc80f43449ccdc50e85caf63f9a7fe324",
+  "builder_version": "1.0.0",
+  "case_study_drugs": [
+    "cefazolin",
+    "cefepime",
+    "cefoxitin",
+    "ceftazidime",
+    "ceftriaxone",
+    "chloramphenicol",
+    "ciprofloxacin",
+    "gentamicin",
+    "levofloxacin",
+    "nalidixic acid",
+    "sulfisoxazole",
+    "tetracycline",
+    "trimethoprim-sulfamethoxazole"
+  ],
+  "catalogue_sha256": "c41ae6fd10e4d09716d040e0cdd0b212cda60d497892b44c19d84764da03eb34",
+  "config_sha256": "e97bd57d05b7920766ab09b470ba18f5b956155d5d910b022da41e2cc18daf75",
+  "drug_groups": {
+    "amikacin": {
+      "group": "stable",
+      "max_delta": 0.009413,
+      "max_delta_ci_lower": -0.064183,
+      "max_delta_strategy": "lineage"
+    },
+    "amoxicillin-clavulanic acid": {
+      "group": "intermediate",
+      "max_delta": 0.045872,
+      "max_delta_ci_lower": 0.031802,
+      "max_delta_strategy": "country"
+    },
+    "ampicillin": {
+      "group": "intermediate",
+      "max_delta": 0.037663,
+      "max_delta_ci_lower": 0.031307,
+      "max_delta_strategy": "country"
+    },
+    "aztreonam": {
+      "group": "stable",
+      "max_delta": 0.003945,
+      "max_delta_ci_lower": 0.001164,
+      "max_delta_strategy": "lineage"
+    },
+    "cefazolin": {
+      "group": "high_loss",
+      "max_delta": 0.259519,
+      "max_delta_ci_lower": 0.223135,
+      "max_delta_strategy": "country"
+    },
+    "cefepime": {
+      "group": "high_loss",
+      "max_delta": 0.186937,
+      "max_delta_ci_lower": 0.153707,
+      "max_delta_strategy": "country"
+    },
+    "cefoxitin": {
+      "group": "high_loss",
+      "max_delta": 0.074995,
+      "max_delta_ci_lower": 0.040246,
+      "max_delta_strategy": "temporal"
+    },
+    "ceftazidime": {
+      "group": "high_loss",
+      "max_delta": 0.222461,
+      "max_delta_ci_lower": 0.188293,
+      "max_delta_strategy": "temporal"
+    },
+    "ceftiofur": {
+      "group": "stable",
+      "max_delta": 0.000263,
+      "max_delta_ci_lower": -0.00318,
+      "max_delta_strategy": "lineage"
+    },
+    "ceftriaxone": {
+      "group": "stable",
+      "max_delta": 0.015572,
+      "max_delta_ci_lower": 0.010107,
+      "max_delta_strategy": "project"
+    },
+    "chloramphenicol": {
+      "group": "stable",
+      "max_delta": 0.002409,
+      "max_delta_ci_lower": -0.001422,
+      "max_delta_strategy": "lineage"
+    },
+    "ciprofloxacin": {
+      "group": "high_loss",
+      "max_delta": 0.078616,
+      "max_delta_ci_lower": 0.05399,
+      "max_delta_strategy": "geography"
+    },
+    "ertapenem": {
+      "group": "intermediate",
+      "max_delta": 0.078455,
+      "max_delta_ci_lower": -0.012222,
+      "max_delta_strategy": "lineage"
+    },
+    "gentamicin": {
+      "group": "stable",
+      "max_delta": 0.013175,
+      "max_delta_ci_lower": 6e-05,
+      "max_delta_strategy": "temporal"
+    },
+    "kanamycin": {
+      "group": "stable",
+      "max_delta": 0.014632,
+      "max_delta_ci_lower": 0.000585,
+      "max_delta_strategy": "lineage"
+    },
+    "levofloxacin": {
+      "group": "stable",
+      "max_delta": 0.006505,
+      "max_delta_ci_lower": 0.003556,
+      "max_delta_strategy": "lineage"
+    },
+    "meropenem": {
+      "group": "stable",
+      "max_delta": -0.031864,
+      "max_delta_ci_lower": -0.069959,
+      "max_delta_strategy": "lineage"
+    },
+    "nalidixic acid": {
+      "group": "high_loss",
+      "max_delta": 0.176954,
+      "max_delta_ci_lower": 0.133596,
+      "max_delta_strategy": "project"
+    },
+    "piperacillin-tazobactam": {
+      "group": "high_loss",
+      "max_delta": 0.112356,
+      "max_delta_ci_lower": 0.046188,
+      "max_delta_strategy": "lineage"
+    },
+    "streptomycin": {
+      "group": "intermediate",
+      "max_delta": 0.023738,
+      "max_delta_ci_lower": 0.014072,
+      "max_delta_strategy": "geography"
+    },
+    "sulfisoxazole": {
+      "group": "stable",
+      "max_delta": 0.01362,
+      "max_delta_ci_lower": 0.008407,
+      "max_delta_strategy": "country"
+    },
+    "tetracycline": {
+      "group": "stable",
+      "max_delta": 0.008076,
+      "max_delta_ci_lower": 0.004815,
+      "max_delta_strategy": "project"
+    },
+    "tobramycin": {
+      "group": "stable",
+      "max_delta": 0.002422,
+      "max_delta_ci_lower": -0.003275,
+      "max_delta_strategy": "lineage"
+    },
+    "trimethoprim-sulfamethoxazole": {
+      "group": "stable",
+      "max_delta": 0.01526,
+      "max_delta_ci_lower": 0.006601,
+      "max_delta_strategy": "geography"
+    }
+  },
+  "frozen_at": "2026-10-25T14:12:43Z",
+  "upstream": {
+    "amrfinder_database_files_sha256": {
+      "AMRProt-mutation.tsv": "b6f441972d1753a0cc9b1a4d317950eb085e3a52bea8b6d82e0ff53b15280f7b",
+      "AMRProt.fa": "41d5ebf4f807c9590f27de7dd23c9f037afb4d8efd613790c54847fb1fc2896b",
+      "AMR_DNA-Escherichia.tsv": "495c2c35bb396d7538d7562774f5029c69ee1940269435fbc91b8d7fe25f9fae",
+      "fam.tsv": "00323cb11e1a5195c636b9d7d54d925e8274518300f3b6188ec87edc016b4487"
+    },
+    "benchmark_manifest_sha256": "f0b51c760172065f233602e669d472d3a221a9a12a9eb306d91e77e2ac30f303",
+    "benchmark_upstream": {
+      "pr5_cohort_manifest_sha256": "21348c7da115dc0306db07d32839bd91263328a2409c4a1fb65cce8b327d3caf",
+      "pr6_evaluation_groups_sha256": "63a94459a0cd5c4de72201e1752f582167f46fa414558c292c07ec3383262ba3",
+      "pr6_population_manifest_sha256": "ca4c0f65bea9afce4bcb9e677e6eb934dc5a099ce141bd36baf41abf43223468",
+      "pr7_baseline_manifest_sha256": "eccf2a710e5092b17dfa87a1bc8efc25449d66e6895fbcf20db8dd78f5edc0d9",
+      "pr7_endpoints_sha256": "edda4cf78df5c320b1829fef557e6e5ab9090590aa0af7b1e11ea46905dca244",
+      "pr7_mapping_version": "ecoli_amrfinder_drug_mapping_v1",
+      "pr7_phenotype_corrections_sha256": "a8a92d9cb1a603aa50601ae558d7cc9176674fe146cf9f96222d5ccaedd2eb71"
+    },
+    "benchmark_version": "generalisation_v1",
+    "feature_manifest_sha256": "ec85fc5c1916e7894e1732851dccc79b600ea861c4df4531c97c1d6b05b9b15f",
+    "generalisation_config_sha256": "00fa371a4ffd28a1dae06e7cb0b89a12adf7e357ab39eee325ce412fdca5c65f",
+    "genome_manifest_sha256": "e85a45fc1add9f0c6004dd897cd4488baad0eed8d7c1f91c9025b34beaa0f2d6",
+    "mapping_rules_sha256": "67f0eb67585fabafad5c00fd53dd6b4839767e4af94d67732c8299034ac6795a",
+    "predictions_sha256": "63b1a2c0039f661a9a31002e6c84355c14a4c02c4f31e00b124dc566895c0ce0"
+  }
+}
