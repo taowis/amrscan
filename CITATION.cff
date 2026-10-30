@@ -1,7 +1,8 @@
 cff-version: 1.2.0
-message: If you use AMRScan, please cite this repository, the preprint below (which describes version 1) and the AMRFinderPlus software and database release you used.
+message: If you use AMRScan, please cite this repository, the preprint below (which describes version 1) and the AMRFinderPlus software and database release you used. Version 2.1.0 also contains the code and result tables of the E. coli domain-shift study (manuscript in preparation).
 title: AMRScan
-version: 2.0.0
+version: 2.1.0
+date-released: 2026-10-31
 authors:
   - family-names: Lai
     given-names: Kaitao
