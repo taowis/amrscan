@@ -15,25 +15,71 @@ run of the same files on another platform
 ([record](docs/gadi-scale-run.md)). [Contributing to
 nf-core](#contributing-to-nf-core) gives the plan to upstream parts of it.
 
-Together they are the data layer of a larger study of genomic AMR prediction in
+## The *E. coli* study
+
+AMRScan is the data layer of a study of genomic AMR prediction in
 *Escherichia coli*: 10,521 public genome-sequenced isolates with 162,629
 susceptibility results from 26 countries, collected 2009–2025, each genome
-called with the same pinned AMRFinderPlus release. The study asks how well
-resistance predicted from the genome carries over to lineages, countries,
-submitting projects and years that were not in training, and which resistance
-mechanisms account for the cases where it does not. The analysis code,
-frozen configurations, decision records and result tables of the study are in
-this repository: the cohort build, population structure, determinant baseline,
-generalisation benchmark across 24 drugs and seven split strategies, the error
-decomposition with known-mutation features, and the representation sensitivity
-analysis with denser k-mer sampling. The study guides are listed under
-"E. coli study" in the [documentation](docs/index.md), starting with
-[the research cohort](docs/ecoli-research-cohort.md), and the decision
-records for the study are `docs/decisions/0001` to `0004`, `0007-ecoli-*`,
-`0008-ecoli-*` and `0011`. Genomes and susceptibility results come from NCBI
-Pathogen Detection and are rebuilt by the commands in each guide; the large
-intermediate files under `datasets/` are not committed. A manuscript is in
-preparation.
+called with the same pinned AMRFinderPlus release. The study asks whether
+resistance predicted from the genome holds up on lineages, countries,
+submitting projects and years that were not in training, and why it fails
+where it does. One model design, L1-penalised logistic regression on
+FracMinHash k-mers sampled at 1 in 200, was tested for 24 antimicrobials.
+Random splits were compared with lineage, country, project, geographic and
+temporal holdouts on the same test isolates, and the model was compared with
+curated AMRFinderPlus determinant rules on the same endpoints.
+
+What it found:
+
+- For most drugs, random cross-validation overstated performance only
+  slightly. The median AUROC drop under a holdout was 0.005 (lineage) to
+  0.025 (country), and keeping SNP clusters together changed little.
+- Larger drops were confined to a few drugs: nalidixic acid, ciprofloxacin,
+  cefazolin, cefepime and ceftazidime. Across 84 drug and holdout pairs, the
+  drop followed the share of resistant test isolates carrying a determinant
+  that was rare or absent in training (Spearman ρ = 0.66), not lineage shift
+  (ρ = −0.18).
+- The sampled k-mers almost never covered quinolone resistance mutations:
+  *gyrA* S83L was captured in 0 of 2,298 calls. Adding 62 known mutations as
+  features, or sampling k-mers four times more densely, removed most of the
+  nalidixic acid gap (holdout AUROC up by 0.15 to 0.23). Cefepime and
+  ceftazidime remain unexplained.
+- Curated determinant rules had higher balanced accuracy than the model for
+  more drugs than the reverse under every holdout that kept SNP clusters
+  apart; with one country held out at a time they were better for 13 of 16
+  drugs and worse for none.
+
+What this means for anyone evaluating genomic resistance prediction:
+
+- Test a model on held-out lineages, countries, projects and years, not only
+  on random splits, and report the results drug by drug.
+- Check whether the features can represent the known resistance variants,
+  point mutations in particular, before reading a loss as a lineage effect.
+- Known mutations given as explicit features are a cheap fix. For the
+  quinolones they did at least as well as denser k-mer sampling, which needed
+  about four times the compute.
+- Keep a curated determinant baseline beside any model. In this cohort it was
+  the more reliable of the two outside the training population.
+
+The plan of each stage was committed before the results it governs were
+computed, and the main design choices have decision records (`docs/decisions/0001` to
+`0004`, `0007-ecoli-*`, `0008-ecoli-*` and `0011`). Training and test sets
+were hashed when the benchmark was frozen and checked at every later step.
+One submitting project turned out to have its resistant and susceptible
+labels reversed; it was corrected by a rule that used only MICs, fixed before
+any model was fitted ([details](docs/ecoli-genotype-phenotype-baseline.md#phenotype-labels-in-project-prjna1322038)).
+
+The study guides are listed under "E. coli study" in the
+[documentation](docs/index.md), starting with
+[the research cohort](docs/ecoli-research-cohort.md); the results above are
+in the [generalisation benchmark](docs/ecoli-generalisation-benchmark.md),
+the [error decomposition](docs/ecoli-domain-shift-error-decomposition.md) and
+the [representation sensitivity analysis](docs/ecoli-representation-sensitivity.md).
+Genomes and susceptibility results come from NCBI Pathogen Detection and are
+rebuilt by the commands in each guide; the large intermediate files under
+`datasets/` are not committed. A manuscript is in preparation.
+
+## Interpreting calls
 
 A sequence match does not by itself establish phenotypic resistance. A negative
 report also does not establish susceptibility. Retain caller methods, database
