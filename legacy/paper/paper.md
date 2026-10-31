@@ -22,7 +22,7 @@ bibliography: paper.bib
 
 **AMRScan** is a hybrid bioinformatics toolkit implemented in both R and [Nextflow](https://www.nextflow.io/) for the rapid and reproducible detection of antimicrobial resistance (AMR) genes from next-generation sequencing (NGS) data. The toolkit enables users to identify AMR gene hits in sequencing reads by aligning them against reference databases such as CARD using BLAST [@altschul1990blast].
 
-The R implementation provides a concise, script-based approach suitable for single-sample analysis, teaching, and rapid prototyping. In contrast, the Nextflow implementation enables reproducible, scalable workflows for multi-sample batch processing in high-performance computing (HPC) and containerized environments. It leverages modular pipeline design with support for automated database setup, quality control, conversion, BLAST alignment, and results parsing.
+The R implementation provides a concise, script-based approach suitable for single-sample analysis, teaching, and rapid prototyping. In contrast, the Nextflow implementation enables reproducible, scalable workflows for multi-sample batch processing in high-performance computing (HPC) and containerized environments. It uses a modular pipeline design with support for automated database setup, quality control, conversion, BLAST alignment, and results parsing.
 
 AMRScan helps bridge the gap between lightweight exploratory analysis and production-ready surveillance pipelines, making it suitable for both research and public health genomics applications.
 

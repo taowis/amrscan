@@ -220,7 +220,7 @@ A step-by-step workshop for new users is in [docs/tutorial](docs/tutorial/index.
 it also builds as a MkDocs site (`pip install mkdocs-material`, then `mkdocs serve`).
 
 The organism option enables taxon-specific behavior, including curated mutation
-screening. Without it, the result is not a comprehensive mutation screen. This
+screening. Without it, the result is not a complete mutation screen. This
 mode searches nucleotide assemblies only and does not perform protein HMM
 searches. See [NCBI usage](https://github.com/ncbi/amr/wiki/Running-AMRFinderPlus)
 and [interpretation](https://github.com/ncbi/amr/wiki/Interpreting-results).
