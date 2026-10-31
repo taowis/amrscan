@@ -7,6 +7,14 @@ authors:
   - family-names: Lai
     given-names: Kaitao
     orcid: https://orcid.org/0000-0002-9420-9352
+doi: 10.5281/zenodo.23825953
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23825953
+    description: All versions, resolves to the latest release (Zenodo concept DOI)
+  - type: doi
+    value: 10.5281/zenodo.23825954
+    description: Version 2.1.0
 repository-code: https://github.com/taowis/amrscan
 license: MIT
 preferred-citation:
