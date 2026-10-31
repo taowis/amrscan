@@ -231,9 +231,9 @@ and by cluster seen or unseen. No composite novelty score is made.
 
 Run on 2026-10-24 and 2026-10-25 (`run_record.json`). All 10,521 genomes
 matched their PR #8 SHA-256, with no duplicates. 8,194 isolates and 109,865
-endpoints entered; the common cohorts hold 107,205 of them (excluded: 121
-endpoints without a country, 10 without a lineage component, 3 without a
-year). 1,069 tasks were frozen and all succeeded; 72 strategy and drug pairs
+endpoints entered; the common cohorts hold 107,205 of them (excluded, counted
+once per endpoint: 1,631 without a country, 734 without a lineage component,
+295 without a year; `manuscript_audit_v1/cohort_flow.json`). 1,069 tasks were frozen and all succeeded; 72 strategy and drug pairs
 were not feasible (`not_feasible.tsv`: the 64 secondary-drug group holdouts,
 no temporal task for cefazolin, streptomycin and sulfisoxazole, and no USA
 country holdout or USA-to-other task for levofloxacin, at 19 R / 79 S). No
