@@ -1,5 +1,7 @@
 # AMRScan
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23825953.svg)](https://doi.org/10.5281/zenodo.23825953)
+
 AMRScan calls antimicrobial resistance (AMR) genes and point mutations in
 bacterial genome assemblies with NCBI AMRFinderPlus, inside a Nextflow workflow
 that records the software, database and input hashes of every run and
