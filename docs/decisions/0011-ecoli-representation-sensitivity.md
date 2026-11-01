@@ -121,7 +121,7 @@ but not a causal mediation analysis.
 - PR #14 and PR #15 results are not changed or overwritten; this analysis
   writes to its own directory.
 - The denser matrix may not fit the laptop; R1 can then run on Gadi, with the
-  project and paths of decision 0008 (Gadi runs).
+  project and paths of decision 0010.
 - If R1 rescues nothing, that is the result; density is not tuned further.
 
 ## Alternatives considered

@@ -47,7 +47,8 @@ with a 90% combined statement/branch threshold; its outcome is recorded on the P
   per-sample database hashing define this initial interface. Containers, combined
   protein/GFF input and scalable manifest caching remain future work.
 - Historical large tracked artifacts and baseline license merge markers are
-  listed in `tracked-data-audit.md`; no history cleanup was performed.
+  listed in a tracked-data audit note; no history cleanup was performed. The
+  files were later moved to `legacy/` or removed, and the note was dropped.
 - PR #2: pin a reproducible caller/database environment, validate known positive
   and negative controls and multi-sample execution, then add AST ingestion with
   explicit assay/breakpoint provenance. ML remains a separate stage.
@@ -60,7 +61,7 @@ with a 90% combined statement/branch threshold; its outcome is recorded on the P
 - `conf/base.config`
 - `docs/foundation-validation.md`
 - `docs/result-schema.md`
-- `docs/tracked-data-audit.md`
+- `docs/tracked-data-audit.md` (later removed)
 - `main.nf`
 - `modules/local/amrfinderplus.nf`
 - `modules/local/harmonize_amrfinder.nf`

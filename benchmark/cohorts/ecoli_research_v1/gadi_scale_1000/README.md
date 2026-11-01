@@ -6,7 +6,7 @@ qn73), to check that profile at scale and that it reproduces the cohort calls.
 No phenotype is used. Scripts, inputs and run records are in
 [`examples/gadi-scale/`](../../../../examples/gadi-scale/); the write-up is
 [docs/gadi-scale-run.md](../../../../docs/gadi-scale-run.md); design in
-[decision 0008](../../../../docs/decisions/0008-gadi-runs.md).
+[decision 0010](../../../../docs/decisions/0010-gadi-runs.md).
 
 | File | What it is |
 | --- | --- |

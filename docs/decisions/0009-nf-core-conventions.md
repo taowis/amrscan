@@ -1,4 +1,4 @@
-# 0007. nf-core conventions for parameters, metadata, versions and resources
+# 0009. nf-core conventions for parameters, metadata, versions and resources
 
 - Status: accepted
 - Date: 2026-10-28

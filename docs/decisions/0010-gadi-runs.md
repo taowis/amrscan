@@ -1,4 +1,4 @@
-# 0008. Running on NCI Gadi: samplesheet input, one PBS job per caller task
+# 0010. Running on NCI Gadi: samplesheet input, one PBS job per caller task
 
 - Status: accepted
 - Date: 2026-10-28

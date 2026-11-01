@@ -43,7 +43,7 @@ the `oras://` tag; the registry returns a Docker manifest for it
 application/vnd.docker.distribution.manifest.v2+json`). The `apptainer`,
 `singularity` and `gadi` profiles now use the Docker image above, which
 Singularity and Apptainer convert to a SIF once and keep in their cache. All
-engines therefore run the same image digest. See decision 0008.
+engines therefore run the same image digest. See decision 0010.
 
 ## Evidence
 

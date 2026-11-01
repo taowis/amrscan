@@ -37,8 +37,8 @@ nav:
   - Decisions:
       - 0005 Software environments: decisions/0005-containers.md
       - 0006 Caller wrapper: decisions/0006-caller-wrapper.md
-      - 0007 nf-core conventions: decisions/0007-nf-core-conventions.md
-      - 0008 Gadi runs: decisions/0008-gadi-runs.md
+      - 0009 nf-core conventions: decisions/0009-nf-core-conventions.md
+      - 0010 Gadi runs: decisions/0010-gadi-runs.md
   - E. coli study:
       - Research cohort: ecoli-research-cohort.md
       - Population structure: ecoli-population-structure.md
@@ -47,7 +47,6 @@ nav:
       - Error decomposition: ecoli-domain-shift-error-decomposition.md
       - Representation sensitivity: ecoli-representation-sensitivity.md
       - Foundation validation: foundation-validation.md
-      - Tracked data audit: tracked-data-audit.md
       - Study decisions:
           - 0001 Evaluation design: decisions/0001-ecoli-evaluation-design.md
           - 0002 Determinant mapping v1: decisions/0002-ecoli-determinant-mapping-v1.md
