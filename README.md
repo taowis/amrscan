@@ -267,7 +267,7 @@ results/v2/
 The trace records CPU, peak memory and run time for every task; use it to set
 resources for a large run. Tasks killed for memory or walltime (exit status
 130 to 145, 104 or 175) are retried twice with more memory and time; any other
-failure stops the run ([decision 0007](docs/decisions/0007-nf-core-conventions.md)).
+failure stops the run ([decision 0009](docs/decisions/0009-nf-core-conventions.md)).
 
 See [result schema](docs/result-schema.md). Database content is fingerprinted
 per sample, including the relative filenames and file SHA-256 hashes; this
@@ -361,7 +361,7 @@ genotype–phenotype agreement.
 I plan to contribute this code to [nf-core](https://nf-co.re). The workflow
 already follows its conventions: a parameter schema, samplesheet validation
 with nf-schema, meta maps, `versions.yml` and process labels (decision
-[0007](docs/decisions/0007-nf-core-conventions.md)). The plan, in order:
+[0009](docs/decisions/0009-nf-core-conventions.md)). The plan, in order:
 
 1. A pull request to the existing nf-core/modules `amrfinderplus/run` module
    adding an optional input SHA-256 check and a database fingerprint in its

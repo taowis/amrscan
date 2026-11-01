@@ -4,7 +4,7 @@ A record of running the workflow with the `gadi` profile on 1,000 public
 *Escherichia coli* assemblies, on 2026-10-28. It shows the profile working at
 scale, what it cost, and that the results match an independent run of the same
 files. It is a software run; no phenotype is used. Design: [decision
-0008](decisions/0008-gadi-runs.md). Scripts and raw records:
+0010](decisions/0010-gadi-runs.md). Scripts and raw records:
 [`examples/gadi-scale/`](https://github.com/taowis/amrscan/tree/main/examples/gadi-scale).
 
 ## Inputs
@@ -43,7 +43,7 @@ Escherichia --threads 2`. Two CPUs per task came from the pilot below.
 and peaked at about 465 MB, and used 200 to 230% CPU, so half the CPUs asked
 for were idle. Task jobs 0.65 SU, head job 0.74 SU (11 min, most of it the
 first image conversion). The pilot also found the three profile faults listed
-in decision 0008. Its `software_versions.yml` predates the fix that writes one
+in decision 0010. Its `software_versions.yml` predates the fix that writes one
 entry per process.
 
 ## Result
