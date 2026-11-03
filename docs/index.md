@@ -28,6 +28,6 @@ nextflow run main.nf -profile test,docker
 ```
 
 Version 1, the BLAST and CARD toolkit described in the
-[preprint](https://arxiv.org/abs/2507.08062), is kept under
+[version 1 of the preprint](https://arxiv.org/abs/2507.08062v1), is kept under
 [`legacy/`](https://github.com/taowis/amrscan/tree/main/legacy) in the
 repository.

@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: If you use AMRScan, please cite this repository, the preprint below (which describes version 1) and the AMRFinderPlus software and database release you used. Version 2.1.0 also contains the code and result tables of the E. coli domain-shift study (manuscript in preparation).
+message: If you use AMRScan, please cite this repository, the preprint below (version 2 of arXiv:2507.08062 describes AMRScan 2; version 1 of the same record described the 2025 toolkit) and the AMRFinderPlus software and database release you used. Version 2.1.0 also contains the code and result tables of the E. coli domain-shift study (manuscript submitted).
 title: AMRScan
 version: 2.1.0
 date-released: 2026-10-31
@@ -19,13 +19,13 @@ repository-code: https://github.com/taowis/amrscan
 license: MIT
 preferred-citation:
   type: article
-  title: "AMRScan: A hybrid R and Nextflow toolkit for rapid antimicrobial resistance gene detection from sequencing data"
+  title: "AMRScan 2: provenance-recorded detection of antimicrobial resistance determinants in bacterial assemblies, with archived susceptibility data from NCBI Pathogen Detection"
   authors:
     - family-names: Lai
       given-names: Kaitao
       orcid: https://orcid.org/0000-0002-9420-9352
-  year: 2025
+  year: 2026
   identifiers:
     - type: other
-      value: "arXiv:2507.08062"
-  url: https://arxiv.org/abs/2507.08062
+      value: "arXiv:2507.08062v2"
+  url: https://arxiv.org/abs/2507.08062v2

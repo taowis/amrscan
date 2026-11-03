@@ -91,14 +91,15 @@ snapshots, thresholds, and the original report when interpreting results.
 
 - [Source repository](https://github.com/taowis/amrscan)
 - [Documentation and workshop](https://taowis.github.io/amrscan/)
-- [Preprint describing version 1](https://arxiv.org/abs/2507.08062)
+- [Preprint, arXiv:2507.08062 version 2](https://arxiv.org/abs/2507.08062v2), which describes
+  AMRScan 2 ([version 1](https://arxiv.org/abs/2507.08062v1) described the 2025 toolkit)
 
 ## Version 2 and version 1
 
-Version 1 (2025, described in the preprint) was a small BLAST search against
+Version 1 (2025, described in [version 1 of the preprint](https://arxiv.org/abs/2507.08062v1)) was a small BLAST search against
 CARD, written once as an R script and once as a single Nextflow file. Version 2
 is a rewrite. The version 1 code is kept unchanged under [`legacy/`](legacy/)
-so the preprint can still be reproduced.
+so that preprint can still be reproduced.
 
 | | Version 1 (`legacy/`) | Version 2 (this README) |
 | --- | --- | --- |
@@ -381,9 +382,10 @@ prepare inputs before a run and stay in this repository. Nothing has been submit
 
 ## Citation and license
 
-Lai, K. (2025). *AMRScan: A hybrid R and Nextflow toolkit for rapid antimicrobial
-resistance gene detection.* [arXiv:2507.08062](https://arxiv.org/abs/2507.08062).
-The preprint describes version 1; for version 2, also cite this repository
-(see `CITATION.cff`). Also cite each caller and database used in an analysis.
+Lai, K. (2026). *AMRScan 2: provenance-recorded detection of antimicrobial resistance determinants in bacterial assemblies, with archived susceptibility data from NCBI Pathogen Detection.* arXiv:2507.08062v2.
+[doi.org/10.48550/arXiv.2507.08062](https://doi.org/10.48550/arXiv.2507.08062).
+Please also cite this repository (see `CITATION.cff`) and each caller and
+database used in an analysis. Version 1 of the preprint (2025) described the
+original toolkit kept under `legacy/`.
 Source code is under the repository MIT license; the NCBI test fixture has its own public
 domain notice in `tests/fixtures/NCBI-LICENSE.txt`.
