@@ -1,4 +1,6 @@
-# AMRScan
+<p align="center">
+  <img src="docs/images/amrscan-hero.svg" alt="AMRScan. Four scenes: a scan of an E. coli chromosome calls blaCTX-M-15, gyrA S83L and tet(A) as resistant to ceftriaxone, nalidixic acid and tetracycline and records the tool, database and input hashes; a holdout keeps a whole population out of training; sampled k-mers cover gyrA S83L in 0 of 2,298 calls; adding known mutations raises nalidixic acid holdout AUROC by 0.155 to 0.232." width="100%">
+</p>
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23825953.svg)](https://doi.org/10.5281/zenodo.23825953)
 
