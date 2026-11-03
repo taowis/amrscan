@@ -1,7 +1,8 @@
 # AMRScan version 1
 
 This directory holds version 1 of AMRScan, as described in the 2025 preprint
-([arXiv:2507.08062](https://arxiv.org/abs/2507.08062)): `workflow/AMRScan.nf`
+([arXiv:2507.08062v1](https://arxiv.org/abs/2507.08062v1); version 2 of the
+same record describes AMRScan 2): `workflow/AMRScan.nf`
 and its config, `scripts/AMRScan.R`, the R Markdown demonstrations and their
 rendered reports in `docs/`, the R package `DESCRIPTION`, and the preprint
 source in `paper/`. The code is kept as it was so the preprint can be
