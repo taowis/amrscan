@@ -3,13 +3,13 @@
 # normalbw as separate PBS jobs (gadi profile); harmonizing runs inside this
 # job. copyq has internet access for the image and plugin on the first run.
 # Submit from the repository root after fetch_genomes.pbs:
-#   qsub -P xx73 -l storage=scratch/xx73 -v NCI_PROJECT=xx73,WORK=<run dir> \
+#   qsub -P xx12 -l storage=scratch/xx12 -v NCI_PROJECT=xx12,WORK=<run dir> \
 #       examples/gadi-scale/run_amrscan.pbs
 # NCI_PROJECT is the project the task jobs are charged to; give the same one
 # as -P. Add THREADS=2 to -v to change the CPUs per AMRFinderPlus task
 # (default 4).
-#PBS -P xx73
-#PBS -l storage=scratch/xx73
+#PBS -P xx12
+#PBS -l storage=scratch/xx12
 #PBS -q copyq
 #PBS -l ncpus=1,mem=8GB,walltime=10:00:00,wd
 #PBS -N amrscan-head
@@ -17,7 +17,7 @@
 set -euo pipefail
 module load nextflow/25.04.6 singularity
 repo=$PWD
-export NCI_PROJECT=${NCI_PROJECT:-xx73}
+export NCI_PROJECT=${NCI_PROJECT:-xx12}
 # Keep Nextflow and image caches off the home quota.
 export NXF_HOME=$WORK/nxf_home
 export SINGULARITY_CACHEDIR=$WORK/singularity_tmp SINGULARITY_TMPDIR=$WORK/singularity_tmp

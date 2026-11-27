@@ -12,19 +12,19 @@ Scripts and records for the run described in
 | `pilot/` | 20-assembly pilot: trace, versions, PBS usage |
 | `full/` | 1,000-assembly run: trace, gzipped report and timeline, DAG, versions, PBS usage, `retrieval.tsv`, database hashes |
 
-To repeat it (xx73 here; use your own project):
+To repeat it (xx12 here; use your own project):
 
 ```bash
-W=/scratch/xx73/$USER/amrscan-scale
+W=/scratch/xx12/$USER/amrscan-scale
 git clone https://github.com/taowis/amrscan.git $W/amrscan && cd $W/amrscan
 module load singularity
 export SINGULARITY_CACHEDIR=$W/singularity_tmp SINGULARITY_TMPDIR=$W/singularity_tmp
 mkdir -p $SINGULARITY_TMPDIR $W/full
 scripts/fetch_amrfinder_db.sh --engine singularity 2026-08-07.1 $W/db
 ln -s ../db $W/full/db
-qsub -P xx73 -l storage=scratch/xx73 -v WORK=$W/full -o $W/full/fetch.log examples/gadi-scale/fetch_genomes.pbs
+qsub -P xx12 -l storage=scratch/xx12 -v WORK=$W/full -o $W/full/fetch.log examples/gadi-scale/fetch_genomes.pbs
 # when it has finished:
-qsub -P xx73 -l storage=scratch/xx73 -v NCI_PROJECT=xx73,WORK=$W/full,THREADS=2 -o $W/full/head.log examples/gadi-scale/run_amrscan.pbs
+qsub -P xx12 -l storage=scratch/xx12 -v NCI_PROJECT=xx12,WORK=$W/full,THREADS=2 -o $W/full/head.log examples/gadi-scale/run_amrscan.pbs
 ```
 
 Expect about 30 SU and a little over two hours, most of it queueing.

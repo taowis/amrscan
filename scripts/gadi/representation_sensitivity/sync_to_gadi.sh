@@ -2,7 +2,7 @@
 # Run on the workstation from anywhere: copy the code and the inputs the Gadi
 # stages read to the repository checkout on Gadi, keeping repository-relative
 # paths. GADI_DIR is the checkout on Gadi, e.g.
-#   GADI_DIR=/scratch/xx73/$USER/Projects/amrscan-dev scripts/gadi/representation_sensitivity/sync_to_gadi.sh
+#   GADI_DIR=/scratch/xx12/$USER/Projects/amrscan-dev scripts/gadi/representation_sensitivity/sync_to_gadi.sh
 set -euo pipefail
 : "${GADI_DIR:?set GADI_DIR to the repository checkout on Gadi}"
 GADI_HOST="${GADI_HOST:-gadi-dm.nci.org.au}"

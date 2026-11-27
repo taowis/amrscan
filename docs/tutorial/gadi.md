@@ -5,9 +5,9 @@ The `gadi` profile submits each AMRFinderPlus task as a PBS job on
 SingularityCE. It follows the nf-core/configs `nci_gadi` profile and has been
 run on 1,000 *E. coli* assemblies ([record](../gadi-scale-run.md)).
 
-Work in `/scratch/<project>/$USER` throughout; the commands below use xx73
-as the project. `xx73` is a placeholder: the NCI project code and user name in this
-repository's Gadi scripts and run records are masked as `xx73` and `yyy590`, so set
+Work in `/scratch/<project>/$USER` throughout; the commands below use xx12
+as the project. `xx12` is a placeholder: the NCI project code and user name in this
+repository's Gadi scripts and run records are masked as `xx12` and `yyy123`, so set
 `NCI_PROJECT` and the paths to your own. The home quota is 10 GB, so
 keep Nextflow's home and the image cache on scratch too (the scripts below do
 this).
@@ -16,7 +16,7 @@ this).
 
 ```bash
 module load singularity
-W=/scratch/xx73/$USER/amrscan-run
+W=/scratch/xx12/$USER/amrscan-run
 mkdir -p $W && cd $W
 git clone https://github.com/taowis/amrscan.git
 export SINGULARITY_CACHEDIR=$W/singularity_tmp SINGULARITY_TMPDIR=$W/singularity_tmp
@@ -44,8 +44,8 @@ task jobs. `examples/gadi-scale/run_amrscan.pbs` is a working example:
 
 ```bash
 cd $W/amrscan
-qsub -P xx73 -l storage=scratch/xx73 \
-  -v NCI_PROJECT=xx73,WORK=$W,THREADS=2 -o $W/head.log examples/gadi-scale/run_amrscan.pbs
+qsub -P xx12 -l storage=scratch/xx12 \
+  -v NCI_PROJECT=xx12,WORK=$W,THREADS=2 -o $W/head.log examples/gadi-scale/run_amrscan.pbs
 ```
 
 It expects `samplesheet.csv` and `db/2026-08-07.1` in `$WORK`. Give the same
@@ -58,7 +58,7 @@ resubmitting after a failure only reruns what did not finish.
 | Setting | Value |
 | --- | --- |
 | Executor | `pbspro` for AMRFinderPlus, up to 300 queued jobs; harmonizing runs inside the head job |
-| Project | `$NCI_PROJECT`, default `xx73` |
+| Project | `$NCI_PROJECT`, default `xx12` |
 | Storage | `$GADI_STORAGE` if set, else `scratch/<project>` |
 | Queue | `normalbw` below 128 GB, `normal` up to 190 GB, `hugemembw` above |
 | Image | the Docker image, converted once into `$NXF_SINGULARITY_CACHEDIR`, else `singularity/` in the launch directory |

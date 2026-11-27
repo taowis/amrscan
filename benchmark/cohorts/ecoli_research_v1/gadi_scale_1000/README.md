@@ -2,7 +2,7 @@
 
 A software run, not an analysis: 1,000 of the 10,521 `ecoli_research_v1`
 assemblies called with the workflow's `gadi` profile on NCI Gadi (project
-xx73), to check that profile at scale and that it reproduces the cohort calls.
+xx12), to check that profile at scale and that it reproduces the cohort calls.
 No phenotype is used. Scripts, inputs and run records are in
 [`examples/gadi-scale/`](../../../../examples/gadi-scale/); the write-up is
 [docs/gadi-scale-run.md](../../../../docs/gadi-scale-run.md); design in
