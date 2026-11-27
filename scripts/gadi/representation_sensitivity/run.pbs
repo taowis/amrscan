@@ -3,10 +3,10 @@
 # build the R1 matrix with REP=matrix. Resumable: finished tasks are reused.
 # Submit from the repository root. MEM_GB (the job's memory) turns on packing:
 # a task starts only while the running tasks' estimated memory fits 75% of it.
-#   qsub -P qn73 -l storage=scratch/qn73 -v REP=R1,WORKERS=28,MEM_GB=256,ONLY='^common__' \
+#   qsub -P xx12 -l storage=scratch/xx12 -v REP=R1,WORKERS=28,MEM_GB=256,ONLY='^common__' \
 #       scripts/gadi/representation_sensitivity/run.pbs
-#PBS -P qn73
-#PBS -l storage=scratch/qn73
+#PBS -P xx12
+#PBS -l storage=scratch/xx12
 #PBS -q normalbw
 #PBS -l ncpus=28,mem=256GB,walltime=24:00:00,wd
 #PBS -N rs-run

@@ -30,10 +30,10 @@ scheduled and tied to the exact files downloaded.
   image of decision 0005, converted once into `$NXF_SINGULARITY_CACHEDIR`
   (default `singularity/` in the launch directory).
 - **Project and storage** come from the environment: `NCI_PROJECT`
-  (default `qn73`), and `GADI_STORAGE` if set (default
+  (default `xx12`), and `GADI_STORAGE` if set (default
   `scratch/$NCI_PROJECT`). The `gadi_project` and `gadi_storage`
-  parameters are removed. The PBS scripts carry `#PBS -P qn73` and
-  `-l storage=scratch/qn73`; another project is given at submit time with
+  parameters are removed. The PBS scripts carry `#PBS -P xx12` and
+  `-l storage=scratch/xx12`; another project is given at submit time with
   `qsub -P` and `-v NCI_PROJECT=`, which override the directives, so the
   files do not change between the repository and Gadi.
 - **Executors.** Each AMRFinderPlus task is a PBS job on `normalbw`.
@@ -95,7 +95,7 @@ scheduled and tied to the exact files downloaded.
 
 The first version read the project from `PROJECT`, which on Gadi is the
 login default, and the head job reset it from `qstat`. It now reads
-`NCI_PROJECT` with `qn73` as the default, and the image cache moved from a
+`NCI_PROJECT` with `xx12` as the default, and the image cache moved from a
 fixed path under `/scratch/<project>/$USER` to `NXF_SINGULARITY_CACHEDIR` or
 the launch directory, so no committed file holds a project-specific path.
-The run records in `examples/gadi-scale/` show `qn73` as the project.
+The run records in `examples/gadi-scale/` show `xx12` as the project.

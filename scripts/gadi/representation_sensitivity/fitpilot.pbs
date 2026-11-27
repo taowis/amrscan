@@ -2,9 +2,9 @@
 # Resource pilot for one candidate density: builds its matrix and times model
 # fits on the largest tasks; predictions are discarded unscored. Submit from
 # the repository root, one job per candidate (and SCALED=200 for R0):
-#   qsub -P qn73 -l storage=scratch/qn73 -v SCALED=20 scripts/gadi/representation_sensitivity/fitpilot.pbs
-#PBS -P qn73
-#PBS -l storage=scratch/qn73
+#   qsub -P xx12 -l storage=scratch/xx12 -v SCALED=20 scripts/gadi/representation_sensitivity/fitpilot.pbs
+#PBS -P xx12
+#PBS -l storage=scratch/xx12
 #PBS -q normalbw
 #PBS -l ncpus=14,mem=128GB,walltime=04:00:00,wd
 #PBS -N rs-fitpilot
